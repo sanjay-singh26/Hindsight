@@ -1,0 +1,402 @@
+{
+  "paystub_id": "ps_0167",
+  "image_file": "ps_0167.png",
+  "layout_template": "two_column",
+  "noise_profile": "heavy_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Frontier Telecommunications",
+      "display_value": "Frontier Telecommunications",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 300,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 76,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "San Francisco, CA 94101",
+      "display_value": "San Francisco, CA 94101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 113,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Deborah A. Roberts",
+      "display_value": "Deborah A. Roberts",
+      "field_position": {
+        "x": 159,
+        "y": 106,
+        "width": 119,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "238741",
+      "display_value": "238741",
+      "field_position": {
+        "x": 91,
+        "y": 126,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-3837",
+      "display_value": "***-**-3837",
+      "field_position": {
+        "x": 123,
+        "y": 146,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 156,
+        "y": 166,
+        "width": 104,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Los Angeles, CA 90001",
+      "display_value": "Los Angeles, CA 90001",
+      "field_position": {
+        "x": 143,
+        "y": 186,
+        "width": 135,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "12/20/2024",
+      "display_value": "12/20/2024",
+      "field_position": {
+        "x": 102,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "12/01/2024",
+      "display_value": "12/01/2024",
+      "field_position": {
+        "x": 316,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "12/15/2024",
+      "display_value": "12/15/2024",
+      "field_position": {
+        "x": 503,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 716,
+        "y": 211,
+        "width": 66,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$2,839.28",
+      "display_value": "$2,839.28",
+      "field_position": {
+        "x": 341,
+        "y": 266,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$344.10",
+      "display_value": "$344.10",
+      "field_position": {
+        "x": 352,
+        "y": 286,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$1,040.06",
+      "display_value": "$1,040.06",
+      "field_position": {
+        "x": 341,
+        "y": 306,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,223.44",
+      "display_value": "$4,223.44",
+      "field_position": {
+        "x": 341,
+        "y": 326,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$97,139.12",
+      "display_value": "$97,139.12",
+      "field_position": {
+        "x": 334,
+        "y": 346,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$765.56",
+      "display_value": "$765.56",
+      "field_position": {
+        "x": 752,
+        "y": 266,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$335.59",
+      "display_value": "$335.59",
+      "field_position": {
+        "x": 752,
+        "y": 286,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$261.85",
+      "display_value": "$261.85",
+      "field_position": {
+        "x": 752,
+        "y": 306,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$61.24",
+      "display_value": "$61.24",
+      "field_position": {
+        "x": 759,
+        "y": 326,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$156.95",
+      "display_value": "$156.95",
+      "field_position": {
+        "x": 752,
+        "y": 346,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$258.84",
+      "display_value": "$258.84",
+      "field_position": {
+        "x": 751,
+        "y": 366,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,840.03",
+      "display_value": "$1,840.03",
+      "field_position": {
+        "x": 741,
+        "y": 386,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$42,320.69",
+      "display_value": "$42,320.69",
+      "field_position": {
+        "x": 734,
+        "y": 406,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,223.44",
+      "display_value": "$4,223.44",
+      "field_position": {
+        "x": 50,
+        "y": 496,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,840.03",
+      "display_value": "$1,840.03",
+      "field_position": {
+        "x": 310,
+        "y": 496,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$2,383.41",
+      "display_value": "$2,383.41",
+      "field_position": {
+        "x": 570,
+        "y": 496,
+        "width": 100,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Deborah A. Roberts",
+    "employer_name": "Frontier Telecommunications",
+    "employee_id": "238741",
+    "ssn_last4": "***-**-3837",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "Los Angeles, CA 90001",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "San Francisco, CA 94101",
+    "pay_date": "12/20/2024",
+    "pay_period_start": "12/01/2024",
+    "pay_period_end": "12/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "2839.28",
+    "gross_pay_current": "4223.44",
+    "net_pay_current": "2383.41",
+    "gross_pay_ytd": "97139.12",
+    "net_pay_ytd": "54818.43",
+    "total_deductions_current": "1840.03",
+    "federal_tax_withheld": "765.56",
+    "state_tax_withheld": "335.59",
+    "social_security_tax": "261.85",
+    "medicare_tax": "61.24",
+    "total_deductions_ytd": "42320.69",
+    "overtime_pay_current": "344.10",
+    "bonus_current": "1040.06",
+    "retirement_401k": "156.95",
+    "health_insurance": "258.84"
+  }
+}

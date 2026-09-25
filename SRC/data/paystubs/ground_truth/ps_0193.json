@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0193",
+  "image_file": "ps_0193.png",
+  "layout_template": "minimal",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Heartland Insurance Co.",
+      "display_value": "Heartland Insurance Co.",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 236,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Donna S. King",
+      "display_value": "Donna S. King",
+      "field_position": {
+        "x": 699,
+        "y": 85,
+        "width": 81,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "963699",
+      "display_value": "963699",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 34,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-1144",
+      "display_value": "***-**-1144",
+      "field_position": {
+        "x": 134,
+        "y": 85,
+        "width": 50,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Indianapolis, IN 46201",
+      "display_value": "Indianapolis, IN 46201",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 99,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 64,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Las Vegas, NV 89101",
+      "display_value": "Las Vegas, NV 89101",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 95,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "02/02/2024",
+      "display_value": "02/02/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "01/15/2024",
+      "display_value": "01/15/2024",
+      "field_position": {
+        "x": 164,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "01/28/2024",
+      "display_value": "01/28/2024",
+      "field_position": {
+        "x": 258,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 352,
+        "y": 151,
+        "width": 43,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$2,473.98",
+      "display_value": "$2,473.98",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$661.86",
+      "display_value": "$661.86",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$586.02",
+      "display_value": "$586.02",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$98.72",
+      "display_value": "$98.72",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$194.42",
+      "display_value": "$194.42",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$45.47",
+      "display_value": "$45.47",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$263.21",
+      "display_value": "$263.21",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$217.36",
+      "display_value": "$217.36",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$3,135.84",
+      "display_value": "$3,135.84",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,405.20",
+      "display_value": "$1,405.20",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,730.64",
+      "display_value": "$1,730.64",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$6,271.68",
+      "display_value": "$6,271.68",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$2,810.40",
+      "display_value": "$2,810.40",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$3,461.28",
+      "display_value": "$3,461.28",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 57,
+        "height": 13
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donna S. King",
+    "employer_name": "Heartland Insurance Co.",
+    "employee_id": "963699",
+    "ssn_last4": "***-**-1144",
+    "employee_address": "321 Pine Road",
+    "employee_city_state_zip": "Las Vegas, NV 89101",
+    "employer_address": "333 Technology Drive",
+    "employer_city_state_zip": "Indianapolis, IN 46201",
+    "pay_date": "02/02/2024",
+    "pay_period_start": "01/15/2024",
+    "pay_period_end": "01/28/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2473.98",
+    "gross_pay_current": "3135.84",
+    "net_pay_current": "1730.64",
+    "gross_pay_ytd": "6271.68",
+    "net_pay_ytd": "3461.28",
+    "total_deductions_current": "1405.20",
+    "federal_tax_withheld": "586.02",
+    "state_tax_withheld": "98.72",
+    "social_security_tax": "194.42",
+    "medicare_tax": "45.47",
+    "total_deductions_ytd": "2810.40",
+    "bonus_current": "661.86",
+    "retirement_401k": "263.21",
+    "health_insurance": "217.36"
+  }
+}

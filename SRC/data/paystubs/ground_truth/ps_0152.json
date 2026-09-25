@@ -1,0 +1,374 @@
+{
+  "paystub_id": "ps_0152",
+  "image_file": "ps_0152.png",
+  "layout_template": "two_column",
+  "noise_profile": "faded",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Redwood Forest Products",
+      "display_value": "Redwood Forest Products",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 264,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Sacramento, CA 95801",
+      "display_value": "Sacramento, CA 95801",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 103,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Andrew G. Martinez",
+      "display_value": "Andrew G. Martinez",
+      "field_position": {
+        "x": 160,
+        "y": 106,
+        "width": 124,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "949767",
+      "display_value": "949767",
+      "field_position": {
+        "x": 109,
+        "y": 126,
+        "width": 44,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-9064",
+      "display_value": "***-**-9064",
+      "field_position": {
+        "x": 134,
+        "y": 146,
+        "width": 71,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 149,
+        "y": 166,
+        "width": 120,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Nashville, TN 37201",
+      "display_value": "Nashville, TN 37201",
+      "field_position": {
+        "x": 144,
+        "y": 186,
+        "width": 120,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "02/14/2024",
+      "display_value": "02/14/2024",
+      "field_position": {
+        "x": 104,
+        "y": 211,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "02/05/2024",
+      "display_value": "02/05/2024",
+      "field_position": {
+        "x": 316,
+        "y": 211,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "02/11/2024",
+      "display_value": "02/11/2024",
+      "field_position": {
+        "x": 512,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 710,
+        "y": 211,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$979.54",
+      "display_value": "$979.54",
+      "field_position": {
+        "x": 353,
+        "y": 266,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$468.51",
+      "display_value": "$468.51",
+      "field_position": {
+        "x": 356,
+        "y": 286,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$1,852.21",
+      "display_value": "$1,852.21",
+      "field_position": {
+        "x": 348,
+        "y": 306,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$3,300.26",
+      "display_value": "$3,300.26",
+      "field_position": {
+        "x": 344,
+        "y": 326,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$19,801.56",
+      "display_value": "$19,801.56",
+      "field_position": {
+        "x": 340,
+        "y": 346,
+        "width": 60,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$409.81",
+      "display_value": "$409.81",
+      "field_position": {
+        "x": 755,
+        "y": 266,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$124.85",
+      "display_value": "$124.85",
+      "field_position": {
+        "x": 756,
+        "y": 286,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$204.62",
+      "display_value": "$204.62",
+      "field_position": {
+        "x": 753,
+        "y": 306,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$47.85",
+      "display_value": "$47.85",
+      "field_position": {
+        "x": 761,
+        "y": 326,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$787.13",
+      "display_value": "$787.13",
+      "field_position": {
+        "x": 756,
+        "y": 346,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$4,722.78",
+      "display_value": "$4,722.78",
+      "field_position": {
+        "x": 744,
+        "y": 366,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$3,300.26",
+      "display_value": "$3,300.26",
+      "field_position": {
+        "x": 50,
+        "y": 456,
+        "width": 95,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$787.13",
+      "display_value": "$787.13",
+      "field_position": {
+        "x": 310,
+        "y": 456,
+        "width": 75,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$2,513.13",
+      "display_value": "$2,513.13",
+      "field_position": {
+        "x": 570,
+        "y": 456,
+        "width": 87,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Andrew G. Martinez",
+    "employer_name": "Redwood Forest Products",
+    "employee_id": "949767",
+    "ssn_last4": "***-**-9064",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Nashville, TN 37201",
+    "employer_address": "987 Cedar Lane",
+    "employer_city_state_zip": "Sacramento, CA 95801",
+    "pay_date": "02/14/2024",
+    "pay_period_start": "02/05/2024",
+    "pay_period_end": "02/11/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "979.54",
+    "gross_pay_current": "3300.26",
+    "net_pay_current": "2513.13",
+    "gross_pay_ytd": "19801.56",
+    "net_pay_ytd": "15078.78",
+    "total_deductions_current": "787.13",
+    "federal_tax_withheld": "409.81",
+    "state_tax_withheld": "124.85",
+    "social_security_tax": "204.62",
+    "medicare_tax": "47.85",
+    "total_deductions_ytd": "4722.78",
+    "overtime_pay_current": "468.51",
+    "bonus_current": "1852.21"
+  }
+}

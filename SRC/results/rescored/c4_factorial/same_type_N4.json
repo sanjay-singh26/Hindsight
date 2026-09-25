@@ -1,0 +1,1684 @@
+{
+  "overlap": "same_type",
+  "density": 4,
+  "active_fields": [
+    "wages_tips_compensation",
+    "social_security_wages",
+    "medicare_wages",
+    "social_security_tips"
+  ],
+  "cell": {
+    "haiku": {
+      "model_id": "claude-haiku-4-5",
+      "scorer_result": {
+        "n_gt": 200,
+        "n_pred": 150,
+        "n_recovered": 61,
+        "n_joint_correct": 50,
+        "n_misbindings": 11,
+        "n_duplicates": 19,
+        "rec_val": 0.305,
+        "cba_cond": 0.819672,
+        "acc_joint": 0.25,
+        "delta": 0.055,
+        "precision": 0.333333,
+        "dup_rate": 0.126667,
+        "f1_joint": 0.285714
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "wages_tips_compensation": "152652.02",
+            "social_security_wages": "136633.34",
+            "medicare_wages": "180258.52",
+            "social_security_tips": "136633.34"
+          },
+          "predicted": {
+            "wages_tips_compensation": "45540.24",
+            "social_security_wages": "45540.24",
+            "medicare_wages": "45540.24",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "wages_tips_compensation": "248088.68",
+            "social_security_wages": "220967.19",
+            "medicare_wages": "174279.90",
+            "social_security_tips": "220967.19"
+          },
+          "predicted": {
+            "wages_tips_compensation": "248088.68",
+            "social_security_wages": "220967.19",
+            "medicare_wages": "220967.19",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "wages_tips_compensation": "163883.65",
+            "social_security_wages": "129135.24",
+            "medicare_wages": "122600.48",
+            "social_security_tips": "129135.24"
+          },
+          "predicted": {
+            "wages_tips_compensation": "34982.01",
+            "social_security_wages": "34982.01",
+            "medicare_wages": "34982.01",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "wages_tips_compensation": "218486.95",
+            "social_security_wages": "279458.11",
+            "medicare_wages": "204619.66",
+            "social_security_tips": "279458.11"
+          },
+          "predicted": {
+            "wages_tips_compensation": "177309.71",
+            "social_security_wages": "177309.71",
+            "medicare_wages": "177309.71",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "wages_tips_compensation": "158778.18",
+            "social_security_wages": "131220.25",
+            "medicare_wages": "137323.10",
+            "social_security_tips": "131220.25"
+          },
+          "predicted": {
+            "wages_tips_compensation": "158778.18",
+            "social_security_wages": "169145.19",
+            "medicare_wages": "193550.12",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "wages_tips_compensation": "120409.39",
+            "social_security_wages": "129935.39",
+            "medicare_wages": "91609.29",
+            "social_security_tips": "129935.39"
+          },
+          "predicted": {
+            "wages_tips_compensation": "36069.19",
+            "social_security_wages": "36069.19",
+            "medicare_wages": "36069.19",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "wages_tips_compensation": "210149.36",
+            "social_security_wages": "210806.60",
+            "medicare_wages": "238359.15",
+            "social_security_tips": "210806.60"
+          },
+          "predicted": {
+            "wages_tips_compensation": "21014.36",
+            "social_security_wages": "21080.6",
+            "medicare_wages": "21080.6",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "wages_tips_compensation": "113426.53",
+            "social_security_wages": "115617.26",
+            "medicare_wages": "147044.99",
+            "social_security_tips": "115617.26"
+          },
+          "predicted": {
+            "wages_tips_compensation": "113426.53",
+            "social_security_wages": "115617.26",
+            "medicare_wages": "115617.26",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "wages_tips_compensation": "148120.52",
+            "social_security_wages": "125363.69",
+            "medicare_wages": "181064.30",
+            "social_security_tips": "125363.69"
+          },
+          "predicted": {
+            "wages_tips_compensation": "50448.9",
+            "social_security_wages": "50448.9",
+            "medicare_wages": "50448.9",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "wages_tips_compensation": "136750.11",
+            "social_security_wages": "157542.24",
+            "medicare_wages": "175634.34",
+            "social_security_tips": "157542.24"
+          },
+          "predicted": {
+            "wages_tips_compensation": "157542.24",
+            "social_security_wages": "157542.24",
+            "medicare_wages": "157542.24",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "wages_tips_compensation": "117803.63",
+            "social_security_wages": "140267.74",
+            "medicare_wages": "126134.10",
+            "social_security_tips": "140267.74"
+          },
+          "predicted": {
+            "wages_tips_compensation": "117803.63",
+            "social_security_wages": "140267.74",
+            "medicare_wages": "126134.1",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "wages_tips_compensation": "101362.84",
+            "social_security_wages": "112706.44",
+            "medicare_wages": "130852.21",
+            "social_security_tips": "112706.44"
+          },
+          "predicted": {
+            "wages_tips_compensation": "103454.07",
+            "social_security_wages": "103454.07",
+            "medicare_wages": "103454.07",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "wages_tips_compensation": "99608.61",
+            "social_security_wages": "92801.97",
+            "medicare_wages": "74591.41",
+            "social_security_tips": "92801.97"
+          },
+          "predicted": {
+            "wages_tips_compensation": "99608.61",
+            "social_security_wages": "92801.97",
+            "medicare_wages": "92801.97",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "wages_tips_compensation": "86879.95",
+            "social_security_wages": "102772.14",
+            "medicare_wages": "98853.02",
+            "social_security_tips": "102772.14"
+          },
+          "predicted": {
+            "wages_tips_compensation": "8679.95",
+            "social_security_wages": "8679.95",
+            "medicare_wages": "8679.95",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "wages_tips_compensation": "90684.48",
+            "social_security_wages": "109704.34",
+            "medicare_wages": "76761.31",
+            "social_security_tips": "109704.34"
+          },
+          "predicted": {
+            "wages_tips_compensation": "90684.48",
+            "social_security_wages": "109704.34",
+            "medicare_wages": "109704.34",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "wages_tips_compensation": "86259.77",
+            "social_security_wages": "109647.41",
+            "medicare_wages": "62816.18",
+            "social_security_tips": "109647.41"
+          },
+          "predicted": {
+            "wages_tips_compensation": "29047.98",
+            "social_security_wages": "29047.98",
+            "medicare_wages": "29047.98",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "wages_tips_compensation": "60834.74",
+            "social_security_wages": "76344.29",
+            "medicare_wages": "75070.75",
+            "social_security_tips": "76344.29"
+          },
+          "predicted": {
+            "wages_tips_compensation": "60834.74",
+            "social_security_wages": "60834.74",
+            "medicare_wages": "60834.74",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "wages_tips_compensation": "213063.63",
+            "social_security_wages": "209493.73",
+            "medicare_wages": "160076.37",
+            "social_security_tips": "209493.73"
+          },
+          "predicted": {
+            "wages_tips_compensation": "209493.73",
+            "social_security_wages": "209493.73",
+            "medicare_wages": "209493.73",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "wages_tips_compensation": "151146.76",
+            "social_security_wages": "182868.69",
+            "medicare_wages": "142377.24",
+            "social_security_tips": "182868.69"
+          },
+          "predicted": {
+            "wages_tips_compensation": "151248.3",
+            "social_security_wages": "151248.3",
+            "medicare_wages": "151248.3",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "wages_tips_compensation": "183073.45",
+            "social_security_wages": "211343.36",
+            "medicare_wages": "172263.74",
+            "social_security_tips": "211343.36"
+          },
+          "predicted": {
+            "wages_tips_compensation": "183073.45",
+            "social_security_wages": "172263.74",
+            "medicare_wages": "172263.74",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "wages_tips_compensation": "191151.46",
+            "social_security_wages": "186981.42",
+            "medicare_wages": "141171.29",
+            "social_security_tips": "186981.42"
+          },
+          "predicted": {
+            "wages_tips_compensation": "191151.46",
+            "social_security_wages": "186981.42",
+            "medicare_wages": "191151.46",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "wages_tips_compensation": "125200.75",
+            "social_security_wages": "157024.26",
+            "medicare_wages": "97590.10",
+            "social_security_tips": "157024.26"
+          },
+          "predicted": {
+            "wages_tips_compensation": "125200.75",
+            "social_security_wages": "157024.26",
+            "medicare_wages": "157024.26",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "wages_tips_compensation": "205321.46",
+            "social_security_wages": "202148.25",
+            "medicare_wages": "264705.97",
+            "social_security_tips": "202148.25"
+          },
+          "predicted": {
+            "wages_tips_compensation": "230901.81",
+            "social_security_wages": "230901.81",
+            "medicare_wages": "230901.81",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "wages_tips_compensation": "216194.29",
+            "social_security_wages": "158339.94",
+            "medicare_wages": "241853.20",
+            "social_security_tips": "158339.94"
+          },
+          "predicted": {
+            "wages_tips_compensation": "272040.46",
+            "social_security_wages": "272040.46",
+            "medicare_wages": "272040.46",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "wages_tips_compensation": "78313.32",
+            "social_security_wages": "84179.27",
+            "medicare_wages": "93746.33",
+            "social_security_tips": "84179.27"
+          },
+          "predicted": {
+            "wages_tips_compensation": "18438.38",
+            "social_security_wages": "18438.38",
+            "medicare_wages": "18438.38",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "wages_tips_compensation": "105726.15",
+            "social_security_wages": "122392.42",
+            "medicare_wages": "128984.48",
+            "social_security_tips": "122392.42"
+          },
+          "predicted": {
+            "wages_tips_compensation": "128984.48",
+            "social_security_wages": "128984.48",
+            "medicare_wages": "128984.48",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "wages_tips_compensation": "175527.76",
+            "social_security_wages": "208658.82",
+            "medicare_wages": "173239.40",
+            "social_security_tips": "208658.82"
+          },
+          "predicted": {
+            "wages_tips_compensation": "154749.84",
+            "social_security_wages": "154749.84",
+            "medicare_wages": "154749.84",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "wages_tips_compensation": "205138.02",
+            "social_security_wages": "218889.23",
+            "medicare_wages": "213290.75",
+            "social_security_tips": "218889.23"
+          },
+          "predicted": {
+            "wages_tips_compensation": "31635.23",
+            "social_security_wages": "31635.23",
+            "medicare_wages": "31635.23",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "wages_tips_compensation": "239891.84",
+            "social_security_wages": "254453.40",
+            "medicare_wages": "256966.99",
+            "social_security_tips": "254453.40"
+          },
+          "predicted": {
+            "wages_tips_compensation": "239891.84",
+            "social_security_wages": "252988.69",
+            "medicare_wages": "256966.99",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "wages_tips_compensation": "237798.02",
+            "social_security_wages": "200606.27",
+            "medicare_wages": "263343.76",
+            "social_security_tips": "200606.27"
+          },
+          "predicted": {
+            "wages_tips_compensation": "237798.02",
+            "social_security_wages": "200606.27",
+            "medicare_wages": "263343.76",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "wages_tips_compensation": "232714.80",
+            "social_security_wages": "260992.59",
+            "medicare_wages": "205460.16",
+            "social_security_tips": "260992.59"
+          },
+          "predicted": {
+            "wages_tips_compensation": "232714.8",
+            "social_security_wages": "260992.59",
+            "medicare_wages": "260992.59",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "wages_tips_compensation": "155002.26",
+            "social_security_wages": "130453.28",
+            "medicare_wages": "155788.00",
+            "social_security_tips": "130453.28"
+          },
+          "predicted": {
+            "wages_tips_compensation": "40436.77",
+            "social_security_wages": "40436.77",
+            "medicare_wages": "40436.77",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "wages_tips_compensation": "45937.66",
+            "social_security_wages": "53017.68",
+            "medicare_wages": "46984.14",
+            "social_security_tips": "53017.68"
+          },
+          "predicted": {
+            "wages_tips_compensation": "45937.66",
+            "social_security_wages": "45937.66",
+            "medicare_wages": "45937.68",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "wages_tips_compensation": "213494.91",
+            "social_security_wages": "177927.96",
+            "medicare_wages": "200318.36",
+            "social_security_tips": "177927.96"
+          },
+          "predicted": {
+            "wages_tips_compensation": "213494.91",
+            "social_security_wages": "177927.96",
+            "medicare_wages": "200318.36",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "wages_tips_compensation": "195668.90",
+            "social_security_wages": "154861.02",
+            "medicare_wages": "161229.92",
+            "social_security_tips": "154861.02"
+          },
+          "predicted": {
+            "wages_tips_compensation": "195668.9",
+            "social_security_wages": "161229.92",
+            "medicare_wages": "161229.92",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "wages_tips_compensation": "230036.11",
+            "social_security_wages": "247991.79",
+            "medicare_wages": "262998.51",
+            "social_security_tips": "247991.79"
+          },
+          "predicted": {
+            "wages_tips_compensation": "247991.79",
+            "social_security_wages": "247991.79",
+            "medicare_wages": "247991.79",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "wages_tips_compensation": "95425.47",
+            "social_security_wages": "75204.27",
+            "medicare_wages": "104454.76",
+            "social_security_tips": "75204.27"
+          },
+          "predicted": {
+            "wages_tips_compensation": "95425.47",
+            "social_security_wages": "95425.47",
+            "medicare_wages": "95425.47",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "wages_tips_compensation": "207340.05",
+            "social_security_wages": "259573.78",
+            "medicare_wages": "194407.65",
+            "social_security_tips": "259573.78"
+          },
+          "predicted": {
+            "wages_tips_compensation": "207340.05",
+            "social_security_wages": "259573.78",
+            "medicare_wages": "259573.78",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "wages_tips_compensation": "245905.51",
+            "social_security_wages": "202968.51",
+            "medicare_wages": "262961.66",
+            "social_security_tips": "202968.51"
+          },
+          "predicted": {
+            "wages_tips_compensation": "58759.73",
+            "social_security_wages": "58759.73",
+            "medicare_wages": "58759.73",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "wages_tips_compensation": "155570.86",
+            "social_security_wages": "167153.22",
+            "medicare_wages": "163961.50",
+            "social_security_tips": "167153.22"
+          },
+          "predicted": {
+            "wages_tips_compensation": "155570.86",
+            "social_security_wages": "155759.01",
+            "medicare_wages": "183793.82",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "wages_tips_compensation": "104341.86",
+            "social_security_wages": "123095.38",
+            "medicare_wages": "97353.63",
+            "social_security_tips": "123095.38"
+          },
+          "predicted": {
+            "wages_tips_compensation": "20255.14",
+            "social_security_wages": "20255.14",
+            "medicare_wages": "20255.14",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "wages_tips_compensation": "145518.41",
+            "social_security_wages": "128763.85",
+            "medicare_wages": "106451.90",
+            "social_security_tips": "128763.85"
+          },
+          "predicted": {
+            "wages_tips_compensation": "52112.63",
+            "social_security_wages": "52112.63",
+            "medicare_wages": "52112.63",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "wages_tips_compensation": "200934.64",
+            "social_security_wages": "239146.52",
+            "medicare_wages": "192339.39",
+            "social_security_tips": "239146.52"
+          },
+          "predicted": {
+            "wages_tips_compensation": "190830.79",
+            "social_security_wages": "190830.79",
+            "medicare_wages": "190830.79",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "wages_tips_compensation": "157368.78",
+            "social_security_wages": "185481.92",
+            "medicare_wages": "142238.75",
+            "social_security_tips": "185481.92"
+          },
+          "predicted": {
+            "wages_tips_compensation": "157368.78",
+            "social_security_wages": "185481.92",
+            "medicare_wages": "185481.92",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "wages_tips_compensation": "236660.72",
+            "social_security_wages": "223343.17",
+            "medicare_wages": "221303.74",
+            "social_security_tips": "223343.17"
+          },
+          "predicted": {
+            "wages_tips_compensation": "236660.72",
+            "social_security_wages": "223343.17",
+            "medicare_wages": "221303.74",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "wages_tips_compensation": "41509.67",
+            "social_security_wages": "31630.32",
+            "medicare_wages": "50332.65",
+            "social_security_tips": "31630.32"
+          },
+          "predicted": {
+            "wages_tips_compensation": "41509.67",
+            "social_security_wages": "41509.67",
+            "medicare_wages": "41509.67",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "wages_tips_compensation": "72188.57",
+            "social_security_wages": "54384.72",
+            "medicare_wages": "73283.51",
+            "social_security_tips": "54384.72"
+          },
+          "predicted": {
+            "wages_tips_compensation": "72188.57",
+            "social_security_wages": "72188.57",
+            "medicare_wages": "72188.57",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "wages_tips_compensation": "159323.16",
+            "social_security_wages": "149636.60",
+            "medicare_wages": "183655.62",
+            "social_security_tips": "149636.60"
+          },
+          "predicted": {
+            "wages_tips_compensation": "75519.92",
+            "social_security_wages": "75519.92",
+            "medicare_wages": "75519.92",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "wages_tips_compensation": "168079.49",
+            "social_security_wages": "217625.93",
+            "medicare_wages": "128313.85",
+            "social_security_tips": "217625.93"
+          },
+          "predicted": {
+            "wages_tips_compensation": "168079.49",
+            "social_security_wages": "155424.18",
+            "medicare_wages": "168079.49",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "wages_tips_compensation": "227983.85",
+            "social_security_wages": "162167.50",
+            "medicare_wages": "221631.63",
+            "social_security_tips": "162167.50"
+          },
+          "predicted": {
+            "wages_tips_compensation": "227983.85",
+            "social_security_wages": "221631.63",
+            "medicare_wages": "221631.63",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.001256
+        }
+      ]
+    },
+    "gpt4o-mini": {
+      "model_id": "gpt-4o-mini",
+      "scorer_result": {
+        "n_gt": 200,
+        "n_pred": 156,
+        "n_recovered": 113,
+        "n_joint_correct": 79,
+        "n_misbindings": 34,
+        "n_duplicates": 4,
+        "rec_val": 0.565,
+        "cba_cond": 0.699115,
+        "acc_joint": 0.395,
+        "delta": 0.17,
+        "precision": 0.50641,
+        "dup_rate": 0.025641,
+        "f1_joint": 0.44382
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "wages_tips_compensation": "152652.02",
+            "social_security_wages": "136633.34",
+            "medicare_wages": "180258.52",
+            "social_security_tips": "136633.34"
+          },
+          "predicted": {
+            "wages_tips_compensation": "152652.02",
+            "social_security_wages": "136633.34",
+            "medicare_wages": "136633.34",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "wages_tips_compensation": "248088.68",
+            "social_security_wages": "220967.19",
+            "medicare_wages": "174279.90",
+            "social_security_tips": "220967.19"
+          },
+          "predicted": {
+            "wages_tips_compensation": "248088.68",
+            "social_security_wages": "220967.19",
+            "medicare_wages": "220967.19",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "wages_tips_compensation": "163883.65",
+            "social_security_wages": "129135.24",
+            "medicare_wages": "122600.48",
+            "social_security_tips": "129135.24"
+          },
+          "predicted": {
+            "wages_tips_compensation": "16383.65",
+            "social_security_wages": "129135.24",
+            "medicare_wages": "129135.24",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "wages_tips_compensation": "218486.95",
+            "social_security_wages": "279458.11",
+            "medicare_wages": "204619.66",
+            "social_security_tips": "279458.11"
+          },
+          "predicted": {
+            "wages_tips_compensation": "218486.95",
+            "social_security_wages": "279458.11",
+            "medicare_wages": "279458.11",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "wages_tips_compensation": "158778.18",
+            "social_security_wages": "131220.25",
+            "medicare_wages": "137323.10",
+            "social_security_tips": "131220.25"
+          },
+          "predicted": {
+            "wages_tips_compensation": "158778.18",
+            "social_security_wages": "81752.37",
+            "medicare_wages": "137323.1",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389505
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "wages_tips_compensation": "120409.39",
+            "social_security_wages": "129935.39",
+            "medicare_wages": "91609.29",
+            "social_security_tips": "129935.39"
+          },
+          "predicted": {
+            "wages_tips_compensation": "124407.02",
+            "social_security_wages": "62069.94",
+            "medicare_wages": "4022.62",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "wages_tips_compensation": "210149.36",
+            "social_security_wages": "210806.60",
+            "medicare_wages": "238359.15",
+            "social_security_tips": "210806.60"
+          },
+          "predicted": {
+            "wages_tips_compensation": "210149.36",
+            "social_security_wages": "103906.02",
+            "medicare_wages": "210806.6",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "wages_tips_compensation": "113426.53",
+            "social_security_wages": "115617.26",
+            "medicare_wages": "147044.99",
+            "social_security_tips": "115617.26"
+          },
+          "predicted": {
+            "wages_tips_compensation": "113426.53",
+            "social_security_wages": "115617.26",
+            "medicare_wages": "115617.26",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "wages_tips_compensation": "148120.52",
+            "social_security_wages": "125363.69",
+            "medicare_wages": "181064.30",
+            "social_security_tips": "125363.69"
+          },
+          "predicted": {
+            "wages_tips_compensation": "148120.52",
+            "social_security_wages": "125363.69",
+            "medicare_wages": "125363.69",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "wages_tips_compensation": "136750.11",
+            "social_security_wages": "157542.24",
+            "medicare_wages": "175634.34",
+            "social_security_tips": "157542.24"
+          },
+          "predicted": {
+            "wages_tips_compensation": "136750.11",
+            "social_security_wages": "157542.24",
+            "medicare_wages": "175634.34",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "wages_tips_compensation": "117803.63",
+            "social_security_wages": "140267.74",
+            "medicare_wages": "126134.10",
+            "social_security_tips": "140267.74"
+          },
+          "predicted": {
+            "wages_tips_compensation": "171803.63",
+            "social_security_wages": "140267.74",
+            "medicare_wages": "142067.74",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389505
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "wages_tips_compensation": "101362.84",
+            "social_security_wages": "112706.44",
+            "medicare_wages": "130852.21",
+            "social_security_tips": "112706.44"
+          },
+          "predicted": {
+            "wages_tips_compensation": "101362.84",
+            "social_security_wages": "121706.44",
+            "medicare_wages": "130852.21",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "wages_tips_compensation": "99608.61",
+            "social_security_wages": "92801.97",
+            "medicare_wages": "74591.41",
+            "social_security_tips": "92801.97"
+          },
+          "predicted": {
+            "wages_tips_compensation": "99608.61",
+            "social_security_wages": "98001.97",
+            "medicare_wages": "74591.41",
+            "social_security_tips": "7099.35"
+          },
+          "cost": 0.00389865
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "wages_tips_compensation": "86879.95",
+            "social_security_wages": "102772.14",
+            "medicare_wages": "98853.02",
+            "social_security_tips": "102772.14"
+          },
+          "predicted": {
+            "wages_tips_compensation": "102772.14",
+            "social_security_wages": "98853.02",
+            "medicare_wages": "102772.14",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "wages_tips_compensation": "90684.48",
+            "social_security_wages": "109704.34",
+            "medicare_wages": "76761.31",
+            "social_security_tips": "109704.34"
+          },
+          "predicted": {
+            "wages_tips_compensation": "90684.48",
+            "social_security_wages": "109704.34",
+            "medicare_wages": "76761.31",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "wages_tips_compensation": "86259.77",
+            "social_security_wages": "109647.41",
+            "medicare_wages": "62816.18",
+            "social_security_tips": "109647.41"
+          },
+          "predicted": {
+            "wages_tips_compensation": "86259.77",
+            "social_security_wages": "29047.98",
+            "medicare_wages": "106947.41",
+            "social_security_tips": "8388.03"
+          },
+          "cost": 0.00389625
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "wages_tips_compensation": "60834.74",
+            "social_security_wages": "76344.29",
+            "medicare_wages": "75070.75",
+            "social_security_tips": "76344.29"
+          },
+          "predicted": {
+            "wages_tips_compensation": "60834.74",
+            "social_security_wages": "76344.29",
+            "medicare_wages": "76344.29",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "wages_tips_compensation": "213063.63",
+            "social_security_wages": "209493.73",
+            "medicare_wages": "160076.37",
+            "social_security_tips": "209493.73"
+          },
+          "predicted": {
+            "wages_tips_compensation": "213063.63",
+            "social_security_wages": "108856.48",
+            "medicare_wages": "115993.02",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "wages_tips_compensation": "151146.76",
+            "social_security_wages": "182868.69",
+            "medicare_wages": "142377.24",
+            "social_security_tips": "182868.69"
+          },
+          "predicted": {
+            "wages_tips_compensation": "151146.76",
+            "social_security_wages": "182868.69",
+            "medicare_wages": "182868.69",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "wages_tips_compensation": "183073.45",
+            "social_security_wages": "211343.36",
+            "medicare_wages": "172263.74",
+            "social_security_tips": "211343.36"
+          },
+          "predicted": {
+            "wages_tips_compensation": "180373.45",
+            "social_security_wages": "211343.36",
+            "medicare_wages": "211343.36",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "wages_tips_compensation": "191151.46",
+            "social_security_wages": "186981.42",
+            "medicare_wages": "141171.29",
+            "social_security_tips": "186981.42"
+          },
+          "predicted": {
+            "wages_tips_compensation": "191151.46",
+            "social_security_wages": "186891.42",
+            "medicare_wages": "186891.42",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "wages_tips_compensation": "125200.75",
+            "social_security_wages": "157024.26",
+            "medicare_wages": "97590.10",
+            "social_security_tips": "157024.26"
+          },
+          "predicted": {
+            "wages_tips_compensation": "125200.75",
+            "social_security_wages": "157704.26",
+            "medicare_wages": "97590.1",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "wages_tips_compensation": "205321.46",
+            "social_security_wages": "202148.25",
+            "medicare_wages": "264705.97",
+            "social_security_tips": "202148.25"
+          },
+          "predicted": {
+            "wages_tips_compensation": "205231.46",
+            "social_security_wages": "202148.25",
+            "medicare_wages": "264705.97",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "wages_tips_compensation": "216194.29",
+            "social_security_wages": "158339.94",
+            "medicare_wages": "241853.20",
+            "social_security_tips": "158339.94"
+          },
+          "predicted": {
+            "wages_tips_compensation": "26194.29",
+            "social_security_wages": "158339.94",
+            "medicare_wages": "158339.94",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "wages_tips_compensation": "78313.32",
+            "social_security_wages": "84179.27",
+            "medicare_wages": "93746.33",
+            "social_security_tips": "84179.27"
+          },
+          "predicted": {
+            "wages_tips_compensation": "78313.32",
+            "social_security_wages": "84179.27",
+            "medicare_wages": "84179.27",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "wages_tips_compensation": "105726.15",
+            "social_security_wages": "122392.42",
+            "medicare_wages": "128984.48",
+            "social_security_tips": "122392.42"
+          },
+          "predicted": {
+            "wages_tips_compensation": "128984.48",
+            "social_security_wages": "122392.42",
+            "medicare_wages": "128984.48",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "wages_tips_compensation": "175527.76",
+            "social_security_wages": "208658.82",
+            "medicare_wages": "173239.40",
+            "social_security_tips": "208658.82"
+          },
+          "predicted": {
+            "wages_tips_compensation": "175527.76",
+            "social_security_wages": "208658.82",
+            "medicare_wages": "208658.82",
+            "social_security_tips": "173239.4"
+          },
+          "cost": 0.00389865
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "wages_tips_compensation": "205138.02",
+            "social_security_wages": "218889.23",
+            "medicare_wages": "213290.75",
+            "social_security_tips": "218889.23"
+          },
+          "predicted": {
+            "wages_tips_compensation": "20158.02",
+            "social_security_wages": "102469.82",
+            "medicare_wages": "213290.75",
+            "social_security_tips": "9451.27"
+          },
+          "cost": 0.00389865
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "wages_tips_compensation": "239891.84",
+            "social_security_wages": "254453.40",
+            "medicare_wages": "256966.99",
+            "social_security_tips": "254453.40"
+          },
+          "predicted": {
+            "wages_tips_compensation": "23981.84",
+            "social_security_wages": "254453.4",
+            "medicare_wages": "254453.4",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "wages_tips_compensation": "237798.02",
+            "social_security_wages": "200606.27",
+            "medicare_wages": "263343.76",
+            "social_security_tips": "200606.27"
+          },
+          "predicted": {
+            "wages_tips_compensation": "237798.02",
+            "social_security_wages": "108898.75",
+            "medicare_wages": "200606.27",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "wages_tips_compensation": "232714.80",
+            "social_security_wages": "260992.59",
+            "medicare_wages": "205460.16",
+            "social_security_tips": "260992.59"
+          },
+          "predicted": {
+            "wages_tips_compensation": "232714.8",
+            "social_security_wages": "260992.59",
+            "medicare_wages": "260992.59",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "wages_tips_compensation": "155002.26",
+            "social_security_wages": "130453.28",
+            "medicare_wages": "155788.00",
+            "social_security_tips": "130453.28"
+          },
+          "predicted": {
+            "wages_tips_compensation": "15002.26",
+            "social_security_wages": "130453.28",
+            "medicare_wages": "130453.28",
+            "social_security_tips": "9979.68"
+          },
+          "cost": 0.00389865
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "wages_tips_compensation": "45937.66",
+            "social_security_wages": "53017.68",
+            "medicare_wages": "46984.14",
+            "social_security_tips": "53017.68"
+          },
+          "predicted": {
+            "wages_tips_compensation": "45937.66",
+            "social_security_wages": "53017.68",
+            "medicare_wages": "53017.68",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "wages_tips_compensation": "213494.91",
+            "social_security_wages": "177927.96",
+            "medicare_wages": "200318.36",
+            "social_security_tips": "177927.96"
+          },
+          "predicted": {
+            "wages_tips_compensation": "213494.91",
+            "social_security_wages": "177927.96",
+            "medicare_wages": "177927.96",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "wages_tips_compensation": "195668.90",
+            "social_security_wages": "154861.02",
+            "medicare_wages": "161229.92",
+            "social_security_tips": "154861.02"
+          },
+          "predicted": {
+            "wages_tips_compensation": "195668.9",
+            "social_security_wages": "64335.66",
+            "medicare_wages": "154861.02",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "wages_tips_compensation": "230036.11",
+            "social_security_wages": "247991.79",
+            "medicare_wages": "262998.51",
+            "social_security_tips": "247991.79"
+          },
+          "predicted": {
+            "wages_tips_compensation": "230306.11",
+            "social_security_wages": "247991.79",
+            "medicare_wages": "262998.51",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "wages_tips_compensation": "95425.47",
+            "social_security_wages": "75204.27",
+            "medicare_wages": "104454.76",
+            "social_security_tips": "75204.27"
+          },
+          "predicted": {
+            "wages_tips_compensation": "104454.76",
+            "social_security_wages": "104454.76",
+            "medicare_wages": "104454.76",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "wages_tips_compensation": "207340.05",
+            "social_security_wages": "259573.78",
+            "medicare_wages": "194407.65",
+            "social_security_tips": "259573.78"
+          },
+          "predicted": {
+            "wages_tips_compensation": "207340.05",
+            "social_security_wages": "259573.78",
+            "medicare_wages": "194407.65",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "wages_tips_compensation": "245905.51",
+            "social_security_wages": "202968.51",
+            "medicare_wages": "262961.66",
+            "social_security_tips": "202968.51"
+          },
+          "predicted": {
+            "wages_tips_compensation": "24505.51",
+            "social_security_wages": "262961.66",
+            "medicare_wages": "262961.66",
+            "social_security_tips": "242958.18"
+          },
+          "cost": 0.00389865
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "wages_tips_compensation": "155570.86",
+            "social_security_wages": "167153.22",
+            "medicare_wages": "163961.50",
+            "social_security_tips": "167153.22"
+          },
+          "predicted": {
+            "wages_tips_compensation": "15570.86",
+            "social_security_wages": "167153.22",
+            "medicare_wages": "167153.22",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "wages_tips_compensation": "104341.86",
+            "social_security_wages": "123095.38",
+            "medicare_wages": "97353.63",
+            "social_security_tips": "123095.38"
+          },
+          "predicted": {
+            "wages_tips_compensation": "104341.86",
+            "social_security_wages": "123095.38",
+            "medicare_wages": "123095.38",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "wages_tips_compensation": "145518.41",
+            "social_security_wages": "128763.85",
+            "medicare_wages": "106451.90",
+            "social_security_tips": "128763.85"
+          },
+          "predicted": {
+            "wages_tips_compensation": "145518.41",
+            "social_security_wages": "128763.85",
+            "medicare_wages": "128763.85",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "wages_tips_compensation": "200934.64",
+            "social_security_wages": "239146.52",
+            "medicare_wages": "192339.39",
+            "social_security_tips": "239146.52"
+          },
+          "predicted": {
+            "wages_tips_compensation": "200934.64",
+            "social_security_wages": "109894.82",
+            "medicare_wages": "239146.52",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "wages_tips_compensation": "157368.78",
+            "social_security_wages": "185481.92",
+            "medicare_wages": "142238.75",
+            "social_security_tips": "185481.92"
+          },
+          "predicted": {
+            "wages_tips_compensation": "185481.92",
+            "social_security_wages": "142238.75",
+            "medicare_wages": "185481.92",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "wages_tips_compensation": "236660.72",
+            "social_security_wages": "223343.17",
+            "medicare_wages": "221303.74",
+            "social_security_tips": "223343.17"
+          },
+          "predicted": {
+            "wages_tips_compensation": "236660.72",
+            "social_security_wages": "223343.17",
+            "medicare_wages": "221303.74",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "wages_tips_compensation": "41509.67",
+            "social_security_wages": "31630.32",
+            "medicare_wages": "50332.65",
+            "social_security_tips": "31630.32"
+          },
+          "predicted": {
+            "wages_tips_compensation": "41059.67",
+            "social_security_wages": "31630.32",
+            "medicare_wages": "31630.32",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389505
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "wages_tips_compensation": "72188.57",
+            "social_security_wages": "54384.72",
+            "medicare_wages": "73283.51",
+            "social_security_tips": "54384.72"
+          },
+          "predicted": {
+            "wages_tips_compensation": "72188.57",
+            "social_security_wages": "54384.72",
+            "medicare_wages": "54384.72",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "wages_tips_compensation": "159323.16",
+            "social_security_wages": "149636.60",
+            "medicare_wages": "183655.62",
+            "social_security_tips": "149636.60"
+          },
+          "predicted": {
+            "wages_tips_compensation": "159323.16",
+            "social_security_wages": "146936.6",
+            "medicare_wages": "146936.6",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "wages_tips_compensation": "168079.49",
+            "social_security_wages": "217625.93",
+            "medicare_wages": "128313.85",
+            "social_security_tips": "217625.93"
+          },
+          "predicted": {
+            "wages_tips_compensation": "168079.49",
+            "social_security_wages": "217625.93",
+            "medicare_wages": "217625.93",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "wages_tips_compensation": "227983.85",
+            "social_security_wages": "162167.50",
+            "medicare_wages": "221631.63",
+            "social_security_tips": "162167.50"
+          },
+          "predicted": {
+            "wages_tips_compensation": "227983.85",
+            "social_security_wages": "161267.5",
+            "medicare_wages": "221631.63",
+            "social_security_tips": "N/A"
+          },
+          "cost": 0.00389745
+        }
+      ]
+    }
+  },
+  "summary": {
+    "haiku": {
+      "n_gt": 200,
+      "n_pred": 150,
+      "n_recovered": 61,
+      "n_joint_correct": 50,
+      "n_misbindings": 11,
+      "n_duplicates": 19,
+      "rec_val": 0.305,
+      "cba_cond": 0.819672,
+      "acc_joint": 0.25,
+      "delta": 0.055,
+      "precision": 0.333333,
+      "dup_rate": 0.126667,
+      "f1_joint": 0.285714
+    },
+    "gpt4o-mini": {
+      "n_gt": 200,
+      "n_pred": 156,
+      "n_recovered": 113,
+      "n_joint_correct": 79,
+      "n_misbindings": 34,
+      "n_duplicates": 4,
+      "rec_val": 0.565,
+      "cba_cond": 0.699115,
+      "acc_joint": 0.395,
+      "delta": 0.17,
+      "precision": 0.50641,
+      "dup_rate": 0.025641,
+      "f1_joint": 0.44382
+    }
+  }
+}

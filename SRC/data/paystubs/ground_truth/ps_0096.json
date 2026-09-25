@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0096",
+  "image_file": "ps_0096.png",
+  "layout_template": "government",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Atlas Industrial Supply",
+      "display_value": "Atlas Industrial Supply",
+      "field_position": {
+        "x": 120,
+        "y": 75,
+        "width": 180,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 183,
+        "y": 95,
+        "width": 117,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Oklahoma City, OK 73101",
+      "display_value": "Oklahoma City, OK 73101",
+      "field_position": {
+        "x": 198,
+        "y": 115,
+        "width": 179,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Sarah D. Gonzalez",
+      "display_value": "Sarah D. Gonzalez",
+      "field_position": {
+        "x": 175,
+        "y": 143,
+        "width": 133,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "270387",
+      "display_value": "270387",
+      "field_position": {
+        "x": 112,
+        "y": 163,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-8518",
+      "display_value": "***-**-8518",
+      "field_position": {
+        "x": 144,
+        "y": 183,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 112,
+        "y": 203,
+        "width": 140,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 89,
+        "y": 223,
+        "width": 172,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "10/19/2024",
+      "display_value": "10/19/2024",
+      "field_position": {
+        "x": 136,
+        "y": 251,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "10/01/2024",
+      "display_value": "10/01/2024",
+      "field_position": {
+        "x": 344,
+        "y": 251,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "10/15/2024",
+      "display_value": "10/15/2024",
+      "field_position": {
+        "x": 520,
+        "y": 251,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 767,
+        "y": 251,
+        "width": 94,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$1,908.11",
+      "display_value": "$1,908.11",
+      "field_position": {
+        "x": 730,
+        "y": 309,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$1,908.11",
+      "display_value": "$1,908.11",
+      "field_position": {
+        "x": 730,
+        "y": 329,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$36,254.09",
+      "display_value": "$36,254.09",
+      "field_position": {
+        "x": 722,
+        "y": 349,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$380.17",
+      "display_value": "$380.17",
+      "field_position": {
+        "x": 745,
+        "y": 407,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$116.24",
+      "display_value": "$116.24",
+      "field_position": {
+        "x": 745,
+        "y": 427,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$118.30",
+      "display_value": "$118.30",
+      "field_position": {
+        "x": 745,
+        "y": 447,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$27.67",
+      "display_value": "$27.67",
+      "field_position": {
+        "x": 753,
+        "y": 467,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$146.63",
+      "display_value": "$146.63",
+      "field_position": {
+        "x": 745,
+        "y": 487,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$117.97",
+      "display_value": "$117.97",
+      "field_position": {
+        "x": 745,
+        "y": 507,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$906.98",
+      "display_value": "$906.98",
+      "field_position": {
+        "x": 745,
+        "y": 527,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$17,232.62",
+      "display_value": "$17,232.62",
+      "field_position": {
+        "x": 722,
+        "y": 547,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$1,001.13",
+      "display_value": "$1,001.13",
+      "field_position": {
+        "x": 120,
+        "y": 582,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$19,021.47",
+      "display_value": "$19,021.47",
+      "field_position": {
+        "x": 120,
+        "y": 612,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sarah D. Gonzalez",
+    "employer_name": "Atlas Industrial Supply",
+    "employee_id": "270387",
+    "ssn_last4": "***-**-8518",
+    "employee_address": "369 Spruce Terrace",
+    "employee_city_state_zip": "Jacksonville, FL 32099",
+    "employer_address": "123 Main Street",
+    "employer_city_state_zip": "Oklahoma City, OK 73101",
+    "pay_date": "10/19/2024",
+    "pay_period_start": "10/01/2024",
+    "pay_period_end": "10/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1908.11",
+    "gross_pay_current": "1908.11",
+    "net_pay_current": "1001.13",
+    "gross_pay_ytd": "36254.09",
+    "net_pay_ytd": "19021.47",
+    "total_deductions_current": "906.98",
+    "federal_tax_withheld": "380.17",
+    "state_tax_withheld": "116.24",
+    "social_security_tax": "118.30",
+    "medicare_tax": "27.67",
+    "total_deductions_ytd": "17232.62",
+    "retirement_401k": "146.63",
+    "health_insurance": "117.97"
+  }
+}

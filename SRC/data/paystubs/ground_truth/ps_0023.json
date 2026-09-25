@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0023",
+  "image_file": "ps_0023.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Diamond Foods Corporation",
+      "display_value": "Diamond Foods Corporation",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 114,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 96,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Mark T. Flores",
+      "display_value": "Mark T. Flores",
+      "field_position": {
+        "x": 122,
+        "y": 113,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "970914",
+      "display_value": "970914",
+      "field_position": {
+        "x": 99,
+        "y": 133,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-9976",
+      "display_value": "***-**-9976",
+      "field_position": {
+        "x": 84,
+        "y": 153,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 120,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 96,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "05/05/2024",
+      "display_value": "05/05/2024",
+      "field_position": {
+        "x": 110,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "04/16/2024",
+      "display_value": "04/16/2024",
+      "field_position": {
+        "x": 286,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "04/30/2024",
+      "display_value": "04/30/2024",
+      "field_position": {
+        "x": 546,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 716,
+        "y": 211,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$4,121.80",
+      "display_value": "$4,121.80",
+      "field_position": {
+        "x": 730,
+        "y": 271,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$538.72",
+      "display_value": "$538.72",
+      "field_position": {
+        "x": 745,
+        "y": 291,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$339.47",
+      "display_value": "$339.47",
+      "field_position": {
+        "x": 745,
+        "y": 311,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$4,999.99",
+      "display_value": "$4,999.99",
+      "field_position": {
+        "x": 730,
+        "y": 336,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$39,999.92",
+      "display_value": "$39,999.92",
+      "field_position": {
+        "x": 722,
+        "y": 356,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$671.44",
+      "display_value": "$671.44",
+      "field_position": {
+        "x": 745,
+        "y": 421,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$231.51",
+      "display_value": "$231.51",
+      "field_position": {
+        "x": 745,
+        "y": 441,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$310.00",
+      "display_value": "$310.00",
+      "field_position": {
+        "x": 745,
+        "y": 461,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$72.50",
+      "display_value": "$72.50",
+      "field_position": {
+        "x": 753,
+        "y": 481,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$339.05",
+      "display_value": "$339.05",
+      "field_position": {
+        "x": 745,
+        "y": 501,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$142.44",
+      "display_value": "$142.44",
+      "field_position": {
+        "x": 745,
+        "y": 521,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,766.94",
+      "display_value": "$1,766.94",
+      "field_position": {
+        "x": 730,
+        "y": 541,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$14,135.52",
+      "display_value": "$14,135.52",
+      "field_position": {
+        "x": 722,
+        "y": 561,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$3,233.05",
+      "display_value": "$3,233.05",
+      "field_position": {
+        "x": 50,
+        "y": 622,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$25,864.40",
+      "display_value": "$25,864.40",
+      "field_position": {
+        "x": 50,
+        "y": 658,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Mark T. Flores",
+    "employer_name": "Diamond Foods Corporation",
+    "employee_id": "970914",
+    "ssn_last4": "***-**-9976",
+    "employee_address": "333 Technology Drive",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Tucson, AZ 85701",
+    "pay_date": "05/05/2024",
+    "pay_period_start": "04/16/2024",
+    "pay_period_end": "04/30/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4121.80",
+    "gross_pay_current": "4999.99",
+    "net_pay_current": "3233.05",
+    "gross_pay_ytd": "39999.92",
+    "net_pay_ytd": "25864.40",
+    "total_deductions_current": "1766.94",
+    "federal_tax_withheld": "671.44",
+    "state_tax_withheld": "231.51",
+    "social_security_tax": "310.00",
+    "medicare_tax": "72.50",
+    "total_deductions_ytd": "14135.52",
+    "overtime_pay_current": "538.72",
+    "bonus_current": "339.47",
+    "retirement_401k": "339.05",
+    "health_insurance": "142.44"
+  }
+}

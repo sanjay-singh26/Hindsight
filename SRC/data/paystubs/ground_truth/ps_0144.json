@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0144",
+  "image_file": "ps_0144.png",
+  "layout_template": "retail",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Summit Healthcare Group",
+      "display_value": "Summit Healthcare Group",
+      "field_position": {
+        "x": 291,
+        "y": 40,
+        "width": 268,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 387,
+        "y": 75,
+        "width": 76,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Omaha, NE 68101",
+      "display_value": "Omaha, NE 68101",
+      "field_position": {
+        "x": 383,
+        "y": 89,
+        "width": 84,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Jessica S. Clark",
+      "display_value": "Jessica S. Clark",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 90,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "249289",
+      "display_value": "249289",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-5584",
+      "display_value": "***-**-5584",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 105,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "01/05/2025",
+      "display_value": "01/05/2025",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 69,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "12/01/2024",
+      "display_value": "12/01/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "12/31/2024",
+      "display_value": "12/31/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 50,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$5,938.44",
+      "display_value": "$5,938.44",
+      "field_position": {
+        "x": 731,
+        "y": 471,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$5,938.44",
+      "display_value": "$5,938.44",
+      "field_position": {
+        "x": 731,
+        "y": 493,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$71,261.28",
+      "display_value": "$71,261.28",
+      "field_position": {
+        "x": 724,
+        "y": 515,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$954.02",
+      "display_value": "$954.02",
+      "field_position": {
+        "x": 742,
+        "y": 569,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$405.20",
+      "display_value": "$405.20",
+      "field_position": {
+        "x": 742,
+        "y": 591,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$368.18",
+      "display_value": "$368.18",
+      "field_position": {
+        "x": 742,
+        "y": 613,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$86.11",
+      "display_value": "$86.11",
+      "field_position": {
+        "x": 749,
+        "y": 635,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$424.20",
+      "display_value": "$424.20",
+      "field_position": {
+        "x": 742,
+        "y": 657,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$258.86",
+      "display_value": "$258.86",
+      "field_position": {
+        "x": 742,
+        "y": 679,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$2,496.57",
+      "display_value": "$2,496.57",
+      "field_position": {
+        "x": 731,
+        "y": 701,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$29,958.84",
+      "display_value": "$29,958.84",
+      "field_position": {
+        "x": 723,
+        "y": 723,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$3,441.87",
+      "display_value": "$3,441.87",
+      "field_position": {
+        "x": 690,
+        "y": 760,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$41,302.44",
+      "display_value": "$41,302.44",
+      "field_position": {
+        "x": 677,
+        "y": 790,
+        "width": 113,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jessica S. Clark",
+    "employer_name": "Summit Healthcare Group",
+    "employee_id": "249289",
+    "ssn_last4": "***-**-5584",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Chicago, IL 60601",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Omaha, NE 68101",
+    "pay_date": "01/05/2025",
+    "pay_period_start": "12/01/2024",
+    "pay_period_end": "12/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "5938.44",
+    "gross_pay_current": "5938.44",
+    "net_pay_current": "3441.87",
+    "gross_pay_ytd": "71261.28",
+    "net_pay_ytd": "41302.44",
+    "total_deductions_current": "2496.57",
+    "federal_tax_withheld": "954.02",
+    "state_tax_withheld": "405.20",
+    "social_security_tax": "368.18",
+    "medicare_tax": "86.11",
+    "total_deductions_ytd": "29958.84",
+    "retirement_401k": "424.20",
+    "health_insurance": "258.86"
+  }
+}

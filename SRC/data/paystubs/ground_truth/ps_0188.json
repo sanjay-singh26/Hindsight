@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0188",
+  "image_file": "ps_0188.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Northgate Distribution Co.",
+      "display_value": "Northgate Distribution Co.",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 255,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 76,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 93,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Daniel E. Baker",
+      "display_value": "Daniel E. Baker",
+      "field_position": {
+        "x": 117,
+        "y": 113,
+        "width": 87,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "781664",
+      "display_value": "781664",
+      "field_position": {
+        "x": 122,
+        "y": 133,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-3913",
+      "display_value": "***-**-3913",
+      "field_position": {
+        "x": 145,
+        "y": 153,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 85,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "10/06/2024",
+      "display_value": "10/06/2024",
+      "field_position": {
+        "x": 94,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "09/16/2024",
+      "display_value": "09/16/2024",
+      "field_position": {
+        "x": 330,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "09/30/2024",
+      "display_value": "09/30/2024",
+      "field_position": {
+        "x": 517,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 698,
+        "y": 211,
+        "width": 61,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$3,435.52",
+      "display_value": "$3,435.52",
+      "field_position": {
+        "x": 743,
+        "y": 271,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$3,435.52",
+      "display_value": "$3,435.52",
+      "field_position": {
+        "x": 743,
+        "y": 296,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$61,839.36",
+      "display_value": "$61,839.36",
+      "field_position": {
+        "x": 736,
+        "y": 316,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$621.52",
+      "display_value": "$621.52",
+      "field_position": {
+        "x": 753,
+        "y": 381,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$287.32",
+      "display_value": "$287.32",
+      "field_position": {
+        "x": 753,
+        "y": 401,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$213.00",
+      "display_value": "$213.00",
+      "field_position": {
+        "x": 753,
+        "y": 421,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$49.82",
+      "display_value": "$49.82",
+      "field_position": {
+        "x": 760,
+        "y": 441,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$314.09",
+      "display_value": "$314.09",
+      "field_position": {
+        "x": 753,
+        "y": 461,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$83.45",
+      "display_value": "$83.45",
+      "field_position": {
+        "x": 760,
+        "y": 481,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,569.20",
+      "display_value": "$1,569.20",
+      "field_position": {
+        "x": 743,
+        "y": 501,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$28,245.60",
+      "display_value": "$28,245.60",
+      "field_position": {
+        "x": 736,
+        "y": 521,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$1,866.32",
+      "display_value": "$1,866.32",
+      "field_position": {
+        "x": 50,
+        "y": 582,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$33,593.76",
+      "display_value": "$33,593.76",
+      "field_position": {
+        "x": 50,
+        "y": 618,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Daniel E. Baker",
+    "employer_name": "Northgate Distribution Co.",
+    "employee_id": "781664",
+    "ssn_last4": "***-**-3913",
+    "employee_address": "555 Corporate Way",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "San Diego, CA 92101",
+    "pay_date": "10/06/2024",
+    "pay_period_start": "09/16/2024",
+    "pay_period_end": "09/30/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3435.52",
+    "gross_pay_current": "3435.52",
+    "net_pay_current": "1866.32",
+    "gross_pay_ytd": "61839.36",
+    "net_pay_ytd": "33593.76",
+    "total_deductions_current": "1569.20",
+    "federal_tax_withheld": "621.52",
+    "state_tax_withheld": "287.32",
+    "social_security_tax": "213.00",
+    "medicare_tax": "49.82",
+    "total_deductions_ytd": "28245.60",
+    "retirement_401k": "314.09",
+    "health_insurance": "83.45"
+  }
+}

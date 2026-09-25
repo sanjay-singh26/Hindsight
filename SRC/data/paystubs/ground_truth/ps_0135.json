@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0135",
+  "image_file": "ps_0135.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Premier Auto Services",
+      "display_value": "Premier Auto Services",
+      "field_position": {
+        "x": 309,
+        "y": 40,
+        "width": 231,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 384,
+        "y": 75,
+        "width": 81,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 387,
+        "y": 89,
+        "width": 76,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Jennifer E. Miller",
+      "display_value": "Jennifer E. Miller",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 108,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "229139",
+      "display_value": "229139",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-7291",
+      "display_value": "***-**-7291",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 91,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 142,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$2,012.89",
+      "display_value": "$2,012.89",
+      "field_position": {
+        "x": 346,
+        "y": 360,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$2,012.89",
+      "display_value": "$2,012.89",
+      "field_position": {
+        "x": 346,
+        "y": 380,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$18,116.01",
+      "display_value": "$18,116.01",
+      "field_position": {
+        "x": 344,
+        "y": 400,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$270.11",
+      "display_value": "$270.11",
+      "field_position": {
+        "x": 757,
+        "y": 360,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$174.07",
+      "display_value": "$174.07",
+      "field_position": {
+        "x": 755,
+        "y": 380,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$124.80",
+      "display_value": "$124.80",
+      "field_position": {
+        "x": 755,
+        "y": 400,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$29.19",
+      "display_value": "$29.19",
+      "field_position": {
+        "x": 763,
+        "y": 420,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$179.74",
+      "display_value": "$179.74",
+      "field_position": {
+        "x": 755,
+        "y": 440,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$777.91",
+      "display_value": "$777.91",
+      "field_position": {
+        "x": 756,
+        "y": 460,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$7,001.19",
+      "display_value": "$7,001.19",
+      "field_position": {
+        "x": 747,
+        "y": 480,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,234.98",
+      "display_value": "$1,234.98",
+      "field_position": {
+        "x": 50,
+        "y": 551,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$11,114.82",
+      "display_value": "$11,114.82",
+      "field_position": {
+        "x": 350,
+        "y": 587,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "05/08/2024",
+      "display_value": "05/08/2024",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "04/22/2024",
+      "display_value": "04/22/2024",
+      "field_position": {
+        "x": 240,
+        "y": 640,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "05/05/2024",
+      "display_value": "05/05/2024",
+      "field_position": {
+        "x": 430,
+        "y": 640,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 640,
+        "width": 49,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jennifer E. Miller",
+    "employer_name": "Premier Auto Services",
+    "employee_id": "229139",
+    "ssn_last4": "***-**-7291",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Albuquerque, NM 87101",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "05/08/2024",
+    "pay_period_start": "04/22/2024",
+    "pay_period_end": "05/05/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2012.89",
+    "gross_pay_current": "2012.89",
+    "net_pay_current": "1234.98",
+    "gross_pay_ytd": "18116.01",
+    "net_pay_ytd": "11114.82",
+    "total_deductions_current": "777.91",
+    "federal_tax_withheld": "270.11",
+    "state_tax_withheld": "174.07",
+    "social_security_tax": "124.80",
+    "medicare_tax": "29.19",
+    "total_deductions_ytd": "7001.19",
+    "retirement_401k": "179.74"
+  }
+}

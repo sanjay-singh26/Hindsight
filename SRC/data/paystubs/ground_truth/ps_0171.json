@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0171",
+  "image_file": "ps_0171.png",
+  "layout_template": "government",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Frontier Telecommunications",
+      "display_value": "Frontier Telecommunications",
+      "field_position": {
+        "x": 167,
+        "y": 75,
+        "width": 211,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 190,
+        "y": 95,
+        "width": 133,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 237,
+        "y": 115,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Christopher D. Robinson",
+      "display_value": "Christopher D. Robinson",
+      "field_position": {
+        "x": 151,
+        "y": 143,
+        "width": 180,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "156284",
+      "display_value": "156284",
+      "field_position": {
+        "x": 151,
+        "y": 163,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-2166",
+      "display_value": "***-**-2166",
+      "field_position": {
+        "x": 159,
+        "y": 183,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 183,
+        "y": 203,
+        "width": 148,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Fort Worth, TX 76101",
+      "display_value": "Fort Worth, TX 76101",
+      "field_position": {
+        "x": 89,
+        "y": 223,
+        "width": 156,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "10/05/2024",
+      "display_value": "10/05/2024",
+      "field_position": {
+        "x": 144,
+        "y": 251,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "09/01/2024",
+      "display_value": "09/01/2024",
+      "field_position": {
+        "x": 297,
+        "y": 251,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "09/30/2024",
+      "display_value": "09/30/2024",
+      "field_position": {
+        "x": 575,
+        "y": 251,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 759,
+        "y": 251,
+        "width": 55,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$5,598.30",
+      "display_value": "$5,598.30",
+      "field_position": {
+        "x": 730,
+        "y": 309,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,986.23",
+      "display_value": "$1,986.23",
+      "field_position": {
+        "x": 730,
+        "y": 329,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$7,584.53",
+      "display_value": "$7,584.53",
+      "field_position": {
+        "x": 730,
+        "y": 349,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$68,260.77",
+      "display_value": "$68,260.77",
+      "field_position": {
+        "x": 722,
+        "y": 369,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$1,070.33",
+      "display_value": "$1,070.33",
+      "field_position": {
+        "x": 730,
+        "y": 427,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$676.78",
+      "display_value": "$676.78",
+      "field_position": {
+        "x": 745,
+        "y": 447,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$470.24",
+      "display_value": "$470.24",
+      "field_position": {
+        "x": 745,
+        "y": 467,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$109.98",
+      "display_value": "$109.98",
+      "field_position": {
+        "x": 745,
+        "y": 487,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$2,327.33",
+      "display_value": "$2,327.33",
+      "field_position": {
+        "x": 730,
+        "y": 507,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$20,945.97",
+      "display_value": "$20,945.97",
+      "field_position": {
+        "x": 722,
+        "y": 527,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$5,257.20",
+      "display_value": "$5,257.20",
+      "field_position": {
+        "x": 167,
+        "y": 562,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$47,314.80",
+      "display_value": "$47,314.80",
+      "field_position": {
+        "x": 120,
+        "y": 592,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Christopher D. Robinson",
+    "employer_name": "Frontier Telecommunications",
+    "employee_id": "156284",
+    "ssn_last4": "***-**-2166",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Fort Worth, TX 76101",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "San Diego, CA 92101",
+    "pay_date": "10/05/2024",
+    "pay_period_start": "09/01/2024",
+    "pay_period_end": "09/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "5598.30",
+    "gross_pay_current": "7584.53",
+    "net_pay_current": "5257.20",
+    "gross_pay_ytd": "68260.77",
+    "net_pay_ytd": "47314.80",
+    "total_deductions_current": "2327.33",
+    "federal_tax_withheld": "1070.33",
+    "state_tax_withheld": "676.78",
+    "social_security_tax": "470.24",
+    "medicare_tax": "109.98",
+    "total_deductions_ytd": "20945.97",
+    "bonus_current": "1986.23"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0117",
+  "image_file": "ps_0117.png",
+  "layout_template": "boxed",
+  "noise_profile": "heavy_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 246,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 90,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Nashville, TN 37201",
+      "display_value": "Nashville, TN 37201",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 92,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Jessica T. Torres",
+      "display_value": "Jessica T. Torres",
+      "field_position": {
+        "x": 118,
+        "y": 127,
+        "width": 102,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "818605",
+      "display_value": "818605",
+      "field_position": {
+        "x": 111,
+        "y": 142,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-7237",
+      "display_value": "***-**-7237",
+      "field_position": {
+        "x": 123,
+        "y": 157,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 80,
+        "y": 172,
+        "width": 94,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 94,
+        "y": 187,
+        "width": 99,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "09/04/2024",
+      "display_value": "09/04/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "08/16/2024",
+      "display_value": "08/16/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "08/31/2024",
+      "display_value": "08/31/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$1,487.25",
+      "display_value": "$1,487.25",
+      "field_position": {
+        "x": 370,
+        "y": 282,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$394.77",
+      "display_value": "$394.77",
+      "field_position": {
+        "x": 376,
+        "y": 302,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$1,882.02",
+      "display_value": "$1,882.02",
+      "field_position": {
+        "x": 370,
+        "y": 322,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$30,112.32",
+      "display_value": "$30,112.32",
+      "field_position": {
+        "x": 366,
+        "y": 342,
+        "width": 46,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$205.57",
+      "display_value": "$205.57",
+      "field_position": {
+        "x": 766,
+        "y": 282,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$84.88",
+      "display_value": "$84.88",
+      "field_position": {
+        "x": 771,
+        "y": 302,
+        "width": 31,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$116.69",
+      "display_value": "$116.69",
+      "field_position": {
+        "x": 769,
+        "y": 322,
+        "width": 33,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$27.29",
+      "display_value": "$27.29",
+      "field_position": {
+        "x": 772,
+        "y": 342,
+        "width": 30,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$138.80",
+      "display_value": "$138.80",
+      "field_position": {
+        "x": 768,
+        "y": 362,
+        "width": 34,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$132.80",
+      "display_value": "$132.80",
+      "field_position": {
+        "x": 768,
+        "y": 382,
+        "width": 34,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$706.03",
+      "display_value": "$706.03",
+      "field_position": {
+        "x": 766,
+        "y": 402,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$11,296.48",
+      "display_value": "$11,296.48",
+      "field_position": {
+        "x": 755,
+        "y": 422,
+        "width": 47,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$1,175.99",
+      "display_value": "$1,175.99",
+      "field_position": {
+        "x": 128,
+        "y": 489,
+        "width": 88,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$18,815.84",
+      "display_value": "$18,815.84",
+      "field_position": {
+        "x": 428,
+        "y": 489,
+        "width": 101,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jessica T. Torres",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "818605",
+    "ssn_last4": "***-**-7237",
+    "employee_address": "987 Cedar Lane",
+    "employee_city_state_zip": "Dallas, TX 75201",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Nashville, TN 37201",
+    "pay_date": "09/04/2024",
+    "pay_period_start": "08/16/2024",
+    "pay_period_end": "08/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1487.25",
+    "gross_pay_current": "1882.02",
+    "net_pay_current": "1175.99",
+    "gross_pay_ytd": "30112.32",
+    "net_pay_ytd": "18815.84",
+    "total_deductions_current": "706.03",
+    "federal_tax_withheld": "205.57",
+    "state_tax_withheld": "84.88",
+    "social_security_tax": "116.69",
+    "medicare_tax": "27.29",
+    "total_deductions_ytd": "11296.48",
+    "overtime_pay_current": "394.77",
+    "retirement_401k": "138.80",
+    "health_insurance": "132.80"
+  }
+}

@@ -1,0 +1,3953 @@
+{
+  "haiku": {
+    "model_id": "claude-haiku-4-5",
+    "scorer_result": {
+      "n_gt": 554,
+      "n_pred": 606,
+      "n_recovered": 162,
+      "n_joint_correct": 157,
+      "n_misbindings": 5,
+      "n_duplicates": 10,
+      "rec_val": 0.292419,
+      "cba_cond": 0.969136,
+      "acc_joint": 0.283394,
+      "delta": 0.009025,
+      "precision": 0.259076,
+      "dup_rate": 0.016502,
+      "f1_joint": 0.27069
+    },
+    "documents": [
+      {
+        "doc_id": "Khaitan-_-Co-pdf_page_1_png.rf.8763e7c1a49bda336f22864aa83d2a8d.jpg",
+        "ground_truth": {
+          "ack_date": "27-Mar-2023",
+          "ack_no": "182313289743542",
+          "amount_in_words": "Indian Rupee One Lakh Fifty-Two Thousand Five Hundred Only",
+          "gst_number": "19AAGFK5459H1ZY",
+          "invoice_date": "27-Mar-2023",
+          "invoice_number": "KLP2223B02840",
+          "total_amount": "152,500"
+        },
+        "predicted": {
+          "gst_number": "07AADCK5284L1Z1",
+          "invoice_number": "KLP/2238/2023/40",
+          "invoice_date": "27-Mar-2023",
+          "ack_no": "1282532807434542",
+          "ack_date": "27-Mar-2023",
+          "total_amount": "152,500",
+          "amount_in_words": "Indian Rupee One Lakh Fifty-Two Thousand Five Hundred Only"
+        },
+        "cost": 0.002406
+      },
+      {
+        "doc_id": "2004143-pdf_page_4_png.rf.a3d25f9cf2644b6b4c75bfe8880c1cf0.jpg",
+        "ground_truth": {
+          "igst": "1138743.70",
+          "initial_total_amount": "2756782.10",
+          "total_amount": "3895525.98"
+        },
+        "predicted": {
+          "invoice_number": "DECLN/00170",
+          "ack_no": "286142-1292308",
+          "sgst": "0.00",
+          "cgst": "0.00"
+        },
+        "cost": 0.002526
+      },
+      {
+        "doc_id": "Class-II-6-pdf_page_1_png.rf.ffdcc55f2b531006753194f6b5ae8aee.jpg",
+        "ground_truth": {
+          "ack_date": "21/11/2022 05:01:00 PM",
+          "ack_no": "142211936338854",
+          "amount_in_words": "NINETEEN THOUSAND SEVEN HUNDRED SEVENTY FOUR RUPEES AND ZERO PAISA ONLY",
+          "cin_no": "U74999DL2002PTC116434",
+          "igst": "3616.44",
+          "initial_total_amount": "15960.00",
+          "invoice_date": "21-11-2022",
+          "invoice_number": "TI-2223/05422",
+          "round_off": "-0.44",
+          "total_amount": "19774.00"
+        },
+        "predicted": {
+          "invoice_number": "IT-2222/05422",
+          "invoice_date": "21.11.2022",
+          "ack_no": "1422119363388544",
+          "ack_date": "21/11/2022 09:01:00 PM",
+          "gst_number": "06AABCT5055K1Z0",
+          "initial_total_amount": "10800.00",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "1944.00",
+          "total_amount": "12744.00",
+          "amount_in_words": "THREE THOUSAND THREE HUNDRED SEVENTY FOUR RUPEES AND ZERO PAISA ONLY"
+        },
+        "cost": 0.003101
+      },
+      {
+        "doc_id": "2004028-pdf_page_1_png.rf.316fc5ca026861dc91db5374ca31cad3.jpg",
+        "ground_truth": {
+          "invoice_date": "11/02/2020",
+          "invoice_number": "20904028",
+          "total_amount": "55,416"
+        },
+        "predicted": {
+          "invoice_number": "230603-1152023",
+          "invoice_date": "4/7/23",
+          "gst_number": "33AABDU9403D1Z0",
+          "cgst": "280.42",
+          "sgst": "280.42",
+          "total_amount": "3632.84"
+        },
+        "cost": 0.001976
+      },
+      {
+        "doc_id": "3275056406-pdf_page_4_png.rf.9307a7fbb0cd249fc43d9116e46ff160.jpg",
+        "ground_truth": {
+          "cgst": "2,352.00",
+          "initial_total_amount": "39,200.00",
+          "invoice_date": "09-JUN-2023",
+          "invoice_number": "ICBC10271",
+          "sgst": "0.00"
+        },
+        "predicted": {
+          "invoice_number": "ICBC10271",
+          "invoice_date": "09-JUN-2023",
+          "cgst": "2,352.00",
+          "sgst": "2,352.00",
+          "igst": "0.00",
+          "initial_total_amount": "39,200.00",
+          "gst_number": "33AAJCA1167G1ZY",
+          "ack_no": "82669332",
+          "ack_date": "2023-06-26"
+        },
+        "cost": 0.002596
+      },
+      {
+        "doc_id": "Class-II-4-pdf_page_3_png.rf.d4dd451219db6a657c13a4fb26218388.jpg",
+        "ground_truth": {
+          "ack_date": "25-08-2022 04:14 PM",
+          "ack_no": "162212333645138",
+          "invoice_date": "25-08-2022",
+          "invoice_number": "469"
+        },
+        "predicted": {
+          "invoice_number": "661455966675",
+          "invoice_date": "25-08-2022 04:14 PM",
+          "ack_no": "162312233640138",
+          "ack_date": "25-08-2022 04:14 PM",
+          "cin_no": "77a69b91fa45c578823d0bf71fD54a89ffc7aa98ab74bc345db76433f4b2bbd",
+          "gst_number": "26AAACS7646C1Z"
+        },
+        "cost": 0.002311
+      },
+      {
+        "doc_id": "DSINV2023241725-PDF_page_6_png.rf.e8b537d2271d21ed067801fb96d41438.jpg",
+        "ground_truth": {
+          "ack_no": "182313602690557",
+          "cgst": "32671.08",
+          "gst_number": "19AAECC2713N1ZH",
+          "initial_total_amount": "363012.00",
+          "invoice_date": "15-05-2023",
+          "invoice_number": "6888493792",
+          "sgst": "32671.08",
+          "total_amount": "428354.16"
+        },
+        "predicted": {
+          "gst_number": "ats634029a9d1b1f7f3b244d6b92104e85fa528d2061623b0f1a8ba",
+          "ack_date": "15-05-2023 17:32:03",
+          "ack_no": "1823130260102",
+          "invoice_date": "688485970 dt 15-05-2023",
+          "invoice_number": "688485970",
+          "initial_total_amount": "56312.00",
+          "sgst": "2671.68",
+          "cgst": "2671.68",
+          "total_amount": "428334.16"
+        },
+        "cost": 0.002781
+      },
+      {
+        "doc_id": "The-Net-pdf_page_1_png.rf.a8c3894ca94829d755e9a6c8c5dc8950.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Nine Thousand Six Hundred and Thirty One Only",
+          "cgst": "734.58",
+          "gst_number": "19AAFCD5214M1ZG",
+          "initial_total_amount": "8162.00",
+          "invoice_date": "31.03.23",
+          "invoice_number": "Bill No-243/22-23",
+          "round_off": "-0.16",
+          "sgst": "734.58",
+          "total_amount": "9631.00"
+        },
+        "predicted": {
+          "invoice_number": "24/3/22-23",
+          "gst_number": "19AAFCD5214M1ZG3",
+          "cgst": "734.40",
+          "sgst": "734.40",
+          "initial_total_amount": "1632.50",
+          "round_off": "-0.16",
+          "total_amount": "10,837.10"
+        },
+        "cost": 0.002326
+      },
+      {
+        "doc_id": "Domestic-Freight-2-pdf_page_1_png.rf.695053d9cf81abbd149fce4a41fca05d.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakh Eighty Two Thousand Nine Hundred Twenty Eight only",
+          "cin_no": "U63020TG2011PTC073074",
+          "gst_number": "27AAACI5301LZQ",
+          "invoice_date": "08-04-2023",
+          "invoice_number": "NGP-0001195",
+          "total_amount": "182928.00"
+        },
+        "predicted": {
+          "invoice_number": "BUT7224117233",
+          "invoice_date": "08-04-2023",
+          "gst_number": "27AABCU5032R1Z0",
+          "amount_in_words": "One Lakh Eighty Two Thousand Nine Hundred Twenty Eight only",
+          "total_amount": "18328.00"
+        },
+        "cost": 0.001886
+      },
+      {
+        "doc_id": "JF01221000475-pdf_page_2_png.rf.74df01731c7232318b1d6c85e219b9ea.jpg",
+        "ground_truth": {
+          "cin_no": "U40102GJ2003SGC042908",
+          "gst_number": "24AADCP1453C1Z2",
+          "total_amount": "17366.54"
+        },
+        "predicted": {
+          "cin_no": "U40102GJ2003SGC042908",
+          "invoice_date": "SEP-22",
+          "total_amount": "319.81"
+        },
+        "cost": 0.001711
+      },
+      {
+        "doc_id": "2005010-pdf_page_3_png.rf.d1601e81cf9fdb0599efa45d00df3822.jpg",
+        "ground_truth": {
+          "invoice_date": "07/03/2018",
+          "invoice_number": "INAECELTA-IN/2018007034883",
+          "total_amount": "162501.12"
+        },
+        "predicted": {
+          "invoice_number": "023",
+          "invoice_date": "07/10/2023",
+          "gst_number": "27BT0438D1Z0",
+          "ack_no": "131870350885",
+          "ack_date": "07-10-2023"
+        },
+        "cost": 0.002171
+      },
+      {
+        "doc_id": "4519012937_IF1D416422-23_jpg.rf.89281e267bada9f7c207cbee94a8441b.jpg",
+        "ground_truth": {
+          "amount_in_words": "Two Lakhs Five Thousand Five Hundred Thirty Eight Only",
+          "gst_number": "33AAACI2706C1ZC",
+          "invoice_date": "27/03/2023",
+          "invoice_number": "IF1/D4184/22-23",
+          "total_amount": "205538"
+        },
+        "predicted": {
+          "invoice_number": "JF1D4/62223",
+          "invoice_date": "27/03/2023",
+          "gst_number": "28AACCT0790C1Z2",
+          "cin_no": "AAACCT0790C",
+          "initial_total_amount": "106,750.00",
+          "igst": "9710",
+          "total_amount": "266538"
+        },
+        "cost": 0.002241
+      },
+      {
+        "doc_id": "Pannu-Enterprises-pdf_page_1_png.rf.effab41e49ad9a2c7b73d5f274dee92a.jpg",
+        "ground_truth": {
+          "cgst": "34420",
+          "gst_number": "06AUMPK7731Q1ZV",
+          "initial_total_amount": "382448",
+          "invoice_date": "31/03/23",
+          "invoice_number": "651",
+          "sgst": "34420",
+          "total_amount": "451288"
+        },
+        "predicted": {
+          "gst_number": "06AUMPK7731Q1ZV",
+          "invoice_number": "651",
+          "invoice_date": "31/03/22",
+          "cgst": "344920",
+          "sgst": "244220",
+          "initial_total_amount": "3824948",
+          "total_amount": "4512848"
+        },
+        "cost": 0.002171
+      },
+      {
+        "doc_id": "DSINV2023241700-pdf_page_3_png.rf.cb8a8a8bdec81c675707cb947ae7dc82.jpg",
+        "ground_truth": {
+          "igst": "314895.41",
+          "invoice_date": "01.05.2023",
+          "invoice_number": "2714004688"
+        },
+        "predicted": {
+          "invoice_number": "2714004688",
+          "invoice_date": "01.05.2023",
+          "ack_no": "ab6d04c04bf8194688a3c57a57f5d1ab45a8100c3431c00bac2aede320f0d2a2"
+        },
+        "cost": 0.001596
+      },
+      {
+        "doc_id": "Class-I-2-pdf_page_1_png.rf.0ae5614be2d7416839784eaf6930c768.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Sixty Seven Thousand Seven Hundred Seventy Only",
+          "cgst": "5,168.88",
+          "invoice_date": "1-Jul-22",
+          "invoice_number": "65/22-23",
+          "round_off": "0.24",
+          "sgst": "5,168.88",
+          "total_amount": "67,770.00"
+        },
+        "predicted": {
+          "invoice_number": "69/22-23",
+          "invoice_date": "1-Jul-22",
+          "gst_number": "27AACHI5330L1ZQ",
+          "cgst": "5,168.88",
+          "sgst": "5,168.88",
+          "round_off": "0.24",
+          "initial_total_amount": "67,432.00",
+          "total_amount": "\u20b9 67,770.00",
+          "amount_in_words": "INR Sixty Seven Thousand Seven Hundred Seventy Only"
+        },
+        "cost": 0.002896
+      },
+      {
+        "doc_id": "Spheres-2-pdf_page_1_png.rf.78c0332a9076cde0c04cadd08531b8ae.jpg",
+        "ground_truth": {
+          "initial_total_amount": "8.590,00",
+          "invoice_date": "19.04.2022",
+          "invoice_number": "2R04098C",
+          "total_amount": "8.710,00"
+        },
+        "predicted": {
+          "invoice_number": "2R0409BC",
+          "invoice_date": "19.04.2022",
+          "initial_total_amount": "8,590.00",
+          "total_amount": "8,710.00",
+          "gst_number": "DE 115367146"
+        },
+        "cost": 0.001836
+      },
+      {
+        "doc_id": "2013405-pdf_page_1_png.rf.7ee8842c2ac39edefafb719fa8af0598.jpg",
+        "ground_truth": {
+          "invoice_date": "30/07/2020",
+          "invoice_number": "2013405 - 30/07/2020",
+          "total_amount": "79159.10"
+        },
+        "predicted": {
+          "invoice_number": "J Moolani Channa Pvt Trade Enterprises",
+          "invoice_date": "4/7/2023, 10:42 AM",
+          "gst_number": "27AABFJ5055R1Z5"
+        },
+        "cost": 0.001881
+      },
+      {
+        "doc_id": "DSINV2023241697-pdf_page_3_png.rf.5e23574d7441a67395779f65b1ef7aec.jpg",
+        "ground_truth": {
+          "igst": "115024.85",
+          "invoice_date": "07.05.2023",
+          "invoice_number": "2714004902"
+        },
+        "predicted": {
+          "invoice_number": "2714004902",
+          "invoice_date": "07.05.2023",
+          "ack_no": "14ce3f1e03c18eed581bc7cd15126d686c2e42b7b16c7067f7ade85d92c538e"
+        },
+        "cost": 0.001586
+      },
+      {
+        "doc_id": "2002315-pdf_page_3_png.rf.f9f31c309e406471aad749b3d40dbb30.jpg",
+        "ground_truth": {
+          "invoice_date": "01/03/2018",
+          "invoice_number": "20C2315",
+          "total_amount": "602903.05"
+        },
+        "predicted": {
+          "invoice_number": "\u20b92 TO OTA (Ult)",
+          "ack_no": "2232"
+        },
+        "cost": 0.001746
+      },
+      {
+        "doc_id": "3275056327-pdf_page_1_png.rf.a3333ac840d83e401dc8f3123d6f1382.jpg",
+        "ground_truth": {
+          "cgst": "1,350.00",
+          "invoice_date": "29-Apr-2023",
+          "invoice_number": "0128/GST/2023-24",
+          "sgst": "1,350.00"
+        },
+        "predicted": {
+          "invoice_number": "612023/2023-24",
+          "invoice_date": "01-Apr-2023",
+          "ack_no": "410061398688",
+          "ack_date": "29-Apr-2023",
+          "gst_number": "33AAACR1876G1ZY",
+          "initial_total_amount": "16,000.00",
+          "cgst": "1,360.00",
+          "sgst": "1,360.00",
+          "total_amount": "17,700.00",
+          "amount_in_words": "Indian Rupees Two Thousand Seven Hundred Only"
+        },
+        "cost": 0.002881
+      },
+      {
+        "doc_id": "Class-VI-7-pdf_page_3_png.rf.8a4819ddbb30500b225486783fb9b1ba.jpg",
+        "ground_truth": {
+          "invoice_date": "30.09.2021",
+          "invoice_number": "PI-2021-207",
+          "total_amount": "8,498.00 EUR"
+        },
+        "predicted": {
+          "invoice_date": "30.09.2021",
+          "initial_total_amount": "8,468.00 EUR",
+          "total_amount": "8,468.00 EUR"
+        },
+        "cost": 0.002006
+      },
+      {
+        "doc_id": "Class-V-4-pdf_page_1_png.rf.b1ea99c028406d9ff14276047daf5ee3.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rs. One Lakhs Forty Thousand Two Hundred Thirty-One Only",
+          "cgst": "1395.60",
+          "initial_total_amount": "118340.60",
+          "invoice_date": "07/10/2022",
+          "invoice_number": "184",
+          "round_off": "-0.20",
+          "sgst": "1395.60",
+          "total_amount": "140231.00"
+        },
+        "predicted": {
+          "invoice_number": "164",
+          "invoice_date": "07/10/2022",
+          "gst_number": "27AABCA6130F1Z5",
+          "cgst": "10905.60",
+          "sgst": "10905.60",
+          "total_amount": "145223.60"
+        },
+        "cost": 0.001961
+      },
+      {
+        "doc_id": "4519030538_22ING4022_jpg.rf.20e68f25e370b8b46ca0d5e7dae7df0c.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Five Lakh(s) Seventy Five Thousand Eight Hundred Fifty Four Only",
+          "gst_number": "33AAJCS7859A1ZI",
+          "igst": "27421.63",
+          "initial_total_amount": "548432.50",
+          "invoice_date": "17/03/2023",
+          "invoice_number": "23ING4825",
+          "round_off": "-4.13",
+          "total_amount": "575854"
+        },
+        "predicted": {
+          "invoice_number": "L8055194950",
+          "igst": "1750",
+          "total_amount": "57856.11",
+          "round_off": "6.13",
+          "initial_total_amount": "1788"
+        },
+        "cost": 0.001951
+      },
+      {
+        "doc_id": "Store-5-pdf_page_1_png.rf.6a96d9ce593e53f5819371343d5b7c4a.jpg",
+        "ground_truth": {
+          "amount_in_words": "Indian Rupee Thirty-Five Thousand Four Hundred Only",
+          "cgst": "2,700.00",
+          "cin_no": "U74999MH2019PTC319145",
+          "initial_total_amount": "30,000.00",
+          "invoice_date": "22/03/2023",
+          "invoice_number": "22-23/0471",
+          "sgst": "2,700.00",
+          "total_amount": "\u20b935,400.00"
+        },
+        "predicted": {
+          "invoice_date": "23/04/2023",
+          "invoice_number": "22-23/0471",
+          "cgst": "2,700.00",
+          "sgst": "2,700.00",
+          "initial_total_amount": "30,000.00",
+          "total_amount": "35,400.00",
+          "amount_in_words": "Indian Rupee Thirty-Five Thousand Four Hundred Only"
+        },
+        "cost": 0.002231
+      },
+      {
+        "doc_id": "Import-1-pdf_page_1_png.rf.782064971ffc977073352645093a00c1.jpg",
+        "ground_truth": {
+          "cgst": "463.50",
+          "initial_total_amount": "35,900.00",
+          "invoice_date": "26-DEC-2022",
+          "invoice_number": "INIMH389173",
+          "sgst": "463.50",
+          "total_amount": "42,362.00 INR"
+        },
+        "predicted": {
+          "invoice_number": "INIMM-1489173",
+          "invoice_date": "19 DEC 2022",
+          "gst_number": "27AABCU6846SIZ0",
+          "cgst": "2,150.00",
+          "sgst": "2,150.00",
+          "initial_total_amount": "10,500.00",
+          "total_amount": "42,362.00 INR"
+        },
+        "cost": 0.002251
+      },
+      {
+        "doc_id": "DSINV2023241703-pdf_page_1_png.rf.f38aee2daaa464ab7e2846e75eb2662d.jpg",
+        "ground_truth": {
+          "gst_number": "27AABCT1029L1ZC",
+          "invoice_date": "29.04.2023",
+          "invoice_number": "2714004560"
+        },
+        "predicted": {
+          "invoice_number": "2714004560",
+          "invoice_date": "29.04.2023",
+          "gst_number": "27572F0c7b168F1e9043f661d575b99155ee24016cf05835eea60b7622c91a"
+        },
+        "cost": 0.001566
+      },
+      {
+        "doc_id": "4519038037_S669922-23_jpg.rf.8293f4aa949bce1914e13773361b6c6b.jpg",
+        "ground_truth": {
+          "gst_number": "29AAACI9861H1Z2",
+          "igst": "6,775.65",
+          "initial_total_amount": "1,20,513.80",
+          "invoice_date": "21-Nov-22",
+          "invoice_number": "S669522-23",
+          "total_amount": "1,42,289"
+        },
+        "predicted": {
+          "invoice_number": "INV/2021-22",
+          "invoice_date": "21.06.2021",
+          "gst_number": "27AABCT5055K1Z0",
+          "cgst": "0",
+          "sgst": "0",
+          "igst": "0",
+          "initial_total_amount": "1,20,528.80",
+          "total_amount": "1,42,285",
+          "round_off": "0.00"
+        },
+        "cost": 0.002561
+      },
+      {
+        "doc_id": "Class-V-3-pdf_page_1_png.rf.927a8384022873cd864f36a27128a235.jpg",
+        "ground_truth": {
+          "amount_in_words": "Sixty Five Thousand One Hundred and One Rupees Twelve Paise Only",
+          "igst": "6975.12",
+          "invoice_date": "20 Mar 2021",
+          "invoice_number": "BLHQTR2021020584",
+          "total_amount": "65101.12"
+        },
+        "predicted": {
+          "invoice_number": "BU1224000136800",
+          "invoice_date": "20 Mar 2021",
+          "gst_number": "05AADCP1305P1ZD",
+          "initial_total_amount": "65101.12",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "6975.12",
+          "total_amount": "65101.12",
+          "amount_in_words": "Sixty Five Thousand One Hundred and One Rupee Only"
+        },
+        "cost": 0.002611
+      },
+      {
+        "doc_id": "Express-Roadways-Pvt-Ltd-pdf_page_1_png.rf.8c1cd4329150322fe1306ada9679f243.jpg",
+        "ground_truth": {
+          "ack_date": "2023-03-21",
+          "ack_no": "132314438724926",
+          "amount_in_words": "One Lakhs Ninety One Thousand Five Hundred Twenty Rupees And ZERO Paise Only",
+          "cgst": "10,260.00",
+          "gst_number": "06AAACE9295C1ZD",
+          "initial_total_amount": "1,65,940",
+          "invoice_date": "21/03/2023",
+          "invoice_number": "HSR-2290586",
+          "sgst": "10,260.00",
+          "total_amount": "1,65,940"
+        },
+        "predicted": {
+          "gst_number": "GSTGEN Petroleum Industries Private Limited",
+          "invoice_date": "1/9/3/2023",
+          "ack_no": "1223442410287",
+          "ack_date": "25/13/23"
+        },
+        "cost": 0.002441
+      },
+      {
+        "doc_id": "Store-3-pdf_page_1_png.rf.eb73896ecb31391d6ea65d2e6af2cb3a.jpg",
+        "ground_truth": {
+          "amount_in_words": "Five Thousand Nine Hundred Only",
+          "invoice_date": "16-03-2023",
+          "invoice_number": "2201211",
+          "total_amount": "5900.00"
+        },
+        "predicted": {
+          "gst_number": "27AAKFA6633M1Z4",
+          "invoice_date": "16-03-2023",
+          "invoice_number": "2261211",
+          "sgst": "450.00",
+          "cgst": "450.00",
+          "initial_total_amount": "5000.00",
+          "total_amount": "5900.00"
+        },
+        "cost": 0.002166
+      },
+      {
+        "doc_id": "2002023-pdf_page_3_png.rf.568c0e837f4a674c019dd664a59f02a2.jpg",
+        "ground_truth": {
+          "invoice_date": "20/2023 - 30/01/2018",
+          "invoice_number": "MBL-CMB 921024",
+          "total_amount": "432440.46"
+        },
+        "predicted": {
+          "invoice_number": "12-00687/19/08",
+          "invoice_date": "17-OCT-2019",
+          "gst_number": "27AABCT1234H1Z0",
+          "cgst": "3570.64",
+          "sgst": "3570.64"
+        },
+        "cost": 0.001831
+      },
+      {
+        "doc_id": "Domestic-Freight-8-pdf_page_1_png.rf.99ac8b1d25578ed0636f1b2332eecdbd.jpg",
+        "ground_truth": {
+          "amount_in_words": "FOURTY SEVEN THOUSAND SEVEN HUNDERED SIXTY-SEVEN Rupees only",
+          "invoice_date": "08/04/2023",
+          "invoice_number": "08/2023",
+          "total_amount": "47767"
+        },
+        "predicted": {
+          "invoice_number": "08/2023",
+          "invoice_date": "08/04/2023",
+          "total_amount": "47767",
+          "amount_in_words": "FOURTY SEVEN THOUSAND SEVEN HUNDRED SIXTY-SEVEN; Rupees only"
+        },
+        "cost": 0.001671
+      },
+      {
+        "doc_id": "JF01220700685-pdf_page_2_png.rf.c3968e42339cdb8bee01c4e642c4074d.jpg",
+        "ground_truth": {
+          "cin_no": "U40102GJ2003SGC042908",
+          "gst_number": "24AADCP1453C1Z2",
+          "invoice_date": "18-07-2022",
+          "invoice_number": "S/0057",
+          "total_amount": "19977.88"
+        },
+        "predicted": {
+          "gst_number": "24AAACR5451K1Z31",
+          "cin_no": "U40102GJ2003SGC042908",
+          "invoice_date": "JUL,22",
+          "initial_total_amount": "19286.00",
+          "total_amount": "19977.88",
+          "sgst": "5750.00"
+        },
+        "cost": 0.002726
+      },
+      {
+        "doc_id": "4518942063_69DMO221562_jpg.rf.abbdfff27693a98d80620f1173fc5074.jpg",
+        "ground_truth": {
+          "amount_in_words": "THREE LAKH SEVENTY TWO THOUSAND THREE HUNDRED AND NINETY THREE ONLY",
+          "cgst": "0.000",
+          "gst_number": "33AACCK6555P1Z6",
+          "igst": "17,733.000",
+          "invoice_date": "14 Mar 23",
+          "invoice_number": "49/DMO/23/552",
+          "round_off": "0.00",
+          "sgst": "0.000",
+          "total_amount": "3,72,393.00"
+        },
+        "predicted": {
+          "invoice_number": "14 Mar 23",
+          "invoice_date": "14 Mar 23",
+          "initial_total_amount": "1280",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "15,733.00",
+          "round_off": "0.00",
+          "total_amount": "3,72,393.00"
+        },
+        "cost": 0.002361
+      },
+      {
+        "doc_id": "DSINV2023241746-pdf_page_3_png.rf.339f37ab4e7ad3e39fd5c9e8a0f5416b.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees One Lakhs Forty Thousand Four Hundred Twenty Only",
+          "gst_number": "29AAJCA1167G1ZN",
+          "invoice_date": "14/05/23",
+          "invoice_number": "F15358IL24001910",
+          "total_amount": "140,420.00"
+        },
+        "predicted": {
+          "invoice_date": "14/05/23",
+          "gst_number": "29AAACR5004GN1Z8",
+          "cgst": "10,710.00",
+          "sgst": "10,710.00",
+          "initial_total_amount": "119,000.00",
+          "total_amount": "140,420.00",
+          "amount_in_words": "One Lakhs Forty Thousand Four Hundred Twenty Only"
+        },
+        "cost": 0.002496
+      },
+      {
+        "doc_id": "DSINV2023241743-pdf_page_3_png.rf.57f8eda6891d8171dc97c6e146636960.jpg",
+        "ground_truth": {
+          "gst_number": "29AAJCA1167G1ZN",
+          "invoice_date": "12/05/23",
+          "invoice_number": "F1535BIL24001804"
+        },
+        "predicted": {
+          "invoice_date": "12/05/23",
+          "gst_number": "F1635881240D1804",
+          "ack_date": "13/04/23"
+        },
+        "cost": 0.001451
+      },
+      {
+        "doc_id": "4518997003_IF1D385222-23_jpg.rf.e13a7522c3ed6e9cc759dc526ce67b91.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakhs Twelve Thousand Two Hundred Sixty Six Only",
+          "gst_number": "33AAACI2706C1ZC",
+          "invoice_date": "05/03/2023",
+          "invoice_number": "IF1/D3652/22-23",
+          "total_amount": "112266"
+        },
+        "predicted": {
+          "invoice_number": "JF1D3R2022-23",
+          "invoice_date": "05/03/2023",
+          "gst_number": "26AACCU8801H2",
+          "cin_no": "13MAACG2760C1ZD",
+          "initial_total_amount": "106,920.00",
+          "cgst": "5,346.00",
+          "sgst": "5,346.00",
+          "total_amount": "112,266"
+        },
+        "cost": 0.002481
+      },
+      {
+        "doc_id": "DSINV2023241705-pdf_page_4_png.rf.b8a65b420f6ebb59df8fc9b074f664b4.jpg",
+        "ground_truth": {
+          "amount_in_words": "TWENTY SIX LAKH FORTY SIX THOUSAND SEVEN HUNDRED SEVENTY SIX Rupees FIFTY EIGHT Paise",
+          "igst": "403745.58",
+          "invoice_date": "23.04.2023",
+          "invoice_number": "2714004259",
+          "total_amount": "2646776.58"
+        },
+        "predicted": {
+          "invoice_number": "2714004259",
+          "invoice_date": "23.04.2023",
+          "ack_no": "196a2f81adf2107255aa5dd7d0ef5b5dad2b8edabe596cdb23fe7a625de57d90",
+          "total_amount": "2644776.58",
+          "amount_in_words": "TWENTY SIX LAKH FORTY SIX THOUSAND SEVEN HUNDRED SEVENTY SIX RUPEES FIFTY EIGHT PAISE"
+        },
+        "cost": 0.002151
+      },
+      {
+        "doc_id": "DSINV2023241713-pdf_page_1_png.rf.57883bd574d6d2e7274776afa5518581.jpg",
+        "ground_truth": {
+          "ack_date": "08-03-2022/15:41:00",
+          "ack_no": "142211068767300",
+          "amount_in_words": "Eighteen Thousand Six Hundred Forty Five Rupees Seventy Eight Paise",
+          "cgst": "1,422.14",
+          "cin_no": "U74140TG1994PLC018833",
+          "gst_number": "09AAACR9626A1ZH",
+          "initial_total_amount": "15,801.50",
+          "invoice_date": "08.03.2022",
+          "invoice_number": "1500012969",
+          "sgst": "1,422.14",
+          "total_amount": "18,645.78"
+        },
+        "predicted": {
+          "invoice_number": "5160b8e2e1b7f88d8bb8c9b1bc843cb7742a7fbd4c40b57a",
+          "ack_no": "142211084767300",
+          "ack_date": "08-03-2022/18:41:00",
+          "invoice_date": "08-03-2022",
+          "gst_number": "08AACK0868pF1ZX",
+          "initial_total_amount": "19,801.80",
+          "cgst": "1,422.14",
+          "sgst": "1,422.14",
+          "total_amount": "19,845.75",
+          "amount_in_words": "Eighteen Thousand Nine Hundred Forty Five Rupees Seventy Five Paise"
+        },
+        "cost": 0.003336
+      },
+      {
+        "doc_id": "4519050268_22ING4168_jpg.rf.a07756660cd7d4e5e59e0eaf993f79c2.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Three Lakh(s) Thirteen Thousand Eight Hundred Sixteen Only",
+          "gst_number": "33AAJCS9803A1Z2",
+          "igst": "14943.00",
+          "initial_total_amount": "298872.00",
+          "invoice_date": "18/03/2023",
+          "invoice_number": "22ING4168",
+          "round_off": "0.40",
+          "total_amount": "313816"
+        },
+        "predicted": {
+          "invoice_number": "L5656110238",
+          "initial_total_amount": "29827.08",
+          "sgst": "1491.65",
+          "igst": "10785.68",
+          "total_amount": "43104.08"
+        },
+        "cost": 0.001786
+      },
+      {
+        "doc_id": "2002374-pdf_page_1_png.rf.1b9dcc8b2703d2dc5bc97813f09a5b51.jpg",
+        "ground_truth": {
+          "invoice_date": "27/02/2018",
+          "invoice_number": "2032274",
+          "total_amount": "62734.90"
+        },
+        "predicted": {
+          "gst_number": "27AABFU5055E1Z0",
+          "sgst": "9%",
+          "cgst": "9%"
+        },
+        "cost": 0.001991
+      },
+      {
+        "doc_id": "4518874363_22ING4196_jpg.rf.1f2f6cc5ac638ae272f12eef36232751.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Two Lakh(s) Ninety Five Thousand Eight Hundred Ninety Six Only",
+          "gst_number": "33AAJCS7808J1ZI",
+          "igst": "14990.28",
+          "initial_total_amount": "281805.60",
+          "invoice_date": "25/05/2023",
+          "invoice_number": "22ING4196",
+          "round_off": "0.12",
+          "total_amount": "295896"
+        },
+        "predicted": {
+          "invoice_number": "L5559100179",
+          "gst_number": "33AABCU6934F1Z0",
+          "cgst": "1870.26",
+          "sgst": "1870.26",
+          "initial_total_amount": "1020",
+          "total_amount": "27006",
+          "round_off": "6.13"
+        },
+        "cost": 0.002171
+      },
+      {
+        "doc_id": "Class-I-1-Samples-19-pdf_page_2_png.rf.28123815d3330ccb5147ff9c45c5a773.jpg",
+        "ground_truth": {
+          "ack_date": "10-04-2021 14:00:00",
+          "ack_no": "162110526882428",
+          "amount_in_words": "FIFTY ONE THOUSAND NINE HUNDRED ONLY",
+          "igst": "7,908.97",
+          "initial_total_amount": "43,803.69",
+          "invoice_date": "10/04/2021",
+          "invoice_number": "CT2100018",
+          "total_amount": "51,900.00"
+        },
+        "predicted": {
+          "invoice_number": "CT2100018",
+          "invoice_date": "10/04/2021",
+          "gst_number": "26AAIFA2434N1ZD",
+          "initial_total_amount": "43,503.69",
+          "igst": "7,008.97",
+          "total_amount": "51,000.00",
+          "amount_in_words": "FIFTY ONE THOUSAND NINE HUNDRED ONLY"
+        },
+        "cost": 0.002261
+      },
+      {
+        "doc_id": "Domestic-Freight-6-pdf_page_1_png.rf.f07de63d7634d9350087e085be0fafad.jpg",
+        "ground_truth": {
+          "amount_in_words": "RUPEES FOURTEEN THOUSAND SIX HUNDRED SIXTY EIGHT ONLY",
+          "cgst": "786",
+          "initial_total_amount": "13096",
+          "invoice_date": "30.03.2023",
+          "invoice_number": "SL/2022-23/INDO-196",
+          "sgst": "786",
+          "total_amount": "14668"
+        },
+        "predicted": {
+          "invoice_number": "BUT2241165591",
+          "invoice_date": "19-03-2023",
+          "sgst": "750",
+          "cgst": "750",
+          "initial_total_amount": "12500",
+          "total_amount": "14000",
+          "gst_number": "27AAFCU5004J1Z0"
+        },
+        "cost": 0.002166
+      },
+      {
+        "doc_id": "JF01220900796-pdf_page_1_png.rf.a227610c369afb3eb188f0373ad521f0.jpg",
+        "ground_truth": {
+          "amount_in_words": "thirteen thousand five hundred and fourty four",
+          "invoice_date": "17.09.2022",
+          "invoice_number": "JF01220900796",
+          "total_amount": "13544.79"
+        },
+        "predicted": {
+          "invoice_date": "17.06.2022",
+          "amount_in_words": "thirteen thousand five hundred and fourty four",
+          "total_amount": "13544.79"
+        },
+        "cost": 0.001436
+      },
+      {
+        "doc_id": "Raw-Material-5-pdf_page_2_png.rf.25edbbbd537aeb628287c2f614d0ed50.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Twenty-five lac thirty three thousand two hundred sixty four only",
+          "initial_total_amount": "2533264.23",
+          "invoice_date": "24-Mar-23",
+          "invoice_number": "HR5567047129",
+          "round_off": "-0.23",
+          "total_amount": "2533264.00"
+        },
+        "predicted": {
+          "invoice_number": "EIRNSS120119309",
+          "invoice_date": "24-Mar-23",
+          "gst_number": "03YTH 0AAACJ1681G3ZR",
+          "cgst": "28.00",
+          "sgst": "28.00",
+          "total_amount": "523264.00"
+        },
+        "cost": 0.002016
+      },
+      {
+        "doc_id": "3275056401-pdf_page_1_png.rf.f3a2785d32727542ae963a66ce9a9c9e.jpg",
+        "ground_truth": {
+          "amount_in_words": "Two Lakh Seventy Six Thousand Eight Hundred Eighty Four And Sixty Four Pai",
+          "cin_no": "U31300GJ2007PTC051368",
+          "igst": "42,236.64",
+          "initial_total_amount": "2,34,648.00",
+          "invoice_date": "09.06.2023",
+          "invoice_number": "00164",
+          "total_amount": "2,76,884.64"
+        },
+        "predicted": {
+          "invoice_number": "00164",
+          "invoice_date": "09.05.2023",
+          "gst_number": "33AAC4U1R7G1ZY",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "422.96.64",
+          "initial_total_amount": "2,34,640.00",
+          "total_amount": "2,76,884.64"
+        },
+        "cost": 0.002431
+      },
+      {
+        "doc_id": "2004044-pdf_page_1_png.rf.d27a023f61a3b43e7f43e30c958635cb.jpg",
+        "ground_truth": {
+          "invoice_date": "18/07/2022",
+          "invoice_number": "12004044",
+          "total_amount": "46107.60"
+        },
+        "predicted": {
+          "invoice_number": "220441 - 11/2022",
+          "invoice_date": "4/7/2023",
+          "gst_number": "33AABCU9220J1Z0",
+          "cgst": "95.16",
+          "sgst": "95.16",
+          "total_amount": "950.32"
+        },
+        "cost": 0.001991
+      },
+      {
+        "doc_id": "4518969972_69DMO221490_jpg.rf.4ff87c6101a5e41399c127239367e9e6.jpg",
+        "ground_truth": {
+          "amount_in_words": "FOUR HUNDRED SEVENTY-NINE THOUSAND FOUR HUNDRED FIVE",
+          "cgst": "0.000",
+          "gst_number": "33AACCK8333P1Z8",
+          "igst": "22,828.800",
+          "initial_total_amount": "4,56,576.00",
+          "invoice_date": "28 Feb 23",
+          "invoice_number": "69/DMO/22/1490",
+          "round_off": "0.00",
+          "sgst": "0.000",
+          "total_amount": "4,79,404.80"
+        },
+        "predicted": {
+          "invoice_number": "69/MG/2324/8",
+          "invoice_date": "28 Feb 23",
+          "initial_total_amount": "1,392",
+          "igst": "22,828.500",
+          "round_off": "0.00",
+          "total_amount": "4,79,490.50"
+        },
+        "cost": 0.002006
+      },
+      {
+        "doc_id": "IOCL-Credit-Note-pdf_page_1_png.rf.b0cbeed7ed37a743e183a47470261c18.jpg",
+        "ground_truth": {
+          "amount_in_words": "Two lac forty-three thousand",
+          "invoice_date": "06-03-2023",
+          "invoice_number": "764379983"
+        },
+        "predicted": {
+          "invoice_number": "7643799944",
+          "invoice_date": "06-03-2023",
+          "total_amount": "243000.00",
+          "gst_number": "15AAACH1910M3D"
+        },
+        "cost": 0.001621
+      },
+      {
+        "doc_id": "2022399-pdf_page_1_png.rf.477a12f5322b0d46eeda082d5083cdcb.jpg",
+        "ground_truth": {
+          "invoice_date": "03/11/2017",
+          "invoice_number": "2022338",
+          "total_amount": "7489.95"
+        },
+        "predicted": {
+          "invoice_number": "2025B - 0017097",
+          "invoice_date": "08/1",
+          "gst_number": "07AABCT5055K1Z0"
+        },
+        "cost": 0.001866
+      },
+      {
+        "doc_id": "Class-I-9-pdf_page_1_png.rf.22f61adc06d9897727bb5f918f343996.jpg",
+        "ground_truth": {
+          "amount_in_words": "Seven Thousand Two Hundred Fourtyone Only",
+          "cgst": "552.25",
+          "initial_total_amount": "6136.08",
+          "invoice_date": "22/07/2022",
+          "invoice_number": "CR-258/22-23",
+          "round_off": "0.42",
+          "sgst": "552.25",
+          "total_amount": "7,241.00"
+        },
+        "predicted": {
+          "invoice_number": "CR-258/23-33",
+          "invoice_date": "23/07/2022",
+          "ack_no": "41400096611",
+          "ack_date": "13/07/2022",
+          "total_amount": "7,241.00",
+          "amount_in_words": "Seven Thousand Two Hundred Forty One Only"
+        },
+        "cost": 0.002061
+      },
+      {
+        "doc_id": "3275056417-pdf_page_1_png.rf.03b498af37f3200148568564b1fba144.jpg",
+        "ground_truth": {
+          "amount_in_words": "Indian Rupees Ten Thousand One Hundred Sixty Only",
+          "cgst": "774.90",
+          "invoice_date": "22-Jun-23",
+          "invoice_number": "ABC/0369/23 - 24",
+          "round_off": "0.20",
+          "sgst": "774.90",
+          "total_amount": "10,160.00"
+        },
+        "predicted": {
+          "gst_number": "33AGAPB9665HZD",
+          "invoice_number": "ABC/0369/23 - 24",
+          "invoice_date": "30-Jun-23",
+          "cin_no": "U54143TN2022",
+          "initial_total_amount": "\u20b9 10,160.00",
+          "cgst": "774.90",
+          "sgst": "774.90",
+          "round_off": "0.20",
+          "amount_in_words": "Indian Rupees One Thousand Five Hundred Forty Nine and Eighty paise Only"
+        },
+        "cost": 0.002761
+      },
+      {
+        "doc_id": "Raw-Material-9-pdf_page_1_png.rf.b08214a32eb83a1af34d61716be0b3e5.jpg",
+        "ground_truth": {
+          "amount_in_words": "Thirty Lakh Twenty-Six Thousand Seven Hundred only",
+          "cin_no": "L24117RJ1991PLC006307",
+          "igst": "461700.00",
+          "initial_total_amount": "2565000.00",
+          "invoice_date": "04-MAR-23",
+          "invoice_number": "2310203",
+          "total_amount": "3026700.00"
+        },
+        "predicted": {
+          "invoice_number": "2310203",
+          "invoice_date": "10/03/2023",
+          "ack_no": "GRN71XXAAPPT0266Z2",
+          "gst_number": "08AAACR5055H1Z0",
+          "initial_total_amount": "2665000.00",
+          "sgst": "481700.00",
+          "cgst": "481700.00",
+          "total_amount": "3628400.00",
+          "amount_in_words": "Thirty Lakh Twenty-Six Thousand Seven Hundred only"
+        },
+        "cost": 0.002691
+      },
+      {
+        "doc_id": "Globe-International-Carriers-Ltd-pdf_page_1_png.rf.d09032efa76e70868d30456ae85b6812.jpg",
+        "ground_truth": {
+          "amount_in_words": "Nil One Lac Seventeen Thousands Seventy Two Only",
+          "igst": "5,853.60",
+          "invoice_date": "22/03/2023",
+          "invoice_number": "JPR22M002279",
+          "total_amount": "1,17,072.00"
+        },
+        "predicted": {
+          "invoice_number": "JPR22M002279",
+          "invoice_date": "22/03/2023",
+          "gst_number": "08AAACG5055K1Z0",
+          "initial_total_amount": "1,67,072.60",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "1,833.68",
+          "total_amount": "3189"
+        },
+        "cost": 0.002516
+      },
+      {
+        "doc_id": "4519044542_2222600889_jpg.rf.075b83fc84829fb835f61c9cd6335238.jpg",
+        "ground_truth": {
+          "amount_in_words": "SIX LAKH EIGHTY FOUR THOUSAND SIX HUNDRED SIXTY Rupees THIRTY SIX Paise",
+          "cin_no": "U29299MH1996PTC102506",
+          "gst_number": "27AADCS2490L1Z0",
+          "igst": "194,439.72",
+          "initial_total_amount": "580,220.64",
+          "invoice_date": "21.03.2023",
+          "invoice_number": "2222600889",
+          "total_amount": "684,660.36"
+        },
+        "predicted": {
+          "invoice_number": "222888989",
+          "invoice_date": "21.03.2023",
+          "gst_number": "29AACCD8961H1Z2",
+          "initial_total_amount": "580,220.64",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "104,439.72",
+          "total_amount": "684,660.36"
+        },
+        "cost": 0.002371
+      },
+      {
+        "doc_id": "4519029573_22ING4084_jpg.rf.ee3d7aaaaa1b17fae36c4dad8aa20f5f.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Two Lakh(s) Eleven Thousand Six Hundred Seventy Eight Only",
+          "gst_number": "29AAACU9610J1Z2",
+          "igst": "10079.90",
+          "initial_total_amount": "201597.90",
+          "invoice_date": "not visible",
+          "invoice_number": "THING-084",
+          "round_off": "0.21",
+          "total_amount": "211678"
+        },
+        "predicted": {
+          "invoice_number": "2019546",
+          "sgst": "10370",
+          "cgst": "10370",
+          "round_off": "4216",
+          "total_amount": "21538",
+          "initial_total_amount": "518"
+        },
+        "cost": 0.001941
+      },
+      {
+        "doc_id": "Export-1-pdf_page_1_png.rf.e11681a841e6947db3fbd819c48f8403.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Thousand Indian Rupees Only",
+          "gst_number": "27AACR9011K1ZB",
+          "invoice_date": "15-Sep-21",
+          "invoice_number": "487R2122",
+          "total_amount": "1,000.00"
+        },
+        "predicted": {
+          "invoice_number": "BH7232411712",
+          "invoice_date": "18-Sep-21",
+          "gst_number": "27AACH1530L1ZQ",
+          "initial_total_amount": "1,000.00",
+          "total_amount": "1,000.00 Rs."
+        },
+        "cost": 0.001841
+      },
+      {
+        "doc_id": "Class-I-1-Samples-12-pdf_page_1_png.rf.00de26c725ac5b0e1b6a318bbfc6deb8.jpg",
+        "ground_truth": {
+          "ack_date": "2022-11-17 15:58:00",
+          "ack_no": "142211922129569",
+          "igst": "110250",
+          "initial_total_amount": "612500",
+          "total_amount": "722750"
+        },
+        "predicted": {
+          "gst_number": "09AANCA3776B1ZK",
+          "ack_no": "142231922129568",
+          "ack_date": "2023-11-17 15:58:00",
+          "invoice_number": "AGC/22-23/00287",
+          "invoice_date": "17/11/2022",
+          "initial_total_amount": "722750",
+          "total_amount": "722750"
+        },
+        "cost": 0.002291
+      },
+      {
+        "doc_id": "Import-6-pdf_page_1_png.rf.48e5375a65be9cdb33186e4da12a7469.jpg",
+        "ground_truth": {
+          "gst_number": "27AAACO2356G1ZL",
+          "invoice_date": "16-Jan-23",
+          "invoice_number": "23BOMFIS0005326"
+        },
+        "predicted": {
+          "invoice_number": "23BOMFIS0005326",
+          "invoice_date": "16-JAN-23",
+          "gst_number": "27AABCT6039R1Z0",
+          "cgst": "9,79,671.00",
+          "sgst": "9,79,671.00",
+          "total_amount": "65,50,000.00"
+        },
+        "cost": 0.002066
+      },
+      {
+        "doc_id": "2004143-pdf_page_2_png.rf.23f4c170e04df1e562e84288a16f8b82.jpg",
+        "ground_truth": {
+          "igst": "1138743.70",
+          "initial_total_amount": "27990782.10",
+          "total_amount": "5363525.98"
+        },
+        "predicted": {
+          "invoice_number": "2608004976",
+          "invoice_date": "28/04/1-12/03/2008"
+        },
+        "cost": 0.001716
+      },
+      {
+        "doc_id": "DSINV2023241710-pdf_page_2_png.rf.3bec13ba3d9ad7fd7c39d288aee6750e.jpg",
+        "ground_truth": {
+          "igst": "343266.11",
+          "invoice_date": "07.05.2023",
+          "invoice_number": "2714004898"
+        },
+        "predicted": {
+          "invoice_number": "2714004898",
+          "invoice_date": "07.05.2023",
+          "ack_no": "5b6d130fcd94b6ba0656b8c20da4b2dc74bc34927888ef3f64f255184b67b25",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "18.00",
+          "total_amount": "2750300.00"
+        },
+        "cost": 0.002316
+      },
+      {
+        "doc_id": "Rama-Engineering-Works-pdf_page_1_png.rf.34c32fae603e98b92fdcf8fe12bd2fee.jpg",
+        "ground_truth": {
+          "amount_in_words": "RUPEES Nine Thousand Four Hundred Forty Only",
+          "cgst": "720.00",
+          "invoice_date": "1-Mar-2023",
+          "invoice_number": "REW/2022-23/214",
+          "sgst": "720.00",
+          "total_amount": "9,440.00"
+        },
+        "predicted": {
+          "invoice_number": "REW2022-23/214",
+          "invoice_date": "1-Mar-2023",
+          "cgst": "720.00",
+          "sgst": "720.00",
+          "total_amount": "9,440.00",
+          "amount_in_words": "RUPEES One Thousand Four Hundred Forty Only"
+        },
+        "cost": 0.002056
+      },
+      {
+        "doc_id": "DSINV2023241706-pdf_page_1_png.rf.007982fb19ca973b3ef287db65860415.jpg",
+        "ground_truth": {
+          "gst_number": "27AABCT1029L1ZC",
+          "invoice_date": "17.04.2023",
+          "invoice_number": "2714003987"
+        },
+        "predicted": {
+          "invoice_number": "2714003987",
+          "invoice_date": "17.04.2023",
+          "ack_no": "bd53c1949d7732121f389c20d90b605ba864bda997f7cdbbf8d9e51495676e8",
+          "gst_number": "27AABCT6928LIC"
+        },
+        "cost": 0.001781
+      },
+      {
+        "doc_id": "4519026520_22017672_jpg.rf.9fe8a741e7e9810d07632a2ee80f3fe5.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Thirty Two Lakh Seventy Nine Thousand Six Hundred Fifty Nine Only",
+          "cin_no": "U35900PB2008PLC034755",
+          "gst_number": "29AAACL9861H1Z2",
+          "igst": "351392.06",
+          "initial_total_amount": "2928267.20",
+          "invoice_date": "15.03.2023",
+          "invoice_number": "Invoice No 6 Date:20017673/15.03.2023",
+          "total_amount": "3279659"
+        },
+        "predicted": {
+          "invoice_number": "2301732/16.02.2023",
+          "invoice_date": "16.02.2023",
+          "cin_no": "U85100DP2009PLC034750",
+          "gst_number": "29AADCT9861N1Z2",
+          "initial_total_amount": "2928267.20",
+          "igst": "351392.06",
+          "total_amount": "3279659",
+          "amount_in_words": "Rupees Thirty Two Lakh Seventy Nine Thousand Six Hundred Fifty Nine Only"
+        },
+        "cost": 0.002576
+      },
+      {
+        "doc_id": "Spheres-5-pdf_page_3_png.rf.ea1af5e690de35e9933113957e6cec73.jpg",
+        "ground_truth": {
+          "invoice_date": "30.03.2022",
+          "invoice_number": "210356-410",
+          "total_amount": "USD 47.560,48"
+        },
+        "predicted": {
+          "invoice_number": "210356-410",
+          "invoice_date": "30.03.2022",
+          "gst_number": "27AACCH1530L1ZQ",
+          "total_amount": "47,560.48"
+        },
+        "cost": 0.001641
+      },
+      {
+        "doc_id": "5200018768-pdf_page_1_png.rf.deae84e4a7d667189678e09d48251492.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Forty Six Thousand Twenty Only",
+          "cgst": "3,510.00",
+          "invoice_date": "25-Feb-2023",
+          "invoice_number": "188",
+          "sgst": "3,510.00",
+          "total_amount": "\u20b946,020.00"
+        },
+        "predicted": {
+          "invoice_number": "AAIPU0662023",
+          "invoice_date": "03-05-2023",
+          "cgst": "3,510.00",
+          "sgst": "3,510.00",
+          "initial_total_amount": "39,000.00",
+          "total_amount": "46,020.00",
+          "gst_number": "09B7Z1V55R"
+        },
+        "cost": 0.002196
+      },
+      {
+        "doc_id": "2006670-pdf_page_3_png.rf.59f585ce95c14f135e12aedd2c3e3fc4.jpg",
+        "ground_truth": {
+          "invoice_date": "27/03/2019",
+          "invoice_number": "SE2/Invoice Recurso \u2116 3610809565193",
+          "total_amount": "2,005,084.00"
+        },
+        "predicted": {
+          "invoice_number": "not clearly visible",
+          "invoice_date": "not clearly visible",
+          "gst_number": "not clearly readable in image"
+        },
+        "cost": 0.001951
+      },
+      {
+        "doc_id": "Class-VI-1-pdf_page_1_png.rf.0b28ac531b394a10fa3a8f3023fbf440.jpg",
+        "ground_truth": {
+          "invoice_date": "June 18, 2021",
+          "invoice_number": "PSF/BM/INV/0580",
+          "total_amount": "28,950.00"
+        },
+        "predicted": {
+          "invoice_number": "NOT CLEARLY VISIBLE",
+          "invoice_date": "NOT CLEARLY VISIBLE",
+          "initial_total_amount": "\u20b938.80"
+        },
+        "cost": 0.002251
+      },
+      {
+        "doc_id": "Logistics-3-pdf_page_3_png.rf.cd9fb3e456b81f9e28a52b7a139a3ee5.jpg",
+        "ground_truth": {
+          "amount_in_words": "RUPEES SEVENTEEN THOUSAND SEVEN HUNDRED AND ZERO PAISE ONLY",
+          "invoice_date": "25-03-2023",
+          "invoice_number": "IMH0PCPKI0071250",
+          "total_amount": "17700.00"
+        },
+        "predicted": {
+          "invoice_number": "IMRF-EK070370",
+          "invoice_date": "25-03-2023",
+          "gst_number": "27AAGCU5033LAQ",
+          "ack_no": "AAA000764",
+          "ack_date": "25-03-2023"
+        },
+        "cost": 0.001856
+      },
+      {
+        "doc_id": "DSINV2023241699-pdf_page_3_png.rf.15d290ac27399f8ddd633b4557276e79.jpg",
+        "ground_truth": {
+          "igst": "314895.41",
+          "invoice_date": "01.05.2023",
+          "invoice_number": "2714004689"
+        },
+        "predicted": {
+          "invoice_number": "2714004689",
+          "invoice_date": "01.05.2023",
+          "ack_no": "80f6eb802cf22ee4ab8dbab8b5ae4a99f65ade542cbc5103f203644d5d66613"
+        },
+        "cost": 0.001571
+      },
+      {
+        "doc_id": "DSINV2023241698-pdf_page_1_png.rf.9308ca22f9ab2a6eff9710e13e215dbc.jpg",
+        "ground_truth": {
+          "gst_number": "27AABCT1029L1ZC",
+          "invoice_date": "07.05.2023",
+          "invoice_number": "2714004900"
+        },
+        "predicted": {
+          "invoice_number": "2714004900",
+          "invoice_date": "07.05.2023",
+          "gst_number": "27AAGCT0291ITC"
+        },
+        "cost": 0.001436
+      },
+      {
+        "doc_id": "2004651-pdf_page_1_png.rf.3f6f1d093d49fa3a5aee394d8309f322.jpg",
+        "ground_truth": {
+          "invoice_date": "26/03/2018",
+          "invoice_number": "2034651",
+          "total_amount": "9709358.36"
+        },
+        "predicted": {
+          "invoice_number": "20461 / 16027019",
+          "invoice_date": "16/17 FY",
+          "ack_no": "1042",
+          "ack_date": "23-12-2016"
+        },
+        "cost": 0.001621
+      },
+      {
+        "doc_id": "4811127923-pdf_page_1_png.rf.5f51363619b9e134ade7f932c06d3e29.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Four Thousand Four Hundred Ten Only",
+          "invoice_date": "6-May-23",
+          "invoice_number": "VD/23-24/088",
+          "total_amount": "4,410.00"
+        },
+        "predicted": {
+          "invoice_number": "VD23340808",
+          "invoice_date": "6-May-23",
+          "amount_in_words": "INR Four Thousand Four Hundred Ten Only",
+          "total_amount": "\u20b9 4,410.00"
+        },
+        "cost": 0.001671
+      },
+      {
+        "doc_id": "Store-7-pdf_page_1_png.rf.107179fc3bdddaca0b3789eb79ba6a5d.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR One Lakh Eighty Two Thousand Six Hundred Sixty Four Only",
+          "cgst": "13,932.00",
+          "cin_no": "U31909MH1986PTC100079",
+          "gst_number": "27AAACE3923D1ZQ",
+          "invoice_date": "25-Feb-23",
+          "invoice_number": "ESPL/22-23/579",
+          "sgst": "13,932.00",
+          "total_amount": "1,82,664.00"
+        },
+        "predicted": {
+          "invoice_number": "ESP/22/23/79",
+          "invoice_date": "12-01-23",
+          "initial_total_amount": "1,64,800.00",
+          "sgst": "13,932.00",
+          "cgst": "13,932.00",
+          "total_amount": "1,82,664.00",
+          "gst_number": "27AAACH1530L1ZQ",
+          "amount_in_words": "INR One Lakh Eighty Two Thousand Six Hundred Sixty Four Only"
+        },
+        "cost": 0.002746
+      },
+      {
+        "doc_id": "DSINV2023241709-pdf_page_3_png.rf.8fb29d333360afaf60fa9536a1225a28.jpg",
+        "ground_truth": {
+          "amount_in_words": "FIFTEEN LAKH SEVEN THOUSAND FOUR HUNDRED THIRTY FIVE Rupees TWO Paise",
+          "igst": "63341.19",
+          "invoice_date": "27.03.2023",
+          "invoice_number": "2714003193",
+          "total_amount": "1507435.02"
+        },
+        "predicted": {
+          "invoice_number": "2714003193",
+          "invoice_date": "27.03.2023",
+          "ack_no": "6df81594e89d75dcfccBb9a258c8ab5ef55e45527a191228535575a8464063ede",
+          "total_amount": "1507435.02",
+          "amount_in_words": "FIFTEEN LAKH SEVEN THOUSAND FOUR HUNDRED THIRTY FIVE Rupees 00 Paise"
+        },
+        "cost": 0.002091
+      },
+      {
+        "doc_id": "4518994058_22ING4121_jpg.rf.5501e25df61656e9f40f09b064358cf4.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees One Lakh(s) Seventy Nine Thousand Six Hundred Twenty Six Only",
+          "gst_number": "33AAJCS7810A1Z2",
+          "igst": "8553.60",
+          "initial_total_amount": "171072.00",
+          "invoice_date": "31/07/2023",
+          "invoice_number": "22ING4121",
+          "round_off": "0.40",
+          "total_amount": "179626"
+        },
+        "predicted": {
+          "invoice_number": "L5556/10/122",
+          "initial_total_amount": "17827.20",
+          "sgst": "1613.45",
+          "total_amount": "17829.48",
+          "round_off": "-0.68"
+        },
+        "cost": 0.001801
+      },
+      {
+        "doc_id": "Logistics-6-pdf_page_1_png.rf.726414c8a0dc534242fbc0564ee784c9.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR ONE LAKH THIRTY FOUR THOUSAND FOUR HUNDRED ONLY",
+          "cin_no": "U61100MH1993PTC071573",
+          "igst": "14,400.00",
+          "initial_total_amount": "120,000.00",
+          "invoice_date": "31/03/2023",
+          "invoice_number": "BST/22/MU-M/1435",
+          "total_amount": "134,400.00"
+        },
+        "predicted": {
+          "gst_number": "27AAACB2985L1ZC",
+          "cin_no": "U61100MH1993PTC073403",
+          "invoice_number": "BST/22/HL-H/1435",
+          "invoice_date": "31/03/2023",
+          "ack_no": "AAACB2985L1ZC",
+          "ack_date": "01/04/2023",
+          "sgst": "10,600.00",
+          "cgst": "10,600.00",
+          "total_amount": "1,17,800.00",
+          "initial_total_amount": "1,17,800.00",
+          "amount_in_words": "ONE LAKH THIRTY FOUR THOUSAND FOUR HUNDRED ONLY"
+        },
+        "cost": 0.003246
+      },
+      {
+        "doc_id": "DSINV2023241730-pdf_page_1_png.rf.a02d77d2c4248b9118c7731a1cedaf45.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Fifty One Thousand Two Hundred Fifty Nine Only",
+          "cin_no": "CIN NO:U21091MH1986PTC038916",
+          "gst_number": "GSTIN Number:27AAACS5364A1ZZ",
+          "igst": "7,819.20",
+          "initial_total_amount": "43,440.00",
+          "invoice_date": "16/05/2023",
+          "invoice_number": "548",
+          "total_amount": "51,259.00"
+        },
+        "predicted": {
+          "invoice_number": "SACT-04-2",
+          "invoice_date": "16-07-2023",
+          "gst_number": "33AAFCT5913F1Z5",
+          "sgst": "45,440.00",
+          "cgst": "45,440.00",
+          "initial_total_amount": "45,440.00",
+          "total_amount": "54,353.00",
+          "round_off": "-27.00",
+          "amount_in_words": "Rupees Fifty-One Thousand Two Hundred Eighty Nine Only."
+        },
+        "cost": 0.002661
+      },
+      {
+        "doc_id": "Shipping-5-pdf_page_1_png.rf.812ad7fd7f59b0bd7c84f2cba8cfd0e6.jpg",
+        "ground_truth": {
+          "ack_date": "3-Dec-22",
+          "ack_no": "122214981220721",
+          "amount_in_words": "Indian Rupees Thirty Two Thousand Four Hundred Eighty Only",
+          "cgst": "2,477.25",
+          "initial_total_amount": "27,525.00",
+          "invoice_date": "3-Dec-22",
+          "invoice_number": "6147/FRT2223",
+          "round_off": "0.50",
+          "sgst": "2,477.25",
+          "total_amount": "32,480.00"
+        },
+        "predicted": {
+          "invoice_number": "VS/2023/12223",
+          "invoice_date": "3-Dec-23",
+          "gst_number": "27AAGCR1330L1ZQ",
+          "total_amount": "27,585.00",
+          "amount_in_words": "Thirty Two Thousand Four Hundred Eighty Five"
+        },
+        "cost": 0.001951
+      },
+      {
+        "doc_id": "4519055736_2222600896_jpg.rf.db4aba1d23dadf6fc03d0fdefcbd2794.jpg",
+        "ground_truth": {
+          "amount_in_words": "ONE LAKH FORTY FIVE THOUSAND SIX HUNDRED SEVENTY SIX Rupees SIXTY SIX Paise",
+          "cin_no": "U29299MH1996PTC102506",
+          "gst_number": "27AADCS2490L1Z0",
+          "igst": "0.00",
+          "initial_total_amount": "123,454.80",
+          "invoice_date": "22.03.2023",
+          "invoice_number": "2222600896",
+          "total_amount": "145,676.66"
+        },
+        "predicted": {
+          "invoice_number": "2226088886",
+          "invoice_date": "22.03.2023",
+          "gst_number": "29AAACL9861H1Z2",
+          "cin_no": "U29100MH1996PTC102506",
+          "initial_total_amount": "123,454.80",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "total_amount": "145,676.66"
+        },
+        "cost": 0.002406
+      },
+      {
+        "doc_id": "4519009831_69DMO221487_jpg.rf.9f5fc218d80849755f1fa42bdefda823.jpg",
+        "ground_truth": {
+          "amount_in_words": "ONE HUNDRED TWENTY-SEVEN THOUSAND SEVEN HUNDRED FORTY-ONE",
+          "cgst": "0.000",
+          "gst_number": "33AACCK5533P1Z6",
+          "igst": "6,082.888",
+          "initial_total_amount": "1,21,657.75",
+          "invoice_date": "28 Feb 23",
+          "invoice_number": "69/DMO/22/1487",
+          "round_off": "0.00",
+          "sgst": "0.000",
+          "total_amount": "1,27,740.64"
+        },
+        "predicted": {
+          "invoice_number": "691930233487",
+          "invoice_date": "29 Feb 21",
+          "initial_total_amount": "1075",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "6,852.55/8",
+          "round_off": "0.00",
+          "total_amount": "1,27,248.64"
+        },
+        "cost": 0.002341
+      },
+      {
+        "doc_id": "Class-I-1-Samples-29-pdf_page_1_png.rf.ea80084e0f19bd11478a4661e22a5b84.jpg",
+        "ground_truth": {
+          "amount_in_words": "Fourty Seven thousand Five hundred Fourty nine only",
+          "cgst": "3626.64",
+          "initial_total_amount": "40296.00",
+          "invoice_date": "20/04/2021",
+          "invoice_number": "473",
+          "sgst": "3626.64",
+          "total_amount": "47549.00"
+        },
+        "predicted": {
+          "gst_number": "27AIOFB0896P1ZK",
+          "invoice_number": "173",
+          "invoice_date": "26/04/2024",
+          "cgst": "2626.64",
+          "sgst": "2626.64",
+          "total_amount": "47549.00"
+        },
+        "cost": 0.001971
+      },
+      {
+        "doc_id": "DSINV2023241745-pdf_page_2_png.rf.7abbccbfdc588b6ac63b59d128c817b2.jpg",
+        "ground_truth": {
+          "gst_number": "29AAJCA1167G1ZN",
+          "initial_total_amount": "47040.00",
+          "invoice_date": "13/05/23",
+          "invoice_number": "F15358IL24001900",
+          "total_amount": "47040.00"
+        },
+        "predicted": {
+          "invoice_date": "13/05/23",
+          "gst_number": "F16358IL24001800",
+          "cgst": "2520.00",
+          "sgst": "2520.00",
+          "total_amount": "47040.00",
+          "amount_in_words": "Rupees Forty-Seven Thousand Forty Only"
+        },
+        "cost": 0.002081
+      },
+      {
+        "doc_id": "Domestic-Freight-8-pdf_page_1_png.rf.d63172efacbd0f48db11e2190d48e419.jpg",
+        "ground_truth": {
+          "amount_in_words": "FOURTY SEVEN THOUSAND SEVEN HUNDERED SIXTY-SEVEN Rupees only",
+          "invoice_date": "08/04/2023",
+          "invoice_number": "08/2023",
+          "total_amount": "47767"
+        },
+        "predicted": {
+          "invoice_number": "08/2023",
+          "invoice_date": "08/04/2023",
+          "total_amount": "47767",
+          "amount_in_words": "FOURTY SEVEN THOUSAND SEVEN HUNDRED SIXTY-SEVEN; Rupees only"
+        },
+        "cost": 0.001671
+      },
+      {
+        "doc_id": "Import-10-pdf_page_2_png.rf.009fe92b210ee98ae7e44ce165c8753c.jpg",
+        "ground_truth": {
+          "cin_no": "L63010MH2004PLC073508",
+          "invoice_date": "20-09-2022",
+          "invoice_number": "MUM/2122/046715"
+        },
+        "predicted": {
+          "cin_no": "U67100MH2015PTC70598",
+          "invoice_number": "SMU007122HN47+1",
+          "invoice_date": "8/7/2022"
+        },
+        "cost": 0.001466
+      },
+      {
+        "doc_id": "DSINV2023241712-pdf_page_1_png.rf.61a89a6be0674f8b4709f897553a3b4c.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakh Forty Three Thousand Three Hundred Thirty Eight Rupees Forty Two Paise",
+          "cgst": "10,909.71",
+          "gst_number": "09AAACR5626A1ZH",
+          "initial_total_amount": "1,21,219.00",
+          "invoice_date": "09.03.2022",
+          "invoice_number": "1500012989",
+          "sgst": "10,909.71",
+          "total_amount": "1,43,038.42"
+        },
+        "predicted": {
+          "invoice_number": "1600012089",
+          "invoice_date": "09-03-2022",
+          "ack_no": "142211071008313",
+          "ack_date": "09-03-2022|14:38:00",
+          "gst_number": "09AAKCK0868F1ZX",
+          "cgst": "10,309.71",
+          "sgst": "10,309.71",
+          "amount_in_words": "One Lakh Forty Three Thousand Thirty Eight Rupees Forty Two Paise",
+          "total_amount": "143,038.42"
+        },
+        "cost": 0.002756
+      },
+      {
+        "doc_id": "2005965-pdf_page_1_png.rf.070b86259b499ef928eecff70bcfbc40.jpg",
+        "ground_truth": {
+          "invoice_date": "20 MAR 2019",
+          "invoice_number": "2019083892",
+          "total_amount": "65703.42"
+        },
+        "predicted": {
+          "invoice_number": "241340",
+          "invoice_date": "23/01/2024",
+          "ack_no": "241340835300",
+          "ack_date": "23/01/2024",
+          "gst_number": "27AABCU9203R1Z0",
+          "sgst": "838.00",
+          "cgst": "838.00",
+          "total_amount": "10676.00"
+        },
+        "cost": 0.002356
+      },
+      {
+        "doc_id": "4519017563_69DMO221528_jpg.rf.cb8c82ef25ccd6bb4d151b9cb19b92e9.jpg",
+        "ground_truth": {
+          "amount_in_words": "ONE LAKH NINETY SIX THOUSAND THREE HUNDRED AND EIGHT ONLY",
+          "gst_number": "33AACOK8332P1Z8",
+          "igst": "9,348.000",
+          "initial_total_amount": "1,86,960.00",
+          "invoice_date": "7 Mar 23",
+          "invoice_number": "49/DMO/22/1528",
+          "total_amount": "1,96,308.00"
+        },
+        "predicted": {
+          "invoice_number": "BYM0121528",
+          "invoice_date": "7 Mar 23",
+          "cgst": "570",
+          "sgst": "0.000",
+          "igst": "0.000",
+          "round_off": "0.00",
+          "total_amount": "1,36,568.00",
+          "gst_number": "29AACCK8110H2Z"
+        },
+        "cost": 0.002376
+      },
+      {
+        "doc_id": "DSINV2023241716-pdf_page_2_png.rf.1e565d4cb7386496f6dc92ead2d7e488.jpg",
+        "ground_truth": {
+          "amount_in_words": "NINE LAKH SEVENTY THREE THOUSAND SEVEN HUNDRED TWENTY TWO Rupees ONLY.",
+          "initial_total_amount": "825,188.00",
+          "total_amount": "973,722.00"
+        },
+        "predicted": {
+          "initial_total_amount": "825,188.00",
+          "cgst": "148,533.84",
+          "igst": "148,533.84",
+          "total_amount": "973,722.00",
+          "amount_in_words": "NINE LAKH SEVENTY THREE THOUSAND SEVEN HUNDRED TWENTY TWO Rupees ONLY."
+        },
+        "cost": 0.001916
+      },
+      {
+        "doc_id": "Shipping-3-pdf_page_5_png.rf.46704c94540ce520602841b252ab02be.jpg",
+        "ground_truth": {
+          "cgst": "8,546.71",
+          "initial_total_amount": "94,963.40",
+          "invoice_number": "5204928786",
+          "sgst": "8,546.71",
+          "total_amount": "112,056.82"
+        },
+        "predicted": {
+          "invoice_number": "5204928786",
+          "cgst": "94,963.40",
+          "sgst": "94,963.40",
+          "initial_total_amount": "94,963.40",
+          "total_amount": "112,056.82",
+          "cin_no": "U63630MH2011FTC214511"
+        },
+        "cost": 0.002116
+      },
+      {
+        "doc_id": "Class-VII-5-pdf_page_1_png.rf.8fdf8ee328d643500a0c68a988cded09.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakh Thirty Eight Thousand and Sixty Rupees Only",
+          "cgst": "10,530/-",
+          "gst_number": "27COAPB2421J1ZF",
+          "initial_total_amount": "1,17,000/-",
+          "invoice_date": "05/09/2022",
+          "invoice_number": "9",
+          "sgst": "10,530/-",
+          "total_amount": "1,38,060/-"
+        },
+        "predicted": {
+          "invoice_number": "18",
+          "invoice_date": "25.5.2022",
+          "gst_number": "24AAACI1550L1ZQ",
+          "cgst": "10,530/-",
+          "sgst": "10,530/-",
+          "initial_total_amount": "1,14,000-",
+          "total_amount": "1,35,060/-",
+          "amount_in_words": "One Lakh Thirty Five Thousand and Sixty Paise only"
+        },
+        "cost": 0.002446
+      },
+      {
+        "doc_id": "5200018766-pdf_page_1_png.rf.144d251fdc0ad9023852571c85771af0.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Five Thousand Five Hundred Forty Six Only",
+          "cgst": "423.00",
+          "initial_total_amount": "4,700.00",
+          "invoice_date": "25-Mar-2023",
+          "invoice_number": "225",
+          "sgst": "423.00",
+          "total_amount": "5,546.00"
+        },
+        "predicted": {
+          "invoice_number": "2023-23 / 235",
+          "invoice_date": "23-Mar-2023",
+          "gst_number": "04AIIMP2317SP1Z1",
+          "cgst": "423.00",
+          "sgst": "423.00",
+          "total_amount": "5,646.00",
+          "amount_in_words": "INR Eight Hundred Forty Six Only"
+        },
+        "cost": 0.002251
+      },
+      {
+        "doc_id": "Class-II-8-pdf_page_1_png.rf.8cb42ab325158455a76e0574d1649aa8.jpg",
+        "ground_truth": {
+          "amount_in_words": "RUPEES THIRTY-EIGHT LAKH NINETY-FIVE-THOUSAND NINE HUNDRED FORTY-SEVEN ONLY",
+          "gst_number": "06AAFCD5214M1ZG",
+          "igst": "594297.00",
+          "initial_total_amount": "3301650.00",
+          "invoice_date": "31-AUG-2022",
+          "invoice_number": "1012223006297",
+          "total_amount": "3895947.00"
+        },
+        "predicted": {
+          "gst_number": "10122230062297",
+          "invoice_date": "31-AUG-2022",
+          "invoice_number": "2629300412",
+          "cgst": "9.00",
+          "sgst": "9.00",
+          "total_amount": "3301650.00",
+          "initial_total_amount": "3885947.00",
+          "round_off": "18.00"
+        },
+        "cost": 0.002376
+      },
+      {
+        "doc_id": "3275056332-pdf_page_1_png.rf.3f9c874285cd4eb4e54165c61db6ba87.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupee Eighty Seven Thousand Five Hundred and Eighty Six only",
+          "cgst": "6680.25",
+          "initial_total_amount": "74225.00",
+          "invoice_date": "03-05-2023",
+          "invoice_number": "12310063",
+          "round_off": "0.50",
+          "sgst": "6680.25",
+          "total_amount": "87586.00"
+        },
+        "predicted": {
+          "invoice_number": "12310063",
+          "invoice_date": "03-05-2023",
+          "gst_number": "33AAGFS5332R1Z0",
+          "ack_no": "352314533891191",
+          "ack_date": "2023-05-03 18:08:00",
+          "initial_total_amount": "74225.00",
+          "sgst": "6680.25",
+          "cgst": "6680.25",
+          "total_amount": "187585.09",
+          "amount_in_words": "Rupees Eighty Seven Thousand Five Hundred and Eighty Five only"
+        },
+        "cost": 0.002881
+      },
+      {
+        "doc_id": "Logistics-4-pdf_page_1_png.rf.0e465b03e8cff0ea08b5a9496e6982e8.jpg",
+        "ground_truth": {
+          "amount_in_words": "ONE LAKH THREE THOUSAND FOUR HUNDRED EIGHTY EIGHT AND PAISE ZERO ONLY",
+          "invoice_date": "31-03-2023",
+          "invoice_number": "0000014598",
+          "total_amount": "103488.00"
+        },
+        "predicted": {
+          "invoice_number": "000041308",
+          "invoice_date": "31-05-2023",
+          "amount_in_words": "ONE LAMB THREE THOUSAND FOUR HUNDRED EIGHTY EIGHT AND PAISE ZERO ONLY"
+        },
+        "cost": 0.001626
+      },
+      {
+        "doc_id": "DSINV2023241701-pdf_page_1_png.rf.04521afb29da3cb438999a6d6bb71e30.jpg",
+        "ground_truth": {
+          "gst_number": "27AABCT1029L1ZC",
+          "invoice_date": "01.05.2023",
+          "invoice_number": "2714004687"
+        },
+        "predicted": {
+          "invoice_number": "2714004687",
+          "invoice_date": "01.05.2023",
+          "ack_no": "5bcd93735857cd7731af365a69cddb9cba092cc0f61784a920755edbd079522",
+          "gst_number": "27AAGCT9201J1C"
+        },
+        "cost": 0.001761
+      },
+      {
+        "doc_id": "Class-I-1-Samples-25-pdf_page_1_png.rf.24749c88f6d779c383a4990398e7d99a.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees INR Thirteen Thousand, Five Hundred And Forty Six only.",
+          "igst": "2,066.40",
+          "initial_total_amount": "10,980.00",
+          "invoice_date": "22-03-2021",
+          "invoice_number": "EF/29-21/5148",
+          "total_amount": "13,546.80"
+        },
+        "predicted": {
+          "invoice_number": "EPC/2-0159-48",
+          "gst_number": "27AABCE6401R1Z0",
+          "initial_total_amount": "10,000.00",
+          "sgst": "900.00",
+          "cgst": "900.00",
+          "amount_in_words": "Eleven Thousand Eight Hundred Only",
+          "total_amount": "11,800.00"
+        },
+        "cost": 0.002261
+      },
+      {
+        "doc_id": "Class-I-1-Samples-4-pdf_page_1_png.rf.792d2ff1e984b280360d55a785bb465c.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Three Lakh Eighty One Thousand Five Hundred Forty Eight And Paisa Fifty Six Only",
+          "cin_no": "U21000MH2010PTC202932",
+          "initial_total_amount": "340413.00",
+          "invoice_date": "12/03/2021",
+          "invoice_number": "005391",
+          "total_amount": "381548.56"
+        },
+        "predicted": {
+          "invoice_number": "DIS301",
+          "invoice_date": "12/03/2021",
+          "gst_number": "27AADCH4039D1Z0",
+          "initial_total_amount": "34943.00",
+          "cgst": "2924.78",
+          "sgst": "2924.78",
+          "total_amount": "39146.56",
+          "round_off": "0.00",
+          "amount_in_words": "Rupees Thirty Nine Thousand One Hundred Forty Six And Fifty Six Paise Only"
+        },
+        "cost": 0.002711
+      },
+      {
+        "doc_id": "Jain-Industrial-Corporation-pdf_page_1_png.rf.35586d6f5a99f0f974b4e190ff4c2e82.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakh Sixteen Thousand Three Hundred Forty Eight",
+          "gst_number": "07AFGPJ7740BIZP",
+          "initial_total_amount": "98600",
+          "total_amount": "116348"
+        },
+        "predicted": {
+          "invoice_number": "884",
+          "gst_number": "07AB1PQ3774R2Z",
+          "cgst": "17748",
+          "sgst": "17748",
+          "initial_total_amount": "176840",
+          "total_amount": "212336",
+          "amount_in_words": "One Lakh Twelve Thousand Three Hundred Thirty Six"
+        },
+        "cost": 0.002181
+      }
+    ]
+  },
+  "gpt4o-mini": {
+    "model_id": "gpt-4o-mini",
+    "scorer_result": {
+      "n_gt": 554,
+      "n_pred": 599,
+      "n_recovered": 169,
+      "n_joint_correct": 167,
+      "n_misbindings": 2,
+      "n_duplicates": 7,
+      "rec_val": 0.305054,
+      "cba_cond": 0.988166,
+      "acc_joint": 0.301444,
+      "delta": 0.00361,
+      "precision": 0.278798,
+      "dup_rate": 0.011686,
+      "f1_joint": 0.289679
+    },
+    "documents": [
+      {
+        "doc_id": "Khaitan-_-Co-pdf_page_1_png.rf.8763e7c1a49bda336f22864aa83d2a8d.jpg",
+        "ground_truth": {
+          "ack_date": "27-Mar-2023",
+          "ack_no": "182313289743542",
+          "amount_in_words": "Indian Rupee One Lakh Fifty-Two Thousand Five Hundred Only",
+          "gst_number": "19AAGFK5459H1ZY",
+          "invoice_date": "27-Mar-2023",
+          "invoice_number": "KLP2223B02840",
+          "total_amount": "152,500"
+        },
+        "predicted": {
+          "invoice_number": "KLP2232082840",
+          "invoice_date": "27-Mar-2023",
+          "ack_date": "27-Mar-2023",
+          "gst_number": "19AAGHFS5491H12Y",
+          "total_amount": "12,500",
+          "amount_in_words": "One Lakh Fifty-Two Thousand Five Hundred Only"
+        },
+        "cost": 0.0024816
+      },
+      {
+        "doc_id": "2004143-pdf_page_4_png.rf.a3d25f9cf2644b6b4c75bfe8880c1cf0.jpg",
+        "ground_truth": {
+          "igst": "1138743.70",
+          "initial_total_amount": "2756782.10",
+          "total_amount": "3895525.98"
+        },
+        "predicted": {
+          "total_amount": "365656.99"
+        },
+        "cost": 0.0023742
+      },
+      {
+        "doc_id": "Class-II-6-pdf_page_1_png.rf.ffdcc55f2b531006753194f6b5ae8aee.jpg",
+        "ground_truth": {
+          "ack_date": "21/11/2022 05:01:00 PM",
+          "ack_no": "142211936338854",
+          "amount_in_words": "NINETEEN THOUSAND SEVEN HUNDRED SEVENTY FOUR RUPEES AND ZERO PAISA ONLY",
+          "cin_no": "U74999DL2002PTC116434",
+          "igst": "3616.44",
+          "initial_total_amount": "15960.00",
+          "invoice_date": "21-11-2022",
+          "invoice_number": "TI-2223/05422",
+          "round_off": "-0.44",
+          "total_amount": "19774.00"
+        },
+        "predicted": {
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "1996.00",
+          "amount_in_words": "NINETEEN THOUSAND SEVEN HUNDRED SEVENTY FOUR RUPEES AND ZERO PAISA ONLY",
+          "invoice_number": "T1-322/05942",
+          "invoice_date": "23-11-2022",
+          "gst_number": "09AAECA8325R1Z1",
+          "cin_no": "U29299UP2002PTC126434",
+          "total_amount": "19896.00",
+          "round_off": "0.00"
+        },
+        "cost": 0.0025578
+      },
+      {
+        "doc_id": "2004028-pdf_page_1_png.rf.316fc5ca026861dc91db5374ca31cad3.jpg",
+        "ground_truth": {
+          "invoice_date": "11/02/2020",
+          "invoice_number": "20904028",
+          "total_amount": "55,416"
+        },
+        "predicted": {
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "0.00",
+          "invoice_number": "200928492295",
+          "invoice_date": "11/01/2023",
+          "gst_number": "27AAHFD2094D1Z5",
+          "total_amount": "2,441.56",
+          "initial_total_amount": "2,441.56",
+          "amount_in_words": "Two Thousand Four Hundred Forty-One Rupees and Fifty-Six Paise"
+        },
+        "cost": 0.0040368
+      },
+      {
+        "doc_id": "3275056406-pdf_page_4_png.rf.9307a7fbb0cd249fc43d9116e46ff160.jpg",
+        "ground_truth": {
+          "cgst": "2,352.00",
+          "initial_total_amount": "39,200.00",
+          "invoice_date": "09-JUN-2023",
+          "invoice_number": "ICBC10271",
+          "sgst": "0.00"
+        },
+        "predicted": {
+          "cgst": "2,352.00",
+          "sgst": "2,352.00",
+          "initial_total_amount": "39,200.00",
+          "total_amount": "44,904.00",
+          "gst_number": "33AABCI2732H1ZZ",
+          "invoice_number": "ICBC102071",
+          "invoice_date": "09-JUN-2023"
+        },
+        "cost": 0.003996
+      },
+      {
+        "doc_id": "Class-II-4-pdf_page_3_png.rf.d4dd451219db6a657c13a4fb26218388.jpg",
+        "ground_truth": {
+          "ack_date": "25-08-2022 04:14 PM",
+          "ack_no": "162212333645138",
+          "invoice_date": "25-08-2022",
+          "invoice_number": "469"
+        },
+        "predicted": {
+          "gst_number": "26AAACC5746C1ZT",
+          "invoice_number": "456",
+          "invoice_date": "25-08-2022",
+          "ack_no": "Regular",
+          "ack_date": "D30D3036967",
+          "cin_no": "Daman DADRA AND NAGAR HAVELI 396210"
+        },
+        "cost": 0.00399
+      },
+      {
+        "doc_id": "DSINV2023241725-PDF_page_6_png.rf.e8b537d2271d21ed067801fb96d41438.jpg",
+        "ground_truth": {
+          "ack_no": "182313602690557",
+          "cgst": "32671.08",
+          "gst_number": "19AAECC2713N1ZH",
+          "initial_total_amount": "363012.00",
+          "invoice_date": "15-05-2023",
+          "invoice_number": "6888493792",
+          "sgst": "32671.08",
+          "total_amount": "428354.16"
+        },
+        "predicted": {
+          "initial_total_amount": "369712.00",
+          "total_amount": "428354.16",
+          "gst_number": "19AECJ2023N1ZJ",
+          "invoice_number": "6889439793 15-05-2023",
+          "ack_no": "aitdc460589ef19b773a0c44e621be6d5f7e706b2501fcf236b18fa3fa",
+          "ack_date": "15-05-2023 17:52:00"
+        },
+        "cost": 0.0040032
+      },
+      {
+        "doc_id": "The-Net-pdf_page_1_png.rf.a8c3894ca94829d755e9a6c8c5dc8950.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Nine Thousand Six Hundred and Thirty One Only",
+          "cgst": "734.58",
+          "gst_number": "19AAFCD5214M1ZG",
+          "initial_total_amount": "8162.00",
+          "invoice_date": "31.03.23",
+          "invoice_number": "Bill No-243/22-23",
+          "round_off": "-0.16",
+          "sgst": "734.58",
+          "total_amount": "9631.00"
+        },
+        "predicted": {
+          "cgst": "816.20",
+          "sgst": "816.20",
+          "total_amount": "9161.60",
+          "amount_in_words": "Rupees Nine Thousand Six Hundred and Thirty One Only",
+          "invoice_number": "HAL2324068587",
+          "invoice_date": "31.03.23",
+          "gst_number": "18AAFFC1024M1ZG"
+        },
+        "cost": 0.0040116
+      },
+      {
+        "doc_id": "Domestic-Freight-2-pdf_page_1_png.rf.695053d9cf81abbd149fce4a41fca05d.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakh Eighty Two Thousand Nine Hundred Twenty Eight only",
+          "cin_no": "U63020TG2011PTC073074",
+          "gst_number": "27AAACI5301LZQ",
+          "invoice_date": "08-04-2023",
+          "invoice_number": "NGP-0001195",
+          "total_amount": "182928.00"
+        },
+        "predicted": {
+          "gst_number": "27AAFCI5301L2Z0",
+          "invoice_number": "BUT2324117233",
+          "invoice_date": "08-04-2023",
+          "total_amount": "18228.00",
+          "amount_in_words": "One Lakh Eighty Two Thousand Nine Hundred Twenty Eight only"
+        },
+        "cost": 0.0039648
+      },
+      {
+        "doc_id": "JF01221000475-pdf_page_2_png.rf.74df01731c7232318b1d6c85e219b9ea.jpg",
+        "ground_truth": {
+          "cin_no": "U40102GJ2003SGC042908",
+          "gst_number": "24AADCP1453C1Z2",
+          "total_amount": "17366.54"
+        },
+        "predicted": {
+          "gst_number": "24AADCP1453C1Z2",
+          "total_amount": "13136.54"
+        },
+        "cost": 0.0039018
+      },
+      {
+        "doc_id": "2005010-pdf_page_3_png.rf.d1601e81cf9fdb0599efa45d00df3822.jpg",
+        "ground_truth": {
+          "invoice_date": "07/03/2018",
+          "invoice_number": "INAECELTA-IN/2018007034883",
+          "total_amount": "162501.12"
+        },
+        "predicted": {
+          "gst_number": "19XXXXXXXXX1Z5",
+          "initial_total_amount": "118048"
+        },
+        "cost": 0.0038994
+      },
+      {
+        "doc_id": "4519012937_IF1D416422-23_jpg.rf.89281e267bada9f7c207cbee94a8441b.jpg",
+        "ground_truth": {
+          "amount_in_words": "Two Lakhs Five Thousand Five Hundred Thirty Eight Only",
+          "gst_number": "33AAACI2706C1ZC",
+          "invoice_date": "27/03/2023",
+          "invoice_number": "IF1/D4184/22-23",
+          "total_amount": "205538"
+        },
+        "predicted": {
+          "gst_number": "29AAACZ2708C1Z2",
+          "invoice_number": "JF/1D416422-23",
+          "invoice_date": "27/02/2023",
+          "total_amount": "205538",
+          "amount_in_words": "Two Lakhs Five Hundred Thirty Five Only"
+        },
+        "cost": 0.0039636
+      },
+      {
+        "doc_id": "Pannu-Enterprises-pdf_page_1_png.rf.effab41e49ad9a2c7b73d5f274dee92a.jpg",
+        "ground_truth": {
+          "cgst": "34420",
+          "gst_number": "06AUMPK7731Q1ZV",
+          "initial_total_amount": "382448",
+          "invoice_date": "31/03/23",
+          "invoice_number": "651",
+          "sgst": "34420",
+          "total_amount": "451288"
+        },
+        "predicted": {
+          "cgst": "34,420",
+          "sgst": "34,420",
+          "initial_total_amount": "382,448",
+          "invoice_number": "651",
+          "invoice_date": "31/03/23",
+          "gst_number": "06AUMPK7731Q1ZV"
+        },
+        "cost": 0.0039714
+      },
+      {
+        "doc_id": "DSINV2023241700-pdf_page_3_png.rf.cb8a8a8bdec81c675707cb947ae7dc82.jpg",
+        "ground_truth": {
+          "igst": "314895.41",
+          "invoice_date": "01.05.2023",
+          "invoice_number": "2714004688"
+        },
+        "predicted": {
+          "invoice_number": "2714004688",
+          "invoice_date": "01.05.2023",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "0.00",
+          "total_amount": "26341.91",
+          "initial_total_amount": "174919.00"
+        },
+        "cost": 0.0039894
+      },
+      {
+        "doc_id": "Class-I-2-pdf_page_1_png.rf.0ae5614be2d7416839784eaf6930c768.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Sixty Seven Thousand Seven Hundred Seventy Only",
+          "cgst": "5,168.88",
+          "invoice_date": "1-Jul-22",
+          "invoice_number": "65/22-23",
+          "round_off": "0.24",
+          "sgst": "5,168.88",
+          "total_amount": "67,770.00"
+        },
+        "predicted": {
+          "cgst": "5,168.88",
+          "sgst": "5,168.88",
+          "total_amount": "67,770.00",
+          "amount_in_words": "INR Sixty Seven Thousand Seven Hundred Seventy Only",
+          "invoice_number": "65/22-23",
+          "invoice_date": "1-Jul-22",
+          "gst_number": "27AAACI1530L1ZO",
+          "ack_no": "4095602185",
+          "ack_date": "29-Apr-22",
+          "initial_total_amount": "57,432.00"
+        },
+        "cost": 0.0040572
+      },
+      {
+        "doc_id": "Spheres-2-pdf_page_1_png.rf.78c0332a9076cde0c04cadd08531b8ae.jpg",
+        "ground_truth": {
+          "initial_total_amount": "8.590,00",
+          "invoice_date": "19.04.2022",
+          "invoice_number": "2R04098C",
+          "total_amount": "8.710,00"
+        },
+        "predicted": {
+          "invoice_number": "2R04098C",
+          "invoice_date": "19.04.2022"
+        },
+        "cost": 0.0039
+      },
+      {
+        "doc_id": "2013405-pdf_page_1_png.rf.7ee8842c2ac39edefafb719fa8af0598.jpg",
+        "ground_truth": {
+          "invoice_date": "30/07/2020",
+          "invoice_number": "2013405 - 30/07/2020",
+          "total_amount": "79159.10"
+        },
+        "predicted": {
+          "cgst": "2484.00",
+          "sgst": "2484.00",
+          "initial_total_amount": "12420.00",
+          "total_amount": "17400.00",
+          "invoice_number": "201734184-340701028",
+          "invoice_date": "4/1/23"
+        },
+        "cost": 0.0039744
+      },
+      {
+        "doc_id": "DSINV2023241697-pdf_page_3_png.rf.5e23574d7441a67395779f65b1ef7aec.jpg",
+        "ground_truth": {
+          "igst": "115024.85",
+          "invoice_date": "07.05.2023",
+          "invoice_number": "2714004902"
+        },
+        "predicted": {
+          "invoice_number": "2714004902",
+          "invoice_date": "07.05.2023",
+          "total_amount": "415680.99",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "0.00"
+        },
+        "cost": 0.0039708
+      },
+      {
+        "doc_id": "2002315-pdf_page_3_png.rf.f9f31c309e406471aad749b3d40dbb30.jpg",
+        "ground_truth": {
+          "invoice_date": "01/03/2018",
+          "invoice_number": "20C2315",
+          "total_amount": "602903.05"
+        },
+        "predicted": {
+          "invoice_number": "20220915-01910803",
+          "invoice_date": "15-09-2022",
+          "cin_no": "UJQ0214387",
+          "gst_number": "27AAAAA0000A1Z5",
+          "total_amount": "100000",
+          "initial_total_amount": "84645"
+        },
+        "cost": 0.0039768
+      },
+      {
+        "doc_id": "3275056327-pdf_page_1_png.rf.a3333ac840d83e401dc8f3123d6f1382.jpg",
+        "ground_truth": {
+          "cgst": "1,350.00",
+          "invoice_date": "29-Apr-2023",
+          "invoice_number": "0128/GST/2023-24",
+          "sgst": "1,350.00"
+        },
+        "predicted": {
+          "invoice_number": "0128/GST2023-24",
+          "invoice_date": "29-Apr-2023",
+          "gst_number": "33AAECP1680N1Z4",
+          "amount_in_words": "Indian Rupees Seventeen Thousand Seven Hundred Only",
+          "total_amount": "17,700.00",
+          "initial_total_amount": "2,700.00",
+          "cgst": "1,350.00",
+          "sgst": "1,350.00"
+        },
+        "cost": 0.0040212
+      },
+      {
+        "doc_id": "Class-VI-7-pdf_page_3_png.rf.8a4819ddbb30500b225486783fb9b1ba.jpg",
+        "ground_truth": {
+          "invoice_date": "30.09.2021",
+          "invoice_number": "PI-2021-207",
+          "total_amount": "8,498.00 EUR"
+        },
+        "predicted": {},
+        "cost": 0.0038622
+      },
+      {
+        "doc_id": "Class-V-4-pdf_page_1_png.rf.b1ea99c028406d9ff14276047daf5ee3.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rs. One Lakhs Forty Thousand Two Hundred Thirty-One Only",
+          "cgst": "1395.60",
+          "initial_total_amount": "118340.60",
+          "invoice_date": "07/10/2022",
+          "invoice_number": "184",
+          "round_off": "-0.20",
+          "sgst": "1395.60",
+          "total_amount": "140231.00"
+        },
+        "predicted": {
+          "igst": "0.00",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "invoice_number": "184",
+          "invoice_date": "07/10/2022",
+          "gst_number": "27AAHAC1593J1Z2",
+          "total_amount": "14203.29",
+          "initial_total_amount": "12019.00"
+        },
+        "cost": 0.0040086
+      },
+      {
+        "doc_id": "4519030538_22ING4022_jpg.rf.20e68f25e370b8b46ca0d5e7dae7df0c.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Five Lakh(s) Seventy Five Thousand Eight Hundred Fifty Four Only",
+          "gst_number": "33AAJCS7859A1ZI",
+          "igst": "27421.63",
+          "initial_total_amount": "548432.50",
+          "invoice_date": "17/03/2023",
+          "invoice_number": "23ING4825",
+          "round_off": "-4.13",
+          "total_amount": "575854"
+        },
+        "predicted": {
+          "amount_in_words": "Rupees Five Liability Seventy Five Hundred Fifty Four Only",
+          "invoice_number": "L5655154958",
+          "initial_total_amount": "8482.25",
+          "total_amount": "7584.00"
+        },
+        "cost": 0.0039432
+      },
+      {
+        "doc_id": "Store-5-pdf_page_1_png.rf.6a96d9ce593e53f5819371343d5b7c4a.jpg",
+        "ground_truth": {
+          "amount_in_words": "Indian Rupee Thirty-Five Thousand Four Hundred Only",
+          "cgst": "2,700.00",
+          "cin_no": "U74999MH2019PTC319145",
+          "initial_total_amount": "30,000.00",
+          "invoice_date": "22/03/2023",
+          "invoice_number": "22-23/0471",
+          "sgst": "2,700.00",
+          "total_amount": "\u20b935,400.00"
+        },
+        "predicted": {
+          "cgst": "2,700.00",
+          "sgst": "2,700.00",
+          "total_amount": "7, 540.00",
+          "initial_total_amount": "5,400.00",
+          "invoice_number": "BUT2223113646",
+          "invoice_date": "23/10/2022",
+          "gst_number": "27AAACH3512Q1Z8",
+          "ack_no": "Maharashtra"
+        },
+        "cost": 0.0040158
+      },
+      {
+        "doc_id": "Import-1-pdf_page_1_png.rf.782064971ffc977073352645093a00c1.jpg",
+        "ground_truth": {
+          "cgst": "463.50",
+          "initial_total_amount": "35,900.00",
+          "invoice_date": "26-DEC-2022",
+          "invoice_number": "INIMH389173",
+          "sgst": "463.50",
+          "total_amount": "42,362.00 INR"
+        },
+        "predicted": {
+          "igst": "7,000.00",
+          "total_amount": "42,362.00",
+          "invoice_number": "INMH389173",
+          "invoice_date": "26-DEC-2022",
+          "gst_number": "27AAACI3501J2Z0"
+        },
+        "cost": 0.0039576
+      },
+      {
+        "doc_id": "DSINV2023241703-pdf_page_1_png.rf.f38aee2daaa464ab7e2846e75eb2662d.jpg",
+        "ground_truth": {
+          "gst_number": "27AABCT1029L1ZC",
+          "invoice_date": "29.04.2023",
+          "invoice_number": "2714004560"
+        },
+        "predicted": {
+          "invoice_number": "2714004560",
+          "invoice_date": "29.04.2023",
+          "gst_number": "27AAACT1291LIC",
+          "initial_total_amount": "538931.61"
+        },
+        "cost": 0.0039384
+      },
+      {
+        "doc_id": "4519038037_S669922-23_jpg.rf.8293f4aa949bce1914e13773361b6c6b.jpg",
+        "ground_truth": {
+          "gst_number": "29AAACI9861H1Z2",
+          "igst": "6,775.65",
+          "initial_total_amount": "1,20,513.80",
+          "invoice_date": "21-Nov-22",
+          "invoice_number": "S669522-23",
+          "total_amount": "1,42,289"
+        },
+        "predicted": {
+          "invoice_number": "34992253",
+          "invoice_date": "28/11/2022",
+          "gst_number": "27AAECC1169P1ZV",
+          "initial_total_amount": "3036.00",
+          "total_amount": "14,269.00"
+        },
+        "cost": 0.0039588
+      },
+      {
+        "doc_id": "Class-V-3-pdf_page_1_png.rf.927a8384022873cd864f36a27128a235.jpg",
+        "ground_truth": {
+          "amount_in_words": "Sixty Five Thousand One Hundred and One Rupees Twelve Paise Only",
+          "igst": "6975.12",
+          "invoice_date": "20 Mar 2021",
+          "invoice_number": "BLHQTR2021020584",
+          "total_amount": "65101.12"
+        },
+        "predicted": {
+          "invoice_number": "BLNHTQR2021206894",
+          "invoice_date": "20 Mar 2021",
+          "gst_number": "05AFSACF150P12D",
+          "initial_total_amount": "381.60",
+          "sgst": "697.12",
+          "total_amount": "6501.12",
+          "amount_in_words": "Sixty Five Thousand One Hundred And One Rupees Twelve Paise Only"
+        },
+        "cost": 0.0040014
+      },
+      {
+        "doc_id": "Express-Roadways-Pvt-Ltd-pdf_page_1_png.rf.8c1cd4329150322fe1306ada9679f243.jpg",
+        "ground_truth": {
+          "ack_date": "2023-03-21",
+          "ack_no": "132314438724926",
+          "amount_in_words": "One Lakhs Ninety One Thousand Five Hundred Twenty Rupees And ZERO Paise Only",
+          "cgst": "10,260.00",
+          "gst_number": "06AAACE9295C1ZD",
+          "initial_total_amount": "1,65,940",
+          "invoice_date": "21/03/2023",
+          "invoice_number": "HSR-2290586",
+          "sgst": "10,260.00",
+          "total_amount": "1,65,940"
+        },
+        "predicted": {
+          "invoice_number": "INVOICE NO: 153253266",
+          "invoice_date": "27/09/23",
+          "gst_number": "PAN2324041097",
+          "total_amount": "2,81,490.50",
+          "initial_total_amount": "2,35,000.00"
+        },
+        "cost": 0.0039606
+      },
+      {
+        "doc_id": "Store-3-pdf_page_1_png.rf.eb73896ecb31391d6ea65d2e6af2cb3a.jpg",
+        "ground_truth": {
+          "amount_in_words": "Five Thousand Nine Hundred Only",
+          "invoice_date": "16-03-2023",
+          "invoice_number": "2201211",
+          "total_amount": "5900.00"
+        },
+        "predicted": {
+          "sgst": "1180.00",
+          "cgst": "1180.00",
+          "total_amount": "5900.00",
+          "invoice_number": "BUT22231113639",
+          "invoice_date": "16-03-2023",
+          "gst_number": "27AAKFA5633M1Z4",
+          "amount_in_words": "Rs. Five Thousand Nine Hundred Only."
+        },
+        "cost": 0.0039966
+      },
+      {
+        "doc_id": "2002023-pdf_page_3_png.rf.568c0e837f4a674c019dd664a59f02a2.jpg",
+        "ground_truth": {
+          "invoice_date": "20/2023 - 30/01/2018",
+          "invoice_number": "MBL-CMB 921024",
+          "total_amount": "432440.46"
+        },
+        "predicted": {
+          "invoice_number": "2022023-230018",
+          "invoice_date": "10/06/2018",
+          "gst_number": "33AADCJ0185D1ZV",
+          "initial_total_amount": "648880.00",
+          "total_amount": "648880.00"
+        },
+        "cost": 0.0039588
+      },
+      {
+        "doc_id": "Domestic-Freight-8-pdf_page_1_png.rf.99ac8b1d25578ed0636f1b2332eecdbd.jpg",
+        "ground_truth": {
+          "amount_in_words": "FOURTY SEVEN THOUSAND SEVEN HUNDERED SIXTY-SEVEN Rupees only",
+          "invoice_date": "08/04/2023",
+          "invoice_number": "08/2023",
+          "total_amount": "47767"
+        },
+        "predicted": {
+          "total_amount": "47767",
+          "amount_in_words": "FOURTY SEVEN THOUSAND SEVEN HUNDRED SIXTY SEVEN Rupees only",
+          "gst_number": "22AAAC1I3301ZL",
+          "invoice_number": "08/2023",
+          "invoice_date": "08/04/2023"
+        },
+        "cost": 0.003966
+      },
+      {
+        "doc_id": "JF01220700685-pdf_page_2_png.rf.c3968e42339cdb8bee01c4e642c4074d.jpg",
+        "ground_truth": {
+          "cin_no": "U40102GJ2003SGC042908",
+          "gst_number": "24AADCP1453C1Z2",
+          "invoice_date": "18-07-2022",
+          "invoice_number": "S/0057",
+          "total_amount": "19977.88"
+        },
+        "predicted": {
+          "total_amount": "19977.88",
+          "initial_total_amount": "19977.88"
+        },
+        "cost": 0.0039
+      },
+      {
+        "doc_id": "4518942063_69DMO221562_jpg.rf.abbdfff27693a98d80620f1173fc5074.jpg",
+        "ground_truth": {
+          "amount_in_words": "THREE LAKH SEVENTY TWO THOUSAND THREE HUNDRED AND NINETY THREE ONLY",
+          "cgst": "0.000",
+          "gst_number": "33AACCK6555P1Z6",
+          "igst": "17,733.000",
+          "invoice_date": "14 Mar 23",
+          "invoice_number": "49/DMO/23/552",
+          "round_off": "0.00",
+          "sgst": "0.000",
+          "total_amount": "3,72,393.00"
+        },
+        "predicted": {
+          "invoice_number": "481M02D201582",
+          "invoice_date": "13 Mar 23",
+          "total_amount": "3,72,793.00",
+          "initial_total_amount": "3,54,660.00",
+          "sgst": "0.00",
+          "cgst": "0.00",
+          "igst": "17,030.00",
+          "round_off": "0.00",
+          "gst_number": "29AAACK4321J1Z2",
+          "amount_in_words": "THREE LAKH SEVENTY TWO THOUSAND THREE HUNDRED AND NINETY THREE ONLY."
+        },
+        "cost": 0.0040596
+      },
+      {
+        "doc_id": "DSINV2023241746-pdf_page_3_png.rf.339f37ab4e7ad3e39fd5c9e8a0f5416b.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees One Lakhs Forty Thousand Four Hundred Twenty Only",
+          "gst_number": "29AAJCA1167G1ZN",
+          "invoice_date": "14/05/23",
+          "invoice_number": "F15358IL24001910",
+          "total_amount": "140,420.00"
+        },
+        "predicted": {
+          "cgst": "10,710.00",
+          "sgst": "10,710.00",
+          "initial_total_amount": "119,000.00",
+          "total_amount": "140,420.00",
+          "invoice_date": "14/05/23",
+          "invoice_number": "140/523",
+          "gst_number": "29AADCA5604N12ZB",
+          "amount_in_words": "One Lakhs Forty Thousand Four Hundred Twenty Only"
+        },
+        "cost": 0.004023
+      },
+      {
+        "doc_id": "DSINV2023241743-pdf_page_3_png.rf.57f8eda6891d8171dc97c6e146636960.jpg",
+        "ground_truth": {
+          "gst_number": "29AAJCA1167G1ZN",
+          "invoice_date": "12/05/23",
+          "invoice_number": "F1535BIL24001804"
+        },
+        "predicted": {
+          "gst_number": "29AAACJ4167G1ZN",
+          "invoice_date": "12/05/23",
+          "invoice_number": "F1635IBL2401804"
+        },
+        "cost": 0.0039234
+      },
+      {
+        "doc_id": "4518997003_IF1D385222-23_jpg.rf.e13a7522c3ed6e9cc759dc526ce67b91.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakhs Twelve Thousand Two Hundred Sixty Six Only",
+          "gst_number": "33AAACI2706C1ZC",
+          "invoice_date": "05/03/2023",
+          "invoice_number": "IF1/D3652/22-23",
+          "total_amount": "112266"
+        },
+        "predicted": {
+          "cgst": "5,546.00",
+          "sgst": "5,546.00",
+          "total_amount": "112266",
+          "gst_number": "29MACL1681H1Z2",
+          "invoice_number": "IF/103/2022-23",
+          "invoice_date": "03/2023",
+          "initial_total_amount": "106,920.00",
+          "amount_in_words": "Fifty Three Thousand Three Hundred Forty Six Only"
+        },
+        "cost": 0.0040194
+      },
+      {
+        "doc_id": "DSINV2023241705-pdf_page_4_png.rf.b8a65b420f6ebb59df8fc9b074f664b4.jpg",
+        "ground_truth": {
+          "amount_in_words": "TWENTY SIX LAKH FORTY SIX THOUSAND SEVEN HUNDRED SEVENTY SIX Rupees FIFTY EIGHT Paise",
+          "igst": "403745.58",
+          "invoice_date": "23.04.2023",
+          "invoice_number": "2714004259",
+          "total_amount": "2646776.58"
+        },
+        "predicted": {
+          "invoice_number": "2714004259",
+          "invoice_date": "23.04.2023",
+          "total_amount": "2646776.58",
+          "amount_in_words": "TWENTY SIX LAKH FORTY SIX THOUSAND SEVEN HUNDRED SEVENTY SIX RUPEES FIFTY EIGHT PAISA"
+        },
+        "cost": 0.0039588
+      },
+      {
+        "doc_id": "DSINV2023241713-pdf_page_1_png.rf.57883bd574d6d2e7274776afa5518581.jpg",
+        "ground_truth": {
+          "ack_date": "08-03-2022/15:41:00",
+          "ack_no": "142211068767300",
+          "amount_in_words": "Eighteen Thousand Six Hundred Forty Five Rupees Seventy Eight Paise",
+          "cgst": "1,422.14",
+          "cin_no": "U74140TG1994PLC018833",
+          "gst_number": "09AAACR9626A1ZH",
+          "initial_total_amount": "15,801.50",
+          "invoice_date": "08.03.2022",
+          "invoice_number": "1500012969",
+          "sgst": "1,422.14",
+          "total_amount": "18,645.78"
+        },
+        "predicted": {
+          "gst_number": "09AACMCR6262A1ZH",
+          "invoice_date": "05.03.2022",
+          "invoice_number": "16040012968",
+          "initial_total_amount": "1,422.11",
+          "sgst": "71.11",
+          "cgst": "71.11",
+          "total_amount": "18,645.78"
+        },
+        "cost": 0.0039978
+      },
+      {
+        "doc_id": "4519050268_22ING4168_jpg.rf.a07756660cd7d4e5e59e0eaf993f79c2.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Three Lakh(s) Thirteen Thousand Eight Hundred Sixteen Only",
+          "gst_number": "33AAJCS9803A1Z2",
+          "igst": "14943.00",
+          "initial_total_amount": "298872.00",
+          "invoice_date": "18/03/2023",
+          "invoice_number": "22ING4168",
+          "round_off": "0.40",
+          "total_amount": "313816"
+        },
+        "predicted": {
+          "amount_in_words": "Rupees: Three Lakh Thirty Three Thousand Eight Hundred Sixty Seven Only",
+          "invoice_number": "239127",
+          "total_amount": "31836.00"
+        },
+        "cost": 0.0039246
+      },
+      {
+        "doc_id": "2002374-pdf_page_1_png.rf.1b9dcc8b2703d2dc5bc97813f09a5b51.jpg",
+        "ground_truth": {
+          "invoice_date": "27/02/2018",
+          "invoice_number": "2032274",
+          "total_amount": "62734.90"
+        },
+        "predicted": {
+          "invoice_number": "2022727-15020118",
+          "invoice_date": "22/03/2023",
+          "gst_number": "19AABFD2149R1Z4",
+          "cgst": "12.00",
+          "sgst": "12.00",
+          "total_amount": "Throughout the invoice, it sums up to 2020.00 after including CGST and SGST",
+          "amount_in_words": "Twenty Two Thousand Three Hundred and Seven"
+        },
+        "cost": 0.0040068
+      },
+      {
+        "doc_id": "4518874363_22ING4196_jpg.rf.1f2f6cc5ac638ae272f12eef36232751.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Two Lakh(s) Ninety Five Thousand Eight Hundred Ninety Six Only",
+          "gst_number": "33AAJCS7808J1ZI",
+          "igst": "14990.28",
+          "initial_total_amount": "281805.60",
+          "invoice_date": "25/05/2023",
+          "invoice_number": "22ING4196",
+          "round_off": "0.12",
+          "total_amount": "295896"
+        },
+        "predicted": {
+          "total_amount": "25950",
+          "amount_in_words": "Rupees Two Lakh Ninety Five Thousand Eight Hundred Ninety Six Only",
+          "invoice_number": "L5665100170"
+        },
+        "cost": 0.0039252
+      },
+      {
+        "doc_id": "Class-I-1-Samples-19-pdf_page_2_png.rf.28123815d3330ccb5147ff9c45c5a773.jpg",
+        "ground_truth": {
+          "ack_date": "10-04-2021 14:00:00",
+          "ack_no": "162110526882428",
+          "amount_in_words": "FIFTY ONE THOUSAND NINE HUNDRED ONLY",
+          "igst": "7,908.97",
+          "initial_total_amount": "43,803.69",
+          "invoice_date": "10/04/2021",
+          "invoice_number": "CT2100018",
+          "total_amount": "51,900.00"
+        },
+        "predicted": {
+          "invoice_number": "CT2100018",
+          "invoice_date": "10/04/2021",
+          "gst_number": "26AAIFA2434L1ZD",
+          "initial_total_amount": "43,933.77",
+          "total_amount": "43,603.69",
+          "amount_in_words": "Fifty One Thousand Nine Hundred Only"
+        },
+        "cost": 0.0039822
+      },
+      {
+        "doc_id": "Domestic-Freight-6-pdf_page_1_png.rf.f07de63d7634d9350087e085be0fafad.jpg",
+        "ground_truth": {
+          "amount_in_words": "RUPEES FOURTEEN THOUSAND SIX HUNDRED SIXTY EIGHT ONLY",
+          "cgst": "786",
+          "initial_total_amount": "13096",
+          "invoice_date": "30.03.2023",
+          "invoice_number": "SL/2022-23/INDO-196",
+          "sgst": "786",
+          "total_amount": "14668"
+        },
+        "predicted": {
+          "cgst": "786",
+          "sgst": "786",
+          "total_amount": "15688",
+          "invoice_number": "NO: 40/2022-23/INV0-196",
+          "invoice_date": "30-03-2023",
+          "gst_number": "27AAGFJ5111P1ZV",
+          "amount_in_words": "Rupees Fourteen Thousand Six Hundred Sixty Eight Only"
+        },
+        "cost": 0.0040014
+      },
+      {
+        "doc_id": "JF01220900796-pdf_page_1_png.rf.a227610c369afb3eb188f0373ad521f0.jpg",
+        "ground_truth": {
+          "amount_in_words": "thirteen thousand five hundred and fourty four",
+          "invoice_date": "17.09.2022",
+          "invoice_number": "JF01220900796",
+          "total_amount": "13544.79"
+        },
+        "predicted": {
+          "amount_in_words": "thirteen thousand five hundred and forty four"
+        },
+        "cost": 0.0038844
+      },
+      {
+        "doc_id": "Raw-Material-5-pdf_page_2_png.rf.25edbbbd537aeb628287c2f614d0ed50.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Twenty-five lac thirty three thousand two hundred sixty four only",
+          "initial_total_amount": "2533264.23",
+          "invoice_date": "24-Mar-23",
+          "invoice_number": "HR5567047129",
+          "round_off": "-0.23",
+          "total_amount": "2533264.00"
+        },
+        "predicted": {
+          "gst_number": "GST183902",
+          "invoice_number": "H55306742129",
+          "invoice_date": "24-Mar-23",
+          "total_amount": "2533246.00"
+        },
+        "cost": 0.0039348
+      },
+      {
+        "doc_id": "3275056401-pdf_page_1_png.rf.f3a2785d32727542ae963a66ce9a9c9e.jpg",
+        "ground_truth": {
+          "amount_in_words": "Two Lakh Seventy Six Thousand Eight Hundred Eighty Four And Sixty Four Pai",
+          "cin_no": "U31300GJ2007PTC051368",
+          "igst": "42,236.64",
+          "initial_total_amount": "2,34,648.00",
+          "invoice_date": "09.06.2023",
+          "invoice_number": "00164",
+          "total_amount": "2,76,884.64"
+        },
+        "predicted": {
+          "invoice_number": "00164",
+          "invoice_date": "09.06.2023",
+          "gst_number": "GST NO: 34AACAE2269F1Z8",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "4322.64",
+          "amount_in_words": "Two Lakh Seventy Six Thousand Eight Hundred Eighty Four And Sixty Four Pa",
+          "total_amount": "2,76,884.64",
+          "initial_total_amount": "2,34,648.00"
+        },
+        "cost": 0.004047
+      },
+      {
+        "doc_id": "2004044-pdf_page_1_png.rf.d27a023f61a3b43e7f43e30c958635cb.jpg",
+        "ground_truth": {
+          "invoice_date": "18/07/2022",
+          "invoice_number": "12004044",
+          "total_amount": "46107.60"
+        },
+        "predicted": {
+          "total_amount": "5252.21",
+          "amount_in_words": "Five Thousand Two Hundred and Fifty Two point Two One Only"
+        },
+        "cost": 0.0039036
+      },
+      {
+        "doc_id": "4518969972_69DMO221490_jpg.rf.4ff87c6101a5e41399c127239367e9e6.jpg",
+        "ground_truth": {
+          "amount_in_words": "FOUR HUNDRED SEVENTY-NINE THOUSAND FOUR HUNDRED FIVE",
+          "cgst": "0.000",
+          "gst_number": "33AACCK8333P1Z8",
+          "igst": "22,828.800",
+          "initial_total_amount": "4,56,576.00",
+          "invoice_date": "28 Feb 23",
+          "invoice_number": "69/DMO/22/1490",
+          "round_off": "0.00",
+          "sgst": "0.000",
+          "total_amount": "4,79,404.80"
+        },
+        "predicted": {
+          "cgst": "22,828.80",
+          "sgst": "22,828.80",
+          "initial_total_amount": "4,565.76",
+          "total_amount": "4,794.40",
+          "invoice_number": "60/MOV/21-22/1494",
+          "invoice_date": "28/03/2022",
+          "gst_number": "29AAACK1581B1Z4",
+          "round_off": "0.00",
+          "amount_in_words": "FOUR HUNDRED SEVENTY-NINE THOUSAND FOUR HUNDRED FIVE"
+        },
+        "cost": 0.0040446
+      },
+      {
+        "doc_id": "IOCL-Credit-Note-pdf_page_1_png.rf.b0cbeed7ed37a743e183a47470261c18.jpg",
+        "ground_truth": {
+          "amount_in_words": "Two lac forty-three thousand",
+          "invoice_date": "06-03-2023",
+          "invoice_number": "764379983"
+        },
+        "predicted": {
+          "total_amount": "243000.00",
+          "gst_number": "19AAACG1616IZM",
+          "invoice_date": "06-03-2023"
+        },
+        "cost": 0.0039204
+      },
+      {
+        "doc_id": "2022399-pdf_page_1_png.rf.477a12f5322b0d46eeda082d5083cdcb.jpg",
+        "ground_truth": {
+          "invoice_date": "03/11/2017",
+          "invoice_number": "2022338",
+          "total_amount": "7489.95"
+        },
+        "predicted": {
+          "invoice_date": "2023-01-19",
+          "gst_number": "xxxxxxxxxxxx",
+          "cgst": "\u20b9 264.40",
+          "sgst": "\u20b9 264.40",
+          "total_amount": "\u20b9 10,000.00"
+        },
+        "cost": 0.003972
+      },
+      {
+        "doc_id": "Class-I-9-pdf_page_1_png.rf.22f61adc06d9897727bb5f918f343996.jpg",
+        "ground_truth": {
+          "amount_in_words": "Seven Thousand Two Hundred Fourtyone Only",
+          "cgst": "552.25",
+          "initial_total_amount": "6136.08",
+          "invoice_date": "22/07/2022",
+          "invoice_number": "CR-258/22-23",
+          "round_off": "0.42",
+          "sgst": "552.25",
+          "total_amount": "7,241.00"
+        },
+        "predicted": {
+          "invoice_number": "CR-258/22-23",
+          "invoice_date": "22/07/2022",
+          "gst_number": "27AAEPM1531L1ZQ",
+          "amount_in_words": "Seven Thousand Two Hundred Forty One Only",
+          "cgst": "613.66",
+          "sgst": "613.66",
+          "total_amount": "7,241.00",
+          "initial_total_amount": "6,136.60"
+        },
+        "cost": 0.00402
+      },
+      {
+        "doc_id": "3275056417-pdf_page_1_png.rf.03b498af37f3200148568564b1fba144.jpg",
+        "ground_truth": {
+          "amount_in_words": "Indian Rupees Ten Thousand One Hundred Sixty Only",
+          "cgst": "774.90",
+          "invoice_date": "22-Jun-23",
+          "invoice_number": "ABC/0369/23 - 24",
+          "round_off": "0.20",
+          "sgst": "774.90",
+          "total_amount": "10,160.00"
+        },
+        "predicted": {
+          "cgst": "774.90",
+          "sgst": "774.90",
+          "invoice_number": "ABC/369/23-24",
+          "invoice_date": "22-Jun-23",
+          "gst_number": "33AAGPB9665J1ZD",
+          "amount_in_words": "Indian Rupees Ten Thousand One Hundred Sixty Only",
+          "initial_total_amount": "8,610.00",
+          "total_amount": "10,160.00",
+          "round_off": "0.20"
+        },
+        "cost": 0.004035
+      },
+      {
+        "doc_id": "Raw-Material-9-pdf_page_1_png.rf.b08214a32eb83a1af34d61716be0b3e5.jpg",
+        "ground_truth": {
+          "amount_in_words": "Thirty Lakh Twenty-Six Thousand Seven Hundred only",
+          "cin_no": "L24117RJ1991PLC006307",
+          "igst": "461700.00",
+          "initial_total_amount": "2565000.00",
+          "invoice_date": "04-MAR-23",
+          "invoice_number": "2310203",
+          "total_amount": "3026700.00"
+        },
+        "predicted": {
+          "gst_number": "27AAACR1350L1Z2",
+          "invoice_number": "BUT22231110162",
+          "invoice_date": "04-MAR-23",
+          "total_amount": "306270.00",
+          "initial_total_amount": "256500.00",
+          "amount_in_words": "Thirty Lakh Twenty-Six Thousand Seven Hundred only"
+        },
+        "cost": 0.003984
+      },
+      {
+        "doc_id": "Globe-International-Carriers-Ltd-pdf_page_1_png.rf.d09032efa76e70868d30456ae85b6812.jpg",
+        "ground_truth": {
+          "amount_in_words": "Nil One Lac Seventeen Thousands Seventy Two Only",
+          "igst": "5,853.60",
+          "invoice_date": "22/03/2023",
+          "invoice_number": "JPR22M002279",
+          "total_amount": "1,17,072.00"
+        },
+        "predicted": {
+          "invoice_number": "JPR220022799",
+          "invoice_date": "22/03/2023",
+          "gst_number": "PAN23240410192",
+          "total_amount": "3593.00",
+          "initial_total_amount": "3350.00",
+          "cgst": "121.50",
+          "sgst": "121.50"
+        },
+        "cost": 0.0039906
+      },
+      {
+        "doc_id": "4519044542_2222600889_jpg.rf.075b83fc84829fb835f61c9cd6335238.jpg",
+        "ground_truth": {
+          "amount_in_words": "SIX LAKH EIGHTY FOUR THOUSAND SIX HUNDRED SIXTY Rupees THIRTY SIX Paise",
+          "cin_no": "U29299MH1996PTC102506",
+          "gst_number": "27AADCS2490L1Z0",
+          "igst": "194,439.72",
+          "initial_total_amount": "580,220.64",
+          "invoice_date": "21.03.2023",
+          "invoice_number": "2222600889",
+          "total_amount": "684,660.36"
+        },
+        "predicted": {
+          "cgst": "144.00",
+          "sgst": "144.00",
+          "initial_total_amount": "580,220.64",
+          "total_amount": "580,220.64",
+          "invoice_number": "27AADCS2490LZ9",
+          "invoice_date": "21.03.2023",
+          "gst_number": "29AAACL9861H1Z",
+          "amount_in_words": "Fifty Eight Thousand Six Hundred Sixty Rupees Thirty Six Paise"
+        },
+        "cost": 0.0040212
+      },
+      {
+        "doc_id": "4519029573_22ING4084_jpg.rf.ee3d7aaaaa1b17fae36c4dad8aa20f5f.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Two Lakh(s) Eleven Thousand Six Hundred Seventy Eight Only",
+          "gst_number": "29AAACU9610J1Z2",
+          "igst": "10079.90",
+          "initial_total_amount": "201597.90",
+          "invoice_date": "not visible",
+          "invoice_number": "THING-084",
+          "round_off": "0.21",
+          "total_amount": "211678"
+        },
+        "predicted": {
+          "total_amount": "21673.00",
+          "cgst": "2109.77",
+          "sgst": "2109.77",
+          "amount_in_words": "Rupees Two Lakh Eleven Thousand Six Hundred Seventy Eight Only",
+          "invoice_number": "2919546",
+          "invoice_date": "Not Provided"
+        },
+        "cost": 0.0039756
+      },
+      {
+        "doc_id": "Export-1-pdf_page_1_png.rf.e11681a841e6947db3fbd819c48f8403.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Thousand Indian Rupees Only",
+          "gst_number": "27AACR9011K1ZB",
+          "invoice_date": "15-Sep-21",
+          "invoice_number": "487R2122",
+          "total_amount": "1,000.00"
+        },
+        "predicted": {
+          "invoice_number": "41871921",
+          "invoice_date": "16-Sep-21",
+          "gst_number": "122AAACH1530L1ZO",
+          "total_amount": "1,000.00",
+          "amount_in_words": "One Thousand Indian Rupees Only"
+        },
+        "cost": 0.0039594
+      },
+      {
+        "doc_id": "Class-I-1-Samples-12-pdf_page_1_png.rf.00de26c725ac5b0e1b6a318bbfc6deb8.jpg",
+        "ground_truth": {
+          "ack_date": "2022-11-17 15:58:00",
+          "ack_no": "142211922129569",
+          "igst": "110250",
+          "initial_total_amount": "612500",
+          "total_amount": "722750"
+        },
+        "predicted": {
+          "cgst": "6125.00",
+          "sgst": "6125.00",
+          "initial_total_amount": "61250.00",
+          "total_amount": "72275.00",
+          "invoice_number": "AGC/22-23/00287",
+          "invoice_date": "17/11/2022",
+          "gst_number": "09AANCA3776B1ZK"
+        },
+        "cost": 0.003999
+      },
+      {
+        "doc_id": "Import-6-pdf_page_1_png.rf.48e5375a65be9cdb33186e4da12a7469.jpg",
+        "ground_truth": {
+          "gst_number": "27AAACO2356G1ZL",
+          "invoice_date": "16-Jan-23",
+          "invoice_number": "23BOMFIS0005326"
+        },
+        "predicted": {
+          "invoice_number": "23BOMFI50005326",
+          "invoice_date": "18-jan-23",
+          "gst_number": "27AAACI2055F1Z8",
+          "cgst": "1,000.00",
+          "sgst": "1,000.00",
+          "total_amount": "24,500.00",
+          "initial_total_amount": "12,000.00",
+          "ack_no": "5058005593"
+        },
+        "cost": 0.0040182
+      },
+      {
+        "doc_id": "2004143-pdf_page_2_png.rf.23f4c170e04df1e562e84288a16f8b82.jpg",
+        "ground_truth": {
+          "igst": "1138743.70",
+          "initial_total_amount": "27990782.10",
+          "total_amount": "5363525.98"
+        },
+        "predicted": {
+          "total_amount": "3655568.95"
+        },
+        "cost": 0.003882
+      },
+      {
+        "doc_id": "DSINV2023241710-pdf_page_2_png.rf.3bec13ba3d9ad7fd7c39d288aee6750e.jpg",
+        "ground_truth": {
+          "igst": "343266.11",
+          "invoice_date": "07.05.2023",
+          "invoice_number": "2714004898"
+        },
+        "predicted": {
+          "invoice_number": "2714004898",
+          "invoice_date": "07.05.2023",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "0.00",
+          "total_amount": "343266.00"
+        },
+        "cost": 0.0039714
+      },
+      {
+        "doc_id": "Rama-Engineering-Works-pdf_page_1_png.rf.34c32fae603e98b92fdcf8fe12bd2fee.jpg",
+        "ground_truth": {
+          "amount_in_words": "RUPEES Nine Thousand Four Hundred Forty Only",
+          "cgst": "720.00",
+          "invoice_date": "1-Mar-2023",
+          "invoice_number": "REW/2022-23/214",
+          "sgst": "720.00",
+          "total_amount": "9,440.00"
+        },
+        "predicted": {
+          "cgst": "720.00",
+          "sgst": "720.00",
+          "total_amount": "9,440.00",
+          "amount_in_words": "Rupees Nine Thousand Four Hundred Forty Only",
+          "invoice_number": "RE/2022-23/214",
+          "invoice_date": "1-Mar-2023"
+        },
+        "cost": 0.0039822
+      },
+      {
+        "doc_id": "DSINV2023241706-pdf_page_1_png.rf.007982fb19ca973b3ef287db65860415.jpg",
+        "ground_truth": {
+          "gst_number": "27AABCT1029L1ZC",
+          "invoice_date": "17.04.2023",
+          "invoice_number": "2714003987"
+        },
+        "predicted": {
+          "invoice_number": "2714003987",
+          "invoice_date": "17.04.2023",
+          "gst_number": "27AARCT1291L1ZC",
+          "cgst": "75012.37",
+          "sgst": "75012.37",
+          "initial_total_amount": "75012.37",
+          "total_amount": "150024.74"
+        },
+        "cost": 0.0039942
+      },
+      {
+        "doc_id": "4519026520_22017672_jpg.rf.9fe8a741e7e9810d07632a2ee80f3fe5.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Thirty Two Lakh Seventy Nine Thousand Six Hundred Fifty Nine Only",
+          "cin_no": "U35900PB2008PLC034755",
+          "gst_number": "29AAACL9861H1Z2",
+          "igst": "351392.06",
+          "initial_total_amount": "2928267.20",
+          "invoice_date": "15.03.2023",
+          "invoice_number": "Invoice No 6 Date:20017673/15.03.2023",
+          "total_amount": "3279659"
+        },
+        "predicted": {
+          "initial_total_amount": "2928271.20",
+          "total_amount": "2928271.20",
+          "igst": "351392.06",
+          "gst_number": "29AANLC9611H1Z2",
+          "cin_no": "U35990PB2008PLC034755",
+          "amount_in_words": "Rupees Thirty Two Lakh Seventy Nine Thousand Six Hundred Fifty Nine Only"
+        },
+        "cost": 0.004005
+      },
+      {
+        "doc_id": "Spheres-5-pdf_page_3_png.rf.ea1af5e690de35e9933113957e6cec73.jpg",
+        "ground_truth": {
+          "invoice_date": "30.03.2022",
+          "invoice_number": "210356-410",
+          "total_amount": "USD 47.560,48"
+        },
+        "predicted": {
+          "invoice_number": "210356-410",
+          "invoice_date": "30.03.2022",
+          "gst_number": "27AAAC1530L1ZQ",
+          "initial_total_amount": "47.560,48"
+        },
+        "cost": 0.0039408
+      },
+      {
+        "doc_id": "5200018768-pdf_page_1_png.rf.deae84e4a7d667189678e09d48251492.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Forty Six Thousand Twenty Only",
+          "cgst": "3,510.00",
+          "invoice_date": "25-Feb-2023",
+          "invoice_number": "188",
+          "sgst": "3,510.00",
+          "total_amount": "\u20b946,020.00"
+        },
+        "predicted": {
+          "invoice_number": "188",
+          "invoice_date": "26-Feb-2023",
+          "gst_number": "09AHMPC31917P1Z1",
+          "initial_total_amount": "39,000.00",
+          "total_amount": "46,020.00",
+          "cgst": "3,510.00",
+          "sgst": "3,510.00",
+          "amount_in_words": "INR Forty Six Thousand Twenty Only"
+        },
+        "cost": 0.0040164
+      },
+      {
+        "doc_id": "2006670-pdf_page_3_png.rf.59f585ce95c14f135e12aedd2c3e3fc4.jpg",
+        "ground_truth": {
+          "invoice_date": "27/03/2019",
+          "invoice_number": "SE2/Invoice Recurso \u2116 3610809565193",
+          "total_amount": "2,005,084.00"
+        },
+        "predicted": {
+          "cgst": "100.00",
+          "sgst": "100.00",
+          "total_amount": "2200.00",
+          "invoice_number": "20050774",
+          "invoice_date": "30/01/2023",
+          "gst_number": "07AAECL6787L1Z9",
+          "amount_in_words": "Two Thousand Two Hundred Only"
+        },
+        "cost": 0.0039936
+      },
+      {
+        "doc_id": "Class-VI-1-pdf_page_1_png.rf.0b28ac531b394a10fa3a8f3023fbf440.jpg",
+        "ground_truth": {
+          "invoice_date": "June 18, 2021",
+          "invoice_number": "PSF/BM/INV/0580",
+          "total_amount": "28,950.00"
+        },
+        "predicted": {},
+        "cost": 0.0038622
+      },
+      {
+        "doc_id": "Logistics-3-pdf_page_3_png.rf.cd9fb3e456b81f9e28a52b7a139a3ee5.jpg",
+        "ground_truth": {
+          "amount_in_words": "RUPEES SEVENTEEN THOUSAND SEVEN HUNDRED AND ZERO PAISE ONLY",
+          "invoice_date": "25-03-2023",
+          "invoice_number": "IMH0PCPKI0071250",
+          "total_amount": "17700.00"
+        },
+        "predicted": {
+          "gst_number": "27AAACC1203P2Z5",
+          "invoice_number": "INVOICEPORT1019",
+          "invoice_date": "25-03-2023",
+          "initial_total_amount": "17000.00",
+          "total_amount": "17706.00"
+        },
+        "cost": 0.0039618
+      },
+      {
+        "doc_id": "DSINV2023241699-pdf_page_3_png.rf.15d290ac27399f8ddd633b4557276e79.jpg",
+        "ground_truth": {
+          "igst": "314895.41",
+          "invoice_date": "01.05.2023",
+          "invoice_number": "2714004689"
+        },
+        "predicted": {
+          "invoice_number": "2714004689",
+          "invoice_date": "01.05.2023",
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "0.00",
+          "total_amount": "206314.41",
+          "initial_total_amount": "174919.70"
+        },
+        "cost": 0.0039888
+      },
+      {
+        "doc_id": "DSINV2023241698-pdf_page_1_png.rf.9308ca22f9ab2a6eff9710e13e215dbc.jpg",
+        "ground_truth": {
+          "gst_number": "27AABCT1029L1ZC",
+          "invoice_date": "07.05.2023",
+          "invoice_number": "2714004900"
+        },
+        "predicted": {
+          "invoice_number": "2714004900",
+          "invoice_date": "07.05.2023",
+          "gst_number": "27AACKC1291L1C",
+          "total_amount": "491839.65"
+        },
+        "cost": 0.0039384
+      },
+      {
+        "doc_id": "2004651-pdf_page_1_png.rf.3f6f1d093d49fa3a5aee394d8309f322.jpg",
+        "ground_truth": {
+          "invoice_date": "26/03/2018",
+          "invoice_number": "2034651",
+          "total_amount": "9709358.36"
+        },
+        "predicted": {
+          "total_amount": "24,761.00",
+          "gst_number": "27AAHCP1082R1Z4",
+          "invoice_number": "B E 1234567",
+          "invoice_date": "06-09-2018",
+          "amount_in_words": "Twenty Four Lakhs Seventy One Thousand and Fifty Six Only"
+        },
+        "cost": 0.003966
+      },
+      {
+        "doc_id": "4811127923-pdf_page_1_png.rf.5f51363619b9e134ade7f932c06d3e29.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Four Thousand Four Hundred Ten Only",
+          "invoice_date": "6-May-23",
+          "invoice_number": "VD/23-24/088",
+          "total_amount": "4,410.00"
+        },
+        "predicted": {
+          "invoice_number": "V/D/23-24/088",
+          "invoice_date": "6-May-23",
+          "gst_number": "29AAJCA167G1Z9",
+          "amount_in_words": "INR Four Thousand Four Hundred Ten Only",
+          "total_amount": "\u20b9 4,410.00",
+          "cgst": "NIL"
+        },
+        "cost": 0.003984
+      },
+      {
+        "doc_id": "Store-7-pdf_page_1_png.rf.107179fc3bdddaca0b3789eb79ba6a5d.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR One Lakh Eighty Two Thousand Six Hundred Sixty Four Only",
+          "cgst": "13,932.00",
+          "cin_no": "U31909MH1986PTC100079",
+          "gst_number": "27AAACE3923D1ZQ",
+          "invoice_date": "25-Feb-23",
+          "invoice_number": "ESPL/22-23/579",
+          "sgst": "13,932.00",
+          "total_amount": "1,82,664.00"
+        },
+        "predicted": {
+          "sgst": "13,932.00",
+          "cgst": "13,932.00",
+          "initial_total_amount": "1,54,800.00",
+          "total_amount": "1,82,664.00",
+          "invoice_number": "EIPL22/2375",
+          "invoice_date": "25- Feb-23",
+          "gst_number": "27AAACZ1234Z1Z0",
+          "cin_no": "U99999MH2022PTC123456",
+          "amount_in_words": "INR Twenty Seven Thousand Eight Hundred Sixty Four Only"
+        },
+        "cost": 0.0040494
+      },
+      {
+        "doc_id": "DSINV2023241709-pdf_page_3_png.rf.8fb29d333360afaf60fa9536a1225a28.jpg",
+        "ground_truth": {
+          "amount_in_words": "FIFTEEN LAKH SEVEN THOUSAND FOUR HUNDRED THIRTY FIVE Rupees TWO Paise",
+          "igst": "63341.19",
+          "invoice_date": "27.03.2023",
+          "invoice_number": "2714003193",
+          "total_amount": "1507435.02"
+        },
+        "predicted": {
+          "invoice_number": "2714003193",
+          "invoice_date": "27.03.2023",
+          "total_amount": "1907435.02",
+          "amount_in_words": "FIFTEEN LAKH SEVEN THOUSAND FOUR HUNDRED THIRTY FIVE Rupees TWO Paise"
+        },
+        "cost": 0.0039546
+      },
+      {
+        "doc_id": "4518994058_22ING4121_jpg.rf.5501e25df61656e9f40f09b064358cf4.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees One Lakh(s) Seventy Nine Thousand Six Hundred Twenty Six Only",
+          "gst_number": "33AAJCS7810A1Z2",
+          "igst": "8553.60",
+          "initial_total_amount": "171072.00",
+          "invoice_date": "31/07/2023",
+          "invoice_number": "22ING4121",
+          "round_off": "0.40",
+          "total_amount": "179626"
+        },
+        "predicted": {
+          "amount_in_words": "Rupees One Lakh Seventy Six Thousand Six Hundred Twenty Six Only",
+          "invoice_number": "L5566100122",
+          "initial_total_amount": "8972.11",
+          "total_amount": "17896.23"
+        },
+        "cost": 0.0039444
+      },
+      {
+        "doc_id": "Logistics-6-pdf_page_1_png.rf.726414c8a0dc534242fbc0564ee784c9.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR ONE LAKH THIRTY FOUR THOUSAND FOUR HUNDRED ONLY",
+          "cin_no": "U61100MH1993PTC071573",
+          "igst": "14,400.00",
+          "initial_total_amount": "120,000.00",
+          "invoice_date": "31/03/2023",
+          "invoice_number": "BST/22/MU-M/1435",
+          "total_amount": "134,400.00"
+        },
+        "predicted": {
+          "cgst": "6,000.00",
+          "sgst": "6,000.00",
+          "initial_total_amount": "120,000.00",
+          "total_amount": "134,400.00",
+          "invoice_number": "BST/27/MJ/1435",
+          "invoice_date": "17.03.2023",
+          "gst_number": "27AAACB1298S1ZC",
+          "amount_in_words": "INR ONE LAKH THIRTY FOUR THOUSAND FOUR HUNDRED ONLY"
+        },
+        "cost": 0.0040272
+      },
+      {
+        "doc_id": "DSINV2023241730-pdf_page_1_png.rf.a02d77d2c4248b9118c7731a1cedaf45.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Fifty One Thousand Two Hundred Fifty Nine Only",
+          "cin_no": "CIN NO:U21091MH1986PTC038916",
+          "gst_number": "GSTIN Number:27AAACS5364A1ZZ",
+          "igst": "7,819.20",
+          "initial_total_amount": "43,440.00",
+          "invoice_date": "16/05/2023",
+          "invoice_number": "548",
+          "total_amount": "51,259.00"
+        },
+        "predicted": {
+          "cgst": "2,580.20",
+          "sgst": "2,580.20",
+          "initial_total_amount": "4,440.00",
+          "total_amount": "7,240.40",
+          "invoice_number": "S226048",
+          "invoice_date": "18/05/23",
+          "gst_number": "33AAECS6351Z2"
+        },
+        "cost": 0.0039948
+      },
+      {
+        "doc_id": "Shipping-5-pdf_page_1_png.rf.812ad7fd7f59b0bd7c84f2cba8cfd0e6.jpg",
+        "ground_truth": {
+          "ack_date": "3-Dec-22",
+          "ack_no": "122214981220721",
+          "amount_in_words": "Indian Rupees Thirty Two Thousand Four Hundred Eighty Only",
+          "cgst": "2,477.25",
+          "initial_total_amount": "27,525.00",
+          "invoice_date": "3-Dec-22",
+          "invoice_number": "6147/FRT2223",
+          "round_off": "0.50",
+          "sgst": "2,477.25",
+          "total_amount": "32,480.00"
+        },
+        "predicted": {
+          "cgst": "2,477.25",
+          "sgst": "2,477.25",
+          "total_amount": "27,555.00",
+          "invoice_number": "BUT2223106094",
+          "invoice_date": "1-Dec-22",
+          "gst_number": "27AABCV6455C2TZ",
+          "cin_no": "U63090MH2003PTC138660",
+          "amount_in_words": "Indian Rupees Thirty Two Thousand Four Hundred Eighty Only"
+        },
+        "cost": 0.0040218
+      },
+      {
+        "doc_id": "4519055736_2222600896_jpg.rf.db4aba1d23dadf6fc03d0fdefcbd2794.jpg",
+        "ground_truth": {
+          "amount_in_words": "ONE LAKH FORTY FIVE THOUSAND SIX HUNDRED SEVENTY SIX Rupees SIXTY SIX Paise",
+          "cin_no": "U29299MH1996PTC102506",
+          "gst_number": "27AADCS2490L1Z0",
+          "igst": "0.00",
+          "initial_total_amount": "123,454.80",
+          "invoice_date": "22.03.2023",
+          "invoice_number": "2222600896",
+          "total_amount": "145,676.66"
+        },
+        "predicted": {
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "22,224.00",
+          "initial_total_amount": "123,454.80",
+          "total_amount": "145,676.76",
+          "invoice_number": "222266086",
+          "invoice_date": "22.03.2023",
+          "gst_number": "27AADCAZ2491L2Z",
+          "amount_in_words": "ONE LAKH FORTY FIVE THOUSAND SIX HUNDRED SEVENTY SIX RUPEES SIXTY SIX PAISE"
+        },
+        "cost": 0.0040446
+      },
+      {
+        "doc_id": "4519009831_69DMO221487_jpg.rf.9f5fc218d80849755f1fa42bdefda823.jpg",
+        "ground_truth": {
+          "amount_in_words": "ONE HUNDRED TWENTY-SEVEN THOUSAND SEVEN HUNDRED FORTY-ONE",
+          "cgst": "0.000",
+          "gst_number": "33AACCK5533P1Z6",
+          "igst": "6,082.888",
+          "initial_total_amount": "1,21,657.75",
+          "invoice_date": "28 Feb 23",
+          "invoice_number": "69/DMO/22/1487",
+          "round_off": "0.00",
+          "sgst": "0.000",
+          "total_amount": "1,27,740.64"
+        },
+        "predicted": {
+          "cgst": "6,008.88",
+          "sgst": "6,008.88",
+          "initial_total_amount": "1,21,657.75",
+          "total_amount": "1,27,741.64",
+          "invoice_number": "60/MMD/021487",
+          "invoice_date": "28 Feb 23",
+          "gst_number": "29AALCK9205H1Z2",
+          "amount_in_words": "ONE HUNDRED TWENTY SEVEN THOUSAND SEVEN HUNDRED FORTY-ONE"
+        },
+        "cost": 0.0040284
+      },
+      {
+        "doc_id": "Class-I-1-Samples-29-pdf_page_1_png.rf.ea80084e0f19bd11478a4661e22a5b84.jpg",
+        "ground_truth": {
+          "amount_in_words": "Fourty Seven thousand Five hundred Fourty nine only",
+          "cgst": "3626.64",
+          "initial_total_amount": "40296.00",
+          "invoice_date": "20/04/2021",
+          "invoice_number": "473",
+          "sgst": "3626.64",
+          "total_amount": "47549.00"
+        },
+        "predicted": {
+          "cgst": "3,624.82",
+          "sgst": "3,624.82",
+          "initial_total_amount": "42,296.00",
+          "total_amount": "47,549.64",
+          "invoice_number": "473",
+          "invoice_date": "26/05/2021",
+          "gst_number": "27 AAA CJ 5301 L 2ZQ",
+          "amount_in_words": "Forty Seven Thousand Six Hundred Fifty Four Only"
+        },
+        "cost": 0.0040176
+      },
+      {
+        "doc_id": "DSINV2023241745-pdf_page_2_png.rf.7abbccbfdc588b6ac63b59d128c817b2.jpg",
+        "ground_truth": {
+          "gst_number": "29AAJCA1167G1ZN",
+          "initial_total_amount": "47040.00",
+          "invoice_date": "13/05/23",
+          "invoice_number": "F15358IL24001900",
+          "total_amount": "47040.00"
+        },
+        "predicted": {
+          "cgst": "2520.00",
+          "sgst": "2520.00",
+          "initial_total_amount": "42000.00",
+          "total_amount": "47400.00",
+          "invoice_date": "13/05/23",
+          "invoice_number": "13/05/23",
+          "gst_number": "29AAICA1176P1Z1",
+          "amount_in_words": "Rupees Forty-Seven Thousand Forty Only"
+        },
+        "cost": 0.0040224
+      },
+      {
+        "doc_id": "Domestic-Freight-8-pdf_page_1_png.rf.d63172efacbd0f48db11e2190d48e419.jpg",
+        "ground_truth": {
+          "amount_in_words": "FOURTY SEVEN THOUSAND SEVEN HUNDERED SIXTY-SEVEN Rupees only",
+          "invoice_date": "08/04/2023",
+          "invoice_number": "08/2023",
+          "total_amount": "47767"
+        },
+        "predicted": {
+          "invoice_number": "08/2023",
+          "invoice_date": "08/04/2023",
+          "gst_number": "27AAACI1331LZ0",
+          "total_amount": "47767",
+          "amount_in_words": "Fourty Seven Thousand Seven Hundred Sixty-Seven, Rupees only"
+        },
+        "cost": 0.0024636
+      },
+      {
+        "doc_id": "Import-10-pdf_page_2_png.rf.009fe92b210ee98ae7e44ce165c8753c.jpg",
+        "ground_truth": {
+          "cin_no": "L63010MH2004PLC073508",
+          "invoice_date": "20-09-2022",
+          "invoice_number": "MUM/2122/046715"
+        },
+        "predicted": {
+          "cgst": "\u20b9 0.00",
+          "sgst": "\u20b9 0.00",
+          "igst": "\u20b9 0.00",
+          "invoice_number": "LGT/MUM/2004-05/173538",
+          "invoice_date": "20-09-2022",
+          "gst_number": "27AAACKC1291D1Z5",
+          "cin_no": "L63090MH2004PLC173538",
+          "total_amount": "\u20b9 8.58"
+        },
+        "cost": 0.0040212
+      },
+      {
+        "doc_id": "DSINV2023241712-pdf_page_1_png.rf.61a89a6be0674f8b4709f897553a3b4c.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakh Forty Three Thousand Three Hundred Thirty Eight Rupees Forty Two Paise",
+          "cgst": "10,909.71",
+          "gst_number": "09AAACR5626A1ZH",
+          "initial_total_amount": "1,21,219.00",
+          "invoice_date": "09.03.2022",
+          "invoice_number": "1500012989",
+          "sgst": "10,909.71",
+          "total_amount": "1,43,038.42"
+        },
+        "predicted": {
+          "cgst": "14,250.00",
+          "sgst": "14,250.00",
+          "initial_total_amount": "1,50,000.00",
+          "total_amount": "1,50,000.00",
+          "invoice_number": "UP020023049",
+          "invoice_date": "09.03.2022",
+          "gst_number": "09AACCM2057P12ZK"
+        },
+        "cost": 0.0040026
+      },
+      {
+        "doc_id": "2005965-pdf_page_1_png.rf.070b86259b499ef928eecff70bcfbc40.jpg",
+        "ground_truth": {
+          "invoice_date": "20 MAR 2019",
+          "invoice_number": "2019083892",
+          "total_amount": "65703.42"
+        },
+        "predicted": {
+          "total_amount": "36828.21",
+          "amount_in_words": "Twenty Thousand Nine Hundred and Eighty Nine point Twenty Eight Only"
+        },
+        "cost": 0.0039048
+      },
+      {
+        "doc_id": "4519017563_69DMO221528_jpg.rf.cb8c82ef25ccd6bb4d151b9cb19b92e9.jpg",
+        "ground_truth": {
+          "amount_in_words": "ONE LAKH NINETY SIX THOUSAND THREE HUNDRED AND EIGHT ONLY",
+          "gst_number": "33AACOK8332P1Z8",
+          "igst": "9,348.000",
+          "initial_total_amount": "1,86,960.00",
+          "invoice_date": "7 Mar 23",
+          "invoice_number": "49/DMO/22/1528",
+          "total_amount": "1,96,308.00"
+        },
+        "predicted": {
+          "cgst": "0.00",
+          "sgst": "0.00",
+          "igst": "9,348.00",
+          "total_amount": "1,96,038.00",
+          "invoice_number": "KRP/INV/21563",
+          "invoice_date": "Mar 23",
+          "gst_number": "29ALCFS1813H1Z2",
+          "amount_in_words": "ONE LAKH NINETY SIX THOUSAND THREE HUNDRED AND EIGHT ONLY."
+        },
+        "cost": 0.0040212
+      },
+      {
+        "doc_id": "DSINV2023241716-pdf_page_2_png.rf.1e565d4cb7386496f6dc92ead2d7e488.jpg",
+        "ground_truth": {
+          "amount_in_words": "NINE LAKH SEVENTY THREE THOUSAND SEVEN HUNDRED TWENTY TWO Rupees ONLY.",
+          "initial_total_amount": "825,188.00",
+          "total_amount": "973,722.00"
+        },
+        "predicted": {
+          "initial_total_amount": "825,188.00",
+          "total_amount": "148,533.84",
+          "amount_in_words": "NINE LAKH SEVENTY THREE THOUSAND SEVEN HUNDRED TWENTY TWO Rupees ONLY.",
+          "invoice_number": "825,188.00",
+          "invoice_date": "16.07.2022"
+        },
+        "cost": 0.003969
+      },
+      {
+        "doc_id": "Shipping-3-pdf_page_5_png.rf.46704c94540ce520602841b252ab02be.jpg",
+        "ground_truth": {
+          "cgst": "8,546.71",
+          "initial_total_amount": "94,963.40",
+          "invoice_number": "5204928786",
+          "sgst": "8,546.71",
+          "total_amount": "112,056.82"
+        },
+        "predicted": {
+          "invoice_number": "5204928786",
+          "invoice_date": "29.Mar.2023",
+          "cgst": "9.00 %",
+          "sgst": "9.00 %",
+          "initial_total_amount": "94,963.40",
+          "total_amount": "112,056.82",
+          "gst_number": "MRK65204868"
+        },
+        "cost": 0.0039912
+      },
+      {
+        "doc_id": "Class-VII-5-pdf_page_1_png.rf.8fdf8ee328d643500a0c68a988cded09.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakh Thirty Eight Thousand and Sixty Rupees Only",
+          "cgst": "10,530/-",
+          "gst_number": "27COAPB2421J1ZF",
+          "initial_total_amount": "1,17,000/-",
+          "invoice_date": "05/09/2022",
+          "invoice_number": "9",
+          "sgst": "10,530/-",
+          "total_amount": "1,38,060/-"
+        },
+        "predicted": {
+          "gst_number": "27AAAAI11530L1Z9",
+          "invoice_number": "9",
+          "invoice_date": "05/09/2022",
+          "total_amount": "1,38,060",
+          "cgst": "0",
+          "sgst": "0",
+          "igst": "0",
+          "amount_in_words": "One lakh Thirty Eight Thousand Sixty Rupees Only"
+        },
+        "cost": 0.004008
+      },
+      {
+        "doc_id": "5200018766-pdf_page_1_png.rf.144d251fdc0ad9023852571c85771af0.jpg",
+        "ground_truth": {
+          "amount_in_words": "INR Five Thousand Five Hundred Forty Six Only",
+          "cgst": "423.00",
+          "initial_total_amount": "4,700.00",
+          "invoice_date": "25-Mar-2023",
+          "invoice_number": "225",
+          "sgst": "423.00",
+          "total_amount": "5,546.00"
+        },
+        "predicted": {
+          "invoice_number": "225",
+          "invoice_date": "25-Mar-2023",
+          "gst_number": "09AHMPG9319R1721",
+          "cgst": "423.00",
+          "sgst": "423.00",
+          "total_amount": "5,546.00",
+          "initial_total_amount": "1,700.00",
+          "amount_in_words": "INR Five Thousand Five Hundred Forty Six Only"
+        },
+        "cost": 0.0040146
+      },
+      {
+        "doc_id": "Class-II-8-pdf_page_1_png.rf.8cb42ab325158455a76e0574d1649aa8.jpg",
+        "ground_truth": {
+          "amount_in_words": "RUPEES THIRTY-EIGHT LAKH NINETY-FIVE-THOUSAND NINE HUNDRED FORTY-SEVEN ONLY",
+          "gst_number": "06AAFCD5214M1ZG",
+          "igst": "594297.00",
+          "initial_total_amount": "3301650.00",
+          "invoice_date": "31-AUG-2022",
+          "invoice_number": "1012223006297",
+          "total_amount": "3895947.00"
+        },
+        "predicted": {
+          "cgst": "330560.00",
+          "sgst": "330560.00",
+          "total_amount": "3959477.00",
+          "invoice_number": "PB0449925",
+          "invoice_date": "31-AUG-2022",
+          "gst_number": "06AAEFC0254M1Z",
+          "initial_total_amount": "3305600.00",
+          "amount_in_words": "THIRTY-EIGHT LAKH NINETY-SEVEN THOUSAND NINE HUNDRED FORTY-SEVEN"
+        },
+        "cost": 0.0040272
+      },
+      {
+        "doc_id": "3275056332-pdf_page_1_png.rf.3f9c874285cd4eb4e54165c61db6ba87.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupee Eighty Seven Thousand Five Hundred and Eighty Six only",
+          "cgst": "6680.25",
+          "initial_total_amount": "74225.00",
+          "invoice_date": "03-05-2023",
+          "invoice_number": "12310063",
+          "round_off": "0.50",
+          "sgst": "6680.25",
+          "total_amount": "87586.00"
+        },
+        "predicted": {
+          "invoice_number": "12310063",
+          "invoice_date": "03-05-2023",
+          "gst_number": "33AAACL1616J1Z2",
+          "cgst": "720.50",
+          "sgst": "720.50",
+          "total_amount": "1441.00",
+          "initial_total_amount": "74225.00"
+        },
+        "cost": 0.0039918
+      },
+      {
+        "doc_id": "Logistics-4-pdf_page_1_png.rf.0e465b03e8cff0ea08b5a9496e6982e8.jpg",
+        "ground_truth": {
+          "amount_in_words": "ONE LAKH THREE THOUSAND FOUR HUNDRED EIGHTY EIGHT AND PAISE ZERO ONLY",
+          "invoice_date": "31-03-2023",
+          "invoice_number": "0000014598",
+          "total_amount": "103488.00"
+        },
+        "predicted": {
+          "invoice_number": "0000041598",
+          "invoice_date": "31-08-2023",
+          "gst_number": "27AANAI1553K1ZL",
+          "amount_in_words": "ONE LAKH THREE THOUSAND FOUR HUNDRED EIGHTY EIGHT AND RAISED ZERO ONLY",
+          "initial_total_amount": "103848.00"
+        },
+        "cost": 0.0039708
+      },
+      {
+        "doc_id": "DSINV2023241701-pdf_page_1_png.rf.04521afb29da3cb438999a6d6bb71e30.jpg",
+        "ground_truth": {
+          "gst_number": "27AABCT1029L1ZC",
+          "invoice_date": "01.05.2023",
+          "invoice_number": "2714004687"
+        },
+        "predicted": {
+          "invoice_number": "2714004687",
+          "invoice_date": "01.05.2023",
+          "gst_number": "27AATCT0219L1C",
+          "cgst": "18629.47",
+          "sgst": "18629.47",
+          "total_amount": "37258.94",
+          "amount_in_words": "Thirty Seven Thousand Two Hundred Fifty Eight and Ninety Four Paise Only"
+        },
+        "cost": 0.0039996
+      },
+      {
+        "doc_id": "Class-I-1-Samples-25-pdf_page_1_png.rf.24749c88f6d779c383a4990398e7d99a.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees INR Thirteen Thousand, Five Hundred And Forty Six only.",
+          "igst": "2,066.40",
+          "initial_total_amount": "10,980.00",
+          "invoice_date": "22-03-2021",
+          "invoice_number": "EF/29-21/5148",
+          "total_amount": "13,546.80"
+        },
+        "predicted": {
+          "invoice_number": "E/70-21-516",
+          "invoice_date": "22-03-2021",
+          "gst_number": "24ABACE4011L1Z7",
+          "cin_no": "U29196MH2012PTC234578",
+          "initial_total_amount": "12,000.00",
+          "cgst": "900.00",
+          "sgst": "900.00",
+          "total_amount": "13,794.00",
+          "round_off": "0.00",
+          "amount_in_words": "CONDUCTIVITY CELL, CONSTANT 1"
+        },
+        "cost": 0.0040578
+      },
+      {
+        "doc_id": "Class-I-1-Samples-4-pdf_page_1_png.rf.792d2ff1e984b280360d55a785bb465c.jpg",
+        "ground_truth": {
+          "amount_in_words": "Rupees Three Lakh Eighty One Thousand Five Hundred Forty Eight And Paisa Fifty Six Only",
+          "cin_no": "U21000MH2010PTC202932",
+          "initial_total_amount": "340413.00",
+          "invoice_date": "12/03/2021",
+          "invoice_number": "005391",
+          "total_amount": "381548.56"
+        },
+        "predicted": {
+          "cgst": "2047.41",
+          "sgst": "2047.41",
+          "initial_total_amount": "34031.00",
+          "total_amount": "34031.00",
+          "invoice_number": "005391",
+          "invoice_date": "12/03/2021",
+          "gst_number": "27AAACH1571Z1D",
+          "amount_in_words": "Rupees Three Lakh Eighty One Thousand Five Hundred Forty Eight and Paise Fifty Six Only"
+        },
+        "cost": 0.0040272
+      },
+      {
+        "doc_id": "Jain-Industrial-Corporation-pdf_page_1_png.rf.35586d6f5a99f0f974b4e190ff4c2e82.jpg",
+        "ground_truth": {
+          "amount_in_words": "One Lakh Sixteen Thousand Three Hundred Forty Eight",
+          "gst_number": "07AFGPJ7740BIZP",
+          "initial_total_amount": "98600",
+          "total_amount": "116348"
+        },
+        "predicted": {
+          "gst_number": "07AFGPJT740B1ZP",
+          "invoice_number": "884",
+          "invoice_date": "28/02/23",
+          "total_amount": "117348",
+          "sgst": "11348",
+          "initial_total_amount": "98600"
+        },
+        "cost": 0.0039726
+      }
+    ]
+  }
+}

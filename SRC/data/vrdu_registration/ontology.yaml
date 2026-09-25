@@ -1,0 +1,39 @@
+domain: vrdu_registration
+families:
+  - name: names
+    concepts:
+      - id: registrant_name
+        name: "Registrant Name"
+        definition: "The name of the registering agent — the US-based law firm, lobbying organization, or individual performing the representation under the Foreign Agents Registration Act (FARA). Distinct from the foreign entity being represented."
+        confusable_with: [foreign_principle_name, signer_name]
+
+      - id: foreign_principle_name
+        name: "Foreign Principal Name"
+        definition: "The name of the foreign government, organization, company, or individual being represented by the registrant. Distinct from the US-based registrant performing the representation."
+        confusable_with: [registrant_name]
+
+      - id: signer_name
+        name: "Signer Name"
+        definition: "The name of the specific person who signed the form, found in the execution/signature section. May be a partner or employee of the registrant, so the name can visually resemble or share a surname with the registrant entity."
+        confusable_with: [registrant_name]
+
+  - name: signer_details
+    concepts:
+      - id: signer_title
+        name: "Signer Title"
+        definition: "The title or position of the person who signed the form (e.g., 'Partner', 'Managing Director'), printed adjacent to the signer's name."
+        confusable_with: []
+
+  - name: identifiers
+    concepts:
+      - id: registration_num
+        name: "Registration Number"
+        definition: "The FARA registration number assigned to the registrant, typically a short numeric identifier printed near the top of the form."
+        confusable_with: []
+
+  - name: dates
+    concepts:
+      - id: file_date
+        name: "File Date"
+        definition: "The date the form was filed or signed, found near the signature block. Distinct from any other dates that may be referenced within the body of the document."
+        confusable_with: []

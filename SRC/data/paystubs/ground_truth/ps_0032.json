@@ -1,0 +1,374 @@
+{
+  "paystub_id": "ps_0032",
+  "image_file": "ps_0032.png",
+  "layout_template": "two_column",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Magnolia Hospitality Inc.",
+      "display_value": "Magnolia Hospitality Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 262,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 88,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Las Vegas, NV 89101",
+      "display_value": "Las Vegas, NV 89101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 95,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Brian K. Thomas",
+      "display_value": "Brian K. Thomas",
+      "field_position": {
+        "x": 159,
+        "y": 106,
+        "width": 103,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "709805",
+      "display_value": "709805",
+      "field_position": {
+        "x": 105,
+        "y": 126,
+        "width": 44,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-7046",
+      "display_value": "***-**-7046",
+      "field_position": {
+        "x": 83,
+        "y": 146,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 161,
+        "y": 166,
+        "width": 120,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 145,
+        "y": 186,
+        "width": 97,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "01/07/2025",
+      "display_value": "01/07/2025",
+      "field_position": {
+        "x": 108,
+        "y": 211,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "12/01/2024",
+      "display_value": "12/01/2024",
+      "field_position": {
+        "x": 286,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "12/31/2024",
+      "display_value": "12/31/2024",
+      "field_position": {
+        "x": 512,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 723,
+        "y": 211,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$4,980.93",
+      "display_value": "$4,980.93",
+      "field_position": {
+        "x": 343,
+        "y": 266,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$652.53",
+      "display_value": "$652.53",
+      "field_position": {
+        "x": 355,
+        "y": 286,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$5,633.46",
+      "display_value": "$5,633.46",
+      "field_position": {
+        "x": 344,
+        "y": 306,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$67,601.52",
+      "display_value": "$67,601.52",
+      "field_position": {
+        "x": 339,
+        "y": 326,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$644.91",
+      "display_value": "$644.91",
+      "field_position": {
+        "x": 755,
+        "y": 266,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$234.10",
+      "display_value": "$234.10",
+      "field_position": {
+        "x": 755,
+        "y": 286,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$349.27",
+      "display_value": "$349.27",
+      "field_position": {
+        "x": 754,
+        "y": 306,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$81.69",
+      "display_value": "$81.69",
+      "field_position": {
+        "x": 763,
+        "y": 326,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$380.32",
+      "display_value": "$380.32",
+      "field_position": {
+        "x": 754,
+        "y": 346,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,690.29",
+      "display_value": "$1,690.29",
+      "field_position": {
+        "x": 745,
+        "y": 366,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$20,283.48",
+      "display_value": "$20,283.48",
+      "field_position": {
+        "x": 737,
+        "y": 386,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$5,633.46",
+      "display_value": "$5,633.46",
+      "field_position": {
+        "x": 50,
+        "y": 476,
+        "width": 94,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,690.29",
+      "display_value": "$1,690.29",
+      "field_position": {
+        "x": 310,
+        "y": 476,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$3,943.17",
+      "display_value": "$3,943.17",
+      "field_position": {
+        "x": 570,
+        "y": 476,
+        "width": 92,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Brian K. Thomas",
+    "employer_name": "Magnolia Hospitality Inc.",
+    "employee_id": "709805",
+    "ssn_last4": "***-**-7046",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "Las Vegas, NV 89101",
+    "pay_date": "01/07/2025",
+    "pay_period_start": "12/01/2024",
+    "pay_period_end": "12/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "4980.93",
+    "gross_pay_current": "5633.46",
+    "net_pay_current": "3943.17",
+    "gross_pay_ytd": "67601.52",
+    "net_pay_ytd": "47318.04",
+    "total_deductions_current": "1690.29",
+    "federal_tax_withheld": "644.91",
+    "state_tax_withheld": "234.10",
+    "social_security_tax": "349.27",
+    "medicare_tax": "81.69",
+    "total_deductions_ytd": "20283.48",
+    "bonus_current": "652.53",
+    "retirement_401k": "380.32"
+  }
+}

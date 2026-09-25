@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0172",
+  "image_file": "ps_0172.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "heavy_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Premier Auto Services",
+      "display_value": "Premier Auto Services",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 225,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 101,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 114,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Elizabeth F. Lee",
+      "display_value": "Elizabeth F. Lee",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 158,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "184736",
+      "display_value": "184736",
+      "field_position": {
+        "x": 99,
+        "y": 170,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-8988",
+      "display_value": "***-**-8988",
+      "field_position": {
+        "x": 128,
+        "y": 190,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 101,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 132,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "07/26/2024",
+      "display_value": "07/26/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "07/15/2024",
+      "display_value": "07/15/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "07/21/2024",
+      "display_value": "07/21/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$939.32",
+      "display_value": "$939.32",
+      "field_position": {
+        "x": 752,
+        "y": 336,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$939.32",
+      "display_value": "$939.32",
+      "field_position": {
+        "x": 752,
+        "y": 356,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$27,240.28",
+      "display_value": "$27,240.28",
+      "field_position": {
+        "x": 734,
+        "y": 376,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$111.79",
+      "display_value": "$111.79",
+      "field_position": {
+        "x": 752,
+        "y": 433,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$72.43",
+      "display_value": "$72.43",
+      "field_position": {
+        "x": 759,
+        "y": 453,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$58.24",
+      "display_value": "$58.24",
+      "field_position": {
+        "x": 759,
+        "y": 473,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$13.62",
+      "display_value": "$13.62",
+      "field_position": {
+        "x": 759,
+        "y": 493,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$197.10",
+      "display_value": "$197.10",
+      "field_position": {
+        "x": 752,
+        "y": 513,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$453.18",
+      "display_value": "$453.18",
+      "field_position": {
+        "x": 752,
+        "y": 533,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$13,142.22",
+      "display_value": "$13,142.22",
+      "field_position": {
+        "x": 734,
+        "y": 553,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$486.14",
+      "display_value": "$486.14",
+      "field_position": {
+        "x": 50,
+        "y": 626,
+        "width": 82,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$14,098.06",
+      "display_value": "$14,098.06",
+      "field_position": {
+        "x": 50,
+        "y": 662,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Elizabeth F. Lee",
+    "employer_name": "Premier Auto Services",
+    "employee_id": "184736",
+    "ssn_last4": "***-**-8988",
+    "employee_address": "852 Willow Place",
+    "employee_city_state_zip": "Jacksonville, FL 32099",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Houston, TX 77001",
+    "pay_date": "07/26/2024",
+    "pay_period_start": "07/15/2024",
+    "pay_period_end": "07/21/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "939.32",
+    "gross_pay_current": "939.32",
+    "net_pay_current": "486.14",
+    "gross_pay_ytd": "27240.28",
+    "net_pay_ytd": "14098.06",
+    "total_deductions_current": "453.18",
+    "federal_tax_withheld": "111.79",
+    "state_tax_withheld": "72.43",
+    "social_security_tax": "58.24",
+    "medicare_tax": "13.62",
+    "total_deductions_ytd": "13142.22",
+    "health_insurance": "197.10"
+  }
+}

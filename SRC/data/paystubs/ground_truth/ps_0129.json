@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0129",
+  "image_file": "ps_0129.png",
+  "layout_template": "retail",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Heartland Insurance Co.",
+      "display_value": "Heartland Insurance Co.",
+      "field_position": {
+        "x": 299,
+        "y": 40,
+        "width": 252,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 391,
+        "y": 75,
+        "width": 67,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Denver, CO 80201",
+      "display_value": "Denver, CO 80201",
+      "field_position": {
+        "x": 385,
+        "y": 89,
+        "width": 79,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Susan M. Brown",
+      "display_value": "Susan M. Brown",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 101,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "394739",
+      "display_value": "394739",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-9827",
+      "display_value": "***-**-9827",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 94,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 114,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "09/18/2024",
+      "display_value": "09/18/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "09/01/2024",
+      "display_value": "09/01/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "09/15/2024",
+      "display_value": "09/15/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 89,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$1,758.46",
+      "display_value": "$1,758.46",
+      "field_position": {
+        "x": 736,
+        "y": 471,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$1,758.46",
+      "display_value": "$1,758.46",
+      "field_position": {
+        "x": 736,
+        "y": 493,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$29,893.82",
+      "display_value": "$29,893.82",
+      "field_position": {
+        "x": 727,
+        "y": 515,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$188.36",
+      "display_value": "$188.36",
+      "field_position": {
+        "x": 746,
+        "y": 569,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$82.01",
+      "display_value": "$82.01",
+      "field_position": {
+        "x": 753,
+        "y": 591,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$109.02",
+      "display_value": "$109.02",
+      "field_position": {
+        "x": 745,
+        "y": 613,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$25.50",
+      "display_value": "$25.50",
+      "field_position": {
+        "x": 752,
+        "y": 635,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$139.09",
+      "display_value": "$139.09",
+      "field_position": {
+        "x": 745,
+        "y": 657,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$119.49",
+      "display_value": "$119.49",
+      "field_position": {
+        "x": 747,
+        "y": 679,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$663.47",
+      "display_value": "$663.47",
+      "field_position": {
+        "x": 744,
+        "y": 701,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$11,278.99",
+      "display_value": "$11,278.99",
+      "field_position": {
+        "x": 730,
+        "y": 723,
+        "width": 60,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,094.99",
+      "display_value": "$1,094.99",
+      "field_position": {
+        "x": 697,
+        "y": 760,
+        "width": 93,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$18,614.83",
+      "display_value": "$18,614.83",
+      "field_position": {
+        "x": 689,
+        "y": 790,
+        "width": 101,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Susan M. Brown",
+    "employer_name": "Heartland Insurance Co.",
+    "employee_id": "394739",
+    "ssn_last4": "***-**-9827",
+    "employee_address": "987 Cedar Lane",
+    "employee_city_state_zip": "Portland, OR 97201",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Denver, CO 80201",
+    "pay_date": "09/18/2024",
+    "pay_period_start": "09/01/2024",
+    "pay_period_end": "09/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1758.46",
+    "gross_pay_current": "1758.46",
+    "net_pay_current": "1094.99",
+    "gross_pay_ytd": "29893.82",
+    "net_pay_ytd": "18614.83",
+    "total_deductions_current": "663.47",
+    "federal_tax_withheld": "188.36",
+    "state_tax_withheld": "82.01",
+    "social_security_tax": "109.02",
+    "medicare_tax": "25.50",
+    "total_deductions_ytd": "11278.99",
+    "retirement_401k": "139.09",
+    "health_insurance": "119.49"
+  }
+}

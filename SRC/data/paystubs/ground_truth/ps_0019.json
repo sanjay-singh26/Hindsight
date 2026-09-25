@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0019",
+  "image_file": "ps_0019.png",
+  "layout_template": "check_style",
+  "noise_profile": "heavy_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "United Waste Management",
+      "display_value": "United Waste Management",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 280,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "945687",
+      "display_value": "945687",
+      "field_position": {
+        "x": 707,
+        "y": 45,
+        "width": 93,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 93,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 86,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Margaret T. Smith",
+      "display_value": "Margaret T. Smith",
+      "field_position": {
+        "x": 142,
+        "y": 131,
+        "width": 108,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-9821",
+      "display_value": "***-**-9821",
+      "field_position": {
+        "x": 83,
+        "y": 149,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 93,
+        "y": 167,
+        "width": 95,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Memphis, TN 38101",
+      "display_value": "Memphis, TN 38101",
+      "field_position": {
+        "x": 126,
+        "y": 185,
+        "width": 121,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "11/05/2024",
+      "display_value": "11/05/2024",
+      "field_position": {
+        "x": 480,
+        "y": 131,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "10/16/2024",
+      "display_value": "10/16/2024",
+      "field_position": {
+        "x": 490,
+        "y": 147,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "10/31/2024",
+      "display_value": "10/31/2024",
+      "field_position": {
+        "x": 475,
+        "y": 163,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 484,
+        "y": 179,
+        "width": 66,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$3,737.70",
+      "display_value": "$3,737.70",
+      "field_position": {
+        "x": 341,
+        "y": 270,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$730.03",
+      "display_value": "$730.03",
+      "field_position": {
+        "x": 352,
+        "y": 290,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$4,467.73",
+      "display_value": "$4,467.73",
+      "field_position": {
+        "x": 341,
+        "y": 310,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$89,354.60",
+      "display_value": "$89,354.60",
+      "field_position": {
+        "x": 334,
+        "y": 330,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$804.31",
+      "display_value": "$804.31",
+      "field_position": {
+        "x": 752,
+        "y": 270,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$221.47",
+      "display_value": "$221.47",
+      "field_position": {
+        "x": 752,
+        "y": 290,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$277.00",
+      "display_value": "$277.00",
+      "field_position": {
+        "x": 752,
+        "y": 310,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$64.78",
+      "display_value": "$64.78",
+      "field_position": {
+        "x": 759,
+        "y": 330,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$307.42",
+      "display_value": "$307.42",
+      "field_position": {
+        "x": 752,
+        "y": 350,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$259.53",
+      "display_value": "$259.53",
+      "field_position": {
+        "x": 752,
+        "y": 370,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,934.51",
+      "display_value": "$1,934.51",
+      "field_position": {
+        "x": 741,
+        "y": 390,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$38,690.20",
+      "display_value": "$38,690.20",
+      "field_position": {
+        "x": 734,
+        "y": 410,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$2,533.22",
+      "display_value": "$2,533.22",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$50,664.40",
+      "display_value": "$50,664.40",
+      "field_position": {
+        "x": 719,
+        "y": 480,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Margaret T. Smith",
+    "employer_name": "United Waste Management",
+    "employee_id": "945687",
+    "ssn_last4": "***-**-9821",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "Memphis, TN 38101",
+    "employer_address": "222 Commerce Blvd",
+    "employer_city_state_zip": "Phoenix, AZ 85001",
+    "pay_date": "11/05/2024",
+    "pay_period_start": "10/16/2024",
+    "pay_period_end": "10/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3737.70",
+    "gross_pay_current": "4467.73",
+    "net_pay_current": "2533.22",
+    "gross_pay_ytd": "89354.60",
+    "net_pay_ytd": "50664.40",
+    "total_deductions_current": "1934.51",
+    "federal_tax_withheld": "804.31",
+    "state_tax_withheld": "221.47",
+    "social_security_tax": "277.00",
+    "medicare_tax": "64.78",
+    "total_deductions_ytd": "38690.20",
+    "overtime_pay_current": "730.03",
+    "retirement_401k": "307.42",
+    "health_insurance": "259.53"
+  }
+}

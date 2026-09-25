@@ -1,0 +1,111 @@
+domain: invoice
+families:
+  - name: amounts
+    concepts:
+      - id: subtotal
+        name: "Subtotal"
+        definition: "The sum of all line item amounts before tax, shipping, discounts, or other adjustments are applied. This is the pre-tax, pre-adjustment total of goods or services listed on the invoice. It is not the final amount owed by the customer."
+        confusable_with: [total_due]
+
+      - id: tax_amount
+        name: "Tax Amount"
+        definition: "The total sales tax, VAT, or other government-imposed tax calculated on the taxable portion of the invoice. This is the tax charge only, not the subtotal or total. It may appear as a single aggregate figure or as the sum of multiple tax lines (e.g., state + local)."
+        confusable_with: [total_due, subtotal]
+
+      - id: total_due
+        name: "Total Due"
+        definition: "The final amount the customer is obligated to pay, calculated as the subtotal plus tax and any surcharges, minus any discounts or credits. This is the bottom-line payment amount, often labeled 'Total,' 'Amount Due,' 'Balance Due,' or 'Grand Total.'"
+        confusable_with: [subtotal, amount_tendered]
+
+      - id: amount_tendered
+        name: "Amount Tendered"
+        definition: "The amount of money the customer actually presented as payment at the time of the transaction. This may equal or exceed the total due (in cash transactions, the customer may overpay to receive change). Often labeled 'Tendered,' 'Cash,' or 'Payment Amount.'"
+        confusable_with: [total_due, change_due]
+
+      - id: change_due
+        name: "Change Due"
+        definition: "The difference returned to the customer when the amount tendered exceeds the total due, calculated as amount tendered minus total due. This only applies to cash or overpayment transactions. Often labeled 'Change' or 'Change Due.'"
+        confusable_with: [amount_tendered, total_due]
+
+      - id: discount_amount
+        name: "Discount Amount"
+        definition: "The monetary value of any price reduction applied to the invoice, such as a percentage-off promotion, coupon, loyalty discount, or early payment discount. This is subtracted from the subtotal when calculating the total due. Often shown as a negative value or with a label like 'Discount' or 'Savings.'"
+        confusable_with: [subtotal, total_due]
+
+  - name: temporal
+    concepts:
+      - id: invoice_date
+        name: "Invoice Date"
+        definition: "The calendar date on which the invoice document was created or issued by the vendor. This is the date the invoice was generated, which may differ from the date goods were delivered or the date payment is expected. Often labeled 'Invoice Date' or 'Date.'"
+        confusable_with: [due_date, transaction_date]
+
+      - id: due_date
+        name: "Due Date"
+        definition: "The calendar date by which the customer must submit payment to avoid late fees or penalties. This is the payment deadline, not the date the invoice was created or the date a transaction occurred. Often labeled 'Due Date,' 'Payment Due,' or 'Pay By.'"
+        confusable_with: [invoice_date, transaction_date]
+
+      - id: transaction_date
+        name: "Transaction Date"
+        definition: "The calendar date on which the sale, service, or exchange of goods actually took place. For retail receipts this is typically the date and time of purchase. This may coincide with the invoice date but refers specifically to when the transaction occurred, not when the invoice was generated."
+        confusable_with: [invoice_date, due_date]
+
+  - name: identity
+    concepts:
+      - id: vendor_name
+        name: "Vendor Name"
+        definition: "The legal or trade name of the business, company, or individual that is selling goods or services and issuing the invoice. This is the party that will receive payment. Often appears prominently at the top of the invoice or in a 'From' / 'Sold By' / 'Bill From' section."
+        confusable_with: [customer_name]
+
+      - id: customer_name
+        name: "Customer Name"
+        definition: "The name of the individual, company, or organization that is purchasing goods or services and is responsible for paying the invoice. This is the party that owes payment. Often appears in a 'Bill To,' 'Sold To,' or 'Customer' section."
+        confusable_with: [vendor_name]
+
+      - id: invoice_number
+        name: "Invoice Number"
+        definition: "A unique alphanumeric identifier assigned to this specific invoice by the vendor for tracking, reference, and accounting purposes. This is the invoice's own reference code, not a purchase order number. Often labeled 'Invoice #,' 'Invoice No.,' or 'Ref #.'"
+        confusable_with: [po_number]
+
+      - id: po_number
+        name: "Purchase Order Number"
+        definition: "A unique alphanumeric identifier assigned by the customer (buyer) to authorize and track the purchase. The PO number originates from the buyer's procurement system and is included on the invoice for cross-referencing. It is distinct from the invoice number, which is assigned by the vendor."
+        confusable_with: [invoice_number]
+
+  - name: address
+    concepts:
+      - id: vendor_address
+        name: "Vendor Street Address"
+        definition: "The street address portion (building number and street name) of the vendor's business or mailing address. This is the address of the party issuing the invoice and receiving payment, not the customer's address."
+        confusable_with: [customer_address, vendor_city_state_zip]
+
+      - id: vendor_city_state_zip
+        name: "Vendor City, State, and ZIP"
+        definition: "The city name, state abbreviation, and ZIP/postal code portion of the vendor's business or mailing address. This completes the vendor's address and is distinct from the street address line."
+        confusable_with: [customer_city_state_zip, vendor_address]
+
+      - id: customer_address
+        name: "Customer Street Address"
+        definition: "The street address portion (building number and street name) of the customer's billing or mailing address. This is the address of the party being billed and responsible for payment, not the vendor's address."
+        confusable_with: [vendor_address, customer_city_state_zip]
+
+      - id: customer_city_state_zip
+        name: "Customer City, State, and ZIP"
+        definition: "The city name, state abbreviation, and ZIP/postal code portion of the customer's billing or mailing address. This completes the customer's address and is distinct from the street address line."
+        confusable_with: [vendor_city_state_zip, customer_address]
+
+  - name: line_items
+    concepts:
+      - id: item_description
+        name: "Line Item Description"
+        definition: "The name, title, or textual description of a single good or service listed as a line item on the invoice. This identifies what was sold, not the quantity or price. Each distinct product or service on the invoice has its own description."
+        confusable_with: []
+
+      - id: item_quantity
+        name: "Line Item Quantity"
+        definition: "The numeric count or amount of units for a single line item on the invoice. This is how many (or how much) of the described item was purchased, not the unit price or total price for that line."
+        confusable_with: [item_unit_price]
+
+      - id: item_unit_price
+        name: "Line Item Unit Price"
+        definition: "The price per single unit of a line item on the invoice. This is the cost for one unit of the described item, before multiplication by quantity. The line item total is calculated as unit price multiplied by quantity."
+        confusable_with: [item_quantity, subtotal]

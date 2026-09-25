@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0191",
+  "image_file": "ps_0191.png",
+  "layout_template": "side_by_side",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Premier Auto Services",
+      "display_value": "Premier Auto Services",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 231,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Emily G. Wright",
+      "display_value": "Emily G. Wright",
+      "field_position": {
+        "x": 50,
+        "y": 139,
+        "width": 98,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "860127",
+      "display_value": "860127",
+      "field_position": {
+        "x": 50,
+        "y": 175,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-4170",
+      "display_value": "***-**-4170",
+      "field_position": {
+        "x": 50,
+        "y": 211,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 50,
+        "y": 231,
+        "width": 67,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 50,
+        "y": 246,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "03/31/2024",
+      "display_value": "03/31/2024",
+      "field_position": {
+        "x": 50,
+        "y": 297,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "03/11/2024",
+      "display_value": "03/11/2024",
+      "field_position": {
+        "x": 50,
+        "y": 333,
+        "width": 65,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "03/24/2024",
+      "display_value": "03/24/2024",
+      "field_position": {
+        "x": 50,
+        "y": 369,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 50,
+        "y": 405,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$1,566.99",
+      "display_value": "$1,566.99",
+      "field_position": {
+        "x": 746,
+        "y": 65,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$295.38",
+      "display_value": "$295.38",
+      "field_position": {
+        "x": 754,
+        "y": 85,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$489.67",
+      "display_value": "$489.67",
+      "field_position": {
+        "x": 753,
+        "y": 105,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$2,352.04",
+      "display_value": "$2,352.04",
+      "field_position": {
+        "x": 744,
+        "y": 125,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$14,112.24",
+      "display_value": "$14,112.24",
+      "field_position": {
+        "x": 741,
+        "y": 145,
+        "width": 59,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$473.99",
+      "display_value": "$473.99",
+      "field_position": {
+        "x": 753,
+        "y": 210,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$71.36",
+      "display_value": "$71.36",
+      "field_position": {
+        "x": 763,
+        "y": 230,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$145.83",
+      "display_value": "$145.83",
+      "field_position": {
+        "x": 756,
+        "y": 250,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$34.10",
+      "display_value": "$34.10",
+      "field_position": {
+        "x": 762,
+        "y": 270,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$224.91",
+      "display_value": "$224.91",
+      "field_position": {
+        "x": 755,
+        "y": 290,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$330.73",
+      "display_value": "$330.73",
+      "field_position": {
+        "x": 754,
+        "y": 310,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,280.92",
+      "display_value": "$1,280.92",
+      "field_position": {
+        "x": 746,
+        "y": 330,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$7,685.52",
+      "display_value": "$7,685.52",
+      "field_position": {
+        "x": 745,
+        "y": 350,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$1,071.12",
+      "display_value": "$1,071.12",
+      "field_position": {
+        "x": 430,
+        "y": 431,
+        "width": 86,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$6,426.72",
+      "display_value": "$6,426.72",
+      "field_position": {
+        "x": 430,
+        "y": 476,
+        "width": 95,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Emily G. Wright",
+    "employer_name": "Premier Auto Services",
+    "employee_id": "860127",
+    "ssn_last4": "***-**-4170",
+    "employee_address": "741 Ash Street",
+    "employee_city_state_zip": "Tucson, AZ 85701",
+    "employer_address": "987 Cedar Lane",
+    "employer_city_state_zip": "Phoenix, AZ 85001",
+    "pay_date": "03/31/2024",
+    "pay_period_start": "03/11/2024",
+    "pay_period_end": "03/24/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1566.99",
+    "gross_pay_current": "2352.04",
+    "net_pay_current": "1071.12",
+    "gross_pay_ytd": "14112.24",
+    "net_pay_ytd": "6426.72",
+    "total_deductions_current": "1280.92",
+    "federal_tax_withheld": "473.99",
+    "state_tax_withheld": "71.36",
+    "social_security_tax": "145.83",
+    "medicare_tax": "34.10",
+    "total_deductions_ytd": "7685.52",
+    "overtime_pay_current": "295.38",
+    "bonus_current": "489.67",
+    "retirement_401k": "224.91",
+    "health_insurance": "330.73"
+  }
+}

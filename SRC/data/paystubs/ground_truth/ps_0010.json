@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0010",
+  "image_file": "ps_0010.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Horizon Financial Services",
+      "display_value": "Horizon Financial Services",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 280,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 78,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 79,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "John W. Lewis",
+      "display_value": "John W. Lewis",
+      "field_position": {
+        "x": 121,
+        "y": 113,
+        "width": 90,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "153045",
+      "display_value": "153045",
+      "field_position": {
+        "x": 127,
+        "y": 133,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-9856",
+      "display_value": "***-**-9856",
+      "field_position": {
+        "x": 85,
+        "y": 153,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 96,
+        "y": 173,
+        "width": 95,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Philadelphia, PA 19101",
+      "display_value": "Philadelphia, PA 19101",
+      "field_position": {
+        "x": 145,
+        "y": 193,
+        "width": 134,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "09/06/2024",
+      "display_value": "09/06/2024",
+      "field_position": {
+        "x": 107,
+        "y": 218,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "08/01/2024",
+      "display_value": "08/01/2024",
+      "field_position": {
+        "x": 310,
+        "y": 218,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "08/31/2024",
+      "display_value": "08/31/2024",
+      "field_position": {
+        "x": 496,
+        "y": 218,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 724,
+        "y": 218,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$819.64",
+      "display_value": "$819.64",
+      "field_position": {
+        "x": 755,
+        "y": 278,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$479.04",
+      "display_value": "$479.04",
+      "field_position": {
+        "x": 752,
+        "y": 298,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$385.50",
+      "display_value": "$385.50",
+      "field_position": {
+        "x": 754,
+        "y": 318,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$90.16",
+      "display_value": "$90.16",
+      "field_position": {
+        "x": 762,
+        "y": 338,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$370.64",
+      "display_value": "$370.64",
+      "field_position": {
+        "x": 753,
+        "y": 358,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$2,144.98",
+      "display_value": "$2,144.98",
+      "field_position": {
+        "x": 745,
+        "y": 378,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$17,159.84",
+      "display_value": "$17,159.84",
+      "field_position": {
+        "x": 740,
+        "y": 398,
+        "width": 60,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$4,103.10",
+      "display_value": "$4,103.10",
+      "field_position": {
+        "x": 747,
+        "y": 463,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$141.04",
+      "display_value": "$141.04",
+      "field_position": {
+        "x": 756,
+        "y": 483,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$1,973.56",
+      "display_value": "$1,973.56",
+      "field_position": {
+        "x": 746,
+        "y": 503,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$6,217.70",
+      "display_value": "$6,217.70",
+      "field_position": {
+        "x": 746,
+        "y": 523,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$49,741.60",
+      "display_value": "$49,741.60",
+      "field_position": {
+        "x": 738,
+        "y": 543,
+        "width": 62,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$4,072.72",
+      "display_value": "$4,072.72",
+      "field_position": {
+        "x": 50,
+        "y": 604,
+        "width": 95,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$32,581.76",
+      "display_value": "$32,581.76",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 103,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "John W. Lewis",
+    "employer_name": "Horizon Financial Services",
+    "employee_id": "153045",
+    "ssn_last4": "***-**-9856",
+    "employee_address": "123 Main Street",
+    "employee_city_state_zip": "Philadelphia, PA 19101",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Austin, TX 73301",
+    "pay_date": "09/06/2024",
+    "pay_period_start": "08/01/2024",
+    "pay_period_end": "08/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "4103.10",
+    "gross_pay_current": "6217.70",
+    "net_pay_current": "4072.72",
+    "gross_pay_ytd": "49741.60",
+    "net_pay_ytd": "32581.76",
+    "total_deductions_current": "2144.98",
+    "federal_tax_withheld": "819.64",
+    "state_tax_withheld": "479.04",
+    "social_security_tax": "385.50",
+    "medicare_tax": "90.16",
+    "total_deductions_ytd": "17159.84",
+    "overtime_pay_current": "141.04",
+    "bonus_current": "1973.56",
+    "retirement_401k": "370.64"
+  }
+}

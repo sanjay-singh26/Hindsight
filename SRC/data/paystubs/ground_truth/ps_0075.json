@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0075",
+  "image_file": "ps_0075.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Redwood Forest Products",
+      "display_value": "Redwood Forest Products",
+      "field_position": {
+        "x": 293,
+        "y": 40,
+        "width": 263,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 387,
+        "y": 75,
+        "width": 76,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 382,
+        "y": 89,
+        "width": 86,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Lisa F. Adams",
+      "display_value": "Lisa F. Adams",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 82,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "916990",
+      "display_value": "916990",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-8612",
+      "display_value": "***-**-8612",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 116,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 132,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$4,011.93",
+      "display_value": "$4,011.93",
+      "field_position": {
+        "x": 341,
+        "y": 360,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,011.93",
+      "display_value": "$4,011.93",
+      "field_position": {
+        "x": 341,
+        "y": 380,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$4,011.93",
+      "display_value": "$4,011.93",
+      "field_position": {
+        "x": 341,
+        "y": 400,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$553.13",
+      "display_value": "$553.13",
+      "field_position": {
+        "x": 752,
+        "y": 360,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$195.00",
+      "display_value": "$195.00",
+      "field_position": {
+        "x": 752,
+        "y": 380,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$248.74",
+      "display_value": "$248.74",
+      "field_position": {
+        "x": 751,
+        "y": 400,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$58.17",
+      "display_value": "$58.17",
+      "field_position": {
+        "x": 759,
+        "y": 420,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$349.35",
+      "display_value": "$349.35",
+      "field_position": {
+        "x": 752,
+        "y": 440,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$89.89",
+      "display_value": "$89.89",
+      "field_position": {
+        "x": 759,
+        "y": 460,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,494.28",
+      "display_value": "$1,494.28",
+      "field_position": {
+        "x": 741,
+        "y": 480,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$1,494.28",
+      "display_value": "$1,494.28",
+      "field_position": {
+        "x": 741,
+        "y": 500,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$2,517.65",
+      "display_value": "$2,517.65",
+      "field_position": {
+        "x": 50,
+        "y": 571,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$2,517.65",
+      "display_value": "$2,517.65",
+      "field_position": {
+        "x": 350,
+        "y": 607,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "02/05/2024",
+      "display_value": "02/05/2024",
+      "field_position": {
+        "x": 50,
+        "y": 660,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "01/01/2024",
+      "display_value": "01/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 660,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "01/31/2024",
+      "display_value": "01/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 660,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 660,
+        "width": 39,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Lisa F. Adams",
+    "employer_name": "Redwood Forest Products",
+    "employee_id": "916990",
+    "ssn_last4": "***-**-8612",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Jacksonville, FL 32099",
+    "employer_address": "654 Maple Drive",
+    "employer_city_state_zip": "Phoenix, AZ 85001",
+    "pay_date": "02/05/2024",
+    "pay_period_start": "01/01/2024",
+    "pay_period_end": "01/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "4011.93",
+    "gross_pay_current": "4011.93",
+    "net_pay_current": "2517.65",
+    "gross_pay_ytd": "4011.93",
+    "net_pay_ytd": "2517.65",
+    "total_deductions_current": "1494.28",
+    "federal_tax_withheld": "553.13",
+    "state_tax_withheld": "195.00",
+    "social_security_tax": "248.74",
+    "medicare_tax": "58.17",
+    "total_deductions_ytd": "1494.28",
+    "retirement_401k": "349.35",
+    "health_insurance": "89.89"
+  }
+}

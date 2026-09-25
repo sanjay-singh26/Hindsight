@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0161",
+  "image_file": "ps_0161.png",
+  "layout_template": "side_by_side",
+  "noise_profile": "phone_photo",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 233,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 72,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 107,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Linda R. Carter",
+      "display_value": "Linda R. Carter",
+      "field_position": {
+        "x": 50,
+        "y": 139,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "275284",
+      "display_value": "275284",
+      "field_position": {
+        "x": 50,
+        "y": 175,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-4471",
+      "display_value": "***-**-4471",
+      "field_position": {
+        "x": 50,
+        "y": 211,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 50,
+        "y": 231,
+        "width": 69,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 50,
+        "y": 246,
+        "width": 74,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "11/09/2024",
+      "display_value": "11/09/2024",
+      "field_position": {
+        "x": 50,
+        "y": 297,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "10/28/2024",
+      "display_value": "10/28/2024",
+      "field_position": {
+        "x": 50,
+        "y": 333,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "11/03/2024",
+      "display_value": "11/03/2024",
+      "field_position": {
+        "x": 50,
+        "y": 369,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 50,
+        "y": 405,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$926.40",
+      "display_value": "$926.40",
+      "field_position": {
+        "x": 753,
+        "y": 65,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$1,271.09",
+      "display_value": "$1,271.09",
+      "field_position": {
+        "x": 743,
+        "y": 85,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,197.49",
+      "display_value": "$2,197.49",
+      "field_position": {
+        "x": 743,
+        "y": 105,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$96,689.56",
+      "display_value": "$96,689.56",
+      "field_position": {
+        "x": 736,
+        "y": 125,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$304.07",
+      "display_value": "$304.07",
+      "field_position": {
+        "x": 753,
+        "y": 190,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$161.79",
+      "display_value": "$161.79",
+      "field_position": {
+        "x": 753,
+        "y": 210,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$136.24",
+      "display_value": "$136.24",
+      "field_position": {
+        "x": 752,
+        "y": 230,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$31.86",
+      "display_value": "$31.86",
+      "field_position": {
+        "x": 760,
+        "y": 250,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$230.22",
+      "display_value": "$230.22",
+      "field_position": {
+        "x": 753,
+        "y": 270,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$864.18",
+      "display_value": "$864.18",
+      "field_position": {
+        "x": 753,
+        "y": 290,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$38,023.92",
+      "display_value": "$38,023.92",
+      "field_position": {
+        "x": 736,
+        "y": 310,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$1,333.31",
+      "display_value": "$1,333.31",
+      "field_position": {
+        "x": 430,
+        "y": 391,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$58,665.64",
+      "display_value": "$58,665.64",
+      "field_position": {
+        "x": 430,
+        "y": 436,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Linda R. Carter",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "275284",
+    "ssn_last4": "***-**-4471",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "Dallas, TX 75201",
+    "employer_address": "456 Oak Avenue",
+    "employer_city_state_zip": "Albuquerque, NM 87101",
+    "pay_date": "11/09/2024",
+    "pay_period_start": "10/28/2024",
+    "pay_period_end": "11/03/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "926.40",
+    "gross_pay_current": "2197.49",
+    "net_pay_current": "1333.31",
+    "gross_pay_ytd": "96689.56",
+    "net_pay_ytd": "58665.64",
+    "total_deductions_current": "864.18",
+    "federal_tax_withheld": "304.07",
+    "state_tax_withheld": "161.79",
+    "social_security_tax": "136.24",
+    "medicare_tax": "31.86",
+    "total_deductions_ytd": "38023.92",
+    "bonus_current": "1271.09",
+    "health_insurance": "230.22"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0138",
+  "image_file": "ps_0138.png",
+  "layout_template": "compact",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Golden State Packaging",
+      "display_value": "Golden State Packaging",
+      "field_position": {
+        "x": 120,
+        "y": 25,
+        "width": 110,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Jennifer C. Martin",
+      "display_value": "Jennifer C. Martin",
+      "field_position": {
+        "x": 110,
+        "y": 39,
+        "width": 82,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "313068",
+      "display_value": "313068",
+      "field_position": {
+        "x": 83,
+        "y": 53,
+        "width": 35,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-3545",
+      "display_value": "***-**-3545",
+      "field_position": {
+        "x": 94,
+        "y": 67,
+        "width": 57,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 107,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 75,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 91,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 90,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "05/25/2024",
+      "display_value": "05/25/2024",
+      "field_position": {
+        "x": 86,
+        "y": 137,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "05/13/2024",
+      "display_value": "05/13/2024",
+      "field_position": {
+        "x": 100,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "05/19/2024",
+      "display_value": "05/19/2024",
+      "field_position": {
+        "x": 110,
+        "y": 165,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 100,
+        "y": 179,
+        "width": 34,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$1,840.31",
+      "display_value": "$1,840.31",
+      "field_position": {
+        "x": 765,
+        "y": 215,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$355.18",
+      "display_value": "$355.18",
+      "field_position": {
+        "x": 773,
+        "y": 235,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$2,195.49",
+      "display_value": "$2,195.49",
+      "field_position": {
+        "x": 764,
+        "y": 255,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$43,909.80",
+      "display_value": "$43,909.80",
+      "field_position": {
+        "x": 759,
+        "y": 275,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$334.02",
+      "display_value": "$334.02",
+      "field_position": {
+        "x": 773,
+        "y": 317,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$125.59",
+      "display_value": "$125.59",
+      "field_position": {
+        "x": 773,
+        "y": 337,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$136.12",
+      "display_value": "$136.12",
+      "field_position": {
+        "x": 773,
+        "y": 357,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$31.83",
+      "display_value": "$31.83",
+      "field_position": {
+        "x": 778,
+        "y": 377,
+        "width": 32,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$113.40",
+      "display_value": "$113.40",
+      "field_position": {
+        "x": 773,
+        "y": 397,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$279.98",
+      "display_value": "$279.98",
+      "field_position": {
+        "x": 773,
+        "y": 417,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,020.94",
+      "display_value": "$1,020.94",
+      "field_position": {
+        "x": 764,
+        "y": 437,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$20,418.80",
+      "display_value": "$20,418.80",
+      "field_position": {
+        "x": 759,
+        "y": 457,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$1,174.55",
+      "display_value": "$1,174.55",
+      "field_position": {
+        "x": 117,
+        "y": 485,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$23,491.00",
+      "display_value": "$23,491.00",
+      "field_position": {
+        "x": 123,
+        "y": 499,
+        "width": 51,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jennifer C. Martin",
+    "employer_name": "Golden State Packaging",
+    "employee_id": "313068",
+    "ssn_last4": "***-**-3545",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Portland, OR 97201",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Tulsa, OK 74101",
+    "pay_date": "05/25/2024",
+    "pay_period_start": "05/13/2024",
+    "pay_period_end": "05/19/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1840.31",
+    "gross_pay_current": "2195.49",
+    "net_pay_current": "1174.55",
+    "gross_pay_ytd": "43909.80",
+    "net_pay_ytd": "23491.00",
+    "total_deductions_current": "1020.94",
+    "federal_tax_withheld": "334.02",
+    "state_tax_withheld": "125.59",
+    "social_security_tax": "136.12",
+    "medicare_tax": "31.83",
+    "total_deductions_ytd": "20418.80",
+    "bonus_current": "355.18",
+    "retirement_401k": "113.40",
+    "health_insurance": "279.98"
+  }
+}

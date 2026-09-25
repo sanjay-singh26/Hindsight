@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0185",
+  "image_file": "ps_0185.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Horizon Financial Services",
+      "display_value": "Horizon Financial Services",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 343,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Columbus, OH 43085",
+      "display_value": "Columbus, OH 43085",
+      "field_position": {
+        "x": 207,
+        "y": 85,
+        "width": 108,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Melissa P. Campbell",
+      "display_value": "Melissa P. Campbell",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "366641",
+      "display_value": "366641",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-4209",
+      "display_value": "***-**-4209",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 90,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 114,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "05/05/2024",
+      "display_value": "05/05/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "04/01/2024",
+      "display_value": "04/01/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "04/30/2024",
+      "display_value": "04/30/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$3,308.24",
+      "display_value": "$3,308.24",
+      "field_position": {
+        "x": 335,
+        "y": 275,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$748.64",
+      "display_value": "$748.64",
+      "field_position": {
+        "x": 350,
+        "y": 295,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$4,056.88",
+      "display_value": "$4,056.88",
+      "field_position": {
+        "x": 335,
+        "y": 315,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$16,227.52",
+      "display_value": "$16,227.52",
+      "field_position": {
+        "x": 327,
+        "y": 335,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$692.34",
+      "display_value": "$692.34",
+      "field_position": {
+        "x": 735,
+        "y": 275,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$309.66",
+      "display_value": "$309.66",
+      "field_position": {
+        "x": 735,
+        "y": 295,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$251.53",
+      "display_value": "$251.53",
+      "field_position": {
+        "x": 735,
+        "y": 315,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$58.82",
+      "display_value": "$58.82",
+      "field_position": {
+        "x": 743,
+        "y": 335,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$308.70",
+      "display_value": "$308.70",
+      "field_position": {
+        "x": 735,
+        "y": 355,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,621.05",
+      "display_value": "$1,621.05",
+      "field_position": {
+        "x": 720,
+        "y": 375,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$6,484.20",
+      "display_value": "$6,484.20",
+      "field_position": {
+        "x": 720,
+        "y": 395,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$2,435.83",
+      "display_value": "$2,435.83",
+      "field_position": {
+        "x": 60,
+        "y": 460,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$9,743.32",
+      "display_value": "$9,743.32",
+      "field_position": {
+        "x": 360,
+        "y": 460,
+        "width": 119,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Melissa P. Campbell",
+    "employer_name": "Horizon Financial Services",
+    "employee_id": "366641",
+    "ssn_last4": "***-**-4209",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "San Diego, CA 92101",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Columbus, OH 43085",
+    "pay_date": "05/05/2024",
+    "pay_period_start": "04/01/2024",
+    "pay_period_end": "04/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "3308.24",
+    "gross_pay_current": "4056.88",
+    "net_pay_current": "2435.83",
+    "gross_pay_ytd": "16227.52",
+    "net_pay_ytd": "9743.32",
+    "total_deductions_current": "1621.05",
+    "federal_tax_withheld": "692.34",
+    "state_tax_withheld": "309.66",
+    "social_security_tax": "251.53",
+    "medicare_tax": "58.82",
+    "total_deductions_ytd": "6484.20",
+    "overtime_pay_current": "748.64",
+    "retirement_401k": "308.70"
+  }
+}

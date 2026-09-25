@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0091",
+  "image_file": "ps_0091.png",
+  "layout_template": "left_header",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "07/04/2024",
+      "display_value": "07/04/2024",
+      "field_position": {
+        "x": 696,
+        "y": 40,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "06/01/2024",
+      "display_value": "06/01/2024",
+      "field_position": {
+        "x": 734,
+        "y": 54,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 695,
+        "y": 68,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 710,
+        "y": 82,
+        "width": 39,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Northgate Distribution Co.",
+      "display_value": "Northgate Distribution Co.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 270,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 78,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 73,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Donald B. Mitchell",
+      "display_value": "Donald B. Mitchell",
+      "field_position": {
+        "x": 571,
+        "y": 133,
+        "width": 110,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "244789",
+      "display_value": "244789",
+      "field_position": {
+        "x": 555,
+        "y": 153,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-9498",
+      "display_value": "***-**-9498",
+      "field_position": {
+        "x": 575,
+        "y": 173,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 601,
+        "y": 193,
+        "width": 95,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 535,
+        "y": 213,
+        "width": 98,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$5,947.48",
+      "display_value": "$5,947.48",
+      "field_position": {
+        "x": 741,
+        "y": 283,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$482.39",
+      "display_value": "$482.39",
+      "field_position": {
+        "x": 752,
+        "y": 303,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$6,429.87",
+      "display_value": "$6,429.87",
+      "field_position": {
+        "x": 741,
+        "y": 323,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$38,579.22",
+      "display_value": "$38,579.22",
+      "field_position": {
+        "x": 734,
+        "y": 343,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$1,312.46",
+      "display_value": "$1,312.46",
+      "field_position": {
+        "x": 741,
+        "y": 408,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$455.52",
+      "display_value": "$455.52",
+      "field_position": {
+        "x": 752,
+        "y": 428,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$398.65",
+      "display_value": "$398.65",
+      "field_position": {
+        "x": 752,
+        "y": 448,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$93.23",
+      "display_value": "$93.23",
+      "field_position": {
+        "x": 759,
+        "y": 468,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$210.73",
+      "display_value": "$210.73",
+      "field_position": {
+        "x": 752,
+        "y": 488,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$2,470.59",
+      "display_value": "$2,470.59",
+      "field_position": {
+        "x": 741,
+        "y": 508,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$14,823.54",
+      "display_value": "$14,823.54",
+      "field_position": {
+        "x": 733,
+        "y": 528,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$3,959.28",
+      "display_value": "$3,959.28",
+      "field_position": {
+        "x": 50,
+        "y": 589,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$23,755.68",
+      "display_value": "$23,755.68",
+      "field_position": {
+        "x": 50,
+        "y": 625,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donald B. Mitchell",
+    "employer_name": "Northgate Distribution Co.",
+    "employee_id": "244789",
+    "ssn_last4": "***-**-9498",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Mesa, AZ 85201",
+    "pay_date": "07/04/2024",
+    "pay_period_start": "06/01/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "5947.48",
+    "gross_pay_current": "6429.87",
+    "net_pay_current": "3959.28",
+    "gross_pay_ytd": "38579.22",
+    "net_pay_ytd": "23755.68",
+    "total_deductions_current": "2470.59",
+    "federal_tax_withheld": "1312.46",
+    "state_tax_withheld": "455.52",
+    "social_security_tax": "398.65",
+    "medicare_tax": "93.23",
+    "total_deductions_ytd": "14823.54",
+    "overtime_pay_current": "482.39",
+    "health_insurance": "210.73"
+  }
+}

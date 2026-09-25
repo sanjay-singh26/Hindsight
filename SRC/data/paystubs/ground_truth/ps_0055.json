@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0055",
+  "image_file": "ps_0055.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Lakewood Education Group",
+      "display_value": "Lakewood Education Group",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 283,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 107,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 114,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "George T. Nelson",
+      "display_value": "George T. Nelson",
+      "field_position": {
+        "x": 159,
+        "y": 113,
+        "width": 104,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "580292",
+      "display_value": "580292",
+      "field_position": {
+        "x": 110,
+        "y": 133,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-1510",
+      "display_value": "***-**-1510",
+      "field_position": {
+        "x": 84,
+        "y": 153,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 97,
+        "y": 173,
+        "width": 98,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 83,
+        "y": 193,
+        "width": 95,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "08/17/2024",
+      "display_value": "08/17/2024",
+      "field_position": {
+        "x": 121,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "08/05/2024",
+      "display_value": "08/05/2024",
+      "field_position": {
+        "x": 335,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "08/11/2024",
+      "display_value": "08/11/2024",
+      "field_position": {
+        "x": 520,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 723,
+        "y": 218,
+        "width": 34,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$338.73",
+      "display_value": "$338.73",
+      "field_position": {
+        "x": 752,
+        "y": 278,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$121.08",
+      "display_value": "$121.08",
+      "field_position": {
+        "x": 752,
+        "y": 298,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$119.35",
+      "display_value": "$119.35",
+      "field_position": {
+        "x": 752,
+        "y": 318,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$27.91",
+      "display_value": "$27.91",
+      "field_position": {
+        "x": 759,
+        "y": 338,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$191.77",
+      "display_value": "$191.77",
+      "field_position": {
+        "x": 752,
+        "y": 358,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$202.50",
+      "display_value": "$202.50",
+      "field_position": {
+        "x": 752,
+        "y": 378,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,001.34",
+      "display_value": "$1,001.34",
+      "field_position": {
+        "x": 741,
+        "y": 398,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$32,042.88",
+      "display_value": "$32,042.88",
+      "field_position": {
+        "x": 734,
+        "y": 418,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$704.12",
+      "display_value": "$704.12",
+      "field_position": {
+        "x": 752,
+        "y": 483,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$525.81",
+      "display_value": "$525.81",
+      "field_position": {
+        "x": 752,
+        "y": 503,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$695.03",
+      "display_value": "$695.03",
+      "field_position": {
+        "x": 752,
+        "y": 523,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$1,924.96",
+      "display_value": "$1,924.96",
+      "field_position": {
+        "x": 741,
+        "y": 543,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$61,598.72",
+      "display_value": "$61,598.72",
+      "field_position": {
+        "x": 734,
+        "y": 563,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$923.62",
+      "display_value": "$923.62",
+      "field_position": {
+        "x": 50,
+        "y": 624,
+        "width": 81,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$29,555.84",
+      "display_value": "$29,555.84",
+      "field_position": {
+        "x": 50,
+        "y": 660,
+        "width": 113,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "George T. Nelson",
+    "employer_name": "Lakewood Education Group",
+    "employee_id": "580292",
+    "ssn_last4": "***-**-1510",
+    "employee_address": "456 Oak Avenue",
+    "employee_city_state_zip": "Mesa, AZ 85201",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Albuquerque, NM 87101",
+    "pay_date": "08/17/2024",
+    "pay_period_start": "08/05/2024",
+    "pay_period_end": "08/11/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "704.12",
+    "gross_pay_current": "1924.96",
+    "net_pay_current": "923.62",
+    "gross_pay_ytd": "61598.72",
+    "net_pay_ytd": "29555.84",
+    "total_deductions_current": "1001.34",
+    "federal_tax_withheld": "338.73",
+    "state_tax_withheld": "121.08",
+    "social_security_tax": "119.35",
+    "medicare_tax": "27.91",
+    "total_deductions_ytd": "32042.88",
+    "overtime_pay_current": "525.81",
+    "bonus_current": "695.03",
+    "retirement_401k": "191.77",
+    "health_insurance": "202.50"
+  }
+}

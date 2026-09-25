@@ -1,0 +1,374 @@
+{
+  "paystub_id": "ps_0002",
+  "image_file": "ps_0002.png",
+  "layout_template": "two_column",
+  "noise_profile": "faded",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Ironworks Engineering Ltd.",
+      "display_value": "Ironworks Engineering Ltd.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 343,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 84,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Philadelphia, PA 19101",
+      "display_value": "Philadelphia, PA 19101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Kenneth M. Flores",
+      "display_value": "Kenneth M. Flores",
+      "field_position": {
+        "x": 122,
+        "y": 106,
+        "width": 133,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "301629",
+      "display_value": "301629",
+      "field_position": {
+        "x": 115,
+        "y": 126,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-2139",
+      "display_value": "***-**-2139",
+      "field_position": {
+        "x": 154,
+        "y": 146,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 169,
+        "y": 166,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Charlotte, NC 28201",
+      "display_value": "Charlotte, NC 28201",
+      "field_position": {
+        "x": 177,
+        "y": 186,
+        "width": 148,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "03/02/2024",
+      "display_value": "03/02/2024",
+      "field_position": {
+        "x": 132,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "02/12/2024",
+      "display_value": "02/12/2024",
+      "field_position": {
+        "x": 356,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "02/25/2024",
+      "display_value": "02/25/2024",
+      "field_position": {
+        "x": 508,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 732,
+        "y": 211,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$2,116.06",
+      "display_value": "$2,116.06",
+      "field_position": {
+        "x": 330,
+        "y": 266,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$866.33",
+      "display_value": "$866.33",
+      "field_position": {
+        "x": 345,
+        "y": 286,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$2,982.39",
+      "display_value": "$2,982.39",
+      "field_position": {
+        "x": 330,
+        "y": 306,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$11,929.56",
+      "display_value": "$11,929.56",
+      "field_position": {
+        "x": 322,
+        "y": 326,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$373.22",
+      "display_value": "$373.22",
+      "field_position": {
+        "x": 745,
+        "y": 266,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$137.25",
+      "display_value": "$137.25",
+      "field_position": {
+        "x": 745,
+        "y": 286,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$184.91",
+      "display_value": "$184.91",
+      "field_position": {
+        "x": 745,
+        "y": 306,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$43.24",
+      "display_value": "$43.24",
+      "field_position": {
+        "x": 753,
+        "y": 326,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$244.47",
+      "display_value": "$244.47",
+      "field_position": {
+        "x": 745,
+        "y": 346,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$983.09",
+      "display_value": "$983.09",
+      "field_position": {
+        "x": 745,
+        "y": 366,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$3,932.36",
+      "display_value": "$3,932.36",
+      "field_position": {
+        "x": 730,
+        "y": 386,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$2,982.39",
+      "display_value": "$2,982.39",
+      "field_position": {
+        "x": 50,
+        "y": 476,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$983.09",
+      "display_value": "$983.09",
+      "field_position": {
+        "x": 310,
+        "y": 476,
+        "width": 92,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$1,999.30",
+      "display_value": "$1,999.30",
+      "field_position": {
+        "x": 570,
+        "y": 476,
+        "width": 119,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kenneth M. Flores",
+    "employer_name": "Ironworks Engineering Ltd.",
+    "employee_id": "301629",
+    "ssn_last4": "***-**-2139",
+    "employee_address": "456 Oak Avenue",
+    "employee_city_state_zip": "Charlotte, NC 28201",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Philadelphia, PA 19101",
+    "pay_date": "03/02/2024",
+    "pay_period_start": "02/12/2024",
+    "pay_period_end": "02/25/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2116.06",
+    "gross_pay_current": "2982.39",
+    "net_pay_current": "1999.30",
+    "gross_pay_ytd": "11929.56",
+    "net_pay_ytd": "7997.20",
+    "total_deductions_current": "983.09",
+    "federal_tax_withheld": "373.22",
+    "state_tax_withheld": "137.25",
+    "social_security_tax": "184.91",
+    "medicare_tax": "43.24",
+    "total_deductions_ytd": "3932.36",
+    "bonus_current": "866.33",
+    "health_insurance": "244.47"
+  }
+}

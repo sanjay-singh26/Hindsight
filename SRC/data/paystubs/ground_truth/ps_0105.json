@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0105",
+  "image_file": "ps_0105.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Atlas Industrial Supply",
+      "display_value": "Atlas Industrial Supply",
+      "field_position": {
+        "x": 306,
+        "y": 40,
+        "width": 238,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 391,
+        "y": 75,
+        "width": 67,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 378,
+        "y": 89,
+        "width": 94,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Kevin T. Harris",
+      "display_value": "Kevin T. Harris",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 92,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "830132",
+      "display_value": "830132",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-7821",
+      "display_value": "***-**-7821",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 122,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "San Jose, CA 95101",
+      "display_value": "San Jose, CA 95101",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 114,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$2,792.95",
+      "display_value": "$2,792.95",
+      "field_position": {
+        "x": 344,
+        "y": 360,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$1,473.64",
+      "display_value": "$1,473.64",
+      "field_position": {
+        "x": 345,
+        "y": 380,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$4,266.59",
+      "display_value": "$4,266.59",
+      "field_position": {
+        "x": 344,
+        "y": 400,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$106,664.75",
+      "display_value": "$106,664.75",
+      "field_position": {
+        "x": 331,
+        "y": 420,
+        "width": 69,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$839.21",
+      "display_value": "$839.21",
+      "field_position": {
+        "x": 756,
+        "y": 360,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$362.17",
+      "display_value": "$362.17",
+      "field_position": {
+        "x": 756,
+        "y": 380,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$264.53",
+      "display_value": "$264.53",
+      "field_position": {
+        "x": 754,
+        "y": 400,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$61.87",
+      "display_value": "$61.87",
+      "field_position": {
+        "x": 763,
+        "y": 420,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$417.04",
+      "display_value": "$417.04",
+      "field_position": {
+        "x": 754,
+        "y": 440,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$116.21",
+      "display_value": "$116.21",
+      "field_position": {
+        "x": 759,
+        "y": 460,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$2,061.03",
+      "display_value": "$2,061.03",
+      "field_position": {
+        "x": 746,
+        "y": 480,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$51,525.75",
+      "display_value": "$51,525.75",
+      "field_position": {
+        "x": 740,
+        "y": 500,
+        "width": 60,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$2,205.56",
+      "display_value": "$2,205.56",
+      "field_position": {
+        "x": 50,
+        "y": 571,
+        "width": 94,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$55,139.00",
+      "display_value": "$55,139.00",
+      "field_position": {
+        "x": 350,
+        "y": 607,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "12/22/2024",
+      "display_value": "12/22/2024",
+      "field_position": {
+        "x": 50,
+        "y": 660,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "12/02/2024",
+      "display_value": "12/02/2024",
+      "field_position": {
+        "x": 240,
+        "y": 660,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "12/15/2024",
+      "display_value": "12/15/2024",
+      "field_position": {
+        "x": 430,
+        "y": 660,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 660,
+        "width": 49,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kevin T. Harris",
+    "employer_name": "Atlas Industrial Supply",
+    "employee_id": "830132",
+    "ssn_last4": "***-**-7821",
+    "employee_address": "222 Commerce Blvd",
+    "employee_city_state_zip": "San Jose, CA 95101",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Louisville, KY 40201",
+    "pay_date": "12/22/2024",
+    "pay_period_start": "12/02/2024",
+    "pay_period_end": "12/15/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2792.95",
+    "gross_pay_current": "4266.59",
+    "net_pay_current": "2205.56",
+    "gross_pay_ytd": "106664.75",
+    "net_pay_ytd": "55139.00",
+    "total_deductions_current": "2061.03",
+    "federal_tax_withheld": "839.21",
+    "state_tax_withheld": "362.17",
+    "social_security_tax": "264.53",
+    "medicare_tax": "61.87",
+    "total_deductions_ytd": "51525.75",
+    "bonus_current": "1473.64",
+    "retirement_401k": "417.04",
+    "health_insurance": "116.21"
+  }
+}

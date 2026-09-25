@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0072",
+  "image_file": "ps_0072.png",
+  "layout_template": "boxed",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Quantum Data Systems",
+      "display_value": "Quantum Data Systems",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 242,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 90,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 76,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Charles L. Miller",
+      "display_value": "Charles L. Miller",
+      "field_position": {
+        "x": 81,
+        "y": 127,
+        "width": 97,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "253143",
+      "display_value": "253143",
+      "field_position": {
+        "x": 87,
+        "y": 142,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-3254",
+      "display_value": "***-**-3254",
+      "field_position": {
+        "x": 102,
+        "y": 157,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 81,
+        "y": 172,
+        "width": 98,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Denver, CO 80201",
+      "display_value": "Denver, CO 80201",
+      "field_position": {
+        "x": 71,
+        "y": 187,
+        "width": 109,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "09/07/2024",
+      "display_value": "09/07/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "08/01/2024",
+      "display_value": "08/01/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "08/31/2024",
+      "display_value": "08/31/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 39,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$2,539.38",
+      "display_value": "$2,539.38",
+      "field_position": {
+        "x": 366,
+        "y": 282,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$279.15",
+      "display_value": "$279.15",
+      "field_position": {
+        "x": 375,
+        "y": 302,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$2,818.53",
+      "display_value": "$2,818.53",
+      "field_position": {
+        "x": 366,
+        "y": 322,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$22,548.24",
+      "display_value": "$22,548.24",
+      "field_position": {
+        "x": 361,
+        "y": 342,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$467.47",
+      "display_value": "$467.47",
+      "field_position": {
+        "x": 765,
+        "y": 282,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$207.54",
+      "display_value": "$207.54",
+      "field_position": {
+        "x": 765,
+        "y": 302,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$174.75",
+      "display_value": "$174.75",
+      "field_position": {
+        "x": 765,
+        "y": 322,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$40.87",
+      "display_value": "$40.87",
+      "field_position": {
+        "x": 770,
+        "y": 342,
+        "width": 32,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$106.49",
+      "display_value": "$106.49",
+      "field_position": {
+        "x": 765,
+        "y": 362,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$161.31",
+      "display_value": "$161.31",
+      "field_position": {
+        "x": 765,
+        "y": 382,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,158.43",
+      "display_value": "$1,158.43",
+      "field_position": {
+        "x": 756,
+        "y": 402,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$9,267.44",
+      "display_value": "$9,267.44",
+      "field_position": {
+        "x": 756,
+        "y": 422,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$1,660.10",
+      "display_value": "$1,660.10",
+      "field_position": {
+        "x": 128,
+        "y": 489,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$13,280.80",
+      "display_value": "$13,280.80",
+      "field_position": {
+        "x": 428,
+        "y": 489,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Charles L. Miller",
+    "employer_name": "Quantum Data Systems",
+    "employee_id": "253143",
+    "ssn_last4": "***-**-3254",
+    "employee_address": "456 Oak Avenue",
+    "employee_city_state_zip": "Denver, CO 80201",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "09/07/2024",
+    "pay_period_start": "08/01/2024",
+    "pay_period_end": "08/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "2539.38",
+    "gross_pay_current": "2818.53",
+    "net_pay_current": "1660.10",
+    "gross_pay_ytd": "22548.24",
+    "net_pay_ytd": "13280.80",
+    "total_deductions_current": "1158.43",
+    "federal_tax_withheld": "467.47",
+    "state_tax_withheld": "207.54",
+    "social_security_tax": "174.75",
+    "medicare_tax": "40.87",
+    "total_deductions_ytd": "9267.44",
+    "overtime_pay_current": "279.15",
+    "retirement_401k": "106.49",
+    "health_insurance": "161.31"
+  }
+}

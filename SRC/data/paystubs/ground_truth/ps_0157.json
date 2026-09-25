@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0157",
+  "image_file": "ps_0157.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 243,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Oklahoma City, OK 73101",
+      "display_value": "Oklahoma City, OK 73101",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 154,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Michael L. Jones",
+      "display_value": "Michael L. Jones",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 164,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "493696",
+      "display_value": "493696",
+      "field_position": {
+        "x": 99,
+        "y": 170,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-3636",
+      "display_value": "***-**-3636",
+      "field_position": {
+        "x": 128,
+        "y": 190,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 98,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "01/03/2025",
+      "display_value": "01/03/2025",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 69,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "12/01/2024",
+      "display_value": "12/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "12/31/2024",
+      "display_value": "12/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 50,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$5,734.93",
+      "display_value": "$5,734.93",
+      "field_position": {
+        "x": 741,
+        "y": 336,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$5,734.93",
+      "display_value": "$5,734.93",
+      "field_position": {
+        "x": 741,
+        "y": 356,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$68,819.16",
+      "display_value": "$68,819.16",
+      "field_position": {
+        "x": 734,
+        "y": 376,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$872.31",
+      "display_value": "$872.31",
+      "field_position": {
+        "x": 752,
+        "y": 433,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$190.48",
+      "display_value": "$190.48",
+      "field_position": {
+        "x": 752,
+        "y": 453,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$355.57",
+      "display_value": "$355.57",
+      "field_position": {
+        "x": 752,
+        "y": 473,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$83.16",
+      "display_value": "$83.16",
+      "field_position": {
+        "x": 759,
+        "y": 493,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$563.22",
+      "display_value": "$563.22",
+      "field_position": {
+        "x": 752,
+        "y": 513,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$229.61",
+      "display_value": "$229.61",
+      "field_position": {
+        "x": 752,
+        "y": 533,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$2,294.35",
+      "display_value": "$2,294.35",
+      "field_position": {
+        "x": 741,
+        "y": 553,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$27,532.20",
+      "display_value": "$27,532.20",
+      "field_position": {
+        "x": 734,
+        "y": 573,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$3,440.58",
+      "display_value": "$3,440.58",
+      "field_position": {
+        "x": 50,
+        "y": 646,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$41,286.96",
+      "display_value": "$41,286.96",
+      "field_position": {
+        "x": 50,
+        "y": 682,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michael L. Jones",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "493696",
+    "ssn_last4": "***-**-3636",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "789 Elm Boulevard",
+    "employer_city_state_zip": "Oklahoma City, OK 73101",
+    "pay_date": "01/03/2025",
+    "pay_period_start": "12/01/2024",
+    "pay_period_end": "12/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "5734.93",
+    "gross_pay_current": "5734.93",
+    "net_pay_current": "3440.58",
+    "gross_pay_ytd": "68819.16",
+    "net_pay_ytd": "41286.96",
+    "total_deductions_current": "2294.35",
+    "federal_tax_withheld": "872.31",
+    "state_tax_withheld": "190.48",
+    "social_security_tax": "355.57",
+    "medicare_tax": "83.16",
+    "total_deductions_ytd": "27532.20",
+    "retirement_401k": "563.22",
+    "health_insurance": "229.61"
+  }
+}

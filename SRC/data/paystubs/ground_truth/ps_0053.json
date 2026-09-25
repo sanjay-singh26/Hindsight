@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0053",
+  "image_file": "ps_0053.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Liberty Manufacturing",
+      "display_value": "Liberty Manufacturing",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 215,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 72,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 74,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Sandra G. Garcia",
+      "display_value": "Sandra G. Garcia",
+      "field_position": {
+        "x": 155,
+        "y": 113,
+        "width": 97,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "770556",
+      "display_value": "770556",
+      "field_position": {
+        "x": 132,
+        "y": 133,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-1349",
+      "display_value": "***-**-1349",
+      "field_position": {
+        "x": 124,
+        "y": 153,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 72,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Oklahoma City, OK 73101",
+      "display_value": "Oklahoma City, OK 73101",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "02/18/2024",
+      "display_value": "02/18/2024",
+      "field_position": {
+        "x": 106,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "01/29/2024",
+      "display_value": "01/29/2024",
+      "field_position": {
+        "x": 278,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "02/11/2024",
+      "display_value": "02/11/2024",
+      "field_position": {
+        "x": 517,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 715,
+        "y": 211,
+        "width": 43,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$1,870.93",
+      "display_value": "$1,870.93",
+      "field_position": {
+        "x": 743,
+        "y": 271,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$708.79",
+      "display_value": "$708.79",
+      "field_position": {
+        "x": 753,
+        "y": 291,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$465.60",
+      "display_value": "$465.60",
+      "field_position": {
+        "x": 753,
+        "y": 311,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$3,045.32",
+      "display_value": "$3,045.32",
+      "field_position": {
+        "x": 743,
+        "y": 336,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$9,135.96",
+      "display_value": "$9,135.96",
+      "field_position": {
+        "x": 743,
+        "y": 356,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$633.62",
+      "display_value": "$633.62",
+      "field_position": {
+        "x": 753,
+        "y": 421,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$91.88",
+      "display_value": "$91.88",
+      "field_position": {
+        "x": 760,
+        "y": 441,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$188.81",
+      "display_value": "$188.81",
+      "field_position": {
+        "x": 753,
+        "y": 461,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$44.16",
+      "display_value": "$44.16",
+      "field_position": {
+        "x": 760,
+        "y": 481,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$115.10",
+      "display_value": "$115.10",
+      "field_position": {
+        "x": 753,
+        "y": 501,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,073.57",
+      "display_value": "$1,073.57",
+      "field_position": {
+        "x": 743,
+        "y": 521,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$3,220.71",
+      "display_value": "$3,220.71",
+      "field_position": {
+        "x": 743,
+        "y": 541,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$1,971.75",
+      "display_value": "$1,971.75",
+      "field_position": {
+        "x": 50,
+        "y": 602,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$5,915.25",
+      "display_value": "$5,915.25",
+      "field_position": {
+        "x": 50,
+        "y": 638,
+        "width": 97,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sandra G. Garcia",
+    "employer_name": "Liberty Manufacturing",
+    "employee_id": "770556",
+    "ssn_last4": "***-**-1349",
+    "employee_address": "456 Oak Avenue",
+    "employee_city_state_zip": "Oklahoma City, OK 73101",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "02/18/2024",
+    "pay_period_start": "01/29/2024",
+    "pay_period_end": "02/11/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1870.93",
+    "gross_pay_current": "3045.32",
+    "net_pay_current": "1971.75",
+    "gross_pay_ytd": "9135.96",
+    "net_pay_ytd": "5915.25",
+    "total_deductions_current": "1073.57",
+    "federal_tax_withheld": "633.62",
+    "state_tax_withheld": "91.88",
+    "social_security_tax": "188.81",
+    "medicare_tax": "44.16",
+    "total_deductions_ytd": "3220.71",
+    "overtime_pay_current": "708.79",
+    "bonus_current": "465.60",
+    "health_insurance": "115.10"
+  }
+}

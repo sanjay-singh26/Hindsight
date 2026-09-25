@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0050",
+  "image_file": "ps_0050.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "heavy_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Brightstar Retail Inc.",
+      "display_value": "Brightstar Retail Inc.",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 206,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 91,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 166,
+        "y": 85,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Carol W. Sanchez",
+      "display_value": "Carol W. Sanchez",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 104,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "194689",
+      "display_value": "194689",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-7464",
+      "display_value": "***-**-7464",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 74,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "San Francisco, CA 94101",
+      "display_value": "San Francisco, CA 94101",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 113,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "07/05/2024",
+      "display_value": "07/05/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "06/01/2024",
+      "display_value": "06/01/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 39,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$6,884.20",
+      "display_value": "$6,884.20",
+      "field_position": {
+        "x": 346,
+        "y": 275,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$6,884.20",
+      "display_value": "$6,884.20",
+      "field_position": {
+        "x": 346,
+        "y": 295,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$41,305.20",
+      "display_value": "$41,305.20",
+      "field_position": {
+        "x": 339,
+        "y": 315,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$777.93",
+      "display_value": "$777.93",
+      "field_position": {
+        "x": 742,
+        "y": 275,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$303.11",
+      "display_value": "$303.11",
+      "field_position": {
+        "x": 742,
+        "y": 295,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$426.82",
+      "display_value": "$426.82",
+      "field_position": {
+        "x": 742,
+        "y": 315,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$99.82",
+      "display_value": "$99.82",
+      "field_position": {
+        "x": 749,
+        "y": 335,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$632.63",
+      "display_value": "$632.63",
+      "field_position": {
+        "x": 742,
+        "y": 355,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$327.12",
+      "display_value": "$327.12",
+      "field_position": {
+        "x": 742,
+        "y": 375,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$2,567.43",
+      "display_value": "$2,567.43",
+      "field_position": {
+        "x": 731,
+        "y": 395,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$15,404.58",
+      "display_value": "$15,404.58",
+      "field_position": {
+        "x": 724,
+        "y": 415,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$4,316.77",
+      "display_value": "$4,316.77",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$25,900.62",
+      "display_value": "$25,900.62",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Carol W. Sanchez",
+    "employer_name": "Brightstar Retail Inc.",
+    "employee_id": "194689",
+    "ssn_last4": "***-**-7464",
+    "employee_address": "123 Main Street",
+    "employee_city_state_zip": "San Francisco, CA 94101",
+    "employer_address": "666 Enterprise Blvd",
+    "employer_city_state_zip": "San Diego, CA 92101",
+    "pay_date": "07/05/2024",
+    "pay_period_start": "06/01/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "6884.20",
+    "gross_pay_current": "6884.20",
+    "net_pay_current": "4316.77",
+    "gross_pay_ytd": "41305.20",
+    "net_pay_ytd": "25900.62",
+    "total_deductions_current": "2567.43",
+    "federal_tax_withheld": "777.93",
+    "state_tax_withheld": "303.11",
+    "social_security_tax": "426.82",
+    "medicare_tax": "99.82",
+    "total_deductions_ytd": "15404.58",
+    "retirement_401k": "632.63",
+    "health_insurance": "327.12"
+  }
+}

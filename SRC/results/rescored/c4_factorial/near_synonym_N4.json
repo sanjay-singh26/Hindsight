@@ -1,0 +1,1684 @@
+{
+  "overlap": "near_synonym",
+  "density": 4,
+  "active_fields": [
+    "employee_ssn",
+    "employer_ein",
+    "state_1",
+    "state_2"
+  ],
+  "cell": {
+    "haiku": {
+      "model_id": "claude-haiku-4-5",
+      "scorer_result": {
+        "n_gt": 200,
+        "n_pred": 182,
+        "n_recovered": 60,
+        "n_joint_correct": 27,
+        "n_misbindings": 33,
+        "n_duplicates": 0,
+        "rec_val": 0.3,
+        "cba_cond": 0.45,
+        "acc_joint": 0.135,
+        "delta": 0.165,
+        "precision": 0.148352,
+        "dup_rate": 0.0,
+        "f1_joint": 0.141361
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "employee_ssn": "484-68-9509",
+            "employer_ein": "31-8027043",
+            "state_1": "WA",
+            "state_2": "NC"
+          },
+          "predicted": {
+            "employee_ssn": "031-80-2043",
+            "employer_ein": "48-6809509",
+            "state_1": "MA",
+            "state_2": "WI"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "employee_ssn": "079-14-0849",
+            "employer_ein": "95-3831047",
+            "state_1": "UT",
+            "state_2": "HI"
+          },
+          "predicted": {
+            "employee_ssn": "095-38-3047",
+            "employer_ein": "079-14-0849",
+            "state_1": "NY",
+            "state_2": "NH"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "employee_ssn": "583-65-5516",
+            "employer_ein": "15-9448017",
+            "state_1": "UT",
+            "state_2": "ME"
+          },
+          "predicted": {
+            "employee_ssn": "583-65-5516",
+            "employer_ein": "038-78-0074",
+            "state_1": "ME",
+            "state_2": "NY"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "employee_ssn": "054-54-9312",
+            "employer_ein": "46-2477226",
+            "state_1": "MD",
+            "state_2": "AL"
+          },
+          "predicted": {
+            "employee_ssn": "054-54-9312",
+            "employer_ein": "46-2477226",
+            "state_1": "IN",
+            "state_2": "AL"
+          },
+          "cost": 0.001204
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "employee_ssn": "342-31-7649",
+            "employer_ein": "27-0382574",
+            "state_1": "MN",
+            "state_2": "IA"
+          },
+          "predicted": {
+            "employee_ssn": "027-03-8254",
+            "employer_ein": "342-31-7649",
+            "state_1": "OK",
+            "state_2": "LA"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "employee_ssn": "712-59-0520",
+            "employer_ein": "63-1096953",
+            "state_1": "WY",
+            "state_2": "VT"
+          },
+          "predicted": {
+            "employee_ssn": "263-10-9653",
+            "employer_ein": "712-59-0520",
+            "state_1": "VT",
+            "state_2": "FL"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "employee_ssn": "150-55-2485",
+            "employer_ein": "44-3025750",
+            "state_1": "NM",
+            "state_2": "RI"
+          },
+          "predicted": {
+            "employee_ssn": "150-55-2485",
+            "employer_ein": "N/A",
+            "state_1": "VA",
+            "state_2": "N/A"
+          },
+          "cost": 0.001204
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "employee_ssn": "688-56-6974",
+            "employer_ein": "67-1835730",
+            "state_1": "TN",
+            "state_2": "NM"
+          },
+          "predicted": {
+            "employee_ssn": "67-1835730",
+            "employer_ein": "68-56-6974",
+            "state_1": "UT",
+            "state_2": "N/A"
+          },
+          "cost": 0.001219
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "employee_ssn": "822-87-2371",
+            "employer_ein": "99-8630752",
+            "state_1": "AZ",
+            "state_2": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "99-8630752",
+            "employer_ein": "82-87-2371",
+            "state_1": "PA",
+            "state_2": "UT"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "employee_ssn": "838-95-1237",
+            "employer_ein": "52-7846836",
+            "state_1": "LA",
+            "state_2": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "52-7846836",
+            "employer_ein": "83-95-1237",
+            "state_1": "OK",
+            "state_2": "GA"
+          },
+          "cost": 0.001204
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "employee_ssn": "686-23-7237",
+            "employer_ein": "67-9511849",
+            "state_1": "KS",
+            "state_2": "ND"
+          },
+          "predicted": {
+            "employee_ssn": "067-95-1849",
+            "employer_ein": "686-23-7237",
+            "state_1": "AZ",
+            "state_2": "OH"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "employee_ssn": "662-76-3435",
+            "employer_ein": "76-3578500",
+            "state_1": "SD",
+            "state_2": "CO"
+          },
+          "predicted": {
+            "employee_ssn": "662-76-3435",
+            "employer_ein": "76-3578500",
+            "state_1": "WY",
+            "state_2": "CO"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "employee_ssn": "813-62-1184",
+            "employer_ein": "84-5020932",
+            "state_1": "MD",
+            "state_2": "MS"
+          },
+          "predicted": {
+            "employee_ssn": "211-76-7843",
+            "employer_ein": "81-3621184",
+            "state_1": "SC",
+            "state_2": "N/A"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "employee_ssn": "152-66-1892",
+            "employer_ein": "87-8954060",
+            "state_1": "IL",
+            "state_2": "HI"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_ein": "152-66-1892",
+            "state_1": "TX",
+            "state_2": "WA"
+          },
+          "cost": 0.001199
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "employee_ssn": "302-97-5825",
+            "employer_ein": "37-9034011",
+            "state_1": "DE",
+            "state_2": "TX"
+          },
+          "predicted": {
+            "employee_ssn": "517-15-3",
+            "employer_ein": "302-97-5825",
+            "state_1": "WI",
+            "state_2": "NE"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "employee_ssn": "610-27-6592",
+            "employer_ein": "84-4575129",
+            "state_1": "UT",
+            "state_2": "MA"
+          },
+          "predicted": {
+            "employee_ssn": "208-19-333",
+            "employer_ein": "610-27-6592",
+            "state_1": "OK",
+            "state_2": "N/A"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "employee_ssn": "498-71-2917",
+            "employer_ein": "54-8997942",
+            "state_1": "OR",
+            "state_2": "NM"
+          },
+          "predicted": {
+            "employee_ssn": "666-25-0631",
+            "employer_ein": "49-1129917",
+            "state_1": "CT",
+            "state_2": "PA"
+          },
+          "cost": 0.001204
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "employee_ssn": "852-14-0412",
+            "employer_ein": "35-4799316",
+            "state_1": "OH",
+            "state_2": "MS"
+          },
+          "predicted": {
+            "employee_ssn": "04346-8049",
+            "employer_ein": "05-1793316",
+            "state_1": "VT",
+            "state_2": "N/A"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "employee_ssn": "751-88-6978",
+            "employer_ein": "68-9781872",
+            "state_1": "GA",
+            "state_2": "ME"
+          },
+          "predicted": {
+            "employee_ssn": "481-49-7822",
+            "employer_ein": "75-88-6978",
+            "state_1": "AR",
+            "state_2": "UT"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "employee_ssn": "219-05-9508",
+            "employer_ein": "10-9619301",
+            "state_1": "AK",
+            "state_2": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "155-69-0093",
+            "employer_ein": "21-9-05-9508",
+            "state_1": "SC",
+            "state_2": "WV"
+          },
+          "cost": 0.001224
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "employee_ssn": "144-45-5742",
+            "employer_ein": "04-0167789",
+            "state_1": "MD",
+            "state_2": "IL"
+          },
+          "predicted": {
+            "employee_ssn": "144-45-5742",
+            "employer_ein": "04-0167789",
+            "state_1": "AZ",
+            "state_2": "IL"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "employee_ssn": "888-91-2527",
+            "employer_ein": "24-1230261",
+            "state_1": "MA",
+            "state_2": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "222-32-858",
+            "employer_ein": "88-91-2527",
+            "state_1": "MO",
+            "state_2": "WV"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "employee_ssn": "061-74-3844",
+            "employer_ein": "99-9301354",
+            "state_1": "OR",
+            "state_2": "GA"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_ein": "061-74-3844",
+            "state_1": "AR",
+            "state_2": "GA"
+          },
+          "cost": 0.001194
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "employee_ssn": "832-29-2067",
+            "employer_ein": "84-2645126",
+            "state_1": "OK",
+            "state_2": "PA"
+          },
+          "predicted": {
+            "employee_ssn": "217-20-019",
+            "employer_ein": "832-29-2067",
+            "state_1": "MT",
+            "state_2": "PA"
+          },
+          "cost": 0.001204
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "employee_ssn": "504-83-9590",
+            "employer_ein": "48-7738532",
+            "state_1": "IN",
+            "state_2": "CT"
+          },
+          "predicted": {
+            "employee_ssn": "504-83-9590",
+            "employer_ein": "N/A",
+            "state_1": "LA",
+            "state_2": "CA"
+          },
+          "cost": 0.001194
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "employee_ssn": "457-50-9546",
+            "employer_ein": "92-5981669",
+            "state_1": "WA",
+            "state_2": "DE"
+          },
+          "predicted": {
+            "employee_ssn": "457-50-9546",
+            "employer_ein": "71-0793837",
+            "state_1": "AR",
+            "state_2": "VT"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "employee_ssn": "070-82-9963",
+            "employer_ein": "68-1949016",
+            "state_1": "WV",
+            "state_2": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "206-53-0035",
+            "employer_ein": "07-0822963",
+            "state_1": "VT",
+            "state_2": "NY"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "employee_ssn": "168-52-9821",
+            "employer_ein": "36-8950078",
+            "state_1": "ND",
+            "state_2": "KY"
+          },
+          "predicted": {
+            "employee_ssn": "287-31-7337",
+            "employer_ein": "168-52-9821",
+            "state_1": "NY",
+            "state_2": "RY"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "employee_ssn": "018-56-0380",
+            "employer_ein": "22-0459580",
+            "state_1": "CA",
+            "state_2": "CA"
+          },
+          "predicted": {
+            "employee_ssn": "022-04-5980",
+            "employer_ein": "018-56-0380",
+            "state_1": "CA",
+            "state_2": "N/A"
+          },
+          "cost": 0.001219
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "employee_ssn": "622-95-4526",
+            "employer_ein": "24-1243521",
+            "state_1": "TN",
+            "state_2": "ID"
+          },
+          "predicted": {
+            "employee_ssn": "036-49-240",
+            "employer_ein": "622-95-4526",
+            "state_1": "VA",
+            "state_2": "N/A"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "employee_ssn": "499-03-3699",
+            "employer_ein": "10-1367882",
+            "state_1": "NJ",
+            "state_2": "NV"
+          },
+          "predicted": {
+            "employee_ssn": "010-13-6788",
+            "employer_ein": "49-0334699",
+            "state_1": "MI",
+            "state_2": "NV"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "employee_ssn": "310-59-7229",
+            "employer_ein": "99-9190153",
+            "state_1": "SD",
+            "state_2": "IA"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_ein": "31-0597229",
+            "state_1": "MT",
+            "state_2": "IA"
+          },
+          "cost": 0.001194
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "employee_ssn": "402-49-8899",
+            "employer_ein": "73-1750562",
+            "state_1": "GA",
+            "state_2": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "73-1750562",
+            "employer_ein": "40-2498899",
+            "state_1": "PA",
+            "state_2": "NY"
+          },
+          "cost": 0.001199
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "employee_ssn": "726-65-2584",
+            "employer_ein": "48-5578798",
+            "state_1": "PA",
+            "state_2": "MO"
+          },
+          "predicted": {
+            "employee_ssn": "544-31-040",
+            "employer_ein": "726-65-2584",
+            "state_1": "PA",
+            "state_2": "TN"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "employee_ssn": "110-21-8247",
+            "employer_ein": "39-0882879",
+            "state_1": "WA",
+            "state_2": "NC"
+          },
+          "predicted": {
+            "employee_ssn": "39-0882879",
+            "employer_ein": "110-21-8247",
+            "state_1": "KY",
+            "state_2": "PA"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "employee_ssn": "697-06-5725",
+            "employer_ein": "48-3070209",
+            "state_1": "AR",
+            "state_2": "NJ"
+          },
+          "predicted": {
+            "employee_ssn": "167-48-4819",
+            "employer_ein": "59-7064725",
+            "state_1": "OR",
+            "state_2": "AK"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "employee_ssn": "584-28-0451",
+            "employer_ein": "06-9379362",
+            "state_1": "CA",
+            "state_2": "NV"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_ein": "58-4-28-0451",
+            "state_1": "MO",
+            "state_2": "N/A"
+          },
+          "cost": 0.001219
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "employee_ssn": "411-18-2129",
+            "employer_ein": "74-5599882",
+            "state_1": "ID",
+            "state_2": "AR"
+          },
+          "predicted": {
+            "employee_ssn": "74-5599882",
+            "employer_ein": "41-1182129",
+            "state_1": "AR",
+            "state_2": "SC"
+          },
+          "cost": 0.001199
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "employee_ssn": "195-36-6099",
+            "employer_ein": "91-7109169",
+            "state_1": "WA",
+            "state_2": "TX"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_ein": "195-36-6099",
+            "state_1": "GA",
+            "state_2": "N/A"
+          },
+          "cost": 0.001204
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "employee_ssn": "107-78-4566",
+            "employer_ein": "53-0924367",
+            "state_1": "MS",
+            "state_2": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "53-0924367",
+            "employer_ein": "107-78-4566",
+            "state_1": "TN",
+            "state_2": "WV"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "employee_ssn": "602-28-4493",
+            "employer_ein": "92-9595199",
+            "state_1": "UT",
+            "state_2": "NE"
+          },
+          "predicted": {
+            "employee_ssn": "092-95-5199",
+            "employer_ein": "602-28-4493",
+            "state_1": "MS",
+            "state_2": "OR"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "employee_ssn": "878-59-8220",
+            "employer_ein": "63-4071592",
+            "state_1": "AL",
+            "state_2": "MN"
+          },
+          "predicted": {
+            "employee_ssn": "063-40-7159",
+            "employer_ein": "87-8599220",
+            "state_1": "NJ",
+            "state_2": "NC"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "employee_ssn": "143-37-6981",
+            "employer_ein": "30-8582821",
+            "state_1": "IL",
+            "state_2": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "581-57-342",
+            "employer_ein": "143-37-6981",
+            "state_1": "IA",
+            "state_2": "MO"
+          },
+          "cost": 0.001214
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "employee_ssn": "060-56-3810",
+            "employer_ein": "11-3205042",
+            "state_1": "WY",
+            "state_2": "TN"
+          },
+          "predicted": {
+            "employee_ssn": "11-3205042",
+            "employer_ein": "060-56-3810",
+            "state_1": "DC",
+            "state_2": "SC"
+          },
+          "cost": 0.001204
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "employee_ssn": "721-01-5157",
+            "employer_ein": "91-3577175",
+            "state_1": "RI",
+            "state_2": "RI"
+          },
+          "predicted": {
+            "employee_ssn": "091-35-7715",
+            "employer_ein": "721-01-5157",
+            "state_1": "AZ",
+            "state_2": "RI"
+          },
+          "cost": 0.001219
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "employee_ssn": "622-54-4606",
+            "employer_ein": "45-1235834",
+            "state_1": "SD",
+            "state_2": "RI"
+          },
+          "predicted": {
+            "employee_ssn": "652-54-4606",
+            "employer_ein": "31-1235834",
+            "state_1": "KS",
+            "state_2": "N/A"
+          },
+          "cost": 0.001219
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "employee_ssn": "536-90-2941",
+            "employer_ein": "54-0139532",
+            "state_1": "NV",
+            "state_2": "PA"
+          },
+          "predicted": {
+            "employee_ssn": "536-90-2941",
+            "employer_ein": "54-0139532",
+            "state_1": "AR",
+            "state_2": "WI"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "employee_ssn": "715-66-0584",
+            "employer_ein": "39-9793731",
+            "state_1": "WV",
+            "state_2": "NE"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_ein": "71-5660584",
+            "state_1": "NJ",
+            "state_2": "MA"
+          },
+          "cost": 0.001194
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "employee_ssn": "537-53-6591",
+            "employer_ein": "98-5950411",
+            "state_1": "NV",
+            "state_2": "KY"
+          },
+          "predicted": {
+            "employee_ssn": "537-53-6591",
+            "employer_ein": "98-5950411",
+            "state_1": "NY",
+            "state_2": "RY"
+          },
+          "cost": 0.001209
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "employee_ssn": "423-99-2921",
+            "employer_ein": "53-7227270",
+            "state_1": "DE",
+            "state_2": "HI"
+          },
+          "predicted": {
+            "employee_ssn": "53-7227270",
+            "employer_ein": "423-99-2921",
+            "state_1": "TN",
+            "state_2": "IA"
+          },
+          "cost": 0.001214
+        }
+      ]
+    },
+    "gpt4o-mini": {
+      "model_id": "gpt-4o-mini",
+      "scorer_result": {
+        "n_gt": 200,
+        "n_pred": 194,
+        "n_recovered": 167,
+        "n_joint_correct": 164,
+        "n_misbindings": 3,
+        "n_duplicates": 4,
+        "rec_val": 0.835,
+        "cba_cond": 0.982036,
+        "acc_joint": 0.82,
+        "delta": 0.015,
+        "precision": 0.845361,
+        "dup_rate": 0.020619,
+        "f1_joint": 0.832487
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "employee_ssn": "484-68-9509",
+            "employer_ein": "31-8027043",
+            "state_1": "WA",
+            "state_2": "NC"
+          },
+          "predicted": {
+            "employee_ssn": "878-63-6800",
+            "employer_ein": "31-8027043",
+            "state_1": "WA",
+            "state_2": "NC"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "employee_ssn": "079-14-0849",
+            "employer_ein": "95-3831047",
+            "state_1": "UT",
+            "state_2": "HI"
+          },
+          "predicted": {
+            "employee_ssn": "079-14-0849",
+            "employer_ein": "95-3831047",
+            "state_1": "UT",
+            "state_2": "HI"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "employee_ssn": "583-65-5516",
+            "employer_ein": "15-9448017",
+            "state_1": "UT",
+            "state_2": "ME"
+          },
+          "predicted": {
+            "employee_ssn": "583-65-5516",
+            "employer_ein": "15-9448017",
+            "state_1": "UT",
+            "state_2": "ME"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "employee_ssn": "054-54-9312",
+            "employer_ein": "46-2477226",
+            "state_1": "MD",
+            "state_2": "AL"
+          },
+          "predicted": {
+            "employee_ssn": "742-09-9000",
+            "employer_ein": "46-2477226",
+            "state_1": "MD",
+            "state_2": "AL"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "employee_ssn": "342-31-7649",
+            "employer_ein": "27-0382574",
+            "state_1": "MN",
+            "state_2": "IA"
+          },
+          "predicted": {
+            "employee_ssn": "342-31-7649",
+            "employer_ein": "27-0382574",
+            "state_1": "MN",
+            "state_2": "IA"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "employee_ssn": "712-59-0520",
+            "employer_ein": "63-1096953",
+            "state_1": "WY",
+            "state_2": "VT"
+          },
+          "predicted": {
+            "employee_ssn": "712-59-0520",
+            "employer_ein": "63-1096953",
+            "state_1": "VT",
+            "state_2": "N/A"
+          },
+          "cost": 0.0038913
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "employee_ssn": "150-55-2485",
+            "employer_ein": "44-3025750",
+            "state_1": "NM",
+            "state_2": "RI"
+          },
+          "predicted": {
+            "employee_ssn": "150-55-2485",
+            "employer_ein": "44-3025750",
+            "state_1": "NM",
+            "state_2": "RI"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "employee_ssn": "688-56-6974",
+            "employer_ein": "67-1835730",
+            "state_1": "TN",
+            "state_2": "NM"
+          },
+          "predicted": {
+            "employee_ssn": "177-27-7369",
+            "employer_ein": "67-1835730",
+            "state_1": "TN",
+            "state_2": "NM"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "employee_ssn": "822-87-2371",
+            "employer_ein": "99-8630752",
+            "state_1": "AZ",
+            "state_2": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "99-8630752",
+            "employer_ein": "99-8630752",
+            "state_1": "AZ",
+            "state_2": "WV"
+          },
+          "cost": 0.0038901
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "employee_ssn": "838-95-1237",
+            "employer_ein": "52-7846836",
+            "state_1": "LA",
+            "state_2": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "838-95-1237",
+            "employer_ein": "52-7846836",
+            "state_1": "GA",
+            "state_2": "SD"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "employee_ssn": "686-23-7237",
+            "employer_ein": "67-9511849",
+            "state_1": "KS",
+            "state_2": "ND"
+          },
+          "predicted": {
+            "employee_ssn": "67-9511849",
+            "employer_ein": "67-9511849",
+            "state_1": "KS",
+            "state_2": "ND"
+          },
+          "cost": 0.0038877
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "employee_ssn": "662-76-3435",
+            "employer_ein": "76-3578500",
+            "state_1": "SD",
+            "state_2": "CO"
+          },
+          "predicted": {
+            "employee_ssn": "662-76-3435",
+            "employer_ein": "76-3578500",
+            "state_1": "SD",
+            "state_2": "CO"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "employee_ssn": "813-62-1184",
+            "employer_ein": "84-5020932",
+            "state_1": "MD",
+            "state_2": "MS"
+          },
+          "predicted": {
+            "employee_ssn": "813-62-1184",
+            "employer_ein": "84-5020932",
+            "state_1": "MD",
+            "state_2": "MS"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "employee_ssn": "152-66-1892",
+            "employer_ein": "87-8954060",
+            "state_1": "IL",
+            "state_2": "HI"
+          },
+          "predicted": {
+            "employee_ssn": "152-66-1892",
+            "employer_ein": "87-8954060",
+            "state_1": "WA",
+            "state_2": "N/A"
+          },
+          "cost": 0.0038913
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "employee_ssn": "302-97-5825",
+            "employer_ein": "37-9034011",
+            "state_1": "DE",
+            "state_2": "TX"
+          },
+          "predicted": {
+            "employee_ssn": "302-97-5825",
+            "employer_ein": "37-9034011",
+            "state_1": "NE",
+            "state_2": "N/A"
+          },
+          "cost": 0.0038913
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "employee_ssn": "610-27-6592",
+            "employer_ein": "84-4575129",
+            "state_1": "UT",
+            "state_2": "MA"
+          },
+          "predicted": {
+            "employee_ssn": "610-27-6592",
+            "employer_ein": "84-4575129",
+            "state_1": "UT",
+            "state_2": "MA"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "employee_ssn": "498-71-2917",
+            "employer_ein": "54-8997942",
+            "state_1": "OR",
+            "state_2": "NM"
+          },
+          "predicted": {
+            "employee_ssn": "621-68-7778",
+            "employer_ein": "54-8997942",
+            "state_1": "OR",
+            "state_2": "NM"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "employee_ssn": "852-14-0412",
+            "employer_ein": "35-4799316",
+            "state_1": "OH",
+            "state_2": "MS"
+          },
+          "predicted": {
+            "employee_ssn": "35-4799316",
+            "employer_ein": "35-4799316",
+            "state_1": "OR",
+            "state_2": "MS"
+          },
+          "cost": 0.0038901
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "employee_ssn": "751-88-6978",
+            "employer_ein": "68-9781872",
+            "state_1": "GA",
+            "state_2": "ME"
+          },
+          "predicted": {
+            "employee_ssn": "751-88-6978",
+            "employer_ein": "68-9781872",
+            "state_1": "GA",
+            "state_2": "ME"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "employee_ssn": "219-05-9508",
+            "employer_ein": "10-9619301",
+            "state_1": "AK",
+            "state_2": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "160-70-0900",
+            "employer_ein": "10-9619301",
+            "state_1": "AR",
+            "state_2": "WV"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "employee_ssn": "144-45-5742",
+            "employer_ein": "04-0167789",
+            "state_1": "MD",
+            "state_2": "IL"
+          },
+          "predicted": {
+            "employee_ssn": "144-45-5742",
+            "employer_ein": "04-0167789",
+            "state_1": "MD",
+            "state_2": "IL"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "employee_ssn": "888-91-2527",
+            "employer_ein": "24-1230261",
+            "state_1": "MA",
+            "state_2": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "888-91-2527",
+            "employer_ein": "24-1230261",
+            "state_1": "MA",
+            "state_2": "WV"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "employee_ssn": "061-74-3844",
+            "employer_ein": "99-9301354",
+            "state_1": "OR",
+            "state_2": "GA"
+          },
+          "predicted": {
+            "employee_ssn": "999-30-1354",
+            "employer_ein": "99-9301354",
+            "state_1": "OR",
+            "state_2": "GA"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "employee_ssn": "832-29-2067",
+            "employer_ein": "84-2645126",
+            "state_1": "OK",
+            "state_2": "PA"
+          },
+          "predicted": {
+            "employee_ssn": "832-29-2067",
+            "employer_ein": "84-26415126",
+            "state_1": "OR",
+            "state_2": "PA"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "employee_ssn": "504-83-9590",
+            "employer_ein": "48-7738532",
+            "state_1": "IN",
+            "state_2": "CT"
+          },
+          "predicted": {
+            "employee_ssn": "504-83-9590",
+            "employer_ein": "48-7738532",
+            "state_1": "IN",
+            "state_2": "CT"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "employee_ssn": "457-50-9546",
+            "employer_ein": "92-5981669",
+            "state_1": "WA",
+            "state_2": "DE"
+          },
+          "predicted": {
+            "employee_ssn": "457-50-9546",
+            "employer_ein": "92-5981669",
+            "state_1": "WA",
+            "state_2": "DE"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "employee_ssn": "070-82-9963",
+            "employer_ein": "68-1949016",
+            "state_1": "WV",
+            "state_2": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "070-82-9963",
+            "employer_ein": "68-1949016",
+            "state_1": "WV",
+            "state_2": "UTF"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "employee_ssn": "168-52-9821",
+            "employer_ein": "36-8950078",
+            "state_1": "ND",
+            "state_2": "KY"
+          },
+          "predicted": {
+            "employee_ssn": "625-35-2370",
+            "employer_ein": "36-8950078",
+            "state_1": "ND",
+            "state_2": "KY"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "employee_ssn": "018-56-0380",
+            "employer_ein": "22-0459580",
+            "state_1": "CA",
+            "state_2": "CA"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_ein": "22-0459580",
+            "state_1": "CA",
+            "state_2": "N/A"
+          },
+          "cost": 0.0038889
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "employee_ssn": "622-95-4526",
+            "employer_ein": "24-1243521",
+            "state_1": "TN",
+            "state_2": "ID"
+          },
+          "predicted": {
+            "employee_ssn": "622-95-4526",
+            "employer_ein": "24-1243521",
+            "state_1": "TN",
+            "state_2": "ID"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "employee_ssn": "499-03-3699",
+            "employer_ein": "10-1367882",
+            "state_1": "NJ",
+            "state_2": "NV"
+          },
+          "predicted": {
+            "employee_ssn": "499-03-3699",
+            "employer_ein": "10-1367882",
+            "state_1": "NJ",
+            "state_2": "NV"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "employee_ssn": "310-59-7229",
+            "employer_ein": "99-9190153",
+            "state_1": "SD",
+            "state_2": "IA"
+          },
+          "predicted": {
+            "employee_ssn": "310-59-7229",
+            "employer_ein": "99-91910153",
+            "state_1": "SD",
+            "state_2": "IA"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "employee_ssn": "402-49-8899",
+            "employer_ein": "73-1750562",
+            "state_1": "GA",
+            "state_2": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "402-49-8899",
+            "employer_ein": "73-1750562",
+            "state_1": "GA",
+            "state_2": "WA"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "employee_ssn": "726-65-2584",
+            "employer_ein": "48-5578798",
+            "state_1": "PA",
+            "state_2": "MO"
+          },
+          "predicted": {
+            "employee_ssn": "726-65-2584",
+            "employer_ein": "48-5578798",
+            "state_1": "PA",
+            "state_2": "MO"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "employee_ssn": "110-21-8247",
+            "employer_ein": "39-0882879",
+            "state_1": "WA",
+            "state_2": "NC"
+          },
+          "predicted": {
+            "employee_ssn": "666-66-0670",
+            "employer_ein": "39-0882879",
+            "state_1": "WA",
+            "state_2": "NC"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "employee_ssn": "697-06-5725",
+            "employer_ein": "48-3070209",
+            "state_1": "AR",
+            "state_2": "NJ"
+          },
+          "predicted": {
+            "employee_ssn": "697-06-5725",
+            "employer_ein": "48-3070209",
+            "state_1": "AR",
+            "state_2": "NJ"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "employee_ssn": "584-28-0451",
+            "employer_ein": "06-9379362",
+            "state_1": "CA",
+            "state_2": "NV"
+          },
+          "predicted": {
+            "employee_ssn": "06-9379362",
+            "employer_ein": "584-28-0451",
+            "state_1": "CA",
+            "state_2": "NV"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "employee_ssn": "411-18-2129",
+            "employer_ein": "74-5599882",
+            "state_1": "ID",
+            "state_2": "AR"
+          },
+          "predicted": {
+            "employee_ssn": "411-18-2129",
+            "employer_ein": "74-5599882",
+            "state_1": "AL",
+            "state_2": "AR"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "employee_ssn": "195-36-6099",
+            "employer_ein": "91-7109169",
+            "state_1": "WA",
+            "state_2": "TX"
+          },
+          "predicted": {
+            "employee_ssn": "195-36-6099",
+            "employer_ein": "91-71019169",
+            "state_1": "WA",
+            "state_2": "TX"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "employee_ssn": "107-78-4566",
+            "employer_ein": "53-0924367",
+            "state_1": "MS",
+            "state_2": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "107-78-4566",
+            "employer_ein": "53-0924367",
+            "state_1": "MS",
+            "state_2": "WV"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "employee_ssn": "602-28-4493",
+            "employer_ein": "92-9595199",
+            "state_1": "UT",
+            "state_2": "NE"
+          },
+          "predicted": {
+            "employee_ssn": "602-28-4493",
+            "employer_ein": "92-9595199",
+            "state_1": "UT",
+            "state_2": "NE"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "employee_ssn": "878-59-8220",
+            "employer_ein": "63-4071592",
+            "state_1": "AL",
+            "state_2": "MN"
+          },
+          "predicted": {
+            "employee_ssn": "878-59-8220",
+            "employer_ein": "63-4071592",
+            "state_1": "AL",
+            "state_2": "MN"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "employee_ssn": "143-37-6981",
+            "employer_ein": "30-8582821",
+            "state_1": "IL",
+            "state_2": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "143-37-6981",
+            "employer_ein": "30-8582821",
+            "state_1": "IL",
+            "state_2": "SD"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "employee_ssn": "060-56-3810",
+            "employer_ein": "11-3205042",
+            "state_1": "WY",
+            "state_2": "TN"
+          },
+          "predicted": {
+            "employee_ssn": "060-56-3810",
+            "employer_ein": "11-3205042",
+            "state_1": "WY",
+            "state_2": "TN"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "employee_ssn": "721-01-5157",
+            "employer_ein": "91-3577175",
+            "state_1": "RI",
+            "state_2": "RI"
+          },
+          "predicted": {
+            "employee_ssn": "721-01-5157",
+            "employer_ein": "91-3571715",
+            "state_1": "RI",
+            "state_2": "RI"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "employee_ssn": "622-54-4606",
+            "employer_ein": "45-1235834",
+            "state_1": "SD",
+            "state_2": "RI"
+          },
+          "predicted": {
+            "employee_ssn": "45-1235834",
+            "employer_ein": "45-1235834",
+            "state_1": "KS",
+            "state_2": "RI"
+          },
+          "cost": 0.0038901
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "employee_ssn": "536-90-2941",
+            "employer_ein": "54-0139532",
+            "state_1": "NV",
+            "state_2": "PA"
+          },
+          "predicted": {
+            "employee_ssn": "536-90-2941",
+            "employer_ein": "54-0139532",
+            "state_1": "NV",
+            "state_2": "PA"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "employee_ssn": "715-66-0584",
+            "employer_ein": "39-9793731",
+            "state_1": "WV",
+            "state_2": "NE"
+          },
+          "predicted": {
+            "employee_ssn": "715-66-0584",
+            "employer_ein": "39-9793731",
+            "state_1": "WV",
+            "state_2": "NE"
+          },
+          "cost": 0.0038883
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "employee_ssn": "537-53-6591",
+            "employer_ein": "98-5950411",
+            "state_1": "NV",
+            "state_2": "KY"
+          },
+          "predicted": {
+            "employee_ssn": "537-53-6591",
+            "employer_ein": "98-5950411",
+            "state_1": "NY",
+            "state_2": "KY"
+          },
+          "cost": 0.0038907
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "employee_ssn": "423-99-2921",
+            "employer_ein": "53-7227270",
+            "state_1": "DE",
+            "state_2": "HI"
+          },
+          "predicted": {
+            "employee_ssn": "423-99-2921",
+            "employer_ein": "53-7227270",
+            "state_1": "TN",
+            "state_2": "N/A"
+          },
+          "cost": 0.0038913
+        }
+      ]
+    }
+  },
+  "summary": {
+    "haiku": {
+      "n_gt": 200,
+      "n_pred": 182,
+      "n_recovered": 60,
+      "n_joint_correct": 27,
+      "n_misbindings": 33,
+      "n_duplicates": 0,
+      "rec_val": 0.3,
+      "cba_cond": 0.45,
+      "acc_joint": 0.135,
+      "delta": 0.165,
+      "precision": 0.148352,
+      "dup_rate": 0.0,
+      "f1_joint": 0.141361
+    },
+    "gpt4o-mini": {
+      "n_gt": 200,
+      "n_pred": 194,
+      "n_recovered": 167,
+      "n_joint_correct": 164,
+      "n_misbindings": 3,
+      "n_duplicates": 4,
+      "rec_val": 0.835,
+      "cba_cond": 0.982036,
+      "acc_joint": 0.82,
+      "delta": 0.015,
+      "precision": 0.845361,
+      "dup_rate": 0.020619,
+      "f1_joint": 0.832487
+    }
+  }
+}

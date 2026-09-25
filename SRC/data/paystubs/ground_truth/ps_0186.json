@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0186",
+  "image_file": "ps_0186.png",
+  "layout_template": "government",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Golden State Packaging",
+      "display_value": "Golden State Packaging",
+      "field_position": {
+        "x": 130,
+        "y": 75,
+        "width": 138,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 135,
+        "y": 95,
+        "width": 103,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 196,
+        "y": 115,
+        "width": 94,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "David A. Young",
+      "display_value": "David A. Young",
+      "field_position": {
+        "x": 135,
+        "y": 143,
+        "width": 87,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "871976",
+      "display_value": "871976",
+      "field_position": {
+        "x": 118,
+        "y": 163,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-1795",
+      "display_value": "***-**-1795",
+      "field_position": {
+        "x": 81,
+        "y": 183,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 91,
+        "y": 203,
+        "width": 112,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 133,
+        "y": 223,
+        "width": 140,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "11/24/2024",
+      "display_value": "11/24/2024",
+      "field_position": {
+        "x": 117,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "11/04/2024",
+      "display_value": "11/04/2024",
+      "field_position": {
+        "x": 354,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "11/17/2024",
+      "display_value": "11/17/2024",
+      "field_position": {
+        "x": 519,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 725,
+        "y": 251,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$1,754.94",
+      "display_value": "$1,754.94",
+      "field_position": {
+        "x": 742,
+        "y": 309,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$1,383.54",
+      "display_value": "$1,383.54",
+      "field_position": {
+        "x": 742,
+        "y": 329,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$3,138.48",
+      "display_value": "$3,138.48",
+      "field_position": {
+        "x": 743,
+        "y": 349,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$72,185.04",
+      "display_value": "$72,185.04",
+      "field_position": {
+        "x": 735,
+        "y": 369,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$542.14",
+      "display_value": "$542.14",
+      "field_position": {
+        "x": 752,
+        "y": 427,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$154.76",
+      "display_value": "$154.76",
+      "field_position": {
+        "x": 753,
+        "y": 447,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$194.59",
+      "display_value": "$194.59",
+      "field_position": {
+        "x": 753,
+        "y": 467,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$45.51",
+      "display_value": "$45.51",
+      "field_position": {
+        "x": 760,
+        "y": 487,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$244.43",
+      "display_value": "$244.43",
+      "field_position": {
+        "x": 753,
+        "y": 507,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,181.43",
+      "display_value": "$1,181.43",
+      "field_position": {
+        "x": 743,
+        "y": 527,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$27,172.89",
+      "display_value": "$27,172.89",
+      "field_position": {
+        "x": 736,
+        "y": 547,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,957.05",
+      "display_value": "$1,957.05",
+      "field_position": {
+        "x": 130,
+        "y": 582,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$45,012.15",
+      "display_value": "$45,012.15",
+      "field_position": {
+        "x": 129,
+        "y": 612,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "David A. Young",
+    "employer_name": "Golden State Packaging",
+    "employee_id": "871976",
+    "ssn_last4": "***-**-1795",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Albuquerque, NM 87101",
+    "employer_address": "777 Market Street",
+    "employer_city_state_zip": "Mesa, AZ 85201",
+    "pay_date": "11/24/2024",
+    "pay_period_start": "11/04/2024",
+    "pay_period_end": "11/17/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1754.94",
+    "gross_pay_current": "3138.48",
+    "net_pay_current": "1957.05",
+    "gross_pay_ytd": "72185.04",
+    "net_pay_ytd": "45012.15",
+    "total_deductions_current": "1181.43",
+    "federal_tax_withheld": "542.14",
+    "state_tax_withheld": "154.76",
+    "social_security_tax": "194.59",
+    "medicare_tax": "45.51",
+    "total_deductions_ytd": "27172.89",
+    "bonus_current": "1383.54",
+    "health_insurance": "244.43"
+  }
+}

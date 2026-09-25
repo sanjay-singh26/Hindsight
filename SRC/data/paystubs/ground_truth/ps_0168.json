@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0168",
+  "image_file": "ps_0168.png",
+  "layout_template": "compact",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Lakewood Education Group",
+      "display_value": "Lakewood Education Group",
+      "field_position": {
+        "x": 120,
+        "y": 25,
+        "width": 129,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Nancy K. Scott",
+      "display_value": "Nancy K. Scott",
+      "field_position": {
+        "x": 122,
+        "y": 39,
+        "width": 67,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "817659",
+      "display_value": "817659",
+      "field_position": {
+        "x": 97,
+        "y": 53,
+        "width": 35,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-2771",
+      "display_value": "***-**-2771",
+      "field_position": {
+        "x": 63,
+        "y": 67,
+        "width": 57,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 78,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 84,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 90,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 86,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "05/20/2024",
+      "display_value": "05/20/2024",
+      "field_position": {
+        "x": 94,
+        "y": 137,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "05/01/2024",
+      "display_value": "05/01/2024",
+      "field_position": {
+        "x": 124,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "05/15/2024",
+      "display_value": "05/15/2024",
+      "field_position": {
+        "x": 96,
+        "y": 165,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 113,
+        "y": 179,
+        "width": 66,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$3,710.45",
+      "display_value": "$3,710.45",
+      "field_position": {
+        "x": 764,
+        "y": 215,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$3,710.45",
+      "display_value": "$3,710.45",
+      "field_position": {
+        "x": 764,
+        "y": 235,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$33,394.05",
+      "display_value": "$33,394.05",
+      "field_position": {
+        "x": 759,
+        "y": 255,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$454.91",
+      "display_value": "$454.91",
+      "field_position": {
+        "x": 773,
+        "y": 297,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$226.48",
+      "display_value": "$226.48",
+      "field_position": {
+        "x": 773,
+        "y": 317,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$230.05",
+      "display_value": "$230.05",
+      "field_position": {
+        "x": 773,
+        "y": 337,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$53.80",
+      "display_value": "$53.80",
+      "field_position": {
+        "x": 778,
+        "y": 357,
+        "width": 32,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$126.06",
+      "display_value": "$126.06",
+      "field_position": {
+        "x": 773,
+        "y": 377,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,091.30",
+      "display_value": "$1,091.30",
+      "field_position": {
+        "x": 764,
+        "y": 397,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$9,821.70",
+      "display_value": "$9,821.70",
+      "field_position": {
+        "x": 764,
+        "y": 417,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$2,619.15",
+      "display_value": "$2,619.15",
+      "field_position": {
+        "x": 113,
+        "y": 445,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$23,572.35",
+      "display_value": "$23,572.35",
+      "field_position": {
+        "x": 83,
+        "y": 459,
+        "width": 51,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Nancy K. Scott",
+    "employer_name": "Lakewood Education Group",
+    "employee_id": "817659",
+    "ssn_last4": "***-**-2771",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Phoenix, AZ 85001",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Seattle, WA 98101",
+    "pay_date": "05/20/2024",
+    "pay_period_start": "05/01/2024",
+    "pay_period_end": "05/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3710.45",
+    "gross_pay_current": "3710.45",
+    "net_pay_current": "2619.15",
+    "gross_pay_ytd": "33394.05",
+    "net_pay_ytd": "23572.35",
+    "total_deductions_current": "1091.30",
+    "federal_tax_withheld": "454.91",
+    "state_tax_withheld": "226.48",
+    "social_security_tax": "230.05",
+    "medicare_tax": "53.80",
+    "total_deductions_ytd": "9821.70",
+    "retirement_401k": "126.06"
+  }
+}

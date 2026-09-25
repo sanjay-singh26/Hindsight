@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0184",
+  "image_file": "ps_0184.png",
+  "layout_template": "check_style",
+  "noise_profile": "phone_photo",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Heartland Insurance Co.",
+      "display_value": "Heartland Insurance Co.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 248,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "904694",
+      "display_value": "904694",
+      "field_position": {
+        "x": 707,
+        "y": 45,
+        "width": 93,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 67,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "San Antonio, TX 78201",
+      "display_value": "San Antonio, TX 78201",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 104,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Joseph L. Robinson",
+      "display_value": "Joseph L. Robinson",
+      "field_position": {
+        "x": 133,
+        "y": 131,
+        "width": 117,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-8751",
+      "display_value": "***-**-8751",
+      "field_position": {
+        "x": 114,
+        "y": 149,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 134,
+        "y": 167,
+        "width": 91,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 126,
+        "y": 185,
+        "width": 106,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "01/19/2024",
+      "display_value": "01/19/2024",
+      "field_position": {
+        "x": 501,
+        "y": 131,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "01/01/2024",
+      "display_value": "01/01/2024",
+      "field_position": {
+        "x": 460,
+        "y": 147,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "01/14/2024",
+      "display_value": "01/14/2024",
+      "field_position": {
+        "x": 475,
+        "y": 163,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 503,
+        "y": 179,
+        "width": 46,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$2,383.17",
+      "display_value": "$2,383.17",
+      "field_position": {
+        "x": 341,
+        "y": 270,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$2,383.17",
+      "display_value": "$2,383.17",
+      "field_position": {
+        "x": 341,
+        "y": 290,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$2,383.17",
+      "display_value": "$2,383.17",
+      "field_position": {
+        "x": 341,
+        "y": 310,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$394.95",
+      "display_value": "$394.95",
+      "field_position": {
+        "x": 752,
+        "y": 270,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$124.96",
+      "display_value": "$124.96",
+      "field_position": {
+        "x": 752,
+        "y": 290,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$147.76",
+      "display_value": "$147.76",
+      "field_position": {
+        "x": 752,
+        "y": 310,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$34.56",
+      "display_value": "$34.56",
+      "field_position": {
+        "x": 759,
+        "y": 330,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$221.11",
+      "display_value": "$221.11",
+      "field_position": {
+        "x": 752,
+        "y": 350,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$301.90",
+      "display_value": "$301.90",
+      "field_position": {
+        "x": 752,
+        "y": 370,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,225.24",
+      "display_value": "$1,225.24",
+      "field_position": {
+        "x": 741,
+        "y": 390,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$1,225.24",
+      "display_value": "$1,225.24",
+      "field_position": {
+        "x": 741,
+        "y": 410,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,157.93",
+      "display_value": "$1,157.93",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$1,157.93",
+      "display_value": "$1,157.93",
+      "field_position": {
+        "x": 726,
+        "y": 480,
+        "width": 59,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joseph L. Robinson",
+    "employer_name": "Heartland Insurance Co.",
+    "employee_id": "904694",
+    "ssn_last4": "***-**-8751",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Tucson, AZ 85701",
+    "employer_address": "321 Pine Road",
+    "employer_city_state_zip": "San Antonio, TX 78201",
+    "pay_date": "01/19/2024",
+    "pay_period_start": "01/01/2024",
+    "pay_period_end": "01/14/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2383.17",
+    "gross_pay_current": "2383.17",
+    "net_pay_current": "1157.93",
+    "gross_pay_ytd": "2383.17",
+    "net_pay_ytd": "1157.93",
+    "total_deductions_current": "1225.24",
+    "federal_tax_withheld": "394.95",
+    "state_tax_withheld": "124.96",
+    "social_security_tax": "147.76",
+    "medicare_tax": "34.56",
+    "total_deductions_ytd": "1225.24",
+    "retirement_401k": "221.11",
+    "health_insurance": "301.90"
+  }
+}

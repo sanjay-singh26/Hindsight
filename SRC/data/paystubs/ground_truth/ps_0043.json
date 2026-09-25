@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0043",
+  "image_file": "ps_0043.png",
+  "layout_template": "minimal",
+  "noise_profile": "phone_photo",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Ironworks Engineering Ltd.",
+      "display_value": "Ironworks Engineering Ltd.",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 275,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Richard H. Hall",
+      "display_value": "Richard H. Hall",
+      "field_position": {
+        "x": 691,
+        "y": 85,
+        "width": 89,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "501574",
+      "display_value": "501574",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 35,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-4826",
+      "display_value": "***-**-4826",
+      "field_position": {
+        "x": 135,
+        "y": 85,
+        "width": 57,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 78,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 73,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 93,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "08/04/2024",
+      "display_value": "08/04/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 163,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "07/31/2024",
+      "display_value": "07/31/2024",
+      "field_position": {
+        "x": 256,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 349,
+        "y": 151,
+        "width": 39,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$6,214.96",
+      "display_value": "$6,214.96",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$451.60",
+      "display_value": "$451.60",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$1,362.41",
+      "display_value": "$1,362.41",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$549.67",
+      "display_value": "$549.67",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$413.33",
+      "display_value": "$413.33",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$96.67",
+      "display_value": "$96.67",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$445.44",
+      "display_value": "$445.44",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$275.06",
+      "display_value": "$275.06",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$6,666.56",
+      "display_value": "$6,666.56",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$3,142.58",
+      "display_value": "$3,142.58",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$3,523.98",
+      "display_value": "$3,523.98",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$46,665.92",
+      "display_value": "$46,665.92",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$21,998.06",
+      "display_value": "$21,998.06",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$24,667.86",
+      "display_value": "$24,667.86",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Richard H. Hall",
+    "employer_name": "Ironworks Engineering Ltd.",
+    "employee_id": "501574",
+    "ssn_last4": "***-**-4826",
+    "employee_address": "222 Commerce Blvd",
+    "employee_city_state_zip": "Chicago, IL 60601",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Mesa, AZ 85201",
+    "pay_date": "08/04/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "6214.96",
+    "gross_pay_current": "6666.56",
+    "net_pay_current": "3523.98",
+    "gross_pay_ytd": "46665.92",
+    "net_pay_ytd": "24667.86",
+    "total_deductions_current": "3142.58",
+    "federal_tax_withheld": "1362.41",
+    "state_tax_withheld": "549.67",
+    "social_security_tax": "413.33",
+    "medicare_tax": "96.67",
+    "total_deductions_ytd": "21998.06",
+    "overtime_pay_current": "451.60",
+    "retirement_401k": "445.44",
+    "health_insurance": "275.06"
+  }
+}

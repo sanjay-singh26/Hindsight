@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0163",
+  "image_file": "ps_0163.png",
+  "layout_template": "minimal",
+  "noise_profile": "faded",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Liberty Manufacturing",
+      "display_value": "Liberty Manufacturing",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 227,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Anthony N. Taylor",
+      "display_value": "Anthony N. Taylor",
+      "field_position": {
+        "x": 671,
+        "y": 85,
+        "width": 109,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "609172",
+      "display_value": "609172",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 35,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-8750",
+      "display_value": "***-**-8750",
+      "field_position": {
+        "x": 135,
+        "y": 85,
+        "width": 57,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Baltimore, MD 21201",
+      "display_value": "Baltimore, MD 21201",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 98,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 76,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 101,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "10/13/2024",
+      "display_value": "10/13/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "09/23/2024",
+      "display_value": "09/23/2024",
+      "field_position": {
+        "x": 163,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "10/06/2024",
+      "display_value": "10/06/2024",
+      "field_position": {
+        "x": 256,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 349,
+        "y": 151,
+        "width": 46,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$3,510.51",
+      "display_value": "$3,510.51",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$377.05",
+      "display_value": "$377.05",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$710.89",
+      "display_value": "$710.89",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$128.12",
+      "display_value": "$128.12",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$241.03",
+      "display_value": "$241.03",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$56.37",
+      "display_value": "$56.37",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$189.72",
+      "display_value": "$189.72",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$171.22",
+      "display_value": "$171.22",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$3,887.56",
+      "display_value": "$3,887.56",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,497.35",
+      "display_value": "$1,497.35",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$2,390.21",
+      "display_value": "$2,390.21",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$77,751.20",
+      "display_value": "$77,751.20",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$29,947.00",
+      "display_value": "$29,947.00",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$47,804.20",
+      "display_value": "$47,804.20",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Anthony N. Taylor",
+    "employer_name": "Liberty Manufacturing",
+    "employee_id": "609172",
+    "ssn_last4": "***-**-8750",
+    "employee_address": "456 Oak Avenue",
+    "employee_city_state_zip": "Jacksonville, FL 32099",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Baltimore, MD 21201",
+    "pay_date": "10/13/2024",
+    "pay_period_start": "09/23/2024",
+    "pay_period_end": "10/06/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "3510.51",
+    "gross_pay_current": "3887.56",
+    "net_pay_current": "2390.21",
+    "gross_pay_ytd": "77751.20",
+    "net_pay_ytd": "47804.20",
+    "total_deductions_current": "1497.35",
+    "federal_tax_withheld": "710.89",
+    "state_tax_withheld": "128.12",
+    "social_security_tax": "241.03",
+    "medicare_tax": "56.37",
+    "total_deductions_ytd": "29947.00",
+    "overtime_pay_current": "377.05",
+    "retirement_401k": "189.72",
+    "health_insurance": "171.22"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0083",
+  "image_file": "ps_0083.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Keystone Properties Group",
+      "display_value": "Keystone Properties Group",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 277,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 84,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 75,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Sarah K. Rodriguez",
+      "display_value": "Sarah K. Rodriguez",
+      "field_position": {
+        "x": 96,
+        "y": 113,
+        "width": 114,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "659392",
+      "display_value": "659392",
+      "field_position": {
+        "x": 110,
+        "y": 133,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-2530",
+      "display_value": "***-**-2530",
+      "field_position": {
+        "x": 147,
+        "y": 153,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 91,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 77,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "03/31/2024",
+      "display_value": "03/31/2024",
+      "field_position": {
+        "x": 121,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "03/11/2024",
+      "display_value": "03/11/2024",
+      "field_position": {
+        "x": 335,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "03/24/2024",
+      "display_value": "03/24/2024",
+      "field_position": {
+        "x": 525,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 699,
+        "y": 211,
+        "width": 46,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$3,648.34",
+      "display_value": "$3,648.34",
+      "field_position": {
+        "x": 741,
+        "y": 271,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$3,648.34",
+      "display_value": "$3,648.34",
+      "field_position": {
+        "x": 741,
+        "y": 296,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$21,890.04",
+      "display_value": "$21,890.04",
+      "field_position": {
+        "x": 733,
+        "y": 316,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$611.59",
+      "display_value": "$611.59",
+      "field_position": {
+        "x": 752,
+        "y": 381,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$290.09",
+      "display_value": "$290.09",
+      "field_position": {
+        "x": 752,
+        "y": 401,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$226.20",
+      "display_value": "$226.20",
+      "field_position": {
+        "x": 752,
+        "y": 421,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$52.90",
+      "display_value": "$52.90",
+      "field_position": {
+        "x": 759,
+        "y": 441,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$121.06",
+      "display_value": "$121.06",
+      "field_position": {
+        "x": 752,
+        "y": 461,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$235.73",
+      "display_value": "$235.73",
+      "field_position": {
+        "x": 752,
+        "y": 481,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,537.57",
+      "display_value": "$1,537.57",
+      "field_position": {
+        "x": 741,
+        "y": 501,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$9,225.42",
+      "display_value": "$9,225.42",
+      "field_position": {
+        "x": 741,
+        "y": 521,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$2,110.77",
+      "display_value": "$2,110.77",
+      "field_position": {
+        "x": 50,
+        "y": 582,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$12,664.62",
+      "display_value": "$12,664.62",
+      "field_position": {
+        "x": 50,
+        "y": 618,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sarah K. Rodriguez",
+    "employer_name": "Keystone Properties Group",
+    "employee_id": "659392",
+    "ssn_last4": "***-**-2530",
+    "employee_address": "555 Corporate Way",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "777 Market Street",
+    "employer_city_state_zip": "Tulsa, OK 74101",
+    "pay_date": "03/31/2024",
+    "pay_period_start": "03/11/2024",
+    "pay_period_end": "03/24/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "3648.34",
+    "gross_pay_current": "3648.34",
+    "net_pay_current": "2110.77",
+    "gross_pay_ytd": "21890.04",
+    "net_pay_ytd": "12664.62",
+    "total_deductions_current": "1537.57",
+    "federal_tax_withheld": "611.59",
+    "state_tax_withheld": "290.09",
+    "social_security_tax": "226.20",
+    "medicare_tax": "52.90",
+    "total_deductions_ytd": "9225.42",
+    "retirement_401k": "121.06",
+    "health_insurance": "235.73"
+  }
+}

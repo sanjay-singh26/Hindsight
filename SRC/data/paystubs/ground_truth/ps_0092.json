@@ -1,0 +1,360 @@
+{
+  "paystub_id": "ps_0092",
+  "image_file": "ps_0092.png",
+  "layout_template": "two_column",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Lakewood Education Group",
+      "display_value": "Lakewood Education Group",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 317,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 114,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 108,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Jessica W. Moore",
+      "display_value": "Jessica W. Moore",
+      "field_position": {
+        "x": 146,
+        "y": 106,
+        "width": 125,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "335790",
+      "display_value": "335790",
+      "field_position": {
+        "x": 115,
+        "y": 126,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-5876",
+      "display_value": "***-**-5876",
+      "field_position": {
+        "x": 138,
+        "y": 146,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 115,
+        "y": 166,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Columbus, OH 43085",
+      "display_value": "Columbus, OH 43085",
+      "field_position": {
+        "x": 123,
+        "y": 186,
+        "width": 140,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "07/07/2024",
+      "display_value": "07/07/2024",
+      "field_position": {
+        "x": 120,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "06/01/2024",
+      "display_value": "06/01/2024",
+      "field_position": {
+        "x": 356,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 538,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 738,
+        "y": 211,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$9,502.75",
+      "display_value": "$9,502.75",
+      "field_position": {
+        "x": 330,
+        "y": 266,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$419.37",
+      "display_value": "$419.37",
+      "field_position": {
+        "x": 345,
+        "y": 286,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$9,922.12",
+      "display_value": "$9,922.12",
+      "field_position": {
+        "x": 330,
+        "y": 306,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$59,532.72",
+      "display_value": "$59,532.72",
+      "field_position": {
+        "x": 322,
+        "y": 326,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$1,797.84",
+      "display_value": "$1,797.84",
+      "field_position": {
+        "x": 730,
+        "y": 266,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$523.71",
+      "display_value": "$523.71",
+      "field_position": {
+        "x": 745,
+        "y": 286,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$615.17",
+      "display_value": "$615.17",
+      "field_position": {
+        "x": 745,
+        "y": 306,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$143.87",
+      "display_value": "$143.87",
+      "field_position": {
+        "x": 745,
+        "y": 326,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$3,080.59",
+      "display_value": "$3,080.59",
+      "field_position": {
+        "x": 730,
+        "y": 346,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$18,483.54",
+      "display_value": "$18,483.54",
+      "field_position": {
+        "x": 722,
+        "y": 366,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$9,922.12",
+      "display_value": "$9,922.12",
+      "field_position": {
+        "x": 50,
+        "y": 456,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$3,080.59",
+      "display_value": "$3,080.59",
+      "field_position": {
+        "x": 310,
+        "y": 456,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$6,841.53",
+      "display_value": "$6,841.53",
+      "field_position": {
+        "x": 570,
+        "y": 456,
+        "width": 119,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jessica W. Moore",
+    "employer_name": "Lakewood Education Group",
+    "employee_id": "335790",
+    "ssn_last4": "***-**-5876",
+    "employee_address": "741 Ash Street",
+    "employee_city_state_zip": "Columbus, OH 43085",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Portland, OR 97201",
+    "pay_date": "07/07/2024",
+    "pay_period_start": "06/01/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "9502.75",
+    "gross_pay_current": "9922.12",
+    "net_pay_current": "6841.53",
+    "gross_pay_ytd": "59532.72",
+    "net_pay_ytd": "41049.18",
+    "total_deductions_current": "3080.59",
+    "federal_tax_withheld": "1797.84",
+    "state_tax_withheld": "523.71",
+    "social_security_tax": "615.17",
+    "medicare_tax": "143.87",
+    "total_deductions_ytd": "18483.54",
+    "bonus_current": "419.37"
+  }
+}

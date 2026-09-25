@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0020",
+  "image_file": "ps_0020.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Keystone Properties Group",
+      "display_value": "Keystone Properties Group",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 275,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 73,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Nashville, TN 37201",
+      "display_value": "Nashville, TN 37201",
+      "field_position": {
+        "x": 148,
+        "y": 85,
+        "width": 92,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Matthew F. Baker",
+      "display_value": "Matthew F. Baker",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 108,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "696750",
+      "display_value": "696750",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-5930",
+      "display_value": "***-**-5930",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 106,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 75,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "04/21/2024",
+      "display_value": "04/21/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "04/01/2024",
+      "display_value": "04/01/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "04/15/2024",
+      "display_value": "04/15/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$4,196.60",
+      "display_value": "$4,196.60",
+      "field_position": {
+        "x": 350,
+        "y": 275,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$995.21",
+      "display_value": "$995.21",
+      "field_position": {
+        "x": 361,
+        "y": 295,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$5,191.81",
+      "display_value": "$5,191.81",
+      "field_position": {
+        "x": 355,
+        "y": 315,
+        "width": 50,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$36,342.67",
+      "display_value": "$36,342.67",
+      "field_position": {
+        "x": 342,
+        "y": 335,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$940.11",
+      "display_value": "$940.11",
+      "field_position": {
+        "x": 747,
+        "y": 275,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$314.99",
+      "display_value": "$314.99",
+      "field_position": {
+        "x": 745,
+        "y": 295,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$321.89",
+      "display_value": "$321.89",
+      "field_position": {
+        "x": 746,
+        "y": 315,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$75.28",
+      "display_value": "$75.28",
+      "field_position": {
+        "x": 751,
+        "y": 335,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,652.27",
+      "display_value": "$1,652.27",
+      "field_position": {
+        "x": 736,
+        "y": 355,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$11,565.89",
+      "display_value": "$11,565.89",
+      "field_position": {
+        "x": 731,
+        "y": 375,
+        "width": 59,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$3,539.54",
+      "display_value": "$3,539.54",
+      "field_position": {
+        "x": 60,
+        "y": 440,
+        "width": 94,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$24,776.78",
+      "display_value": "$24,776.78",
+      "field_position": {
+        "x": 360,
+        "y": 440,
+        "width": 107,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Matthew F. Baker",
+    "employer_name": "Keystone Properties Group",
+    "employee_id": "696750",
+    "ssn_last4": "***-**-5930",
+    "employee_address": "111 Industrial Parkway",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "123 Main Street",
+    "employer_city_state_zip": "Nashville, TN 37201",
+    "pay_date": "04/21/2024",
+    "pay_period_start": "04/01/2024",
+    "pay_period_end": "04/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4196.60",
+    "gross_pay_current": "5191.81",
+    "net_pay_current": "3539.54",
+    "gross_pay_ytd": "36342.67",
+    "net_pay_ytd": "24776.78",
+    "total_deductions_current": "1652.27",
+    "federal_tax_withheld": "940.11",
+    "state_tax_withheld": "314.99",
+    "social_security_tax": "321.89",
+    "medicare_tax": "75.28",
+    "total_deductions_ytd": "11565.89",
+    "bonus_current": "995.21"
+  }
+}

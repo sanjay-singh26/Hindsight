@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0113",
+  "image_file": "ps_0113.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Trident Security Services",
+      "display_value": "Trident Security Services",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 262,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 88,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Robert G. Anderson",
+      "display_value": "Robert G. Anderson",
+      "field_position": {
+        "x": 150,
+        "y": 113,
+        "width": 119,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "825916",
+      "display_value": "825916",
+      "field_position": {
+        "x": 105,
+        "y": 133,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-8790",
+      "display_value": "***-**-8790",
+      "field_position": {
+        "x": 126,
+        "y": 153,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 90,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 81,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "03/29/2024",
+      "display_value": "03/29/2024",
+      "field_position": {
+        "x": 99,
+        "y": 211,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "03/18/2024",
+      "display_value": "03/18/2024",
+      "field_position": {
+        "x": 335,
+        "y": 211,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "03/24/2024",
+      "display_value": "03/24/2024",
+      "field_position": {
+        "x": 466,
+        "y": 211,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 704,
+        "y": 211,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$604.02",
+      "display_value": "$604.02",
+      "field_position": {
+        "x": 753,
+        "y": 271,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$200.93",
+      "display_value": "$200.93",
+      "field_position": {
+        "x": 753,
+        "y": 291,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$804.95",
+      "display_value": "$804.95",
+      "field_position": {
+        "x": 753,
+        "y": 316,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$9,659.40",
+      "display_value": "$9,659.40",
+      "field_position": {
+        "x": 744,
+        "y": 336,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$159.79",
+      "display_value": "$159.79",
+      "field_position": {
+        "x": 756,
+        "y": 401,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$69.01",
+      "display_value": "$69.01",
+      "field_position": {
+        "x": 762,
+        "y": 421,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$49.91",
+      "display_value": "$49.91",
+      "field_position": {
+        "x": 762,
+        "y": 441,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$11.67",
+      "display_value": "$11.67",
+      "field_position": {
+        "x": 765,
+        "y": 461,
+        "width": 35,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$55.93",
+      "display_value": "$55.93",
+      "field_position": {
+        "x": 762,
+        "y": 481,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$309.35",
+      "display_value": "$309.35",
+      "field_position": {
+        "x": 754,
+        "y": 501,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$655.66",
+      "display_value": "$655.66",
+      "field_position": {
+        "x": 754,
+        "y": 521,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$7,867.92",
+      "display_value": "$7,867.92",
+      "field_position": {
+        "x": 744,
+        "y": 541,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$149.29",
+      "display_value": "$149.29",
+      "field_position": {
+        "x": 50,
+        "y": 602,
+        "width": 76,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$1,791.48",
+      "display_value": "$1,791.48",
+      "field_position": {
+        "x": 50,
+        "y": 638,
+        "width": 89,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Robert G. Anderson",
+    "employer_name": "Trident Security Services",
+    "employee_id": "825916",
+    "ssn_last4": "***-**-8790",
+    "employee_address": "369 Spruce Terrace",
+    "employee_city_state_zip": "Chicago, IL 60601",
+    "employer_address": "789 Elm Boulevard",
+    "employer_city_state_zip": "Seattle, WA 98101",
+    "pay_date": "03/29/2024",
+    "pay_period_start": "03/18/2024",
+    "pay_period_end": "03/24/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "604.02",
+    "gross_pay_current": "804.95",
+    "net_pay_current": "149.29",
+    "gross_pay_ytd": "9659.40",
+    "net_pay_ytd": "1791.48",
+    "total_deductions_current": "655.66",
+    "federal_tax_withheld": "159.79",
+    "state_tax_withheld": "69.01",
+    "social_security_tax": "49.91",
+    "medicare_tax": "11.67",
+    "total_deductions_ytd": "7867.92",
+    "overtime_pay_current": "200.93",
+    "retirement_401k": "55.93",
+    "health_insurance": "309.35"
+  }
+}

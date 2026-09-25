@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0035",
+  "image_file": "ps_0035.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Heartland Insurance Co.",
+      "display_value": "Heartland Insurance Co.",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 303,
+        "height": 14
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 96,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Charlotte, NC 28201",
+      "display_value": "Charlotte, NC 28201",
+      "field_position": {
+        "x": 171,
+        "y": 85,
+        "width": 114,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Jennifer D. Thomas",
+      "display_value": "Jennifer D. Thomas",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 140,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "901577",
+      "display_value": "901577",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-7818",
+      "display_value": "***-**-7818",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 96,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Tampa, FL 33601",
+      "display_value": "Tampa, FL 33601",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 90,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "09/06/2024",
+      "display_value": "09/06/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "08/01/2024",
+      "display_value": "08/01/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "08/31/2024",
+      "display_value": "08/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$4,730.15",
+      "display_value": "$4,730.15",
+      "field_position": {
+        "x": 335,
+        "y": 275,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$400.18",
+      "display_value": "$400.18",
+      "field_position": {
+        "x": 350,
+        "y": 295,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$5,130.33",
+      "display_value": "$5,130.33",
+      "field_position": {
+        "x": 335,
+        "y": 315,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$41,042.64",
+      "display_value": "$41,042.64",
+      "field_position": {
+        "x": 327,
+        "y": 335,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$550.11",
+      "display_value": "$550.11",
+      "field_position": {
+        "x": 735,
+        "y": 275,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$449.45",
+      "display_value": "$449.45",
+      "field_position": {
+        "x": 735,
+        "y": 295,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$318.08",
+      "display_value": "$318.08",
+      "field_position": {
+        "x": 735,
+        "y": 315,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$74.39",
+      "display_value": "$74.39",
+      "field_position": {
+        "x": 743,
+        "y": 335,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$427.83",
+      "display_value": "$427.83",
+      "field_position": {
+        "x": 735,
+        "y": 355,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$151.45",
+      "display_value": "$151.45",
+      "field_position": {
+        "x": 735,
+        "y": 375,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,971.31",
+      "display_value": "$1,971.31",
+      "field_position": {
+        "x": 720,
+        "y": 395,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$15,770.48",
+      "display_value": "$15,770.48",
+      "field_position": {
+        "x": 712,
+        "y": 415,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$3,159.02",
+      "display_value": "$3,159.02",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$25,272.16",
+      "display_value": "$25,272.16",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jennifer D. Thomas",
+    "employer_name": "Heartland Insurance Co.",
+    "employee_id": "901577",
+    "ssn_last4": "***-**-7818",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "Tampa, FL 33601",
+    "employer_address": "888 Harbor Drive",
+    "employer_city_state_zip": "Charlotte, NC 28201",
+    "pay_date": "09/06/2024",
+    "pay_period_start": "08/01/2024",
+    "pay_period_end": "08/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "4730.15",
+    "gross_pay_current": "5130.33",
+    "net_pay_current": "3159.02",
+    "gross_pay_ytd": "41042.64",
+    "net_pay_ytd": "25272.16",
+    "total_deductions_current": "1971.31",
+    "federal_tax_withheld": "550.11",
+    "state_tax_withheld": "449.45",
+    "social_security_tax": "318.08",
+    "medicare_tax": "74.39",
+    "total_deductions_ytd": "15770.48",
+    "overtime_pay_current": "400.18",
+    "retirement_401k": "427.83",
+    "health_insurance": "151.45"
+  }
+}

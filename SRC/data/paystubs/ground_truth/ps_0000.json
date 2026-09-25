@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0000",
+  "image_file": "ps_0000.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "heavy_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Oakridge Consulting",
+      "display_value": "Oakridge Consulting",
+      "field_position": {
+        "x": 299,
+        "y": 40,
+        "width": 251,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 386,
+        "y": 75,
+        "width": 78,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 374,
+        "y": 89,
+        "width": 102,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Kenneth A. Davis",
+      "display_value": "Kenneth A. Davis",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 125,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "388389",
+      "display_value": "388389",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-5012",
+      "display_value": "***-**-5012",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 109,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 125,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$631.93",
+      "display_value": "$631.93",
+      "field_position": {
+        "x": 345,
+        "y": 360,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$262.86",
+      "display_value": "$262.86",
+      "field_position": {
+        "x": 345,
+        "y": 380,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$894.79",
+      "display_value": "$894.79",
+      "field_position": {
+        "x": 345,
+        "y": 400,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$34,002.02",
+      "display_value": "$34,002.02",
+      "field_position": {
+        "x": 322,
+        "y": 420,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$149.74",
+      "display_value": "$149.74",
+      "field_position": {
+        "x": 745,
+        "y": 360,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$65.28",
+      "display_value": "$65.28",
+      "field_position": {
+        "x": 753,
+        "y": 380,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$55.48",
+      "display_value": "$55.48",
+      "field_position": {
+        "x": 753,
+        "y": 400,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$12.97",
+      "display_value": "$12.97",
+      "field_position": {
+        "x": 753,
+        "y": 420,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$201.29",
+      "display_value": "$201.29",
+      "field_position": {
+        "x": 745,
+        "y": 440,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$484.76",
+      "display_value": "$484.76",
+      "field_position": {
+        "x": 745,
+        "y": 460,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$18,420.88",
+      "display_value": "$18,420.88",
+      "field_position": {
+        "x": 722,
+        "y": 480,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$410.03",
+      "display_value": "$410.03",
+      "field_position": {
+        "x": 50,
+        "y": 551,
+        "width": 92,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$15,581.14",
+      "display_value": "$15,581.14",
+      "field_position": {
+        "x": 350,
+        "y": 587,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "09/28/2024",
+      "display_value": "09/28/2024",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "09/16/2024",
+      "display_value": "09/16/2024",
+      "field_position": {
+        "x": 240,
+        "y": 640,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "09/22/2024",
+      "display_value": "09/22/2024",
+      "field_position": {
+        "x": 430,
+        "y": 640,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 640,
+        "width": 37,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kenneth A. Davis",
+    "employer_name": "Oakridge Consulting",
+    "employee_id": "388389",
+    "ssn_last4": "***-**-5012",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "Dallas, TX 75201",
+    "employer_address": "321 Pine Road",
+    "employer_city_state_zip": "Raleigh, NC 27601",
+    "pay_date": "09/28/2024",
+    "pay_period_start": "09/16/2024",
+    "pay_period_end": "09/22/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "631.93",
+    "gross_pay_current": "894.79",
+    "net_pay_current": "410.03",
+    "gross_pay_ytd": "34002.02",
+    "net_pay_ytd": "15581.14",
+    "total_deductions_current": "484.76",
+    "federal_tax_withheld": "149.74",
+    "state_tax_withheld": "65.28",
+    "social_security_tax": "55.48",
+    "medicare_tax": "12.97",
+    "total_deductions_ytd": "18420.88",
+    "overtime_pay_current": "262.86",
+    "health_insurance": "201.29"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0090",
+  "image_file": "ps_0090.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Oakridge Consulting",
+      "display_value": "Oakridge Consulting",
+      "field_position": {
+        "x": 299,
+        "y": 40,
+        "width": 251,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 377,
+        "y": 75,
+        "width": 96,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 365,
+        "y": 89,
+        "width": 120,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Donald H. Taylor",
+      "display_value": "Donald H. Taylor",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 125,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "153849",
+      "display_value": "153849",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-8871",
+      "display_value": "***-**-8871",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Omaha, NE 68101",
+      "display_value": "Omaha, NE 68101",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 117,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$1,263.13",
+      "display_value": "$1,263.13",
+      "field_position": {
+        "x": 330,
+        "y": 360,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$234.09",
+      "display_value": "$234.09",
+      "field_position": {
+        "x": 345,
+        "y": 380,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$1,497.22",
+      "display_value": "$1,497.22",
+      "field_position": {
+        "x": 330,
+        "y": 400,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$32,938.84",
+      "display_value": "$32,938.84",
+      "field_position": {
+        "x": 322,
+        "y": 420,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$206.08",
+      "display_value": "$206.08",
+      "field_position": {
+        "x": 745,
+        "y": 360,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$58.52",
+      "display_value": "$58.52",
+      "field_position": {
+        "x": 753,
+        "y": 380,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$92.83",
+      "display_value": "$92.83",
+      "field_position": {
+        "x": 753,
+        "y": 400,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$21.71",
+      "display_value": "$21.71",
+      "field_position": {
+        "x": 753,
+        "y": 420,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$87.93",
+      "display_value": "$87.93",
+      "field_position": {
+        "x": 753,
+        "y": 440,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$467.07",
+      "display_value": "$467.07",
+      "field_position": {
+        "x": 745,
+        "y": 460,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$10,275.54",
+      "display_value": "$10,275.54",
+      "field_position": {
+        "x": 722,
+        "y": 480,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,030.15",
+      "display_value": "$1,030.15",
+      "field_position": {
+        "x": 50,
+        "y": 551,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$22,663.30",
+      "display_value": "$22,663.30",
+      "field_position": {
+        "x": 350,
+        "y": 587,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "11/07/2024",
+      "display_value": "11/07/2024",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "10/21/2024",
+      "display_value": "10/21/2024",
+      "field_position": {
+        "x": 240,
+        "y": 640,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "11/03/2024",
+      "display_value": "11/03/2024",
+      "field_position": {
+        "x": 430,
+        "y": 640,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 640,
+        "width": 54,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donald H. Taylor",
+    "employer_name": "Oakridge Consulting",
+    "employee_id": "153849",
+    "ssn_last4": "***-**-8871",
+    "employee_address": "987 Cedar Lane",
+    "employee_city_state_zip": "Omaha, NE 68101",
+    "employer_address": "888 Harbor Drive",
+    "employer_city_state_zip": "Louisville, KY 40201",
+    "pay_date": "11/07/2024",
+    "pay_period_start": "10/21/2024",
+    "pay_period_end": "11/03/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1263.13",
+    "gross_pay_current": "1497.22",
+    "net_pay_current": "1030.15",
+    "gross_pay_ytd": "32938.84",
+    "net_pay_ytd": "22663.30",
+    "total_deductions_current": "467.07",
+    "federal_tax_withheld": "206.08",
+    "state_tax_withheld": "58.52",
+    "social_security_tax": "92.83",
+    "medicare_tax": "21.71",
+    "total_deductions_ytd": "10275.54",
+    "bonus_current": "234.09",
+    "retirement_401k": "87.93"
+  }
+}

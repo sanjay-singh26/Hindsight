@@ -1,0 +1,388 @@
+{
+  "paystub_id": "ps_0197",
+  "image_file": "ps_0197.png",
+  "layout_template": "two_column",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Lakewood Education Group",
+      "display_value": "Lakewood Education Group",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 317,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 114,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "San Jose, CA 95101",
+      "display_value": "San Jose, CA 95101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 108,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Paul E. Jackson",
+      "display_value": "Paul E. Jackson",
+      "field_position": {
+        "x": 91,
+        "y": 106,
+        "width": 117,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "810189",
+      "display_value": "810189",
+      "field_position": {
+        "x": 99,
+        "y": 126,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-7113",
+      "display_value": "***-**-7113",
+      "field_position": {
+        "x": 138,
+        "y": 146,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 177,
+        "y": 166,
+        "width": 117,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 123,
+        "y": 186,
+        "width": 117,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "01/24/2024",
+      "display_value": "01/24/2024",
+      "field_position": {
+        "x": 108,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "01/15/2024",
+      "display_value": "01/15/2024",
+      "field_position": {
+        "x": 285,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "01/21/2024",
+      "display_value": "01/21/2024",
+      "field_position": {
+        "x": 502,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 738,
+        "y": 211,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$1,568.17",
+      "display_value": "$1,568.17",
+      "field_position": {
+        "x": 330,
+        "y": 266,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$483.27",
+      "display_value": "$483.27",
+      "field_position": {
+        "x": 345,
+        "y": 286,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$578.10",
+      "display_value": "$578.10",
+      "field_position": {
+        "x": 345,
+        "y": 306,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$2,629.54",
+      "display_value": "$2,629.54",
+      "field_position": {
+        "x": 330,
+        "y": 326,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$7,888.62",
+      "display_value": "$7,888.62",
+      "field_position": {
+        "x": 330,
+        "y": 346,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$496.91",
+      "display_value": "$496.91",
+      "field_position": {
+        "x": 745,
+        "y": 266,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$193.42",
+      "display_value": "$193.42",
+      "field_position": {
+        "x": 745,
+        "y": 286,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$163.03",
+      "display_value": "$163.03",
+      "field_position": {
+        "x": 745,
+        "y": 306,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$38.13",
+      "display_value": "$38.13",
+      "field_position": {
+        "x": 753,
+        "y": 326,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$245.58",
+      "display_value": "$245.58",
+      "field_position": {
+        "x": 745,
+        "y": 346,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,137.07",
+      "display_value": "$1,137.07",
+      "field_position": {
+        "x": 730,
+        "y": 366,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$3,411.21",
+      "display_value": "$3,411.21",
+      "field_position": {
+        "x": 730,
+        "y": 386,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$2,629.54",
+      "display_value": "$2,629.54",
+      "field_position": {
+        "x": 50,
+        "y": 476,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,137.07",
+      "display_value": "$1,137.07",
+      "field_position": {
+        "x": 310,
+        "y": 476,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,492.47",
+      "display_value": "$1,492.47",
+      "field_position": {
+        "x": 570,
+        "y": 476,
+        "width": 119,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Paul E. Jackson",
+    "employer_name": "Lakewood Education Group",
+    "employee_id": "810189",
+    "ssn_last4": "***-**-7113",
+    "employee_address": "123 Main Street",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "666 Enterprise Blvd",
+    "employer_city_state_zip": "San Jose, CA 95101",
+    "pay_date": "01/24/2024",
+    "pay_period_start": "01/15/2024",
+    "pay_period_end": "01/21/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1568.17",
+    "gross_pay_current": "2629.54",
+    "net_pay_current": "1492.47",
+    "gross_pay_ytd": "7888.62",
+    "net_pay_ytd": "4477.41",
+    "total_deductions_current": "1137.07",
+    "federal_tax_withheld": "496.91",
+    "state_tax_withheld": "193.42",
+    "social_security_tax": "163.03",
+    "medicare_tax": "38.13",
+    "total_deductions_ytd": "3411.21",
+    "overtime_pay_current": "483.27",
+    "bonus_current": "578.10",
+    "retirement_401k": "245.58"
+  }
+}

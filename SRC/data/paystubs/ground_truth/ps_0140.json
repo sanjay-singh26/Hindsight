@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0140",
+  "image_file": "ps_0140.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Frontier Telecommunications",
+      "display_value": "Frontier Telecommunications",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 300,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 90,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Cleveland, OH 44101",
+      "display_value": "Cleveland, OH 44101",
+      "field_position": {
+        "x": 165,
+        "y": 85,
+        "width": 97,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Amanda C. Torres",
+      "display_value": "Amanda C. Torres",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 108,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "577309",
+      "display_value": "577309",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-9368",
+      "display_value": "***-**-9368",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 88,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "06/20/2024",
+      "display_value": "06/20/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "06/03/2024",
+      "display_value": "06/03/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "06/16/2024",
+      "display_value": "06/16/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 46,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$2,036.94",
+      "display_value": "$2,036.94",
+      "field_position": {
+        "x": 346,
+        "y": 275,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$501.74",
+      "display_value": "$501.74",
+      "field_position": {
+        "x": 356,
+        "y": 295,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,538.68",
+      "display_value": "$2,538.68",
+      "field_position": {
+        "x": 346,
+        "y": 315,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$30,464.16",
+      "display_value": "$30,464.16",
+      "field_position": {
+        "x": 339,
+        "y": 335,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$323.45",
+      "display_value": "$323.45",
+      "field_position": {
+        "x": 742,
+        "y": 275,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$153.67",
+      "display_value": "$153.67",
+      "field_position": {
+        "x": 742,
+        "y": 295,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$157.40",
+      "display_value": "$157.40",
+      "field_position": {
+        "x": 742,
+        "y": 315,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$36.81",
+      "display_value": "$36.81",
+      "field_position": {
+        "x": 749,
+        "y": 335,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$229.51",
+      "display_value": "$229.51",
+      "field_position": {
+        "x": 742,
+        "y": 355,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$207.38",
+      "display_value": "$207.38",
+      "field_position": {
+        "x": 742,
+        "y": 375,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,108.22",
+      "display_value": "$1,108.22",
+      "field_position": {
+        "x": 731,
+        "y": 395,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$13,298.64",
+      "display_value": "$13,298.64",
+      "field_position": {
+        "x": 723,
+        "y": 415,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,430.46",
+      "display_value": "$1,430.46",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$17,165.52",
+      "display_value": "$17,165.52",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Amanda C. Torres",
+    "employer_name": "Frontier Telecommunications",
+    "employee_id": "577309",
+    "ssn_last4": "***-**-9368",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Houston, TX 77001",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Cleveland, OH 44101",
+    "pay_date": "06/20/2024",
+    "pay_period_start": "06/03/2024",
+    "pay_period_end": "06/16/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2036.94",
+    "gross_pay_current": "2538.68",
+    "net_pay_current": "1430.46",
+    "gross_pay_ytd": "30464.16",
+    "net_pay_ytd": "17165.52",
+    "total_deductions_current": "1108.22",
+    "federal_tax_withheld": "323.45",
+    "state_tax_withheld": "153.67",
+    "social_security_tax": "157.40",
+    "medicare_tax": "36.81",
+    "total_deductions_ytd": "13298.64",
+    "overtime_pay_current": "501.74",
+    "retirement_401k": "229.51",
+    "health_insurance": "207.38"
+  }
+}

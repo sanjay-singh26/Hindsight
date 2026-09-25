@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0065",
+  "image_file": "ps_0065.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Keystone Properties Group",
+      "display_value": "Keystone Properties Group",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 102,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 177,
+        "y": 85,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "John C. Adams",
+      "display_value": "John C. Adams",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 101,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "722937",
+      "display_value": "722937",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-9307",
+      "display_value": "***-**-9307",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Fresno, CA 93701",
+      "display_value": "Fresno, CA 93701",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 96,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "07/28/2024",
+      "display_value": "07/28/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "07/15/2024",
+      "display_value": "07/15/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "07/21/2024",
+      "display_value": "07/21/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$1,705.10",
+      "display_value": "$1,705.10",
+      "field_position": {
+        "x": 335,
+        "y": 275,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$432.94",
+      "display_value": "$432.94",
+      "field_position": {
+        "x": 350,
+        "y": 295,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$311.37",
+      "display_value": "$311.37",
+      "field_position": {
+        "x": 350,
+        "y": 315,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$2,449.41",
+      "display_value": "$2,449.41",
+      "field_position": {
+        "x": 335,
+        "y": 335,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$71,032.89",
+      "display_value": "$71,032.89",
+      "field_position": {
+        "x": 327,
+        "y": 355,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$275.36",
+      "display_value": "$275.36",
+      "field_position": {
+        "x": 735,
+        "y": 275,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$205.62",
+      "display_value": "$205.62",
+      "field_position": {
+        "x": 735,
+        "y": 295,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$151.86",
+      "display_value": "$151.86",
+      "field_position": {
+        "x": 735,
+        "y": 315,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$35.52",
+      "display_value": "$35.52",
+      "field_position": {
+        "x": 743,
+        "y": 335,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$195.96",
+      "display_value": "$195.96",
+      "field_position": {
+        "x": 735,
+        "y": 355,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$126.59",
+      "display_value": "$126.59",
+      "field_position": {
+        "x": 735,
+        "y": 375,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$990.91",
+      "display_value": "$990.91",
+      "field_position": {
+        "x": 735,
+        "y": 395,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$28,736.39",
+      "display_value": "$28,736.39",
+      "field_position": {
+        "x": 712,
+        "y": 415,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,458.50",
+      "display_value": "$1,458.50",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$42,296.50",
+      "display_value": "$42,296.50",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "John C. Adams",
+    "employer_name": "Keystone Properties Group",
+    "employee_id": "722937",
+    "ssn_last4": "***-**-9307",
+    "employee_address": "111 Industrial Parkway",
+    "employee_city_state_zip": "Fresno, CA 93701",
+    "employer_address": "777 Market Street",
+    "employer_city_state_zip": "Miami, FL 33101",
+    "pay_date": "07/28/2024",
+    "pay_period_start": "07/15/2024",
+    "pay_period_end": "07/21/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1705.10",
+    "gross_pay_current": "2449.41",
+    "net_pay_current": "1458.50",
+    "gross_pay_ytd": "71032.89",
+    "net_pay_ytd": "42296.50",
+    "total_deductions_current": "990.91",
+    "federal_tax_withheld": "275.36",
+    "state_tax_withheld": "205.62",
+    "social_security_tax": "151.86",
+    "medicare_tax": "35.52",
+    "total_deductions_ytd": "28736.39",
+    "overtime_pay_current": "432.94",
+    "bonus_current": "311.37",
+    "retirement_401k": "195.96",
+    "health_insurance": "126.59"
+  }
+}

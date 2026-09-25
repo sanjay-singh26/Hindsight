@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0027",
+  "image_file": "ps_0027.png",
+  "layout_template": "boxed",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Premier Auto Services",
+      "display_value": "Premier Auto Services",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 225,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 73,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "New York, NY 10001",
+      "display_value": "New York, NY 10001",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 94,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Daniel C. Anderson",
+      "display_value": "Daniel C. Anderson",
+      "field_position": {
+        "x": 81,
+        "y": 127,
+        "width": 116,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "783414",
+      "display_value": "783414",
+      "field_position": {
+        "x": 77,
+        "y": 142,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-1659",
+      "display_value": "***-**-1659",
+      "field_position": {
+        "x": 71,
+        "y": 157,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 122,
+        "y": 172,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Indianapolis, IN 46201",
+      "display_value": "Indianapolis, IN 46201",
+      "field_position": {
+        "x": 116,
+        "y": 187,
+        "width": 134,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "04/25/2024",
+      "display_value": "04/25/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "04/08/2024",
+      "display_value": "04/08/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "04/21/2024",
+      "display_value": "04/21/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 46,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$2,793.10",
+      "display_value": "$2,793.10",
+      "field_position": {
+        "x": 366,
+        "y": 282,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$763.43",
+      "display_value": "$763.43",
+      "field_position": {
+        "x": 375,
+        "y": 302,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$3,556.53",
+      "display_value": "$3,556.53",
+      "field_position": {
+        "x": 366,
+        "y": 322,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$28,452.24",
+      "display_value": "$28,452.24",
+      "field_position": {
+        "x": 361,
+        "y": 342,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$465.01",
+      "display_value": "$465.01",
+      "field_position": {
+        "x": 765,
+        "y": 282,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$185.42",
+      "display_value": "$185.42",
+      "field_position": {
+        "x": 765,
+        "y": 302,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$220.50",
+      "display_value": "$220.50",
+      "field_position": {
+        "x": 765,
+        "y": 322,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$51.57",
+      "display_value": "$51.57",
+      "field_position": {
+        "x": 770,
+        "y": 342,
+        "width": 32,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$346.62",
+      "display_value": "$346.62",
+      "field_position": {
+        "x": 765,
+        "y": 362,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$290.00",
+      "display_value": "$290.00",
+      "field_position": {
+        "x": 765,
+        "y": 382,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,559.12",
+      "display_value": "$1,559.12",
+      "field_position": {
+        "x": 756,
+        "y": 402,
+        "width": 46,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$12,472.96",
+      "display_value": "$12,472.96",
+      "field_position": {
+        "x": 751,
+        "y": 422,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,997.41",
+      "display_value": "$1,997.41",
+      "field_position": {
+        "x": 128,
+        "y": 489,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$15,979.28",
+      "display_value": "$15,979.28",
+      "field_position": {
+        "x": 428,
+        "y": 489,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Daniel C. Anderson",
+    "employer_name": "Premier Auto Services",
+    "employee_id": "783414",
+    "ssn_last4": "***-**-1659",
+    "employee_address": "123 Main Street",
+    "employee_city_state_zip": "Indianapolis, IN 46201",
+    "employer_address": "147 Birch Court",
+    "employer_city_state_zip": "New York, NY 10001",
+    "pay_date": "04/25/2024",
+    "pay_period_start": "04/08/2024",
+    "pay_period_end": "04/21/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2793.10",
+    "gross_pay_current": "3556.53",
+    "net_pay_current": "1997.41",
+    "gross_pay_ytd": "28452.24",
+    "net_pay_ytd": "15979.28",
+    "total_deductions_current": "1559.12",
+    "federal_tax_withheld": "465.01",
+    "state_tax_withheld": "185.42",
+    "social_security_tax": "220.50",
+    "medicare_tax": "51.57",
+    "total_deductions_ytd": "12472.96",
+    "overtime_pay_current": "763.43",
+    "retirement_401k": "346.62",
+    "health_insurance": "290.00"
+  }
+}

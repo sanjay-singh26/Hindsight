@@ -1,0 +1,84 @@
+domain: w2
+families:
+  - name: identity
+    concepts:
+      - id: employee_name
+        name: "Employee Name"
+        definition: "The full legal name of the employee as reported on the W-2 form, appearing in Box e. This is the individual who earned the wages and for whom taxes were withheld. It is the person's name, not the employer's name in Boxes c/d."
+        confusable_with: [employer_name]
+
+      - id: employer_name
+        name: "Employer Name"
+        definition: "The legal name of the employer (company or organization) that paid the wages and withheld taxes, as reported in Box c of the W-2 form. This is the entity that issued the W-2, not the employee who received the wages."
+        confusable_with: [employee_name]
+
+      - id: employee_ssn
+        name: "Employee Social Security Number"
+        definition: "The employee's nine-digit Social Security Number (SSN) as reported in Box a of the W-2 form. This is the employee's personal government-issued tax identification number, formatted as XXX-XX-XXXX. It is distinct from the employer's EIN, which identifies the business."
+        confusable_with: [employer_ein]
+
+      - id: employer_ein
+        name: "Employer Identification Number (EIN)"
+        definition: "The employer's nine-digit federal Employer Identification Number as reported in Box b of the W-2 form, formatted as XX-XXXXXXX. This is the business's tax identification number assigned by the IRS for employer tax reporting. It is distinct from the employee's SSN, which is a personal identifier."
+        confusable_with: [employee_ssn]
+
+  - name: wages
+    concepts:
+      - id: wages_tips_compensation
+        name: "Wages, Tips, and Other Compensation"
+        definition: "The total amount of taxable wages, tips, and other compensation reported in Box 1 of the W-2 form. This is the amount subject to federal income tax withholding and includes salary, bonuses, commissions, and taxable fringe benefits, but excludes pre-tax deductions like 401(k) contributions and health insurance premiums. It is often lower than Social Security wages (Box 3) because Box 1 reduces for pre-tax deferrals while Box 3 does not."
+        confusable_with: [social_security_wages, medicare_wages]
+
+      - id: social_security_wages
+        name: "Social Security Wages"
+        definition: "The total amount of wages subject to Social Security (OASDI) tax as reported in Box 3 of the W-2 form, capped at the annual Social Security wage base limit (e.g., $168,600 in 2024). This typically exceeds Box 1 wages because it includes pre-tax 401(k) contributions and certain other deferrals that are exempt from income tax but not from Social Security tax."
+        confusable_with: [wages_tips_compensation, medicare_wages]
+
+      - id: medicare_wages
+        name: "Medicare Wages and Tips"
+        definition: "The total amount of wages and tips subject to Medicare (HI) tax as reported in Box 5 of the W-2 form. Unlike Social Security wages, there is no annual cap on Medicare wages. This amount is typically equal to or greater than Social Security wages and includes the same pre-tax items, but without a wage base limit."
+        confusable_with: [social_security_wages, wages_tips_compensation]
+
+      - id: allocated_tips
+        name: "Allocated Tips"
+        definition: "The amount of tips allocated to the employee by the employer as reported in Box 8 of the W-2 form. This applies only when an employee works in a large food or beverage establishment and the employee's reported tips are less than the employee's share of 8% of the establishment's gross receipts. Allocated tips are not included in Boxes 1, 3, 5, or 7 and are not subject to withholding."
+        confusable_with: [wages_tips_compensation]
+
+  - name: taxes
+    concepts:
+      - id: federal_tax_withheld
+        name: "Federal Income Tax Withheld"
+        definition: "The total amount of federal income tax withheld from the employee's wages throughout the calendar year as reported in Box 2 of the W-2 form. This is the cumulative annual federal income tax withholding based on the employee's W-4 elections. It is distinct from Social Security tax (Box 4) and Medicare tax (Box 6), which are separate payroll taxes."
+        confusable_with: [social_security_tax, medicare_tax]
+
+      - id: social_security_tax
+        name: "Social Security Tax Withheld"
+        definition: "The total amount of Social Security (OASDI) tax withheld from the employee's wages throughout the calendar year as reported in Box 4 of the W-2 form. This is calculated as 6.2% of Social Security wages (Box 3) up to the annual wage base limit. It is distinct from federal income tax (Box 2) and Medicare tax (Box 6)."
+        confusable_with: [medicare_tax, federal_tax_withheld]
+
+      - id: medicare_tax
+        name: "Medicare Tax Withheld"
+        definition: "The total amount of Medicare (HI) tax withheld from the employee's wages throughout the calendar year as reported in Box 6 of the W-2 form. This is calculated as 1.45% of all Medicare wages (Box 5) with no cap, plus an additional 0.9% on wages exceeding $200,000. It is distinct from Social Security tax (Box 4) and federal income tax (Box 2)."
+        confusable_with: [social_security_tax, federal_tax_withheld]
+
+  - name: address
+    concepts:
+      - id: employee_address
+        name: "Employee Street Address"
+        definition: "The street address portion (house/apartment number and street name) of the employee's home or mailing address as reported in Box f of the W-2 form. This is the address of the individual wage earner, not the employer's business address."
+        confusable_with: [employer_address, employee_city_state_zip]
+
+      - id: employee_city_state_zip
+        name: "Employee City, State, and ZIP"
+        definition: "The city name, state abbreviation, and ZIP/postal code portion of the employee's home or mailing address as reported in the lower part of Box f on the W-2 form. This completes the employee's address and is distinct from the street address line above it."
+        confusable_with: [employer_city_state_zip, employee_address]
+
+      - id: employer_address
+        name: "Employer Street Address"
+        definition: "The street address portion (building number and street name) of the employer's business or mailing address as reported in Box c of the W-2 form, below the employer name. This is the address of the company that issued the W-2, not the employee's home address."
+        confusable_with: [employee_address, employer_city_state_zip]
+
+      - id: employer_city_state_zip
+        name: "Employer City, State, and ZIP"
+        definition: "The city name, state abbreviation, and ZIP/postal code portion of the employer's business or mailing address as reported in Box c of the W-2 form. This completes the employer's address and is distinct from the street address line above it."
+        confusable_with: [employee_city_state_zip, employer_address]

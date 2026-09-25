@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0063",
+  "image_file": "ps_0063.png",
+  "layout_template": "compact",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Continental Freight Lines",
+      "display_value": "Continental Freight Lines",
+      "field_position": {
+        "x": 124,
+        "y": 25,
+        "width": 150,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Betty C. King",
+      "display_value": "Betty C. King",
+      "field_position": {
+        "x": 76,
+        "y": 39,
+        "width": 78,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "425346",
+      "display_value": "425346",
+      "field_position": {
+        "x": 82,
+        "y": 53,
+        "width": 36,
+        "height": 6
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-6562",
+      "display_value": "***-**-6562",
+      "field_position": {
+        "x": 70,
+        "y": 67,
+        "width": 66,
+        "height": 6
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 84,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 102,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 84,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Oklahoma City, OK 73101",
+      "display_value": "Oklahoma City, OK 73101",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 138,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "09/01/2024",
+      "display_value": "09/01/2024",
+      "field_position": {
+        "x": 106,
+        "y": 137,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "08/19/2024",
+      "display_value": "08/19/2024",
+      "field_position": {
+        "x": 148,
+        "y": 151,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "08/25/2024",
+      "display_value": "08/25/2024",
+      "field_position": {
+        "x": 112,
+        "y": 165,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 106,
+        "y": 179,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$912.53",
+      "display_value": "$912.53",
+      "field_position": {
+        "x": 768,
+        "y": 215,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,924.80",
+      "display_value": "$1,924.80",
+      "field_position": {
+        "x": 756,
+        "y": 235,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$2,837.33",
+      "display_value": "$2,837.33",
+      "field_position": {
+        "x": 756,
+        "y": 255,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$96,469.22",
+      "display_value": "$96,469.22",
+      "field_position": {
+        "x": 750,
+        "y": 275,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$503.49",
+      "display_value": "$503.49",
+      "field_position": {
+        "x": 768,
+        "y": 317,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$110.26",
+      "display_value": "$110.26",
+      "field_position": {
+        "x": 768,
+        "y": 337,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$175.91",
+      "display_value": "$175.91",
+      "field_position": {
+        "x": 768,
+        "y": 357,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$41.14",
+      "display_value": "$41.14",
+      "field_position": {
+        "x": 774,
+        "y": 377,
+        "width": 36,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$135.96",
+      "display_value": "$135.96",
+      "field_position": {
+        "x": 768,
+        "y": 397,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$121.27",
+      "display_value": "$121.27",
+      "field_position": {
+        "x": 768,
+        "y": 417,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,088.03",
+      "display_value": "$1,088.03",
+      "field_position": {
+        "x": 756,
+        "y": 437,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$36,993.02",
+      "display_value": "$36,993.02",
+      "field_position": {
+        "x": 750,
+        "y": 457,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,749.30",
+      "display_value": "$1,749.30",
+      "field_position": {
+        "x": 124,
+        "y": 485,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$59,476.20",
+      "display_value": "$59,476.20",
+      "field_position": {
+        "x": 130,
+        "y": 499,
+        "width": 60,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Betty C. King",
+    "employer_name": "Continental Freight Lines",
+    "employee_id": "425346",
+    "ssn_last4": "***-**-6562",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "Oklahoma City, OK 73101",
+    "employer_address": "987 Cedar Lane",
+    "employer_city_state_zip": "Phoenix, AZ 85001",
+    "pay_date": "09/01/2024",
+    "pay_period_start": "08/19/2024",
+    "pay_period_end": "08/25/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "912.53",
+    "gross_pay_current": "2837.33",
+    "net_pay_current": "1749.30",
+    "gross_pay_ytd": "96469.22",
+    "net_pay_ytd": "59476.20",
+    "total_deductions_current": "1088.03",
+    "federal_tax_withheld": "503.49",
+    "state_tax_withheld": "110.26",
+    "social_security_tax": "175.91",
+    "medicare_tax": "41.14",
+    "total_deductions_ytd": "36993.02",
+    "bonus_current": "1924.80",
+    "retirement_401k": "135.96",
+    "health_insurance": "121.27"
+  }
+}

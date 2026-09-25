@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0082",
+  "image_file": "ps_0082.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Greenfield Agriculture Inc.",
+      "display_value": "Greenfield Agriculture Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 273,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 115,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 114,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Carol M. King",
+      "display_value": "Carol M. King",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 142,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "969325",
+      "display_value": "969325",
+      "field_position": {
+        "x": 86,
+        "y": 170,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-3981",
+      "display_value": "***-**-3981",
+      "field_position": {
+        "x": 111,
+        "y": 190,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 99,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 142,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "08/29/2024",
+      "display_value": "08/29/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "08/19/2024",
+      "display_value": "08/19/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "08/25/2024",
+      "display_value": "08/25/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$1,103.29",
+      "display_value": "$1,103.29",
+      "field_position": {
+        "x": 748,
+        "y": 336,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$754.32",
+      "display_value": "$754.32",
+      "field_position": {
+        "x": 754,
+        "y": 356,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,905.47",
+      "display_value": "$1,905.47",
+      "field_position": {
+        "x": 746,
+        "y": 376,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$3,763.08",
+      "display_value": "$3,763.08",
+      "field_position": {
+        "x": 744,
+        "y": 396,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$127,944.72",
+      "display_value": "$127,944.72",
+      "field_position": {
+        "x": 731,
+        "y": 416,
+        "width": 69,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$610.63",
+      "display_value": "$610.63",
+      "field_position": {
+        "x": 755,
+        "y": 473,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$177.03",
+      "display_value": "$177.03",
+      "field_position": {
+        "x": 756,
+        "y": 493,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$233.31",
+      "display_value": "$233.31",
+      "field_position": {
+        "x": 756,
+        "y": 513,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$54.56",
+      "display_value": "$54.56",
+      "field_position": {
+        "x": 761,
+        "y": 533,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$164.60",
+      "display_value": "$164.60",
+      "field_position": {
+        "x": 755,
+        "y": 553,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,240.13",
+      "display_value": "$1,240.13",
+      "field_position": {
+        "x": 747,
+        "y": 573,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$42,164.42",
+      "display_value": "$42,164.42",
+      "field_position": {
+        "x": 738,
+        "y": 593,
+        "width": 62,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$2,522.95",
+      "display_value": "$2,522.95",
+      "field_position": {
+        "x": 50,
+        "y": 666,
+        "width": 94,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$85,780.30",
+      "display_value": "$85,780.30",
+      "field_position": {
+        "x": 50,
+        "y": 702,
+        "width": 107,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Carol M. King",
+    "employer_name": "Greenfield Agriculture Inc.",
+    "employee_id": "969325",
+    "ssn_last4": "***-**-3981",
+    "employee_address": "654 Maple Drive",
+    "employee_city_state_zip": "Albuquerque, NM 87101",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "Houston, TX 77001",
+    "pay_date": "08/29/2024",
+    "pay_period_start": "08/19/2024",
+    "pay_period_end": "08/25/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1103.29",
+    "gross_pay_current": "3763.08",
+    "net_pay_current": "2522.95",
+    "gross_pay_ytd": "127944.72",
+    "net_pay_ytd": "85780.30",
+    "total_deductions_current": "1240.13",
+    "federal_tax_withheld": "610.63",
+    "state_tax_withheld": "177.03",
+    "social_security_tax": "233.31",
+    "medicare_tax": "54.56",
+    "total_deductions_ytd": "42164.42",
+    "overtime_pay_current": "754.32",
+    "bonus_current": "1905.47",
+    "retirement_401k": "164.60"
+  }
+}

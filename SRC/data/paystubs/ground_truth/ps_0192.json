@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0192",
+  "image_file": "ps_0192.png",
+  "layout_template": "boxed",
+  "noise_profile": "phone_photo",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Frontier Telecommunications",
+      "display_value": "Frontier Telecommunications",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 356,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 102,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Charlotte, NC 28201",
+      "display_value": "Charlotte, NC 28201",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 114,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Joshua K. Brown",
+      "display_value": "Joshua K. Brown",
+      "field_position": {
+        "x": 84,
+        "y": 127,
+        "width": 117,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "928278",
+      "display_value": "928278",
+      "field_position": {
+        "x": 114,
+        "y": 142,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-6866",
+      "display_value": "***-**-6866",
+      "field_position": {
+        "x": 150,
+        "y": 157,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 96,
+        "y": 172,
+        "width": 133,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 78,
+        "y": 187,
+        "width": 140,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "08/28/2024",
+      "display_value": "08/28/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "08/12/2024",
+      "display_value": "08/12/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "08/25/2024",
+      "display_value": "08/25/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$3,875.51",
+      "display_value": "$3,875.51",
+      "field_position": {
+        "x": 358,
+        "y": 282,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$480.16",
+      "display_value": "$480.16",
+      "field_position": {
+        "x": 370,
+        "y": 302,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$4,355.67",
+      "display_value": "$4,355.67",
+      "field_position": {
+        "x": 358,
+        "y": 322,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$74,046.39",
+      "display_value": "$74,046.39",
+      "field_position": {
+        "x": 352,
+        "y": 342,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$618.19",
+      "display_value": "$618.19",
+      "field_position": {
+        "x": 760,
+        "y": 282,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$361.54",
+      "display_value": "$361.54",
+      "field_position": {
+        "x": 760,
+        "y": 302,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$270.05",
+      "display_value": "$270.05",
+      "field_position": {
+        "x": 760,
+        "y": 322,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$63.16",
+      "display_value": "$63.16",
+      "field_position": {
+        "x": 766,
+        "y": 342,
+        "width": 36,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$231.61",
+      "display_value": "$231.61",
+      "field_position": {
+        "x": 760,
+        "y": 362,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$336.58",
+      "display_value": "$336.58",
+      "field_position": {
+        "x": 760,
+        "y": 382,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,881.13",
+      "display_value": "$1,881.13",
+      "field_position": {
+        "x": 748,
+        "y": 402,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$31,979.21",
+      "display_value": "$31,979.21",
+      "field_position": {
+        "x": 742,
+        "y": 422,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$2,474.54",
+      "display_value": "$2,474.54",
+      "field_position": {
+        "x": 128,
+        "y": 489,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$42,067.18",
+      "display_value": "$42,067.18",
+      "field_position": {
+        "x": 428,
+        "y": 489,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joshua K. Brown",
+    "employer_name": "Frontier Telecommunications",
+    "employee_id": "928278",
+    "ssn_last4": "***-**-6866",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Portland, OR 97201",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "Charlotte, NC 28201",
+    "pay_date": "08/28/2024",
+    "pay_period_start": "08/12/2024",
+    "pay_period_end": "08/25/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "3875.51",
+    "gross_pay_current": "4355.67",
+    "net_pay_current": "2474.54",
+    "gross_pay_ytd": "74046.39",
+    "net_pay_ytd": "42067.18",
+    "total_deductions_current": "1881.13",
+    "federal_tax_withheld": "618.19",
+    "state_tax_withheld": "361.54",
+    "social_security_tax": "270.05",
+    "medicare_tax": "63.16",
+    "total_deductions_ytd": "31979.21",
+    "overtime_pay_current": "480.16",
+    "retirement_401k": "231.61",
+    "health_insurance": "336.58"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0031",
+  "image_file": "ps_0031.png",
+  "layout_template": "left_header",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "04/27/2024",
+      "display_value": "04/27/2024",
+      "field_position": {
+        "x": 707,
+        "y": 40,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "04/15/2024",
+      "display_value": "04/15/2024",
+      "field_position": {
+        "x": 735,
+        "y": 54,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "04/21/2024",
+      "display_value": "04/21/2024",
+      "field_position": {
+        "x": 697,
+        "y": 68,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 704,
+        "y": 82,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Trident Security Services",
+      "display_value": "Trident Security Services",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 262,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 88,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Fort Worth, TX 76101",
+      "display_value": "Fort Worth, TX 76101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 98,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Thomas J. Perez",
+      "display_value": "Thomas J. Perez",
+      "field_position": {
+        "x": 611,
+        "y": 133,
+        "width": 101,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "725113",
+      "display_value": "725113",
+      "field_position": {
+        "x": 556,
+        "y": 153,
+        "width": 39,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-5526",
+      "display_value": "***-**-5526",
+      "field_position": {
+        "x": 576,
+        "y": 173,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 600,
+        "y": 193,
+        "width": 120,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Los Angeles, CA 90001",
+      "display_value": "Los Angeles, CA 90001",
+      "field_position": {
+        "x": 592,
+        "y": 213,
+        "width": 136,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$1,422.54",
+      "display_value": "$1,422.54",
+      "field_position": {
+        "x": 745,
+        "y": 283,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$1,422.54",
+      "display_value": "$1,422.54",
+      "field_position": {
+        "x": 745,
+        "y": 303,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$22,760.64",
+      "display_value": "$22,760.64",
+      "field_position": {
+        "x": 736,
+        "y": 323,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$252.51",
+      "display_value": "$252.51",
+      "field_position": {
+        "x": 756,
+        "y": 388,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$84.57",
+      "display_value": "$84.57",
+      "field_position": {
+        "x": 761,
+        "y": 408,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$88.20",
+      "display_value": "$88.20",
+      "field_position": {
+        "x": 761,
+        "y": 428,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$20.63",
+      "display_value": "$20.63",
+      "field_position": {
+        "x": 761,
+        "y": 448,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$139.83",
+      "display_value": "$139.83",
+      "field_position": {
+        "x": 756,
+        "y": 468,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$585.74",
+      "display_value": "$585.74",
+      "field_position": {
+        "x": 754,
+        "y": 488,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$9,371.84",
+      "display_value": "$9,371.84",
+      "field_position": {
+        "x": 745,
+        "y": 508,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$836.80",
+      "display_value": "$836.80",
+      "field_position": {
+        "x": 50,
+        "y": 569,
+        "width": 78,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$13,388.80",
+      "display_value": "$13,388.80",
+      "field_position": {
+        "x": 50,
+        "y": 605,
+        "width": 103,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Thomas J. Perez",
+    "employer_name": "Trident Security Services",
+    "employee_id": "725113",
+    "ssn_last4": "***-**-5526",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Los Angeles, CA 90001",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "Fort Worth, TX 76101",
+    "pay_date": "04/27/2024",
+    "pay_period_start": "04/15/2024",
+    "pay_period_end": "04/21/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1422.54",
+    "gross_pay_current": "1422.54",
+    "net_pay_current": "836.80",
+    "gross_pay_ytd": "22760.64",
+    "net_pay_ytd": "13388.80",
+    "total_deductions_current": "585.74",
+    "federal_tax_withheld": "252.51",
+    "state_tax_withheld": "84.57",
+    "social_security_tax": "88.20",
+    "medicare_tax": "20.63",
+    "total_deductions_ytd": "9371.84",
+    "health_insurance": "139.83"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0100",
+  "image_file": "ps_0100.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Heartland Insurance Co.",
+      "display_value": "Heartland Insurance Co.",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 248,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Los Angeles, CA 90001",
+      "display_value": "Los Angeles, CA 90001",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 104,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Sandra B. Torres",
+      "display_value": "Sandra B. Torres",
+      "field_position": {
+        "x": 96,
+        "y": 113,
+        "width": 100,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "584838",
+      "display_value": "584838",
+      "field_position": {
+        "x": 104,
+        "y": 133,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-6049",
+      "display_value": "***-**-6049",
+      "field_position": {
+        "x": 84,
+        "y": 153,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 149,
+        "y": 173,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Baltimore, MD 21201",
+      "display_value": "Baltimore, MD 21201",
+      "field_position": {
+        "x": 112,
+        "y": 193,
+        "width": 128,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "09/25/2024",
+      "display_value": "09/25/2024",
+      "field_position": {
+        "x": 108,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "09/09/2024",
+      "display_value": "09/09/2024",
+      "field_position": {
+        "x": 334,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "09/22/2024",
+      "display_value": "09/22/2024",
+      "field_position": {
+        "x": 498,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 717,
+        "y": 218,
+        "width": 46,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$308.73",
+      "display_value": "$308.73",
+      "field_position": {
+        "x": 752,
+        "y": 278,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$49.68",
+      "display_value": "$49.68",
+      "field_position": {
+        "x": 759,
+        "y": 298,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$90.23",
+      "display_value": "$90.23",
+      "field_position": {
+        "x": 759,
+        "y": 318,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$21.10",
+      "display_value": "$21.10",
+      "field_position": {
+        "x": 759,
+        "y": 338,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$190.39",
+      "display_value": "$190.39",
+      "field_position": {
+        "x": 752,
+        "y": 358,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$660.13",
+      "display_value": "$660.13",
+      "field_position": {
+        "x": 752,
+        "y": 378,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$12,542.47",
+      "display_value": "$12,542.47",
+      "field_position": {
+        "x": 734,
+        "y": 398,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$1,310.62",
+      "display_value": "$1,310.62",
+      "field_position": {
+        "x": 741,
+        "y": 463,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$144.63",
+      "display_value": "$144.63",
+      "field_position": {
+        "x": 752,
+        "y": 483,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$1,455.25",
+      "display_value": "$1,455.25",
+      "field_position": {
+        "x": 741,
+        "y": 503,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$27,649.75",
+      "display_value": "$27,649.75",
+      "field_position": {
+        "x": 734,
+        "y": 523,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$795.12",
+      "display_value": "$795.12",
+      "field_position": {
+        "x": 50,
+        "y": 584,
+        "width": 81,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$15,107.28",
+      "display_value": "$15,107.28",
+      "field_position": {
+        "x": 50,
+        "y": 620,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sandra B. Torres",
+    "employer_name": "Heartland Insurance Co.",
+    "employee_id": "584838",
+    "ssn_last4": "***-**-6049",
+    "employee_address": "123 Main Street",
+    "employee_city_state_zip": "Baltimore, MD 21201",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Los Angeles, CA 90001",
+    "pay_date": "09/25/2024",
+    "pay_period_start": "09/09/2024",
+    "pay_period_end": "09/22/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1310.62",
+    "gross_pay_current": "1455.25",
+    "net_pay_current": "795.12",
+    "gross_pay_ytd": "27649.75",
+    "net_pay_ytd": "15107.28",
+    "total_deductions_current": "660.13",
+    "federal_tax_withheld": "308.73",
+    "state_tax_withheld": "49.68",
+    "social_security_tax": "90.23",
+    "medicare_tax": "21.10",
+    "total_deductions_ytd": "12542.47",
+    "overtime_pay_current": "144.63",
+    "health_insurance": "190.39"
+  }
+}

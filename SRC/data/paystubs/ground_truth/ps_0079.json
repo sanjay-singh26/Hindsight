@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0079",
+  "image_file": "ps_0079.png",
+  "layout_template": "check_style",
+  "noise_profile": "heavy_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Continental Freight Lines",
+      "display_value": "Continental Freight Lines",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "429657",
+      "display_value": "429657",
+      "field_position": {
+        "x": 699,
+        "y": 45,
+        "width": 101,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 90,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "David M. King",
+      "display_value": "David M. King",
+      "field_position": {
+        "x": 96,
+        "y": 131,
+        "width": 102,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-5566",
+      "display_value": "***-**-5566",
+      "field_position": {
+        "x": 144,
+        "y": 149,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 144,
+        "y": 167,
+        "width": 109,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 156,
+        "y": 185,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "10/06/2024",
+      "display_value": "10/06/2024",
+      "field_position": {
+        "x": 514,
+        "y": 131,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "09/01/2024",
+      "display_value": "09/01/2024",
+      "field_position": {
+        "x": 466,
+        "y": 147,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "09/30/2024",
+      "display_value": "09/30/2024",
+      "field_position": {
+        "x": 454,
+        "y": 163,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 514,
+        "y": 179,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$9,351.57",
+      "display_value": "$9,351.57",
+      "field_position": {
+        "x": 330,
+        "y": 270,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$642.48",
+      "display_value": "$642.48",
+      "field_position": {
+        "x": 345,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$9,994.05",
+      "display_value": "$9,994.05",
+      "field_position": {
+        "x": 330,
+        "y": 310,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$89,946.45",
+      "display_value": "$89,946.45",
+      "field_position": {
+        "x": 322,
+        "y": 330,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$1,256.74",
+      "display_value": "$1,256.74",
+      "field_position": {
+        "x": 730,
+        "y": 270,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$666.73",
+      "display_value": "$666.73",
+      "field_position": {
+        "x": 745,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$619.63",
+      "display_value": "$619.63",
+      "field_position": {
+        "x": 745,
+        "y": 310,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$144.91",
+      "display_value": "$144.91",
+      "field_position": {
+        "x": 745,
+        "y": 330,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$998.45",
+      "display_value": "$998.45",
+      "field_position": {
+        "x": 745,
+        "y": 350,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$116.65",
+      "display_value": "$116.65",
+      "field_position": {
+        "x": 745,
+        "y": 370,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$3,803.11",
+      "display_value": "$3,803.11",
+      "field_position": {
+        "x": 730,
+        "y": 390,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$34,227.99",
+      "display_value": "$34,227.99",
+      "field_position": {
+        "x": 722,
+        "y": 410,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$6,190.94",
+      "display_value": "$6,190.94",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$55,718.46",
+      "display_value": "$55,718.46",
+      "field_position": {
+        "x": 707,
+        "y": 480,
+        "width": 78,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "David M. King",
+    "employer_name": "Continental Freight Lines",
+    "employee_id": "429657",
+    "ssn_last4": "***-**-5566",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "San Diego, CA 92101",
+    "employer_address": "123 Main Street",
+    "employer_city_state_zip": "Jacksonville, FL 32099",
+    "pay_date": "10/06/2024",
+    "pay_period_start": "09/01/2024",
+    "pay_period_end": "09/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "9351.57",
+    "gross_pay_current": "9994.05",
+    "net_pay_current": "6190.94",
+    "gross_pay_ytd": "89946.45",
+    "net_pay_ytd": "55718.46",
+    "total_deductions_current": "3803.11",
+    "federal_tax_withheld": "1256.74",
+    "state_tax_withheld": "666.73",
+    "social_security_tax": "619.63",
+    "medicare_tax": "144.91",
+    "total_deductions_ytd": "34227.99",
+    "overtime_pay_current": "642.48",
+    "retirement_401k": "998.45",
+    "health_insurance": "116.65"
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0124",
+  "image_file": "ps_0124.png",
+  "layout_template": "check_style",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Continental Freight Lines",
+      "display_value": "Continental Freight Lines",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 255,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "104666",
+      "display_value": "104666",
+      "field_position": {
+        "x": 707,
+        "y": 45,
+        "width": 93,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 87,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Cleveland, OH 44101",
+      "display_value": "Cleveland, OH 44101",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 97,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Mark P. Nguyen",
+      "display_value": "Mark P. Nguyen",
+      "field_position": {
+        "x": 142,
+        "y": 131,
+        "width": 96,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-4519",
+      "display_value": "***-**-4519",
+      "field_position": {
+        "x": 132,
+        "y": 149,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 139,
+        "y": 167,
+        "width": 95,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 128,
+        "y": 185,
+        "width": 109,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "01/05/2025",
+      "display_value": "01/05/2025",
+      "field_position": {
+        "x": 501,
+        "y": 131,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "12/23/2024",
+      "display_value": "12/23/2024",
+      "field_position": {
+        "x": 515,
+        "y": 147,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "12/29/2024",
+      "display_value": "12/29/2024",
+      "field_position": {
+        "x": 478,
+        "y": 163,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 484,
+        "y": 179,
+        "width": 34,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$900.51",
+      "display_value": "$900.51",
+      "field_position": {
+        "x": 352,
+        "y": 270,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$420.29",
+      "display_value": "$420.29",
+      "field_position": {
+        "x": 352,
+        "y": 290,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$1,752.75",
+      "display_value": "$1,752.75",
+      "field_position": {
+        "x": 341,
+        "y": 310,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$3,073.55",
+      "display_value": "$3,073.55",
+      "field_position": {
+        "x": 341,
+        "y": 330,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$159,824.60",
+      "display_value": "$159,824.60",
+      "field_position": {
+        "x": 326,
+        "y": 350,
+        "width": 74,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$501.99",
+      "display_value": "$501.99",
+      "field_position": {
+        "x": 752,
+        "y": 270,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$210.07",
+      "display_value": "$210.07",
+      "field_position": {
+        "x": 752,
+        "y": 290,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$190.56",
+      "display_value": "$190.56",
+      "field_position": {
+        "x": 752,
+        "y": 310,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$44.57",
+      "display_value": "$44.57",
+      "field_position": {
+        "x": 759,
+        "y": 330,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$223.73",
+      "display_value": "$223.73",
+      "field_position": {
+        "x": 752,
+        "y": 350,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$173.94",
+      "display_value": "$173.94",
+      "field_position": {
+        "x": 751,
+        "y": 370,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,344.86",
+      "display_value": "$1,344.86",
+      "field_position": {
+        "x": 741,
+        "y": 390,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$69,932.72",
+      "display_value": "$69,932.72",
+      "field_position": {
+        "x": 734,
+        "y": 410,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,728.69",
+      "display_value": "$1,728.69",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$89,891.88",
+      "display_value": "$89,891.88",
+      "field_position": {
+        "x": 719,
+        "y": 480,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Mark P. Nguyen",
+    "employer_name": "Continental Freight Lines",
+    "employee_id": "104666",
+    "ssn_last4": "***-**-4519",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "Seattle, WA 98101",
+    "employer_address": "789 Elm Boulevard",
+    "employer_city_state_zip": "Cleveland, OH 44101",
+    "pay_date": "01/05/2025",
+    "pay_period_start": "12/23/2024",
+    "pay_period_end": "12/29/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "900.51",
+    "gross_pay_current": "3073.55",
+    "net_pay_current": "1728.69",
+    "gross_pay_ytd": "159824.60",
+    "net_pay_ytd": "89891.88",
+    "total_deductions_current": "1344.86",
+    "federal_tax_withheld": "501.99",
+    "state_tax_withheld": "210.07",
+    "social_security_tax": "190.56",
+    "medicare_tax": "44.57",
+    "total_deductions_ytd": "69932.72",
+    "overtime_pay_current": "420.29",
+    "bonus_current": "1752.75",
+    "retirement_401k": "223.73",
+    "health_insurance": "173.94"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0151",
+  "image_file": "ps_0151.png",
+  "layout_template": "left_header",
+  "noise_profile": "heavy_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "07/04/2024",
+      "display_value": "07/04/2024",
+      "field_position": {
+        "x": 717,
+        "y": 40,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "06/01/2024",
+      "display_value": "06/01/2024",
+      "field_position": {
+        "x": 730,
+        "y": 54,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 695,
+        "y": 68,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 701,
+        "y": 82,
+        "width": 36,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Magnolia Hospitality Inc.",
+      "display_value": "Magnolia Hospitality Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 242,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 72,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Cleveland, OH 44101",
+      "display_value": "Cleveland, OH 44101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 92,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "William H. Miller",
+      "display_value": "William H. Miller",
+      "field_position": {
+        "x": 606,
+        "y": 133,
+        "width": 94,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "352867",
+      "display_value": "352867",
+      "field_position": {
+        "x": 568,
+        "y": 153,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-5366",
+      "display_value": "***-**-5366",
+      "field_position": {
+        "x": 575,
+        "y": 173,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 559,
+        "y": 193,
+        "width": 112,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 535,
+        "y": 213,
+        "width": 110,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$3,820.75",
+      "display_value": "$3,820.75",
+      "field_position": {
+        "x": 743,
+        "y": 283,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$664.35",
+      "display_value": "$664.35",
+      "field_position": {
+        "x": 753,
+        "y": 303,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,485.10",
+      "display_value": "$4,485.10",
+      "field_position": {
+        "x": 743,
+        "y": 323,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$26,910.60",
+      "display_value": "$26,910.60",
+      "field_position": {
+        "x": 736,
+        "y": 343,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$940.43",
+      "display_value": "$940.43",
+      "field_position": {
+        "x": 753,
+        "y": 408,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$142.14",
+      "display_value": "$142.14",
+      "field_position": {
+        "x": 752,
+        "y": 428,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$278.08",
+      "display_value": "$278.08",
+      "field_position": {
+        "x": 753,
+        "y": 448,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$65.03",
+      "display_value": "$65.03",
+      "field_position": {
+        "x": 760,
+        "y": 468,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,425.68",
+      "display_value": "$1,425.68",
+      "field_position": {
+        "x": 743,
+        "y": 488,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$8,554.08",
+      "display_value": "$8,554.08",
+      "field_position": {
+        "x": 743,
+        "y": 508,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$3,059.42",
+      "display_value": "$3,059.42",
+      "field_position": {
+        "x": 50,
+        "y": 569,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$18,356.52",
+      "display_value": "$18,356.52",
+      "field_position": {
+        "x": 50,
+        "y": 605,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "William H. Miller",
+    "employer_name": "Magnolia Hospitality Inc.",
+    "employee_id": "352867",
+    "ssn_last4": "***-**-5366",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Houston, TX 77001",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Cleveland, OH 44101",
+    "pay_date": "07/04/2024",
+    "pay_period_start": "06/01/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "3820.75",
+    "gross_pay_current": "4485.10",
+    "net_pay_current": "3059.42",
+    "gross_pay_ytd": "26910.60",
+    "net_pay_ytd": "18356.52",
+    "total_deductions_current": "1425.68",
+    "federal_tax_withheld": "940.43",
+    "state_tax_withheld": "142.14",
+    "social_security_tax": "278.08",
+    "medicare_tax": "65.03",
+    "total_deductions_ytd": "8554.08",
+    "overtime_pay_current": "664.35"
+  }
+}

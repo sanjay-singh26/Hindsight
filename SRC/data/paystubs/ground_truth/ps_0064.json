@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0064",
+  "image_file": "ps_0064.png",
+  "layout_template": "check_style",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 290,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "910389",
+      "display_value": "910389",
+      "field_position": {
+        "x": 699,
+        "y": 45,
+        "width": 101,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 102,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 96,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Timothy C. Adams",
+      "display_value": "Timothy C. Adams",
+      "field_position": {
+        "x": 150,
+        "y": 131,
+        "width": 125,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-9095",
+      "display_value": "***-**-9095",
+      "field_position": {
+        "x": 132,
+        "y": 149,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 156,
+        "y": 167,
+        "width": 156,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Cleveland, OH 44101",
+      "display_value": "Cleveland, OH 44101",
+      "field_position": {
+        "x": 120,
+        "y": 185,
+        "width": 148,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "11/20/2024",
+      "display_value": "11/20/2024",
+      "field_position": {
+        "x": 496,
+        "y": 131,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "11/01/2024",
+      "display_value": "11/01/2024",
+      "field_position": {
+        "x": 514,
+        "y": 147,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "11/15/2024",
+      "display_value": "11/15/2024",
+      "field_position": {
+        "x": 490,
+        "y": 163,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 496,
+        "y": 179,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$1,816.09",
+      "display_value": "$1,816.09",
+      "field_position": {
+        "x": 330,
+        "y": 270,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$409.55",
+      "display_value": "$409.55",
+      "field_position": {
+        "x": 345,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$694.41",
+      "display_value": "$694.41",
+      "field_position": {
+        "x": 345,
+        "y": 310,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$2,920.05",
+      "display_value": "$2,920.05",
+      "field_position": {
+        "x": 330,
+        "y": 330,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$61,321.05",
+      "display_value": "$61,321.05",
+      "field_position": {
+        "x": 322,
+        "y": 350,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$311.69",
+      "display_value": "$311.69",
+      "field_position": {
+        "x": 745,
+        "y": 270,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$176.49",
+      "display_value": "$176.49",
+      "field_position": {
+        "x": 745,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$181.04",
+      "display_value": "$181.04",
+      "field_position": {
+        "x": 745,
+        "y": 310,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$42.34",
+      "display_value": "$42.34",
+      "field_position": {
+        "x": 753,
+        "y": 330,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$179.97",
+      "display_value": "$179.97",
+      "field_position": {
+        "x": 745,
+        "y": 350,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$304.56",
+      "display_value": "$304.56",
+      "field_position": {
+        "x": 745,
+        "y": 370,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,196.09",
+      "display_value": "$1,196.09",
+      "field_position": {
+        "x": 730,
+        "y": 390,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$25,117.89",
+      "display_value": "$25,117.89",
+      "field_position": {
+        "x": 722,
+        "y": 410,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,723.96",
+      "display_value": "$1,723.96",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$36,203.16",
+      "display_value": "$36,203.16",
+      "field_position": {
+        "x": 707,
+        "y": 480,
+        "width": 78,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Timothy C. Adams",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "910389",
+    "ssn_last4": "***-**-9095",
+    "employee_address": "333 Technology Drive",
+    "employee_city_state_zip": "Cleveland, OH 44101",
+    "employer_address": "777 Market Street",
+    "employer_city_state_zip": "Tucson, AZ 85701",
+    "pay_date": "11/20/2024",
+    "pay_period_start": "11/01/2024",
+    "pay_period_end": "11/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1816.09",
+    "gross_pay_current": "2920.05",
+    "net_pay_current": "1723.96",
+    "gross_pay_ytd": "61321.05",
+    "net_pay_ytd": "36203.16",
+    "total_deductions_current": "1196.09",
+    "federal_tax_withheld": "311.69",
+    "state_tax_withheld": "176.49",
+    "social_security_tax": "181.04",
+    "medicare_tax": "42.34",
+    "total_deductions_ytd": "25117.89",
+    "overtime_pay_current": "409.55",
+    "bonus_current": "694.41",
+    "retirement_401k": "179.97",
+    "health_insurance": "304.56"
+  }
+}

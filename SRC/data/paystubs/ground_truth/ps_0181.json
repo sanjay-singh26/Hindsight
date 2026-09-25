@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0181",
+  "image_file": "ps_0181.png",
+  "layout_template": "left_header",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "09/22/2024",
+      "display_value": "09/22/2024",
+      "field_position": {
+        "x": 704,
+        "y": 40,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "09/01/2024",
+      "display_value": "09/01/2024",
+      "field_position": {
+        "x": 702,
+        "y": 54,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "09/15/2024",
+      "display_value": "09/15/2024",
+      "field_position": {
+        "x": 667,
+        "y": 68,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 710,
+        "y": 82,
+        "width": 66,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Liberty Manufacturing",
+      "display_value": "Liberty Manufacturing",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 227,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 84,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Charlotte, NC 28201",
+      "display_value": "Charlotte, NC 28201",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 94,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Robert J. Jones",
+      "display_value": "Robert J. Jones",
+      "field_position": {
+        "x": 611,
+        "y": 133,
+        "width": 88,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "429502",
+      "display_value": "429502",
+      "field_position": {
+        "x": 543,
+        "y": 153,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-1202",
+      "display_value": "***-**-1202",
+      "field_position": {
+        "x": 534,
+        "y": 173,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 561,
+        "y": 193,
+        "width": 117,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Cleveland, OH 44101",
+      "display_value": "Cleveland, OH 44101",
+      "field_position": {
+        "x": 535,
+        "y": 213,
+        "width": 126,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$3,830.91",
+      "display_value": "$3,830.91",
+      "field_position": {
+        "x": 741,
+        "y": 283,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$3,830.91",
+      "display_value": "$3,830.91",
+      "field_position": {
+        "x": 741,
+        "y": 303,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$65,125.47",
+      "display_value": "$65,125.47",
+      "field_position": {
+        "x": 734,
+        "y": 323,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$717.14",
+      "display_value": "$717.14",
+      "field_position": {
+        "x": 751,
+        "y": 388,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$225.70",
+      "display_value": "$225.70",
+      "field_position": {
+        "x": 752,
+        "y": 408,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$237.52",
+      "display_value": "$237.52",
+      "field_position": {
+        "x": 752,
+        "y": 428,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$55.55",
+      "display_value": "$55.55",
+      "field_position": {
+        "x": 759,
+        "y": 448,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$286.93",
+      "display_value": "$286.93",
+      "field_position": {
+        "x": 752,
+        "y": 468,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$303.14",
+      "display_value": "$303.14",
+      "field_position": {
+        "x": 751,
+        "y": 488,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,825.98",
+      "display_value": "$1,825.98",
+      "field_position": {
+        "x": 741,
+        "y": 508,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$31,041.66",
+      "display_value": "$31,041.66",
+      "field_position": {
+        "x": 734,
+        "y": 528,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$2,004.93",
+      "display_value": "$2,004.93",
+      "field_position": {
+        "x": 50,
+        "y": 589,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$34,083.81",
+      "display_value": "$34,083.81",
+      "field_position": {
+        "x": 50,
+        "y": 625,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Robert J. Jones",
+    "employer_name": "Liberty Manufacturing",
+    "employee_id": "429502",
+    "ssn_last4": "***-**-1202",
+    "employee_address": "555 Corporate Way",
+    "employee_city_state_zip": "Cleveland, OH 44101",
+    "employer_address": "777 Market Street",
+    "employer_city_state_zip": "Charlotte, NC 28201",
+    "pay_date": "09/22/2024",
+    "pay_period_start": "09/01/2024",
+    "pay_period_end": "09/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3830.91",
+    "gross_pay_current": "3830.91",
+    "net_pay_current": "2004.93",
+    "gross_pay_ytd": "65125.47",
+    "net_pay_ytd": "34083.81",
+    "total_deductions_current": "1825.98",
+    "federal_tax_withheld": "717.14",
+    "state_tax_withheld": "225.70",
+    "social_security_tax": "237.52",
+    "medicare_tax": "55.55",
+    "total_deductions_ytd": "31041.66",
+    "retirement_401k": "286.93",
+    "health_insurance": "303.14"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0057",
+  "image_file": "ps_0057.png",
+  "layout_template": "boxed",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Quantum Data Systems",
+      "display_value": "Quantum Data Systems",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 231,
+        "height": 20
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Oklahoma City, OK 73101",
+      "display_value": "Oklahoma City, OK 73101",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Margaret M. Miller",
+      "display_value": "Margaret M. Miller",
+      "field_position": {
+        "x": 80,
+        "y": 127,
+        "width": 107,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "236435",
+      "display_value": "236435",
+      "field_position": {
+        "x": 76,
+        "y": 142,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-1982",
+      "display_value": "***-**-1982",
+      "field_position": {
+        "x": 109,
+        "y": 157,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 79,
+        "y": 172,
+        "width": 103,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 112,
+        "y": 187,
+        "width": 96,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "07/12/2024",
+      "display_value": "07/12/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "07/07/2024",
+      "display_value": "07/07/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 32,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$2,088.94",
+      "display_value": "$2,088.94",
+      "field_position": {
+        "x": 368,
+        "y": 282,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,088.94",
+      "display_value": "$2,088.94",
+      "field_position": {
+        "x": 368,
+        "y": 302,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$56,401.38",
+      "display_value": "$56,401.38",
+      "field_position": {
+        "x": 362,
+        "y": 322,
+        "width": 50,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$438.47",
+      "display_value": "$438.47",
+      "field_position": {
+        "x": 765,
+        "y": 282,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$69.12",
+      "display_value": "$69.12",
+      "field_position": {
+        "x": 771,
+        "y": 302,
+        "width": 31,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$129.51",
+      "display_value": "$129.51",
+      "field_position": {
+        "x": 766,
+        "y": 322,
+        "width": 36,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$30.29",
+      "display_value": "$30.29",
+      "field_position": {
+        "x": 771,
+        "y": 342,
+        "width": 31,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$108.36",
+      "display_value": "$108.36",
+      "field_position": {
+        "x": 765,
+        "y": 362,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$217.00",
+      "display_value": "$217.00",
+      "field_position": {
+        "x": 765,
+        "y": 382,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$992.75",
+      "display_value": "$992.75",
+      "field_position": {
+        "x": 765,
+        "y": 402,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$26,804.25",
+      "display_value": "$26,804.25",
+      "field_position": {
+        "x": 752,
+        "y": 422,
+        "width": 50,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,096.19",
+      "display_value": "$1,096.19",
+      "field_position": {
+        "x": 128,
+        "y": 489,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$29,597.13",
+      "display_value": "$29,597.13",
+      "field_position": {
+        "x": 428,
+        "y": 489,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Margaret M. Miller",
+    "employer_name": "Quantum Data Systems",
+    "employee_id": "236435",
+    "ssn_last4": "***-**-1982",
+    "employee_address": "777 Market Street",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "666 Enterprise Blvd",
+    "employer_city_state_zip": "Oklahoma City, OK 73101",
+    "pay_date": "07/12/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/07/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "2088.94",
+    "gross_pay_current": "2088.94",
+    "net_pay_current": "1096.19",
+    "gross_pay_ytd": "56401.38",
+    "net_pay_ytd": "29597.13",
+    "total_deductions_current": "992.75",
+    "federal_tax_withheld": "438.47",
+    "state_tax_withheld": "69.12",
+    "social_security_tax": "129.51",
+    "medicare_tax": "30.29",
+    "total_deductions_ytd": "26804.25",
+    "retirement_401k": "108.36",
+    "health_insurance": "217.00"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "_comment": "Controls which cells in generated tables are wrapped in \\rev{}. Edit this file after Phase 6 re-scoring, then run SRC/scripts/gen_table_results.py to regenerate Paper/tables/. Cell keys use the format 'dataset/model/metric'. Valid metrics: F1, CBA_s, delta, misbindings. Valid statuses: changed, new.",
+  "tab:all_results": []
+}

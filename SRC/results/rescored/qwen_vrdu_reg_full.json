@@ -1,0 +1,901 @@
+{
+  "domain": "vrdu_registration",
+  "model_id": "qwen2-vl-7b-instruct-4bit",
+  "scorer_result": {
+    "n_gt": 230,
+    "n_pred": 274,
+    "n_recovered": 177,
+    "n_joint_correct": 176,
+    "n_misbindings": 1,
+    "n_duplicates": 6,
+    "rec_val": 0.769565,
+    "cba_cond": 0.99435,
+    "acc_joint": 0.765217,
+    "delta": 0.004348,
+    "precision": 0.642336,
+    "dup_rate": 0.021898,
+    "f1_joint": 0.698413
+  },
+  "raw_results": [
+    {
+      "doc_id": "fara_0000",
+      "ground_truth": {
+        "registrant_name": "SOUTH AFRICAN TOURIST\nCORPORATION",
+        "registration_num": "603",
+        "file_date": "14th day of\nMarch\n1969"
+      },
+      "predicted": {
+        "registration_num": "603",
+        "registrant_name": "SOUTH AFRICAN TOURIST CORPORATION",
+        "foreign_principle_name": "N/A",
+        "signer_name": "WILLIAM McCABE",
+        "signer_title": "Notary Public, State of New York",
+        "file_date": "March 14, 1969"
+      }
+    },
+    {
+      "doc_id": "fara_0001",
+      "ground_truth": {
+        "registrant_name": "Industrial Development Authority\nIreland",
+        "registration_num": "1770",
+        "signer_name": "RONALD MAY",
+        "signer_title": "NOTARY PUBLIC.",
+        "file_date": "JAN - 2 1979"
+      },
+      "predicted": {
+        "registration_num": "1770",
+        "registrant_name": "Industrial Development Authority Ireland",
+        "foreign_principle_name": "N/A",
+        "signer_name": "Ronald B. May",
+        "signer_title": "Notary Public",
+        "file_date": "Jan 2, 1979"
+      }
+    },
+    {
+      "doc_id": "fara_0002",
+      "ground_truth": {
+        "registrant_name": "The Office of Tibet",
+        "registration_num": "1699",
+        "foreign_principle_name": "The Dalai Lama",
+        "file_date": "1/8/80",
+        "signer_title": "Tenzin N. The Baai Lama\nhong, Acting Represen-",
+        "signer_name": "Tenzin N. The Baai hong"
+      },
+      "predicted": {
+        "registration_num": "1699",
+        "registrant_name": "The Office of Tibet",
+        "foreign_principle_name": "The Dalai Lama",
+        "signer_name": "Tenzin N. Tethong, Acting Representative of the Dalai Lama",
+        "signer_title": "Acting Representative",
+        "file_date": "1/8/80"
+      }
+    },
+    {
+      "doc_id": "fara_0003",
+      "ground_truth": {
+        "registrant_name": "Singapore Economic Development Board",
+        "registration_num": "2003",
+        "foreign_principle_name": "Singapore Economic Development Board",
+        "file_date": "09/15/86",
+        "signer_name": "Jonathan Yuen",
+        "signer_title": "Staff Director"
+      },
+      "predicted": {
+        "registration_num": "2003",
+        "registrant_name": "Singapore Economic Development Board",
+        "foreign_principle_name": "Singapore Economic Development Board",
+        "signer_name": "Jonathan Yuen",
+        "signer_title": "Staff Director",
+        "file_date": "09/15/86"
+      }
+    },
+    {
+      "doc_id": "fara_0004",
+      "ground_truth": {
+        "registration_num": "3457",
+        "registrant_name": "CHINA DAILY DISTRIBUTION CORP.",
+        "signer_name": "Young Kee",
+        "signer_title": "President & Director",
+        "file_date": "20\nday of September\n, 19_84"
+      },
+      "predicted": {
+        "registration_num": "3457",
+        "registrant_name": "China Daily Distribution Corp.",
+        "foreign_principle_name": "China Daily of Beijing, China",
+        "signer_name": "Young Kee, President & Director",
+        "signer_title": "President & Director",
+        "file_date": "20 day of September, 1984"
+      }
+    },
+    {
+      "doc_id": "fara_0005",
+      "ground_truth": {
+        "registrant_name": "Singapore Tourist Promotion Board",
+        "registration_num": "2414",
+        "signer_name": "Mr Kay-Yew Koh",
+        "signer_title": "Senior Vice-President (Americas)"
+      },
+      "predicted": {
+        "registration_num": "2414",
+        "registrant_name": "Singapore Tourist Promotion Board",
+        "foreign_principle_name": "N/A",
+        "signer_name": "Mr Kay-Yew Koh",
+        "signer_title": "Senior Vice- President (Americas)",
+        "file_date": "May 1st, 1989"
+      }
+    },
+    {
+      "doc_id": "fara_0006",
+      "ground_truth": {
+        "registrant_name": "NEW SOUTH WALES\nTOURISM COMMISSION",
+        "registration_num": "4450",
+        "file_date": "22nd day of.\nMarch\n1991"
+      },
+      "predicted": {
+        "registration_num": "4450",
+        "registrant_name": "NEW SOUTH WALES Tourism Commission",
+        "foreign_principle_name": "N/A",
+        "signer_name": "N/A",
+        "signer_title": "N/A",
+        "file_date": "March 22, 1991"
+      }
+    },
+    {
+      "doc_id": "fara_0007",
+      "ground_truth": {
+        "registration_num": "3492",
+        "registrant_name": "Akin, Gump, Hauer & Feld",
+        "signer_name": "Daniel L. Spiegel",
+        "signer_title": "Partner With Power of Attorney",
+        "file_date": "31st day of October\n, 1991"
+      },
+      "predicted": {
+        "registration_num": "3492",
+        "registrant_name": "Akin, Gump, Hauer & Feld",
+        "foreign_principle_name": "Schneider S.A.",
+        "signer_name": "Daniel L. Spiegel",
+        "signer_title": "Partner With Power of Attorney",
+        "file_date": "October 31, 1991"
+      }
+    },
+    {
+      "doc_id": "fara_0008",
+      "ground_truth": {
+        "registrant_name": "Oromo Liberation Front",
+        "registration_num": "4610",
+        "foreign_principle_name": "Oromo Liberation Front",
+        "signer_name": "TAMAM A. Youssouf",
+        "file_date": "06/09/92",
+        "signer_title": "OLF. North America Rep."
+      },
+      "predicted": {
+        "registration_num": "4610",
+        "registrant_name": "Oromo Liberation Front",
+        "foreign_principle_name": "Oromo Liberation Front",
+        "signer_name": "Tamam A. Youssouf",
+        "signer_title": "OLF North America Rep.",
+        "file_date": "06/09/92"
+      }
+    },
+    {
+      "doc_id": "fara_0009",
+      "ground_truth": {
+        "registration_num": "4533",
+        "registrant_name": "International Registries, Inc.",
+        "file_date": "October 8,\n1992",
+        "signer_name": "Archibald N. Stewart",
+        "signer_title": "President"
+      },
+      "predicted": {
+        "registration_num": "4533",
+        "registrant_name": "International Registries, Inc.",
+        "foreign_principle_name": "N/A",
+        "signer_name": "N/A",
+        "signer_title": "N/A",
+        "file_date": "October 8, 1992"
+      }
+    },
+    {
+      "doc_id": "fara_0010",
+      "ground_truth": {
+        "registration_num": "2277",
+        "registrant_name": "JETRO, Houston",
+        "foreign_principle_name": "Japan External Trade Organization\nTokyo, Japan",
+        "signer_name": "Hiroyuki Nemoto",
+        "file_date": "October 8,\n1992",
+        "signer_title": "Director, Public Relations"
+      },
+      "predicted": {
+        "registration_num": "2277",
+        "registrant_name": "JETRO, Houston",
+        "foreign_principle_name": "Japan External Trade Organization Tokyo, Japan",
+        "signer_name": "Hiroyuki Nemoto",
+        "signer_title": "Director, Public Relations",
+        "file_date": "October 8, 1992"
+      }
+    },
+    {
+      "doc_id": "fara_0011",
+      "ground_truth": {
+        "registration_num": "4610",
+        "registrant_name": "Tamam A. Youssouf",
+        "foreign_principle_name": "Oromo Liberation Front OLF",
+        "signer_name": "Tanam A. Youssouf",
+        "file_date": "Feb 1\n1993",
+        "signer_title": "N. Am Rep"
+      },
+      "predicted": {
+        "registration_num": "4610",
+        "registrant_name": "Tanam A. Youssouf",
+        "foreign_principle_name": "Oromo Liberation Front",
+        "signer_name": "Tanam A. Youssouf",
+        "signer_title": "Rep",
+        "file_date": "Feb 1 1993"
+      }
+    },
+    {
+      "doc_id": "fara_0012",
+      "ground_truth": {
+        "registration_num": "2438",
+        "registrant_name": "KOBE TRADE INFORMATION OFFICE",
+        "foreign_principle_name": "Foreign Government\nKobe Municipal Govt.",
+        "signer_title": "Director",
+        "signer_name": "Toshiaki Baba",
+        "file_date": "2/23/93"
+      },
+      "predicted": {
+        "registration_num": "2438",
+        "registrant_name": "Kobe Trade Information Office",
+        "foreign_principle_name": "Kobe Municipal Govt.",
+        "signer_name": "Toshiaki Baba",
+        "signer_title": "Director",
+        "file_date": "2/23/93"
+      }
+    },
+    {
+      "doc_id": "fara_0013",
+      "ground_truth": {
+        "registration_num": "4789",
+        "registrant_name": "ETHIOPIAN PEOPLES REVOLUTIONARY PARTY",
+        "foreign_principle_name": "transmitted.\nETHIOPIAN PEOPLES REVOLUTIONARY\nPARTY",
+        "signer_name": "Name and title\nFASSIKA BELLETTE",
+        "file_date": "08/09/93",
+        "signer_title": "SPOKES - PERSON"
+      },
+      "predicted": {
+        "registration_num": "4769",
+        "registrant_name": "ETHIOPIAN PEOPLES REVOLUTIONARY PARTY",
+        "foreign_principle_name": "ETHIOPIAN PEOPLES REVOLUTIONARY PARTY",
+        "signer_name": "FASSIKA BELLETTE",
+        "signer_title": "SPOKESPERSON",
+        "file_date": "08/09/93"
+      }
+    },
+    {
+      "doc_id": "fara_0014",
+      "ground_truth": {
+        "registrant_name": "JETRO, Los Angeles",
+        "registration_num": "1833",
+        "foreign_principle_name": "JETRO, Tokyo\nTokyo, Japan",
+        "signer_name": "Kenjiro Ishiwata",
+        "file_date": "Oct. 14, '93",
+        "signer_title": "Executive Director"
+      },
+      "predicted": {
+        "registration_num": "1833",
+        "registrant_name": "JETRO, Los Angeles",
+        "foreign_principle_name": "JETRO, Tokyo",
+        "signer_name": "Kenjiro Ishiwata",
+        "signer_title": "Executive Director",
+        "file_date": "Oct. 14, 1993"
+      }
+    },
+    {
+      "doc_id": "fara_0015",
+      "ground_truth": {
+        "registration_num": "1833",
+        "registrant_name": "JETRO, Los Angeles",
+        "foreign_principle_name": "Japan External Trade Organization\nTokyo, Japan",
+        "signer_name": "Kenjiro Ishiwata",
+        "file_date": "1/25/94",
+        "signer_title": "Executive Director, General Affairs"
+      },
+      "predicted": {
+        "registration_num": "1833",
+        "registrant_name": "JETRO, Los Angeles",
+        "foreign_principle_name": "Japan External Trade Organization Tokyo, Japan",
+        "signer_name": "Kenjiro Ishiwata",
+        "signer_title": "Executive Director, General Affairs",
+        "file_date": "1/25/94"
+      }
+    },
+    {
+      "doc_id": "fara_0016",
+      "ground_truth": {
+        "registrant_name": "JETRO,\nHouston",
+        "registration_num": "2277",
+        "foreign_principle_name": "Japan External Trade Organization\nTokyo, Japan",
+        "signer_name": "Hiroyuki Nemoto",
+        "file_date": "May 23,\n1995",
+        "signer_title": "Director, Public Relations"
+      },
+      "predicted": {
+        "registration_num": "2277",
+        "registrant_name": "JETRO, Houston",
+        "foreign_principle_name": "Japan External Trade Organization Tokyo, Japan",
+        "signer_name": "Hiroyuki Nemoto",
+        "signer_title": "Director, Public Relations",
+        "file_date": "May 23, 1995"
+      }
+    },
+    {
+      "doc_id": "fara_0017",
+      "ground_truth": {
+        "registrant_name": "The Glover Park Group LLC",
+        "registration_num": "5666",
+        "file_date": "April 01, 2008",
+        "signer_name": "Carl A. Smith"
+      },
+      "predicted": {
+        "registration_num": "5666",
+        "registrant_name": "The Glover Park Group LLC",
+        "foreign_principle_name": "Dubai Aerospace Enterprise, Ltd.",
+        "signer_name": "Carl A. Smith",
+        "signer_title": "Partner",
+        "file_date": "April 01, 2008"
+      }
+    },
+    {
+      "doc_id": "fara_0018",
+      "ground_truth": {
+        "registration_num": "3911",
+        "registrant_name": "CMGRP Inc. DBA Weber Shandwick",
+        "foreign_principle_name": "Government of the Bahamas; Ministry of Trade and Industry Arab Republic\nof Egypt/Alexandria Cotton Exporters Assocation; Temasek Holdings; Bahrain\nEconomic Development Board",
+        "file_date": "6/30/08\n(Date"
+      },
+      "predicted": {
+        "registration_num": "3911",
+        "registrant_name": "Lauren Shaw",
+        "foreign_principle_name": "N/A",
+        "signer_name": "Lauren Shaw",
+        "signer_title": "Communications Consultant",
+        "file_date": "6/30/08"
+      }
+    },
+    {
+      "doc_id": "fara_0019",
+      "ground_truth": {
+        "registration_num": "1619",
+        "registrant_name": "Korea Trade Promotion Center",
+        "file_date": "11/04/2008"
+      },
+      "predicted": {
+        "registration_num": "1619",
+        "registrant_name": "Dooyoung Lee",
+        "foreign_principle_name": "Korea Trade Promotion Center",
+        "signer_name": "N/A",
+        "signer_title": "N/A",
+        "file_date": "11/04/2008"
+      }
+    },
+    {
+      "doc_id": "fara_0020",
+      "ground_truth": {
+        "registration_num": "2165",
+        "registrant_name": "Patton Boggs LLP",
+        "foreign_principle_name": "By this filing: the Embassy of Ecuador; by a previous filing: The Embassy of the People's Republic of China.",
+        "file_date": "September\n16, 2009\n(Date of signature)"
+      },
+      "predicted": {
+        "registration_num": "2165",
+        "registrant_name": "Mark Cowan",
+        "foreign_principle_name": "the Embassy of Ecuador",
+        "signer_name": "Mark Cowan",
+        "signer_title": "Partner",
+        "file_date": "September 16, 2009"
+      }
+    },
+    {
+      "doc_id": "fara_0021",
+      "ground_truth": {
+        "registration_num": "3301",
+        "registrant_name": "Hill & Knowlton, Inc.",
+        "foreign_principle_name": "The Information Technology Industry Development Agency, ITIDA (through Hill & Knowlton, London)",
+        "file_date": "3/25/10"
+      },
+      "predicted": {
+        "registration_num": "3301",
+        "registrant_name": "Christina Kaiser",
+        "foreign_principle_name": "The Information Technology Industry Development Agency, ITIDA (through Hill & Knowlton, London)",
+        "signer_name": "Christina Kaiser",
+        "signer_title": "Partner",
+        "file_date": "2010 MAY 14"
+      }
+    },
+    {
+      "doc_id": "fara_0022",
+      "ground_truth": {
+        "registration_num": "5483",
+        "registrant_name": "Qorvis Communications LLC",
+        "foreign_principle_name": "Kingdom of Saudi Arabia",
+        "file_date": "5-13-10"
+      },
+      "predicted": {
+        "registration_num": "5483",
+        "registrant_name": "Arthur Swift",
+        "foreign_principle_name": "Kingdom of Saudi Arabia",
+        "signer_name": "N/A",
+        "signer_title": "N/A",
+        "file_date": "N/A"
+      }
+    },
+    {
+      "doc_id": "fara_0023",
+      "ground_truth": {
+        "registration_num": "2165",
+        "registrant_name": "Patton Boggs LLP",
+        "foreign_principle_name": "By this filing: The Embassy of the Republic of Azerbaijan. By prior filings: 1) China Chamber of Commerce for Importers and Exporters of\nMachinery and Electronic Products; and 2) China Chamber of Commerce for Importers and Exporters of Metals, Minerals and Chemicals.",
+        "file_date": "11/29/00"
+      },
+      "predicted": {
+        "registration_num": "2165",
+        "registrant_name": "Patton Boggs LLP",
+        "foreign_principle_name": "The Embassy of the Republic of Azerbaijan",
+        "signer_name": "Matthew S. Oresman",
+        "signer_title": "Partner",
+        "file_date": "1/29/10"
+      }
+    },
+    {
+      "doc_id": "fara_0024",
+      "ground_truth": {
+        "registrant_name": "Podesta Group, Inc.",
+        "registration_num": "5926",
+        "signer_name": "Kimberley Fritts",
+        "file_date": "1-7-11"
+      },
+      "predicted": {
+        "registration_num": "5926",
+        "registrant_name": "Podesta Group, Inc.",
+        "foreign_principle_name": "Republic of India",
+        "signer_name": "Kimberley Fritts",
+        "signer_title": "Partner",
+        "file_date": "1-7-11"
+      }
+    },
+    {
+      "doc_id": "fara_0025",
+      "ground_truth": {
+        "registration_num": "3047",
+        "registrant_name": "Garvey Schubert Barer",
+        "foreign_principle_name": "Province of Manitoba",
+        "signer_name": "Harold G. Bailey, Jr.",
+        "file_date": "March 11, 2011"
+      },
+      "predicted": {
+        "registration_num": "3047",
+        "registrant_name": "Garvey Schubert Barer",
+        "foreign_principle_name": "Province of Manitoba",
+        "signer_name": "Harold G. Bailey, Jr.",
+        "signer_title": "Partner",
+        "file_date": "March 11, 2011"
+      }
+    },
+    {
+      "doc_id": "fara_0026",
+      "ground_truth": {
+        "registration_num": "3712",
+        "registrant_name": "DLA Piper LLP (US)",
+        "foreign_principle_name": "German State of Rheinland-Pfalz\nEmbassy of the United Arab Emirates",
+        "file_date": "September 29, 2011",
+        "signer_name": "Beth Schwanke"
+      },
+      "predicted": {
+        "registration_num": "3712",
+        "registrant_name": "Beth Schwanke",
+        "foreign_principle_name": "German State of Rheinland-Pfalz\nEmbassy of the United Arab Emirates",
+        "signer_name": "Beth Schwanke",
+        "signer_title": "Partner",
+        "file_date": "September 29, 2011"
+      }
+    },
+    {
+      "doc_id": "fara_0027",
+      "ground_truth": {
+        "registrant_name": "Commonwealth of Dominica Maritime Registry",
+        "foreign_principle_name": "Commonwealth of Dominica",
+        "file_date": "13.08.2012"
+      },
+      "predicted": {
+        "registration_num": "5334",
+        "registrant_name": "Farmer Khvedelidze",
+        "foreign_principle_name": "Commonwealth of Dominica",
+        "signer_name": "N/A",
+        "signer_title": "N/A",
+        "file_date": "13.08.2012"
+      }
+    },
+    {
+      "doc_id": "fara_0028",
+      "ground_truth": {
+        "registration_num": "5712",
+        "registrant_name": "Greenberg Traurig, LLP",
+        "signer_name": "Edward Barron",
+        "file_date": "January 23, 2013"
+      },
+      "predicted": {
+        "registration_num": "5712",
+        "registrant_name": "Greenberg Traurig, LLP",
+        "foreign_principle_name": "Office of the Governor of Bayelsa",
+        "signer_name": "Edward Barron",
+        "signer_title": "Partner",
+        "file_date": "January 23, 2013"
+      }
+    },
+    {
+      "doc_id": "fara_0029",
+      "ground_truth": {
+        "registrant_name": "CDN International Inc.",
+        "registration_num": "5992",
+        "signer_name": "Alexandre Pinheiro Rego",
+        "file_date": "January 28, 2013"
+      },
+      "predicted": {
+        "registration_num": "5992",
+        "registrant_name": "CDN International Inc.",
+        "foreign_principle_name": "N/A",
+        "signer_name": "Alexandre Pinheiro Rego",
+        "signer_title": "N/A",
+        "file_date": "01/28/2013"
+      }
+    },
+    {
+      "doc_id": "fara_0030",
+      "ground_truth": {
+        "registrant_name": "Nelson Mullins Riley & Scarborough LLP",
+        "registration_num": "5928",
+        "signer_name": "Craig Metz",
+        "file_date": "March 24, 2014"
+      },
+      "predicted": {
+        "registration_num": "5928",
+        "registrant_name": "Nelson Mullins Riley & Scarborough LLP",
+        "foreign_principle_name": "N/A",
+        "signer_name": "Craig Metz",
+        "signer_title": "N/A",
+        "file_date": "March 24, 2014"
+      }
+    },
+    {
+      "doc_id": "fara_0031",
+      "ground_truth": {
+        "registration_num": "5758",
+        "registrant_name": "Ketchum Inc",
+        "foreign_principle_name": "Russian Federation",
+        "file_date": "May 6, 2014\n(Signature)"
+      },
+      "predicted": {
+        "registration_num": "5758",
+        "registrant_name": "Alexandra Scott Amorosi",
+        "foreign_principle_name": "Russian Federation",
+        "signer_name": "Alexandra Scott Amorosi",
+        "signer_title": "Partner",
+        "file_date": "May 6, 2014"
+      }
+    },
+    {
+      "doc_id": "fara_0032",
+      "ground_truth": {
+        "registration_num": "6228",
+        "registrant_name": "Levick Strategic Communications, LLC",
+        "foreign_principle_name": "NAN BIZCOM LTD",
+        "file_date": "June 17, 2014",
+        "signer_name": "Erin Christy Smith"
+      },
+      "predicted": {
+        "registration_num": "C0228",
+        "registrant_name": "Erin Christy Smith",
+        "foreign_principle_name": "NAN Bizcom LTD",
+        "signer_name": "Erin Christy Smith",
+        "signer_title": "Partner",
+        "file_date": "June 17, 2014"
+      }
+    },
+    {
+      "doc_id": "fara_0033",
+      "ground_truth": {
+        "registration_num": "6212",
+        "registrant_name": "Finn Partners, Inc.",
+        "file_date": "March 25, 2015",
+        "signer_name": "Peter Finn"
+      },
+      "predicted": {
+        "registration_num": "6212",
+        "registrant_name": "Finn Partners, Inc",
+        "foreign_principle_name": "Embassy of the Republic of Korea",
+        "signer_name": "Peter Finn",
+        "signer_title": "Partner",
+        "file_date": "March 25, 2015"
+      }
+    },
+    {
+      "doc_id": "fara_0034",
+      "ground_truth": {
+        "registrant_name": "Squire Patton Boggs (US) LLP",
+        "registration_num": "2165",
+        "file_date": "April 15, 2015",
+        "signer_name": "Edward J. Newberry"
+      },
+      "predicted": {
+        "registration_num": "2165",
+        "registrant_name": "Squire Patton Boggs (US) LLP",
+        "foreign_principle_name": "N/A",
+        "signer_name": "Edward J. Newberry",
+        "signer_title": "N/A",
+        "file_date": "April 15, 2015"
+      }
+    },
+    {
+      "doc_id": "fara_0035",
+      "ground_truth": {
+        "registration_num": "6228",
+        "registrant_name": "Levick Strategic Communications, LLC",
+        "foreign_principle_name": "Government of Hungary, Prime Minister's Office (through SLI Group LLC)",
+        "file_date": "9/23/15",
+        "signer_name": "Justin Wilson"
+      },
+      "predicted": {
+        "registration_num": "6228",
+        "registrant_name": "Levick Strategic Communications, LLC",
+        "foreign_principle_name": "Government of Hungary, Prime Minister's Office (through SLI Group LLC)",
+        "signer_name": "Justin Wilson",
+        "signer_title": "Media Strategist",
+        "file_date": "9/23/15"
+      }
+    },
+    {
+      "doc_id": "fara_0036",
+      "ground_truth": {
+        "registration_num": "3634",
+        "registrant_name": "Daniel J. Edelman, Inc.",
+        "foreign_principle_name": "Bombardier, Inc.",
+        "file_date": "February 05, 2016",
+        "signer_name": "Debra Ann Wasser"
+      },
+      "predicted": {
+        "registration_num": "3634",
+        "registrant_name": "Debra Wasser",
+        "foreign_principle_name": "Bombardier, Inc.",
+        "signer_name": "Debra Ann Wasser",
+        "signer_title": "Partner",
+        "file_date": "February 05, 2016"
+      }
+    },
+    {
+      "doc_id": "fara_0037",
+      "ground_truth": {
+        "registration_num": "6414",
+        "registrant_name": "Muzin Capitol Partners, LLC",
+        "file_date": "April 04, 2017",
+        "signer_name": "Nick Muzin"
+      },
+      "predicted": {
+        "registration_num": "6414",
+        "registrant_name": "Muzin Capitol Partners, LLC",
+        "foreign_principle_name": "N/A",
+        "signer_name": "Nick Muzin",
+        "signer_title": "Partner",
+        "file_date": "April 04, 2017"
+      }
+    },
+    {
+      "doc_id": "fara_0038",
+      "ground_truth": {
+        "registration_num": "5839",
+        "registrant_name": "SORINI SAMET & ASSOCIATES LLC",
+        "signer_name": "Ronald J. Sorini",
+        "file_date": "May 03, 2017"
+      },
+      "predicted": {
+        "registration_num": "5839",
+        "registrant_name": "SORINI SAMET & ASSOCIATES LLC",
+        "foreign_principle_name": "Embassy of the Kingdom of Morocco (through Association Marocaine de l'Industrie du Textile et de l'Habillement (AMITH))",
+        "signer_name": "Ronald J. Sorini",
+        "signer_title": "Partner",
+        "file_date": "May 03, 2017"
+      }
+    },
+    {
+      "doc_id": "fara_0039",
+      "ground_truth": {
+        "registration_num": "6431",
+        "registrant_name": "Aselus Strategies, LLC",
+        "foreign_principle_name": "Government of Democratic Republic of the Congo (through Mer Security and Communication Systems)",
+        "signer_name": "Adnan Jalil",
+        "file_date": "May 12, 2017"
+      },
+      "predicted": {
+        "registration_num": "6431",
+        "registrant_name": "Adnan Jalil",
+        "foreign_principle_name": "Government of Democratic Republic of the Congo (through Mer Security and Communication Systems)",
+        "signer_name": "Adnan Jalil",
+        "signer_title": "Lobbyist",
+        "file_date": "May 12, 2017"
+      }
+    },
+    {
+      "doc_id": "fara_0040",
+      "ground_truth": {
+        "registrant_name": "Pillsbury Winthrop Shaw Pittman LLP",
+        "registration_num": "5198",
+        "file_date": "August 15, 2017",
+        "signer_name": "Stephan E. Becker"
+      },
+      "predicted": {
+        "registration_num": "5198",
+        "registrant_name": "Pillsbury Winthrop Shaw Pittman LLP",
+        "foreign_principle_name": "Government of Georgia",
+        "signer_name": "Stephan E. Becker",
+        "signer_title": "Partner",
+        "file_date": "August 15, 2017"
+      }
+    },
+    {
+      "doc_id": "fara_0041",
+      "ground_truth": {
+        "registration_num": "6512",
+        "registrant_name": "Albertine Enterprises, Inc.",
+        "foreign_principle_name": "Embassy of the Republic of Suriname",
+        "file_date": "January 23, 2018",
+        "signer_name": "John M. Albertine"
+      },
+      "predicted": {
+        "registration_num": "651a",
+        "registrant_name": "John M. Albertine",
+        "foreign_principle_name": "Embassy of the Republic of Suriname",
+        "signer_name": "John M. Albertine",
+        "signer_title": "Lobbyist",
+        "file_date": "January 23, 2018"
+      }
+    },
+    {
+      "doc_id": "fara_0042",
+      "ground_truth": {
+        "registration_num": "5712",
+        "registrant_name": "Greenberg Traurig, LLP",
+        "foreign_principle_name": "Republic of Turkey",
+        "file_date": "February 06, 2018",
+        "signer_name": "Randy Forbes"
+      },
+      "predicted": {
+        "registration_num": "5712",
+        "registrant_name": "Greenberg Traurig, LLP",
+        "foreign_principle_name": "Republic of Turkey",
+        "signer_name": "Randy Forbes",
+        "signer_title": "Senior Director",
+        "file_date": "February 06, 2018"
+      }
+    },
+    {
+      "doc_id": "fara_0043",
+      "ground_truth": {
+        "registration_num": "6526",
+        "registrant_name": "Hamilton Place Strategies, LLC",
+        "foreign_principle_name": "Embassy of Australia",
+        "file_date": "2/15/2018"
+      },
+      "predicted": {
+        "registration_num": "6526",
+        "registrant_name": "Sophie Elizabeth Allen",
+        "foreign_principle_name": "Embassy of Australia",
+        "signer_name": "Sophie Elizabeth Allen",
+        "signer_title": "Senior Associate",
+        "file_date": "2/15/2018"
+      }
+    },
+    {
+      "doc_id": "fara_0044",
+      "ground_truth": {
+        "registration_num": "653)",
+        "registrant_name": "Berlin Rosen Ltd",
+        "foreign_principle_name": "Cambodia National Rescue Movement (CNRM)",
+        "file_date": "February 26, 2018",
+        "signer_name": "Kayla Ermanni"
+      },
+      "predicted": {
+        "registration_num": "653",
+        "registrant_name": "Berlin Rosen Ltd",
+        "foreign_principle_name": "Cambodia National Rescue Movement (CNRM)",
+        "signer_name": "Kayla Ermanni",
+        "signer_title": "Partner",
+        "file_date": "February 26, 2018"
+      }
+    },
+    {
+      "doc_id": "fara_0045",
+      "ground_truth": {
+        "registrant_name": "S.G.R. LLC Government Relations and Lobbying",
+        "registration_num": "6379",
+        "file_date": "3/8/18",
+        "signer_name": "GREG LOWMAN"
+      },
+      "predicted": {
+        "registration_num": "6379",
+        "registrant_name": "S.G.R. LLC Government Relations and Lobbying",
+        "foreign_principle_name": "The Federal Democratic Republic of Ethiopia",
+        "signer_name": "Greg Lowman",
+        "signer_title": "Partner",
+        "file_date": "3/8/18"
+      }
+    },
+    {
+      "doc_id": "fara_0046",
+      "ground_truth": {
+        "registration_num": "6533",
+        "registrant_name": "Miller & Chevalier Chartered",
+        "foreign_principle_name": "Government of the Kingdom of Bahrain",
+        "file_date": "March 14, 2018"
+      },
+      "predicted": {
+        "registration_num": "0533",
+        "registrant_name": "Richard A. Mojica",
+        "foreign_principle_name": "Government of the Kingdom of Bahrain",
+        "signer_name": "N/A",
+        "signer_title": "N/A",
+        "file_date": "03/15/2018"
+      }
+    },
+    {
+      "doc_id": "fara_0047",
+      "ground_truth": {
+        "registrant_name": "Hagir Elawad & Associates, LLC",
+        "registration_num": "6455",
+        "file_date": "April 02, 2018",
+        "signer_name": "Hagir Elawad"
+      },
+      "predicted": {
+        "registration_num": "6455",
+        "registrant_name": "Hagir Elawad & Associates, LLC",
+        "foreign_principle_name": "UAE Embassy",
+        "signer_name": "Hagir Elawad",
+        "signer_title": "Professional Staff, Investigative Counsel, Senate Judiciary Committee",
+        "file_date": "April 02, 2018"
+      }
+    },
+    {
+      "doc_id": "fara_0048",
+      "ground_truth": {
+        "registration_num": "6492",
+        "registrant_name": "MMGY Global, LLC",
+        "foreign_principle_name": "Costa Rica Tourism Board",
+        "signer_name": "Allison Harbaugh",
+        "file_date": "June 28, 2018"
+      },
+      "predicted": {
+        "registration_num": "6492",
+        "registrant_name": "MMGY Global, LLC",
+        "foreign_principle_name": "Costa Rica Tourism Board",
+        "signer_name": "Allison Harbaugh",
+        "signer_title": "Media Coordinator",
+        "file_date": "June 28, 2018"
+      }
+    },
+    {
+      "doc_id": "fara_0049",
+      "ground_truth": {
+        "registration_num": "6388",
+        "registrant_name": "theGROUP DC, LLC",
+        "file_date": "July 14, 2018",
+        "signer_name": "Arthur R. Collins"
+      },
+      "predicted": {
+        "registration_num": "6388",
+        "registrant_name": "theGROUP DC, LLC",
+        "foreign_principle_name": "The Government of Bermuda",
+        "signer_name": "Arthur R. Collins",
+        "signer_title": "Partner",
+        "file_date": "July 14, 2018"
+      }
+    }
+  ]
+}

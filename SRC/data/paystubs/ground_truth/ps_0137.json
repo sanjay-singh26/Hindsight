@@ -1,0 +1,388 @@
+{
+  "paystub_id": "ps_0137",
+  "image_file": "ps_0137.png",
+  "layout_template": "two_column",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Premier Auto Services",
+      "display_value": "Premier Auto Services",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 231,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 73,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "San Francisco, CA 94101",
+      "display_value": "San Francisco, CA 94101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Carol S. Lopez",
+      "display_value": "Carol S. Lopez",
+      "field_position": {
+        "x": 159,
+        "y": 106,
+        "width": 86,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "176537",
+      "display_value": "176537",
+      "field_position": {
+        "x": 127,
+        "y": 126,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-1273",
+      "display_value": "***-**-1273",
+      "field_position": {
+        "x": 152,
+        "y": 146,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 149,
+        "y": 166,
+        "width": 108,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 144,
+        "y": 186,
+        "width": 111,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "01/31/2024",
+      "display_value": "01/31/2024",
+      "field_position": {
+        "x": 126,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "01/15/2024",
+      "display_value": "01/15/2024",
+      "field_position": {
+        "x": 316,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "01/28/2024",
+      "display_value": "01/28/2024",
+      "field_position": {
+        "x": 527,
+        "y": 211,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 730,
+        "y": 211,
+        "width": 49,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$4,437.74",
+      "display_value": "$4,437.74",
+      "field_position": {
+        "x": 343,
+        "y": 266,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$300.54",
+      "display_value": "$300.54",
+      "field_position": {
+        "x": 353,
+        "y": 286,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$4,738.28",
+      "display_value": "$4,738.28",
+      "field_position": {
+        "x": 344,
+        "y": 306,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$9,476.56",
+      "display_value": "$9,476.56",
+      "field_position": {
+        "x": 344,
+        "y": 326,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$910.00",
+      "display_value": "$910.00",
+      "field_position": {
+        "x": 755,
+        "y": 266,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$262.57",
+      "display_value": "$262.57",
+      "field_position": {
+        "x": 754,
+        "y": 286,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$293.77",
+      "display_value": "$293.77",
+      "field_position": {
+        "x": 754,
+        "y": 306,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$68.71",
+      "display_value": "$68.71",
+      "field_position": {
+        "x": 763,
+        "y": 326,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$354.60",
+      "display_value": "$354.60",
+      "field_position": {
+        "x": 754,
+        "y": 346,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$121.22",
+      "display_value": "$121.22",
+      "field_position": {
+        "x": 758,
+        "y": 366,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$2,010.87",
+      "display_value": "$2,010.87",
+      "field_position": {
+        "x": 746,
+        "y": 386,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$4,021.74",
+      "display_value": "$4,021.74",
+      "field_position": {
+        "x": 745,
+        "y": 406,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$4,738.28",
+      "display_value": "$4,738.28",
+      "field_position": {
+        "x": 50,
+        "y": 496,
+        "width": 95,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$2,010.87",
+      "display_value": "$2,010.87",
+      "field_position": {
+        "x": 310,
+        "y": 496,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$2,727.41",
+      "display_value": "$2,727.41",
+      "field_position": {
+        "x": 570,
+        "y": 496,
+        "width": 92,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Carol S. Lopez",
+    "employer_name": "Premier Auto Services",
+    "employee_id": "176537",
+    "ssn_last4": "***-**-1273",
+    "employee_address": "777 Market Street",
+    "employee_city_state_zip": "Phoenix, AZ 85001",
+    "employer_address": "123 Main Street",
+    "employer_city_state_zip": "San Francisco, CA 94101",
+    "pay_date": "01/31/2024",
+    "pay_period_start": "01/15/2024",
+    "pay_period_end": "01/28/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "4437.74",
+    "gross_pay_current": "4738.28",
+    "net_pay_current": "2727.41",
+    "gross_pay_ytd": "9476.56",
+    "net_pay_ytd": "5454.82",
+    "total_deductions_current": "2010.87",
+    "federal_tax_withheld": "910.00",
+    "state_tax_withheld": "262.57",
+    "social_security_tax": "293.77",
+    "medicare_tax": "68.71",
+    "total_deductions_ytd": "4021.74",
+    "overtime_pay_current": "300.54",
+    "retirement_401k": "354.60",
+    "health_insurance": "121.22"
+  }
+}

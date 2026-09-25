@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0093",
+  "image_file": "ps_0093.png",
+  "layout_template": "compact",
+  "noise_profile": "heavy_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Summit Healthcare Group",
+      "display_value": "Summit Healthcare Group",
+      "field_position": {
+        "x": 87,
+        "y": 25,
+        "width": 115,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Deborah K. Martinez",
+      "display_value": "Deborah K. Martinez",
+      "field_position": {
+        "x": 106,
+        "y": 39,
+        "width": 90,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "401602",
+      "display_value": "401602",
+      "field_position": {
+        "x": 68,
+        "y": 53,
+        "width": 34,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-2294",
+      "display_value": "***-**-2294",
+      "field_position": {
+        "x": 94,
+        "y": 67,
+        "width": 50,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 86,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 72,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 67,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 80,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "04/14/2024",
+      "display_value": "04/14/2024",
+      "field_position": {
+        "x": 107,
+        "y": 137,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "03/25/2024",
+      "display_value": "03/25/2024",
+      "field_position": {
+        "x": 120,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "04/07/2024",
+      "display_value": "04/07/2024",
+      "field_position": {
+        "x": 56,
+        "y": 165,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 88,
+        "y": 179,
+        "width": 43,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$2,092.38",
+      "display_value": "$2,092.38",
+      "field_position": {
+        "x": 766,
+        "y": 215,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$290.14",
+      "display_value": "$290.14",
+      "field_position": {
+        "x": 773,
+        "y": 235,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$1,533.60",
+      "display_value": "$1,533.60",
+      "field_position": {
+        "x": 766,
+        "y": 255,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$3,916.12",
+      "display_value": "$3,916.12",
+      "field_position": {
+        "x": 766,
+        "y": 275,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$27,412.84",
+      "display_value": "$27,412.84",
+      "field_position": {
+        "x": 760,
+        "y": 295,
+        "width": 50,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$504.06",
+      "display_value": "$504.06",
+      "field_position": {
+        "x": 773,
+        "y": 337,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$129.41",
+      "display_value": "$129.41",
+      "field_position": {
+        "x": 774,
+        "y": 357,
+        "width": 36,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$242.80",
+      "display_value": "$242.80",
+      "field_position": {
+        "x": 773,
+        "y": 377,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$56.78",
+      "display_value": "$56.78",
+      "field_position": {
+        "x": 779,
+        "y": 397,
+        "width": 31,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$142.87",
+      "display_value": "$142.87",
+      "field_position": {
+        "x": 773,
+        "y": 417,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,075.92",
+      "display_value": "$1,075.92",
+      "field_position": {
+        "x": 766,
+        "y": 437,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$7,531.44",
+      "display_value": "$7,531.44",
+      "field_position": {
+        "x": 766,
+        "y": 457,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$2,840.20",
+      "display_value": "$2,840.20",
+      "field_position": {
+        "x": 114,
+        "y": 485,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$19,881.40",
+      "display_value": "$19,881.40",
+      "field_position": {
+        "x": 106,
+        "y": 499,
+        "width": 50,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Deborah K. Martinez",
+    "employer_name": "Summit Healthcare Group",
+    "employee_id": "401602",
+    "ssn_last4": "***-**-2294",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Tucson, AZ 85701",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Mesa, AZ 85201",
+    "pay_date": "04/14/2024",
+    "pay_period_start": "03/25/2024",
+    "pay_period_end": "04/07/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2092.38",
+    "gross_pay_current": "3916.12",
+    "net_pay_current": "2840.20",
+    "gross_pay_ytd": "27412.84",
+    "net_pay_ytd": "19881.40",
+    "total_deductions_current": "1075.92",
+    "federal_tax_withheld": "504.06",
+    "state_tax_withheld": "129.41",
+    "social_security_tax": "242.80",
+    "medicare_tax": "56.78",
+    "total_deductions_ytd": "7531.44",
+    "overtime_pay_current": "290.14",
+    "bonus_current": "1533.60",
+    "health_insurance": "142.87"
+  }
+}

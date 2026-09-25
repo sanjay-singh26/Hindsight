@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0089",
+  "image_file": "ps_0089.png",
+  "layout_template": "wide_format",
+  "noise_profile": "heavy_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Ironworks Engineering Ltd.",
+      "display_value": "Ironworks Engineering Ltd.",
+      "field_position": {
+        "x": 40,
+        "y": 30,
+        "width": 285,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 400,
+        "y": 30,
+        "width": 92,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Cleveland, OH 44101",
+      "display_value": "Cleveland, OH 44101",
+      "field_position": {
+        "x": 400,
+        "y": 44,
+        "width": 93,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Donna K. Mitchell",
+      "display_value": "Donna K. Mitchell",
+      "field_position": {
+        "x": 40,
+        "y": 84,
+        "width": 111,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "452713",
+      "display_value": "452713",
+      "field_position": {
+        "x": 260,
+        "y": 84,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-9311",
+      "display_value": "***-**-9311",
+      "field_position": {
+        "x": 440,
+        "y": 84,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "09/03/2024",
+      "display_value": "09/03/2024",
+      "field_position": {
+        "x": 590,
+        "y": 84,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 40,
+        "y": 116,
+        "width": 115,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 260,
+        "y": 116,
+        "width": 108,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "08/16/2024",
+      "display_value": "08/16/2024",
+      "field_position": {
+        "x": 490,
+        "y": 116,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "08/31/2024",
+      "display_value": "08/31/2024",
+      "field_position": {
+        "x": 640,
+        "y": 116,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 40,
+        "y": 148,
+        "width": 89,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$2,631.34",
+      "display_value": "$2,631.34",
+      "field_position": {
+        "x": 535,
+        "y": 200,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,631.34",
+      "display_value": "$2,631.34",
+      "field_position": {
+        "x": 535,
+        "y": 225,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$42,101.44",
+      "display_value": "$42,101.44",
+      "field_position": {
+        "x": 729,
+        "y": 225,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$447.44",
+      "display_value": "$447.44",
+      "field_position": {
+        "x": 542,
+        "y": 290,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$204.73",
+      "display_value": "$204.73",
+      "field_position": {
+        "x": 544,
+        "y": 310,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$163.14",
+      "display_value": "$163.14",
+      "field_position": {
+        "x": 547,
+        "y": 330,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$38.15",
+      "display_value": "$38.15",
+      "field_position": {
+        "x": 553,
+        "y": 350,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$87.19",
+      "display_value": "$87.19",
+      "field_position": {
+        "x": 553,
+        "y": 370,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$940.65",
+      "display_value": "$940.65",
+      "field_position": {
+        "x": 543,
+        "y": 395,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$15,050.40",
+      "display_value": "$15,050.40",
+      "field_position": {
+        "x": 728,
+        "y": 395,
+        "width": 62,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,690.69",
+      "display_value": "$1,690.69",
+      "field_position": {
+        "x": 497,
+        "y": 439,
+        "width": 93,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$27,051.04",
+      "display_value": "$27,051.04",
+      "field_position": {
+        "x": 686,
+        "y": 439,
+        "width": 104,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donna K. Mitchell",
+    "employer_name": "Ironworks Engineering Ltd.",
+    "employee_id": "452713",
+    "ssn_last4": "***-**-9311",
+    "employee_address": "555 Corporate Way",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Cleveland, OH 44101",
+    "pay_date": "09/03/2024",
+    "pay_period_start": "08/16/2024",
+    "pay_period_end": "08/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "2631.34",
+    "gross_pay_current": "2631.34",
+    "net_pay_current": "1690.69",
+    "gross_pay_ytd": "42101.44",
+    "net_pay_ytd": "27051.04",
+    "total_deductions_current": "940.65",
+    "federal_tax_withheld": "447.44",
+    "state_tax_withheld": "204.73",
+    "social_security_tax": "163.14",
+    "medicare_tax": "38.15",
+    "total_deductions_ytd": "15050.40",
+    "health_insurance": "87.19"
+  }
+}

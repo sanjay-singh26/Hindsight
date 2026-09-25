@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0156",
+  "image_file": "ps_0156.png",
+  "layout_template": "government",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Continental Freight Lines",
+      "display_value": "Continental Freight Lines",
+      "field_position": {
+        "x": 114,
+        "y": 75,
+        "width": 156,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 167,
+        "y": 95,
+        "width": 120,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 168,
+        "y": 115,
+        "width": 122,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "George B. Smith",
+      "display_value": "George B. Smith",
+      "field_position": {
+        "x": 155,
+        "y": 143,
+        "width": 97,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "559507",
+      "display_value": "559507",
+      "field_position": {
+        "x": 132,
+        "y": 163,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-7875",
+      "display_value": "***-**-7875",
+      "field_position": {
+        "x": 147,
+        "y": 183,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 145,
+        "y": 203,
+        "width": 94,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Milwaukee, WI 53201",
+      "display_value": "Milwaukee, WI 53201",
+      "field_position": {
+        "x": 110,
+        "y": 223,
+        "width": 130,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "10/06/2024",
+      "display_value": "10/06/2024",
+      "field_position": {
+        "x": 113,
+        "y": 251,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "09/16/2024",
+      "display_value": "09/16/2024",
+      "field_position": {
+        "x": 362,
+        "y": 251,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "09/30/2024",
+      "display_value": "09/30/2024",
+      "field_position": {
+        "x": 523,
+        "y": 251,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 729,
+        "y": 251,
+        "width": 89,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,630.36",
+      "display_value": "$1,630.36",
+      "field_position": {
+        "x": 746,
+        "y": 309,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$704.84",
+      "display_value": "$704.84",
+      "field_position": {
+        "x": 753,
+        "y": 329,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,335.20",
+      "display_value": "$2,335.20",
+      "field_position": {
+        "x": 745,
+        "y": 349,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$42,033.60",
+      "display_value": "$42,033.60",
+      "field_position": {
+        "x": 736,
+        "y": 369,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$426.08",
+      "display_value": "$426.08",
+      "field_position": {
+        "x": 753,
+        "y": 427,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$92.85",
+      "display_value": "$92.85",
+      "field_position": {
+        "x": 761,
+        "y": 447,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$144.78",
+      "display_value": "$144.78",
+      "field_position": {
+        "x": 755,
+        "y": 467,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$33.86",
+      "display_value": "$33.86",
+      "field_position": {
+        "x": 761,
+        "y": 487,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$208.31",
+      "display_value": "$208.31",
+      "field_position": {
+        "x": 756,
+        "y": 507,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$166.05",
+      "display_value": "$166.05",
+      "field_position": {
+        "x": 756,
+        "y": 527,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,071.93",
+      "display_value": "$1,071.93",
+      "field_position": {
+        "x": 748,
+        "y": 547,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$19,294.74",
+      "display_value": "$19,294.74",
+      "field_position": {
+        "x": 737,
+        "y": 567,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$1,263.27",
+      "display_value": "$1,263.27",
+      "field_position": {
+        "x": 103,
+        "y": 602,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$22,738.86",
+      "display_value": "$22,738.86",
+      "field_position": {
+        "x": 108,
+        "y": 632,
+        "width": 106,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "George B. Smith",
+    "employer_name": "Continental Freight Lines",
+    "employee_id": "559507",
+    "ssn_last4": "***-**-7875",
+    "employee_address": "987 Cedar Lane",
+    "employee_city_state_zip": "Milwaukee, WI 53201",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Louisville, KY 40201",
+    "pay_date": "10/06/2024",
+    "pay_period_start": "09/16/2024",
+    "pay_period_end": "09/30/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1630.36",
+    "gross_pay_current": "2335.20",
+    "net_pay_current": "1263.27",
+    "gross_pay_ytd": "42033.60",
+    "net_pay_ytd": "22738.86",
+    "total_deductions_current": "1071.93",
+    "federal_tax_withheld": "426.08",
+    "state_tax_withheld": "92.85",
+    "social_security_tax": "144.78",
+    "medicare_tax": "33.86",
+    "total_deductions_ytd": "19294.74",
+    "overtime_pay_current": "704.84",
+    "retirement_401k": "208.31",
+    "health_insurance": "166.05"
+  }
+}

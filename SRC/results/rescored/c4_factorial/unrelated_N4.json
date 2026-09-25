@@ -1,0 +1,1684 @@
+{
+  "overlap": "unrelated",
+  "density": 4,
+  "active_fields": [
+    "employee_ssn",
+    "employer_address",
+    "wages_tips_compensation",
+    "federal_tax_withheld"
+  ],
+  "cell": {
+    "haiku": {
+      "model_id": "claude-haiku-4-5",
+      "scorer_result": {
+        "n_gt": 200,
+        "n_pred": 193,
+        "n_recovered": 45,
+        "n_joint_correct": 42,
+        "n_misbindings": 3,
+        "n_duplicates": 0,
+        "rec_val": 0.225,
+        "cba_cond": 0.933333,
+        "acc_joint": 0.21,
+        "delta": 0.015,
+        "precision": 0.217617,
+        "dup_rate": 0.0,
+        "f1_joint": 0.21374
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "employee_ssn": "484-68-9509",
+            "employer_address": "10363 Bond Mountain Suite 802",
+            "wages_tips_compensation": "152652.02",
+            "federal_tax_withheld": "45540.24"
+          },
+          "predicted": {
+            "employee_ssn": "031-80-2043",
+            "employer_address": "10363 Bond Mountain Suite 802, Douglaschester MA 39525-2803",
+            "wages_tips_compensation": "152652.02",
+            "federal_tax_withheld": "45540.24"
+          },
+          "cost": 0.00135
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "employee_ssn": "079-14-0849",
+            "employer_address": "00215 Beth Glens Suite 617",
+            "wages_tips_compensation": "248088.68",
+            "federal_tax_withheld": "64814.26"
+          },
+          "predicted": {
+            "employee_ssn": "95-3831047",
+            "employer_address": "00215 Beth Glens Suite 617 East Lauren NY 48664-6262",
+            "wages_tips_compensation": "248088.68",
+            "federal_tax_withheld": "64814.26"
+          },
+          "cost": 0.001345
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "employee_ssn": "583-65-5516",
+            "employer_address": "829 Dominique Glens",
+            "wages_tips_compensation": "163883.65",
+            "federal_tax_withheld": "34982.01"
+          },
+          "predicted": {
+            "employee_ssn": "583-65-5516",
+            "employer_address": "829 Dominique Glenn, Hogestadt, MT 67532-6508",
+            "wages_tips_compensation": "34982.01",
+            "federal_tax_withheld": "3555.41"
+          },
+          "cost": 0.001345
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "employee_ssn": "054-54-9312",
+            "employer_address": "55381 Wood Manor Apt. 716",
+            "wages_tips_compensation": "218486.95",
+            "federal_tax_withheld": "71603.77"
+          },
+          "predicted": {
+            "employee_ssn": "054-54-9312",
+            "employer_address": "55381 Wood Manor Apt. 716, Jefferyview IN 61281-4740",
+            "wages_tips_compensation": "218486.95",
+            "federal_tax_withheld": "71603.77"
+          },
+          "cost": 0.00136
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "employee_ssn": "342-31-7649",
+            "employer_address": "5626 Emily Passage",
+            "wages_tips_compensation": "158778.18",
+            "federal_tax_withheld": "30947.35"
+          },
+          "predicted": {
+            "employee_ssn": "27-0382574",
+            "employer_address": "5626 Emily Passage, Nicolseport OK 77322-0745",
+            "wages_tips_compensation": "158778.18",
+            "federal_tax_withheld": "30947.35"
+          },
+          "cost": 0.001335
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "employee_ssn": "712-59-0520",
+            "employer_address": "7356 Hancock Mews Suite 182",
+            "wages_tips_compensation": "120409.39",
+            "federal_tax_withheld": "36069.19"
+          },
+          "predicted": {
+            "employee_ssn": "264-17-218",
+            "employer_address": "7356 Hancock Mews Suite 182 Susanburgh VT 14925-0616",
+            "wages_tips_compensation": "63000.74",
+            "federal_tax_withheld": "19187.29"
+          },
+          "cost": 0.001365
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "employee_ssn": "150-55-2485",
+            "employer_address": "9531 Ramirez Crossroad",
+            "wages_tips_compensation": "210149.36",
+            "federal_tax_withheld": "35489.74"
+          },
+          "predicted": {
+            "employee_ssn": "150-55-2485",
+            "employer_address": "9531 Ramirez Crossroad, Stephanieton NM 72414-1109",
+            "wages_tips_compensation": "35489.74",
+            "federal_tax_withheld": "22144.06"
+          },
+          "cost": 0.001365
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "employee_ssn": "688-56-6974",
+            "employer_address": "3530 Katherine Trail",
+            "wages_tips_compensation": "113426.53",
+            "federal_tax_withheld": "41416.00"
+          },
+          "predicted": {
+            "employee_ssn": "67-1835730",
+            "employer_address": "3530 Katherine Trail, East Edward, MT 04984-3372",
+            "wages_tips_compensation": "113426.53",
+            "federal_tax_withheld": "41416.0"
+          },
+          "cost": 0.001325
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "employee_ssn": "822-87-2371",
+            "employer_address": "926 Kimberly Alley Apt. 961",
+            "wages_tips_compensation": "148120.52",
+            "federal_tax_withheld": "50448.90"
+          },
+          "predicted": {
+            "employee_ssn": "547-58-249",
+            "employer_address": "926 Kimberly Alley Apt. 961 Mckenzieion PA 98081-1718",
+            "wages_tips_compensation": "71779.23",
+            "federal_tax_withheld": "19629.04"
+          },
+          "cost": 0.001385
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "employee_ssn": "838-95-1237",
+            "employer_address": "1998 Kaylee Falls",
+            "wages_tips_compensation": "136750.11",
+            "federal_tax_withheld": "15601.90"
+          },
+          "predicted": {
+            "employee_ssn": "52-7846836",
+            "employer_address": "76543 Ronald Motorway Suite 260, West Andeland, GA 23374-7056",
+            "wages_tips_compensation": "131005.25",
+            "federal_tax_withheld": "14105.81"
+          },
+          "cost": 0.00136
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "employee_ssn": "686-23-7237",
+            "employer_address": "139 Jason Hill",
+            "wages_tips_compensation": "117803.63",
+            "federal_tax_withheld": "41517.38"
+          },
+          "predicted": {
+            "employee_ssn": "67-9511849",
+            "employer_address": "139 Jason Hill Sarahland AZ 66910-1298",
+            "wages_tips_compensation": "117803.63",
+            "federal_tax_withheld": "41517.38"
+          },
+          "cost": 0.001325
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "employee_ssn": "662-76-3435",
+            "employer_address": "5627 Allen Curve",
+            "wages_tips_compensation": "101362.84",
+            "federal_tax_withheld": "30492.55"
+          },
+          "predicted": {
+            "employee_ssn": "662-76-3435",
+            "employer_address": "5627 Allen Curve, Lake Todddside WY 12199-7648",
+            "wages_tips_compensation": "101362.84",
+            "federal_tax_withheld": "30492.55"
+          },
+          "cost": 0.00135
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "employee_ssn": "813-62-1184",
+            "employer_address": "8000 Maurice Street",
+            "wages_tips_compensation": "99608.61",
+            "federal_tax_withheld": "21503.42"
+          },
+          "predicted": {
+            "employee_ssn": "973-72-2283",
+            "employer_address": "8000 Maurice Street, Christianside SC 68424-9134",
+            "wages_tips_compensation": "50771.16",
+            "federal_tax_withheld": "14276.39"
+          },
+          "cost": 0.00133
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "employee_ssn": "152-66-1892",
+            "employer_address": "54147 Brandy Islands Suite 097",
+            "wages_tips_compensation": "86879.95",
+            "federal_tax_withheld": "27984.13"
+          },
+          "predicted": {
+            "employee_ssn": "285-55-5626",
+            "employer_address": "54147 Brandy Islands Suite 097, Lake Nancy, TX 27269-9614",
+            "wages_tips_compensation": "105988.86",
+            "federal_tax_withheld": "12533.95"
+          },
+          "cost": 0.001355
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "employee_ssn": "302-97-5825",
+            "employer_address": "5966 Alexander Curve Apt. 509",
+            "wages_tips_compensation": "90684.48",
+            "federal_tax_withheld": "9304.00"
+          },
+          "predicted": {
+            "employee_ssn": "517-15-3",
+            "employer_address": "5966 Alexander Curve Apt. 509 New Catherinebury WI 16161-2662",
+            "wages_tips_compensation": "109704.34",
+            "federal_tax_withheld": "13861.54"
+          },
+          "cost": 0.00137
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "employee_ssn": "610-27-6592",
+            "employer_address": "0770 Melissa Manor Suite 764",
+            "wages_tips_compensation": "86259.77",
+            "federal_tax_withheld": "29047.98"
+          },
+          "predicted": {
+            "employee_ssn": "208-19-333",
+            "employer_address": "0770 Melissa Manor Suite 764, North Kelsey, OK 64268-6137",
+            "wages_tips_compensation": "42289.68",
+            "federal_tax_withheld": "10631.68"
+          },
+          "cost": 0.001355
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "employee_ssn": "498-71-2917",
+            "employer_address": "59004 Obrien Haven",
+            "wages_tips_compensation": "60834.74",
+            "federal_tax_withheld": "21288.46"
+          },
+          "predicted": {
+            "employee_ssn": "866-23-868",
+            "employer_address": "5904 Obrien Haven New Mariabury PA 24739-3330",
+            "wages_tips_compensation": "33331.67",
+            "federal_tax_withheld": "11664.98"
+          },
+          "cost": 0.00134
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "employee_ssn": "852-14-0412",
+            "employer_address": "31432 Collins Lane Suite 877",
+            "wages_tips_compensation": "213063.63",
+            "federal_tax_withheld": "57633.41"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "31432 Collins Lane Suite 877 East Brandenberg VT 37565-0913",
+            "wages_tips_compensation": "251690.79",
+            "federal_tax_withheld": "41211.16"
+          },
+          "cost": 0.00134
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "employee_ssn": "751-88-6978",
+            "employer_address": "042 Smith Cape",
+            "wages_tips_compensation": "151146.76",
+            "federal_tax_withheld": "23327.70"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "042 Smith Cape, Masseyfort AR 22303-6240",
+            "wages_tips_compensation": "151248.3",
+            "federal_tax_withheld": "20827.94"
+          },
+          "cost": 0.001315
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "employee_ssn": "219-05-9508",
+            "employer_address": "601 Patel Mountain",
+            "wages_tips_compensation": "183073.45",
+            "federal_tax_withheld": "58714.69"
+          },
+          "predicted": {
+            "employee_ssn": "155-69-093",
+            "employer_address": "601 Patel Mountain West Mary SC 56076-8633",
+            "wages_tips_compensation": "87674.55",
+            "federal_tax_withheld": "3692.94"
+          },
+          "cost": 0.00132
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "employee_ssn": "144-45-5742",
+            "employer_address": "13200 Candice Mills Apt. 272",
+            "wages_tips_compensation": "191151.46",
+            "federal_tax_withheld": "37546.86"
+          },
+          "predicted": {
+            "employee_ssn": "67-8046-608",
+            "employer_address": "13200 Candice Mills Apt. 272, Dodgeberg, AZ 22471-8401",
+            "wages_tips_compensation": "191151.46",
+            "federal_tax_withheld": "37546.86"
+          },
+          "cost": 0.00138
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "employee_ssn": "888-91-2527",
+            "employer_address": "24405 Li Station Apt. 579",
+            "wages_tips_compensation": "125200.75",
+            "federal_tax_withheld": "15755.30"
+          },
+          "predicted": {
+            "employee_ssn": "222-32-858",
+            "employer_address": "24405 Li Station Apt. 579 East Ryansbury MO 41737-0648",
+            "wages_tips_compensation": "125200.75",
+            "federal_tax_withheld": "15755.3"
+          },
+          "cost": 0.001365
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "employee_ssn": "061-74-3844",
+            "employer_address": "68729 Sloan Junction Suite 353",
+            "wages_tips_compensation": "205321.46",
+            "federal_tax_withheld": "42333.53"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "68729 Sloan Junction Suite 353, Perseifurt AR 94828-5236",
+            "wages_tips_compensation": "230901.81",
+            "federal_tax_withheld": "25569.78"
+          },
+          "cost": 0.00135
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "employee_ssn": "832-29-2067",
+            "employer_address": "1836 Shawn Flats",
+            "wages_tips_compensation": "216194.29",
+            "federal_tax_withheld": "41302.85"
+          },
+          "predicted": {
+            "employee_ssn": "217-20-019",
+            "employer_address": "1836 Shawn Flats, Lake Erin TX 84236-0383",
+            "wages_tips_compensation": "272040.46",
+            "federal_tax_withheld": "32082.86"
+          },
+          "cost": 0.00135
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "employee_ssn": "504-83-9590",
+            "employer_address": "61460 Kim Hollow",
+            "wages_tips_compensation": "78313.32",
+            "federal_tax_withheld": "18438.38"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "N/A",
+            "wages_tips_compensation": "18438.38",
+            "federal_tax_withheld": "1031"
+          },
+          "cost": 0.00124
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "employee_ssn": "457-50-9546",
+            "employer_address": "6222 Caitlyn Villages",
+            "wages_tips_compensation": "105726.15",
+            "federal_tax_withheld": "10903.81"
+          },
+          "predicted": {
+            "employee_ssn": "161-09-6969",
+            "employer_address": "6222 Caitlyn Villages, Dearside, AR 34812-5208",
+            "wages_tips_compensation": "122392.42",
+            "federal_tax_withheld": "128984.48"
+          },
+          "cost": 0.001355
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "employee_ssn": "070-82-9963",
+            "employer_address": "2395 Joshua Center Apt. 267",
+            "wages_tips_compensation": "175527.76",
+            "federal_tax_withheld": "39400.69"
+          },
+          "predicted": {
+            "employee_ssn": "206-53-035",
+            "employer_address": "2395 Joshua Center Apt. 267 Bryantsport VT 37884-9210",
+            "wages_tips_compensation": "154749.84",
+            "federal_tax_withheld": "23384.05"
+          },
+          "cost": 0.001365
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "employee_ssn": "168-52-9821",
+            "employer_address": "337 Ashley Radial",
+            "wages_tips_compensation": "205138.02",
+            "federal_tax_withheld": "31689.11"
+          },
+          "predicted": {
+            "employee_ssn": "286-31-758",
+            "employer_address": "337 Ashley Radial West Nicholas NE 76815-7641",
+            "wages_tips_compensation": "94423.5",
+            "federal_tax_withheld": "26617.41"
+          },
+          "cost": 0.001325
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "employee_ssn": "018-56-0380",
+            "employer_address": "87636 John Inlet",
+            "wages_tips_compensation": "239891.84",
+            "federal_tax_withheld": "61983.56"
+          },
+          "predicted": {
+            "employee_ssn": "022-04-5980",
+            "employer_address": "87636 John Inlet, Nelsonberg NH 31663-6143",
+            "wages_tips_compensation": "252988.69",
+            "federal_tax_withheld": "38242.41"
+          },
+          "cost": 0.00134
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "employee_ssn": "622-95-4526",
+            "employer_address": "7447 Munoz Common Suite 599",
+            "wages_tips_compensation": "237798.02",
+            "federal_tax_withheld": "25059.09"
+          },
+          "predicted": {
+            "employee_ssn": "036-49-240",
+            "employer_address": "7447 Munos Common Suite 599 Jessicashire VA 84107-3723",
+            "wages_tips_compensation": "167489.12",
+            "federal_tax_withheld": "44154.68"
+          },
+          "cost": 0.00136
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "employee_ssn": "499-03-3699",
+            "employer_address": "443 Davis Ports Suite 323",
+            "wages_tips_compensation": "232714.80",
+            "federal_tax_withheld": "82590.56"
+          },
+          "predicted": {
+            "employee_ssn": "10-1367882",
+            "employer_address": "443 Davis Ports Suite 323, Bellton, MI 60757-9824",
+            "wages_tips_compensation": "232714.8",
+            "federal_tax_withheld": "82590.56"
+          },
+          "cost": 0.001345
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "employee_ssn": "310-59-7229",
+            "employer_address": "6477 Hernandez Groves Suite 414",
+            "wages_tips_compensation": "155002.26",
+            "federal_tax_withheld": "40436.77"
+          },
+          "predicted": {
+            "employee_ssn": "99-9190153",
+            "employer_address": "6477 Hernandez Groves Suite 414 Port Racheltville MT 31400-6736",
+            "wages_tips_compensation": "112462.72",
+            "federal_tax_withheld": "25297.68"
+          },
+          "cost": 0.00137
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "employee_ssn": "402-49-8899",
+            "employer_address": "20343 Arnold Island Suite 722",
+            "wages_tips_compensation": "45937.66",
+            "federal_tax_withheld": "5952.67"
+          },
+          "predicted": {
+            "employee_ssn": "73-1750562",
+            "employer_address": "20343 Arnold Island Suite 722, Loganhaven, PA 63096-3906",
+            "wages_tips_compensation": "45937.66",
+            "federal_tax_withheld": "5952.67"
+          },
+          "cost": 0.00135
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "employee_ssn": "726-65-2584",
+            "employer_address": "0041 Joe Ferry",
+            "wages_tips_compensation": "213494.91",
+            "federal_tax_withheld": "56818.46"
+          },
+          "predicted": {
+            "employee_ssn": "544-31-040",
+            "employer_address": "N/A",
+            "wages_tips_compensation": "211419.58",
+            "federal_tax_withheld": "30431.52"
+          },
+          "cost": 0.00126
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "employee_ssn": "110-21-8247",
+            "employer_address": "56100 Tammy Summit Apt. 527",
+            "wages_tips_compensation": "195668.90",
+            "federal_tax_withheld": "64335.66"
+          },
+          "predicted": {
+            "employee_ssn": "39-0882879",
+            "employer_address": "56100 Tammy Summit Apt. 527, Lake Christina KY 63641-5763",
+            "wages_tips_compensation": "195668.9",
+            "federal_tax_withheld": "64335.66"
+          },
+          "cost": 0.00136
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "employee_ssn": "697-06-5725",
+            "employer_address": "880 Parker Mills",
+            "wages_tips_compensation": "230036.11",
+            "federal_tax_withheld": "31887.93"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "880 Parker Mills, Woodville OR 11672-2058",
+            "wages_tips_compensation": "247991.79",
+            "federal_tax_withheld": "27937.15"
+          },
+          "cost": 0.00131
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "employee_ssn": "584-28-0451",
+            "employer_address": "24380 Santiago Islands Apt. 365",
+            "wages_tips_compensation": "95425.47",
+            "federal_tax_withheld": "29710.75"
+          },
+          "predicted": {
+            "employee_ssn": "489-13-217",
+            "employer_address": "24380 Santiago Islands Apt. 365, Kristinfort, MO 08500-0948",
+            "wages_tips_compensation": "48050.71",
+            "federal_tax_withheld": "11630.1"
+          },
+          "cost": 0.001365
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "employee_ssn": "411-18-2129",
+            "employer_address": "618 James Lane Suite 894",
+            "wages_tips_compensation": "207340.05",
+            "federal_tax_withheld": "66074.21"
+          },
+          "predicted": {
+            "employee_ssn": "989-53-7726",
+            "employer_address": "618 James Lane Suite 894, West Brian, AL 58125-3767",
+            "wages_tips_compensation": "93588.77",
+            "federal_tax_withheld": "9233.7"
+          },
+          "cost": 0.00134
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "employee_ssn": "195-36-6099",
+            "employer_address": "3395 Dawn Wall Apt. 979",
+            "wages_tips_compensation": "245905.51",
+            "federal_tax_withheld": "58759.73"
+          },
+          "predicted": {
+            "employee_ssn": "129-XX-XXXX",
+            "employer_address": "3395 Dawn Wall Apt. 979, Sharonbury GA 30716-7052",
+            "wages_tips_compensation": "245905.51",
+            "federal_tax_withheld": "34311.14"
+          },
+          "cost": 0.001365
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "employee_ssn": "107-78-4566",
+            "employer_address": "76563 Eric Tunnel",
+            "wages_tips_compensation": "155570.86",
+            "federal_tax_withheld": "31458.66"
+          },
+          "predicted": {
+            "employee_ssn": "53-0924367",
+            "employer_address": "380 Freeman Springs, Port Robert DE 62672-6084",
+            "wages_tips_compensation": "155570.86",
+            "federal_tax_withheld": "31458.66"
+          },
+          "cost": 0.001315
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "employee_ssn": "602-28-4493",
+            "employer_address": "25397 Gates Lodge Suite 902",
+            "wages_tips_compensation": "104341.86",
+            "federal_tax_withheld": "20708.24"
+          },
+          "predicted": {
+            "employee_ssn": "92-9595199",
+            "employer_address": "25397 Gates Lodge Suite 902, Port Aaronsborough, MS 49048-2449",
+            "wages_tips_compensation": "104341.86",
+            "federal_tax_withheld": "20708.24"
+          },
+          "cost": 0.00136
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "employee_ssn": "878-59-8220",
+            "employer_address": "9894 Julie Radial",
+            "wages_tips_compensation": "145518.41",
+            "federal_tax_withheld": "52112.63"
+          },
+          "predicted": {
+            "employee_ssn": "063-40-7159",
+            "employer_address": "9894 Julie Radial, Port Richardshire, NJ 21073-0554",
+            "wages_tips_compensation": "145518.41",
+            "federal_tax_withheld": "52112.63"
+          },
+          "cost": 0.001355
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "employee_ssn": "143-37-6981",
+            "employer_address": "867 Taylor Crossroad",
+            "wages_tips_compensation": "200934.64",
+            "federal_tax_withheld": "24528.84"
+          },
+          "predicted": {
+            "employee_ssn": "581-57-342",
+            "employer_address": "867 Taylor Crossroad, Johnsport IA 00812-2877",
+            "wages_tips_compensation": "109894.82",
+            "federal_tax_withheld": "13281.91"
+          },
+          "cost": 0.00134
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "employee_ssn": "060-56-3810",
+            "employer_address": "060 Rivers Summit",
+            "wages_tips_compensation": "157368.78",
+            "federal_tax_withheld": "36095.25"
+          },
+          "predicted": {
+            "employee_ssn": "123-45-6789",
+            "employer_address": "060 Rivers Summit, Vaguesburg, DC 00999-7291",
+            "wages_tips_compensation": "185481.92",
+            "federal_tax_withheld": "14189.37"
+          },
+          "cost": 0.001335
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "employee_ssn": "721-01-5157",
+            "employer_address": "0938 Payne Islands Apt. 136",
+            "wages_tips_compensation": "236660.72",
+            "federal_tax_withheld": "38997.16"
+          },
+          "predicted": {
+            "employee_ssn": "091-35-7715",
+            "employer_address": "0938 Payne Islands Apt. 136 West Peter NM 39506-0319",
+            "wages_tips_compensation": "236660.72",
+            "federal_tax_withheld": "38997.16"
+          },
+          "cost": 0.001365
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "employee_ssn": "622-54-4606",
+            "employer_address": "306 Barrett Groves",
+            "wages_tips_compensation": "41509.67",
+            "federal_tax_withheld": "12613.89"
+          },
+          "predicted": {
+            "employee_ssn": "659-22-1453",
+            "employer_address": "306 Barrett Groves, Lake Carlstad RS 31532-5000",
+            "wages_tips_compensation": "41509.67",
+            "federal_tax_withheld": "12613.89"
+          },
+          "cost": 0.00134
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "employee_ssn": "536-90-2941",
+            "employer_address": "7106 Valdez Square Suite 393",
+            "wages_tips_compensation": "72188.57",
+            "federal_tax_withheld": "16920.98"
+          },
+          "predicted": {
+            "employee_ssn": "169-72-7184",
+            "employer_address": "7106 Valdez Square Suite 393 Dustinview AR 47941-4374",
+            "wages_tips_compensation": "72188.57",
+            "federal_tax_withheld": "16920.98"
+          },
+          "cost": 0.00136
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "employee_ssn": "715-66-0584",
+            "employer_address": "034 James Dam Suite 486",
+            "wages_tips_compensation": "159323.16",
+            "federal_tax_withheld": "41113.90"
+          },
+          "predicted": {
+            "employee_ssn": "142-89-394",
+            "employer_address": "034 James Dam Suite 486, New Laurieside NJ 33331-5340",
+            "wages_tips_compensation": "85685.01",
+            "federal_tax_withheld": "19721.36"
+          },
+          "cost": 0.00135
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "employee_ssn": "537-53-6591",
+            "employer_address": "94483 Lopez Fields Suite 576",
+            "wages_tips_compensation": "168079.49",
+            "federal_tax_withheld": "26847.42"
+          },
+          "predicted": {
+            "employee_ssn": "770-16-961",
+            "employer_address": "94483 Lopez Fields Suite 576, Port Melinda NM 21007-9232",
+            "wages_tips_compensation": "77487.89",
+            "federal_tax_withheld": "17136.81"
+          },
+          "cost": 0.00135
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "employee_ssn": "423-99-2921",
+            "employer_address": "1902 Judy Ridges",
+            "wages_tips_compensation": "227983.85",
+            "federal_tax_withheld": "49008.09"
+          },
+          "predicted": {
+            "employee_ssn": "053-72-2270",
+            "employer_address": "1902 Judy Ridges, East Jonathan, TN 52729-4666",
+            "wages_tips_compensation": "227983.85",
+            "federal_tax_withheld": "6427.32"
+          },
+          "cost": 0.00135
+        }
+      ]
+    },
+    "gpt4o-mini": {
+      "model_id": "gpt-4o-mini",
+      "scorer_result": {
+        "n_gt": 200,
+        "n_pred": 199,
+        "n_recovered": 66,
+        "n_joint_correct": 66,
+        "n_misbindings": 0,
+        "n_duplicates": 0,
+        "rec_val": 0.33,
+        "cba_cond": 1.0,
+        "acc_joint": 0.33,
+        "delta": 0.0,
+        "precision": 0.331658,
+        "dup_rate": 0.0,
+        "f1_joint": 0.330827
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "employee_ssn": "484-68-9509",
+            "employer_address": "10363 Bond Mountain Suite 802",
+            "wages_tips_compensation": "152652.02",
+            "federal_tax_withheld": "45540.24"
+          },
+          "predicted": {
+            "employee_ssn": "878-63-8600",
+            "employer_address": "10363 Bond Mountain Suite 802, Douglaslchester, MA 39925-2803",
+            "wages_tips_compensation": "180258.52",
+            "federal_tax_withheld": "45540.24"
+          },
+          "cost": 0.0039063
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "employee_ssn": "079-14-0849",
+            "employer_address": "00215 Beth Glens Suite 617",
+            "wages_tips_compensation": "248088.68",
+            "federal_tax_withheld": "64814.26"
+          },
+          "predicted": {
+            "employee_ssn": "700299",
+            "employer_address": "00215 Beth Glens Suite 617 East Lauren NY 48664-4262",
+            "wages_tips_compensation": "248088.68",
+            "federal_tax_withheld": "64814.26"
+          },
+          "cost": 0.0039027
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "employee_ssn": "583-65-5516",
+            "employer_address": "829 Dominique Glens",
+            "wages_tips_compensation": "163883.65",
+            "federal_tax_withheld": "34982.01"
+          },
+          "predicted": {
+            "employee_ssn": "373-62-656",
+            "employer_address": "829 Dominique Glens, Rogerstad MT 67532-6508",
+            "wages_tips_compensation": "122600.48",
+            "federal_tax_withheld": "34892.01"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "employee_ssn": "054-54-9312",
+            "employer_address": "55381 Wood Manor Apt. 716",
+            "wages_tips_compensation": "218486.95",
+            "federal_tax_withheld": "71603.77"
+          },
+          "predicted": {
+            "employee_ssn": "320-39-629",
+            "employer_address": "55381 Wood Manor Apt. 716, Jefferyview IN 61281-4740",
+            "wages_tips_compensation": "218486.95",
+            "federal_tax_withheld": "71603.77"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "employee_ssn": "342-31-7649",
+            "employer_address": "5626 Emily Passage",
+            "wages_tips_compensation": "158778.18",
+            "federal_tax_withheld": "30947.35"
+          },
+          "predicted": {
+            "employee_ssn": "342-31-7649",
+            "employer_address": "Jordan Ltd PLC 5626 Emily Passage Nicoleport OK 77322-0745",
+            "wages_tips_compensation": "158778.18",
+            "federal_tax_withheld": "30947.35"
+          },
+          "cost": 0.0039051
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "employee_ssn": "712-59-0520",
+            "employer_address": "7356 Hancock Mews Suite 182",
+            "wages_tips_compensation": "120409.39",
+            "federal_tax_withheld": "36069.19"
+          },
+          "predicted": {
+            "employee_ssn": "712-59-0520",
+            "employer_address": "7356 Hancock Mews Suite 182",
+            "wages_tips_compensation": "129395.39",
+            "federal_tax_withheld": "91609.29"
+          },
+          "cost": 0.0038997
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "employee_ssn": "150-55-2485",
+            "employer_address": "9531 Ramirez Crossroad",
+            "wages_tips_compensation": "210149.36",
+            "federal_tax_withheld": "35489.74"
+          },
+          "predicted": {
+            "employee_ssn": "150-55-2485",
+            "employer_address": "9531 Ramirez Crossroad, Stephanieton NM 72414-1109",
+            "wages_tips_compensation": "210149.36",
+            "federal_tax_withheld": "35489.74"
+          },
+          "cost": 0.0039051
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "employee_ssn": "688-56-6974",
+            "employer_address": "3530 Katherine Trail",
+            "wages_tips_compensation": "113426.53",
+            "federal_tax_withheld": "41416.00"
+          },
+          "predicted": {
+            "employee_ssn": "177-27-7362",
+            "employer_address": "3530 Katherine Trail, East Edward, MT 04984-3372",
+            "wages_tips_compensation": "147044.99",
+            "federal_tax_withheld": "426.3"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "employee_ssn": "822-87-2371",
+            "employer_address": "926 Kimberly Alley Apt. 961",
+            "wages_tips_compensation": "148120.52",
+            "federal_tax_withheld": "50448.90"
+          },
+          "predicted": {
+            "employee_ssn": "99-8630752",
+            "employer_address": "926 Kimberly Alley Apt. 961 McKeesport PA 98081-1718",
+            "wages_tips_compensation": "148120.52",
+            "federal_tax_withheld": "50448.9"
+          },
+          "cost": 0.0039051
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "employee_ssn": "838-95-1237",
+            "employer_address": "1998 Kaylee Falls",
+            "wages_tips_compensation": "136750.11",
+            "federal_tax_withheld": "15601.90"
+          },
+          "predicted": {
+            "employee_ssn": "838-95-1237",
+            "employer_address": "1998 Kaylee Falls Moonfort OK 85303-8479",
+            "wages_tips_compensation": "157542.24",
+            "federal_tax_withheld": "15601.91"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "employee_ssn": "686-23-7237",
+            "employer_address": "139 Jason Hill",
+            "wages_tips_compensation": "117803.63",
+            "federal_tax_withheld": "41517.38"
+          },
+          "predicted": {
+            "employee_ssn": "67-9511849",
+            "employer_address": "139 Jason Hill\nSarahland AZ 66910-1298",
+            "wages_tips_compensation": "140267.74",
+            "federal_tax_withheld": "126134.1"
+          },
+          "cost": 0.0039021
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "employee_ssn": "662-76-3435",
+            "employer_address": "5627 Allen Curve",
+            "wages_tips_compensation": "101362.84",
+            "federal_tax_withheld": "30492.55"
+          },
+          "predicted": {
+            "employee_ssn": "662-76-3435",
+            "employer_address": "5627 Allen Curve\nLake Toddside WY 12199-7648",
+            "wages_tips_compensation": "101362.84",
+            "federal_tax_withheld": "30492.55"
+          },
+          "cost": 0.0039039
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "employee_ssn": "813-62-1184",
+            "employer_address": "8000 Maurice Street",
+            "wages_tips_compensation": "99608.61",
+            "federal_tax_withheld": "21503.42"
+          },
+          "predicted": {
+            "employee_ssn": "813-62-1184",
+            "employer_address": "8000 Maurice Street\nChristianside SC 68424-9134",
+            "wages_tips_compensation": "99608.61",
+            "federal_tax_withheld": "21503.42"
+          },
+          "cost": 0.0039039
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "employee_ssn": "152-66-1892",
+            "employer_address": "54147 Brandy Islands Suite 097",
+            "wages_tips_compensation": "86879.95",
+            "federal_tax_withheld": "27984.13"
+          },
+          "predicted": {
+            "employee_ssn": "152-66-1892",
+            "employer_address": "54147 Brandy Islands Suite 097 Lake Nancy TX 27269-9614",
+            "wages_tips_compensation": "98853.02",
+            "federal_tax_withheld": "27984.13"
+          },
+          "cost": 0.0039051
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "employee_ssn": "302-97-5825",
+            "employer_address": "5966 Alexander Curve Apt. 509",
+            "wages_tips_compensation": "90684.48",
+            "federal_tax_withheld": "9304.00"
+          },
+          "predicted": {
+            "employee_ssn": "302-97-5825",
+            "employer_address": "5966 Alexander Curve Apt. 509, New Catherinebury WI 16161-2662",
+            "wages_tips_compensation": "109704.34",
+            "federal_tax_withheld": "76761.31"
+          },
+          "cost": 0.0039063
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "employee_ssn": "610-27-6592",
+            "employer_address": "0770 Melissa Manor Suite 764",
+            "wages_tips_compensation": "86259.77",
+            "federal_tax_withheld": "29047.98"
+          },
+          "predicted": {
+            "employee_ssn": "84-4575129",
+            "employer_address": "0770 Melissa Manor Suite 764 North Kelsey OR 64268-6137",
+            "wages_tips_compensation": "109647.41",
+            "federal_tax_withheld": "10631.68"
+          },
+          "cost": 0.0039045
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "employee_ssn": "498-71-2917",
+            "employer_address": "59004 Obrien Haven",
+            "wages_tips_compensation": "60834.74",
+            "federal_tax_withheld": "21288.46"
+          },
+          "predicted": {
+            "employee_ssn": "621-68-7777",
+            "employer_address": "59004 Obrien Haven\nNew Maribury PA 24739-3330",
+            "wages_tips_compensation": "60834.74",
+            "federal_tax_withheld": "21288.46"
+          },
+          "cost": 0.0039051
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "employee_ssn": "852-14-0412",
+            "employer_address": "31432 Collins Lane Suite 877",
+            "wages_tips_compensation": "213063.63",
+            "federal_tax_withheld": "57633.41"
+          },
+          "predicted": {
+            "employee_ssn": "35-4799316",
+            "employer_address": "31432 Collins Lane Suite 877 East Brandonberg VT 37565-0913",
+            "wages_tips_compensation": "209493.73",
+            "federal_tax_withheld": "160276.37"
+          },
+          "cost": 0.0039021
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "employee_ssn": "751-88-6978",
+            "employer_address": "042 Smith Cape",
+            "wages_tips_compensation": "151146.76",
+            "federal_tax_withheld": "23327.70"
+          },
+          "predicted": {
+            "employee_ssn": "751-88-6978",
+            "employer_address": "042 Smith Cape Masseyfurt AR 22303-6240",
+            "wages_tips_compensation": "182868.69",
+            "federal_tax_withheld": "13989.45"
+          },
+          "cost": 0.0039003
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "employee_ssn": "219-05-9508",
+            "employer_address": "601 Patel Mountain",
+            "wages_tips_compensation": "183073.45",
+            "federal_tax_withheld": "58714.69"
+          },
+          "predicted": {
+            "employee_ssn": "160-70-0900",
+            "employer_address": "601 Patel Mountain\nWest Mary SC 56076-8633",
+            "wages_tips_compensation": "180373.45",
+            "federal_tax_withheld": "58714.69"
+          },
+          "cost": 0.0039027
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "employee_ssn": "144-45-5742",
+            "employer_address": "13200 Candice Mills Apt. 272",
+            "wages_tips_compensation": "191151.46",
+            "federal_tax_withheld": "37546.86"
+          },
+          "predicted": {
+            "employee_ssn": "5966644",
+            "employer_address": "13200 Candice Mills Apt. 272 Dodsonberg AZ 22471-8401",
+            "wages_tips_compensation": "191151.46",
+            "federal_tax_withheld": "37546.86"
+          },
+          "cost": 0.0039045
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "employee_ssn": "888-91-2527",
+            "employer_address": "24405 Li Station Apt. 579",
+            "wages_tips_compensation": "125200.75",
+            "federal_tax_withheld": "15755.30"
+          },
+          "predicted": {
+            "employee_ssn": "888-91-2527",
+            "employer_address": "24045 I1 Station Apt. 579 East Ryanbury MO 41737-0648",
+            "wages_tips_compensation": "152500.75",
+            "federal_tax_withheld": "15755.3"
+          },
+          "cost": 0.0039063
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "employee_ssn": "061-74-3844",
+            "employer_address": "68729 Sloan Junction Suite 353",
+            "wages_tips_compensation": "205321.46",
+            "federal_tax_withheld": "42333.53"
+          },
+          "predicted": {
+            "employee_ssn": "190-06625",
+            "employer_address": "68729 Sloan Junction Suite 353 Perzefurt AR 94828-5236",
+            "wages_tips_compensation": "205321.46",
+            "federal_tax_withheld": "42333.53"
+          },
+          "cost": 0.0039039
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "employee_ssn": "832-29-2067",
+            "employer_address": "1836 Shawn Flats",
+            "wages_tips_compensation": "216194.29",
+            "federal_tax_withheld": "41302.85"
+          },
+          "predicted": {
+            "employee_ssn": "832-29-2067",
+            "employer_address": "1836 Shawn Flats, Lake Erin TX 84236-0383",
+            "wages_tips_compensation": "241853.2",
+            "federal_tax_withheld": "12113.04"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "employee_ssn": "504-83-9590",
+            "employer_address": "61460 Kim Hollow",
+            "wages_tips_compensation": "78313.32",
+            "federal_tax_withheld": "18438.38"
+          },
+          "predicted": {
+            "employee_ssn": "504-83-9590",
+            "employer_address": "61460 Kim Hollow, Haystead IA 70888-7543",
+            "wages_tips_compensation": "78313.32",
+            "federal_tax_withheld": "18438.38"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "employee_ssn": "457-50-9546",
+            "employer_address": "6222 Caitlyn Villages",
+            "wages_tips_compensation": "105726.15",
+            "federal_tax_withheld": "10903.81"
+          },
+          "predicted": {
+            "employee_ssn": "457-50-9546",
+            "employer_address": "6222 Caitlyn Villages\nDuarteaside AR 34812-5208",
+            "wages_tips_compensation": "122392.42",
+            "federal_tax_withheld": "128984.48"
+          },
+          "cost": 0.0039057
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "employee_ssn": "070-82-9963",
+            "employer_address": "2395 Joshua Center Apt. 267",
+            "wages_tips_compensation": "175527.76",
+            "federal_tax_withheld": "39400.69"
+          },
+          "predicted": {
+            "employee_ssn": "070-82-9963",
+            "employer_address": "2395 Joshua Center Apt. 267 Bryantsport VT 37884-9210",
+            "wages_tips_compensation": "208658.82",
+            "federal_tax_withheld": "17339.4"
+          },
+          "cost": 0.0039057
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "employee_ssn": "168-52-9821",
+            "employer_address": "337 Ashley Radial",
+            "wages_tips_compensation": "205138.02",
+            "federal_tax_withheld": "31689.11"
+          },
+          "predicted": {
+            "employee_ssn": "625-35-237",
+            "employer_address": "337 Ashley Radial\nWest Nicholas NE 76815-7641",
+            "wages_tips_compensation": "102469.82",
+            "federal_tax_withheld": "31635.23"
+          },
+          "cost": 0.0039027
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "employee_ssn": "018-56-0380",
+            "employer_address": "87636 John Inlet",
+            "wages_tips_compensation": "239891.84",
+            "federal_tax_withheld": "61983.56"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "87636 John Inlet, Nelsonberg NH 31663-6143",
+            "wages_tips_compensation": "256966.99",
+            "federal_tax_withheld": "40437.64"
+          },
+          "cost": 0.0039015
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "employee_ssn": "622-95-4526",
+            "employer_address": "7447 Munoz Common Suite 599",
+            "wages_tips_compensation": "237798.02",
+            "federal_tax_withheld": "25059.09"
+          },
+          "predicted": {
+            "employee_ssn": "622-95-4526",
+            "employer_address": "7447 Munor Common Suite 599 Jessicashire VA 84107-3723",
+            "wages_tips_compensation": "200606.27",
+            "federal_tax_withheld": "277862.75"
+          },
+          "cost": 0.0039057
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "employee_ssn": "499-03-3699",
+            "employer_address": "443 Davis Ports Suite 323",
+            "wages_tips_compensation": "232714.80",
+            "federal_tax_withheld": "82590.56"
+          },
+          "predicted": {
+            "employee_ssn": "277425",
+            "employer_address": "443 Davis Ports Suite 323\nBellton MI 60757-9824",
+            "wages_tips_compensation": "259433.47",
+            "federal_tax_withheld": "23823.99"
+          },
+          "cost": 0.0039021
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "employee_ssn": "310-59-7229",
+            "employer_address": "6477 Hernandez Groves Suite 414",
+            "wages_tips_compensation": "155002.26",
+            "federal_tax_withheld": "40436.77"
+          },
+          "predicted": {
+            "employee_ssn": "310-59-7229",
+            "employer_address": "6477 Hernandez Groves Suite 414, Port Racheville MT 31400-6736",
+            "wages_tips_compensation": "130453.28",
+            "federal_tax_withheld": "155780.0"
+          },
+          "cost": 0.0039069
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "employee_ssn": "402-49-8899",
+            "employer_address": "20343 Arnold Island Suite 722",
+            "wages_tips_compensation": "45937.66",
+            "federal_tax_withheld": "5952.67"
+          },
+          "predicted": {
+            "employee_ssn": "402-49-8899",
+            "employer_address": "20343 Arnold Island Suite 722 Loganhaven PA 63096-3906",
+            "wages_tips_compensation": "53017.68",
+            "federal_tax_withheld": "46984.14"
+          },
+          "cost": 0.0039045
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "employee_ssn": "726-65-2584",
+            "employer_address": "0041 Joe Ferry",
+            "wages_tips_compensation": "213494.91",
+            "federal_tax_withheld": "56818.46"
+          },
+          "predicted": {
+            "employee_ssn": "463-76-0500",
+            "employer_address": "0014 Joe Ferry\nWilliamsmouth PA 08000-0494",
+            "wages_tips_compensation": "213494.91",
+            "federal_tax_withheld": "56816.46"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "employee_ssn": "110-21-8247",
+            "employer_address": "56100 Tammy Summit Apt. 527",
+            "wages_tips_compensation": "195668.90",
+            "federal_tax_withheld": "64335.66"
+          },
+          "predicted": {
+            "employee_ssn": "666-66-0670",
+            "employer_address": "56100 Tammy Summit Apt. 527, Lake Christina KY 63641-5763",
+            "wages_tips_compensation": "195668.9",
+            "federal_tax_withheld": "64335.66"
+          },
+          "cost": 0.0039057
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "employee_ssn": "697-06-5725",
+            "employer_address": "880 Parker Mills",
+            "wages_tips_compensation": "230036.11",
+            "federal_tax_withheld": "31887.93"
+          },
+          "predicted": {
+            "employee_ssn": "697-06-5725",
+            "employer_address": "880 Parker Mills\nWoodville OR 11672-2058",
+            "wages_tips_compensation": "247991.79",
+            "federal_tax_withheld": "18971.37"
+          },
+          "cost": 0.0039027
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "employee_ssn": "584-28-0451",
+            "employer_address": "24380 Santiago Islands Apt. 365",
+            "wages_tips_compensation": "95425.47",
+            "federal_tax_withheld": "29710.75"
+          },
+          "predicted": {
+            "employee_ssn": "06-9379362",
+            "employer_address": "24380 Santiago Islands Apt. 365 Kristinfort MO 08500-0948",
+            "wages_tips_compensation": "104454.76",
+            "federal_tax_withheld": "29170.75"
+          },
+          "cost": 0.0039045
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "employee_ssn": "411-18-2129",
+            "employer_address": "618 James Lane Suite 894",
+            "wages_tips_compensation": "207340.05",
+            "federal_tax_withheld": "66074.21"
+          },
+          "predicted": {
+            "employee_ssn": "411-18-2129",
+            "employer_address": "618 James Lane Suite 894 West Brian AL 58125-3767",
+            "wages_tips_compensation": "207340.05",
+            "federal_tax_withheld": "66074.21"
+          },
+          "cost": 0.0039039
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "employee_ssn": "195-36-6099",
+            "employer_address": "3395 Dawn Wall Apt. 979",
+            "wages_tips_compensation": "245905.51",
+            "federal_tax_withheld": "58759.73"
+          },
+          "predicted": {
+            "employee_ssn": "195-36-6099",
+            "employer_address": "3395 Dawn Wall Apt. 979\nSharonburg GA 30716-7052",
+            "wages_tips_compensation": "202968.51",
+            "federal_tax_withheld": "5879.73"
+          },
+          "cost": 0.0039063
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "employee_ssn": "107-78-4566",
+            "employer_address": "76563 Eric Tunnel",
+            "wages_tips_compensation": "155570.86",
+            "federal_tax_withheld": "31458.66"
+          },
+          "predicted": {
+            "employee_ssn": "107-78-4566",
+            "employer_address": "76563 Eric Tunnel, Lucasmouth TN 61576-0594",
+            "wages_tips_compensation": "15570.86",
+            "federal_tax_withheld": "31458.66"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "employee_ssn": "602-28-4493",
+            "employer_address": "25397 Gates Lodge Suite 902",
+            "wages_tips_compensation": "104341.86",
+            "federal_tax_withheld": "20708.24"
+          },
+          "predicted": {
+            "employee_ssn": "92-9595199",
+            "employer_address": "25397 Gates Lodge Suite 902 Port Aaronborough MS 49048-2449",
+            "wages_tips_compensation": "120395.38",
+            "federal_tax_withheld": "97353.63"
+          },
+          "cost": 0.0039045
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "employee_ssn": "878-59-8220",
+            "employer_address": "9894 Julie Radial",
+            "wages_tips_compensation": "145518.41",
+            "federal_tax_withheld": "52112.63"
+          },
+          "predicted": {
+            "employee_ssn": "878-59-8220",
+            "employer_address": "9894 Julie Radial, Port Richardshire NJ 21073-0554",
+            "wages_tips_compensation": "128763.85",
+            "federal_tax_withheld": "5211.63"
+          },
+          "cost": 0.0039045
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "employee_ssn": "143-37-6981",
+            "employer_address": "867 Taylor Crossroad",
+            "wages_tips_compensation": "200934.64",
+            "federal_tax_withheld": "24528.84"
+          },
+          "predicted": {
+            "employee_ssn": "143-37-6981",
+            "employer_address": "867 Taylor Crossroad Johnsonsport IA 00812-2877",
+            "wages_tips_compensation": "239146.52",
+            "federal_tax_withheld": "192339.39"
+          },
+          "cost": 0.0039027
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "employee_ssn": "060-56-3810",
+            "employer_address": "060 Rivers Summit",
+            "wages_tips_compensation": "157368.78",
+            "federal_tax_withheld": "36095.25"
+          },
+          "predicted": {
+            "employee_ssn": "060-56-3810",
+            "employer_address": "060 Rivers Summit\nVazquezbury DC 00999-7291",
+            "wages_tips_compensation": "185481.92",
+            "federal_tax_withheld": "142238.75"
+          },
+          "cost": 0.0039045
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "employee_ssn": "721-01-5157",
+            "employer_address": "0938 Payne Islands Apt. 136",
+            "wages_tips_compensation": "236660.72",
+            "federal_tax_withheld": "38997.16"
+          },
+          "predicted": {
+            "employee_ssn": "721-01-5157",
+            "employer_address": "0938 Payne Islands Apt. 136 West Peter NM 39506-0319",
+            "wages_tips_compensation": "221303.74",
+            "federal_tax_withheld": "6417.81"
+          },
+          "cost": 0.0039051
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "employee_ssn": "622-54-4606",
+            "employer_address": "306 Barrett Groves",
+            "wages_tips_compensation": "41509.67",
+            "federal_tax_withheld": "12613.89"
+          },
+          "predicted": {
+            "employee_ssn": "45-1235834",
+            "employer_address": "306 Barrett Groves\nLake Carlstad KS 31532-5000",
+            "wages_tips_compensation": "28997.83",
+            "federal_tax_withheld": "7021.7"
+          },
+          "cost": 0.0039033
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "employee_ssn": "536-90-2941",
+            "employer_address": "7106 Valdez Square Suite 393",
+            "wages_tips_compensation": "72188.57",
+            "federal_tax_withheld": "16920.98"
+          },
+          "predicted": {
+            "employee_ssn": "536-90-2941",
+            "employer_address": "7106 Valdez Square Suite 393\nDustinview AR 47941-4374",
+            "wages_tips_compensation": "72188.57",
+            "federal_tax_withheld": "16920.98"
+          },
+          "cost": 0.0039063
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "employee_ssn": "715-66-0584",
+            "employer_address": "034 James Dam Suite 486",
+            "wages_tips_compensation": "159323.16",
+            "federal_tax_withheld": "41113.90"
+          },
+          "predicted": {
+            "employee_ssn": "715-66-0584",
+            "employer_address": "034 James Dam Suite 486 New Laurieside NJ 33331-5340",
+            "wages_tips_compensation": "183655.62",
+            "federal_tax_withheld": "4111.9"
+          },
+          "cost": 0.0039051
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "employee_ssn": "537-53-6591",
+            "employer_address": "94483 Lopez Fields Suite 576",
+            "wages_tips_compensation": "168079.49",
+            "federal_tax_withheld": "26847.42"
+          },
+          "predicted": {
+            "employee_ssn": "537-53-6591",
+            "employer_address": "94483 Lopez Fields Suite 576\nPort Melinda NM 21007-9232",
+            "wages_tips_compensation": "217625.93",
+            "federal_tax_withheld": "128313.85"
+          },
+          "cost": 0.0039057
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "employee_ssn": "423-99-2921",
+            "employer_address": "1902 Judy Ridges",
+            "wages_tips_compensation": "227983.85",
+            "federal_tax_withheld": "49008.09"
+          },
+          "predicted": {
+            "employee_ssn": "423-99-2921",
+            "employer_address": "1902 Judy Ridges, East Jonathon, TN 52729-4666",
+            "wages_tips_compensation": "227983.85",
+            "federal_tax_withheld": "49008.09"
+          },
+          "cost": 0.0039051
+        }
+      ]
+    }
+  },
+  "summary": {
+    "haiku": {
+      "n_gt": 200,
+      "n_pred": 193,
+      "n_recovered": 45,
+      "n_joint_correct": 42,
+      "n_misbindings": 3,
+      "n_duplicates": 0,
+      "rec_val": 0.225,
+      "cba_cond": 0.933333,
+      "acc_joint": 0.21,
+      "delta": 0.015,
+      "precision": 0.217617,
+      "dup_rate": 0.0,
+      "f1_joint": 0.21374
+    },
+    "gpt4o-mini": {
+      "n_gt": 200,
+      "n_pred": 199,
+      "n_recovered": 66,
+      "n_joint_correct": 66,
+      "n_misbindings": 0,
+      "n_duplicates": 0,
+      "rec_val": 0.33,
+      "cba_cond": 1.0,
+      "acc_joint": 0.33,
+      "delta": 0.0,
+      "precision": 0.331658,
+      "dup_rate": 0.0,
+      "f1_joint": 0.330827
+    }
+  }
+}

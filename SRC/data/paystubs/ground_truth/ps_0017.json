@@ -1,0 +1,360 @@
+{
+  "paystub_id": "ps_0017",
+  "image_file": "ps_0017.png",
+  "layout_template": "two_column",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 246,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 92,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Charlotte, NC 28201",
+      "display_value": "Charlotte, NC 28201",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 91,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Melissa J. Thomas",
+      "display_value": "Melissa J. Thomas",
+      "field_position": {
+        "x": 150,
+        "y": 106,
+        "width": 115,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "925622",
+      "display_value": "925622",
+      "field_position": {
+        "x": 105,
+        "y": 126,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-2771",
+      "display_value": "***-**-2771",
+      "field_position": {
+        "x": 152,
+        "y": 146,
+        "width": 67,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 149,
+        "y": 166,
+        "width": 139,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 141,
+        "y": 186,
+        "width": 105,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "08/02/2024",
+      "display_value": "08/02/2024",
+      "field_position": {
+        "x": 113,
+        "y": 211,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "07/15/2024",
+      "display_value": "07/15/2024",
+      "field_position": {
+        "x": 342,
+        "y": 211,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "07/28/2024",
+      "display_value": "07/28/2024",
+      "field_position": {
+        "x": 472,
+        "y": 211,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 705,
+        "y": 211,
+        "width": 49,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$2,210.28",
+      "display_value": "$2,210.28",
+      "field_position": {
+        "x": 346,
+        "y": 266,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$242.60",
+      "display_value": "$242.60",
+      "field_position": {
+        "x": 353,
+        "y": 286,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,452.88",
+      "display_value": "$2,452.88",
+      "field_position": {
+        "x": 344,
+        "y": 306,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$36,793.20",
+      "display_value": "$36,793.20",
+      "field_position": {
+        "x": 337,
+        "y": 326,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$302.13",
+      "display_value": "$302.13",
+      "field_position": {
+        "x": 756,
+        "y": 266,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$121.90",
+      "display_value": "$121.90",
+      "field_position": {
+        "x": 757,
+        "y": 286,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$152.08",
+      "display_value": "$152.08",
+      "field_position": {
+        "x": 756,
+        "y": 306,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$35.57",
+      "display_value": "$35.57",
+      "field_position": {
+        "x": 762,
+        "y": 326,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$611.68",
+      "display_value": "$611.68",
+      "field_position": {
+        "x": 757,
+        "y": 346,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$9,175.20",
+      "display_value": "$9,175.20",
+      "field_position": {
+        "x": 746,
+        "y": 366,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,452.88",
+      "display_value": "$2,452.88",
+      "field_position": {
+        "x": 50,
+        "y": 456,
+        "width": 95,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$611.68",
+      "display_value": "$611.68",
+      "field_position": {
+        "x": 310,
+        "y": 456,
+        "width": 72,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,841.20",
+      "display_value": "$1,841.20",
+      "field_position": {
+        "x": 570,
+        "y": 456,
+        "width": 89,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Melissa J. Thomas",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "925622",
+    "ssn_last4": "***-**-2771",
+    "employee_address": "111 Industrial Parkway",
+    "employee_city_state_zip": "Chicago, IL 60601",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Charlotte, NC 28201",
+    "pay_date": "08/02/2024",
+    "pay_period_start": "07/15/2024",
+    "pay_period_end": "07/28/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2210.28",
+    "gross_pay_current": "2452.88",
+    "net_pay_current": "1841.20",
+    "gross_pay_ytd": "36793.20",
+    "net_pay_ytd": "27618.00",
+    "total_deductions_current": "611.68",
+    "federal_tax_withheld": "302.13",
+    "state_tax_withheld": "121.90",
+    "social_security_tax": "152.08",
+    "medicare_tax": "35.57",
+    "total_deductions_ytd": "9175.20",
+    "bonus_current": "242.60"
+  }
+}

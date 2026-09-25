@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0008",
+  "image_file": "ps_0008.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Ironworks Engineering Ltd.",
+      "display_value": "Ironworks Engineering Ltd.",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 260,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 70,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 83,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "John A. Perez",
+      "display_value": "John A. Perez",
+      "field_position": {
+        "x": 155,
+        "y": 113,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "680828",
+      "display_value": "680828",
+      "field_position": {
+        "x": 101,
+        "y": 133,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-4770",
+      "display_value": "***-**-4770",
+      "field_position": {
+        "x": 124,
+        "y": 153,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 79,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Charlotte, NC 28201",
+      "display_value": "Charlotte, NC 28201",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 89,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "04/17/2024",
+      "display_value": "04/17/2024",
+      "field_position": {
+        "x": 94,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "04/08/2024",
+      "display_value": "04/08/2024",
+      "field_position": {
+        "x": 308,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "04/14/2024",
+      "display_value": "04/14/2024",
+      "field_position": {
+        "x": 517,
+        "y": 211,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 715,
+        "y": 211,
+        "width": 32,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$2,144.00",
+      "display_value": "$2,144.00",
+      "field_position": {
+        "x": 743,
+        "y": 271,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$628.41",
+      "display_value": "$628.41",
+      "field_position": {
+        "x": 753,
+        "y": 291,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,772.41",
+      "display_value": "$2,772.41",
+      "field_position": {
+        "x": 743,
+        "y": 316,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$41,586.15",
+      "display_value": "$41,586.15",
+      "field_position": {
+        "x": 736,
+        "y": 336,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$499.80",
+      "display_value": "$499.80",
+      "field_position": {
+        "x": 753,
+        "y": 401,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$118.81",
+      "display_value": "$118.81",
+      "field_position": {
+        "x": 753,
+        "y": 421,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$171.89",
+      "display_value": "$171.89",
+      "field_position": {
+        "x": 753,
+        "y": 441,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$40.20",
+      "display_value": "$40.20",
+      "field_position": {
+        "x": 760,
+        "y": 461,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$264.73",
+      "display_value": "$264.73",
+      "field_position": {
+        "x": 753,
+        "y": 481,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$207.62",
+      "display_value": "$207.62",
+      "field_position": {
+        "x": 753,
+        "y": 501,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,303.05",
+      "display_value": "$1,303.05",
+      "field_position": {
+        "x": 743,
+        "y": 521,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$19,545.75",
+      "display_value": "$19,545.75",
+      "field_position": {
+        "x": 736,
+        "y": 541,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,469.36",
+      "display_value": "$1,469.36",
+      "field_position": {
+        "x": 50,
+        "y": 602,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$22,040.40",
+      "display_value": "$22,040.40",
+      "field_position": {
+        "x": 50,
+        "y": 638,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "John A. Perez",
+    "employer_name": "Ironworks Engineering Ltd.",
+    "employee_id": "680828",
+    "ssn_last4": "***-**-4770",
+    "employee_address": "777 Market Street",
+    "employee_city_state_zip": "Charlotte, NC 28201",
+    "employer_address": "123 Main Street",
+    "employer_city_state_zip": "Phoenix, AZ 85001",
+    "pay_date": "04/17/2024",
+    "pay_period_start": "04/08/2024",
+    "pay_period_end": "04/14/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "2144.00",
+    "gross_pay_current": "2772.41",
+    "net_pay_current": "1469.36",
+    "gross_pay_ytd": "41586.15",
+    "net_pay_ytd": "22040.40",
+    "total_deductions_current": "1303.05",
+    "federal_tax_withheld": "499.80",
+    "state_tax_withheld": "118.81",
+    "social_security_tax": "171.89",
+    "medicare_tax": "40.20",
+    "total_deductions_ytd": "19545.75",
+    "bonus_current": "628.41",
+    "retirement_401k": "264.73",
+    "health_insurance": "207.62"
+  }
+}

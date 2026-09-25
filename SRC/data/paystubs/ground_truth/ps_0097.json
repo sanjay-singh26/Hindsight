@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0097",
+  "image_file": "ps_0097.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Pinnacle Staffing Agency",
+      "display_value": "Pinnacle Staffing Agency",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 244,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 99,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Nashville, TN 37201",
+      "display_value": "Nashville, TN 37201",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 115,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Charles A. Thomas",
+      "display_value": "Charles A. Thomas",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 185,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "502206",
+      "display_value": "502206",
+      "field_position": {
+        "x": 98,
+        "y": 170,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-4858",
+      "display_value": "***-**-4858",
+      "field_position": {
+        "x": 79,
+        "y": 190,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 125,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 105,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "05/03/2024",
+      "display_value": "05/03/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "04/22/2024",
+      "display_value": "04/22/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "04/28/2024",
+      "display_value": "04/28/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$1,775.95",
+      "display_value": "$1,775.95",
+      "field_position": {
+        "x": 743,
+        "y": 336,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$182.76",
+      "display_value": "$182.76",
+      "field_position": {
+        "x": 753,
+        "y": 356,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$929.75",
+      "display_value": "$929.75",
+      "field_position": {
+        "x": 753,
+        "y": 376,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$2,888.46",
+      "display_value": "$2,888.46",
+      "field_position": {
+        "x": 743,
+        "y": 396,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$49,103.82",
+      "display_value": "$49,103.82",
+      "field_position": {
+        "x": 736,
+        "y": 416,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$463.03",
+      "display_value": "$463.03",
+      "field_position": {
+        "x": 753,
+        "y": 473,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$241.78",
+      "display_value": "$241.78",
+      "field_position": {
+        "x": 753,
+        "y": 493,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$179.08",
+      "display_value": "$179.08",
+      "field_position": {
+        "x": 753,
+        "y": 513,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$41.88",
+      "display_value": "$41.88",
+      "field_position": {
+        "x": 760,
+        "y": 533,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$111.70",
+      "display_value": "$111.70",
+      "field_position": {
+        "x": 753,
+        "y": 553,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,037.47",
+      "display_value": "$1,037.47",
+      "field_position": {
+        "x": 743,
+        "y": 573,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$17,636.99",
+      "display_value": "$17,636.99",
+      "field_position": {
+        "x": 736,
+        "y": 593,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,850.99",
+      "display_value": "$1,850.99",
+      "field_position": {
+        "x": 50,
+        "y": 666,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$31,466.83",
+      "display_value": "$31,466.83",
+      "field_position": {
+        "x": 50,
+        "y": 702,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Charles A. Thomas",
+    "employer_name": "Pinnacle Staffing Agency",
+    "employee_id": "502206",
+    "ssn_last4": "***-**-4858",
+    "employee_address": "333 Technology Drive",
+    "employee_city_state_zip": "Seattle, WA 98101",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Nashville, TN 37201",
+    "pay_date": "05/03/2024",
+    "pay_period_start": "04/22/2024",
+    "pay_period_end": "04/28/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1775.95",
+    "gross_pay_current": "2888.46",
+    "net_pay_current": "1850.99",
+    "gross_pay_ytd": "49103.82",
+    "net_pay_ytd": "31466.83",
+    "total_deductions_current": "1037.47",
+    "federal_tax_withheld": "463.03",
+    "state_tax_withheld": "241.78",
+    "social_security_tax": "179.08",
+    "medicare_tax": "41.88",
+    "total_deductions_ytd": "17636.99",
+    "overtime_pay_current": "182.76",
+    "bonus_current": "929.75",
+    "health_insurance": "111.70"
+  }
+}

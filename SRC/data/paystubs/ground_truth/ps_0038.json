@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0038",
+  "image_file": "ps_0038.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "phone_photo",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Trident Security Services",
+      "display_value": "Trident Security Services",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 262,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 73,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Philadelphia, PA 19101",
+      "display_value": "Philadelphia, PA 19101",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 103,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Mark B. Garcia",
+      "display_value": "Mark B. Garcia",
+      "field_position": {
+        "x": 97,
+        "y": 113,
+        "width": 91,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "553014",
+      "display_value": "553014",
+      "field_position": {
+        "x": 105,
+        "y": 133,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-6280",
+      "display_value": "***-**-6280",
+      "field_position": {
+        "x": 126,
+        "y": 153,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 79,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "San Francisco, CA 94101",
+      "display_value": "San Francisco, CA 94101",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "11/10/2024",
+      "display_value": "11/10/2024",
+      "field_position": {
+        "x": 120,
+        "y": 211,
+        "width": 49,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "10/21/2024",
+      "display_value": "10/21/2024",
+      "field_position": {
+        "x": 310,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "11/03/2024",
+      "display_value": "11/03/2024",
+      "field_position": {
+        "x": 497,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 718,
+        "y": 211,
+        "width": 49,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$3,186.19",
+      "display_value": "$3,186.19",
+      "field_position": {
+        "x": 748,
+        "y": 271,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$635.33",
+      "display_value": "$635.33",
+      "field_position": {
+        "x": 755,
+        "y": 291,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$3,821.52",
+      "display_value": "$3,821.52",
+      "field_position": {
+        "x": 747,
+        "y": 316,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$84,073.44",
+      "display_value": "$84,073.44",
+      "field_position": {
+        "x": 735,
+        "y": 336,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$646.41",
+      "display_value": "$646.41",
+      "field_position": {
+        "x": 755,
+        "y": 401,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$289.62",
+      "display_value": "$289.62",
+      "field_position": {
+        "x": 754,
+        "y": 421,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$236.93",
+      "display_value": "$236.93",
+      "field_position": {
+        "x": 754,
+        "y": 441,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$55.41",
+      "display_value": "$55.41",
+      "field_position": {
+        "x": 763,
+        "y": 461,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$253.47",
+      "display_value": "$253.47",
+      "field_position": {
+        "x": 754,
+        "y": 481,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$155.10",
+      "display_value": "$155.10",
+      "field_position": {
+        "x": 758,
+        "y": 501,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,636.94",
+      "display_value": "$1,636.94",
+      "field_position": {
+        "x": 745,
+        "y": 521,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$36,012.68",
+      "display_value": "$36,012.68",
+      "field_position": {
+        "x": 739,
+        "y": 541,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$2,184.58",
+      "display_value": "$2,184.58",
+      "field_position": {
+        "x": 50,
+        "y": 602,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$48,060.76",
+      "display_value": "$48,060.76",
+      "field_position": {
+        "x": 50,
+        "y": 638,
+        "width": 108,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Mark B. Garcia",
+    "employer_name": "Trident Security Services",
+    "employee_id": "553014",
+    "ssn_last4": "***-**-6280",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "San Francisco, CA 94101",
+    "employer_address": "123 Main Street",
+    "employer_city_state_zip": "Philadelphia, PA 19101",
+    "pay_date": "11/10/2024",
+    "pay_period_start": "10/21/2024",
+    "pay_period_end": "11/03/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "3186.19",
+    "gross_pay_current": "3821.52",
+    "net_pay_current": "2184.58",
+    "gross_pay_ytd": "84073.44",
+    "net_pay_ytd": "48060.76",
+    "total_deductions_current": "1636.94",
+    "federal_tax_withheld": "646.41",
+    "state_tax_withheld": "289.62",
+    "social_security_tax": "236.93",
+    "medicare_tax": "55.41",
+    "total_deductions_ytd": "36012.68",
+    "overtime_pay_current": "635.33",
+    "retirement_401k": "253.47",
+    "health_insurance": "155.10"
+  }
+}

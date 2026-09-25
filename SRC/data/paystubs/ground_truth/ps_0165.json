@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0165",
+  "image_file": "ps_0165.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "phone_photo",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Continental Freight Lines",
+      "display_value": "Continental Freight Lines",
+      "field_position": {
+        "x": 297,
+        "y": 40,
+        "width": 255,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 388,
+        "y": 75,
+        "width": 73,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Fort Worth, TX 76101",
+      "display_value": "Fort Worth, TX 76101",
+      "field_position": {
+        "x": 376,
+        "y": 89,
+        "width": 98,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "John T. Martin",
+      "display_value": "John T. Martin",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 87,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "242239",
+      "display_value": "242239",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-9589",
+      "display_value": "***-**-9589",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 109,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "New York, NY 10001",
+      "display_value": "New York, NY 10001",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 122,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,268.32",
+      "display_value": "$1,268.32",
+      "field_position": {
+        "x": 341,
+        "y": 360,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$352.26",
+      "display_value": "$352.26",
+      "field_position": {
+        "x": 352,
+        "y": 380,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$863.03",
+      "display_value": "$863.03",
+      "field_position": {
+        "x": 352,
+        "y": 400,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$2,483.61",
+      "display_value": "$2,483.61",
+      "field_position": {
+        "x": 341,
+        "y": 420,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$4,967.22",
+      "display_value": "$4,967.22",
+      "field_position": {
+        "x": 341,
+        "y": 440,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$386.71",
+      "display_value": "$386.71",
+      "field_position": {
+        "x": 752,
+        "y": 360,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$133.66",
+      "display_value": "$133.66",
+      "field_position": {
+        "x": 752,
+        "y": 380,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$153.98",
+      "display_value": "$153.98",
+      "field_position": {
+        "x": 752,
+        "y": 400,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$36.01",
+      "display_value": "$36.01",
+      "field_position": {
+        "x": 759,
+        "y": 420,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$145.32",
+      "display_value": "$145.32",
+      "field_position": {
+        "x": 752,
+        "y": 440,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$855.68",
+      "display_value": "$855.68",
+      "field_position": {
+        "x": 752,
+        "y": 460,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$1,711.36",
+      "display_value": "$1,711.36",
+      "field_position": {
+        "x": 741,
+        "y": 480,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,627.93",
+      "display_value": "$1,627.93",
+      "field_position": {
+        "x": 50,
+        "y": 551,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$3,255.86",
+      "display_value": "$3,255.86",
+      "field_position": {
+        "x": 350,
+        "y": 587,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "02/01/2024",
+      "display_value": "02/01/2024",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "01/15/2024",
+      "display_value": "01/15/2024",
+      "field_position": {
+        "x": 240,
+        "y": 640,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "01/28/2024",
+      "display_value": "01/28/2024",
+      "field_position": {
+        "x": 430,
+        "y": 640,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 640,
+        "width": 46,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "John T. Martin",
+    "employer_name": "Continental Freight Lines",
+    "employee_id": "242239",
+    "ssn_last4": "***-**-9589",
+    "employee_address": "777 Market Street",
+    "employee_city_state_zip": "New York, NY 10001",
+    "employer_address": "987 Cedar Lane",
+    "employer_city_state_zip": "Fort Worth, TX 76101",
+    "pay_date": "02/01/2024",
+    "pay_period_start": "01/15/2024",
+    "pay_period_end": "01/28/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1268.32",
+    "gross_pay_current": "2483.61",
+    "net_pay_current": "1627.93",
+    "gross_pay_ytd": "4967.22",
+    "net_pay_ytd": "3255.86",
+    "total_deductions_current": "855.68",
+    "federal_tax_withheld": "386.71",
+    "state_tax_withheld": "133.66",
+    "social_security_tax": "153.98",
+    "medicare_tax": "36.01",
+    "total_deductions_ytd": "1711.36",
+    "overtime_pay_current": "352.26",
+    "bonus_current": "863.03",
+    "health_insurance": "145.32"
+  }
+}

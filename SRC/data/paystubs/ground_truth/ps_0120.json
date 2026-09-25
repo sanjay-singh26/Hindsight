@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0120",
+  "image_file": "ps_0120.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Greenfield Agriculture Inc.",
+      "display_value": "Greenfield Agriculture Inc.",
+      "field_position": {
+        "x": 288,
+        "y": 40,
+        "width": 273,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 387,
+        "y": 75,
+        "width": 76,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 370,
+        "y": 89,
+        "width": 109,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Anthony S. Baker",
+      "display_value": "Anthony S. Baker",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 107,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "764100",
+      "display_value": "764100",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-5961",
+      "display_value": "***-**-5961",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 102,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "San Francisco, CA 94101",
+      "display_value": "San Francisco, CA 94101",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 147,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$9,930.25",
+      "display_value": "$9,930.25",
+      "field_position": {
+        "x": 344,
+        "y": 360,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$380.56",
+      "display_value": "$380.56",
+      "field_position": {
+        "x": 354,
+        "y": 380,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$10,310.81",
+      "display_value": "$10,310.81",
+      "field_position": {
+        "x": 342,
+        "y": 400,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$20,621.62",
+      "display_value": "$20,621.62",
+      "field_position": {
+        "x": 338,
+        "y": 420,
+        "width": 62,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$2,169.88",
+      "display_value": "$2,169.88",
+      "field_position": {
+        "x": 746,
+        "y": 360,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$737.25",
+      "display_value": "$737.25",
+      "field_position": {
+        "x": 754,
+        "y": 380,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$639.27",
+      "display_value": "$639.27",
+      "field_position": {
+        "x": 754,
+        "y": 400,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$149.51",
+      "display_value": "$149.51",
+      "field_position": {
+        "x": 757,
+        "y": 420,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$880.03",
+      "display_value": "$880.03",
+      "field_position": {
+        "x": 754,
+        "y": 440,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$321.79",
+      "display_value": "$321.79",
+      "field_position": {
+        "x": 756,
+        "y": 460,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$4,897.73",
+      "display_value": "$4,897.73",
+      "field_position": {
+        "x": 744,
+        "y": 480,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$9,795.46",
+      "display_value": "$9,795.46",
+      "field_position": {
+        "x": 744,
+        "y": 500,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$5,413.08",
+      "display_value": "$5,413.08",
+      "field_position": {
+        "x": 50,
+        "y": 571,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$10,826.16",
+      "display_value": "$10,826.16",
+      "field_position": {
+        "x": 350,
+        "y": 607,
+        "width": 60,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "03/06/2024",
+      "display_value": "03/06/2024",
+      "field_position": {
+        "x": 50,
+        "y": 660,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "02/01/2024",
+      "display_value": "02/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 660,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "02/29/2024",
+      "display_value": "02/29/2024",
+      "field_position": {
+        "x": 430,
+        "y": 660,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 660,
+        "width": 41,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Anthony S. Baker",
+    "employer_name": "Greenfield Agriculture Inc.",
+    "employee_id": "764100",
+    "ssn_last4": "***-**-5961",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "San Francisco, CA 94101",
+    "employer_address": "654 Maple Drive",
+    "employer_city_state_zip": "Albuquerque, NM 87101",
+    "pay_date": "03/06/2024",
+    "pay_period_start": "02/01/2024",
+    "pay_period_end": "02/29/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "9930.25",
+    "gross_pay_current": "10310.81",
+    "net_pay_current": "5413.08",
+    "gross_pay_ytd": "20621.62",
+    "net_pay_ytd": "10826.16",
+    "total_deductions_current": "4897.73",
+    "federal_tax_withheld": "2169.88",
+    "state_tax_withheld": "737.25",
+    "social_security_tax": "639.27",
+    "medicare_tax": "149.51",
+    "total_deductions_ytd": "9795.46",
+    "overtime_pay_current": "380.56",
+    "retirement_401k": "880.03",
+    "health_insurance": "321.79"
+  }
+}

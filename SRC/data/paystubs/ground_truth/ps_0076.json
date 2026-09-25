@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0076",
+  "image_file": "ps_0076.png",
+  "layout_template": "left_header",
+  "noise_profile": "faded",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "08/06/2024",
+      "display_value": "08/06/2024",
+      "field_position": {
+        "x": 734,
+        "y": 40,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 686,
+        "y": 54,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "07/31/2024",
+      "display_value": "07/31/2024",
+      "field_position": {
+        "x": 704,
+        "y": 68,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 728,
+        "y": 82,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Brightstar Retail Inc.",
+      "display_value": "Brightstar Retail Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 290,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 78,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Memphis, TN 38101",
+      "display_value": "Memphis, TN 38101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 102,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Michelle K. Gonzalez",
+      "display_value": "Michelle K. Gonzalez",
+      "field_position": {
+        "x": 606,
+        "y": 133,
+        "width": 156,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "918771",
+      "display_value": "918771",
+      "field_position": {
+        "x": 591,
+        "y": 153,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-1783",
+      "display_value": "***-**-1783",
+      "field_position": {
+        "x": 599,
+        "y": 173,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 567,
+        "y": 193,
+        "width": 125,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 583,
+        "y": 213,
+        "width": 133,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$9,209.78",
+      "display_value": "$9,209.78",
+      "field_position": {
+        "x": 730,
+        "y": 283,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$781.61",
+      "display_value": "$781.61",
+      "field_position": {
+        "x": 745,
+        "y": 303,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$9,991.39",
+      "display_value": "$9,991.39",
+      "field_position": {
+        "x": 730,
+        "y": 323,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$69,939.73",
+      "display_value": "$69,939.73",
+      "field_position": {
+        "x": 722,
+        "y": 343,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$1,595.65",
+      "display_value": "$1,595.65",
+      "field_position": {
+        "x": 730,
+        "y": 408,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$853.85",
+      "display_value": "$853.85",
+      "field_position": {
+        "x": 745,
+        "y": 428,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$619.47",
+      "display_value": "$619.47",
+      "field_position": {
+        "x": 745,
+        "y": 448,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$144.88",
+      "display_value": "$144.88",
+      "field_position": {
+        "x": 745,
+        "y": 468,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$860.06",
+      "display_value": "$860.06",
+      "field_position": {
+        "x": 745,
+        "y": 488,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$101.31",
+      "display_value": "$101.31",
+      "field_position": {
+        "x": 745,
+        "y": 508,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$4,175.22",
+      "display_value": "$4,175.22",
+      "field_position": {
+        "x": 730,
+        "y": 528,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$29,226.54",
+      "display_value": "$29,226.54",
+      "field_position": {
+        "x": 722,
+        "y": 548,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$5,816.17",
+      "display_value": "$5,816.17",
+      "field_position": {
+        "x": 50,
+        "y": 609,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$40,713.19",
+      "display_value": "$40,713.19",
+      "field_position": {
+        "x": 50,
+        "y": 645,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michelle K. Gonzalez",
+    "employer_name": "Brightstar Retail Inc.",
+    "employee_id": "918771",
+    "ssn_last4": "***-**-1783",
+    "employee_address": "852 Willow Place",
+    "employee_city_state_zip": "Seattle, WA 98101",
+    "employer_address": "321 Pine Road",
+    "employer_city_state_zip": "Memphis, TN 38101",
+    "pay_date": "08/06/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "9209.78",
+    "gross_pay_current": "9991.39",
+    "net_pay_current": "5816.17",
+    "gross_pay_ytd": "69939.73",
+    "net_pay_ytd": "40713.19",
+    "total_deductions_current": "4175.22",
+    "federal_tax_withheld": "1595.65",
+    "state_tax_withheld": "853.85",
+    "social_security_tax": "619.47",
+    "medicare_tax": "144.88",
+    "total_deductions_ytd": "29226.54",
+    "overtime_pay_current": "781.61",
+    "retirement_401k": "860.06",
+    "health_insurance": "101.31"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0143",
+  "image_file": "ps_0143.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Premier Auto Services",
+      "display_value": "Premier Auto Services",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 277,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 102,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "New York, NY 10001",
+      "display_value": "New York, NY 10001",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 108,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Deborah W. Gonzalez",
+      "display_value": "Deborah W. Gonzalez",
+      "field_position": {
+        "x": 147,
+        "y": 113,
+        "width": 148,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "934638",
+      "display_value": "934638",
+      "field_position": {
+        "x": 99,
+        "y": 133,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-5016",
+      "display_value": "***-**-5016",
+      "field_position": {
+        "x": 177,
+        "y": 153,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Los Angeles, CA 90001",
+      "display_value": "Los Angeles, CA 90001",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 126,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "09/13/2024",
+      "display_value": "09/13/2024",
+      "field_position": {
+        "x": 134,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "08/26/2024",
+      "display_value": "08/26/2024",
+      "field_position": {
+        "x": 358,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "09/08/2024",
+      "display_value": "09/08/2024",
+      "field_position": {
+        "x": 510,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 716,
+        "y": 211,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$3,355.18",
+      "display_value": "$3,355.18",
+      "field_position": {
+        "x": 730,
+        "y": 271,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$803.03",
+      "display_value": "$803.03",
+      "field_position": {
+        "x": 745,
+        "y": 291,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,158.21",
+      "display_value": "$4,158.21",
+      "field_position": {
+        "x": 730,
+        "y": 316,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$74,847.78",
+      "display_value": "$74,847.78",
+      "field_position": {
+        "x": 722,
+        "y": 336,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$794.52",
+      "display_value": "$794.52",
+      "field_position": {
+        "x": 745,
+        "y": 401,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$218.62",
+      "display_value": "$218.62",
+      "field_position": {
+        "x": 745,
+        "y": 421,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$257.81",
+      "display_value": "$257.81",
+      "field_position": {
+        "x": 745,
+        "y": 441,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$60.29",
+      "display_value": "$60.29",
+      "field_position": {
+        "x": 753,
+        "y": 461,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$135.40",
+      "display_value": "$135.40",
+      "field_position": {
+        "x": 745,
+        "y": 481,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,466.64",
+      "display_value": "$1,466.64",
+      "field_position": {
+        "x": 730,
+        "y": 501,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$26,399.52",
+      "display_value": "$26,399.52",
+      "field_position": {
+        "x": 722,
+        "y": 521,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$2,691.57",
+      "display_value": "$2,691.57",
+      "field_position": {
+        "x": 50,
+        "y": 582,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$48,448.26",
+      "display_value": "$48,448.26",
+      "field_position": {
+        "x": 50,
+        "y": 618,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Deborah W. Gonzalez",
+    "employer_name": "Premier Auto Services",
+    "employee_id": "934638",
+    "ssn_last4": "***-**-5016",
+    "employee_address": "654 Maple Drive",
+    "employee_city_state_zip": "Los Angeles, CA 90001",
+    "employer_address": "222 Commerce Blvd",
+    "employer_city_state_zip": "New York, NY 10001",
+    "pay_date": "09/13/2024",
+    "pay_period_start": "08/26/2024",
+    "pay_period_end": "09/08/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "3355.18",
+    "gross_pay_current": "4158.21",
+    "net_pay_current": "2691.57",
+    "gross_pay_ytd": "74847.78",
+    "net_pay_ytd": "48448.26",
+    "total_deductions_current": "1466.64",
+    "federal_tax_withheld": "794.52",
+    "state_tax_withheld": "218.62",
+    "social_security_tax": "257.81",
+    "medicare_tax": "60.29",
+    "total_deductions_ytd": "26399.52",
+    "bonus_current": "803.03",
+    "health_insurance": "135.40"
+  }
+}

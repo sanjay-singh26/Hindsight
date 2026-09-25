@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0177",
+  "image_file": "ps_0177.png",
+  "layout_template": "boxed",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Lakewood Education Group",
+      "display_value": "Lakewood Education Group",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 286,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 72,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Richard P. Thompson",
+      "display_value": "Richard P. Thompson",
+      "field_position": {
+        "x": 118,
+        "y": 127,
+        "width": 131,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "268163",
+      "display_value": "268163",
+      "field_position": {
+        "x": 104,
+        "y": 142,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-1645",
+      "display_value": "***-**-1645",
+      "field_position": {
+        "x": 72,
+        "y": 157,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 80,
+        "y": 172,
+        "width": 120,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Sacramento, CA 95801",
+      "display_value": "Sacramento, CA 95801",
+      "field_position": {
+        "x": 71,
+        "y": 187,
+        "width": 134,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "05/03/2024",
+      "display_value": "05/03/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "04/16/2024",
+      "display_value": "04/16/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "04/30/2024",
+      "display_value": "04/30/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$1,297.81",
+      "display_value": "$1,297.81",
+      "field_position": {
+        "x": 372,
+        "y": 282,
+        "width": 40,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$177.30",
+      "display_value": "$177.30",
+      "field_position": {
+        "x": 378,
+        "y": 302,
+        "width": 34,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$1,475.11",
+      "display_value": "$1,475.11",
+      "field_position": {
+        "x": 373,
+        "y": 322,
+        "width": 39,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$11,800.88",
+      "display_value": "$11,800.88",
+      "field_position": {
+        "x": 366,
+        "y": 342,
+        "width": 46,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$234.97",
+      "display_value": "$234.97",
+      "field_position": {
+        "x": 766,
+        "y": 282,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$128.29",
+      "display_value": "$128.29",
+      "field_position": {
+        "x": 767,
+        "y": 302,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$91.46",
+      "display_value": "$91.46",
+      "field_position": {
+        "x": 773,
+        "y": 322,
+        "width": 29,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$21.39",
+      "display_value": "$21.39",
+      "field_position": {
+        "x": 773,
+        "y": 342,
+        "width": 29,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$275.37",
+      "display_value": "$275.37",
+      "field_position": {
+        "x": 766,
+        "y": 362,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$751.48",
+      "display_value": "$751.48",
+      "field_position": {
+        "x": 767,
+        "y": 382,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$6,011.84",
+      "display_value": "$6,011.84",
+      "field_position": {
+        "x": 761,
+        "y": 402,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$723.63",
+      "display_value": "$723.63",
+      "field_position": {
+        "x": 128,
+        "y": 469,
+        "width": 78,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$5,789.04",
+      "display_value": "$5,789.04",
+      "field_position": {
+        "x": 428,
+        "y": 469,
+        "width": 95,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Richard P. Thompson",
+    "employer_name": "Lakewood Education Group",
+    "employee_id": "268163",
+    "ssn_last4": "***-**-1645",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Sacramento, CA 95801",
+    "employer_address": "147 Birch Court",
+    "employer_city_state_zip": "Mesa, AZ 85201",
+    "pay_date": "05/03/2024",
+    "pay_period_start": "04/16/2024",
+    "pay_period_end": "04/30/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1297.81",
+    "gross_pay_current": "1475.11",
+    "net_pay_current": "723.63",
+    "gross_pay_ytd": "11800.88",
+    "net_pay_ytd": "5789.04",
+    "total_deductions_current": "751.48",
+    "federal_tax_withheld": "234.97",
+    "state_tax_withheld": "128.29",
+    "social_security_tax": "91.46",
+    "medicare_tax": "21.39",
+    "total_deductions_ytd": "6011.84",
+    "overtime_pay_current": "177.30",
+    "health_insurance": "275.37"
+  }
+}

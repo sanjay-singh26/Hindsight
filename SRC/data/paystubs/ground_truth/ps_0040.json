@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0040",
+  "image_file": "ps_0040.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Magnolia Hospitality Inc.",
+      "display_value": "Magnolia Hospitality Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 242,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 69,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Omaha, NE 68101",
+      "display_value": "Omaha, NE 68101",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 80,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Betty A. Allen",
+      "display_value": "Betty A. Allen",
+      "field_position": {
+        "x": 95,
+        "y": 113,
+        "width": 77,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "668950",
+      "display_value": "668950",
+      "field_position": {
+        "x": 90,
+        "y": 133,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-8569",
+      "display_value": "***-**-8569",
+      "field_position": {
+        "x": 124,
+        "y": 153,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 108,
+        "y": 173,
+        "width": 117,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 141,
+        "y": 193,
+        "width": 110,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "11/06/2024",
+      "display_value": "11/06/2024",
+      "field_position": {
+        "x": 98,
+        "y": 218,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "10/16/2024",
+      "display_value": "10/16/2024",
+      "field_position": {
+        "x": 299,
+        "y": 218,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "10/31/2024",
+      "display_value": "10/31/2024",
+      "field_position": {
+        "x": 522,
+        "y": 218,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 708,
+        "y": 218,
+        "width": 61,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$1,010.93",
+      "display_value": "$1,010.93",
+      "field_position": {
+        "x": 743,
+        "y": 278,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$269.27",
+      "display_value": "$269.27",
+      "field_position": {
+        "x": 753,
+        "y": 298,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$296.60",
+      "display_value": "$296.60",
+      "field_position": {
+        "x": 753,
+        "y": 318,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$69.37",
+      "display_value": "$69.37",
+      "field_position": {
+        "x": 760,
+        "y": 338,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$184.18",
+      "display_value": "$184.18",
+      "field_position": {
+        "x": 753,
+        "y": 358,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,830.35",
+      "display_value": "$1,830.35",
+      "field_position": {
+        "x": 743,
+        "y": 378,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$36,607.00",
+      "display_value": "$36,607.00",
+      "field_position": {
+        "x": 736,
+        "y": 398,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$3,595.28",
+      "display_value": "$3,595.28",
+      "field_position": {
+        "x": 743,
+        "y": 463,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$1,188.60",
+      "display_value": "$1,188.60",
+      "field_position": {
+        "x": 743,
+        "y": 483,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$4,783.88",
+      "display_value": "$4,783.88",
+      "field_position": {
+        "x": 743,
+        "y": 503,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$95,677.60",
+      "display_value": "$95,677.60",
+      "field_position": {
+        "x": 736,
+        "y": 523,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$2,953.53",
+      "display_value": "$2,953.53",
+      "field_position": {
+        "x": 50,
+        "y": 584,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$59,070.60",
+      "display_value": "$59,070.60",
+      "field_position": {
+        "x": 50,
+        "y": 620,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Betty A. Allen",
+    "employer_name": "Magnolia Hospitality Inc.",
+    "employee_id": "668950",
+    "ssn_last4": "***-**-8569",
+    "employee_address": "222 Commerce Blvd",
+    "employee_city_state_zip": "Houston, TX 77001",
+    "employer_address": "147 Birch Court",
+    "employer_city_state_zip": "Omaha, NE 68101",
+    "pay_date": "11/06/2024",
+    "pay_period_start": "10/16/2024",
+    "pay_period_end": "10/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3595.28",
+    "gross_pay_current": "4783.88",
+    "net_pay_current": "2953.53",
+    "gross_pay_ytd": "95677.60",
+    "net_pay_ytd": "59070.60",
+    "total_deductions_current": "1830.35",
+    "federal_tax_withheld": "1010.93",
+    "state_tax_withheld": "269.27",
+    "social_security_tax": "296.60",
+    "medicare_tax": "69.37",
+    "total_deductions_ytd": "36607.00",
+    "bonus_current": "1188.60",
+    "retirement_401k": "184.18"
+  }
+}

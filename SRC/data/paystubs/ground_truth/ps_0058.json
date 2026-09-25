@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0058",
+  "image_file": "ps_0058.png",
+  "layout_template": "minimal",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Coastal Energy Corp.",
+      "display_value": "Coastal Energy Corp.",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 212,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Elizabeth S. Nelson",
+      "display_value": "Elizabeth S. Nelson",
+      "field_position": {
+        "x": 665,
+        "y": 85,
+        "width": 115,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "988432",
+      "display_value": "988432",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 35,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-2773",
+      "display_value": "***-**-2773",
+      "field_position": {
+        "x": 135,
+        "y": 85,
+        "width": 57,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 76,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "10/19/2024",
+      "display_value": "10/19/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "10/01/2024",
+      "display_value": "10/01/2024",
+      "field_position": {
+        "x": 163,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "10/15/2024",
+      "display_value": "10/15/2024",
+      "field_position": {
+        "x": 256,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 349,
+        "y": 151,
+        "width": 66,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$4,277.08",
+      "display_value": "$4,277.08",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$847.77",
+      "display_value": "$847.77",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$285.77",
+      "display_value": "$285.77",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$265.18",
+      "display_value": "$265.18",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$62.02",
+      "display_value": "$62.02",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$136.17",
+      "display_value": "$136.17",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$4,277.08",
+      "display_value": "$4,277.08",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,596.91",
+      "display_value": "$1,596.91",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$2,680.17",
+      "display_value": "$2,680.17",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$81,264.52",
+      "display_value": "$81,264.52",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$30,341.29",
+      "display_value": "$30,341.29",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$50,923.23",
+      "display_value": "$50,923.23",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Elizabeth S. Nelson",
+    "employer_name": "Coastal Energy Corp.",
+    "employee_id": "988432",
+    "ssn_last4": "***-**-2773",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "963 Poplar Ave",
+    "employer_city_state_zip": "San Diego, CA 92101",
+    "pay_date": "10/19/2024",
+    "pay_period_start": "10/01/2024",
+    "pay_period_end": "10/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4277.08",
+    "gross_pay_current": "4277.08",
+    "net_pay_current": "2680.17",
+    "gross_pay_ytd": "81264.52",
+    "net_pay_ytd": "50923.23",
+    "total_deductions_current": "1596.91",
+    "federal_tax_withheld": "847.77",
+    "state_tax_withheld": "285.77",
+    "social_security_tax": "265.18",
+    "medicare_tax": "62.02",
+    "total_deductions_ytd": "30341.29",
+    "retirement_401k": "136.17"
+  }
+}

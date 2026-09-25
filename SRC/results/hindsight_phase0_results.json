@@ -1,0 +1,425 @@
+{
+  "experiment": "hindsight_cba_phase0_pilot",
+  "model": "claude-sonnet-4-20250514",
+  "num_documents": 10,
+  "overall": {
+    "field_f1": 1.0,
+    "cba_strict": 1.0,
+    "delta": 0.0
+  },
+  "per_document": [
+    {
+      "id": "ps_00",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_01",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_02",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_03",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_04",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_05",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_06",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_07",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_08",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    },
+    {
+      "id": "ps_09",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0
+    }
+  ],
+  "misbindings": [],
+  "raw_predictions": [
+    {
+      "id": "ps_00",
+      "predicted": {
+        "employee_name": "John A. Smith",
+        "employer_name": "ACME CORPORATION",
+        "pay_date": "01/15/2025",
+        "pay_period_start": "01/01/2025",
+        "pay_period_end": "01/15/2025",
+        "pay_frequency": "semi-monthly",
+        "gross_pay_current": "4134.61",
+        "net_pay_current": "2991.39",
+        "gross_pay_ytd": "4134.61",
+        "net_pay_ytd": "2991.39",
+        "federal_tax_withheld": "620.19",
+        "state_tax_withheld": "206.73",
+        "social_security_tax": "256.35",
+        "medicare_tax": "59.95"
+      },
+      "ground_truth": {
+        "employee_name": "John A. Smith",
+        "employer_name": "ACME CORPORATION",
+        "pay_date": "01/15/2025",
+        "pay_period_start": "01/01/2025",
+        "pay_period_end": "01/15/2025",
+        "pay_frequency": "semi-monthly",
+        "gross_pay_current": "4134.61",
+        "net_pay_current": "2991.39",
+        "gross_pay_ytd": "4134.61",
+        "net_pay_ytd": "2991.39",
+        "federal_tax_withheld": "620.19",
+        "state_tax_withheld": "206.73",
+        "social_security_tax": "256.35",
+        "medicare_tax": "59.95"
+      }
+    },
+    {
+      "id": "ps_01",
+      "predicted": {
+        "employee_name": "Maria L. Garcia",
+        "employer_name": "GLOBEX INDUSTRIES",
+        "pay_date": "02/28/2025",
+        "pay_period_start": "02/16/2025",
+        "pay_period_end": "02/28/2025",
+        "pay_frequency": "biweekly",
+        "gross_pay_current": "2500.00",
+        "net_pay_current": "1808.75",
+        "gross_pay_ytd": "10000.00",
+        "net_pay_ytd": "7235.00",
+        "federal_tax_withheld": "375.00",
+        "state_tax_withheld": "125.00",
+        "social_security_tax": "155.00",
+        "medicare_tax": "36.25"
+      },
+      "ground_truth": {
+        "employee_name": "Maria L. Garcia",
+        "employer_name": "GLOBEX INDUSTRIES",
+        "pay_date": "02/28/2025",
+        "pay_period_start": "02/16/2025",
+        "pay_period_end": "02/28/2025",
+        "pay_frequency": "biweekly",
+        "gross_pay_current": "2500.00",
+        "net_pay_current": "1808.75",
+        "gross_pay_ytd": "10000.00",
+        "net_pay_ytd": "7235.00",
+        "federal_tax_withheld": "375.00",
+        "state_tax_withheld": "125.00",
+        "social_security_tax": "155.00",
+        "medicare_tax": "36.25"
+      }
+    },
+    {
+      "id": "ps_02",
+      "predicted": {
+        "employee_name": "Robert Chen",
+        "employer_name": "INITECH LLC",
+        "pay_date": "03/07/2025",
+        "pay_period_start": "02/24/2025",
+        "pay_period_end": "03/07/2025",
+        "pay_frequency": "weekly",
+        "gross_pay_current": "1337.50",
+        "net_pay_current": "967.68",
+        "gross_pay_ytd": "10350.00",
+        "net_pay_ytd": "7488.23",
+        "federal_tax_withheld": "200.63",
+        "state_tax_withheld": "66.88",
+        "social_security_tax": "82.93",
+        "medicare_tax": "19.39"
+      },
+      "ground_truth": {
+        "employee_name": "Robert Chen",
+        "employer_name": "INITECH LLC",
+        "pay_date": "03/07/2025",
+        "pay_period_start": "02/24/2025",
+        "pay_period_end": "03/07/2025",
+        "pay_frequency": "weekly",
+        "gross_pay_current": "1337.50",
+        "net_pay_current": "967.68",
+        "gross_pay_ytd": "10350.00",
+        "net_pay_ytd": "7488.23",
+        "federal_tax_withheld": "200.63",
+        "state_tax_withheld": "66.88",
+        "social_security_tax": "82.93",
+        "medicare_tax": "19.39"
+      }
+    },
+    {
+      "id": "ps_03",
+      "predicted": {
+        "employee_name": "Sarah J. Patel",
+        "employer_name": "Wayne Enterprises",
+        "pay_date": "01/31/2025",
+        "pay_period_start": "01/16/2025",
+        "pay_period_end": "01/31/2025",
+        "pay_frequency": "semi-monthly",
+        "gross_pay_current": "5416.67",
+        "net_pay_current": "3918.97",
+        "gross_pay_ytd": "10833.34",
+        "net_pay_ytd": "7837.94",
+        "federal_tax_withheld": "812.50",
+        "state_tax_withheld": "270.83",
+        "social_security_tax": "335.83",
+        "medicare_tax": "78.54"
+      },
+      "ground_truth": {
+        "employee_name": "Sarah J. Patel",
+        "employer_name": "Wayne Enterprises",
+        "pay_date": "01/31/2025",
+        "pay_period_start": "01/16/2025",
+        "pay_period_end": "01/31/2025",
+        "pay_frequency": "semi-monthly",
+        "gross_pay_current": "5416.67",
+        "net_pay_current": "3918.97",
+        "gross_pay_ytd": "10833.34",
+        "net_pay_ytd": "7837.94",
+        "federal_tax_withheld": "812.50",
+        "state_tax_withheld": "270.83",
+        "social_security_tax": "335.83",
+        "medicare_tax": "78.54"
+      }
+    },
+    {
+      "id": "ps_04",
+      "predicted": {
+        "employee_name": "David Kim",
+        "employer_name": "STARK SOLUTIONS INC.",
+        "pay_date": "03/14/2025",
+        "pay_period_start": "03/01/2025",
+        "pay_period_end": "03/14/2025",
+        "pay_frequency": "biweekly",
+        "gross_pay_current": "4523.67",
+        "net_pay_current": "3247.12",
+        "gross_pay_ytd": "18344.80",
+        "net_pay_ytd": "13272.50",
+        "federal_tax_withheld": "678.55",
+        "state_tax_withheld": "226.18",
+        "social_security_tax": "280.47",
+        "medicare_tax": "65.59"
+      },
+      "ground_truth": {
+        "employee_name": "David Kim",
+        "employer_name": "STARK SOLUTIONS INC.",
+        "pay_date": "03/14/2025",
+        "pay_period_start": "03/01/2025",
+        "pay_period_end": "03/14/2025",
+        "pay_frequency": "biweekly",
+        "gross_pay_current": "4523.67",
+        "net_pay_current": "3247.12",
+        "gross_pay_ytd": "18344.80",
+        "net_pay_ytd": "13272.50",
+        "federal_tax_withheld": "678.55",
+        "state_tax_withheld": "226.18",
+        "social_security_tax": "280.47",
+        "medicare_tax": "65.59"
+      }
+    },
+    {
+      "id": "ps_05",
+      "predicted": {
+        "employee_name": "Lisa M. Wong",
+        "employer_name": "Umbrella Corp",
+        "pay_date": "02/14/2025",
+        "pay_period_start": "02/01/2025",
+        "pay_period_end": "02/14/2025",
+        "pay_frequency": "biweekly",
+        "gross_pay_current": "3296.00",
+        "net_pay_current": "2549.46",
+        "gross_pay_ytd": "13184.00",
+        "net_pay_ytd": "10197.82",
+        "federal_tax_withheld": "494.40",
+        "state_tax_withheld": "0.00",
+        "social_security_tax": "204.35",
+        "medicare_tax": "47.79"
+      },
+      "ground_truth": {
+        "employee_name": "Lisa M. Wong",
+        "employer_name": "Umbrella Corp",
+        "pay_date": "02/14/2025",
+        "pay_period_start": "02/01/2025",
+        "pay_period_end": "02/14/2025",
+        "pay_frequency": "biweekly",
+        "gross_pay_current": "3296.00",
+        "net_pay_current": "2549.46",
+        "gross_pay_ytd": "13184.00",
+        "net_pay_ytd": "10197.82",
+        "federal_tax_withheld": "494.40",
+        "state_tax_withheld": "0.00",
+        "social_security_tax": "204.35",
+        "medicare_tax": "47.79"
+      }
+    },
+    {
+      "id": "ps_06",
+      "predicted": {
+        "employee_name": "James T. Rodriguez",
+        "employer_name": "Cyberdyne Systems",
+        "pay_date": "01/24/2025",
+        "pay_period_start": "01/11/2025",
+        "pay_period_end": "01/24/2025",
+        "pay_frequency": "biweekly",
+        "gross_pay_current": "3461.54",
+        "net_pay_current": "2504.43",
+        "gross_pay_ytd": "6923.08",
+        "net_pay_ytd": "5008.86",
+        "federal_tax_withheld": "519.23",
+        "state_tax_withheld": "173.08",
+        "social_security_tax": "214.62",
+        "medicare_tax": "50.19"
+      },
+      "ground_truth": {
+        "employee_name": "James T. Rodriguez",
+        "employer_name": "Cyberdyne Systems",
+        "pay_date": "01/24/2025",
+        "pay_period_start": "01/11/2025",
+        "pay_period_end": "01/24/2025",
+        "pay_frequency": "biweekly",
+        "gross_pay_current": "3461.54",
+        "net_pay_current": "2504.43",
+        "gross_pay_ytd": "6923.08",
+        "net_pay_ytd": "5008.86",
+        "federal_tax_withheld": "519.23",
+        "state_tax_withheld": "173.08",
+        "social_security_tax": "214.62",
+        "medicare_tax": "50.19"
+      }
+    },
+    {
+      "id": "ps_07",
+      "predicted": {
+        "employee_name": "Priya Sharma",
+        "employer_name": "Oscorp",
+        "pay_date": "03/31/2025",
+        "pay_period_start": "03/16/2025",
+        "pay_period_end": "03/31/2025",
+        "pay_frequency": "semi-monthly",
+        "gross_pay_current": "5000.00",
+        "net_pay_current": "3617.50",
+        "gross_pay_ytd": "30000.00",
+        "net_pay_ytd": "21705.00",
+        "federal_tax_withheld": "750.00",
+        "state_tax_withheld": "250.00",
+        "social_security_tax": "310.00",
+        "medicare_tax": "72.50"
+      },
+      "ground_truth": {
+        "employee_name": "Priya Sharma",
+        "employer_name": "Oscorp",
+        "pay_date": "03/31/2025",
+        "pay_period_start": "03/16/2025",
+        "pay_period_end": "03/31/2025",
+        "pay_frequency": "semi-monthly",
+        "gross_pay_current": "5000.00",
+        "net_pay_current": "3617.50",
+        "gross_pay_ytd": "30000.00",
+        "net_pay_ytd": "21705.00",
+        "federal_tax_withheld": "750.00",
+        "state_tax_withheld": "250.00",
+        "social_security_tax": "310.00",
+        "medicare_tax": "72.50"
+      }
+    },
+    {
+      "id": "ps_08",
+      "predicted": {
+        "employee_name": "Alexander O. Brooks",
+        "employer_name": "Weyland-Yutani Corp",
+        "pay_date": "March 31, 2025",
+        "pay_period_start": "March 1, 2025",
+        "pay_period_end": "March 31, 2025",
+        "pay_frequency": "monthly",
+        "gross_pay_current": "12500.00",
+        "net_pay_current": "9043.75",
+        "gross_pay_ytd": "37500.00",
+        "net_pay_ytd": "27131.25",
+        "federal_tax_withheld": "1875.00",
+        "state_tax_withheld": "625.00",
+        "social_security_tax": "775.00",
+        "medicare_tax": "181.25"
+      },
+      "ground_truth": {
+        "employee_name": "Alexander O. Brooks",
+        "employer_name": "Weyland-Yutani Corp",
+        "pay_date": "March 31, 2025",
+        "pay_period_start": "March 1, 2025",
+        "pay_period_end": "March 31, 2025",
+        "pay_frequency": "monthly",
+        "gross_pay_current": "12500.00",
+        "net_pay_current": "9043.75",
+        "gross_pay_ytd": "37500.00",
+        "net_pay_ytd": "27131.25",
+        "federal_tax_withheld": "1875.00",
+        "state_tax_withheld": "625.00",
+        "social_security_tax": "775.00",
+        "medicare_tax": "181.25"
+      }
+    },
+    {
+      "id": "ps_09",
+      "predicted": {
+        "employee_name": "Fatima Al-Rashid",
+        "employer_name": "CHOAM Industries",
+        "pay_date": "02/07/2025",
+        "pay_period_start": "01/27/2025",
+        "pay_period_end": "02/07/2025",
+        "pay_frequency": "weekly",
+        "gross_pay_current": "1923.08",
+        "net_pay_current": "1390.42",
+        "gross_pay_ytd": "11538.48",
+        "net_pay_ytd": "8342.52",
+        "federal_tax_withheld": "288.46",
+        "state_tax_withheld": "0.00",
+        "social_security_tax": "119.23",
+        "medicare_tax": "27.88"
+      },
+      "ground_truth": {
+        "employee_name": "Fatima Al-Rashid",
+        "employer_name": "CHOAM Industries",
+        "pay_date": "02/07/2025",
+        "pay_period_start": "01/27/2025",
+        "pay_period_end": "02/07/2025",
+        "pay_frequency": "weekly",
+        "gross_pay_current": "1923.08",
+        "net_pay_current": "1390.42",
+        "gross_pay_ytd": "11538.48",
+        "net_pay_ytd": "8342.52",
+        "federal_tax_withheld": "288.46",
+        "state_tax_withheld": "0.00",
+        "social_security_tax": "119.23",
+        "medicare_tax": "27.88"
+      }
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0060",
+  "image_file": "ps_0060.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Trident Security Services",
+      "display_value": "Trident Security Services",
+      "field_position": {
+        "x": 260,
+        "y": 40,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 383,
+        "y": 75,
+        "width": 84,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Philadelphia, PA 19101",
+      "display_value": "Philadelphia, PA 19101",
+      "field_position": {
+        "x": 359,
+        "y": 89,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Charles C. Roberts",
+      "display_value": "Charles C. Roberts",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 140,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "155164",
+      "display_value": "155164",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-3549",
+      "display_value": "***-**-3549",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Arlington, TX 76001",
+      "display_value": "Arlington, TX 76001",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$3,071.23",
+      "display_value": "$3,071.23",
+      "field_position": {
+        "x": 330,
+        "y": 360,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$291.22",
+      "display_value": "$291.22",
+      "field_position": {
+        "x": 345,
+        "y": 380,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$3,362.45",
+      "display_value": "$3,362.45",
+      "field_position": {
+        "x": 330,
+        "y": 400,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$50,436.75",
+      "display_value": "$50,436.75",
+      "field_position": {
+        "x": 322,
+        "y": 420,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$382.17",
+      "display_value": "$382.17",
+      "field_position": {
+        "x": 745,
+        "y": 360,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$187.61",
+      "display_value": "$187.61",
+      "field_position": {
+        "x": 745,
+        "y": 380,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$208.47",
+      "display_value": "$208.47",
+      "field_position": {
+        "x": 745,
+        "y": 400,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$48.76",
+      "display_value": "$48.76",
+      "field_position": {
+        "x": 753,
+        "y": 420,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$260.57",
+      "display_value": "$260.57",
+      "field_position": {
+        "x": 745,
+        "y": 440,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$260.13",
+      "display_value": "$260.13",
+      "field_position": {
+        "x": 745,
+        "y": 460,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,347.71",
+      "display_value": "$1,347.71",
+      "field_position": {
+        "x": 730,
+        "y": 480,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$20,215.65",
+      "display_value": "$20,215.65",
+      "field_position": {
+        "x": 722,
+        "y": 500,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$2,014.74",
+      "display_value": "$2,014.74",
+      "field_position": {
+        "x": 50,
+        "y": 571,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$30,221.10",
+      "display_value": "$30,221.10",
+      "field_position": {
+        "x": 350,
+        "y": 607,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "08/21/2024",
+      "display_value": "08/21/2024",
+      "field_position": {
+        "x": 50,
+        "y": 660,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "08/01/2024",
+      "display_value": "08/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 660,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "08/15/2024",
+      "display_value": "08/15/2024",
+      "field_position": {
+        "x": 430,
+        "y": 660,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 660,
+        "width": 72,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Charles C. Roberts",
+    "employer_name": "Trident Security Services",
+    "employee_id": "155164",
+    "ssn_last4": "***-**-3549",
+    "employee_address": "987 Cedar Lane",
+    "employee_city_state_zip": "Arlington, TX 76001",
+    "employer_address": "456 Oak Avenue",
+    "employer_city_state_zip": "Philadelphia, PA 19101",
+    "pay_date": "08/21/2024",
+    "pay_period_start": "08/01/2024",
+    "pay_period_end": "08/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3071.23",
+    "gross_pay_current": "3362.45",
+    "net_pay_current": "2014.74",
+    "gross_pay_ytd": "50436.75",
+    "net_pay_ytd": "30221.10",
+    "total_deductions_current": "1347.71",
+    "federal_tax_withheld": "382.17",
+    "state_tax_withheld": "187.61",
+    "social_security_tax": "208.47",
+    "medicare_tax": "48.76",
+    "total_deductions_ytd": "20215.65",
+    "overtime_pay_current": "291.22",
+    "retirement_401k": "260.57",
+    "health_insurance": "260.13"
+  }
+}

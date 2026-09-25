@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0051",
+  "image_file": "ps_0051.png",
+  "layout_template": "government",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Liberty Manufacturing",
+      "display_value": "Liberty Manufacturing",
+      "field_position": {
+        "x": 149,
+        "y": 75,
+        "width": 127,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 142,
+        "y": 95,
+        "width": 84,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 196,
+        "y": 115,
+        "width": 97,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Joseph C. Adams",
+      "display_value": "Joseph C. Adams",
+      "field_position": {
+        "x": 151,
+        "y": 143,
+        "width": 102,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "963874",
+      "display_value": "963874",
+      "field_position": {
+        "x": 113,
+        "y": 163,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-8606",
+      "display_value": "***-**-8606",
+      "field_position": {
+        "x": 81,
+        "y": 183,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 104,
+        "y": 203,
+        "width": 85,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Milwaukee, WI 53201",
+      "display_value": "Milwaukee, WI 53201",
+      "field_position": {
+        "x": 137,
+        "y": 223,
+        "width": 123,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "01/26/2024",
+      "display_value": "01/26/2024",
+      "field_position": {
+        "x": 112,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "01/15/2024",
+      "display_value": "01/15/2024",
+      "field_position": {
+        "x": 314,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "01/21/2024",
+      "display_value": "01/21/2024",
+      "field_position": {
+        "x": 543,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 725,
+        "y": 251,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$2,300.64",
+      "display_value": "$2,300.64",
+      "field_position": {
+        "x": 742,
+        "y": 309,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$264.36",
+      "display_value": "$264.36",
+      "field_position": {
+        "x": 753,
+        "y": 329,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$2,565.00",
+      "display_value": "$2,565.00",
+      "field_position": {
+        "x": 743,
+        "y": 349,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$7,695.00",
+      "display_value": "$7,695.00",
+      "field_position": {
+        "x": 743,
+        "y": 369,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$376.13",
+      "display_value": "$376.13",
+      "field_position": {
+        "x": 753,
+        "y": 427,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$134.05",
+      "display_value": "$134.05",
+      "field_position": {
+        "x": 753,
+        "y": 447,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$159.03",
+      "display_value": "$159.03",
+      "field_position": {
+        "x": 753,
+        "y": 467,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$37.19",
+      "display_value": "$37.19",
+      "field_position": {
+        "x": 760,
+        "y": 487,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$225.85",
+      "display_value": "$225.85",
+      "field_position": {
+        "x": 753,
+        "y": 507,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$932.25",
+      "display_value": "$932.25",
+      "field_position": {
+        "x": 753,
+        "y": 527,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$2,796.75",
+      "display_value": "$2,796.75",
+      "field_position": {
+        "x": 743,
+        "y": 547,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,632.75",
+      "display_value": "$1,632.75",
+      "field_position": {
+        "x": 128,
+        "y": 582,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$4,898.25",
+      "display_value": "$4,898.25",
+      "field_position": {
+        "x": 136,
+        "y": 612,
+        "width": 97,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joseph C. Adams",
+    "employer_name": "Liberty Manufacturing",
+    "employee_id": "963874",
+    "ssn_last4": "***-**-8606",
+    "employee_address": "741 Ash Street",
+    "employee_city_state_zip": "Milwaukee, WI 53201",
+    "employer_address": "321 Pine Road",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "01/26/2024",
+    "pay_period_start": "01/15/2024",
+    "pay_period_end": "01/21/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "2300.64",
+    "gross_pay_current": "2565.00",
+    "net_pay_current": "1632.75",
+    "gross_pay_ytd": "7695.00",
+    "net_pay_ytd": "4898.25",
+    "total_deductions_current": "932.25",
+    "federal_tax_withheld": "376.13",
+    "state_tax_withheld": "134.05",
+    "social_security_tax": "159.03",
+    "medicare_tax": "37.19",
+    "total_deductions_ytd": "2796.75",
+    "overtime_pay_current": "264.36",
+    "health_insurance": "225.85"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0125",
+  "image_file": "ps_0125.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Redwood Forest Products",
+      "display_value": "Redwood Forest Products",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 264,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 88,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 163,
+        "y": 85,
+        "width": 76,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Sandra F. Flores",
+      "display_value": "Sandra F. Flores",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 97,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "806309",
+      "display_value": "806309",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 44,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-5873",
+      "display_value": "***-**-5873",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 79,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 72,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "03/04/2024",
+      "display_value": "03/04/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "02/16/2024",
+      "display_value": "02/16/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "02/29/2024",
+      "display_value": "02/29/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$2,395.18",
+      "display_value": "$2,395.18",
+      "field_position": {
+        "x": 351,
+        "y": 275,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$585.41",
+      "display_value": "$585.41",
+      "field_position": {
+        "x": 361,
+        "y": 295,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$2,980.59",
+      "display_value": "$2,980.59",
+      "field_position": {
+        "x": 349,
+        "y": 315,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$11,922.36",
+      "display_value": "$11,922.36",
+      "field_position": {
+        "x": 346,
+        "y": 335,
+        "width": 59,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$447.65",
+      "display_value": "$447.65",
+      "field_position": {
+        "x": 743,
+        "y": 275,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$114.07",
+      "display_value": "$114.07",
+      "field_position": {
+        "x": 747,
+        "y": 295,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$184.80",
+      "display_value": "$184.80",
+      "field_position": {
+        "x": 745,
+        "y": 315,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$43.22",
+      "display_value": "$43.22",
+      "field_position": {
+        "x": 751,
+        "y": 335,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$128.17",
+      "display_value": "$128.17",
+      "field_position": {
+        "x": 748,
+        "y": 355,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$267.23",
+      "display_value": "$267.23",
+      "field_position": {
+        "x": 744,
+        "y": 375,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,185.14",
+      "display_value": "$1,185.14",
+      "field_position": {
+        "x": 739,
+        "y": 395,
+        "width": 51,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$4,740.56",
+      "display_value": "$4,740.56",
+      "field_position": {
+        "x": 733,
+        "y": 415,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,795.45",
+      "display_value": "$1,795.45",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$7,181.80",
+      "display_value": "$7,181.80",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 89,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sandra F. Flores",
+    "employer_name": "Redwood Forest Products",
+    "employee_id": "806309",
+    "ssn_last4": "***-**-5873",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "Tulsa, OK 74101",
+    "employer_address": "789 Elm Boulevard",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "03/04/2024",
+    "pay_period_start": "02/16/2024",
+    "pay_period_end": "02/29/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "2395.18",
+    "gross_pay_current": "2980.59",
+    "net_pay_current": "1795.45",
+    "gross_pay_ytd": "11922.36",
+    "net_pay_ytd": "7181.80",
+    "total_deductions_current": "1185.14",
+    "federal_tax_withheld": "447.65",
+    "state_tax_withheld": "114.07",
+    "social_security_tax": "184.80",
+    "medicare_tax": "43.22",
+    "total_deductions_ytd": "4740.56",
+    "overtime_pay_current": "585.41",
+    "retirement_401k": "128.17",
+    "health_insurance": "267.23"
+  }
+}

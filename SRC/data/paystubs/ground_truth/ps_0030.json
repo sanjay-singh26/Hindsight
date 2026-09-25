@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0030",
+  "image_file": "ps_0030.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Premier Auto Services",
+      "display_value": "Premier Auto Services",
+      "field_position": {
+        "x": 309,
+        "y": 40,
+        "width": 231,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 380,
+        "y": 75,
+        "width": 90,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 381,
+        "y": 89,
+        "width": 88,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Sarah W. Flores",
+      "display_value": "Sarah W. Flores",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 96,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "606983",
+      "display_value": "606983",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-8616",
+      "display_value": "***-**-8616",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 122,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 94,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$4,205.65",
+      "display_value": "$4,205.65",
+      "field_position": {
+        "x": 344,
+        "y": 360,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$425.30",
+      "display_value": "$425.30",
+      "field_position": {
+        "x": 354,
+        "y": 380,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$4,630.95",
+      "display_value": "$4,630.95",
+      "field_position": {
+        "x": 344,
+        "y": 400,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$13,892.85",
+      "display_value": "$13,892.85",
+      "field_position": {
+        "x": 339,
+        "y": 420,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$673.70",
+      "display_value": "$673.70",
+      "field_position": {
+        "x": 754,
+        "y": 360,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$146.90",
+      "display_value": "$146.90",
+      "field_position": {
+        "x": 755,
+        "y": 380,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$287.12",
+      "display_value": "$287.12",
+      "field_position": {
+        "x": 756,
+        "y": 400,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$67.15",
+      "display_value": "$67.15",
+      "field_position": {
+        "x": 763,
+        "y": 420,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$137.27",
+      "display_value": "$137.27",
+      "field_position": {
+        "x": 756,
+        "y": 440,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,312.14",
+      "display_value": "$1,312.14",
+      "field_position": {
+        "x": 749,
+        "y": 460,
+        "width": 51,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$3,936.42",
+      "display_value": "$3,936.42",
+      "field_position": {
+        "x": 744,
+        "y": 480,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$3,318.81",
+      "display_value": "$3,318.81",
+      "field_position": {
+        "x": 50,
+        "y": 551,
+        "width": 88,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$9,956.43",
+      "display_value": "$9,956.43",
+      "field_position": {
+        "x": 350,
+        "y": 587,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "02/16/2024",
+      "display_value": "02/16/2024",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "01/29/2024",
+      "display_value": "01/29/2024",
+      "field_position": {
+        "x": 240,
+        "y": 640,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "02/11/2024",
+      "display_value": "02/11/2024",
+      "field_position": {
+        "x": 430,
+        "y": 640,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 640,
+        "width": 49,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sarah W. Flores",
+    "employer_name": "Premier Auto Services",
+    "employee_id": "606983",
+    "ssn_last4": "***-**-8616",
+    "employee_address": "222 Commerce Blvd",
+    "employee_city_state_zip": "Tulsa, OK 74101",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Portland, OR 97201",
+    "pay_date": "02/16/2024",
+    "pay_period_start": "01/29/2024",
+    "pay_period_end": "02/11/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "4205.65",
+    "gross_pay_current": "4630.95",
+    "net_pay_current": "3318.81",
+    "gross_pay_ytd": "13892.85",
+    "net_pay_ytd": "9956.43",
+    "total_deductions_current": "1312.14",
+    "federal_tax_withheld": "673.70",
+    "state_tax_withheld": "146.90",
+    "social_security_tax": "287.12",
+    "medicare_tax": "67.15",
+    "total_deductions_ytd": "3936.42",
+    "overtime_pay_current": "425.30",
+    "health_insurance": "137.27"
+  }
+}

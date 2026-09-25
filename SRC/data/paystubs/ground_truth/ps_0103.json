@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0103",
+  "image_file": "ps_0103.png",
+  "layout_template": "minimal",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Eastside Medical Center",
+      "display_value": "Eastside Medical Center",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 244,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Michael B. Hill",
+      "display_value": "Michael B. Hill",
+      "field_position": {
+        "x": 695,
+        "y": 85,
+        "width": 85,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "726822",
+      "display_value": "726822",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 35,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-1797",
+      "display_value": "***-**-1797",
+      "field_position": {
+        "x": 135,
+        "y": 85,
+        "width": 57,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 107,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 82,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 76,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "09/12/2024",
+      "display_value": "09/12/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "08/26/2024",
+      "display_value": "08/26/2024",
+      "field_position": {
+        "x": 163,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "09/08/2024",
+      "display_value": "09/08/2024",
+      "field_position": {
+        "x": 256,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 349,
+        "y": 151,
+        "width": 46,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$3,765.18",
+      "display_value": "$3,765.18",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,988.27",
+      "display_value": "$1,988.27",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$737.01",
+      "display_value": "$737.01",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$488.95",
+      "display_value": "$488.95",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$356.71",
+      "display_value": "$356.71",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$83.43",
+      "display_value": "$83.43",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$405.18",
+      "display_value": "$405.18",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$5,753.45",
+      "display_value": "$5,753.45",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$2,071.28",
+      "display_value": "$2,071.28",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$3,682.17",
+      "display_value": "$3,682.17",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$103,562.10",
+      "display_value": "$103,562.10",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 74,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$37,283.04",
+      "display_value": "$37,283.04",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$66,279.06",
+      "display_value": "$66,279.06",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michael B. Hill",
+    "employer_name": "Eastside Medical Center",
+    "employee_id": "726822",
+    "ssn_last4": "***-**-1797",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "Chicago, IL 60601",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Tucson, AZ 85701",
+    "pay_date": "09/12/2024",
+    "pay_period_start": "08/26/2024",
+    "pay_period_end": "09/08/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "3765.18",
+    "gross_pay_current": "5753.45",
+    "net_pay_current": "3682.17",
+    "gross_pay_ytd": "103562.10",
+    "net_pay_ytd": "66279.06",
+    "total_deductions_current": "2071.28",
+    "federal_tax_withheld": "737.01",
+    "state_tax_withheld": "488.95",
+    "social_security_tax": "356.71",
+    "medicare_tax": "83.43",
+    "total_deductions_ytd": "37283.04",
+    "bonus_current": "1988.27",
+    "retirement_401k": "405.18"
+  }
+}

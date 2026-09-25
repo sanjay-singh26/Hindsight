@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0088",
+  "image_file": "ps_0088.png",
+  "layout_template": "minimal",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Quantum Data Systems",
+      "display_value": "Quantum Data Systems",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 231,
+        "height": 20
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Michael M. Sanchez",
+      "display_value": "Michael M. Sanchez",
+      "field_position": {
+        "x": 663,
+        "y": 85,
+        "width": 117,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "455556",
+      "display_value": "455556",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 34,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-6990",
+      "display_value": "***-**-6990",
+      "field_position": {
+        "x": 134,
+        "y": 85,
+        "width": 50,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 75,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Atlanta, GA 30301",
+      "display_value": "Atlanta, GA 30301",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 80,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 72,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Fort Worth, TX 76101",
+      "display_value": "Fort Worth, TX 76101",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 94,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "10/03/2024",
+      "display_value": "10/03/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "09/01/2024",
+      "display_value": "09/01/2024",
+      "field_position": {
+        "x": 164,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "09/30/2024",
+      "display_value": "09/30/2024",
+      "field_position": {
+        "x": 258,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 352,
+        "y": 151,
+        "width": 36,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$2,839.78",
+      "display_value": "$2,839.78",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$333.13",
+      "display_value": "$333.13",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$491.29",
+      "display_value": "$491.29",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$210.60",
+      "display_value": "$210.60",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$196.72",
+      "display_value": "$196.72",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$46.01",
+      "display_value": "$46.01",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$168.03",
+      "display_value": "$168.03",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$123.88",
+      "display_value": "$123.88",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$3,172.91",
+      "display_value": "$3,172.91",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,236.53",
+      "display_value": "$1,236.53",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,936.38",
+      "display_value": "$1,936.38",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$28,556.19",
+      "display_value": "$28,556.19",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$11,128.77",
+      "display_value": "$11,128.77",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$17,427.42",
+      "display_value": "$17,427.42",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 64,
+        "height": 13
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michael M. Sanchez",
+    "employer_name": "Quantum Data Systems",
+    "employee_id": "455556",
+    "ssn_last4": "***-**-6990",
+    "employee_address": "654 Maple Drive",
+    "employee_city_state_zip": "Fort Worth, TX 76101",
+    "employer_address": "888 Harbor Drive",
+    "employer_city_state_zip": "Atlanta, GA 30301",
+    "pay_date": "10/03/2024",
+    "pay_period_start": "09/01/2024",
+    "pay_period_end": "09/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "2839.78",
+    "gross_pay_current": "3172.91",
+    "net_pay_current": "1936.38",
+    "gross_pay_ytd": "28556.19",
+    "net_pay_ytd": "17427.42",
+    "total_deductions_current": "1236.53",
+    "federal_tax_withheld": "491.29",
+    "state_tax_withheld": "210.60",
+    "social_security_tax": "196.72",
+    "medicare_tax": "46.01",
+    "total_deductions_ytd": "11128.77",
+    "overtime_pay_current": "333.13",
+    "retirement_401k": "168.03",
+    "health_insurance": "123.88"
+  }
+}

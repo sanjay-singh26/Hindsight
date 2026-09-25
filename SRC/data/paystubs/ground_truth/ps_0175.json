@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0175",
+  "image_file": "ps_0175.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 243,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 84,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "George T. Johnson",
+      "display_value": "George T. Johnson",
+      "field_position": {
+        "x": 149,
+        "y": 113,
+        "width": 111,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "229144",
+      "display_value": "229144",
+      "field_position": {
+        "x": 136,
+        "y": 133,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-7006",
+      "display_value": "***-**-7006",
+      "field_position": {
+        "x": 124,
+        "y": 153,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 109,
+        "y": 173,
+        "width": 98,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 83,
+        "y": 193,
+        "width": 118,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "10/02/2024",
+      "display_value": "10/02/2024",
+      "field_position": {
+        "x": 100,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "09/23/2024",
+      "display_value": "09/23/2024",
+      "field_position": {
+        "x": 334,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "09/29/2024",
+      "display_value": "09/29/2024",
+      "field_position": {
+        "x": 495,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 704,
+        "y": 218,
+        "width": 34,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$474.67",
+      "display_value": "$474.67",
+      "field_position": {
+        "x": 752,
+        "y": 278,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$167.12",
+      "display_value": "$167.12",
+      "field_position": {
+        "x": 752,
+        "y": 298,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$196.18",
+      "display_value": "$196.18",
+      "field_position": {
+        "x": 752,
+        "y": 318,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$45.88",
+      "display_value": "$45.88",
+      "field_position": {
+        "x": 759,
+        "y": 338,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$200.00",
+      "display_value": "$200.00",
+      "field_position": {
+        "x": 752,
+        "y": 358,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$267.70",
+      "display_value": "$267.70",
+      "field_position": {
+        "x": 752,
+        "y": 378,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,351.55",
+      "display_value": "$1,351.55",
+      "field_position": {
+        "x": 741,
+        "y": 398,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$52,710.45",
+      "display_value": "$52,710.45",
+      "field_position": {
+        "x": 734,
+        "y": 418,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$1,722.64",
+      "display_value": "$1,722.64",
+      "field_position": {
+        "x": 741,
+        "y": 483,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$1,441.55",
+      "display_value": "$1,441.55",
+      "field_position": {
+        "x": 741,
+        "y": 503,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$3,164.19",
+      "display_value": "$3,164.19",
+      "field_position": {
+        "x": 741,
+        "y": 523,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$123,403.41",
+      "display_value": "$123,403.41",
+      "field_position": {
+        "x": 726,
+        "y": 543,
+        "width": 74,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,812.64",
+      "display_value": "$1,812.64",
+      "field_position": {
+        "x": 50,
+        "y": 604,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$70,692.96",
+      "display_value": "$70,692.96",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "George T. Johnson",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "229144",
+    "ssn_last4": "***-**-7006",
+    "employee_address": "456 Oak Avenue",
+    "employee_city_state_zip": "Louisville, KY 40201",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Raleigh, NC 27601",
+    "pay_date": "10/02/2024",
+    "pay_period_start": "09/23/2024",
+    "pay_period_end": "09/29/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1722.64",
+    "gross_pay_current": "3164.19",
+    "net_pay_current": "1812.64",
+    "gross_pay_ytd": "123403.41",
+    "net_pay_ytd": "70692.96",
+    "total_deductions_current": "1351.55",
+    "federal_tax_withheld": "474.67",
+    "state_tax_withheld": "167.12",
+    "social_security_tax": "196.18",
+    "medicare_tax": "45.88",
+    "total_deductions_ytd": "52710.45",
+    "bonus_current": "1441.55",
+    "retirement_401k": "200.00",
+    "health_insurance": "267.70"
+  }
+}

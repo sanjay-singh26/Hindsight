@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0118",
+  "image_file": "ps_0118.png",
+  "layout_template": "minimal",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Apex Manufacturing Co.",
+      "display_value": "Apex Manufacturing Co.",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 253,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Michael K. Rodriguez",
+      "display_value": "Michael K. Rodriguez",
+      "field_position": {
+        "x": 649,
+        "y": 85,
+        "width": 131,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "514913",
+      "display_value": "514913",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 30,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-6443",
+      "display_value": "***-**-6443",
+      "field_position": {
+        "x": 130,
+        "y": 85,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 81,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 79,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 94,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "08/07/2024",
+      "display_value": "08/07/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "07/16/2024",
+      "display_value": "07/16/2024",
+      "field_position": {
+        "x": 163,
+        "y": 151,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "07/31/2024",
+      "display_value": "07/31/2024",
+      "field_position": {
+        "x": 255,
+        "y": 151,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 347,
+        "y": 151,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$1,760.47",
+      "display_value": "$1,760.47",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$763.10",
+      "display_value": "$763.10",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$765.53",
+      "display_value": "$765.53",
+      "field_position": {
+        "x": 150,
+        "y": 240,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$709.62",
+      "display_value": "$709.62",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$289.85",
+      "display_value": "$289.85",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$203.92",
+      "display_value": "$203.92",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$47.69",
+      "display_value": "$47.69",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$258.68",
+      "display_value": "$258.68",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$235.49",
+      "display_value": "$235.49",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$3,289.10",
+      "display_value": "$3,289.10",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,745.25",
+      "display_value": "$1,745.25",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,543.85",
+      "display_value": "$1,543.85",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$46,047.40",
+      "display_value": "$46,047.40",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$24,433.50",
+      "display_value": "$24,433.50",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$21,613.90",
+      "display_value": "$21,613.90",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 60,
+        "height": 13
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michael K. Rodriguez",
+    "employer_name": "Apex Manufacturing Co.",
+    "employee_id": "514913",
+    "ssn_last4": "***-**-6443",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "Louisville, KY 40201",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Tucson, AZ 85701",
+    "pay_date": "08/07/2024",
+    "pay_period_start": "07/16/2024",
+    "pay_period_end": "07/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1760.47",
+    "gross_pay_current": "3289.10",
+    "net_pay_current": "1543.85",
+    "gross_pay_ytd": "46047.40",
+    "net_pay_ytd": "21613.90",
+    "total_deductions_current": "1745.25",
+    "federal_tax_withheld": "709.62",
+    "state_tax_withheld": "289.85",
+    "social_security_tax": "203.92",
+    "medicare_tax": "47.69",
+    "total_deductions_ytd": "24433.50",
+    "overtime_pay_current": "763.10",
+    "bonus_current": "765.53",
+    "retirement_401k": "258.68",
+    "health_insurance": "235.49"
+  }
+}

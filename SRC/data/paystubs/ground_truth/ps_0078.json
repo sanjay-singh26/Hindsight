@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0078",
+  "image_file": "ps_0078.png",
+  "layout_template": "compact",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Brightstar Retail Inc.",
+      "display_value": "Brightstar Retail Inc.",
+      "field_position": {
+        "x": 130,
+        "y": 25,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Patricia N. Jones",
+      "display_value": "Patricia N. Jones",
+      "field_position": {
+        "x": 118,
+        "y": 39,
+        "width": 102,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "638009",
+      "display_value": "638009",
+      "field_position": {
+        "x": 94,
+        "y": 53,
+        "width": 36,
+        "height": 6
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-3621",
+      "display_value": "***-**-3621",
+      "field_position": {
+        "x": 142,
+        "y": 67,
+        "width": 66,
+        "height": 6
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 96,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 96,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 90,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "San Jose, CA 95101",
+      "display_value": "San Jose, CA 95101",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 108,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "03/06/2024",
+      "display_value": "03/06/2024",
+      "field_position": {
+        "x": 112,
+        "y": 137,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "02/26/2024",
+      "display_value": "02/26/2024",
+      "field_position": {
+        "x": 148,
+        "y": 151,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "03/03/2024",
+      "display_value": "03/03/2024",
+      "field_position": {
+        "x": 100,
+        "y": 165,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 106,
+        "y": 179,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$985.38",
+      "display_value": "$985.38",
+      "field_position": {
+        "x": 768,
+        "y": 215,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$1,909.04",
+      "display_value": "$1,909.04",
+      "field_position": {
+        "x": 756,
+        "y": 235,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$2,894.42",
+      "display_value": "$2,894.42",
+      "field_position": {
+        "x": 756,
+        "y": 255,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$26,049.78",
+      "display_value": "$26,049.78",
+      "field_position": {
+        "x": 750,
+        "y": 275,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$300.69",
+      "display_value": "$300.69",
+      "field_position": {
+        "x": 768,
+        "y": 317,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$113.48",
+      "display_value": "$113.48",
+      "field_position": {
+        "x": 768,
+        "y": 337,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$179.45",
+      "display_value": "$179.45",
+      "field_position": {
+        "x": 768,
+        "y": 357,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$41.97",
+      "display_value": "$41.97",
+      "field_position": {
+        "x": 774,
+        "y": 377,
+        "width": 36,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$161.99",
+      "display_value": "$161.99",
+      "field_position": {
+        "x": 768,
+        "y": 397,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$100.76",
+      "display_value": "$100.76",
+      "field_position": {
+        "x": 768,
+        "y": 417,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$898.34",
+      "display_value": "$898.34",
+      "field_position": {
+        "x": 768,
+        "y": 437,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$8,085.06",
+      "display_value": "$8,085.06",
+      "field_position": {
+        "x": 756,
+        "y": 457,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$1,996.08",
+      "display_value": "$1,996.08",
+      "field_position": {
+        "x": 130,
+        "y": 485,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$17,964.72",
+      "display_value": "$17,964.72",
+      "field_position": {
+        "x": 148,
+        "y": 499,
+        "width": 60,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Patricia N. Jones",
+    "employer_name": "Brightstar Retail Inc.",
+    "employee_id": "638009",
+    "ssn_last4": "***-**-3621",
+    "employee_address": "123 Main Street",
+    "employee_city_state_zip": "San Jose, CA 95101",
+    "employer_address": "888 Harbor Drive",
+    "employer_city_state_zip": "Tucson, AZ 85701",
+    "pay_date": "03/06/2024",
+    "pay_period_start": "02/26/2024",
+    "pay_period_end": "03/03/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "985.38",
+    "gross_pay_current": "2894.42",
+    "net_pay_current": "1996.08",
+    "gross_pay_ytd": "26049.78",
+    "net_pay_ytd": "17964.72",
+    "total_deductions_current": "898.34",
+    "federal_tax_withheld": "300.69",
+    "state_tax_withheld": "113.48",
+    "social_security_tax": "179.45",
+    "medicare_tax": "41.97",
+    "total_deductions_ytd": "8085.06",
+    "bonus_current": "1909.04",
+    "retirement_401k": "161.99",
+    "health_insurance": "100.76"
+  }
+}

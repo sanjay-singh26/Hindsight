@@ -1,0 +1,374 @@
+{
+  "paystub_id": "ps_0122",
+  "image_file": "ps_0122.png",
+  "layout_template": "two_column",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Brightstar Retail Inc.",
+      "display_value": "Brightstar Retail Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 290,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 102,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Philadelphia, PA 19101",
+      "display_value": "Philadelphia, PA 19101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Brian E. Allen",
+      "display_value": "Brian E. Allen",
+      "field_position": {
+        "x": 91,
+        "y": 106,
+        "width": 109,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "125755",
+      "display_value": "125755",
+      "field_position": {
+        "x": 131,
+        "y": 126,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-8909",
+      "display_value": "***-**-8909",
+      "field_position": {
+        "x": 138,
+        "y": 146,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 169,
+        "y": 166,
+        "width": 102,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Denver, CO 80201",
+      "display_value": "Denver, CO 80201",
+      "field_position": {
+        "x": 83,
+        "y": 186,
+        "width": 125,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "11/28/2024",
+      "display_value": "11/28/2024",
+      "field_position": {
+        "x": 132,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "11/18/2024",
+      "display_value": "11/18/2024",
+      "field_position": {
+        "x": 285,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "11/24/2024",
+      "display_value": "11/24/2024",
+      "field_position": {
+        "x": 544,
+        "y": 211,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 714,
+        "y": 211,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,179.80",
+      "display_value": "$1,179.80",
+      "field_position": {
+        "x": 330,
+        "y": 266,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$648.99",
+      "display_value": "$648.99",
+      "field_position": {
+        "x": 345,
+        "y": 286,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$1,828.79",
+      "display_value": "$1,828.79",
+      "field_position": {
+        "x": 330,
+        "y": 306,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$85,953.13",
+      "display_value": "$85,953.13",
+      "field_position": {
+        "x": 322,
+        "y": 326,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$259.32",
+      "display_value": "$259.32",
+      "field_position": {
+        "x": 745,
+        "y": 266,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$65.58",
+      "display_value": "$65.58",
+      "field_position": {
+        "x": 753,
+        "y": 286,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$113.38",
+      "display_value": "$113.38",
+      "field_position": {
+        "x": 745,
+        "y": 306,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$26.52",
+      "display_value": "$26.52",
+      "field_position": {
+        "x": 753,
+        "y": 326,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$98.14",
+      "display_value": "$98.14",
+      "field_position": {
+        "x": 753,
+        "y": 346,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$562.94",
+      "display_value": "$562.94",
+      "field_position": {
+        "x": 745,
+        "y": 366,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$26,458.18",
+      "display_value": "$26,458.18",
+      "field_position": {
+        "x": 722,
+        "y": 386,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$1,828.79",
+      "display_value": "$1,828.79",
+      "field_position": {
+        "x": 50,
+        "y": 476,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$562.94",
+      "display_value": "$562.94",
+      "field_position": {
+        "x": 310,
+        "y": 476,
+        "width": 92,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,265.85",
+      "display_value": "$1,265.85",
+      "field_position": {
+        "x": 570,
+        "y": 476,
+        "width": 119,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Brian E. Allen",
+    "employer_name": "Brightstar Retail Inc.",
+    "employee_id": "125755",
+    "ssn_last4": "***-**-8909",
+    "employee_address": "321 Pine Road",
+    "employee_city_state_zip": "Denver, CO 80201",
+    "employer_address": "222 Commerce Blvd",
+    "employer_city_state_zip": "Philadelphia, PA 19101",
+    "pay_date": "11/28/2024",
+    "pay_period_start": "11/18/2024",
+    "pay_period_end": "11/24/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1179.80",
+    "gross_pay_current": "1828.79",
+    "net_pay_current": "1265.85",
+    "gross_pay_ytd": "85953.13",
+    "net_pay_ytd": "59494.95",
+    "total_deductions_current": "562.94",
+    "federal_tax_withheld": "259.32",
+    "state_tax_withheld": "65.58",
+    "social_security_tax": "113.38",
+    "medicare_tax": "26.52",
+    "total_deductions_ytd": "26458.18",
+    "overtime_pay_current": "648.99",
+    "health_insurance": "98.14"
+  }
+}

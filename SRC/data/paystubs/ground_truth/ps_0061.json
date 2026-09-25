@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0061",
+  "image_file": "ps_0061.png",
+  "layout_template": "left_header",
+  "noise_profile": "heavy_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "06/05/2024",
+      "display_value": "06/05/2024",
+      "field_position": {
+        "x": 706,
+        "y": 40,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "05/16/2024",
+      "display_value": "05/16/2024",
+      "field_position": {
+        "x": 708,
+        "y": 54,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "05/31/2024",
+      "display_value": "05/31/2024",
+      "field_position": {
+        "x": 695,
+        "y": 68,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 698,
+        "y": 82,
+        "width": 61,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Keystone Properties Group",
+      "display_value": "Keystone Properties Group",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 262,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 69,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 74,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Robert N. Anderson",
+      "display_value": "Robert N. Anderson",
+      "field_position": {
+        "x": 596,
+        "y": 133,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "157443",
+      "display_value": "157443",
+      "field_position": {
+        "x": 541,
+        "y": 153,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-1125",
+      "display_value": "***-**-1125",
+      "field_position": {
+        "x": 535,
+        "y": 173,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 597,
+        "y": 193,
+        "width": 90,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Nashville, TN 37201",
+      "display_value": "Nashville, TN 37201",
+      "field_position": {
+        "x": 535,
+        "y": 213,
+        "width": 115,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,699.94",
+      "display_value": "$1,699.94",
+      "field_position": {
+        "x": 742,
+        "y": 283,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$401.46",
+      "display_value": "$401.46",
+      "field_position": {
+        "x": 753,
+        "y": 303,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$1,158.65",
+      "display_value": "$1,158.65",
+      "field_position": {
+        "x": 743,
+        "y": 323,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$3,260.05",
+      "display_value": "$3,260.05",
+      "field_position": {
+        "x": 743,
+        "y": 343,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$32,600.50",
+      "display_value": "$32,600.50",
+      "field_position": {
+        "x": 736,
+        "y": 363,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$416.03",
+      "display_value": "$416.03",
+      "field_position": {
+        "x": 753,
+        "y": 428,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$207.09",
+      "display_value": "$207.09",
+      "field_position": {
+        "x": 753,
+        "y": 448,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$202.12",
+      "display_value": "$202.12",
+      "field_position": {
+        "x": 753,
+        "y": 468,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$47.27",
+      "display_value": "$47.27",
+      "field_position": {
+        "x": 760,
+        "y": 488,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$178.62",
+      "display_value": "$178.62",
+      "field_position": {
+        "x": 753,
+        "y": 508,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$280.35",
+      "display_value": "$280.35",
+      "field_position": {
+        "x": 753,
+        "y": 528,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,331.48",
+      "display_value": "$1,331.48",
+      "field_position": {
+        "x": 743,
+        "y": 548,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$13,314.80",
+      "display_value": "$13,314.80",
+      "field_position": {
+        "x": 736,
+        "y": 568,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,928.57",
+      "display_value": "$1,928.57",
+      "field_position": {
+        "x": 50,
+        "y": 629,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$19,285.70",
+      "display_value": "$19,285.70",
+      "field_position": {
+        "x": 50,
+        "y": 665,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Robert N. Anderson",
+    "employer_name": "Keystone Properties Group",
+    "employee_id": "157443",
+    "ssn_last4": "***-**-1125",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "Nashville, TN 37201",
+    "employer_address": "147 Birch Court",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "06/05/2024",
+    "pay_period_start": "05/16/2024",
+    "pay_period_end": "05/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1699.94",
+    "gross_pay_current": "3260.05",
+    "net_pay_current": "1928.57",
+    "gross_pay_ytd": "32600.50",
+    "net_pay_ytd": "19285.70",
+    "total_deductions_current": "1331.48",
+    "federal_tax_withheld": "416.03",
+    "state_tax_withheld": "207.09",
+    "social_security_tax": "202.12",
+    "medicare_tax": "47.27",
+    "total_deductions_ytd": "13314.80",
+    "overtime_pay_current": "401.46",
+    "bonus_current": "1158.65",
+    "retirement_401k": "178.62",
+    "health_insurance": "280.35"
+  }
+}

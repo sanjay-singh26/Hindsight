@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0146",
+  "image_file": "ps_0146.png",
+  "layout_template": "side_by_side",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Pinnacle Staffing Agency",
+      "display_value": "Pinnacle Staffing Agency",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 250,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 68,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Tampa, FL 33601",
+      "display_value": "Tampa, FL 33601",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 79,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Mark R. Martin",
+      "display_value": "Mark R. Martin",
+      "field_position": {
+        "x": 50,
+        "y": 139,
+        "width": 89,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "993892",
+      "display_value": "993892",
+      "field_position": {
+        "x": 50,
+        "y": 175,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-2964",
+      "display_value": "***-**-2964",
+      "field_position": {
+        "x": 50,
+        "y": 211,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 50,
+        "y": 231,
+        "width": 87,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 50,
+        "y": 246,
+        "width": 77,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "04/12/2024",
+      "display_value": "04/12/2024",
+      "field_position": {
+        "x": 50,
+        "y": 297,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "04/01/2024",
+      "display_value": "04/01/2024",
+      "field_position": {
+        "x": 50,
+        "y": 333,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "04/07/2024",
+      "display_value": "04/07/2024",
+      "field_position": {
+        "x": 50,
+        "y": 369,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 50,
+        "y": 405,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$833.64",
+      "display_value": "$833.64",
+      "field_position": {
+        "x": 751,
+        "y": 65,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$833.64",
+      "display_value": "$833.64",
+      "field_position": {
+        "x": 751,
+        "y": 85,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$11,670.96",
+      "display_value": "$11,670.96",
+      "field_position": {
+        "x": 734,
+        "y": 105,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$123.00",
+      "display_value": "$123.00",
+      "field_position": {
+        "x": 752,
+        "y": 170,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$27.46",
+      "display_value": "$27.46",
+      "field_position": {
+        "x": 759,
+        "y": 190,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$51.69",
+      "display_value": "$51.69",
+      "field_position": {
+        "x": 759,
+        "y": 210,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$12.09",
+      "display_value": "$12.09",
+      "field_position": {
+        "x": 759,
+        "y": 230,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$72.87",
+      "display_value": "$72.87",
+      "field_position": {
+        "x": 759,
+        "y": 250,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$337.07",
+      "display_value": "$337.07",
+      "field_position": {
+        "x": 752,
+        "y": 270,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$624.18",
+      "display_value": "$624.18",
+      "field_position": {
+        "x": 752,
+        "y": 290,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$8,738.52",
+      "display_value": "$8,738.52",
+      "field_position": {
+        "x": 741,
+        "y": 310,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$209.46",
+      "display_value": "$209.46",
+      "field_position": {
+        "x": 430,
+        "y": 391,
+        "width": 81,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$2,932.44",
+      "display_value": "$2,932.44",
+      "field_position": {
+        "x": 430,
+        "y": 436,
+        "width": 100,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Mark R. Martin",
+    "employer_name": "Pinnacle Staffing Agency",
+    "employee_id": "993892",
+    "ssn_last4": "***-**-2964",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Tampa, FL 33601",
+    "pay_date": "04/12/2024",
+    "pay_period_start": "04/01/2024",
+    "pay_period_end": "04/07/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "833.64",
+    "gross_pay_current": "833.64",
+    "net_pay_current": "209.46",
+    "gross_pay_ytd": "11670.96",
+    "net_pay_ytd": "2932.44",
+    "total_deductions_current": "624.18",
+    "federal_tax_withheld": "123.00",
+    "state_tax_withheld": "27.46",
+    "social_security_tax": "51.69",
+    "medicare_tax": "12.09",
+    "total_deductions_ytd": "8738.52",
+    "retirement_401k": "72.87",
+    "health_insurance": "337.07"
+  }
+}

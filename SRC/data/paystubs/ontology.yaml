@@ -1,0 +1,146 @@
+domain: paystub
+families:
+  - name: compensation
+    concepts:
+      - id: gross_pay_current
+        name: "Gross Pay (Current)"
+        definition: "The total amount of money earned by the employee in the current pay period before any deductions are applied. This includes regular wages, overtime, bonuses, and all other forms of compensation. It is the sum of all earnings line items for the current period only, not year-to-date."
+        confusable_with: [net_pay_current, gross_pay_ytd]
+
+      - id: net_pay_current
+        name: "Net Pay (Current)"
+        definition: "The amount of money the employee actually receives (take-home pay) for the current pay period, calculated as gross pay minus all deductions (taxes, insurance, retirement contributions, etc.). This is the final payment amount deposited or issued to the employee. Often labeled 'Net Pay,' 'Take Home Pay,' or 'Amount Paid.'"
+        confusable_with: [gross_pay_current]
+
+      - id: regular_pay_current
+        name: "Regular Pay (Current)"
+        definition: "The earnings for standard (non-overtime) hours worked in the current pay period, calculated as the employee's base hourly rate multiplied by regular hours, or the per-period salary amount for salaried employees. This excludes overtime, bonuses, commissions, and any supplemental pay."
+        confusable_with: [gross_pay_current, overtime_pay_current]
+
+      - id: overtime_pay_current
+        name: "Overtime Pay (Current)"
+        definition: "The additional earnings for hours worked beyond the standard work schedule in the current pay period, typically compensated at 1.5x or 2x the regular hourly rate. This is the overtime premium amount only, separate from regular pay."
+        confusable_with: [regular_pay_current]
+
+      - id: bonus_current
+        name: "Bonus (Current)"
+        definition: "A supplemental, non-regular payment awarded to the employee in the current pay period, such as a performance bonus, signing bonus, holiday bonus, or incentive payment. This is distinct from regular wages and overtime and appears as a separate earnings line item."
+        confusable_with: [regular_pay_current, gross_pay_current]
+
+      - id: gross_pay_ytd
+        name: "Gross Pay (Year-to-Date)"
+        definition: "The cumulative total of all gross earnings from January 1 of the current calendar year through the end of the current pay period. This is the running sum of all current-period gross pay amounts across every paycheck issued in the year so far."
+        confusable_with: [gross_pay_current, net_pay_ytd]
+
+      - id: net_pay_ytd
+        name: "Net Pay (Year-to-Date)"
+        definition: "The cumulative total of all net (take-home) pay from January 1 of the current calendar year through the end of the current pay period. This is the running sum of all current-period net pay amounts across every paycheck issued in the year so far."
+        confusable_with: [gross_pay_ytd, net_pay_current]
+
+      - id: total_deductions_current
+        name: "Total Deductions (Current)"
+        definition: "The aggregate sum of all amounts withheld from the employee's gross pay in the current pay period, including federal and state taxes, Social Security, Medicare, retirement contributions, health insurance premiums, and any other withholdings. Calculated as gross pay current minus net pay current."
+        confusable_with: [total_deductions_ytd, gross_pay_current]
+
+      - id: total_deductions_ytd
+        name: "Total Deductions (Year-to-Date)"
+        definition: "The cumulative total of all deductions withheld from January 1 of the current calendar year through the end of the current pay period. This is the running sum of all current-period total deduction amounts across every paycheck issued in the year so far."
+        confusable_with: [total_deductions_current, gross_pay_ytd]
+
+  - name: temporal
+    concepts:
+      - id: pay_date
+        name: "Pay Date"
+        definition: "The specific calendar date on which the employee's net pay is disbursed (deposited or check issued). This is the actual payment date, not the last day of the pay period. Often labeled 'Pay Date,' 'Check Date,' or 'Date Paid.'"
+        confusable_with: [pay_period_end]
+
+      - id: pay_period_start
+        name: "Pay Period Start Date"
+        definition: "The first calendar date of the pay period covered by this paycheck. It marks the beginning of the date range during which the employee's reported hours and earnings were accrued. Often labeled 'Period Beginning' or 'Pay Period Start.'"
+        confusable_with: [pay_period_end]
+
+      - id: pay_period_end
+        name: "Pay Period End Date"
+        definition: "The last calendar date of the pay period covered by this paycheck. It marks the end of the date range during which the employee's reported hours and earnings were accrued. This is not the date payment is issued; that is the pay date."
+        confusable_with: [pay_date, pay_period_start]
+
+      - id: pay_frequency
+        name: "Pay Frequency"
+        definition: "The recurring schedule on which the employee is paid, expressed as a term such as 'Weekly,' 'Bi-Weekly,' 'Semi-Monthly,' or 'Monthly.' This describes how often paychecks are issued, not a specific date."
+        confusable_with: []
+
+  - name: identity
+    concepts:
+      - id: employee_name
+        name: "Employee Name"
+        definition: "The full legal name of the individual who performed the work and is receiving compensation on this pay stub. Typically appears in a section labeled 'Employee' and is the person to whom the paycheck is issued."
+        confusable_with: [employer_name]
+
+      - id: employer_name
+        name: "Employer Name"
+        definition: "The legal name of the company, organization, or entity that employs the individual and is issuing this paycheck. This is the paying organization, not the employee. Often appears at the top of the pay stub or in a header section."
+        confusable_with: [employee_name]
+
+      - id: employee_id
+        name: "Employee ID"
+        definition: "A unique alphanumeric identifier assigned to the employee by the employer for internal recordkeeping purposes. This is not the Social Security Number; it is an employer-specific badge number, personnel number, or employee code."
+        confusable_with: [ssn_last4]
+
+      - id: ssn_last4
+        name: "SSN Last 4 Digits"
+        definition: "The last four digits of the employee's Social Security Number, typically displayed in masked format (e.g., XXX-XX-1234 or ***-**-1234) for identification purposes on the pay stub. This is a government-issued identifier, not an employer-assigned ID."
+        confusable_with: [employee_id]
+
+  - name: deductions
+    concepts:
+      - id: federal_tax_withheld
+        name: "Federal Income Tax Withheld"
+        definition: "The amount of U.S. federal income tax withheld from the employee's earnings in the current pay period, based on the employee's W-4 filing status and allowances. This is the federal tax only, not state, Social Security, or Medicare taxes."
+        confusable_with: [state_tax_withheld, social_security_tax, medicare_tax]
+
+      - id: state_tax_withheld
+        name: "State Income Tax Withheld"
+        definition: "The amount of state-level income tax withheld from the employee's earnings in the current pay period, based on the employee's state of residence or work and applicable state withholding rules. This is the state tax only, not federal, Social Security, or Medicare taxes."
+        confusable_with: [federal_tax_withheld]
+
+      - id: social_security_tax
+        name: "Social Security Tax (FICA - OASDI)"
+        definition: "The employee's share of the Social Security (OASDI) payroll tax withheld in the current pay period, calculated as 6.2% of applicable wages up to the annual wage base limit. This funds Old-Age, Survivors, and Disability Insurance and is distinct from Medicare tax, which is a separate FICA component."
+        confusable_with: [medicare_tax, federal_tax_withheld]
+
+      - id: medicare_tax
+        name: "Medicare Tax (FICA - HI)"
+        definition: "The employee's share of the Medicare (HI) payroll tax withheld in the current pay period, calculated as 1.45% of all applicable wages with no wage base limit (plus an additional 0.9% surtax above $200,000 for high earners). This funds Hospital Insurance and is distinct from Social Security tax."
+        confusable_with: [social_security_tax, federal_tax_withheld]
+
+      - id: retirement_401k
+        name: "401(k) Retirement Contribution"
+        definition: "The amount of the employee's pre-tax or Roth after-tax contribution to their employer-sponsored 401(k) retirement savings plan in the current pay period. This is an employee elective deferral, not an employer match. Often labeled '401k,' 'Retirement,' or 'Deferred Comp.'"
+        confusable_with: [health_insurance]
+
+      - id: health_insurance
+        name: "Health Insurance Premium"
+        definition: "The employee's share of the health insurance premium deducted in the current pay period for medical, dental, or vision coverage provided through the employer's group health plan. This is the employee's cost-share only, not the employer's contribution."
+        confusable_with: [retirement_401k]
+
+  - name: address
+    concepts:
+      - id: employee_address
+        name: "Employee Street Address"
+        definition: "The street address portion (house/apartment number and street name) of the employee's mailing or residential address as recorded by the employer. This is the address of the person receiving pay, not the company's address."
+        confusable_with: [employer_address, employee_city_state_zip]
+
+      - id: employee_city_state_zip
+        name: "Employee City, State, and ZIP"
+        definition: "The city name, state abbreviation, and ZIP/postal code portion of the employee's mailing or residential address. This completes the employee's address and is distinct from the street address line."
+        confusable_with: [employer_city_state_zip, employee_address]
+
+      - id: employer_address
+        name: "Employer Street Address"
+        definition: "The street address portion (building number and street name) of the employer's business or mailing address. This is the address of the company or organization issuing the paycheck, not the employee's home address."
+        confusable_with: [employee_address, employer_city_state_zip]
+
+      - id: employer_city_state_zip
+        name: "Employer City, State, and ZIP"
+        definition: "The city name, state abbreviation, and ZIP/postal code portion of the employer's business or mailing address. This completes the employer's address and is distinct from the street address line."
+        confusable_with: [employee_city_state_zip, employer_address]

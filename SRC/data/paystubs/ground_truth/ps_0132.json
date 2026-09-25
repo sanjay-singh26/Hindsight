@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0132",
+  "image_file": "ps_0132.png",
+  "layout_template": "boxed",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "United Waste Management",
+      "display_value": "United Waste Management",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 303,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 90,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 126,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Sandra D. Johnson",
+      "display_value": "Sandra D. Johnson",
+      "field_position": {
+        "x": 84,
+        "y": 127,
+        "width": 133,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "999312",
+      "display_value": "999312",
+      "field_position": {
+        "x": 90,
+        "y": 142,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-3588",
+      "display_value": "***-**-3588",
+      "field_position": {
+        "x": 78,
+        "y": 157,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 132,
+        "y": 172,
+        "width": 156,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Fresno, CA 93701",
+      "display_value": "Fresno, CA 93701",
+      "field_position": {
+        "x": 150,
+        "y": 187,
+        "width": 125,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "11/21/2024",
+      "display_value": "11/21/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "11/04/2024",
+      "display_value": "11/04/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "11/17/2024",
+      "display_value": "11/17/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$4,207.43",
+      "display_value": "$4,207.43",
+      "field_position": {
+        "x": 358,
+        "y": 282,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$712.10",
+      "display_value": "$712.10",
+      "field_position": {
+        "x": 370,
+        "y": 302,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$4,919.53",
+      "display_value": "$4,919.53",
+      "field_position": {
+        "x": 358,
+        "y": 322,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$113,149.19",
+      "display_value": "$113,149.19",
+      "field_position": {
+        "x": 346,
+        "y": 342,
+        "width": 66,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$547.06",
+      "display_value": "$547.06",
+      "field_position": {
+        "x": 760,
+        "y": 282,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$253.98",
+      "display_value": "$253.98",
+      "field_position": {
+        "x": 760,
+        "y": 302,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$305.01",
+      "display_value": "$305.01",
+      "field_position": {
+        "x": 760,
+        "y": 322,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$71.33",
+      "display_value": "$71.33",
+      "field_position": {
+        "x": 766,
+        "y": 342,
+        "width": 36,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$376.42",
+      "display_value": "$376.42",
+      "field_position": {
+        "x": 760,
+        "y": 362,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$93.98",
+      "display_value": "$93.98",
+      "field_position": {
+        "x": 766,
+        "y": 382,
+        "width": 36,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,647.78",
+      "display_value": "$1,647.78",
+      "field_position": {
+        "x": 748,
+        "y": 402,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$37,898.94",
+      "display_value": "$37,898.94",
+      "field_position": {
+        "x": 742,
+        "y": 422,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$3,271.75",
+      "display_value": "$3,271.75",
+      "field_position": {
+        "x": 128,
+        "y": 489,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$75,250.25",
+      "display_value": "$75,250.25",
+      "field_position": {
+        "x": 428,
+        "y": 489,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sandra D. Johnson",
+    "employer_name": "United Waste Management",
+    "employee_id": "999312",
+    "ssn_last4": "***-**-3588",
+    "employee_address": "333 Technology Drive",
+    "employee_city_state_zip": "Fresno, CA 93701",
+    "employer_address": "123 Main Street",
+    "employer_city_state_zip": "Albuquerque, NM 87101",
+    "pay_date": "11/21/2024",
+    "pay_period_start": "11/04/2024",
+    "pay_period_end": "11/17/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "4207.43",
+    "gross_pay_current": "4919.53",
+    "net_pay_current": "3271.75",
+    "gross_pay_ytd": "113149.19",
+    "net_pay_ytd": "75250.25",
+    "total_deductions_current": "1647.78",
+    "federal_tax_withheld": "547.06",
+    "state_tax_withheld": "253.98",
+    "social_security_tax": "305.01",
+    "medicare_tax": "71.33",
+    "total_deductions_ytd": "37898.94",
+    "overtime_pay_current": "712.10",
+    "retirement_401k": "376.42",
+    "health_insurance": "93.98"
+  }
+}

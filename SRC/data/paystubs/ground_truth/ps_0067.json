@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0067",
+  "image_file": "ps_0067.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Pacific Coast Logistics",
+      "display_value": "Pacific Coast Logistics",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 223,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 132,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 97,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Joshua L. Martinez",
+      "display_value": "Joshua L. Martinez",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 187,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "711046",
+      "display_value": "711046",
+      "field_position": {
+        "x": 92,
+        "y": 170,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-3317",
+      "display_value": "***-**-3317",
+      "field_position": {
+        "x": 126,
+        "y": 190,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 87,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Nashville, TN 37201",
+      "display_value": "Nashville, TN 37201",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 115,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "05/26/2024",
+      "display_value": "05/26/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "05/13/2024",
+      "display_value": "05/13/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "05/19/2024",
+      "display_value": "05/19/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$1,228.87",
+      "display_value": "$1,228.87",
+      "field_position": {
+        "x": 743,
+        "y": 336,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$1,228.87",
+      "display_value": "$1,228.87",
+      "field_position": {
+        "x": 743,
+        "y": 356,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$24,577.40",
+      "display_value": "$24,577.40",
+      "field_position": {
+        "x": 736,
+        "y": 376,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$221.71",
+      "display_value": "$221.71",
+      "field_position": {
+        "x": 753,
+        "y": 433,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$97.99",
+      "display_value": "$97.99",
+      "field_position": {
+        "x": 760,
+        "y": 453,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$76.19",
+      "display_value": "$76.19",
+      "field_position": {
+        "x": 760,
+        "y": 473,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$17.82",
+      "display_value": "$17.82",
+      "field_position": {
+        "x": 760,
+        "y": 493,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$222.13",
+      "display_value": "$222.13",
+      "field_position": {
+        "x": 753,
+        "y": 513,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$635.84",
+      "display_value": "$635.84",
+      "field_position": {
+        "x": 752,
+        "y": 533,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$12,716.80",
+      "display_value": "$12,716.80",
+      "field_position": {
+        "x": 736,
+        "y": 553,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$593.03",
+      "display_value": "$593.03",
+      "field_position": {
+        "x": 50,
+        "y": 626,
+        "width": 80,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$11,860.60",
+      "display_value": "$11,860.60",
+      "field_position": {
+        "x": 50,
+        "y": 662,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joshua L. Martinez",
+    "employer_name": "Pacific Coast Logistics",
+    "employee_id": "711046",
+    "ssn_last4": "***-**-3317",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Nashville, TN 37201",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "05/26/2024",
+    "pay_period_start": "05/13/2024",
+    "pay_period_end": "05/19/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1228.87",
+    "gross_pay_current": "1228.87",
+    "net_pay_current": "593.03",
+    "gross_pay_ytd": "24577.40",
+    "net_pay_ytd": "11860.60",
+    "total_deductions_current": "635.84",
+    "federal_tax_withheld": "221.71",
+    "state_tax_withheld": "97.99",
+    "social_security_tax": "76.19",
+    "medicare_tax": "17.82",
+    "total_deductions_ytd": "12716.80",
+    "health_insurance": "222.13"
+  }
+}

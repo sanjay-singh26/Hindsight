@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0127",
+  "image_file": "ps_0127.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Lakewood Education Group",
+      "display_value": "Lakewood Education Group",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 286,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 87,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 103,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Andrew H. Johnson",
+      "display_value": "Andrew H. Johnson",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 207,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "134283",
+      "display_value": "134283",
+      "field_position": {
+        "x": 111,
+        "y": 170,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-5503",
+      "display_value": "***-**-5503",
+      "field_position": {
+        "x": 111,
+        "y": 190,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 102,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 108,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "11/06/2024",
+      "display_value": "11/06/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "10/01/2024",
+      "display_value": "10/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "10/31/2024",
+      "display_value": "10/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 65,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$6,622.95",
+      "display_value": "$6,622.95",
+      "field_position": {
+        "x": 744,
+        "y": 336,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$179.94",
+      "display_value": "$179.94",
+      "field_position": {
+        "x": 755,
+        "y": 356,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$6,802.89",
+      "display_value": "$6,802.89",
+      "field_position": {
+        "x": 744,
+        "y": 376,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$68,028.90",
+      "display_value": "$68,028.90",
+      "field_position": {
+        "x": 736,
+        "y": 396,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$1,352.37",
+      "display_value": "$1,352.37",
+      "field_position": {
+        "x": 747,
+        "y": 453,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$353.83",
+      "display_value": "$353.83",
+      "field_position": {
+        "x": 755,
+        "y": 473,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$421.78",
+      "display_value": "$421.78",
+      "field_position": {
+        "x": 755,
+        "y": 493,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$98.64",
+      "display_value": "$98.64",
+      "field_position": {
+        "x": 760,
+        "y": 513,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$274.12",
+      "display_value": "$274.12",
+      "field_position": {
+        "x": 755,
+        "y": 533,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$2,500.74",
+      "display_value": "$2,500.74",
+      "field_position": {
+        "x": 743,
+        "y": 553,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$25,007.40",
+      "display_value": "$25,007.40",
+      "field_position": {
+        "x": 736,
+        "y": 573,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$4,302.15",
+      "display_value": "$4,302.15",
+      "field_position": {
+        "x": 50,
+        "y": 646,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$43,021.50",
+      "display_value": "$43,021.50",
+      "field_position": {
+        "x": 50,
+        "y": 682,
+        "width": 104,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Andrew H. Johnson",
+    "employer_name": "Lakewood Education Group",
+    "employee_id": "134283",
+    "ssn_last4": "***-**-5503",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Austin, TX 73301",
+    "pay_date": "11/06/2024",
+    "pay_period_start": "10/01/2024",
+    "pay_period_end": "10/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "6622.95",
+    "gross_pay_current": "6802.89",
+    "net_pay_current": "4302.15",
+    "gross_pay_ytd": "68028.90",
+    "net_pay_ytd": "43021.50",
+    "total_deductions_current": "2500.74",
+    "federal_tax_withheld": "1352.37",
+    "state_tax_withheld": "353.83",
+    "social_security_tax": "421.78",
+    "medicare_tax": "98.64",
+    "total_deductions_ytd": "25007.40",
+    "overtime_pay_current": "179.94",
+    "health_insurance": "274.12"
+  }
+}

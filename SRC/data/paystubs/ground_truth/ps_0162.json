@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0162",
+  "image_file": "ps_0162.png",
+  "layout_template": "boxed",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Golden State Packaging",
+      "display_value": "Golden State Packaging",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 245,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 88,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Milwaukee, WI 53201",
+      "display_value": "Milwaukee, WI 53201",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 100,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Kimberly J. Lee",
+      "display_value": "Kimberly J. Lee",
+      "field_position": {
+        "x": 129,
+        "y": 127,
+        "width": 96,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "580412",
+      "display_value": "580412",
+      "field_position": {
+        "x": 78,
+        "y": 142,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-1202",
+      "display_value": "***-**-1202",
+      "field_position": {
+        "x": 123,
+        "y": 157,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 121,
+        "y": 172,
+        "width": 103,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 117,
+        "y": 187,
+        "width": 94,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "07/11/2024",
+      "display_value": "07/11/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "07/07/2024",
+      "display_value": "07/07/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$833.42",
+      "display_value": "$833.42",
+      "field_position": {
+        "x": 376,
+        "y": 282,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$630.86",
+      "display_value": "$630.86",
+      "field_position": {
+        "x": 376,
+        "y": 302,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$1,464.28",
+      "display_value": "$1,464.28",
+      "field_position": {
+        "x": 369,
+        "y": 322,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$39,535.56",
+      "display_value": "$39,535.56",
+      "field_position": {
+        "x": 364,
+        "y": 342,
+        "width": 48,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$308.95",
+      "display_value": "$308.95",
+      "field_position": {
+        "x": 767,
+        "y": 282,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$93.36",
+      "display_value": "$93.36",
+      "field_position": {
+        "x": 772,
+        "y": 302,
+        "width": 30,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$90.79",
+      "display_value": "$90.79",
+      "field_position": {
+        "x": 771,
+        "y": 322,
+        "width": 31,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$21.23",
+      "display_value": "$21.23",
+      "field_position": {
+        "x": 774,
+        "y": 342,
+        "width": 28,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$73.25",
+      "display_value": "$73.25",
+      "field_position": {
+        "x": 772,
+        "y": 362,
+        "width": 30,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$172.84",
+      "display_value": "$172.84",
+      "field_position": {
+        "x": 767,
+        "y": 382,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$760.42",
+      "display_value": "$760.42",
+      "field_position": {
+        "x": 766,
+        "y": 402,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$20,531.34",
+      "display_value": "$20,531.34",
+      "field_position": {
+        "x": 755,
+        "y": 422,
+        "width": 47,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$703.86",
+      "display_value": "$703.86",
+      "field_position": {
+        "x": 128,
+        "y": 489,
+        "width": 78,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$19,004.22",
+      "display_value": "$19,004.22",
+      "field_position": {
+        "x": 428,
+        "y": 489,
+        "width": 105,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kimberly J. Lee",
+    "employer_name": "Golden State Packaging",
+    "employee_id": "580412",
+    "ssn_last4": "***-**-1202",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "Tulsa, OK 74101",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "Milwaukee, WI 53201",
+    "pay_date": "07/11/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/07/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "833.42",
+    "gross_pay_current": "1464.28",
+    "net_pay_current": "703.86",
+    "gross_pay_ytd": "39535.56",
+    "net_pay_ytd": "19004.22",
+    "total_deductions_current": "760.42",
+    "federal_tax_withheld": "308.95",
+    "state_tax_withheld": "93.36",
+    "social_security_tax": "90.79",
+    "medicare_tax": "21.23",
+    "total_deductions_ytd": "20531.34",
+    "overtime_pay_current": "630.86",
+    "retirement_401k": "73.25",
+    "health_insurance": "172.84"
+  }
+}

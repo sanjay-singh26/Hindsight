@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0190",
+  "image_file": "ps_0190.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "heavy_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Continental Freight Lines",
+      "display_value": "Continental Freight Lines",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 120,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Melissa W. Adams",
+      "display_value": "Melissa W. Adams",
+      "field_position": {
+        "x": 161,
+        "y": 113,
+        "width": 125,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "349136",
+      "display_value": "349136",
+      "field_position": {
+        "x": 107,
+        "y": 133,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-9370",
+      "display_value": "***-**-9370",
+      "field_position": {
+        "x": 138,
+        "y": 153,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 107,
+        "y": 173,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 169,
+        "y": 193,
+        "width": 133,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "12/05/2024",
+      "display_value": "12/05/2024",
+      "field_position": {
+        "x": 116,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "11/01/2024",
+      "display_value": "11/01/2024",
+      "field_position": {
+        "x": 286,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "11/30/2024",
+      "display_value": "11/30/2024",
+      "field_position": {
+        "x": 504,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 716,
+        "y": 218,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$2,465.11",
+      "display_value": "$2,465.11",
+      "field_position": {
+        "x": 730,
+        "y": 278,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$686.26",
+      "display_value": "$686.26",
+      "field_position": {
+        "x": 745,
+        "y": 298,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$751.95",
+      "display_value": "$751.95",
+      "field_position": {
+        "x": 745,
+        "y": 318,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$175.86",
+      "display_value": "$175.86",
+      "field_position": {
+        "x": 745,
+        "y": 338,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$901.92",
+      "display_value": "$901.92",
+      "field_position": {
+        "x": 745,
+        "y": 358,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$179.29",
+      "display_value": "$179.29",
+      "field_position": {
+        "x": 745,
+        "y": 378,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$5,160.39",
+      "display_value": "$5,160.39",
+      "field_position": {
+        "x": 730,
+        "y": 398,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$56,764.29",
+      "display_value": "$56,764.29",
+      "field_position": {
+        "x": 722,
+        "y": 418,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$9,743.75",
+      "display_value": "$9,743.75",
+      "field_position": {
+        "x": 730,
+        "y": 483,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$620.57",
+      "display_value": "$620.57",
+      "field_position": {
+        "x": 745,
+        "y": 503,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,763.93",
+      "display_value": "$1,763.93",
+      "field_position": {
+        "x": 730,
+        "y": 523,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$12,128.25",
+      "display_value": "$12,128.25",
+      "field_position": {
+        "x": 722,
+        "y": 543,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$133,410.75",
+      "display_value": "$133,410.75",
+      "field_position": {
+        "x": 714,
+        "y": 563,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$6,967.86",
+      "display_value": "$6,967.86",
+      "field_position": {
+        "x": 50,
+        "y": 624,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$76,646.46",
+      "display_value": "$76,646.46",
+      "field_position": {
+        "x": 50,
+        "y": 660,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Melissa W. Adams",
+    "employer_name": "Continental Freight Lines",
+    "employee_id": "349136",
+    "ssn_last4": "***-**-9370",
+    "employee_address": "741 Ash Street",
+    "employee_city_state_zip": "Houston, TX 77001",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Louisville, KY 40201",
+    "pay_date": "12/05/2024",
+    "pay_period_start": "11/01/2024",
+    "pay_period_end": "11/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "9743.75",
+    "gross_pay_current": "12128.25",
+    "net_pay_current": "6967.86",
+    "gross_pay_ytd": "133410.75",
+    "net_pay_ytd": "76646.46",
+    "total_deductions_current": "5160.39",
+    "federal_tax_withheld": "2465.11",
+    "state_tax_withheld": "686.26",
+    "social_security_tax": "751.95",
+    "medicare_tax": "175.86",
+    "total_deductions_ytd": "56764.29",
+    "overtime_pay_current": "620.57",
+    "bonus_current": "1763.93",
+    "retirement_401k": "901.92",
+    "health_insurance": "179.29"
+  }
+}

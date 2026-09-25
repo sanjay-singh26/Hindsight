@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0021",
+  "image_file": "ps_0021.png",
+  "layout_template": "government",
+  "noise_profile": "heavy_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Lakewood Education Group",
+      "display_value": "Lakewood Education Group",
+      "field_position": {
+        "x": 154,
+        "y": 75,
+        "width": 169,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 144,
+        "y": 95,
+        "width": 87,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Charlotte, NC 28201",
+      "display_value": "Charlotte, NC 28201",
+      "field_position": {
+        "x": 173,
+        "y": 115,
+        "width": 118,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Melissa C. Hernandez",
+      "display_value": "Melissa C. Hernandez",
+      "field_position": {
+        "x": 141,
+        "y": 143,
+        "width": 133,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "640490",
+      "display_value": "640490",
+      "field_position": {
+        "x": 89,
+        "y": 163,
+        "width": 45,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-6491",
+      "display_value": "***-**-6491",
+      "field_position": {
+        "x": 130,
+        "y": 183,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 157,
+        "y": 203,
+        "width": 115,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Indianapolis, IN 46201",
+      "display_value": "Indianapolis, IN 46201",
+      "field_position": {
+        "x": 141,
+        "y": 223,
+        "width": 135,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "03/13/2024",
+      "display_value": "03/13/2024",
+      "field_position": {
+        "x": 109,
+        "y": 251,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "02/26/2024",
+      "display_value": "02/26/2024",
+      "field_position": {
+        "x": 316,
+        "y": 251,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "03/10/2024",
+      "display_value": "03/10/2024",
+      "field_position": {
+        "x": 511,
+        "y": 251,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 715,
+        "y": 251,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$1,313.82",
+      "display_value": "$1,313.82",
+      "field_position": {
+        "x": 748,
+        "y": 309,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$1,313.82",
+      "display_value": "$1,313.82",
+      "field_position": {
+        "x": 748,
+        "y": 329,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$6,569.10",
+      "display_value": "$6,569.10",
+      "field_position": {
+        "x": 746,
+        "y": 349,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$252.54",
+      "display_value": "$252.54",
+      "field_position": {
+        "x": 754,
+        "y": 407,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$75.31",
+      "display_value": "$75.31",
+      "field_position": {
+        "x": 763,
+        "y": 427,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$81.46",
+      "display_value": "$81.46",
+      "field_position": {
+        "x": 762,
+        "y": 447,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$19.05",
+      "display_value": "$19.05",
+      "field_position": {
+        "x": 763,
+        "y": 467,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$273.95",
+      "display_value": "$273.95",
+      "field_position": {
+        "x": 754,
+        "y": 487,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$702.31",
+      "display_value": "$702.31",
+      "field_position": {
+        "x": 756,
+        "y": 507,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$3,511.55",
+      "display_value": "$3,511.55",
+      "field_position": {
+        "x": 749,
+        "y": 527,
+        "width": 51,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$611.51",
+      "display_value": "$611.51",
+      "field_position": {
+        "x": 103,
+        "y": 562,
+        "width": 68,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$3,057.55",
+      "display_value": "$3,057.55",
+      "field_position": {
+        "x": 134,
+        "y": 592,
+        "width": 93,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Melissa C. Hernandez",
+    "employer_name": "Lakewood Education Group",
+    "employee_id": "640490",
+    "ssn_last4": "***-**-6491",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Indianapolis, IN 46201",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Charlotte, NC 28201",
+    "pay_date": "03/13/2024",
+    "pay_period_start": "02/26/2024",
+    "pay_period_end": "03/10/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1313.82",
+    "gross_pay_current": "1313.82",
+    "net_pay_current": "611.51",
+    "gross_pay_ytd": "6569.10",
+    "net_pay_ytd": "3057.55",
+    "total_deductions_current": "702.31",
+    "federal_tax_withheld": "252.54",
+    "state_tax_withheld": "75.31",
+    "social_security_tax": "81.46",
+    "medicare_tax": "19.05",
+    "total_deductions_ytd": "3511.55",
+    "health_insurance": "273.95"
+  }
+}

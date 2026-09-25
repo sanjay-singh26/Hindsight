@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0042",
+  "image_file": "ps_0042.png",
+  "layout_template": "boxed",
+  "noise_profile": "phone_photo",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Silverline Transport LLC",
+      "display_value": "Silverline Transport LLC",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 231,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 85,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 81,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Joshua E. Allen",
+      "display_value": "Joshua E. Allen",
+      "field_position": {
+        "x": 114,
+        "y": 127,
+        "width": 89,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "173201",
+      "display_value": "173201",
+      "field_position": {
+        "x": 100,
+        "y": 142,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-5526",
+      "display_value": "***-**-5526",
+      "field_position": {
+        "x": 118,
+        "y": 157,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 119,
+        "y": 172,
+        "width": 117,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Oklahoma City, OK 73101",
+      "display_value": "Oklahoma City, OK 73101",
+      "field_position": {
+        "x": 112,
+        "y": 187,
+        "width": 147,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "05/17/2024",
+      "display_value": "05/17/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "05/06/2024",
+      "display_value": "05/06/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "05/12/2024",
+      "display_value": "05/12/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 32,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$2,026.40",
+      "display_value": "$2,026.40",
+      "field_position": {
+        "x": 368,
+        "y": 282,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$561.96",
+      "display_value": "$561.96",
+      "field_position": {
+        "x": 375,
+        "y": 302,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,588.36",
+      "display_value": "$2,588.36",
+      "field_position": {
+        "x": 368,
+        "y": 322,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$49,178.84",
+      "display_value": "$49,178.84",
+      "field_position": {
+        "x": 362,
+        "y": 342,
+        "width": 50,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$397.54",
+      "display_value": "$397.54",
+      "field_position": {
+        "x": 765,
+        "y": 282,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$152.87",
+      "display_value": "$152.87",
+      "field_position": {
+        "x": 765,
+        "y": 302,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$160.48",
+      "display_value": "$160.48",
+      "field_position": {
+        "x": 765,
+        "y": 322,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$37.53",
+      "display_value": "$37.53",
+      "field_position": {
+        "x": 771,
+        "y": 342,
+        "width": 31,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$215.87",
+      "display_value": "$215.87",
+      "field_position": {
+        "x": 765,
+        "y": 362,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$331.87",
+      "display_value": "$331.87",
+      "field_position": {
+        "x": 765,
+        "y": 382,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,296.16",
+      "display_value": "$1,296.16",
+      "field_position": {
+        "x": 758,
+        "y": 402,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$24,627.04",
+      "display_value": "$24,627.04",
+      "field_position": {
+        "x": 752,
+        "y": 422,
+        "width": 50,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,292.20",
+      "display_value": "$1,292.20",
+      "field_position": {
+        "x": 128,
+        "y": 489,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$24,551.80",
+      "display_value": "$24,551.80",
+      "field_position": {
+        "x": 428,
+        "y": 489,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joshua E. Allen",
+    "employer_name": "Silverline Transport LLC",
+    "employee_id": "173201",
+    "ssn_last4": "***-**-5526",
+    "employee_address": "222 Commerce Blvd",
+    "employee_city_state_zip": "Oklahoma City, OK 73101",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "Seattle, WA 98101",
+    "pay_date": "05/17/2024",
+    "pay_period_start": "05/06/2024",
+    "pay_period_end": "05/12/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "2026.40",
+    "gross_pay_current": "2588.36",
+    "net_pay_current": "1292.20",
+    "gross_pay_ytd": "49178.84",
+    "net_pay_ytd": "24551.80",
+    "total_deductions_current": "1296.16",
+    "federal_tax_withheld": "397.54",
+    "state_tax_withheld": "152.87",
+    "social_security_tax": "160.48",
+    "medicare_tax": "37.53",
+    "total_deductions_ytd": "24627.04",
+    "overtime_pay_current": "561.96",
+    "retirement_401k": "215.87",
+    "health_insurance": "331.87"
+  }
+}

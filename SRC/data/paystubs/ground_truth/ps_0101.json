@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0101",
+  "image_file": "ps_0101.png",
+  "layout_template": "side_by_side",
+  "noise_profile": "heavy_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Brightstar Retail Inc.",
+      "display_value": "Brightstar Retail Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 290,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 102,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 102,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Deborah P. Rodriguez",
+      "display_value": "Deborah P. Rodriguez",
+      "field_position": {
+        "x": 50,
+        "y": 139,
+        "width": 156,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "501058",
+      "display_value": "501058",
+      "field_position": {
+        "x": 50,
+        "y": 175,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-8348",
+      "display_value": "***-**-8348",
+      "field_position": {
+        "x": 50,
+        "y": 211,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 50,
+        "y": 231,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 50,
+        "y": 246,
+        "width": 120,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "10/25/2024",
+      "display_value": "10/25/2024",
+      "field_position": {
+        "x": 50,
+        "y": 297,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "10/07/2024",
+      "display_value": "10/07/2024",
+      "field_position": {
+        "x": 50,
+        "y": 333,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "10/20/2024",
+      "display_value": "10/20/2024",
+      "field_position": {
+        "x": 50,
+        "y": 369,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 50,
+        "y": 405,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,564.50",
+      "display_value": "$1,564.50",
+      "field_position": {
+        "x": 730,
+        "y": 65,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$429.22",
+      "display_value": "$429.22",
+      "field_position": {
+        "x": 745,
+        "y": 85,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$1,993.72",
+      "display_value": "$1,993.72",
+      "field_position": {
+        "x": 730,
+        "y": 105,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$41,868.12",
+      "display_value": "$41,868.12",
+      "field_position": {
+        "x": 722,
+        "y": 125,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$433.53",
+      "display_value": "$433.53",
+      "field_position": {
+        "x": 745,
+        "y": 190,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$159.68",
+      "display_value": "$159.68",
+      "field_position": {
+        "x": 745,
+        "y": 210,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$123.61",
+      "display_value": "$123.61",
+      "field_position": {
+        "x": 745,
+        "y": 230,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$28.91",
+      "display_value": "$28.91",
+      "field_position": {
+        "x": 753,
+        "y": 250,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$745.73",
+      "display_value": "$745.73",
+      "field_position": {
+        "x": 745,
+        "y": 270,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$15,660.33",
+      "display_value": "$15,660.33",
+      "field_position": {
+        "x": 722,
+        "y": 290,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,247.99",
+      "display_value": "$1,247.99",
+      "field_position": {
+        "x": 430,
+        "y": 371,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$26,207.79",
+      "display_value": "$26,207.79",
+      "field_position": {
+        "x": 430,
+        "y": 416,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Deborah P. Rodriguez",
+    "employer_name": "Brightstar Retail Inc.",
+    "employee_id": "501058",
+    "ssn_last4": "***-**-8348",
+    "employee_address": "111 Industrial Parkway",
+    "employee_city_state_zip": "Louisville, KY 40201",
+    "employer_address": "789 Elm Boulevard",
+    "employer_city_state_zip": "Raleigh, NC 27601",
+    "pay_date": "10/25/2024",
+    "pay_period_start": "10/07/2024",
+    "pay_period_end": "10/20/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1564.50",
+    "gross_pay_current": "1993.72",
+    "net_pay_current": "1247.99",
+    "gross_pay_ytd": "41868.12",
+    "net_pay_ytd": "26207.79",
+    "total_deductions_current": "745.73",
+    "federal_tax_withheld": "433.53",
+    "state_tax_withheld": "159.68",
+    "social_security_tax": "123.61",
+    "medicare_tax": "28.91",
+    "total_deductions_ytd": "15660.33",
+    "bonus_current": "429.22"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0179",
+  "image_file": "ps_0179.png",
+  "layout_template": "wide_format",
+  "noise_profile": "faded",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Brightstar Retail Inc.",
+      "display_value": "Brightstar Retail Inc.",
+      "field_position": {
+        "x": 40,
+        "y": 30,
+        "width": 290,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 400,
+        "y": 30,
+        "width": 132,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Baltimore, MD 21201",
+      "display_value": "Baltimore, MD 21201",
+      "field_position": {
+        "x": 400,
+        "y": 44,
+        "width": 114,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Donna C. Moore",
+      "display_value": "Donna C. Moore",
+      "field_position": {
+        "x": 40,
+        "y": 84,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "954551",
+      "display_value": "954551",
+      "field_position": {
+        "x": 260,
+        "y": 84,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-6615",
+      "display_value": "***-**-6615",
+      "field_position": {
+        "x": 440,
+        "y": 84,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "06/06/2024",
+      "display_value": "06/06/2024",
+      "field_position": {
+        "x": 590,
+        "y": 84,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 40,
+        "y": 116,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 260,
+        "y": 116,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "05/01/2024",
+      "display_value": "05/01/2024",
+      "field_position": {
+        "x": 490,
+        "y": 116,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "05/31/2024",
+      "display_value": "05/31/2024",
+      "field_position": {
+        "x": 640,
+        "y": 116,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 40,
+        "y": 148,
+        "width": 55,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$7,674.27",
+      "display_value": "$7,674.27",
+      "field_position": {
+        "x": 520,
+        "y": 200,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$395.22",
+      "display_value": "$395.22",
+      "field_position": {
+        "x": 535,
+        "y": 220,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$8,069.49",
+      "display_value": "$8,069.49",
+      "field_position": {
+        "x": 520,
+        "y": 245,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$40,347.45",
+      "display_value": "$40,347.45",
+      "field_position": {
+        "x": 712,
+        "y": 245,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$968.45",
+      "display_value": "$968.45",
+      "field_position": {
+        "x": 535,
+        "y": 310,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$306.24",
+      "display_value": "$306.24",
+      "field_position": {
+        "x": 535,
+        "y": 330,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$500.31",
+      "display_value": "$500.31",
+      "field_position": {
+        "x": 535,
+        "y": 350,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$117.01",
+      "display_value": "$117.01",
+      "field_position": {
+        "x": 535,
+        "y": 370,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,892.01",
+      "display_value": "$1,892.01",
+      "field_position": {
+        "x": 520,
+        "y": 395,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$9,460.05",
+      "display_value": "$9,460.05",
+      "field_position": {
+        "x": 720,
+        "y": 395,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$6,177.48",
+      "display_value": "$6,177.48",
+      "field_position": {
+        "x": 471,
+        "y": 439,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$30,887.40",
+      "display_value": "$30,887.40",
+      "field_position": {
+        "x": 658,
+        "y": 439,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donna C. Moore",
+    "employer_name": "Brightstar Retail Inc.",
+    "employee_id": "954551",
+    "ssn_last4": "***-**-6615",
+    "employee_address": "987 Cedar Lane",
+    "employee_city_state_zip": "San Diego, CA 92101",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Baltimore, MD 21201",
+    "pay_date": "06/06/2024",
+    "pay_period_start": "05/01/2024",
+    "pay_period_end": "05/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "7674.27",
+    "gross_pay_current": "8069.49",
+    "net_pay_current": "6177.48",
+    "gross_pay_ytd": "40347.45",
+    "net_pay_ytd": "30887.40",
+    "total_deductions_current": "1892.01",
+    "federal_tax_withheld": "968.45",
+    "state_tax_withheld": "306.24",
+    "social_security_tax": "500.31",
+    "medicare_tax": "117.01",
+    "total_deductions_ytd": "9460.05",
+    "overtime_pay_current": "395.22"
+  }
+}

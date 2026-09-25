@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0131",
+  "image_file": "ps_0131.png",
+  "layout_template": "side_by_side",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Liberty Manufacturing",
+      "display_value": "Liberty Manufacturing",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 215,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 101,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Columbus, OH 43085",
+      "display_value": "Columbus, OH 43085",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 95,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Jennifer R. Campbell",
+      "display_value": "Jennifer R. Campbell",
+      "field_position": {
+        "x": 50,
+        "y": 139,
+        "width": 120,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "796405",
+      "display_value": "796405",
+      "field_position": {
+        "x": 50,
+        "y": 175,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-6869",
+      "display_value": "***-**-6869",
+      "field_position": {
+        "x": 50,
+        "y": 211,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 50,
+        "y": 231,
+        "width": 83,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 50,
+        "y": 246,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "05/06/2024",
+      "display_value": "05/06/2024",
+      "field_position": {
+        "x": 50,
+        "y": 297,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "04/01/2024",
+      "display_value": "04/01/2024",
+      "field_position": {
+        "x": 50,
+        "y": 333,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "04/30/2024",
+      "display_value": "04/30/2024",
+      "field_position": {
+        "x": 50,
+        "y": 369,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 50,
+        "y": 405,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$4,514.03",
+      "display_value": "$4,514.03",
+      "field_position": {
+        "x": 743,
+        "y": 65,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$1,240.28",
+      "display_value": "$1,240.28",
+      "field_position": {
+        "x": 743,
+        "y": 85,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$5,754.31",
+      "display_value": "$5,754.31",
+      "field_position": {
+        "x": 743,
+        "y": 105,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$23,017.24",
+      "display_value": "$23,017.24",
+      "field_position": {
+        "x": 735,
+        "y": 125,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$966.36",
+      "display_value": "$966.36",
+      "field_position": {
+        "x": 753,
+        "y": 190,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$340.20",
+      "display_value": "$340.20",
+      "field_position": {
+        "x": 753,
+        "y": 210,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$356.77",
+      "display_value": "$356.77",
+      "field_position": {
+        "x": 753,
+        "y": 230,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$83.44",
+      "display_value": "$83.44",
+      "field_position": {
+        "x": 759,
+        "y": 250,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$447.56",
+      "display_value": "$447.56",
+      "field_position": {
+        "x": 753,
+        "y": 270,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$106.89",
+      "display_value": "$106.89",
+      "field_position": {
+        "x": 753,
+        "y": 290,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$2,301.22",
+      "display_value": "$2,301.22",
+      "field_position": {
+        "x": 743,
+        "y": 310,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$9,204.88",
+      "display_value": "$9,204.88",
+      "field_position": {
+        "x": 743,
+        "y": 330,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$3,453.09",
+      "display_value": "$3,453.09",
+      "field_position": {
+        "x": 430,
+        "y": 411,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$13,812.36",
+      "display_value": "$13,812.36",
+      "field_position": {
+        "x": 430,
+        "y": 456,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jennifer R. Campbell",
+    "employer_name": "Liberty Manufacturing",
+    "employee_id": "796405",
+    "ssn_last4": "***-**-6869",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Columbus, OH 43085",
+    "pay_date": "05/06/2024",
+    "pay_period_start": "04/01/2024",
+    "pay_period_end": "04/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "4514.03",
+    "gross_pay_current": "5754.31",
+    "net_pay_current": "3453.09",
+    "gross_pay_ytd": "23017.24",
+    "net_pay_ytd": "13812.36",
+    "total_deductions_current": "2301.22",
+    "federal_tax_withheld": "966.36",
+    "state_tax_withheld": "340.20",
+    "social_security_tax": "356.77",
+    "medicare_tax": "83.44",
+    "total_deductions_ytd": "9204.88",
+    "bonus_current": "1240.28",
+    "retirement_401k": "447.56",
+    "health_insurance": "106.89"
+  }
+}

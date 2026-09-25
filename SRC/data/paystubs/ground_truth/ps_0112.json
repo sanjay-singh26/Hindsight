@@ -1,0 +1,333 @@
+{
+  "paystub_id": "ps_0112",
+  "image_file": "ps_0112.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Pacific Coast Logistics",
+      "display_value": "Pacific Coast Logistics",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 223,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 114,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 110,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Jennifer B. Adams",
+      "display_value": "Jennifer B. Adams",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 180,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "524965",
+      "display_value": "524965",
+      "field_position": {
+        "x": 103,
+        "y": 170,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-7213",
+      "display_value": "***-**-7213",
+      "field_position": {
+        "x": 109,
+        "y": 190,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 132,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 96,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "11/14/2024",
+      "display_value": "11/14/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "11/04/2024",
+      "display_value": "11/04/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "11/10/2024",
+      "display_value": "11/10/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$720.03",
+      "display_value": "$720.03",
+      "field_position": {
+        "x": 753,
+        "y": 336,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$720.03",
+      "display_value": "$720.03",
+      "field_position": {
+        "x": 753,
+        "y": 356,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$32,401.35",
+      "display_value": "$32,401.35",
+      "field_position": {
+        "x": 736,
+        "y": 376,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$100.63",
+      "display_value": "$100.63",
+      "field_position": {
+        "x": 753,
+        "y": 433,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$63.82",
+      "display_value": "$63.82",
+      "field_position": {
+        "x": 760,
+        "y": 453,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$44.64",
+      "display_value": "$44.64",
+      "field_position": {
+        "x": 759,
+        "y": 473,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$10.44",
+      "display_value": "$10.44",
+      "field_position": {
+        "x": 759,
+        "y": 493,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$219.53",
+      "display_value": "$219.53",
+      "field_position": {
+        "x": 753,
+        "y": 513,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$9,878.85",
+      "display_value": "$9,878.85",
+      "field_position": {
+        "x": 743,
+        "y": 533,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$500.50",
+      "display_value": "$500.50",
+      "field_position": {
+        "x": 50,
+        "y": 606,
+        "width": 80,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$22,522.50",
+      "display_value": "$22,522.50",
+      "field_position": {
+        "x": 50,
+        "y": 642,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jennifer B. Adams",
+    "employer_name": "Pacific Coast Logistics",
+    "employee_id": "524965",
+    "ssn_last4": "***-**-7213",
+    "employee_address": "111 Industrial Parkway",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Houston, TX 77001",
+    "pay_date": "11/14/2024",
+    "pay_period_start": "11/04/2024",
+    "pay_period_end": "11/10/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "720.03",
+    "gross_pay_current": "720.03",
+    "net_pay_current": "500.50",
+    "gross_pay_ytd": "32401.35",
+    "net_pay_ytd": "22522.50",
+    "total_deductions_current": "219.53",
+    "federal_tax_withheld": "100.63",
+    "state_tax_withheld": "63.82",
+    "social_security_tax": "44.64",
+    "medicare_tax": "10.44",
+    "total_deductions_ytd": "9878.85"
+  }
+}

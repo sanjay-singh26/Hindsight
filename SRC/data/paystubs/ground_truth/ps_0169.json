@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0169",
+  "image_file": "ps_0169.png",
+  "layout_template": "check_style",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Magnolia Hospitality Inc.",
+      "display_value": "Magnolia Hospitality Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 250,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "246726",
+      "display_value": "246726",
+      "field_position": {
+        "x": 707,
+        "y": 45,
+        "width": 93,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Milwaukee, WI 53201",
+      "display_value": "Milwaukee, WI 53201",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 98,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Joshua L. Sanchez",
+      "display_value": "Joshua L. Sanchez",
+      "field_position": {
+        "x": 133,
+        "y": 131,
+        "width": 110,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-1417",
+      "display_value": "***-**-1417",
+      "field_position": {
+        "x": 84,
+        "y": 149,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 134,
+        "y": 167,
+        "width": 116,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Denver, CO 80201",
+      "display_value": "Denver, CO 80201",
+      "field_position": {
+        "x": 128,
+        "y": 185,
+        "width": 109,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "08/03/2024",
+      "display_value": "08/03/2024",
+      "field_position": {
+        "x": 480,
+        "y": 131,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 460,
+        "y": 147,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "07/31/2024",
+      "display_value": "07/31/2024",
+      "field_position": {
+        "x": 486,
+        "y": 163,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 497,
+        "y": 179,
+        "width": 39,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$6,872.68",
+      "display_value": "$6,872.68",
+      "field_position": {
+        "x": 341,
+        "y": 270,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$6,872.68",
+      "display_value": "$6,872.68",
+      "field_position": {
+        "x": 341,
+        "y": 290,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$48,108.76",
+      "display_value": "$48,108.76",
+      "field_position": {
+        "x": 334,
+        "y": 310,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$970.29",
+      "display_value": "$970.29",
+      "field_position": {
+        "x": 752,
+        "y": 270,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$500.35",
+      "display_value": "$500.35",
+      "field_position": {
+        "x": 752,
+        "y": 290,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$426.11",
+      "display_value": "$426.11",
+      "field_position": {
+        "x": 752,
+        "y": 310,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$99.65",
+      "display_value": "$99.65",
+      "field_position": {
+        "x": 759,
+        "y": 330,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$513.27",
+      "display_value": "$513.27",
+      "field_position": {
+        "x": 752,
+        "y": 350,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$333.98",
+      "display_value": "$333.98",
+      "field_position": {
+        "x": 752,
+        "y": 370,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$2,843.65",
+      "display_value": "$2,843.65",
+      "field_position": {
+        "x": 741,
+        "y": 390,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$19,905.55",
+      "display_value": "$19,905.55",
+      "field_position": {
+        "x": 734,
+        "y": 410,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$4,029.03",
+      "display_value": "$4,029.03",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$28,203.21",
+      "display_value": "$28,203.21",
+      "field_position": {
+        "x": 719,
+        "y": 480,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joshua L. Sanchez",
+    "employer_name": "Magnolia Hospitality Inc.",
+    "employee_id": "246726",
+    "ssn_last4": "***-**-1417",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Denver, CO 80201",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Milwaukee, WI 53201",
+    "pay_date": "08/03/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "6872.68",
+    "gross_pay_current": "6872.68",
+    "net_pay_current": "4029.03",
+    "gross_pay_ytd": "48108.76",
+    "net_pay_ytd": "28203.21",
+    "total_deductions_current": "2843.65",
+    "federal_tax_withheld": "970.29",
+    "state_tax_withheld": "500.35",
+    "social_security_tax": "426.11",
+    "medicare_tax": "99.65",
+    "total_deductions_ytd": "19905.55",
+    "retirement_401k": "513.27",
+    "health_insurance": "333.98"
+  }
+}

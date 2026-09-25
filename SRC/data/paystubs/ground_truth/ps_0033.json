@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0033",
+  "image_file": "ps_0033.png",
+  "layout_template": "compact",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Oakridge Consulting",
+      "display_value": "Oakridge Consulting",
+      "field_position": {
+        "x": 120,
+        "y": 25,
+        "width": 97,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Barbara G. Gonzalez",
+      "display_value": "Barbara G. Gonzalez",
+      "field_position": {
+        "x": 73,
+        "y": 39,
+        "width": 94,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "607719",
+      "display_value": "607719",
+      "field_position": {
+        "x": 82,
+        "y": 53,
+        "width": 32,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-5530",
+      "display_value": "***-**-5530",
+      "field_position": {
+        "x": 64,
+        "y": 67,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 79,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Denver, CO 80201",
+      "display_value": "Denver, CO 80201",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 79,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 84,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Omaha, NE 68101",
+      "display_value": "Omaha, NE 68101",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 80,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "04/05/2024",
+      "display_value": "04/05/2024",
+      "field_position": {
+        "x": 92,
+        "y": 137,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "03/25/2024",
+      "display_value": "03/25/2024",
+      "field_position": {
+        "x": 100,
+        "y": 151,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "03/31/2024",
+      "display_value": "03/31/2024",
+      "field_position": {
+        "x": 112,
+        "y": 165,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 114,
+        "y": 179,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$970.64",
+      "display_value": "$970.64",
+      "field_position": {
+        "x": 774,
+        "y": 215,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$109.90",
+      "display_value": "$109.90",
+      "field_position": {
+        "x": 775,
+        "y": 235,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$1,080.54",
+      "display_value": "$1,080.54",
+      "field_position": {
+        "x": 768,
+        "y": 255,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$14,047.02",
+      "display_value": "$14,047.02",
+      "field_position": {
+        "x": 762,
+        "y": 275,
+        "width": 48,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$143.62",
+      "display_value": "$143.62",
+      "field_position": {
+        "x": 775,
+        "y": 317,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$95.58",
+      "display_value": "$95.58",
+      "field_position": {
+        "x": 780,
+        "y": 337,
+        "width": 30,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$66.99",
+      "display_value": "$66.99",
+      "field_position": {
+        "x": 779,
+        "y": 357,
+        "width": 31,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$15.67",
+      "display_value": "$15.67",
+      "field_position": {
+        "x": 781,
+        "y": 377,
+        "width": 29,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$85.17",
+      "display_value": "$85.17",
+      "field_position": {
+        "x": 781,
+        "y": 397,
+        "width": 29,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$314.48",
+      "display_value": "$314.48",
+      "field_position": {
+        "x": 775,
+        "y": 417,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$721.51",
+      "display_value": "$721.51",
+      "field_position": {
+        "x": 778,
+        "y": 437,
+        "width": 32,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$9,379.63",
+      "display_value": "$9,379.63",
+      "field_position": {
+        "x": 767,
+        "y": 457,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$359.03",
+      "display_value": "$359.03",
+      "field_position": {
+        "x": 103,
+        "y": 485,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$4,667.39",
+      "display_value": "$4,667.39",
+      "field_position": {
+        "x": 122,
+        "y": 499,
+        "width": 44,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Barbara G. Gonzalez",
+    "employer_name": "Oakridge Consulting",
+    "employee_id": "607719",
+    "ssn_last4": "***-**-5530",
+    "employee_address": "777 Market Street",
+    "employee_city_state_zip": "Omaha, NE 68101",
+    "employer_address": "888 Harbor Drive",
+    "employer_city_state_zip": "Denver, CO 80201",
+    "pay_date": "04/05/2024",
+    "pay_period_start": "03/25/2024",
+    "pay_period_end": "03/31/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "970.64",
+    "gross_pay_current": "1080.54",
+    "net_pay_current": "359.03",
+    "gross_pay_ytd": "14047.02",
+    "net_pay_ytd": "4667.39",
+    "total_deductions_current": "721.51",
+    "federal_tax_withheld": "143.62",
+    "state_tax_withheld": "95.58",
+    "social_security_tax": "66.99",
+    "medicare_tax": "15.67",
+    "total_deductions_ytd": "9379.63",
+    "overtime_pay_current": "109.90",
+    "retirement_401k": "85.17",
+    "health_insurance": "314.48"
+  }
+}

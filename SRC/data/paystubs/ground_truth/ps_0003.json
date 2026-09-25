@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0003",
+  "image_file": "ps_0003.png",
+  "layout_template": "compact",
+  "noise_profile": "phone_photo",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 120,
+        "y": 25,
+        "width": 112,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "William H. Wright",
+      "display_value": "William H. Wright",
+      "field_position": {
+        "x": 113,
+        "y": 39,
+        "width": 87,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "584714",
+      "display_value": "584714",
+      "field_position": {
+        "x": 79,
+        "y": 53,
+        "width": 32,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-7216",
+      "display_value": "***-**-7216",
+      "field_position": {
+        "x": 101,
+        "y": 67,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 78,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 88,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 90,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 75,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "04/17/2024",
+      "display_value": "04/17/2024",
+      "field_position": {
+        "x": 110,
+        "y": 137,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "04/08/2024",
+      "display_value": "04/08/2024",
+      "field_position": {
+        "x": 100,
+        "y": 151,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "04/14/2024",
+      "display_value": "04/14/2024",
+      "field_position": {
+        "x": 116,
+        "y": 165,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 101,
+        "y": 179,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$1,970.27",
+      "display_value": "$1,970.27",
+      "field_position": {
+        "x": 768,
+        "y": 215,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$146.33",
+      "display_value": "$146.33",
+      "field_position": {
+        "x": 776,
+        "y": 235,
+        "width": 34,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$2,116.60",
+      "display_value": "$2,116.60",
+      "field_position": {
+        "x": 769,
+        "y": 255,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$31,749.00",
+      "display_value": "$31,749.00",
+      "field_position": {
+        "x": 762,
+        "y": 275,
+        "width": 48,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$355.72",
+      "display_value": "$355.72",
+      "field_position": {
+        "x": 775,
+        "y": 317,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$154.67",
+      "display_value": "$154.67",
+      "field_position": {
+        "x": 775,
+        "y": 337,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$131.23",
+      "display_value": "$131.23",
+      "field_position": {
+        "x": 778,
+        "y": 357,
+        "width": 32,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$30.69",
+      "display_value": "$30.69",
+      "field_position": {
+        "x": 779,
+        "y": 377,
+        "width": 31,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$137.47",
+      "display_value": "$137.47",
+      "field_position": {
+        "x": 775,
+        "y": 397,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$809.78",
+      "display_value": "$809.78",
+      "field_position": {
+        "x": 774,
+        "y": 417,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$12,146.70",
+      "display_value": "$12,146.70",
+      "field_position": {
+        "x": 764,
+        "y": 437,
+        "width": 46,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$1,306.82",
+      "display_value": "$1,306.82",
+      "field_position": {
+        "x": 118,
+        "y": 465,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$19,602.30",
+      "display_value": "$19,602.30",
+      "field_position": {
+        "x": 122,
+        "y": 479,
+        "width": 48,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "William H. Wright",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "584714",
+    "ssn_last4": "***-**-7216",
+    "employee_address": "369 Spruce Terrace",
+    "employee_city_state_zip": "Miami, FL 33101",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Portland, OR 97201",
+    "pay_date": "04/17/2024",
+    "pay_period_start": "04/08/2024",
+    "pay_period_end": "04/14/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1970.27",
+    "gross_pay_current": "2116.60",
+    "net_pay_current": "1306.82",
+    "gross_pay_ytd": "31749.00",
+    "net_pay_ytd": "19602.30",
+    "total_deductions_current": "809.78",
+    "federal_tax_withheld": "355.72",
+    "state_tax_withheld": "154.67",
+    "social_security_tax": "131.23",
+    "medicare_tax": "30.69",
+    "total_deductions_ytd": "12146.70",
+    "overtime_pay_current": "146.33",
+    "retirement_401k": "137.47"
+  }
+}

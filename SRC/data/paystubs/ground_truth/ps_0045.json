@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0045",
+  "image_file": "ps_0045.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Diamond Foods Corporation",
+      "display_value": "Diamond Foods Corporation",
+      "field_position": {
+        "x": 280,
+        "y": 40,
+        "width": 290,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 391,
+        "y": 75,
+        "width": 67,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "New York, NY 10001",
+      "display_value": "New York, NY 10001",
+      "field_position": {
+        "x": 378,
+        "y": 89,
+        "width": 94,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Joseph C. Mitchell",
+      "display_value": "Joseph C. Mitchell",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 113,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "203225",
+      "display_value": "203225",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-2646",
+      "display_value": "***-**-2646",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 132,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 103,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$1,084.67",
+      "display_value": "$1,084.67",
+      "field_position": {
+        "x": 345,
+        "y": 360,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$201.90",
+      "display_value": "$201.90",
+      "field_position": {
+        "x": 355,
+        "y": 380,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$1,286.57",
+      "display_value": "$1,286.57",
+      "field_position": {
+        "x": 346,
+        "y": 400,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$27,017.97",
+      "display_value": "$27,017.97",
+      "field_position": {
+        "x": 339,
+        "y": 420,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$216.03",
+      "display_value": "$216.03",
+      "field_position": {
+        "x": 756,
+        "y": 360,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$99.78",
+      "display_value": "$99.78",
+      "field_position": {
+        "x": 761,
+        "y": 380,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$79.77",
+      "display_value": "$79.77",
+      "field_position": {
+        "x": 761,
+        "y": 400,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$18.66",
+      "display_value": "$18.66",
+      "field_position": {
+        "x": 763,
+        "y": 420,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$45.71",
+      "display_value": "$45.71",
+      "field_position": {
+        "x": 763,
+        "y": 440,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$459.95",
+      "display_value": "$459.95",
+      "field_position": {
+        "x": 754,
+        "y": 460,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$9,658.95",
+      "display_value": "$9,658.95",
+      "field_position": {
+        "x": 744,
+        "y": 480,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$826.62",
+      "display_value": "$826.62",
+      "field_position": {
+        "x": 50,
+        "y": 551,
+        "width": 78,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$17,359.02",
+      "display_value": "$17,359.02",
+      "field_position": {
+        "x": 350,
+        "y": 587,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "05/29/2024",
+      "display_value": "05/29/2024",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "05/20/2024",
+      "display_value": "05/20/2024",
+      "field_position": {
+        "x": 240,
+        "y": 640,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "05/26/2024",
+      "display_value": "05/26/2024",
+      "field_position": {
+        "x": 430,
+        "y": 640,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 640,
+        "width": 36,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joseph C. Mitchell",
+    "employer_name": "Diamond Foods Corporation",
+    "employee_id": "203225",
+    "ssn_last4": "***-**-2646",
+    "employee_address": "333 Technology Drive",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "New York, NY 10001",
+    "pay_date": "05/29/2024",
+    "pay_period_start": "05/20/2024",
+    "pay_period_end": "05/26/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1084.67",
+    "gross_pay_current": "1286.57",
+    "net_pay_current": "826.62",
+    "gross_pay_ytd": "27017.97",
+    "net_pay_ytd": "17359.02",
+    "total_deductions_current": "459.95",
+    "federal_tax_withheld": "216.03",
+    "state_tax_withheld": "99.78",
+    "social_security_tax": "79.77",
+    "medicare_tax": "18.66",
+    "total_deductions_ytd": "9658.95",
+    "overtime_pay_current": "201.90",
+    "retirement_401k": "45.71"
+  }
+}

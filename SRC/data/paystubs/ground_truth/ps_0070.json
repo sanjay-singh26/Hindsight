@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0070",
+  "image_file": "ps_0070.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Quantum Data Systems",
+      "display_value": "Quantum Data Systems",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 242,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 84,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 82,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Paul K. Thomas",
+      "display_value": "Paul K. Thomas",
+      "field_position": {
+        "x": 157,
+        "y": 113,
+        "width": 93,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "922471",
+      "display_value": "922471",
+      "field_position": {
+        "x": 110,
+        "y": 133,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-8684",
+      "display_value": "***-**-8684",
+      "field_position": {
+        "x": 124,
+        "y": 153,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 109,
+        "y": 173,
+        "width": 95,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Memphis, TN 38101",
+      "display_value": "Memphis, TN 38101",
+      "field_position": {
+        "x": 112,
+        "y": 193,
+        "width": 121,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "06/06/2024",
+      "display_value": "06/06/2024",
+      "field_position": {
+        "x": 100,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "05/01/2024",
+      "display_value": "05/01/2024",
+      "field_position": {
+        "x": 280,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "05/31/2024",
+      "display_value": "05/31/2024",
+      "field_position": {
+        "x": 506,
+        "y": 218,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 723,
+        "y": 218,
+        "width": 39,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$1,591.73",
+      "display_value": "$1,591.73",
+      "field_position": {
+        "x": 741,
+        "y": 278,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$257.55",
+      "display_value": "$257.55",
+      "field_position": {
+        "x": 752,
+        "y": 298,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$481.97",
+      "display_value": "$481.97",
+      "field_position": {
+        "x": 752,
+        "y": 318,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$112.72",
+      "display_value": "$112.72",
+      "field_position": {
+        "x": 752,
+        "y": 338,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$435.21",
+      "display_value": "$435.21",
+      "field_position": {
+        "x": 752,
+        "y": 358,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$2,879.18",
+      "display_value": "$2,879.18",
+      "field_position": {
+        "x": 741,
+        "y": 378,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$14,395.90",
+      "display_value": "$14,395.90",
+      "field_position": {
+        "x": 734,
+        "y": 398,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$6,271.80",
+      "display_value": "$6,271.80",
+      "field_position": {
+        "x": 741,
+        "y": 463,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$213.44",
+      "display_value": "$213.44",
+      "field_position": {
+        "x": 751,
+        "y": 483,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$1,288.39",
+      "display_value": "$1,288.39",
+      "field_position": {
+        "x": 741,
+        "y": 503,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$7,773.63",
+      "display_value": "$7,773.63",
+      "field_position": {
+        "x": 741,
+        "y": 523,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$38,868.15",
+      "display_value": "$38,868.15",
+      "field_position": {
+        "x": 734,
+        "y": 543,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$4,894.45",
+      "display_value": "$4,894.45",
+      "field_position": {
+        "x": 50,
+        "y": 604,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$24,472.25",
+      "display_value": "$24,472.25",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Paul K. Thomas",
+    "employer_name": "Quantum Data Systems",
+    "employee_id": "922471",
+    "ssn_last4": "***-**-8684",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "Memphis, TN 38101",
+    "employer_address": "777 Market Street",
+    "employer_city_state_zip": "Tucson, AZ 85701",
+    "pay_date": "06/06/2024",
+    "pay_period_start": "05/01/2024",
+    "pay_period_end": "05/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "6271.80",
+    "gross_pay_current": "7773.63",
+    "net_pay_current": "4894.45",
+    "gross_pay_ytd": "38868.15",
+    "net_pay_ytd": "24472.25",
+    "total_deductions_current": "2879.18",
+    "federal_tax_withheld": "1591.73",
+    "state_tax_withheld": "257.55",
+    "social_security_tax": "481.97",
+    "medicare_tax": "112.72",
+    "total_deductions_ytd": "14395.90",
+    "overtime_pay_current": "213.44",
+    "bonus_current": "1288.39",
+    "retirement_401k": "435.21"
+  }
+}

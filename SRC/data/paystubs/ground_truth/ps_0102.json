@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0102",
+  "image_file": "ps_0102.png",
+  "layout_template": "boxed",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Diamond Foods Corporation",
+      "display_value": "Diamond Foods Corporation",
+      "field_position": {
+        "x": 48,
+        "y": 52,
+        "width": 290,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 348,
+        "y": 52,
+        "width": 102,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Las Vegas, NV 89101",
+      "display_value": "Las Vegas, NV 89101",
+      "field_position": {
+        "x": 348,
+        "y": 66,
+        "width": 95,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Sandra W. Baker",
+      "display_value": "Sandra W. Baker",
+      "field_position": {
+        "x": 121,
+        "y": 127,
+        "width": 102,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "657772",
+      "display_value": "657772",
+      "field_position": {
+        "x": 100,
+        "y": 142,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-7214",
+      "display_value": "***-**-7214",
+      "field_position": {
+        "x": 109,
+        "y": 157,
+        "width": 68,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 130,
+        "y": 172,
+        "width": 102,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Indianapolis, IN 46201",
+      "display_value": "Indianapolis, IN 46201",
+      "field_position": {
+        "x": 115,
+        "y": 187,
+        "width": 135,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "05/09/2024",
+      "display_value": "05/09/2024",
+      "field_position": {
+        "x": 148,
+        "y": 232,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "04/22/2024",
+      "display_value": "04/22/2024",
+      "field_position": {
+        "x": 318,
+        "y": 232,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "05/05/2024",
+      "display_value": "05/05/2024",
+      "field_position": {
+        "x": 488,
+        "y": 232,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 658,
+        "y": 232,
+        "width": 49,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$4,398.73",
+      "display_value": "$4,398.73",
+      "field_position": {
+        "x": 369,
+        "y": 282,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus Pay",
+      "extracted_value": "$1,657.06",
+      "display_value": "$1,657.06",
+      "field_position": {
+        "x": 370,
+        "y": 302,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$6,055.79",
+      "display_value": "$6,055.79",
+      "field_position": {
+        "x": 369,
+        "y": 322,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$54,502.11",
+      "display_value": "$54,502.11",
+      "field_position": {
+        "x": 366,
+        "y": 342,
+        "width": 46,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$910.24",
+      "display_value": "$910.24",
+      "field_position": {
+        "x": 767,
+        "y": 282,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$460.02",
+      "display_value": "$460.02",
+      "field_position": {
+        "x": 765,
+        "y": 302,
+        "width": 37,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$375.46",
+      "display_value": "$375.46",
+      "field_position": {
+        "x": 766,
+        "y": 322,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$87.81",
+      "display_value": "$87.81",
+      "field_position": {
+        "x": 773,
+        "y": 342,
+        "width": 29,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$135.64",
+      "display_value": "$135.64",
+      "field_position": {
+        "x": 768,
+        "y": 362,
+        "width": 34,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,969.17",
+      "display_value": "$1,969.17",
+      "field_position": {
+        "x": 761,
+        "y": 382,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$17,722.53",
+      "display_value": "$17,722.53",
+      "field_position": {
+        "x": 755,
+        "y": 402,
+        "width": 47,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$4,086.62",
+      "display_value": "$4,086.62",
+      "field_position": {
+        "x": 128,
+        "y": 469,
+        "width": 96,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$36,779.58",
+      "display_value": "$36,779.58",
+      "field_position": {
+        "x": 428,
+        "y": 469,
+        "width": 106,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sandra W. Baker",
+    "employer_name": "Diamond Foods Corporation",
+    "employee_id": "657772",
+    "ssn_last4": "***-**-7214",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "Indianapolis, IN 46201",
+    "employer_address": "333 Technology Drive",
+    "employer_city_state_zip": "Las Vegas, NV 89101",
+    "pay_date": "05/09/2024",
+    "pay_period_start": "04/22/2024",
+    "pay_period_end": "05/05/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "4398.73",
+    "gross_pay_current": "6055.79",
+    "net_pay_current": "4086.62",
+    "gross_pay_ytd": "54502.11",
+    "net_pay_ytd": "36779.58",
+    "total_deductions_current": "1969.17",
+    "federal_tax_withheld": "910.24",
+    "state_tax_withheld": "460.02",
+    "social_security_tax": "375.46",
+    "medicare_tax": "87.81",
+    "total_deductions_ytd": "17722.53",
+    "bonus_current": "1657.06",
+    "health_insurance": "135.64"
+  }
+}

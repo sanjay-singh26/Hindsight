@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0007",
+  "image_file": "ps_0007.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "heavy_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Greenfield Agriculture Inc.",
+      "display_value": "Greenfield Agriculture Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 273,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 117,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Omaha, NE 68101",
+      "display_value": "Omaha, NE 68101",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 104,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Timothy E. Wright",
+      "display_value": "Timothy E. Wright",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 191,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "791798",
+      "display_value": "791798",
+      "field_position": {
+        "x": 119,
+        "y": 170,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-8787",
+      "display_value": "***-**-8787",
+      "field_position": {
+        "x": 131,
+        "y": 190,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 120,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 103,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "05/07/2024",
+      "display_value": "05/07/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "04/01/2024",
+      "display_value": "04/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "04/30/2024",
+      "display_value": "04/30/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$8,164.49",
+      "display_value": "$8,164.49",
+      "field_position": {
+        "x": 745,
+        "y": 336,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$8,164.49",
+      "display_value": "$8,164.49",
+      "field_position": {
+        "x": 745,
+        "y": 356,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$32,657.96",
+      "display_value": "$32,657.96",
+      "field_position": {
+        "x": 737,
+        "y": 376,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$1,207.36",
+      "display_value": "$1,207.36",
+      "field_position": {
+        "x": 746,
+        "y": 433,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$573.97",
+      "display_value": "$573.97",
+      "field_position": {
+        "x": 754,
+        "y": 453,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$506.20",
+      "display_value": "$506.20",
+      "field_position": {
+        "x": 754,
+        "y": 473,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$118.39",
+      "display_value": "$118.39",
+      "field_position": {
+        "x": 758,
+        "y": 493,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$759.08",
+      "display_value": "$759.08",
+      "field_position": {
+        "x": 754,
+        "y": 513,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$146.93",
+      "display_value": "$146.93",
+      "field_position": {
+        "x": 755,
+        "y": 533,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$3,311.93",
+      "display_value": "$3,311.93",
+      "field_position": {
+        "x": 748,
+        "y": 553,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$13,247.72",
+      "display_value": "$13,247.72",
+      "field_position": {
+        "x": 739,
+        "y": 573,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$4,852.56",
+      "display_value": "$4,852.56",
+      "field_position": {
+        "x": 50,
+        "y": 646,
+        "width": 94,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$19,410.24",
+      "display_value": "$19,410.24",
+      "field_position": {
+        "x": 50,
+        "y": 682,
+        "width": 102,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Timothy E. Wright",
+    "employer_name": "Greenfield Agriculture Inc.",
+    "employee_id": "791798",
+    "ssn_last4": "***-**-8787",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Omaha, NE 68101",
+    "pay_date": "05/07/2024",
+    "pay_period_start": "04/01/2024",
+    "pay_period_end": "04/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "8164.49",
+    "gross_pay_current": "8164.49",
+    "net_pay_current": "4852.56",
+    "gross_pay_ytd": "32657.96",
+    "net_pay_ytd": "19410.24",
+    "total_deductions_current": "3311.93",
+    "federal_tax_withheld": "1207.36",
+    "state_tax_withheld": "573.97",
+    "social_security_tax": "506.20",
+    "medicare_tax": "118.39",
+    "total_deductions_ytd": "13247.72",
+    "retirement_401k": "759.08",
+    "health_insurance": "146.93"
+  }
+}

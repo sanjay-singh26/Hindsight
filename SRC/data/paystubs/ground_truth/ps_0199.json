@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0199",
+  "image_file": "ps_0199.png",
+  "layout_template": "check_style",
+  "noise_profile": "phone_photo",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Atlas Industrial Supply",
+      "display_value": "Atlas Industrial Supply",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 303,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "609462",
+      "display_value": "609462",
+      "field_position": {
+        "x": 699,
+        "y": 45,
+        "width": 101,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 84,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Donna G. Jones",
+      "display_value": "Donna G. Jones",
+      "field_position": {
+        "x": 138,
+        "y": 131,
+        "width": 109,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-8383",
+      "display_value": "***-**-8383",
+      "field_position": {
+        "x": 162,
+        "y": 149,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 108,
+        "y": 167,
+        "width": 125,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Arlington, TX 76001",
+      "display_value": "Arlington, TX 76001",
+      "field_position": {
+        "x": 120,
+        "y": 185,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "09/29/2024",
+      "display_value": "09/29/2024",
+      "field_position": {
+        "x": 514,
+        "y": 131,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "09/09/2024",
+      "display_value": "09/09/2024",
+      "field_position": {
+        "x": 538,
+        "y": 147,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "09/22/2024",
+      "display_value": "09/22/2024",
+      "field_position": {
+        "x": 490,
+        "y": 163,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 520,
+        "y": 179,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$2,415.55",
+      "display_value": "$2,415.55",
+      "field_position": {
+        "x": 330,
+        "y": 270,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$399.82",
+      "display_value": "$399.82",
+      "field_position": {
+        "x": 345,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$643.12",
+      "display_value": "$643.12",
+      "field_position": {
+        "x": 345,
+        "y": 310,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$3,458.49",
+      "display_value": "$3,458.49",
+      "field_position": {
+        "x": 330,
+        "y": 330,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$65,711.31",
+      "display_value": "$65,711.31",
+      "field_position": {
+        "x": 322,
+        "y": 350,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$437.79",
+      "display_value": "$437.79",
+      "field_position": {
+        "x": 745,
+        "y": 270,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$257.27",
+      "display_value": "$257.27",
+      "field_position": {
+        "x": 745,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$214.43",
+      "display_value": "$214.43",
+      "field_position": {
+        "x": 745,
+        "y": 310,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$50.15",
+      "display_value": "$50.15",
+      "field_position": {
+        "x": 753,
+        "y": 330,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$307.14",
+      "display_value": "$307.14",
+      "field_position": {
+        "x": 745,
+        "y": 350,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$277.90",
+      "display_value": "$277.90",
+      "field_position": {
+        "x": 745,
+        "y": 370,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,544.68",
+      "display_value": "$1,544.68",
+      "field_position": {
+        "x": 730,
+        "y": 390,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$29,348.92",
+      "display_value": "$29,348.92",
+      "field_position": {
+        "x": 722,
+        "y": 410,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,913.81",
+      "display_value": "$1,913.81",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$36,362.39",
+      "display_value": "$36,362.39",
+      "field_position": {
+        "x": 707,
+        "y": 480,
+        "width": 78,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donna G. Jones",
+    "employer_name": "Atlas Industrial Supply",
+    "employee_id": "609462",
+    "ssn_last4": "***-**-8383",
+    "employee_address": "852 Willow Place",
+    "employee_city_state_zip": "Arlington, TX 76001",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Tulsa, OK 74101",
+    "pay_date": "09/29/2024",
+    "pay_period_start": "09/09/2024",
+    "pay_period_end": "09/22/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2415.55",
+    "gross_pay_current": "3458.49",
+    "net_pay_current": "1913.81",
+    "gross_pay_ytd": "65711.31",
+    "net_pay_ytd": "36362.39",
+    "total_deductions_current": "1544.68",
+    "federal_tax_withheld": "437.79",
+    "state_tax_withheld": "257.27",
+    "social_security_tax": "214.43",
+    "medicare_tax": "50.15",
+    "total_deductions_ytd": "29348.92",
+    "overtime_pay_current": "399.82",
+    "bonus_current": "643.12",
+    "retirement_401k": "307.14",
+    "health_insurance": "277.90"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0106",
+  "image_file": "ps_0106.png",
+  "layout_template": "left_header",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "02/02/2024",
+      "display_value": "02/02/2024",
+      "field_position": {
+        "x": 707,
+        "y": 40,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "01/15/2024",
+      "display_value": "01/15/2024",
+      "field_position": {
+        "x": 701,
+        "y": 54,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "01/28/2024",
+      "display_value": "01/28/2024",
+      "field_position": {
+        "x": 666,
+        "y": 68,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 724,
+        "y": 82,
+        "width": 49,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Atlas Industrial Supply",
+      "display_value": "Atlas Industrial Supply",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 238,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 88,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 83,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Jessica G. Taylor",
+      "display_value": "Jessica G. Taylor",
+      "field_position": {
+        "x": 610,
+        "y": 133,
+        "width": 103,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "778120",
+      "display_value": "778120",
+      "field_position": {
+        "x": 577,
+        "y": 153,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-2295",
+      "display_value": "***-**-2295",
+      "field_position": {
+        "x": 576,
+        "y": 173,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 547,
+        "y": 193,
+        "width": 132,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Memphis, TN 38101",
+      "display_value": "Memphis, TN 38101",
+      "field_position": {
+        "x": 565,
+        "y": 213,
+        "width": 119,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$2,459.43",
+      "display_value": "$2,459.43",
+      "field_position": {
+        "x": 744,
+        "y": 283,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$331.01",
+      "display_value": "$331.01",
+      "field_position": {
+        "x": 758,
+        "y": 303,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$2,790.44",
+      "display_value": "$2,790.44",
+      "field_position": {
+        "x": 743,
+        "y": 323,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$5,580.88",
+      "display_value": "$5,580.88",
+      "field_position": {
+        "x": 745,
+        "y": 343,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$548.48",
+      "display_value": "$548.48",
+      "field_position": {
+        "x": 754,
+        "y": 408,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$182.09",
+      "display_value": "$182.09",
+      "field_position": {
+        "x": 755,
+        "y": 428,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$173.01",
+      "display_value": "$173.01",
+      "field_position": {
+        "x": 758,
+        "y": 448,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$40.46",
+      "display_value": "$40.46",
+      "field_position": {
+        "x": 760,
+        "y": 468,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$126.10",
+      "display_value": "$126.10",
+      "field_position": {
+        "x": 757,
+        "y": 488,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$324.90",
+      "display_value": "$324.90",
+      "field_position": {
+        "x": 753,
+        "y": 508,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,395.04",
+      "display_value": "$1,395.04",
+      "field_position": {
+        "x": 745,
+        "y": 528,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$2,790.08",
+      "display_value": "$2,790.08",
+      "field_position": {
+        "x": 744,
+        "y": 548,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,395.40",
+      "display_value": "$1,395.40",
+      "field_position": {
+        "x": 50,
+        "y": 609,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$2,790.80",
+      "display_value": "$2,790.80",
+      "field_position": {
+        "x": 50,
+        "y": 645,
+        "width": 95,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jessica G. Taylor",
+    "employer_name": "Atlas Industrial Supply",
+    "employee_id": "778120",
+    "ssn_last4": "***-**-2295",
+    "employee_address": "333 Technology Drive",
+    "employee_city_state_zip": "Memphis, TN 38101",
+    "employer_address": "789 Elm Boulevard",
+    "employer_city_state_zip": "Raleigh, NC 27601",
+    "pay_date": "02/02/2024",
+    "pay_period_start": "01/15/2024",
+    "pay_period_end": "01/28/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2459.43",
+    "gross_pay_current": "2790.44",
+    "net_pay_current": "1395.40",
+    "gross_pay_ytd": "5580.88",
+    "net_pay_ytd": "2790.80",
+    "total_deductions_current": "1395.04",
+    "federal_tax_withheld": "548.48",
+    "state_tax_withheld": "182.09",
+    "social_security_tax": "173.01",
+    "medicare_tax": "40.46",
+    "total_deductions_ytd": "2790.08",
+    "bonus_current": "331.01",
+    "retirement_401k": "126.10",
+    "health_insurance": "324.90"
+  }
+}

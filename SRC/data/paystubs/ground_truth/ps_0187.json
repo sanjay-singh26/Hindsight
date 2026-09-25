@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0187",
+  "image_file": "ps_0187.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "heavy_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Pinnacle Staffing Agency",
+      "display_value": "Pinnacle Staffing Agency",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 250,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 98,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 99,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Brian H. Carter",
+      "display_value": "Brian H. Carter",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 152,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "517196",
+      "display_value": "517196",
+      "field_position": {
+        "x": 94,
+        "y": 170,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-6617",
+      "display_value": "***-**-6617",
+      "field_position": {
+        "x": 78,
+        "y": 190,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 88,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 106,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "11/07/2024",
+      "display_value": "11/07/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "10/01/2024",
+      "display_value": "10/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "10/31/2024",
+      "display_value": "10/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 50,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$4,741.85",
+      "display_value": "$4,741.85",
+      "field_position": {
+        "x": 741,
+        "y": 336,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,741.85",
+      "display_value": "$4,741.85",
+      "field_position": {
+        "x": 741,
+        "y": 356,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$47,418.50",
+      "display_value": "$47,418.50",
+      "field_position": {
+        "x": 734,
+        "y": 376,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$879.26",
+      "display_value": "$879.26",
+      "field_position": {
+        "x": 752,
+        "y": 433,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$408.42",
+      "display_value": "$408.42",
+      "field_position": {
+        "x": 752,
+        "y": 453,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$293.99",
+      "display_value": "$293.99",
+      "field_position": {
+        "x": 752,
+        "y": 473,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$68.76",
+      "display_value": "$68.76",
+      "field_position": {
+        "x": 759,
+        "y": 493,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$208.94",
+      "display_value": "$208.94",
+      "field_position": {
+        "x": 751,
+        "y": 513,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$158.46",
+      "display_value": "$158.46",
+      "field_position": {
+        "x": 752,
+        "y": 533,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$2,017.83",
+      "display_value": "$2,017.83",
+      "field_position": {
+        "x": 741,
+        "y": 553,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$20,178.30",
+      "display_value": "$20,178.30",
+      "field_position": {
+        "x": 734,
+        "y": 573,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$2,724.02",
+      "display_value": "$2,724.02",
+      "field_position": {
+        "x": 50,
+        "y": 646,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$27,240.20",
+      "display_value": "$27,240.20",
+      "field_position": {
+        "x": 50,
+        "y": 682,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Brian H. Carter",
+    "employer_name": "Pinnacle Staffing Agency",
+    "employee_id": "517196",
+    "ssn_last4": "***-**-6617",
+    "employee_address": "741 Ash Street",
+    "employee_city_state_zip": "Tucson, AZ 85701",
+    "employer_address": "654 Maple Drive",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "11/07/2024",
+    "pay_period_start": "10/01/2024",
+    "pay_period_end": "10/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "4741.85",
+    "gross_pay_current": "4741.85",
+    "net_pay_current": "2724.02",
+    "gross_pay_ytd": "47418.50",
+    "net_pay_ytd": "27240.20",
+    "total_deductions_current": "2017.83",
+    "federal_tax_withheld": "879.26",
+    "state_tax_withheld": "408.42",
+    "social_security_tax": "293.99",
+    "medicare_tax": "68.76",
+    "total_deductions_ytd": "20178.30",
+    "retirement_401k": "208.94",
+    "health_insurance": "158.46"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0141",
+  "image_file": "ps_0141.png",
+  "layout_template": "government",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "United Waste Management",
+      "display_value": "United Waste Management",
+      "field_position": {
+        "x": 135,
+        "y": 75,
+        "width": 168,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 164,
+        "y": 95,
+        "width": 102,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 173,
+        "y": 115,
+        "width": 114,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Matthew F. Martinez",
+      "display_value": "Matthew F. Martinez",
+      "field_position": {
+        "x": 156,
+        "y": 143,
+        "width": 128,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "999138",
+      "display_value": "999138",
+      "field_position": {
+        "x": 132,
+        "y": 163,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-1579",
+      "display_value": "***-**-1579",
+      "field_position": {
+        "x": 121,
+        "y": 183,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 106,
+        "y": 203,
+        "width": 120,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Milwaukee, WI 53201",
+      "display_value": "Milwaukee, WI 53201",
+      "field_position": {
+        "x": 141,
+        "y": 223,
+        "width": 130,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "07/19/2024",
+      "display_value": "07/19/2024",
+      "field_position": {
+        "x": 125,
+        "y": 251,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 360,
+        "y": 251,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "07/14/2024",
+      "display_value": "07/14/2024",
+      "field_position": {
+        "x": 523,
+        "y": 251,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 721,
+        "y": 251,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$2,092.82",
+      "display_value": "$2,092.82",
+      "field_position": {
+        "x": 744,
+        "y": 309,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Earnings",
+      "extracted_value": "$360.97",
+      "display_value": "$360.97",
+      "field_position": {
+        "x": 754,
+        "y": 329,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$2,453.79",
+      "display_value": "$2,453.79",
+      "field_position": {
+        "x": 744,
+        "y": 349,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$34,353.06",
+      "display_value": "$34,353.06",
+      "field_position": {
+        "x": 737,
+        "y": 369,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$510.96",
+      "display_value": "$510.96",
+      "field_position": {
+        "x": 756,
+        "y": 427,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$100.02",
+      "display_value": "$100.02",
+      "field_position": {
+        "x": 755,
+        "y": 447,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$152.13",
+      "display_value": "$152.13",
+      "field_position": {
+        "x": 758,
+        "y": 467,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$35.58",
+      "display_value": "$35.58",
+      "field_position": {
+        "x": 762,
+        "y": 487,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$798.69",
+      "display_value": "$798.69",
+      "field_position": {
+        "x": 754,
+        "y": 507,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$11,181.66",
+      "display_value": "$11,181.66",
+      "field_position": {
+        "x": 744,
+        "y": 527,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,655.10",
+      "display_value": "$1,655.10",
+      "field_position": {
+        "x": 136,
+        "y": 562,
+        "width": 88,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$23,171.40",
+      "display_value": "$23,171.40",
+      "field_position": {
+        "x": 108,
+        "y": 592,
+        "width": 101,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Matthew F. Martinez",
+    "employer_name": "United Waste Management",
+    "employee_id": "999138",
+    "ssn_last4": "***-**-1579",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Milwaukee, WI 53201",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Portland, OR 97201",
+    "pay_date": "07/19/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/14/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2092.82",
+    "gross_pay_current": "2453.79",
+    "net_pay_current": "1655.10",
+    "gross_pay_ytd": "34353.06",
+    "net_pay_ytd": "23171.40",
+    "total_deductions_current": "798.69",
+    "federal_tax_withheld": "510.96",
+    "state_tax_withheld": "100.02",
+    "social_security_tax": "152.13",
+    "medicare_tax": "35.58",
+    "total_deductions_ytd": "11181.66",
+    "overtime_pay_current": "360.97"
+  }
+}

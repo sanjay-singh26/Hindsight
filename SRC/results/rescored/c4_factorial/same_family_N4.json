@@ -1,0 +1,1684 @@
+{
+  "overlap": "same_family",
+  "density": 4,
+  "active_fields": [
+    "state_1",
+    "state_1_employer_id",
+    "state_1_wages",
+    "state_1_income_tax"
+  ],
+  "cell": {
+    "haiku": {
+      "model_id": "claude-haiku-4-5",
+      "scorer_result": {
+        "n_gt": 150,
+        "n_pred": 189,
+        "n_recovered": 4,
+        "n_joint_correct": 3,
+        "n_misbindings": 1,
+        "n_duplicates": 0,
+        "rec_val": 0.026667,
+        "cba_cond": 0.75,
+        "acc_joint": 0.02,
+        "delta": 0.006667,
+        "precision": 0.015873,
+        "dup_rate": 0.0,
+        "f1_joint": 0.017699
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "state_1": "WA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "81983.98",
+            "state_1_income_tax": "4234.22"
+          },
+          "predicted": {
+            "state_1": "MA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "180258.52",
+            "state_1_income_tax": "5227.5"
+          },
+          "cost": 0.001262
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "130531.96",
+            "state_1_income_tax": "11136.13"
+          },
+          "predicted": {
+            "state_1": "NH",
+            "state_1_employer_id": "021-72-507",
+            "state_1_wages": "114756.4",
+            "state_1_income_tax": "62005.63"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "82740.79",
+            "state_1_income_tax": "9273.71"
+          },
+          "predicted": {
+            "state_1": "NY",
+            "state_1_employer_id": "038-78-074",
+            "state_1_wages": "79083.54",
+            "state_1_income_tax": "22003.68"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "state_1": "MD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "103253.75",
+            "state_1_income_tax": "10348.50"
+          },
+          "predicted": {
+            "state_1": "IN",
+            "state_1_employer_id": "943-03-847",
+            "state_1_wages": "153314.28",
+            "state_1_income_tax": "35309.73"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "state_1": "MN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "81752.37",
+            "state_1_income_tax": "7472.75"
+          },
+          "predicted": {
+            "state_1": "LA",
+            "state_1_employer_id": "693-86-803",
+            "state_1_wages": "5967.14",
+            "state_1_income_tax": "25003.98"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "state_1": "WY",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "62069.94",
+            "state_1_income_tax": "3247.38"
+          },
+          "predicted": {
+            "state_1": "VT",
+            "state_1_employer_id": "264-17-218",
+            "state_1_wages": "11870.16",
+            "state_1_income_tax": "19187.29"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "state_1": "NM",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "103906.02",
+            "state_1_income_tax": "11329.91"
+          },
+          "predicted": {
+            "state_1": "VA",
+            "state_1_employer_id": "90399",
+            "state_1_wages": "238359.15",
+            "state_1_income_tax": "238359.15"
+          },
+          "cost": 0.001257
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "state_1": "TN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "51849.04",
+            "state_1_income_tax": "3322.11"
+          },
+          "predicted": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "147044.99",
+            "state_1_income_tax": "4264.3"
+          },
+          "cost": 0.001267
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "state_1": "AZ",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "78458.69",
+            "state_1_income_tax": "3768.56"
+          },
+          "predicted": {
+            "state_1": "UT",
+            "state_1_employer_id": "547-58-249",
+            "state_1_wages": "71779.23",
+            "state_1_income_tax": "19629.04"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "state_1": "LA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "69605.56",
+            "state_1_income_tax": "4355.96"
+          },
+          "predicted": {
+            "state_1": "OK",
+            "state_1_employer_id": "85303-8479",
+            "state_1_wages": "175634.34",
+            "state_1_income_tax": "5093.4"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "state_1": "KS",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "64763.53",
+            "state_1_income_tax": "2799.45"
+          },
+          "predicted": {
+            "state_1": "OH",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "3830.06",
+            "state_1_income_tax": "15920.08"
+          },
+          "cost": 0.001262
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "state_1": "SD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "48832.01",
+            "state_1_income_tax": "2151.11"
+          },
+          "predicted": {
+            "state_1": "WY",
+            "state_1_employer_id": "12199-7648",
+            "state_1_wages": "46493.84",
+            "state_1_income_tax": "2026.38"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "state_1": "MD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "46453.42",
+            "state_1_income_tax": "4980.61"
+          },
+          "predicted": {
+            "state_1": "FL",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "74591.41",
+            "state_1_income_tax": "2163.15"
+          },
+          "cost": 0.001262
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "state_1": "IL",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "41359.49",
+            "state_1_income_tax": "5367.99"
+          },
+          "predicted": {
+            "state_1": "TX",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "105988.86",
+            "state_1_income_tax": "12533.95"
+          },
+          "cost": 0.001262
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "state_1": "DE",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "43016.21",
+            "state_1_income_tax": "3154.82"
+          },
+          "predicted": {
+            "state_1": "NE",
+            "state_1_employer_id": "142-12-428",
+            "state_1_wages": "4122.87",
+            "state_1_income_tax": "13861.54"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "44031.14",
+            "state_1_income_tax": "2246.71"
+          },
+          "predicted": {
+            "state_1": "CO",
+            "state_1_employer_id": "57-0409426",
+            "state_1_wages": "44031.14",
+            "state_1_income_tax": "2410.83"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "state_1": "OR",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "33062.09",
+            "state_1_income_tax": "1528.02"
+          },
+          "predicted": {
+            "state_1": "CT",
+            "state_1_employer_id": "666",
+            "state_1_wages": "66621.1",
+            "state_1_income_tax": "2192"
+          },
+          "cost": 0.001242
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "state_1": "OH",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "108856.48",
+            "state_1_income_tax": "10147.30"
+          },
+          "predicted": {
+            "state_1": "VT",
+            "state_1_employer_id": "232-51-934",
+            "state_1_wages": "251690.79",
+            "state_1_income_tax": "1211.16"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "state_1": "GA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "71416.06",
+            "state_1_income_tax": "2783.60"
+          },
+          "predicted": {
+            "state_1": "AR",
+            "state_1_employer_id": "22303-6240",
+            "state_1_wages": "142377.24",
+            "state_1_income_tax": "4128.94"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "state_1": "AK",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "92539.16",
+            "state_1_income_tax": "5530.71"
+          },
+          "predicted": {
+            "state_1": "SC",
+            "state_1_employer_id": "92539-16",
+            "state_1_wages": "5530.71",
+            "state_1_income_tax": "20114.95"
+          },
+          "cost": 0.001267
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "state_1": "MD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "101995.34",
+            "state_1_income_tax": "7980.73"
+          },
+          "predicted": {
+            "state_1": "AZ",
+            "state_1_employer_id": "67804-608",
+            "state_1_wages": "141171.29",
+            "state_1_income_tax": "4093.97"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "state_1": "MA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "60422.92",
+            "state_1_income_tax": "3241.09"
+          },
+          "predicted": {
+            "state_1": "TN",
+            "state_1_employer_id": "272",
+            "state_1_wages": "13044.65",
+            "state_1_income_tax": "806"
+          },
+          "cost": 0.001242
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "state_1": "OR",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "111635.94",
+            "state_1_income_tax": "9577.99"
+          },
+          "predicted": {
+            "state_1": "AR",
+            "state_1_employer_id": "71-6235236",
+            "state_1_wages": "230901.81",
+            "state_1_income_tax": "25569.78"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "state_1": "OK",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "112968.15",
+            "state_1_income_tax": "6943.86"
+          },
+          "predicted": {
+            "state_1": "PA",
+            "state_1_employer_id": "217-20-019",
+            "state_1_wages": "116548.37",
+            "state_1_income_tax": "6736.13"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "state_1": "IN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "39526.02",
+            "state_1_income_tax": "2469.30"
+          },
+          "predicted": {
+            "state_1": "CA",
+            "state_1_employer_id": "047-76-070",
+            "state_1_wages": "42786.81",
+            "state_1_income_tax": "13583.61"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "state_1": "WA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "50072.34",
+            "state_1_income_tax": "3574.77"
+          },
+          "predicted": {
+            "state_1": "VT",
+            "state_1_employer_id": "161",
+            "state_1_wages": "9969",
+            "state_1_income_tax": "220"
+          },
+          "cost": 0.001232
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "state_1": "WV",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "93340.99",
+            "state_1_income_tax": "5123.84"
+          },
+          "predicted": {
+            "state_1": "VT",
+            "state_1_employer_id": "206-53-035",
+            "state_1_wages": "85725.57",
+            "state_1_income_tax": "4154.28"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "state_1": "ND",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "102469.82",
+            "state_1_income_tax": "9451.27"
+          },
+          "predicted": {
+            "state_1": "NY",
+            "state_1_employer_id": "286-31-758",
+            "state_1_wages": "222444.79",
+            "state_1_income_tax": "26617.41"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "state_1": "CA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "118173.00",
+            "state_1_income_tax": "7197.87"
+          },
+          "predicted": {
+            "state_1": "CA",
+            "state_1_employer_id": "308-13-5588",
+            "state_1_wages": "252988.69",
+            "state_1_income_tax": "38242.41"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "state_1": "TN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "108898.75",
+            "state_1_income_tax": "9937.26"
+          },
+          "predicted": {
+            "state_1": "VA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "167489.12",
+            "state_1_income_tax": "64154.68"
+          },
+          "cost": 0.001262
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "state_1": "NJ",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "120494.31",
+            "state_1_income_tax": "12843.22"
+          },
+          "predicted": {
+            "state_1": "NV",
+            "state_1_employer_id": "694-13-807",
+            "state_1_wages": "125298.89",
+            "state_1_income_tax": "23823.99"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "state_1": "SD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "81343.51",
+            "state_1_income_tax": "4042.90"
+          },
+          "predicted": {
+            "state_1": "MT",
+            "state_1_employer_id": "594-10-494",
+            "state_1_wages": "74379.35",
+            "state_1_income_tax": "3407.18"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "state_1": "GA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "21981.50",
+            "state_1_income_tax": "2304.73"
+          },
+          "predicted": {
+            "state_1": "PA",
+            "state_1_employer_id": "640-93-890",
+            "state_1_wages": "21755.15",
+            "state_1_income_tax": "2106.37"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "state_1": "PA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "109290.45",
+            "state_1_income_tax": "11532.14"
+          },
+          "predicted": {
+            "state_1": "PA",
+            "state_1_employer_id": "99836.89",
+            "state_1_wages": "11862.91",
+            "state_1_income_tax": "39192.25"
+          },
+          "cost": 0.001267
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "state_1": "WA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "92443.46",
+            "state_1_income_tax": "4183.14"
+          },
+          "predicted": {
+            "state_1": "PA",
+            "state_1_employer_id": "NC",
+            "state_1_wages": "91270.56",
+            "state_1_income_tax": "6753"
+          },
+          "cost": 0.001242
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "state_1": "AR",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "106072.36",
+            "state_1_income_tax": "7547.60"
+          },
+          "predicted": {
+            "state_1": "AK",
+            "state_1_employer_id": "92-0779404",
+            "state_1_wages": "199947.08",
+            "state_1_income_tax": "27937.15"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "state_1": "CA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "45324.57",
+            "state_1_income_tax": "1936.27"
+          },
+          "predicted": {
+            "state_1": "MO",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "48050.71",
+            "state_1_income_tax": "11630.1"
+          },
+          "cost": 0.001267
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "state_1": "ID",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "95305.36",
+            "state_1_income_tax": "8494.72"
+          },
+          "predicted": {
+            "state_1": "AR",
+            "state_1_employer_id": "89-53-726",
+            "state_1_wages": "93588.77",
+            "state_1_income_tax": "3210.13"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "state_1": "WA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "125681.79",
+            "state_1_income_tax": "11203.07"
+          },
+          "predicted": {
+            "state_1": "GA",
+            "state_1_employer_id": "41-65888",
+            "state_1_wages": "262961.66",
+            "state_1_income_tax": "7625.89"
+          },
+          "cost": 0.001267
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "state_1": "MS",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "84858.72",
+            "state_1_income_tax": "3869.19"
+          },
+          "predicted": {
+            "state_1": "TN",
+            "state_1_employer_id": "62672-6084",
+            "state_1_wages": "183793.82",
+            "state_1_income_tax": "21217.86"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "52819.35",
+            "state_1_income_tax": "6086.35"
+          },
+          "predicted": {
+            "state_1": "OR",
+            "state_1_employer_id": "651-86-154",
+            "state_1_wages": "81691.96",
+            "state_1_income_tax": "191.4"
+          },
+          "cost": 0.001267
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "state_1": "AL",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "65715.91",
+            "state_1_income_tax": "3967.63"
+          },
+          "predicted": {
+            "state_1": "NC",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "26573.81",
+            "state_1_income_tax": "16383.0"
+          },
+          "cost": 0.001262
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "state_1": "IL",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "109894.82",
+            "state_1_income_tax": "10485.88"
+          },
+          "predicted": {
+            "state_1": "IA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "190830.79",
+            "state_1_income_tax": "39418.33"
+          },
+          "cost": 0.001267
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "state_1": "WY",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "83749.50",
+            "state_1_income_tax": "4453.00"
+          },
+          "predicted": {
+            "state_1": "SC",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "110546.93",
+            "state_1_income_tax": "25190.93"
+          },
+          "cost": 0.001262
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "state_1": "RI",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "127368.70",
+            "state_1_income_tax": "7779.66"
+          },
+          "predicted": {
+            "state_1": "AZ",
+            "state_1_employer_id": "425-37-216",
+            "state_1_wages": "106744.42",
+            "state_1_income_tax": "43950.58"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "state_1": "SD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "21325.37",
+            "state_1_income_tax": "1599.64"
+          },
+          "predicted": {
+            "state_1": "KS",
+            "state_1_employer_id": "31532-5000",
+            "state_1_wages": "50332.65",
+            "state_1_income_tax": "1459.65"
+          },
+          "cost": 0.001277
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "state_1": "NV",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "34188.22",
+            "state_1_income_tax": "3789.73"
+          },
+          "predicted": {
+            "state_1": "WI",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "35029.34",
+            "state_1_income_tax": "9565.63"
+          },
+          "cost": 0.001267
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "state_1": "WV",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "75519.92",
+            "state_1_income_tax": "6398.90"
+          },
+          "predicted": {
+            "state_1": "MA",
+            "state_1_employer_id": "142-89-394",
+            "state_1_wages": "8526.79",
+            "state_1_income_tax": "19721.36"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "state_1": "NV",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "79220.99",
+            "state_1_income_tax": "4035.23"
+          },
+          "predicted": {
+            "state_1": "LA",
+            "state_1_employer_id": "770-16-961",
+            "state_1_wages": "77487.89",
+            "state_1_income_tax": "17136.81"
+          },
+          "cost": 0.001272
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "state_1": "DE",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "119974.62",
+            "state_1_income_tax": "10756.86"
+          },
+          "predicted": {
+            "state_1": "IA",
+            "state_1_employer_id": "138-02-179",
+            "state_1_wages": "102877.64",
+            "state_1_income_tax": "37482.97"
+          },
+          "cost": 0.001277
+        }
+      ]
+    },
+    "gpt4o-mini": {
+      "model_id": "gpt-4o-mini",
+      "scorer_result": {
+        "n_gt": 150,
+        "n_pred": 197,
+        "n_recovered": 67,
+        "n_joint_correct": 66,
+        "n_misbindings": 1,
+        "n_duplicates": 0,
+        "rec_val": 0.446667,
+        "cba_cond": 0.985075,
+        "acc_joint": 0.44,
+        "delta": 0.006667,
+        "precision": 0.335025,
+        "dup_rate": 0.0,
+        "f1_joint": 0.380403
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "state_1": "WA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "81983.98",
+            "state_1_income_tax": "4234.22"
+          },
+          "predicted": {
+            "state_1": "WA",
+            "state_1_employer_id": "639-56-199",
+            "state_1_wages": "81983.98",
+            "state_1_income_tax": "4234.22"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "130531.96",
+            "state_1_income_tax": "11136.13"
+          },
+          "predicted": {
+            "state_1": "UT",
+            "state_1_employer_id": "070-88-511",
+            "state_1_wages": "130531.96",
+            "state_1_income_tax": "27031.5"
+          },
+          "cost": 0.00389475
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "82740.79",
+            "state_1_income_tax": "9273.71"
+          },
+          "predicted": {
+            "state_1": "UT",
+            "state_1_employer_id": "373-62-656",
+            "state_1_wages": "9273.71",
+            "state_1_income_tax": "23413.52"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "state_1": "MD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "103253.75",
+            "state_1_income_tax": "10348.50"
+          },
+          "predicted": {
+            "state_1": "MD",
+            "state_1_employer_id": "320-39-629",
+            "state_1_wages": "103253.75",
+            "state_1_income_tax": "30313.69"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "state_1": "MN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "81752.37",
+            "state_1_income_tax": "7472.75"
+          },
+          "predicted": {
+            "state_1": "MN",
+            "state_1_employer_id": "602-82-196",
+            "state_1_wages": "81752.37",
+            "state_1_income_tax": "7472.75"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "state_1": "WY",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "62069.94",
+            "state_1_income_tax": "3247.38"
+          },
+          "predicted": {
+            "state_1": "VT",
+            "state_1_employer_id": "264-17-218",
+            "state_1_wages": "4022.62",
+            "state_1_income_tax": "19187.29"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "state_1": "NM",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "103906.02",
+            "state_1_income_tax": "11329.91"
+          },
+          "predicted": {
+            "state_1": "NM",
+            "state_1_employer_id": "881-23-539",
+            "state_1_wages": "210806.6",
+            "state_1_income_tax": "1612.7"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "state_1": "TN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "51849.04",
+            "state_1_income_tax": "3322.11"
+          },
+          "predicted": {
+            "state_1": "UT",
+            "state_1_employer_id": "980-85-195",
+            "state_1_wages": "4637.95",
+            "state_1_income_tax": "18672.27"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "state_1": "AZ",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "78458.69",
+            "state_1_income_tax": "3768.56"
+          },
+          "predicted": {
+            "state_1": "UT",
+            "state_1_employer_id": "547-58-249",
+            "state_1_wages": "71779.23",
+            "state_1_income_tax": "19629.04"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "state_1": "LA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "69605.56",
+            "state_1_income_tax": "4355.96"
+          },
+          "predicted": {
+            "state_1": "GA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "131005.25",
+            "state_1_income_tax": "4105.81"
+          },
+          "cost": 0.00389535
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "state_1": "KS",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "64763.53",
+            "state_1_income_tax": "2799.45"
+          },
+          "predicted": {
+            "state_1": "KS",
+            "state_1_employer_id": "184-32-044",
+            "state_1_wages": "64763.53",
+            "state_1_income_tax": "2799.45"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "state_1": "SD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "48832.01",
+            "state_1_income_tax": "2151.11"
+          },
+          "predicted": {
+            "state_1": "WY",
+            "state_1_employer_id": "760-67-554",
+            "state_1_wages": "2062.38",
+            "state_1_income_tax": "15665.71"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "state_1": "MD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "46453.42",
+            "state_1_income_tax": "4980.61"
+          },
+          "predicted": {
+            "state_1": "MD",
+            "state_1_employer_id": "064-30-509",
+            "state_1_wages": "44653.42",
+            "state_1_income_tax": "1980.61"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "state_1": "IL",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "41359.49",
+            "state_1_income_tax": "5367.99"
+          },
+          "predicted": {
+            "state_1": "WA",
+            "state_1_employer_id": "937-99-986",
+            "state_1_wages": "41359.49",
+            "state_1_income_tax": "1253.95"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "state_1": "DE",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "43016.21",
+            "state_1_income_tax": "3154.82"
+          },
+          "predicted": {
+            "state_1": "NE",
+            "state_1_employer_id": "256-63-341",
+            "state_1_wages": "43016.21",
+            "state_1_income_tax": "3154.82"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "44031.14",
+            "state_1_income_tax": "2246.71"
+          },
+          "predicted": {
+            "state_1": "CO",
+            "state_1_employer_id": "057-49-426",
+            "state_1_wages": "94329.98",
+            "state_1_income_tax": "12410.83"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "state_1": "OR",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "33062.09",
+            "state_1_income_tax": "1528.02"
+          },
+          "predicted": {
+            "state_1": "OR",
+            "state_1_employer_id": "208-36-462",
+            "state_1_wages": "33062.09",
+            "state_1_income_tax": "964.11"
+          },
+          "cost": 0.00389655
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "state_1": "OH",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "108856.48",
+            "state_1_income_tax": "10147.30"
+          },
+          "predicted": {
+            "state_1": "OR",
+            "state_1_employer_id": "232-51-934",
+            "state_1_wages": "108856.48",
+            "state_1_income_tax": "41211.16"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "state_1": "GA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "71416.06",
+            "state_1_income_tax": "2783.60"
+          },
+          "predicted": {
+            "state_1": "GA",
+            "state_1_employer_id": "838-844-823",
+            "state_1_wages": "71416.06",
+            "state_1_income_tax": "2783.6"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "state_1": "AK",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "92539.16",
+            "state_1_income_tax": "5530.71"
+          },
+          "predicted": {
+            "state_1": "AR",
+            "state_1_employer_id": "913-61-506",
+            "state_1_wages": "92539.16",
+            "state_1_income_tax": "21583.4"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "state_1": "MD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "101995.34",
+            "state_1_income_tax": "7980.73"
+          },
+          "predicted": {
+            "state_1": "AZ",
+            "state_1_employer_id": "5966644",
+            "state_1_wages": "141171.29",
+            "state_1_income_tax": "423"
+          },
+          "cost": 0.00389415
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "state_1": "MA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "60422.92",
+            "state_1_income_tax": "3241.09"
+          },
+          "predicted": {
+            "state_1": "MA",
+            "state_1_employer_id": "665-18-982",
+            "state_1_wages": "60422.92",
+            "state_1_income_tax": "13044.65"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "state_1": "OR",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "111635.94",
+            "state_1_income_tax": "9577.99"
+          },
+          "predicted": {
+            "state_1": "GA",
+            "state_1_employer_id": "755-40-771",
+            "state_1_wages": "22008.92",
+            "state_1_income_tax": "2569.78"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "state_1": "OK",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "112968.15",
+            "state_1_income_tax": "6943.86"
+          },
+          "predicted": {
+            "state_1": "MT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "158339.94",
+            "state_1_income_tax": "200.00"
+          },
+          "cost": 0.00389475
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "state_1": "IN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "39526.02",
+            "state_1_income_tax": "2469.30"
+          },
+          "predicted": {
+            "state_1": "IN",
+            "state_1_employer_id": "306-64-464",
+            "state_1_wages": "39562.02",
+            "state_1_income_tax": "13658.68"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "state_1": "WA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "50072.34",
+            "state_1_income_tax": "3574.77"
+          },
+          "predicted": {
+            "state_1": "WA",
+            "state_1_employer_id": "793-87-837",
+            "state_1_wages": "50072.34",
+            "state_1_income_tax": "128191.29"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "state_1": "WV",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "93340.99",
+            "state_1_income_tax": "5123.84"
+          },
+          "predicted": {
+            "state_1": "WV",
+            "state_1_employer_id": "080-93-510",
+            "state_1_wages": "93340.99",
+            "state_1_income_tax": "23384.05"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "state_1": "ND",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "102469.82",
+            "state_1_income_tax": "9451.27"
+          },
+          "predicted": {
+            "state_1": "ND",
+            "state_1_employer_id": "611-57-337",
+            "state_1_wages": "102469.82",
+            "state_1_income_tax": "241823.06"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "state_1": "CA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "118173.00",
+            "state_1_income_tax": "7197.87"
+          },
+          "predicted": {
+            "state_1": "CA",
+            "state_1_employer_id": "600-31-465",
+            "state_1_wages": "275884.16",
+            "state_1_income_tax": "40437.64"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "state_1": "TN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "108898.75",
+            "state_1_income_tax": "9937.26"
+          },
+          "predicted": {
+            "state_1": "NM",
+            "state_1_employer_id": "179-70-825",
+            "state_1_wages": "167489.12",
+            "state_1_income_tax": "41454.68"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "state_1": "NJ",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "120494.31",
+            "state_1_income_tax": "12843.22"
+          },
+          "predicted": {
+            "state_1": "NJ",
+            "state_1_employer_id": "633-34-261",
+            "state_1_wages": "120494.31",
+            "state_1_income_tax": "24118.91"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "state_1": "SD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "81343.51",
+            "state_1_income_tax": "4042.90"
+          },
+          "predicted": {
+            "state_1": "SD",
+            "state_1_employer_id": "987-75-678",
+            "state_1_wages": "81343.51",
+            "state_1_income_tax": "25297.68"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "state_1": "GA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "21981.50",
+            "state_1_income_tax": "2304.73"
+          },
+          "predicted": {
+            "state_1": "GA",
+            "state_1_employer_id": "427-17-376",
+            "state_1_wages": "21981.5",
+            "state_1_income_tax": "2304.73"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "state_1": "PA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "109290.45",
+            "state_1_income_tax": "11532.14"
+          },
+          "predicted": {
+            "state_1": "MO",
+            "state_1_employer_id": "544-31-040",
+            "state_1_wages": "202668.00",
+            "state_1_income_tax": "39192.25"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "state_1": "WA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "92443.46",
+            "state_1_income_tax": "4183.14"
+          },
+          "predicted": {
+            "state_1": "WA",
+            "state_1_employer_id": "305-57-453",
+            "state_1_wages": "92443.46",
+            "state_1_income_tax": "4183.14"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "state_1": "AR",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "106072.36",
+            "state_1_income_tax": "7547.60"
+          },
+          "predicted": {
+            "state_1": "AR",
+            "state_1_employer_id": "563-77-404",
+            "state_1_wages": "106072.36",
+            "state_1_income_tax": "27937.15"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "state_1": "CA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "45324.57",
+            "state_1_income_tax": "1936.27"
+          },
+          "predicted": {
+            "state_1": "CA",
+            "state_1_employer_id": "620-49-821",
+            "state_1_wages": "45324.57",
+            "state_1_income_tax": "81864.53"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "state_1": "ID",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "95305.36",
+            "state_1_income_tax": "8494.72"
+          },
+          "predicted": {
+            "state_1": "AR",
+            "state_1_employer_id": "989-53-726",
+            "state_1_wages": "225289.19",
+            "state_1_income_tax": "33210.13"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "state_1": "WA",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "125681.79",
+            "state_1_income_tax": "11203.07"
+          },
+          "predicted": {
+            "state_1": "WA",
+            "state_1_employer_id": "102-58-113",
+            "state_1_wages": "242958.18",
+            "state_1_income_tax": "34311.14"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "state_1": "MS",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "84858.72",
+            "state_1_income_tax": "3869.19"
+          },
+          "predicted": {
+            "state_1": "MS",
+            "state_1_employer_id": "203-23-840",
+            "state_1_wages": "155759.01",
+            "state_1_income_tax": "24155.31"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "state_1": "UT",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "52819.35",
+            "state_1_income_tax": "6086.35"
+          },
+          "predicted": {
+            "state_1": "UT",
+            "state_1_employer_id": "422-28-508",
+            "state_1_wages": "52819.35",
+            "state_1_income_tax": "6068.35"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "state_1": "AL",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "65715.91",
+            "state_1_income_tax": "3967.63"
+          },
+          "predicted": {
+            "state_1": "AL",
+            "state_1_employer_id": "636-49-550",
+            "state_1_wages": "65115.91",
+            "state_1_income_tax": "3967.63"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "state_1": "IL",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "109894.82",
+            "state_1_income_tax": "10485.88"
+          },
+          "predicted": {
+            "state_1": "IL",
+            "state_1_employer_id": "761-97-905",
+            "state_1_wages": "109984.82",
+            "state_1_income_tax": "19803.79"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "state_1": "WY",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "83749.50",
+            "state_1_income_tax": "4453.00"
+          },
+          "predicted": {
+            "state_1": "WY",
+            "state_1_employer_id": "265-44-650",
+            "state_1_wages": "83749.5",
+            "state_1_income_tax": "25190.93"
+          },
+          "cost": 0.00389475
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "state_1": "RI",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "127368.70",
+            "state_1_income_tax": "7779.66"
+          },
+          "predicted": {
+            "state_1": "RI",
+            "state_1_employer_id": "425-37-216",
+            "state_1_wages": "287769.25",
+            "state_1_income_tax": "43950.58"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "state_1": "SD",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "21325.37",
+            "state_1_income_tax": "1599.64"
+          },
+          "predicted": {
+            "state_1": "KS",
+            "state_1_employer_id": "562-004-862",
+            "state_1_wages": "21325.37",
+            "state_1_income_tax": "4826.34"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "state_1": "NV",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "34188.22",
+            "state_1_income_tax": "3789.73"
+          },
+          "predicted": {
+            "state_1": "NV",
+            "state_1_employer_id": "527-44-488",
+            "state_1_wages": "34188.22",
+            "state_1_income_tax": "8453.42"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "state_1": "WV",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "75519.92",
+            "state_1_income_tax": "6398.90"
+          },
+          "predicted": {
+            "state_1": "WV",
+            "state_1_employer_id": "096-31-749",
+            "state_1_wages": "75519.92",
+            "state_1_income_tax": "31715.46"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "state_1": "NV",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "79220.99",
+            "state_1_income_tax": "4035.23"
+          },
+          "predicted": {
+            "state_1": "NY",
+            "state_1_employer_id": "881-47-066",
+            "state_1_wages": "79220.99",
+            "state_1_income_tax": "23762.00"
+          },
+          "cost": 0.00389715
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "state_1": "DE",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "119974.62",
+            "state_1_income_tax": "10756.86"
+          },
+          "predicted": {
+            "state_1": "TN",
+            "state_1_employer_id": "N/A",
+            "state_1_wages": "221631.63",
+            "state_1_income_tax": "6472.32"
+          },
+          "cost": 0.00389535
+        }
+      ]
+    }
+  },
+  "summary": {
+    "haiku": {
+      "n_gt": 150,
+      "n_pred": 189,
+      "n_recovered": 4,
+      "n_joint_correct": 3,
+      "n_misbindings": 1,
+      "n_duplicates": 0,
+      "rec_val": 0.026667,
+      "cba_cond": 0.75,
+      "acc_joint": 0.02,
+      "delta": 0.006667,
+      "precision": 0.015873,
+      "dup_rate": 0.0,
+      "f1_joint": 0.017699
+    },
+    "gpt4o-mini": {
+      "n_gt": 150,
+      "n_pred": 197,
+      "n_recovered": 67,
+      "n_joint_correct": 66,
+      "n_misbindings": 1,
+      "n_duplicates": 0,
+      "rec_val": 0.446667,
+      "cba_cond": 0.985075,
+      "acc_joint": 0.44,
+      "delta": 0.006667,
+      "precision": 0.335025,
+      "dup_rate": 0.0,
+      "f1_joint": 0.380403
+    }
+  }
+}

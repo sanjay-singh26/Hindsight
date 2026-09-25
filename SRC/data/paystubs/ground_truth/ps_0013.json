@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0013",
+  "image_file": "ps_0013.png",
+  "layout_template": "minimal",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Keystone Properties Group",
+      "display_value": "Keystone Properties Group",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 275,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "John R. Smith",
+      "display_value": "John R. Smith",
+      "field_position": {
+        "x": 693,
+        "y": 85,
+        "width": 87,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "690341",
+      "display_value": "690341",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 32,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-2638",
+      "display_value": "***-**-2638",
+      "field_position": {
+        "x": 132,
+        "y": 85,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Atlanta, GA 30301",
+      "display_value": "Atlanta, GA 30301",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 82,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 88,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 83,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "03/20/2024",
+      "display_value": "03/20/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "03/01/2024",
+      "display_value": "03/01/2024",
+      "field_position": {
+        "x": 163,
+        "y": 151,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "03/15/2024",
+      "display_value": "03/15/2024",
+      "field_position": {
+        "x": 255,
+        "y": 151,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 346,
+        "y": 151,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$4,553.24",
+      "display_value": "$4,553.24",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$483.94",
+      "display_value": "$483.94",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$1,007.68",
+      "display_value": "$1,007.68",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$363.75",
+      "display_value": "$363.75",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$312.31",
+      "display_value": "$312.31",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$73.04",
+      "display_value": "$73.04",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$499.22",
+      "display_value": "$499.22",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$82.11",
+      "display_value": "$82.11",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 35,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$5,037.18",
+      "display_value": "$5,037.18",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$2,338.11",
+      "display_value": "$2,338.11",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 88,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$2,699.07",
+      "display_value": "$2,699.07",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 95,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$25,185.90",
+      "display_value": "$25,185.90",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$11,690.55",
+      "display_value": "$11,690.55",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 59,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$13,495.35",
+      "display_value": "$13,495.35",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 61,
+        "height": 13
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "John R. Smith",
+    "employer_name": "Keystone Properties Group",
+    "employee_id": "690341",
+    "ssn_last4": "***-**-2638",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "147 Birch Court",
+    "employer_city_state_zip": "Atlanta, GA 30301",
+    "pay_date": "03/20/2024",
+    "pay_period_start": "03/01/2024",
+    "pay_period_end": "03/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4553.24",
+    "gross_pay_current": "5037.18",
+    "net_pay_current": "2699.07",
+    "gross_pay_ytd": "25185.90",
+    "net_pay_ytd": "13495.35",
+    "total_deductions_current": "2338.11",
+    "federal_tax_withheld": "1007.68",
+    "state_tax_withheld": "363.75",
+    "social_security_tax": "312.31",
+    "medicare_tax": "73.04",
+    "total_deductions_ytd": "11690.55",
+    "bonus_current": "483.94",
+    "retirement_401k": "499.22",
+    "health_insurance": "82.11"
+  }
+}

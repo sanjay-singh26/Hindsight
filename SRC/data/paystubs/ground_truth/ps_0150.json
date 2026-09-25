@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0150",
+  "image_file": "ps_0150.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Heartland Insurance Co.",
+      "display_value": "Heartland Insurance Co.",
+      "field_position": {
+        "x": 273,
+        "y": 40,
+        "width": 303,
+        "height": 14
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 374,
+        "y": 75,
+        "width": 102,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 371,
+        "y": 89,
+        "width": 108,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Amanda S. Thompson",
+      "display_value": "Amanda S. Thompson",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 141,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "919394",
+      "display_value": "919394",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-8940",
+      "display_value": "***-**-8940",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 109,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Cleveland, OH 44101",
+      "display_value": "Cleveland, OH 44101",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 148,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$2,695.47",
+      "display_value": "$2,695.47",
+      "field_position": {
+        "x": 330,
+        "y": 360,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$120.51",
+      "display_value": "$120.51",
+      "field_position": {
+        "x": 345,
+        "y": 380,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$2,815.98",
+      "display_value": "$2,815.98",
+      "field_position": {
+        "x": 330,
+        "y": 400,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$14,079.90",
+      "display_value": "$14,079.90",
+      "field_position": {
+        "x": 322,
+        "y": 420,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$376.53",
+      "display_value": "$376.53",
+      "field_position": {
+        "x": 745,
+        "y": 360,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$221.11",
+      "display_value": "$221.11",
+      "field_position": {
+        "x": 745,
+        "y": 380,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$174.59",
+      "display_value": "$174.59",
+      "field_position": {
+        "x": 745,
+        "y": 400,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$40.83",
+      "display_value": "$40.83",
+      "field_position": {
+        "x": 753,
+        "y": 420,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$154.94",
+      "display_value": "$154.94",
+      "field_position": {
+        "x": 745,
+        "y": 440,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$142.85",
+      "display_value": "$142.85",
+      "field_position": {
+        "x": 745,
+        "y": 460,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,110.85",
+      "display_value": "$1,110.85",
+      "field_position": {
+        "x": 730,
+        "y": 480,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$5,554.25",
+      "display_value": "$5,554.25",
+      "field_position": {
+        "x": 730,
+        "y": 500,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,705.13",
+      "display_value": "$1,705.13",
+      "field_position": {
+        "x": 50,
+        "y": 571,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$8,525.65",
+      "display_value": "$8,525.65",
+      "field_position": {
+        "x": 350,
+        "y": 607,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "06/04/2024",
+      "display_value": "06/04/2024",
+      "field_position": {
+        "x": 50,
+        "y": 660,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "05/01/2024",
+      "display_value": "05/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 660,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "05/31/2024",
+      "display_value": "05/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 660,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 660,
+        "width": 42,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Amanda S. Thompson",
+    "employer_name": "Heartland Insurance Co.",
+    "employee_id": "919394",
+    "ssn_last4": "***-**-8940",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Cleveland, OH 44101",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "Portland, OR 97201",
+    "pay_date": "06/04/2024",
+    "pay_period_start": "05/01/2024",
+    "pay_period_end": "05/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "2695.47",
+    "gross_pay_current": "2815.98",
+    "net_pay_current": "1705.13",
+    "gross_pay_ytd": "14079.90",
+    "net_pay_ytd": "8525.65",
+    "total_deductions_current": "1110.85",
+    "federal_tax_withheld": "376.53",
+    "state_tax_withheld": "221.11",
+    "social_security_tax": "174.59",
+    "medicare_tax": "40.83",
+    "total_deductions_ytd": "5554.25",
+    "overtime_pay_current": "120.51",
+    "retirement_401k": "154.94",
+    "health_insurance": "142.85"
+  }
+}

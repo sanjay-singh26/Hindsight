@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0123",
+  "image_file": "ps_0123.png",
+  "layout_template": "compact",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Apex Manufacturing Co.",
+      "display_value": "Apex Manufacturing Co.",
+      "field_position": {
+        "x": 87,
+        "y": 25,
+        "width": 107,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Robert D. Rivera",
+      "display_value": "Robert D. Rivera",
+      "field_position": {
+        "x": 118,
+        "y": 39,
+        "width": 71,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "990429",
+      "display_value": "990429",
+      "field_position": {
+        "x": 77,
+        "y": 53,
+        "width": 34,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-6620",
+      "display_value": "***-**-6620",
+      "field_position": {
+        "x": 110,
+        "y": 67,
+        "width": 50,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 72,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Omaha, NE 68101",
+      "display_value": "Omaha, NE 68101",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 80,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 64,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 75,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "09/12/2024",
+      "display_value": "09/12/2024",
+      "field_position": {
+        "x": 88,
+        "y": 137,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "08/26/2024",
+      "display_value": "08/26/2024",
+      "field_position": {
+        "x": 98,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "09/08/2024",
+      "display_value": "09/08/2024",
+      "field_position": {
+        "x": 112,
+        "y": 165,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 105,
+        "y": 179,
+        "width": 43,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$2,299.58",
+      "display_value": "$2,299.58",
+      "field_position": {
+        "x": 766,
+        "y": 215,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$423.44",
+      "display_value": "$423.44",
+      "field_position": {
+        "x": 773,
+        "y": 235,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$2,723.02",
+      "display_value": "$2,723.02",
+      "field_position": {
+        "x": 766,
+        "y": 255,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$49,014.36",
+      "display_value": "$49,014.36",
+      "field_position": {
+        "x": 760,
+        "y": 275,
+        "width": 50,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$478.08",
+      "display_value": "$478.08",
+      "field_position": {
+        "x": 773,
+        "y": 317,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$112.14",
+      "display_value": "$112.14",
+      "field_position": {
+        "x": 773,
+        "y": 337,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$168.83",
+      "display_value": "$168.83",
+      "field_position": {
+        "x": 774,
+        "y": 357,
+        "width": 36,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$39.48",
+      "display_value": "$39.48",
+      "field_position": {
+        "x": 779,
+        "y": 377,
+        "width": 31,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$157.09",
+      "display_value": "$157.09",
+      "field_position": {
+        "x": 774,
+        "y": 397,
+        "width": 36,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$318.44",
+      "display_value": "$318.44",
+      "field_position": {
+        "x": 773,
+        "y": 417,
+        "width": 37,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,274.06",
+      "display_value": "$1,274.06",
+      "field_position": {
+        "x": 766,
+        "y": 437,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$22,933.08",
+      "display_value": "$22,933.08",
+      "field_position": {
+        "x": 760,
+        "y": 457,
+        "width": 50,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$1,448.96",
+      "display_value": "$1,448.96",
+      "field_position": {
+        "x": 114,
+        "y": 485,
+        "width": 44,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$26,081.28",
+      "display_value": "$26,081.28",
+      "field_position": {
+        "x": 82,
+        "y": 499,
+        "width": 50,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Robert D. Rivera",
+    "employer_name": "Apex Manufacturing Co.",
+    "employee_id": "990429",
+    "ssn_last4": "***-**-6620",
+    "employee_address": "321 Pine Road",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Omaha, NE 68101",
+    "pay_date": "09/12/2024",
+    "pay_period_start": "08/26/2024",
+    "pay_period_end": "09/08/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2299.58",
+    "gross_pay_current": "2723.02",
+    "net_pay_current": "1448.96",
+    "gross_pay_ytd": "49014.36",
+    "net_pay_ytd": "26081.28",
+    "total_deductions_current": "1274.06",
+    "federal_tax_withheld": "478.08",
+    "state_tax_withheld": "112.14",
+    "social_security_tax": "168.83",
+    "medicare_tax": "39.48",
+    "total_deductions_ytd": "22933.08",
+    "overtime_pay_current": "423.44",
+    "retirement_401k": "157.09",
+    "health_insurance": "318.44"
+  }
+}

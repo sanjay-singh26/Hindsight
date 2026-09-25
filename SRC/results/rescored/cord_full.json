@@ -1,0 +1,2985 @@
+{
+  "haiku": {
+    "model_id": "claude-haiku-4-5",
+    "scorer_result": {
+      "n_gt": 363,
+      "n_pred": 424,
+      "n_recovered": 328,
+      "n_joint_correct": 312,
+      "n_misbindings": 16,
+      "n_duplicates": 24,
+      "rec_val": 0.903581,
+      "cba_cond": 0.95122,
+      "acc_joint": 0.859504,
+      "delta": 0.044077,
+      "precision": 0.735849,
+      "dup_rate": 0.056604,
+      "f1_joint": 0.792884
+    },
+    "documents": [
+      {
+        "doc_id": "cord_0000",
+        "ground_truth": {
+          "subtotal_price": "60.000",
+          "tax_price": "5.455",
+          "total_price": "60.000",
+          "creditcardprice": "60.000",
+          "menuqty_cnt": "2.00"
+        },
+        "predicted": {
+          "subtotal_price": "60.000",
+          "tax_price": "5.455",
+          "total_price": "60.000",
+          "menuqty_cnt": "2.00"
+        },
+        "cost": 0.001384
+      },
+      {
+        "doc_id": "cord_0002",
+        "ground_truth": {
+          "subtotal_price": "28,000",
+          "total_price": "28,000",
+          "cashprice": "100,000",
+          "changeprice": "72,000",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "subtotal_price": "28,000",
+          "total_price": "28,000",
+          "menuqty_cnt": "1",
+          "cashprice": "100,000",
+          "changeprice": "72,000"
+        },
+        "cost": 0.002642
+      },
+      {
+        "doc_id": "cord_0003",
+        "ground_truth": {
+          "subtotal_price": "11,000",
+          "total_price": "11,000",
+          "cashprice": "11,000",
+          "menuqty_cnt": "1.00xITEMs"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "11,000",
+          "menuqty_cnt": "1.00",
+          "subtotal_price": "11,000",
+          "total_price": "11,000",
+          "cashprice": "11,000"
+        },
+        "cost": 0.002717
+      },
+      {
+        "doc_id": "cord_0004",
+        "ground_truth": {
+          "subtotal_price": "194,000",
+          "total_price": "174,600",
+          "cashprice": "200,000",
+          "changeprice": "25,400"
+        },
+        "predicted": {
+          "menuqty_cnt": "82,000",
+          "subtotal_price": "154,000",
+          "subtotal_etc": "19,400",
+          "total_price": "174,600",
+          "cashprice": "200,000",
+          "changeprice": "25,400"
+        },
+        "cost": 0.003257
+      },
+      {
+        "doc_id": "cord_0005",
+        "ground_truth": {
+          "subtotal_price": "28.182",
+          "tax_price": "2.818",
+          "total_price": "31.000",
+          "cashprice": "31.000",
+          "menuqty_cnt": "1.00"
+        },
+        "predicted": {
+          "subtotal_price": "28.182",
+          "menuqty_cnt": "1.00",
+          "subtotal_etc": "28.182",
+          "tax_price": "2.818",
+          "total_price": "31.000",
+          "cashprice": "31.000"
+        },
+        "cost": 0.002975
+      },
+      {
+        "doc_id": "cord_0006",
+        "ground_truth": {
+          "total_price": "46,000",
+          "cashprice": "50,000",
+          "changeprice": "4,000"
+        },
+        "predicted": {
+          "total_price": "46,000",
+          "cashprice": "50,000",
+          "changeprice": "4,000",
+          "menuqty_cnt": "1"
+        },
+        "cost": 0.002882
+      },
+      {
+        "doc_id": "cord_0007",
+        "ground_truth": {
+          "subtotal_price": "100,909",
+          "tax_price": "10,091",
+          "total_price": "111,000",
+          "cashprice": "Rp. 111,000"
+        },
+        "predicted": {
+          "subtotal_price": "100,909",
+          "tax_price": "10,091",
+          "total_price": "111,000",
+          "cashprice": "Rp.111,000"
+        },
+        "cost": 0.001661
+      },
+      {
+        "doc_id": "cord_0008",
+        "ground_truth": {
+          "subtotal_price": "45,455",
+          "tax_price": "4,545",
+          "total_price": "50,000",
+          "creditcardprice": "50,000"
+        },
+        "predicted": {
+          "subtotal_price": "45,455",
+          "tax_price": "4,545",
+          "total_price": "50,000",
+          "creditcardprice": "50,000"
+        },
+        "cost": 0.002467
+      },
+      {
+        "doc_id": "cord_0009",
+        "ground_truth": {
+          "subtotal_price": "36000",
+          "cashprice": "50000",
+          "changeprice": "14000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "36000",
+          "subtotal_price": "38000",
+          "cashprice": "50000",
+          "changeprice": "14000"
+        },
+        "cost": 0.001686
+      },
+      {
+        "doc_id": "cord_0010",
+        "ground_truth": {
+          "subtotal_price": "17,000",
+          "total_price": "17,000",
+          "cashprice": "20,000",
+          "changeprice": "3,000"
+        },
+        "predicted": {
+          "menuqty_cnt": "1 x 17.000",
+          "subtotal_price": "17,000",
+          "total_price": "17,000",
+          "cashprice": "20,000",
+          "changeprice": "3,000"
+        },
+        "cost": 0.001901
+      },
+      {
+        "doc_id": "cord_0011",
+        "ground_truth": {
+          "total_price": "230,000",
+          "cashprice": "230,000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "230,000",
+          "total_price": "230,000",
+          "cashprice": "230,000",
+          "changeprice": "0"
+        },
+        "cost": 0.001681
+      },
+      {
+        "doc_id": "cord_0012",
+        "ground_truth": {
+          "total_price": "120,000",
+          "changeprice": "0",
+          "creditcardprice": "120,000",
+          "menuqty_cnt": "(2"
+        },
+        "predicted": {
+          "total_price": "120,000",
+          "creditcardprice": "120,000",
+          "changeprice": "0"
+        },
+        "cost": 0.001511
+      },
+      {
+        "doc_id": "cord_0013",
+        "ground_truth": {
+          "subtotal_price": "46.636",
+          "tax_price": "4.664",
+          "total_price": "51.300",
+          "cashprice": "52.000",
+          "changeprice": "700"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "43.000",
+          "subtotal_price": "46.000",
+          "tax_price": "4.600",
+          "total_price": "51.300",
+          "cashprice": "52.000",
+          "changeprice": "700"
+        },
+        "cost": 0.003082
+      },
+      {
+        "doc_id": "cord_0014",
+        "ground_truth": {
+          "subtotal_price": "238,000",
+          "tax_price": "25,585",
+          "total_price": "281,435",
+          "total_etc": "100,000",
+          "cashprice": "200,000",
+          "changeprice": "18,565"
+        },
+        "predicted": {
+          "subtotal_price": "238,000",
+          "total_etc": "17,850",
+          "tax_etc": "25,585",
+          "total_price": "281,435",
+          "cashprice": "200,000",
+          "changeprice": "18,565",
+          "menuqty_cnt": "6"
+        },
+        "cost": 0.00308
+      },
+      {
+        "doc_id": "cord_0015",
+        "ground_truth": {
+          "total_price": "63.000",
+          "cashprice": "70.000",
+          "changeprice": "7.000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "25.000",
+          "total_price": "63.000",
+          "cashprice": "70.000",
+          "changeprice": "7.000"
+        },
+        "cost": 0.001866
+      },
+      {
+        "doc_id": "cord_0016",
+        "ground_truth": {
+          "subtotal_price": "63,636",
+          "tax_price": "6,364",
+          "total_price": "70,000",
+          "cashprice": "100,000",
+          "changeprice": "30,000"
+        },
+        "predicted": {
+          "subtotal_price": "63,636",
+          "tax_price": "6,364",
+          "total_price": "70,000",
+          "cashprice": "100,000",
+          "changeprice": "30,000"
+        },
+        "cost": 0.002627
+      },
+      {
+        "doc_id": "cord_0017",
+        "ground_truth": {
+          "subtotal_price": "91,000",
+          "total_price": "Rp. 91,000",
+          "creditcardprice": "91,000"
+        },
+        "predicted": {
+          "menuqty_cnt": "1",
+          "subtotal_price": "91,000",
+          "total_etc": "(0)",
+          "total_price": "Rp. 91,000",
+          "creditcardprice": "91,000"
+        },
+        "cost": 0.003779
+      },
+      {
+        "doc_id": "cord_0018",
+        "ground_truth": {
+          "total_price": "156000",
+          "cashprice": "156000",
+          "changeprice": "Rp. 0"
+        },
+        "predicted": {
+          "menuqty_cnt": "156000",
+          "subtotal_price": "156000",
+          "cashprice": "156000",
+          "changeprice": "Rp 0"
+        },
+        "cost": 0.001681
+      },
+      {
+        "doc_id": "cord_0019",
+        "ground_truth": {
+          "subtotal_price": "160000",
+          "tax_price": "16000",
+          "total_price": "176000"
+        },
+        "predicted": {
+          "subtotal_price": "160000",
+          "tax_price": "16000",
+          "total_price": "176000"
+        },
+        "cost": 0.001461
+      },
+      {
+        "doc_id": "cord_0020",
+        "ground_truth": {
+          "subtotal_price": "325,600",
+          "tax_price": "34,351",
+          "total_price": "377,859"
+        },
+        "predicted": {
+          "subtotal_price": "324,400",
+          "total_etc": "17,908",
+          "tax_price": "34,431",
+          "total_price": "377,250",
+          "menuqty_cnt": "1"
+        },
+        "cost": 0.003417
+      },
+      {
+        "doc_id": "cord_0021",
+        "ground_truth": {
+          "total_price": "Rp 38.000",
+          "cashprice": "Rp 50.000",
+          "changeprice": "Rp 12.000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "Rp35.000",
+          "total_price": "Rp38.000",
+          "cashprice": "Rp50.000",
+          "changeprice": "Rp12.000"
+        },
+        "cost": 0.002884
+      },
+      {
+        "doc_id": "cord_0022",
+        "ground_truth": {
+          "total_price": "40,000",
+          "cashprice": "100,000",
+          "changeprice": "60,000"
+        },
+        "predicted": {
+          "total_price": "40,000",
+          "cashprice": "100,000",
+          "changeprice": "60,000",
+          "menuqty_cnt": "2"
+        },
+        "cost": 0.002727
+      },
+      {
+        "doc_id": "cord_0023",
+        "ground_truth": {
+          "total_price": "63,000",
+          "cashprice": "70,000",
+          "changeprice": "7,000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "54,000",
+          "total_price": "63,000",
+          "cashprice": "70,000",
+          "changeprice": "7,000"
+        },
+        "cost": 0.002687
+      },
+      {
+        "doc_id": "cord_0024",
+        "ground_truth": {
+          "total_price": "Rp.118.000",
+          "creditcardprice": "118.000",
+          "menuqty_cnt": "3"
+        },
+        "predicted": {
+          "menuqty_cnt": "3",
+          "total_price": "Rp.118.000",
+          "otherprice": "118.000"
+        },
+        "cost": 0.001476
+      },
+      {
+        "doc_id": "cord_0025",
+        "ground_truth": {
+          "total_price": "43,000",
+          "cashprice": "50,000",
+          "changeprice": "7,000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "10,000",
+          "total_price": "43,000",
+          "cashprice": "50,000",
+          "changeprice": "7,000"
+        },
+        "cost": 0.002937
+      },
+      {
+        "doc_id": "cord_0026",
+        "ground_truth": {
+          "subtotal_price": "Rp 138.000",
+          "total_price": "Rp 138.000",
+          "cashprice": "Rp 138.000",
+          "changeprice": "Rp 0"
+        },
+        "predicted": {
+          "subtotal_price": "Rp 138.000",
+          "total_price": "Rp 138.000",
+          "cashprice": "Rp 138.000",
+          "changeprice": "Rp 0"
+        },
+        "cost": 0.002236
+      },
+      {
+        "doc_id": "cord_0027",
+        "ground_truth": {
+          "subtotal_price": "56,000",
+          "tax_price": "5,600",
+          "total_price": "61,600",
+          "cashprice": "61,600",
+          "menuqty_cnt": "2.00"
+        },
+        "predicted": {
+          "menuqty_cnt": "2.00",
+          "subtotal_price": "56,000",
+          "tax_price": "5,600",
+          "total_price": "61,600",
+          "otherprice": "61,600"
+        },
+        "cost": 0.002667
+      },
+      {
+        "doc_id": "cord_0028",
+        "ground_truth": {
+          "subtotal_price": "369,000",
+          "tax_price": "38,745",
+          "total_price": "426,195"
+        },
+        "predicted": {
+          "menuqty_cnt": "2",
+          "subtotal_price": "369,000",
+          "subtotal_etc": "18,450",
+          "tax_price": "38,745",
+          "total_etc": "0",
+          "total_price": "426,195"
+        },
+        "cost": 0.003246
+      },
+      {
+        "doc_id": "cord_0029",
+        "ground_truth": {
+          "subtotal_price": "132,636",
+          "tax_price": "13,264",
+          "total_price": "145,900",
+          "creditcardprice": "[145,900]"
+        },
+        "predicted": {
+          "menuqty_cnt": "1",
+          "subtotal_price": "132,636",
+          "tax_price": "13,264",
+          "total_price": "145,900"
+        },
+        "cost": 0.003902
+      },
+      {
+        "doc_id": "cord_0030",
+        "ground_truth": {
+          "subtotal_price": "28,636",
+          "tax_price": "2,864",
+          "total_price": "31,500",
+          "cashprice": "50,000",
+          "changeprice": "18,500"
+        },
+        "predicted": {
+          "subtotal_price": "28,636",
+          "tax_price": "2,864",
+          "total_price": "31,500",
+          "cashprice": "50,000",
+          "changeprice": "18,500"
+        },
+        "cost": 0.002647
+      },
+      {
+        "doc_id": "cord_0031",
+        "ground_truth": {
+          "subtotal_price": "85,500",
+          "tax_price": "18,126",
+          "total_price": "113,886"
+        },
+        "predicted": {
+          "menuqty_cnt": "85,500",
+          "subtotal_price": "85,500",
+          "total_etc": "10,260",
+          "tax_price": "18,126",
+          "total_price": "113,886"
+        },
+        "cost": 0.00279
+      },
+      {
+        "doc_id": "cord_0032",
+        "ground_truth": {
+          "subtotal_price": "24.000",
+          "total_price": "24.000",
+          "cashprice": "50.000",
+          "changeprice": "26.000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "24,000",
+          "subtotal_price": "24,000",
+          "total_price": "24,000",
+          "cashprice": "50,000",
+          "changeprice": "26,000"
+        },
+        "cost": 0.002785
+      },
+      {
+        "doc_id": "cord_0033",
+        "ground_truth": {
+          "subtotal_price": "117,500",
+          "tax_price": "19,557",
+          "total_price": "148,127"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "50,500",
+          "subtotal_price": "117,500",
+          "tax_etc": "11,070",
+          "tax_price": "19,557",
+          "total_price": "148,127"
+        },
+        "cost": 0.002316
+      },
+      {
+        "doc_id": "cord_0034",
+        "ground_truth": {
+          "subtotal_price": "85.000",
+          "tax_price": "8.500",
+          "total_price": "93.500",
+          "cashprice": "100.000",
+          "changeprice": "6.500"
+        },
+        "predicted": {
+          "subtotal_price": "85.000",
+          "tax_price": "8.500",
+          "total_price": "93.500",
+          "cashprice": "100.000",
+          "changeprice": "6.500"
+        },
+        "cost": 0.001466
+      },
+      {
+        "doc_id": "cord_0035",
+        "ground_truth": {
+          "total_price": "54,000",
+          "cashprice": "104,000",
+          "changeprice": "50,000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "18,000",
+          "total_price": "54,000",
+          "cashprice": "104,000",
+          "changeprice": "50,000"
+        },
+        "cost": 0.003152
+      },
+      {
+        "doc_id": "cord_0036",
+        "ground_truth": {
+          "subtotal_price": "40,000",
+          "total_price": "40,000",
+          "cashprice": "100,000",
+          "changeprice": "60,000",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "40,000",
+          "menuqty_cnt": "1",
+          "total_price": "40,000",
+          "cashprice": "100,000",
+          "changeprice": "60,000"
+        },
+        "cost": 0.00274
+      },
+      {
+        "doc_id": "cord_0037",
+        "ground_truth": {
+          "total_etc": "20.000",
+          "cashprice": "50.000",
+          "changeprice": "30.000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "20.000",
+          "total_price": "20.000",
+          "cashprice": "50.000",
+          "changeprice": "30.000"
+        },
+        "cost": 0.001666
+      },
+      {
+        "doc_id": "cord_0038",
+        "ground_truth": {
+          "subtotal_price": "561,800",
+          "tax_price": "60,394",
+          "total_price": "664,329",
+          "menuqty_cnt": "13"
+        },
+        "predicted": {
+          "menuqty_cnt": "13",
+          "subtotal_price": "561,800",
+          "subtotal_etc": "42,135",
+          "tax_price": "60,394",
+          "total_price": "664,329"
+        },
+        "cost": 0.00272
+      },
+      {
+        "doc_id": "cord_0040",
+        "ground_truth": {
+          "total_price": "68,000",
+          "cashprice": "100,000",
+          "changeprice": "32,000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "54.000",
+          "total_price": "68.000",
+          "cashprice": "100.000",
+          "changeprice": "32.000"
+        },
+        "cost": 0.001766
+      },
+      {
+        "doc_id": "cord_0042",
+        "ground_truth": {
+          "subtotal_price": "15,000",
+          "tax_price": "1,500",
+          "total_price": "16,500",
+          "cashprice": "50,000",
+          "changeprice": "33,500",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "15.000",
+          "subtotal_price": "15.000",
+          "tax_etc": "1.500",
+          "total_price": "16.500",
+          "cashprice": "50.000",
+          "changeprice": "33.500",
+          "menuqty_cnt": "1"
+        },
+        "cost": 0.00315
+      },
+      {
+        "doc_id": "cord_0043",
+        "ground_truth": {
+          "subtotal_price": "Rp 165000.00",
+          "tax_price": "Rp 15000.00",
+          "total_price": "Rp 165000.00",
+          "cashprice": "Rp 200000.00",
+          "changeprice": "Rp 35000.00"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "165000.00",
+          "subtotal_price": "Rp165000.00",
+          "tax_price": "Rp15000.00",
+          "total_price": "Rp165000.00",
+          "cashprice": "Rp200000.00",
+          "changeprice": "Rp35000.00"
+        },
+        "cost": 0.00311
+      },
+      {
+        "doc_id": "cord_0044",
+        "ground_truth": {
+          "total_price": "30.000",
+          "cashprice": "50.000",
+          "changeprice": "20.000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "30,000",
+          "total_price": "30,000",
+          "cashprice": "50,000",
+          "changeprice": "20,000"
+        },
+        "cost": 0.002457
+      },
+      {
+        "doc_id": "cord_0045",
+        "ground_truth": {
+          "total_price": "88,000",
+          "cashprice": "88.000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "25.000",
+          "total_price": "88.000",
+          "cashprice": "88.000",
+          "changeprice": "0"
+        },
+        "cost": 0.003092
+      },
+      {
+        "doc_id": "cord_0046",
+        "ground_truth": {
+          "total_price": "40,000",
+          "cashprice": "40,000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "20,000",
+          "total_price": "40,000",
+          "cashprice": "40,000",
+          "changeprice": "0"
+        },
+        "cost": 0.002737
+      },
+      {
+        "doc_id": "cord_0047",
+        "ground_truth": {
+          "total_price": "63,000.00",
+          "creditcardprice": "63,000.00",
+          "menuqty_cnt": "3"
+        },
+        "predicted": {
+          "total_price": "63,000.00",
+          "menuqty_cnt": "3",
+          "creditcardprice": "63,000.00"
+        },
+        "cost": 0.002307
+      },
+      {
+        "doc_id": "cord_0048",
+        "ground_truth": {
+          "subtotal_price": "22,728",
+          "tax_price": "2,272",
+          "total_price": "25,000",
+          "cashprice": "100,000",
+          "changeprice": "75,000"
+        },
+        "predicted": {
+          "subtotal_price": "22,728",
+          "tax_price": "2,272",
+          "total_price": "25,000",
+          "cashprice": "100,000",
+          "changeprice": "75,000",
+          "menuqty_cnt": "1"
+        },
+        "cost": 0.002842
+      },
+      {
+        "doc_id": "cord_0049",
+        "ground_truth": {
+          "subtotal_price": "23,000",
+          "total_price": "23,000",
+          "cashprice": "50,000",
+          "changeprice": "27,000",
+          "menuqty_cnt": "2"
+        },
+        "predicted": {
+          "subtotal_price": "23,000",
+          "total_price": "23,000",
+          "cashprice": "50,000",
+          "changeprice": "27,000",
+          "menuqty_cnt": "2 ITEM"
+        },
+        "cost": 0.001846
+      },
+      {
+        "doc_id": "cord_0050",
+        "ground_truth": {
+          "subtotal_price": "17,727",
+          "tax_price": "1,773",
+          "total_price": "19,500",
+          "cashprice": "100,000",
+          "changeprice": "80,500"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "17,727",
+          "subtotal_price": "17,727",
+          "tax_price": "1,773",
+          "total_price": "19,500",
+          "cashprice": "100,000",
+          "changeprice": "80,500"
+        },
+        "cost": 0.002817
+      },
+      {
+        "doc_id": "cord_0051",
+        "ground_truth": {
+          "subtotal_price": "303,646",
+          "tax_price": "30,365",
+          "total_price": "334,000",
+          "total_etc": "-11",
+          "creditcardprice": "334,000",
+          "menuqty_cnt": "8"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "303,646",
+          "tax_price": "30,355",
+          "total_price": "334,000",
+          "creditcardprice": "334,000"
+        },
+        "cost": 0.002231
+      },
+      {
+        "doc_id": "cord_0052",
+        "ground_truth": {
+          "subtotal_price": "40.000",
+          "total_price": "40.000",
+          "cashprice": "100.000",
+          "changeprice": "60.000"
+        },
+        "predicted": {
+          "menuqty_cnt": "20.000",
+          "itemsubtotal_cnt": "20.000",
+          "subtotal_price": "40.000",
+          "total_price": "40.000",
+          "cashprice": "100.000",
+          "changeprice": "60.000"
+        },
+        "cost": 0.002887
+      },
+      {
+        "doc_id": "cord_0053",
+        "ground_truth": {
+          "subtotal_price": "107.000",
+          "tax_price": "11.235",
+          "total_price": "123.585",
+          "menuqty_cnt": "4"
+        },
+        "predicted": {
+          "subtotal_price": "107.000",
+          "tax_price": "11.235",
+          "total_price": "123.585",
+          "otherprice": "5.350"
+        },
+        "cost": 0.002492
+      },
+      {
+        "doc_id": "cord_0054",
+        "ground_truth": {
+          "subtotal_price": "10,000",
+          "total_price": "10,000",
+          "cashprice": "10,000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "10,000",
+          "subtotal_price": "10,000",
+          "total_price": "10,000",
+          "cashprice": "10,000"
+        },
+        "cost": 0.002482
+      },
+      {
+        "doc_id": "cord_0056",
+        "ground_truth": {
+          "subtotal_price": "8,181",
+          "tax_price": "818",
+          "total_price": "8,999",
+          "cashprice": "10,000",
+          "changeprice": "1,001"
+        },
+        "predicted": {
+          "menuqty_cnt": "8,181",
+          "subtotal_price": "8,181",
+          "tax_price": "818",
+          "total_price": "8,999",
+          "cashprice": "10,000",
+          "changeprice": "1,001"
+        },
+        "cost": 0.002881
+      },
+      {
+        "doc_id": "cord_0058",
+        "ground_truth": {
+          "subtotal_price": "55,000",
+          "tax_price": "5,500",
+          "total_price": "60,500",
+          "cashprice": "100,000",
+          "changeprice": "39,500"
+        },
+        "predicted": {
+          "subtotal_price": "55,000",
+          "tax_price": "5,500",
+          "total_price": "60,500",
+          "cashprice": "100,000",
+          "changeprice": "39,500"
+        },
+        "cost": 0.00271
+      },
+      {
+        "doc_id": "cord_0059",
+        "ground_truth": {
+          "subtotal_price": "618,490",
+          "tax_price": "61,849",
+          "total_price": "680,500",
+          "menuqty_cnt": "21"
+        },
+        "predicted": {
+          "subtotal_price": "618,490",
+          "tax_price": "61,849",
+          "total_price": "480,500",
+          "itemsubtotal_cnt": "9",
+          "menuqty_cnt": "21"
+        },
+        "cost": 0.002724
+      },
+      {
+        "doc_id": "cord_0060",
+        "ground_truth": {
+          "subtotal_price": "26.250",
+          "tax_price": "-",
+          "total_price": "26.250"
+        },
+        "predicted": {
+          "menuqty_cnt": "1x",
+          "subtotal_price": "26.250",
+          "tax_price": "-",
+          "total_price": "26.250",
+          "emoneyprice": "GO-PAY"
+        },
+        "cost": 0.002681
+      },
+      {
+        "doc_id": "cord_0061",
+        "ground_truth": {
+          "subtotal_price": "24,500",
+          "total_price": "24,500",
+          "creditcardprice": "24,500",
+          "menuqty_cnt": "7.00"
+        },
+        "predicted": {
+          "subtotal_price": "24,500",
+          "total_price": "24,500",
+          "creditcardprice": "24,500",
+          "menuqty_cnt": "7.00"
+        },
+        "cost": 0.001676
+      },
+      {
+        "doc_id": "cord_0062",
+        "ground_truth": {
+          "total_price": "48.000",
+          "cashprice": "50.000",
+          "changeprice": "2,000"
+        },
+        "predicted": {
+          "total_price": "48,000",
+          "cashprice": "50,000",
+          "changeprice": "2,000"
+        },
+        "cost": 0.002257
+      },
+      {
+        "doc_id": "cord_0063",
+        "ground_truth": {
+          "subtotal_price": "57.000",
+          "total_price": "57.000",
+          "cashprice": "60.000",
+          "changeprice": "3.000"
+        },
+        "predicted": {
+          "subtotal_price": "57.000",
+          "total_price": "57.000",
+          "cashprice": "60.000",
+          "changeprice": "3.000"
+        },
+        "cost": 0.002258
+      },
+      {
+        "doc_id": "cord_0064",
+        "ground_truth": {
+          "total_price": "16.000",
+          "cashprice": "50.000",
+          "changeprice": "34.000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "16,000",
+          "total_price": "16,000",
+          "cashprice": "50,000",
+          "changeprice": "34,000"
+        },
+        "cost": 0.002546
+      },
+      {
+        "doc_id": "cord_0065",
+        "ground_truth": {
+          "subtotal_price": "13.000",
+          "tax_price": "-",
+          "total_price": "13.000"
+        },
+        "predicted": {
+          "subtotal_price": "13.000",
+          "tax_price": "-",
+          "total_price": "13.000"
+        },
+        "cost": 0.002355
+      },
+      {
+        "doc_id": "cord_0066",
+        "ground_truth": {
+          "subtotal_price": "36,364",
+          "tax_price": "3,636",
+          "total_price": "40,000",
+          "cashprice": "50,000",
+          "changeprice": "10,000"
+        },
+        "predicted": {
+          "subtotal_price": "30,000",
+          "tax_price": "10,000",
+          "total_etc": "40,000",
+          "total_price": "40,000",
+          "cashprice": "50,000",
+          "changeprice": "10,000"
+        },
+        "cost": 0.002807
+      },
+      {
+        "doc_id": "cord_0067",
+        "ground_truth": {
+          "total_price": "9.500,00",
+          "cashprice": "9.500,00",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "9,500.00",
+          "menuqty_cnt": "1",
+          "total_price": "9,500.00",
+          "cashprice": "9,500.00"
+        },
+        "cost": 0.001419
+      },
+      {
+        "doc_id": "cord_0068",
+        "ground_truth": {
+          "total_price": "20,000",
+          "cashprice": "50,000",
+          "changeprice": "30,000"
+        },
+        "predicted": {
+          "menuqty_cnt": "20,000",
+          "total_price": "20,000",
+          "cashprice": "50,000",
+          "changeprice": "30,000"
+        },
+        "cost": 0.001651
+      },
+      {
+        "doc_id": "cord_0069",
+        "ground_truth": {
+          "total_price": "74,000",
+          "cashprice": "100,000",
+          "changeprice": "26,000"
+        },
+        "predicted": {
+          "total_price": "74,000",
+          "cashprice": "100,000",
+          "changeprice": "26,000"
+        },
+        "cost": 0.00236
+      },
+      {
+        "doc_id": "cord_0070",
+        "ground_truth": {
+          "subtotal_price": "1,343,000",
+          "tax_price": "142,358",
+          "total_price": "1,565,938"
+        },
+        "predicted": {
+          "subtotal_price": "1,343,000",
+          "tax_price": "142,358",
+          "total_price": "1,565,938"
+        },
+        "cost": 0.002404
+      },
+      {
+        "doc_id": "cord_0071",
+        "ground_truth": {
+          "total_price": "198000",
+          "cashprice": "200200",
+          "changeprice": "22000"
+        },
+        "predicted": {
+          "menuqty_cnt": "198000",
+          "subtotal_price": "198000",
+          "cashprice": "200200",
+          "changeprice": "220000"
+        },
+        "cost": 0.001681
+      },
+      {
+        "doc_id": "cord_0072",
+        "ground_truth": {
+          "subtotal_price": "15,909",
+          "tax_price": "1,591",
+          "total_price": "17,500",
+          "cashprice": "20,000",
+          "changeprice": "2,500"
+        },
+        "predicted": {
+          "subtotal_price": "15,909",
+          "tax_price": "1,591",
+          "total_price": "17,500",
+          "cashprice": "20,000",
+          "changeprice": "2,500"
+        },
+        "cost": 0.002602
+      },
+      {
+        "doc_id": "cord_0073",
+        "ground_truth": {
+          "total_price": "22.000",
+          "cashprice": "25.000",
+          "changeprice": "3.000",
+          "menuqty_cnt": "2"
+        },
+        "predicted": {
+          "menuqty_cnt": "2",
+          "total_price": "22.000",
+          "cashprice": "25.000",
+          "changeprice": "3.000"
+        },
+        "cost": 0.002432
+      },
+      {
+        "doc_id": "cord_0074",
+        "ground_truth": {
+          "subtotal_price": "278,000",
+          "tax_price": "30,024",
+          "total_price": "330,264"
+        },
+        "predicted": {
+          "subtotal_price": "278,000",
+          "tax_price": "30,024",
+          "total_price": "330,264"
+        },
+        "cost": 0.00237
+      },
+      {
+        "doc_id": "cord_0075",
+        "ground_truth": {
+          "subtotal_price": "256,363",
+          "tax_price": "25,637",
+          "total_price": "282,000"
+        },
+        "predicted": {
+          "subtotal_price": "256,363",
+          "tax_price": "25,637",
+          "total_price": "282,000"
+        },
+        "cost": 0.001194
+      },
+      {
+        "doc_id": "cord_0077",
+        "ground_truth": {
+          "subtotal_price": "17,000",
+          "total_price": "17,000",
+          "cashprice": "22,000",
+          "changeprice": "5,000"
+        },
+        "predicted": {
+          "menuqty_cnt": "1 x 17,000",
+          "itemsubtotal_cnt": "17,000",
+          "subtotal_price": "17,000",
+          "total_price": "17,000",
+          "cashprice": "22,000",
+          "changeprice": "5,000"
+        },
+        "cost": 0.00301
+      },
+      {
+        "doc_id": "cord_0078",
+        "ground_truth": {
+          "total_price": "30.000",
+          "cashprice": "30.000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "25.000",
+          "total_price": "30.000",
+          "cashprice": "30.000",
+          "changeprice": "0"
+        },
+        "cost": 0.00278
+      },
+      {
+        "doc_id": "cord_0079",
+        "ground_truth": {
+          "total_price": "22.000",
+          "cashprice": "22.000",
+          "menuqty_cnt": "2"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "22.000",
+          "menuqty_cnt": "2",
+          "total_price": "22.000",
+          "cashprice": "22.000"
+        },
+        "cost": 0.001666
+      },
+      {
+        "doc_id": "cord_0080",
+        "ground_truth": {
+          "subtotal_price": "25.000",
+          "total_price": "25.000",
+          "cashprice": "25.000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "subtotal_price": "25,000",
+          "total_price": "25,000",
+          "cashprice": "25,000",
+          "changeprice": "0",
+          "menuqty_cnt": "1"
+        },
+        "cost": 0.001589
+      },
+      {
+        "doc_id": "cord_0082",
+        "ground_truth": {
+          "subtotal_price": "385,000",
+          "total_price": "385,000",
+          "changeprice": "0",
+          "creditcardprice": "385,000"
+        },
+        "predicted": {
+          "menuqty_cnt": "1x 115,000",
+          "subtotal_price": "385,000",
+          "total_price": "385,000",
+          "creditcardprice": "385,000",
+          "changeprice": "0"
+        },
+        "cost": 0.003117
+      },
+      {
+        "doc_id": "cord_0083",
+        "ground_truth": {
+          "subtotal_price": "20,909",
+          "tax_price": "2,091",
+          "total_price": "23,000",
+          "cashprice": "25.000",
+          "changeprice": "2.000",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "menuqty_cnt": "20,909",
+          "subtotal_price": "20,909",
+          "tax_price": "2,091",
+          "total_price": "23,000",
+          "cashprice": "25,000",
+          "changeprice": "2,000"
+        },
+        "cost": 0.002852
+      },
+      {
+        "doc_id": "cord_0084",
+        "ground_truth": {
+          "subtotal_price": "Rp 36.000",
+          "tax_price": "Rp 3.600",
+          "total_price": "Rp 39.600",
+          "emoneyprice": "Rp 39.600"
+        },
+        "predicted": {
+          "menuqty_cnt": "1x @12.000",
+          "subtotal_price": "Rp 36.000",
+          "tax_price": "Rp 3.600",
+          "total_price": "Rp 39.600",
+          "otherprice": "Rp 39.600"
+        },
+        "cost": 0.002512
+      },
+      {
+        "doc_id": "cord_0085",
+        "ground_truth": {
+          "subtotal_price": "179.500",
+          "tax_price": "17.950",
+          "total_price": "197.450",
+          "cashprice": "197.450",
+          "menuqty_cnt": "14"
+        },
+        "predicted": {
+          "subtotal_price": "179.500",
+          "tax_price": "17.950",
+          "total_price": "197.450",
+          "cashprice": "197.450",
+          "menuqty_cnt": "14"
+        },
+        "cost": 0.002759
+      },
+      {
+        "doc_id": "cord_0086",
+        "ground_truth": {
+          "subtotal_price": "22,000",
+          "total_price": "22,000",
+          "cashprice": "52,000",
+          "changeprice": "30,000",
+          "menuqty_cnt": "2"
+        },
+        "predicted": {
+          "subtotal_price": "22,000",
+          "total_price": "22,000",
+          "cashprice": "52,000",
+          "changeprice": "30,000",
+          "menuqty_cnt": "2 PCS"
+        },
+        "cost": 0.001846
+      },
+      {
+        "doc_id": "cord_0087",
+        "ground_truth": {
+          "subtotal_price": "36,500",
+          "tax_price": "3,650",
+          "total_price": "40,150",
+          "creditcardprice": "40,150"
+        },
+        "predicted": {
+          "menuqty_cnt": "55000",
+          "subtotal_price": "55000",
+          "tax_price": "5250",
+          "total_price": "40150",
+          "creditcardprice": "40150"
+        },
+        "cost": 0.002702
+      },
+      {
+        "doc_id": "cord_0088",
+        "ground_truth": {
+          "subtotal_price": "47,000",
+          "total_price": "47,000",
+          "changeprice": "0",
+          "creditcardprice": "47,000"
+        },
+        "predicted": {
+          "subtotal_price": "47,000",
+          "total_price": "47,000",
+          "creditcardprice": "47,000",
+          "changeprice": "0"
+        },
+        "cost": 0.002487
+      },
+      {
+        "doc_id": "cord_0089",
+        "ground_truth": {
+          "subtotal_price": "40,000",
+          "total_price": "40,000",
+          "cashprice": "50,000",
+          "changeprice": "10,000",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "40,000",
+          "total_etc": "0",
+          "menuqty_cnt": "1",
+          "subtotal_price": "40,000",
+          "total_price": "40,000",
+          "cashprice": "50,000",
+          "changeprice": "10,000"
+        },
+        "cost": 0.002997
+      },
+      {
+        "doc_id": "cord_0090",
+        "ground_truth": {
+          "subtotal_price": "26,818",
+          "tax_price": "2,681",
+          "total_price": "29,500",
+          "cashprice": "29,500",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "subtotal_price": "26,818",
+          "tax_price": "2,681",
+          "total_price": "29,500",
+          "cashprice": "29,500",
+          "itemsubtotal_cnt": "1",
+          "menuqty_cnt": "1"
+        },
+        "cost": 0.002909
+      },
+      {
+        "doc_id": "cord_0091",
+        "ground_truth": {
+          "total_price": "21.000",
+          "cashprice": "30.000",
+          "changeprice": "9.000"
+        },
+        "predicted": {
+          "menuqty_cnt": "15.000",
+          "subtotal_price": "21.000",
+          "cashprice": "30.000",
+          "changeprice": "9.000"
+        },
+        "cost": 0.001318
+      },
+      {
+        "doc_id": "cord_0092",
+        "ground_truth": {
+          "total_price": "240.000",
+          "cashprice": "250.000",
+          "changeprice": "10,000",
+          "menuqty_cnt": "(Qty=4.00)"
+        },
+        "predicted": {
+          "subtotal_price": "60.000",
+          "menuqty_cnt": "4",
+          "total_price": "240.000",
+          "cashprice": "250.000",
+          "changeprice": "10.000"
+        },
+        "cost": 0.001846
+      },
+      {
+        "doc_id": "cord_0093",
+        "ground_truth": {
+          "subtotal_price": "16,363",
+          "tax_price": "1,636",
+          "total_price": "17,999",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "16,363",
+          "menuqty_cnt": "1",
+          "subtotal_price": "16,363",
+          "tax_price": "1,436",
+          "total_price": "17,999"
+        },
+        "cost": 0.002687
+      },
+      {
+        "doc_id": "cord_0094",
+        "ground_truth": {
+          "subtotal_price": "119,000",
+          "tax_price": "12,733",
+          "total_price": "140,063",
+          "creditcardprice": "140,063"
+        },
+        "predicted": {
+          "subtotal_price": "119,000",
+          "tax_etc": "8,330",
+          "total_price": "140,063",
+          "creditcardprice": "140,063",
+          "menuqty_cnt": "1"
+        },
+        "cost": 0.003497
+      },
+      {
+        "doc_id": "cord_0095",
+        "ground_truth": {
+          "subtotal_price": "56,181",
+          "tax_price": "5,618",
+          "total_price": "61,799",
+          "cashprice": "62,000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "43,181",
+          "subtotal_price": "56,181",
+          "tax_price": "5,618",
+          "total_price": "62,000"
+        },
+        "cost": 0.002712
+      },
+      {
+        "doc_id": "cord_0096",
+        "ground_truth": {
+          "subtotal_price": "41,000",
+          "total_price": "41,000",
+          "cashprice": "50,000",
+          "changeprice": "9,000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "41,000",
+          "menuqty_cnt": "1",
+          "total_price": "41,000",
+          "cashprice": "50,000",
+          "changeprice": "9,000"
+        },
+        "cost": 0.002662
+      },
+      {
+        "doc_id": "cord_0097",
+        "ground_truth": {
+          "total_price": "55.000",
+          "cashprice": "55.000",
+          "menuqty_cnt": "6.00xITEMS"
+        },
+        "predicted": {
+          "total_price": "55.000",
+          "cashprice": "55.000"
+        },
+        "cost": 0.000999
+      },
+      {
+        "doc_id": "cord_0098",
+        "ground_truth": {
+          "subtotal_price": "215,000",
+          "tax_price": "22,790",
+          "total_price": "250,690"
+        },
+        "predicted": {
+          "subtotal_price": "12,300",
+          "otherprice": "22,790",
+          "tax_price": "215,000",
+          "total_price": "250,690"
+        },
+        "cost": 0.002389
+      },
+      {
+        "doc_id": "cord_0099",
+        "ground_truth": {
+          "subtotal_price": "68,180",
+          "tax_price": "6,818",
+          "total_price": "75,000",
+          "cashprice": "0",
+          "changeprice": "0",
+          "creditcardprice": "75,000"
+        },
+        "predicted": {
+          "subtotal_price": "68,180",
+          "tax_price": "6,818",
+          "total_price": "75,000",
+          "creditcardprice": "75,000"
+        },
+        "cost": 0.002502
+      }
+    ]
+  },
+  "gpt4o-mini": {
+    "model_id": "gpt-4o-mini",
+    "scorer_result": {
+      "n_gt": 363,
+      "n_pred": 305,
+      "n_recovered": 279,
+      "n_joint_correct": 270,
+      "n_misbindings": 9,
+      "n_duplicates": 4,
+      "rec_val": 0.768595,
+      "cba_cond": 0.967742,
+      "acc_joint": 0.743802,
+      "delta": 0.024793,
+      "precision": 0.885246,
+      "dup_rate": 0.013115,
+      "f1_joint": 0.808383
+    },
+    "documents": [
+      {
+        "doc_id": "cord_0000",
+        "ground_truth": {
+          "subtotal_price": "60.000",
+          "tax_price": "5.455",
+          "total_price": "60.000",
+          "creditcardprice": "60.000",
+          "menuqty_cnt": "2.00"
+        },
+        "predicted": {
+          "subtotal_price": "60.000",
+          "tax_price": "5.455",
+          "total_price": "60.000"
+        },
+        "cost": 0.00155625
+      },
+      {
+        "doc_id": "cord_0002",
+        "ground_truth": {
+          "subtotal_price": "28,000",
+          "total_price": "28,000",
+          "cashprice": "100,000",
+          "changeprice": "72,000",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "subtotal_price": "28.000",
+          "total_price": "28.000",
+          "cashprice": "100.000",
+          "changeprice": "72.000"
+        },
+        "cost": 0.00285285
+      },
+      {
+        "doc_id": "cord_0003",
+        "ground_truth": {
+          "subtotal_price": "11,000",
+          "total_price": "11,000",
+          "cashprice": "11,000",
+          "menuqty_cnt": "1.00xITEMs"
+        },
+        "predicted": {
+          "subtotal_price": "11,000",
+          "total_price": "11,000",
+          "cashprice": "11,000"
+        },
+        "cost": 0.00283545
+      },
+      {
+        "doc_id": "cord_0004",
+        "ground_truth": {
+          "subtotal_price": "194,000",
+          "total_price": "174,600",
+          "cashprice": "200,000",
+          "changeprice": "25,400"
+        },
+        "predicted": {
+          "subtotal_price": "164,000",
+          "total_etc": "19,400",
+          "total_price": "174,600",
+          "cashprice": "200,000",
+          "changeprice": "25,400"
+        },
+        "cost": 0.00564465
+      },
+      {
+        "doc_id": "cord_0005",
+        "ground_truth": {
+          "subtotal_price": "28.182",
+          "tax_price": "2.818",
+          "total_price": "31.000",
+          "cashprice": "31.000",
+          "menuqty_cnt": "1.00"
+        },
+        "predicted": {
+          "subtotal_price": "28.182",
+          "total_price": "31.000",
+          "cashprice": "31.000"
+        },
+        "cost": 0.00560985
+      },
+      {
+        "doc_id": "cord_0006",
+        "ground_truth": {
+          "total_price": "46,000",
+          "cashprice": "50,000",
+          "changeprice": "4,000"
+        },
+        "predicted": {
+          "total_price": "46,000",
+          "cashprice": "50,000",
+          "changeprice": "4,000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0007",
+        "ground_truth": {
+          "subtotal_price": "100,909",
+          "tax_price": "10,091",
+          "total_price": "111,000",
+          "cashprice": "Rp. 111,000"
+        },
+        "predicted": {
+          "subtotal_price": "100,909",
+          "tax_price": "10,091",
+          "total_price": "111,000",
+          "cashprice": "Rp.111,000"
+        },
+        "cost": 0.00392895
+      },
+      {
+        "doc_id": "cord_0008",
+        "ground_truth": {
+          "subtotal_price": "45,455",
+          "tax_price": "4,545",
+          "total_price": "50,000",
+          "creditcardprice": "50,000"
+        },
+        "predicted": {
+          "subtotal_price": "45,455",
+          "tax_price": "4,545",
+          "total_price": "50,000"
+        },
+        "cost": 0.00561165
+      },
+      {
+        "doc_id": "cord_0009",
+        "ground_truth": {
+          "subtotal_price": "36000",
+          "cashprice": "50000",
+          "changeprice": "14000"
+        },
+        "predicted": {
+          "subtotal_price": "36000",
+          "cashprice": "50000",
+          "changeprice": "14000"
+        },
+        "cost": 0.00390915
+      },
+      {
+        "doc_id": "cord_0010",
+        "ground_truth": {
+          "subtotal_price": "17,000",
+          "total_price": "17,000",
+          "cashprice": "20,000",
+          "changeprice": "3,000"
+        },
+        "predicted": {
+          "subtotal_price": "17,000",
+          "total_price": "17,000",
+          "cashprice": "20,000",
+          "changeprice": "3,000"
+        },
+        "cost": 0.00393015
+      },
+      {
+        "doc_id": "cord_0011",
+        "ground_truth": {
+          "total_price": "230,000",
+          "cashprice": "230,000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "total_price": "230,000",
+          "cashprice": "230,000",
+          "changeprice": "0"
+        },
+        "cost": 0.00390555
+      },
+      {
+        "doc_id": "cord_0012",
+        "ground_truth": {
+          "total_price": "120,000",
+          "changeprice": "0",
+          "creditcardprice": "120,000",
+          "menuqty_cnt": "(2"
+        },
+        "predicted": {
+          "total_price": "120,000",
+          "subtotal_price": "120,000",
+          "creditcardprice": "120,000"
+        },
+        "cost": 0.00391335
+      },
+      {
+        "doc_id": "cord_0013",
+        "ground_truth": {
+          "subtotal_price": "46.636",
+          "tax_price": "4.664",
+          "total_price": "51.300",
+          "cashprice": "52.000",
+          "changeprice": "700"
+        },
+        "predicted": {
+          "total_price": "51.700",
+          "tax_price": "4.600",
+          "total_etc": "52.000",
+          "cashprice": "52.000"
+        },
+        "cost": 0.00563145
+      },
+      {
+        "doc_id": "cord_0014",
+        "ground_truth": {
+          "subtotal_price": "238,000",
+          "tax_price": "25,585",
+          "total_price": "281,435",
+          "total_etc": "100,000",
+          "cashprice": "200,000",
+          "changeprice": "18,565"
+        },
+        "predicted": {
+          "subtotal_price": "238,000",
+          "total_price": "281,435",
+          "cashprice": "200,000",
+          "changeprice": "18,365"
+        },
+        "cost": 0.00562665
+      },
+      {
+        "doc_id": "cord_0015",
+        "ground_truth": {
+          "total_price": "63.000",
+          "cashprice": "70.000",
+          "changeprice": "7.000"
+        },
+        "predicted": {
+          "total_price": "63.000",
+          "cashprice": "70.000",
+          "changeprice": "7.000"
+        },
+        "cost": 0.00390975
+      },
+      {
+        "doc_id": "cord_0016",
+        "ground_truth": {
+          "subtotal_price": "63,636",
+          "tax_price": "6,364",
+          "total_price": "70,000",
+          "cashprice": "100,000",
+          "changeprice": "30,000"
+        },
+        "predicted": {
+          "subtotal_price": "63,636",
+          "tax_price": "6,364",
+          "total_price": "70,000",
+          "cashprice": "100,000",
+          "changeprice": "30,000"
+        },
+        "cost": 0.00564585
+      },
+      {
+        "doc_id": "cord_0017",
+        "ground_truth": {
+          "subtotal_price": "91,000",
+          "total_price": "Rp. 91,000",
+          "creditcardprice": "91,000"
+        },
+        "predicted": {
+          "subtotal_price": "91,000",
+          "total_price": "Rp. 91,000",
+          "creditcardprice": "91,000"
+        },
+        "cost": 0.00391095
+      },
+      {
+        "doc_id": "cord_0018",
+        "ground_truth": {
+          "total_price": "156000",
+          "cashprice": "156000",
+          "changeprice": "Rp. 0"
+        },
+        "predicted": {
+          "subtotal_price": "156000",
+          "cashprice": "156000",
+          "changeprice": "Rp. 0"
+        },
+        "cost": 0.00391035
+      },
+      {
+        "doc_id": "cord_0019",
+        "ground_truth": {
+          "subtotal_price": "160000",
+          "tax_price": "16000",
+          "total_price": "176000"
+        },
+        "predicted": {
+          "subtotal_price": "100000",
+          "tax_price": "16000",
+          "total_price": "176000"
+        },
+        "cost": 0.00390975
+      },
+      {
+        "doc_id": "cord_0020",
+        "ground_truth": {
+          "subtotal_price": "325,600",
+          "tax_price": "34,351",
+          "total_price": "377,859"
+        },
+        "predicted": {
+          "subtotal_price": "325,600",
+          "total_price": "377,859",
+          "tax_price": "17,908",
+          "tax_etc": "34,331"
+        },
+        "cost": 0.00562965
+      },
+      {
+        "doc_id": "cord_0021",
+        "ground_truth": {
+          "total_price": "Rp 38.000",
+          "cashprice": "Rp 50.000",
+          "changeprice": "Rp 12.000"
+        },
+        "predicted": {
+          "subtotal_price": "Rp38.000",
+          "cashprice": "Rp50.000",
+          "changeprice": "Rp12.000"
+        },
+        "cost": 0.00391035
+      },
+      {
+        "doc_id": "cord_0022",
+        "ground_truth": {
+          "total_price": "40,000",
+          "cashprice": "100,000",
+          "changeprice": "60,000"
+        },
+        "predicted": {
+          "total_price": "40,000",
+          "cashprice": "100,000",
+          "changeprice": "60,000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0023",
+        "ground_truth": {
+          "total_price": "63,000",
+          "cashprice": "70,000",
+          "changeprice": "7,000"
+        },
+        "predicted": {
+          "total_price": "63,000",
+          "cashprice": "70,000",
+          "changeprice": "7,000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0024",
+        "ground_truth": {
+          "total_price": "Rp.118.000",
+          "creditcardprice": "118.000",
+          "menuqty_cnt": "3"
+        },
+        "predicted": {
+          "total_price": "Rp.118.000"
+        },
+        "cost": 0.00387615
+      },
+      {
+        "doc_id": "cord_0025",
+        "ground_truth": {
+          "total_price": "43,000",
+          "cashprice": "50,000",
+          "changeprice": "7,000"
+        },
+        "predicted": {
+          "total_price": "43,000",
+          "cashprice": "50,000",
+          "changeprice": "7,000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0026",
+        "ground_truth": {
+          "subtotal_price": "Rp 138.000",
+          "total_price": "Rp 138.000",
+          "cashprice": "Rp 138.000",
+          "changeprice": "Rp 0"
+        },
+        "predicted": {
+          "subtotal_price": "Rp 138.000",
+          "total_price": "Rp 138.000",
+          "cashprice": "Rp 138.000",
+          "changeprice": "Rp 0"
+        },
+        "cost": 0.00562905
+      },
+      {
+        "doc_id": "cord_0027",
+        "ground_truth": {
+          "subtotal_price": "56,000",
+          "tax_price": "5,600",
+          "total_price": "61,600",
+          "cashprice": "61,600",
+          "menuqty_cnt": "2.00"
+        },
+        "predicted": {
+          "subtotal_price": "56,000",
+          "tax_price": "5,600",
+          "total_price": "61,600"
+        },
+        "cost": 0.00561105
+      },
+      {
+        "doc_id": "cord_0028",
+        "ground_truth": {
+          "subtotal_price": "369,000",
+          "tax_price": "38,745",
+          "total_price": "426,195"
+        },
+        "predicted": {
+          "subtotal_price": "369,000",
+          "total_etc": "18,450",
+          "tax_price": "38,745",
+          "total_price": "426,195"
+        },
+        "cost": 0.00562665
+      },
+      {
+        "doc_id": "cord_0029",
+        "ground_truth": {
+          "subtotal_price": "132,636",
+          "tax_price": "13,264",
+          "total_price": "145,900",
+          "creditcardprice": "[145,900]"
+        },
+        "predicted": {
+          "subtotal_price": "132,636",
+          "tax_price": "13,264",
+          "total_price": "145,900"
+        },
+        "cost": 0.00561345
+      },
+      {
+        "doc_id": "cord_0030",
+        "ground_truth": {
+          "subtotal_price": "28,636",
+          "tax_price": "2,864",
+          "total_price": "31,500",
+          "cashprice": "50,000",
+          "changeprice": "18,500"
+        },
+        "predicted": {
+          "subtotal_price": "28,636",
+          "total_price": "31,500",
+          "cashprice": "50,000",
+          "changeprice": "18,500"
+        },
+        "cost": 0.00562725
+      },
+      {
+        "doc_id": "cord_0031",
+        "ground_truth": {
+          "subtotal_price": "85,500",
+          "tax_price": "18,126",
+          "total_price": "113,886"
+        },
+        "predicted": {
+          "subtotal_price": "85,500",
+          "tax_price": "10,260",
+          "tax_etc": "18,126",
+          "total_price": "113.886"
+        },
+        "cost": 0.00563145
+      },
+      {
+        "doc_id": "cord_0032",
+        "ground_truth": {
+          "subtotal_price": "24.000",
+          "total_price": "24.000",
+          "cashprice": "50.000",
+          "changeprice": "26.000"
+        },
+        "predicted": {
+          "subtotal_price": "24.000",
+          "total_price": "24.000",
+          "cashprice": "50.000",
+          "changeprice": "26.000"
+        },
+        "cost": 0.00562905
+      },
+      {
+        "doc_id": "cord_0033",
+        "ground_truth": {
+          "subtotal_price": "117,500",
+          "tax_price": "19,557",
+          "total_price": "148,127"
+        },
+        "predicted": {
+          "subtotal_price": "117,500",
+          "otherprice": "11,070",
+          "total_price": "148,127"
+        },
+        "cost": 0.00393195
+      },
+      {
+        "doc_id": "cord_0034",
+        "ground_truth": {
+          "subtotal_price": "85.000",
+          "tax_price": "8.500",
+          "total_price": "93.500",
+          "cashprice": "100.000",
+          "changeprice": "6.500"
+        },
+        "predicted": {
+          "subtotal_price": "85.000",
+          "tax_price": "8.500",
+          "total_price": "93.500"
+        },
+        "cost": 0.00221085
+      },
+      {
+        "doc_id": "cord_0035",
+        "ground_truth": {
+          "total_price": "54,000",
+          "cashprice": "104,000",
+          "changeprice": "50,000"
+        },
+        "predicted": {
+          "total_price": "54,000",
+          "cashprice": "104,000",
+          "changeprice": "50,000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0036",
+        "ground_truth": {
+          "subtotal_price": "40,000",
+          "total_price": "40,000",
+          "cashprice": "100,000",
+          "changeprice": "60,000",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "subtotal_price": "40.000",
+          "cashprice": "100.000",
+          "changeprice": "60.000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0037",
+        "ground_truth": {
+          "total_etc": "20.000",
+          "cashprice": "50.000",
+          "changeprice": "30.000"
+        },
+        "predicted": {
+          "total_price": "20.000",
+          "cashprice": "50.000",
+          "changeprice": "30.000"
+        },
+        "cost": 0.00390975
+      },
+      {
+        "doc_id": "cord_0038",
+        "ground_truth": {
+          "subtotal_price": "561,800",
+          "tax_price": "60,394",
+          "total_price": "664,329",
+          "menuqty_cnt": "13"
+        },
+        "predicted": {
+          "subtotal_price": "561,800",
+          "total_etc": "42,135",
+          "total_price": "664,329"
+        },
+        "cost": 0.00560985
+      },
+      {
+        "doc_id": "cord_0040",
+        "ground_truth": {
+          "total_price": "68,000",
+          "cashprice": "100,000",
+          "changeprice": "32,000"
+        },
+        "predicted": {
+          "total_price": "68.000",
+          "cashprice": "100.000",
+          "changeprice": "32.000"
+        },
+        "cost": 0.00220905
+      },
+      {
+        "doc_id": "cord_0042",
+        "ground_truth": {
+          "subtotal_price": "15,000",
+          "tax_price": "1,500",
+          "total_price": "16,500",
+          "cashprice": "50,000",
+          "changeprice": "33,500",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "subtotal_price": "15.000",
+          "total_price": "16.500",
+          "cashprice": "50.000",
+          "changeprice": "33.500"
+        },
+        "cost": 0.00562665
+      },
+      {
+        "doc_id": "cord_0043",
+        "ground_truth": {
+          "subtotal_price": "Rp 165000.00",
+          "tax_price": "Rp 15000.00",
+          "total_price": "Rp 165000.00",
+          "cashprice": "Rp 200000.00",
+          "changeprice": "Rp 35000.00"
+        },
+        "predicted": {
+          "subtotal_price": "Rp165000.00",
+          "tax_price": "Rp15000.00",
+          "total_price": "Rp165000.00",
+          "cashprice": "Rp200000.00",
+          "changeprice": "Rp35000.00"
+        },
+        "cost": 0.00565125
+      },
+      {
+        "doc_id": "cord_0044",
+        "ground_truth": {
+          "total_price": "30.000",
+          "cashprice": "50.000",
+          "changeprice": "20.000"
+        },
+        "predicted": {
+          "total_price": "30.000",
+          "cashprice": "50.000",
+          "changeprice": "20.000"
+        },
+        "cost": 0.00560985
+      },
+      {
+        "doc_id": "cord_0045",
+        "ground_truth": {
+          "total_price": "88,000",
+          "cashprice": "88.000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "total_price": "88.000",
+          "cashprice": "88.000"
+        },
+        "cost": 0.00559245
+      },
+      {
+        "doc_id": "cord_0046",
+        "ground_truth": {
+          "total_price": "40,000",
+          "cashprice": "40,000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "total_price": "40,000",
+          "cashprice": "40,000"
+        },
+        "cost": 0.00559185
+      },
+      {
+        "doc_id": "cord_0047",
+        "ground_truth": {
+          "total_price": "63,000.00",
+          "creditcardprice": "63,000.00",
+          "menuqty_cnt": "3"
+        },
+        "predicted": {
+          "total_price": "63,000.00",
+          "menuqty_cnt": "3"
+        },
+        "cost": 0.00559305
+      },
+      {
+        "doc_id": "cord_0048",
+        "ground_truth": {
+          "subtotal_price": "22,728",
+          "tax_price": "2,272",
+          "total_price": "25,000",
+          "cashprice": "100,000",
+          "changeprice": "75,000"
+        },
+        "predicted": {
+          "subtotal_price": "22,728",
+          "total_price": "25,000",
+          "cashprice": "100,000",
+          "changeprice": "75,000"
+        },
+        "cost": 0.00562545
+      },
+      {
+        "doc_id": "cord_0049",
+        "ground_truth": {
+          "subtotal_price": "23,000",
+          "total_price": "23,000",
+          "cashprice": "50,000",
+          "changeprice": "27,000",
+          "menuqty_cnt": "2"
+        },
+        "predicted": {
+          "subtotal_price": "23,000",
+          "cashprice": "30,000",
+          "changeprice": "27,000"
+        },
+        "cost": 0.00390975
+      },
+      {
+        "doc_id": "cord_0050",
+        "ground_truth": {
+          "subtotal_price": "17,727",
+          "tax_price": "1,773",
+          "total_price": "19,500",
+          "cashprice": "100,000",
+          "changeprice": "80,500"
+        },
+        "predicted": {
+          "subtotal_price": "17,727",
+          "total_price": "19,500",
+          "cashprice": "100,000",
+          "changeprice": "80,000"
+        },
+        "cost": 0.00562665
+      },
+      {
+        "doc_id": "cord_0051",
+        "ground_truth": {
+          "subtotal_price": "303,646",
+          "tax_price": "30,365",
+          "total_price": "334,000",
+          "total_etc": "-11",
+          "creditcardprice": "334,000",
+          "menuqty_cnt": "8"
+        },
+        "predicted": {
+          "subtotal_price": "303,646",
+          "tax_price": "30,365",
+          "total_price": "334,011",
+          "total_etc": "11"
+        },
+        "cost": 0.00564405
+      },
+      {
+        "doc_id": "cord_0052",
+        "ground_truth": {
+          "subtotal_price": "40.000",
+          "total_price": "40.000",
+          "cashprice": "100.000",
+          "changeprice": "60.000"
+        },
+        "predicted": {
+          "subtotal_price": "40.000",
+          "total_price": "40.000",
+          "cashprice": "100.000",
+          "changeprice": "60.000"
+        },
+        "cost": 0.00562905
+      },
+      {
+        "doc_id": "cord_0053",
+        "ground_truth": {
+          "subtotal_price": "107.000",
+          "tax_price": "11.235",
+          "total_price": "123.585",
+          "menuqty_cnt": "4"
+        },
+        "predicted": {
+          "subtotal_price": "107.000",
+          "tax_price": "11.235",
+          "total_price": "123.585"
+        },
+        "cost": 0.00561105
+      },
+      {
+        "doc_id": "cord_0054",
+        "ground_truth": {
+          "subtotal_price": "10,000",
+          "total_price": "10,000",
+          "cashprice": "10,000"
+        },
+        "predicted": {
+          "subtotal_price": "10,000",
+          "total_price": "10,000",
+          "cashprice": "10,000"
+        },
+        "cost": 0.00560985
+      },
+      {
+        "doc_id": "cord_0056",
+        "ground_truth": {
+          "subtotal_price": "8,181",
+          "tax_price": "818",
+          "total_price": "8,999",
+          "cashprice": "10,000",
+          "changeprice": "1,001"
+        },
+        "predicted": {
+          "subtotal_price": "8.181",
+          "tax_price": "818",
+          "cashprice": "10.000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0058",
+        "ground_truth": {
+          "subtotal_price": "55,000",
+          "tax_price": "5,500",
+          "total_price": "60,500",
+          "cashprice": "100,000",
+          "changeprice": "39,500"
+        },
+        "predicted": {
+          "subtotal_price": "55,000",
+          "tax_price": "5,500",
+          "total_price": "40,500",
+          "cashprice": "100,000",
+          "changeprice": "37,500"
+        },
+        "cost": 0.00564465
+      },
+      {
+        "doc_id": "cord_0059",
+        "ground_truth": {
+          "subtotal_price": "618,490",
+          "tax_price": "61,849",
+          "total_price": "680,500",
+          "menuqty_cnt": "21"
+        },
+        "predicted": {
+          "subtotal_price": "618,490",
+          "tax_price": "61,849",
+          "total_price": "680,500"
+        },
+        "cost": 0.00390855
+      },
+      {
+        "doc_id": "cord_0060",
+        "ground_truth": {
+          "subtotal_price": "26.250",
+          "tax_price": "-",
+          "total_price": "26.250"
+        },
+        "predicted": {
+          "subtotal_price": "26.250",
+          "total_price": "26.250"
+        },
+        "cost": 0.00559185
+      },
+      {
+        "doc_id": "cord_0061",
+        "ground_truth": {
+          "subtotal_price": "24,500",
+          "total_price": "24,500",
+          "creditcardprice": "24,500",
+          "menuqty_cnt": "7.00"
+        },
+        "predicted": {
+          "subtotal_price": "24,500",
+          "total_price": "24,500",
+          "creditcardprice": "24,500"
+        },
+        "cost": 0.00390975
+      },
+      {
+        "doc_id": "cord_0062",
+        "ground_truth": {
+          "total_price": "48.000",
+          "cashprice": "50.000",
+          "changeprice": "2,000"
+        },
+        "predicted": {
+          "total_price": "48.000",
+          "cashprice": "50.000",
+          "changeprice": "2.000"
+        },
+        "cost": 0.00560985
+      },
+      {
+        "doc_id": "cord_0063",
+        "ground_truth": {
+          "subtotal_price": "57.000",
+          "total_price": "57.000",
+          "cashprice": "60.000",
+          "changeprice": "3.000"
+        },
+        "predicted": {
+          "subtotal_price": "57.000",
+          "total_price": "57.000",
+          "cashprice": "60.000",
+          "changeprice": "3.000"
+        },
+        "cost": 0.00562545
+      },
+      {
+        "doc_id": "cord_0064",
+        "ground_truth": {
+          "total_price": "16.000",
+          "cashprice": "50.000",
+          "changeprice": "34.000"
+        },
+        "predicted": {
+          "total_price": "16.000",
+          "itemsubtotal_cnt": "16.000",
+          "changeprice": "34.000"
+        },
+        "cost": 0.00561105
+      },
+      {
+        "doc_id": "cord_0065",
+        "ground_truth": {
+          "subtotal_price": "13.000",
+          "tax_price": "-",
+          "total_price": "13.000"
+        },
+        "predicted": {
+          "subtotal_price": "13.000",
+          "tax_price": "-",
+          "total_price": "13.000"
+        },
+        "cost": 0.00560745
+      },
+      {
+        "doc_id": "cord_0066",
+        "ground_truth": {
+          "subtotal_price": "36,364",
+          "tax_price": "3,636",
+          "total_price": "40,000",
+          "cashprice": "50,000",
+          "changeprice": "10,000"
+        },
+        "predicted": {
+          "subtotal_price": "36.364",
+          "total_price": "40.000",
+          "cashprice": "50.000",
+          "changeprice": "10.000"
+        },
+        "cost": 0.00562665
+      },
+      {
+        "doc_id": "cord_0067",
+        "ground_truth": {
+          "total_price": "9.500,00",
+          "cashprice": "9.500,00",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "total_price": "9.500,00",
+          "subtotal_price": "9.500,00"
+        },
+        "cost": 0.00219405
+      },
+      {
+        "doc_id": "cord_0068",
+        "ground_truth": {
+          "total_price": "20,000",
+          "cashprice": "50,000",
+          "changeprice": "30,000"
+        },
+        "predicted": {
+          "total_price": "20.000",
+          "cashprice": "50.000",
+          "changeprice": "30.000"
+        },
+        "cost": 0.00390915
+      },
+      {
+        "doc_id": "cord_0069",
+        "ground_truth": {
+          "total_price": "74,000",
+          "cashprice": "100,000",
+          "changeprice": "26,000"
+        },
+        "predicted": {
+          "total_price": "74,000",
+          "cashprice": "100,000",
+          "changeprice": "26,000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0070",
+        "ground_truth": {
+          "subtotal_price": "1,343,000",
+          "tax_price": "142,358",
+          "total_price": "1,565,938"
+        },
+        "predicted": {
+          "subtotal_price": "1,343,000",
+          "tax_price": "142,358",
+          "total_price": "1,565,938"
+        },
+        "cost": 0.00391335
+      },
+      {
+        "doc_id": "cord_0071",
+        "ground_truth": {
+          "total_price": "198000",
+          "cashprice": "200200",
+          "changeprice": "22000"
+        },
+        "predicted": {
+          "subtotal_price": "198000",
+          "cashprice": "200200",
+          "changeprice": "22000"
+        },
+        "cost": 0.00390915
+      },
+      {
+        "doc_id": "cord_0072",
+        "ground_truth": {
+          "subtotal_price": "15,909",
+          "tax_price": "1,591",
+          "total_price": "17,500",
+          "cashprice": "20,000",
+          "changeprice": "2,500"
+        },
+        "predicted": {
+          "subtotal_price": "15,909",
+          "total_price": "17,500",
+          "cashprice": "20,000",
+          "changeprice": "2,500"
+        },
+        "cost": 0.00562605
+      },
+      {
+        "doc_id": "cord_0073",
+        "ground_truth": {
+          "total_price": "22.000",
+          "cashprice": "25.000",
+          "changeprice": "3.000",
+          "menuqty_cnt": "2"
+        },
+        "predicted": {
+          "total_price": "22.000",
+          "cashprice": "25.000",
+          "changeprice": "3.000"
+        },
+        "cost": 0.00560865
+      },
+      {
+        "doc_id": "cord_0074",
+        "ground_truth": {
+          "subtotal_price": "278,000",
+          "tax_price": "30,024",
+          "total_price": "330,264"
+        },
+        "predicted": {
+          "subtotal_price": "278,000",
+          "tax_price": "30,024",
+          "total_price": "330,264"
+        },
+        "cost": 0.00560985
+      },
+      {
+        "doc_id": "cord_0075",
+        "ground_truth": {
+          "subtotal_price": "256,363",
+          "tax_price": "25,637",
+          "total_price": "282,000"
+        },
+        "predicted": {
+          "subtotal_price": "256,363",
+          "tax_price": "25,637",
+          "total_price": "282,000"
+        },
+        "cost": 0.00220965
+      },
+      {
+        "doc_id": "cord_0077",
+        "ground_truth": {
+          "subtotal_price": "17,000",
+          "total_price": "17,000",
+          "cashprice": "22,000",
+          "changeprice": "5,000"
+        },
+        "predicted": {
+          "subtotal_price": "17,000",
+          "total_price": "17,000",
+          "cashprice": "22,000",
+          "changeprice": "5,000"
+        },
+        "cost": 0.00563025
+      },
+      {
+        "doc_id": "cord_0078",
+        "ground_truth": {
+          "total_price": "30.000",
+          "cashprice": "30.000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "total_price": "30.000",
+          "cashprice": "30.000"
+        },
+        "cost": 0.00559245
+      },
+      {
+        "doc_id": "cord_0079",
+        "ground_truth": {
+          "total_price": "22.000",
+          "cashprice": "22.000",
+          "menuqty_cnt": "2"
+        },
+        "predicted": {
+          "total_price": "22.000",
+          "cashprice": "22.000"
+        },
+        "cost": 0.00389175
+      },
+      {
+        "doc_id": "cord_0080",
+        "ground_truth": {
+          "subtotal_price": "25.000",
+          "total_price": "25.000",
+          "cashprice": "25.000",
+          "changeprice": "0"
+        },
+        "predicted": {
+          "subtotal_price": "25.000",
+          "total_price": "25.000",
+          "cashprice": "25.000"
+        },
+        "cost": 0.00220905
+      },
+      {
+        "doc_id": "cord_0082",
+        "ground_truth": {
+          "subtotal_price": "385,000",
+          "total_price": "385,000",
+          "changeprice": "0",
+          "creditcardprice": "385,000"
+        },
+        "predicted": {
+          "subtotal_price": "385,000",
+          "total_price": "385,000",
+          "changeprice": "0"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0083",
+        "ground_truth": {
+          "subtotal_price": "20,909",
+          "tax_price": "2,091",
+          "total_price": "23,000",
+          "cashprice": "25.000",
+          "changeprice": "2.000",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "subtotal_price": "20.909",
+          "tax_price": "2.091",
+          "total_price": "23.000",
+          "cashprice": "25.000",
+          "changeprice": "2.000"
+        },
+        "cost": 0.00564645
+      },
+      {
+        "doc_id": "cord_0084",
+        "ground_truth": {
+          "subtotal_price": "Rp 36.000",
+          "tax_price": "Rp 3.600",
+          "total_price": "Rp 39.600",
+          "emoneyprice": "Rp 39.600"
+        },
+        "predicted": {
+          "subtotal_price": "Rp 36.000",
+          "tax_price": "Rp 3.600",
+          "total_price": "Rp 39.600",
+          "otherprice": "Rp 39.600"
+        },
+        "cost": 0.00563325
+      },
+      {
+        "doc_id": "cord_0085",
+        "ground_truth": {
+          "subtotal_price": "179.500",
+          "tax_price": "17.950",
+          "total_price": "197.450",
+          "cashprice": "197.450",
+          "menuqty_cnt": "14"
+        },
+        "predicted": {
+          "subtotal_price": "179.500",
+          "tax_price": "17.950",
+          "total_price": "197.450"
+        },
+        "cost": 0.00391155
+      },
+      {
+        "doc_id": "cord_0086",
+        "ground_truth": {
+          "subtotal_price": "22,000",
+          "total_price": "22,000",
+          "cashprice": "52,000",
+          "changeprice": "30,000",
+          "menuqty_cnt": "2"
+        },
+        "predicted": {
+          "subtotal_price": "22,000",
+          "changeprice": "30,000",
+          "cashprice": "52,000"
+        },
+        "cost": 0.00390975
+      },
+      {
+        "doc_id": "cord_0087",
+        "ground_truth": {
+          "subtotal_price": "36,500",
+          "tax_price": "3,650",
+          "total_price": "40,150",
+          "creditcardprice": "40,150"
+        },
+        "predicted": {
+          "subtotal_price": "36,500",
+          "total_price": "40,150"
+        },
+        "cost": 0.00559305
+      },
+      {
+        "doc_id": "cord_0088",
+        "ground_truth": {
+          "subtotal_price": "47,000",
+          "total_price": "47,000",
+          "changeprice": "0",
+          "creditcardprice": "47,000"
+        },
+        "predicted": {
+          "subtotal_price": "47,000",
+          "total_price": "47,000",
+          "changeprice": "0"
+        },
+        "cost": 0.00561045
+      },
+      {
+        "doc_id": "cord_0089",
+        "ground_truth": {
+          "subtotal_price": "40,000",
+          "total_price": "40,000",
+          "cashprice": "50,000",
+          "changeprice": "10,000",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "total_price": "40.000",
+          "changeprice": "10.000",
+          "cashprice": "50.000"
+        },
+        "cost": 0.00560925
+      },
+      {
+        "doc_id": "cord_0090",
+        "ground_truth": {
+          "subtotal_price": "26,818",
+          "tax_price": "2,681",
+          "total_price": "29,500",
+          "cashprice": "29,500",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "subtotal_price": "26,818",
+          "total_price": "29,500",
+          "menuqty_cnt": "1",
+          "itemsubtotal_cnt": "1",
+          "cashprice": "29,500"
+        },
+        "cost": 0.00394275
+      },
+      {
+        "doc_id": "cord_0091",
+        "ground_truth": {
+          "total_price": "21.000",
+          "cashprice": "30.000",
+          "changeprice": "9.000"
+        },
+        "predicted": {
+          "itemsubtotal_cnt": "15.000",
+          "total_etc": "-21.000",
+          "cashprice": "30.000"
+        },
+        "cost": 0.0013998
+      },
+      {
+        "doc_id": "cord_0092",
+        "ground_truth": {
+          "total_price": "240.000",
+          "cashprice": "250.000",
+          "changeprice": "10,000",
+          "menuqty_cnt": "(Qty=4.00)"
+        },
+        "predicted": {
+          "total_price": "240.000",
+          "cashprice": "250.000",
+          "changeprice": "10.000"
+        },
+        "cost": 0.00391215
+      },
+      {
+        "doc_id": "cord_0093",
+        "ground_truth": {
+          "subtotal_price": "16,363",
+          "tax_price": "1,636",
+          "total_price": "17,999",
+          "menuqty_cnt": "1"
+        },
+        "predicted": {
+          "subtotal_price": "16,363",
+          "tax_price": "1,636",
+          "total_price": "17,999",
+          "menuqty_cnt": "1"
+        },
+        "cost": 0.00562845
+      },
+      {
+        "doc_id": "cord_0094",
+        "ground_truth": {
+          "subtotal_price": "119,000",
+          "tax_price": "12,733",
+          "total_price": "140,063",
+          "creditcardprice": "140,063"
+        },
+        "predicted": {
+          "subtotal_price": "119.000",
+          "total_price": "140.063",
+          "creditcardprice": "140.063"
+        },
+        "cost": 0.00561165
+      },
+      {
+        "doc_id": "cord_0095",
+        "ground_truth": {
+          "subtotal_price": "56,181",
+          "tax_price": "5,618",
+          "total_price": "61,799",
+          "cashprice": "62,000"
+        },
+        "predicted": {
+          "subtotal_price": "56,181",
+          "tax_price": "5,618",
+          "total_price": "61,799"
+        },
+        "cost": 0.00561285
+      },
+      {
+        "doc_id": "cord_0096",
+        "ground_truth": {
+          "subtotal_price": "41,000",
+          "total_price": "41,000",
+          "cashprice": "50,000",
+          "changeprice": "9,000"
+        },
+        "predicted": {
+          "total_price": "41,000",
+          "changeprice": "9,000",
+          "cashprice": "50,000",
+          "menuqty_cnt": "1",
+          "itemsubtotal_cnt": "41,000"
+        },
+        "cost": 0.00564465
+      },
+      {
+        "doc_id": "cord_0097",
+        "ground_truth": {
+          "total_price": "55.000",
+          "cashprice": "55.000",
+          "menuqty_cnt": "6.00xITEMS"
+        },
+        "predicted": {
+          "total_price": "55.000",
+          "cashprice": "55.000"
+        },
+        "cost": 0.00219225
+      },
+      {
+        "doc_id": "cord_0098",
+        "ground_truth": {
+          "subtotal_price": "215,000",
+          "tax_price": "22,790",
+          "total_price": "250,690"
+        },
+        "predicted": {
+          "subtotal_price": "215,000",
+          "tax_price": "22,790",
+          "total_price": "250,690"
+        },
+        "cost": 0.00391095
+      },
+      {
+        "doc_id": "cord_0099",
+        "ground_truth": {
+          "subtotal_price": "68,180",
+          "tax_price": "6,818",
+          "total_price": "75,000",
+          "cashprice": "0",
+          "changeprice": "0",
+          "creditcardprice": "75,000"
+        },
+        "predicted": {
+          "subtotal_price": "68,180",
+          "tax_price": "6,818",
+          "total_price": "75,000",
+          "emoneyprice": "75,000"
+        },
+        "cost": 0.00563205
+      }
+    ]
+  }
+}

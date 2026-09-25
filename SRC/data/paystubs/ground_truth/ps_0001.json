@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0001",
+  "image_file": "ps_0001.png",
+  "layout_template": "left_header",
+  "noise_profile": "heavy_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "02/17/2024",
+      "display_value": "02/17/2024",
+      "field_position": {
+        "x": 696,
+        "y": 40,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "02/05/2024",
+      "display_value": "02/05/2024",
+      "field_position": {
+        "x": 710,
+        "y": 54,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "02/11/2024",
+      "display_value": "02/11/2024",
+      "field_position": {
+        "x": 720,
+        "y": 68,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 723,
+        "y": 82,
+        "width": 34,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Northgate Distribution Co.",
+      "display_value": "Northgate Distribution Co.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 270,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 73,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Oklahoma City, OK 73101",
+      "display_value": "Oklahoma City, OK 73101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 118,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Sarah F. Smith",
+      "display_value": "Sarah F. Smith",
+      "field_position": {
+        "x": 548,
+        "y": 133,
+        "width": 87,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "543143",
+      "display_value": "543143",
+      "field_position": {
+        "x": 579,
+        "y": 153,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-6574",
+      "display_value": "***-**-6574",
+      "field_position": {
+        "x": 575,
+        "y": 173,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 548,
+        "y": 193,
+        "width": 117,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "San Jose, CA 95101",
+      "display_value": "San Jose, CA 95101",
+      "field_position": {
+        "x": 564,
+        "y": 213,
+        "width": 114,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$744.32",
+      "display_value": "$744.32",
+      "field_position": {
+        "x": 752,
+        "y": 283,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$744.32",
+      "display_value": "$744.32",
+      "field_position": {
+        "x": 752,
+        "y": 303,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$4,465.92",
+      "display_value": "$4,465.92",
+      "field_position": {
+        "x": 741,
+        "y": 323,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$146.52",
+      "display_value": "$146.52",
+      "field_position": {
+        "x": 752,
+        "y": 388,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$54.92",
+      "display_value": "$54.92",
+      "field_position": {
+        "x": 759,
+        "y": 408,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$46.15",
+      "display_value": "$46.15",
+      "field_position": {
+        "x": 759,
+        "y": 428,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$10.79",
+      "display_value": "$10.79",
+      "field_position": {
+        "x": 759,
+        "y": 448,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$73.03",
+      "display_value": "$73.03",
+      "field_position": {
+        "x": 759,
+        "y": 468,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$229.05",
+      "display_value": "$229.05",
+      "field_position": {
+        "x": 752,
+        "y": 488,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$560.46",
+      "display_value": "$560.46",
+      "field_position": {
+        "x": 752,
+        "y": 508,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$3,362.76",
+      "display_value": "$3,362.76",
+      "field_position": {
+        "x": 741,
+        "y": 528,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$183.86",
+      "display_value": "$183.86",
+      "field_position": {
+        "x": 50,
+        "y": 589,
+        "width": 81,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$1,103.16",
+      "display_value": "$1,103.16",
+      "field_position": {
+        "x": 50,
+        "y": 625,
+        "width": 100,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sarah F. Smith",
+    "employer_name": "Northgate Distribution Co.",
+    "employee_id": "543143",
+    "ssn_last4": "***-**-6574",
+    "employee_address": "369 Spruce Terrace",
+    "employee_city_state_zip": "San Jose, CA 95101",
+    "employer_address": "147 Birch Court",
+    "employer_city_state_zip": "Oklahoma City, OK 73101",
+    "pay_date": "02/17/2024",
+    "pay_period_start": "02/05/2024",
+    "pay_period_end": "02/11/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "744.32",
+    "gross_pay_current": "744.32",
+    "net_pay_current": "183.86",
+    "gross_pay_ytd": "4465.92",
+    "net_pay_ytd": "1103.16",
+    "total_deductions_current": "560.46",
+    "federal_tax_withheld": "146.52",
+    "state_tax_withheld": "54.92",
+    "social_security_tax": "46.15",
+    "medicare_tax": "10.79",
+    "total_deductions_ytd": "3362.76",
+    "retirement_401k": "73.03",
+    "health_insurance": "229.05"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0046",
+  "image_file": "ps_0046.png",
+  "layout_template": "left_header",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "12/03/2024",
+      "display_value": "12/03/2024",
+      "field_position": {
+        "x": 721,
+        "y": 40,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "11/16/2024",
+      "display_value": "11/16/2024",
+      "field_position": {
+        "x": 735,
+        "y": 54,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "11/30/2024",
+      "display_value": "11/30/2024",
+      "field_position": {
+        "x": 667,
+        "y": 68,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 723,
+        "y": 82,
+        "width": 66,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Frontier Telecommunications",
+      "display_value": "Frontier Telecommunications",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 300,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Fresno, CA 93701",
+      "display_value": "Fresno, CA 93701",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 81,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Donna H. Baker",
+      "display_value": "Donna H. Baker",
+      "field_position": {
+        "x": 611,
+        "y": 133,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "711484",
+      "display_value": "711484",
+      "field_position": {
+        "x": 573,
+        "y": 153,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-3344",
+      "display_value": "***-**-3344",
+      "field_position": {
+        "x": 534,
+        "y": 173,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 601,
+        "y": 193,
+        "width": 98,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Fresno, CA 93701",
+      "display_value": "Fresno, CA 93701",
+      "field_position": {
+        "x": 535,
+        "y": 213,
+        "width": 105,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$4,620.91",
+      "display_value": "$4,620.91",
+      "field_position": {
+        "x": 741,
+        "y": 283,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$301.34",
+      "display_value": "$301.34",
+      "field_position": {
+        "x": 751,
+        "y": 303,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,922.25",
+      "display_value": "$4,922.25",
+      "field_position": {
+        "x": 741,
+        "y": 323,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$108,289.50",
+      "display_value": "$108,289.50",
+      "field_position": {
+        "x": 726,
+        "y": 343,
+        "width": 74,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$535.85",
+      "display_value": "$535.85",
+      "field_position": {
+        "x": 752,
+        "y": 408,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$426.83",
+      "display_value": "$426.83",
+      "field_position": {
+        "x": 752,
+        "y": 428,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$305.18",
+      "display_value": "$305.18",
+      "field_position": {
+        "x": 752,
+        "y": 448,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$71.37",
+      "display_value": "$71.37",
+      "field_position": {
+        "x": 759,
+        "y": 468,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$339.75",
+      "display_value": "$339.75",
+      "field_position": {
+        "x": 752,
+        "y": 488,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,678.98",
+      "display_value": "$1,678.98",
+      "field_position": {
+        "x": 741,
+        "y": 508,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$36,937.56",
+      "display_value": "$36,937.56",
+      "field_position": {
+        "x": 734,
+        "y": 528,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$3,243.27",
+      "display_value": "$3,243.27",
+      "field_position": {
+        "x": 50,
+        "y": 589,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$71,351.94",
+      "display_value": "$71,351.94",
+      "field_position": {
+        "x": 50,
+        "y": 625,
+        "width": 113,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donna H. Baker",
+    "employer_name": "Frontier Telecommunications",
+    "employee_id": "711484",
+    "ssn_last4": "***-**-3344",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "Fresno, CA 93701",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Fresno, CA 93701",
+    "pay_date": "12/03/2024",
+    "pay_period_start": "11/16/2024",
+    "pay_period_end": "11/30/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4620.91",
+    "gross_pay_current": "4922.25",
+    "net_pay_current": "3243.27",
+    "gross_pay_ytd": "108289.50",
+    "net_pay_ytd": "71351.94",
+    "total_deductions_current": "1678.98",
+    "federal_tax_withheld": "535.85",
+    "state_tax_withheld": "426.83",
+    "social_security_tax": "305.18",
+    "medicare_tax": "71.37",
+    "total_deductions_ytd": "36937.56",
+    "overtime_pay_current": "301.34",
+    "health_insurance": "339.75"
+  }
+}

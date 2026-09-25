@@ -1,0 +1,131 @@
+{
+  "_comment": "Snapshot of numbers currently in the paper. Do NOT edit by hand — update via Phase 6 re-scoring pipeline. The delta_ci_lo and delta_ci_hi fields store the pre-formatted strings (including + prefix) exactly as they appear in the table.",
+  "tab:all_results": [
+    {
+      "dataset": "Paystubs", "model": "Haiku",
+      "F1_point": "67.0",  "F1_ci_lo": "62.7",  "F1_ci_hi": "69.4",
+      "CBA_s_point": "82.2", "CBA_s_ci_lo": "78.7", "CBA_s_ci_hi": "84.4",
+      "delta_point": "-15.2", "delta_ci_lo": "-19.9", "delta_ci_hi": "-11.1",
+      "misbindings": 3, "delta_bold": false
+    },
+    {
+      "dataset": "Paystubs", "model": "GPT-4o-mini",
+      "F1_point": "57.9",  "F1_ci_lo": "53.1",  "F1_ci_hi": "60.2",
+      "CBA_s_point": "78.5", "CBA_s_ci_lo": "74.7", "CBA_s_ci_hi": "80.8",
+      "delta_point": "-20.5", "delta_ci_lo": "-25.7", "delta_ci_hi": "-16.4",
+      "misbindings": 3, "delta_bold": false
+    },
+    {
+      "dataset": "SROIE", "model": "Haiku",
+      "F1_point": "70.5",  "F1_ci_lo": "60.2",  "F1_ci_hi": "80.8",
+      "CBA_s_point": "70.5", "CBA_s_ci_lo": "60.2", "CBA_s_ci_hi": "80.8",
+      "delta_point": "0.0", "delta_ci_lo": "-5.0", "delta_ci_hi": "5.0",
+      "misbindings": 0, "delta_bold": false
+    },
+    {
+      "dataset": "SROIE", "model": "GPT-4o-mini",
+      "F1_point": "72.0",  "F1_ci_lo": "61.7",  "F1_ci_hi": "82.3",
+      "CBA_s_point": "70.5", "CBA_s_ci_lo": "60.2", "CBA_s_ci_hi": "80.8",
+      "delta_point": "+1.5", "delta_ci_lo": "-4.0", "delta_ci_hi": "7.0",
+      "misbindings": 3, "delta_bold": false
+    },
+    {
+      "dataset": "CORD", "model": "Haiku",
+      "F1_point": "90.3",  "F1_ci_lo": "86.8",  "F1_ci_hi": "92.9",
+      "CBA_s_point": "92.2", "CBA_s_ci_lo": "89.0", "CBA_s_ci_hi": "94.6",
+      "delta_point": "-1.9", "delta_ci_lo": "-6.1", "delta_ci_hi": "+2.2",
+      "misbindings": 14, "delta_bold": false
+    },
+    {
+      "dataset": "CORD", "model": "GPT-4o-mini",
+      "F1_point": "78.5",  "F1_ci_lo": "74.0",  "F1_ci_hi": "82.4",
+      "CBA_s_point": "77.7", "CBA_s_ci_lo": "73.1", "CBA_s_ci_hi": "81.7",
+      "delta_point": "+0.8", "delta_ci_lo": "-5.2", "delta_ci_hi": "+6.8",
+      "misbindings": 11, "delta_bold": false
+    },
+    {
+      "dataset": "W-2", "model": "Haiku",
+      "F1_point": "42.0",  "F1_ci_lo": "38.8",  "F1_ci_hi": "45.3",
+      "CBA_s_point": "29.2", "CBA_s_ci_lo": "25.7", "CBA_s_ci_hi": "32.8",
+      "delta_point": "+12.8", "delta_ci_lo": "11.0", "delta_ci_hi": "14.5",
+      "misbindings": 243, "delta_bold": true
+    },
+    {
+      "dataset": "W-2", "model": "GPT-4o-mini",
+      "F1_point": "58.7",  "F1_ci_lo": "56.8",  "F1_ci_hi": "61.1",
+      "CBA_s_point": "49.3", "CBA_s_ci_lo": "46.8", "CBA_s_ci_hi": "51.9",
+      "delta_point": "+9.4", "delta_ci_lo": "8.2", "delta_ci_hi": "11.0",
+      "misbindings": 178, "delta_bold": true
+    },
+    {
+      "dataset": "LEDGAR", "model": "Haiku",
+      "F1_point": "100.0", "F1_ci_lo": "100.0", "F1_ci_hi": "100.0",
+      "CBA_s_point": "79.3", "CBA_s_ci_lo": "76.7", "CBA_s_ci_hi": "82.0",
+      "delta_point": "+20.7", "delta_ci_lo": "18.0", "delta_ci_hi": "23.3",
+      "misbindings": 155, "delta_bold": true
+    },
+    {
+      "dataset": "LEDGAR", "model": "GPT-4o-mini",
+      "F1_point": "99.9",  "F1_ci_lo": "99.6",  "F1_ci_hi": "100.0",
+      "CBA_s_point": "73.9", "CBA_s_ci_lo": "71.1", "CBA_s_ci_hi": "76.6",
+      "delta_point": "+26.0", "delta_ci_lo": "23.2", "delta_ci_hi": "28.8",
+      "misbindings": 195, "delta_bold": true
+    },
+    {
+      "dataset": "CUAD", "model": "Haiku",
+      "F1_point": "100.0", "F1_ci_lo": "100.0", "F1_ci_hi": "100.0",
+      "CBA_s_point": "75.6", "CBA_s_ci_lo": "72.7", "CBA_s_ci_hi": "78.5",
+      "delta_point": "+24.4", "delta_ci_lo": "21.5", "delta_ci_hi": "27.3",
+      "misbindings": 183, "delta_bold": true
+    },
+    {
+      "dataset": "CUAD", "model": "GPT-4o-mini",
+      "F1_point": "100.0", "F1_ci_lo": "100.0", "F1_ci_hi": "100.0",
+      "CBA_s_point": "66.5", "CBA_s_ci_lo": "63.4", "CBA_s_ci_hi": "69.7",
+      "delta_point": "+33.5", "delta_ci_lo": "30.3", "delta_ci_hi": "36.6",
+      "misbindings": 251, "delta_bold": true
+    },
+    {
+      "dataset": "VRDU Reg.", "model": "Haiku",
+      "F1_point": "83.6",  "F1_ci_lo": "77.7",  "F1_ci_hi": "88.0",
+      "CBA_s_point": "82.9", "CBA_s_ci_lo": "77.2", "CBA_s_ci_hi": "87.6",
+      "delta_point": "+0.7", "delta_ci_lo": "-6.6", "delta_ci_hi": "+8.0",
+      "misbindings": 1, "delta_bold": false
+    },
+    {
+      "dataset": "VRDU Reg.", "model": "GPT-4o-mini",
+      "F1_point": "77.8",  "F1_ci_lo": "71.8",  "F1_ci_hi": "83.2",
+      "CBA_s_point": "77.3", "CBA_s_ci_lo": "71.2", "CBA_s_ci_hi": "82.7",
+      "delta_point": "+0.5", "delta_ci_lo": "-7.7", "delta_ci_hi": "+8.7",
+      "misbindings": 1, "delta_bold": false
+    },
+    {
+      "dataset": "VRDU Ad-buy", "model": "Haiku",
+      "F1_point": "76.2",  "F1_ci_lo": "71.0",  "F1_ci_hi": "81.0",
+      "CBA_s_point": "76.2", "CBA_s_ci_lo": "71.0", "CBA_s_ci_hi": "81.0",
+      "delta_point": "0.0", "delta_ci_lo": "-7.1", "delta_ci_hi": "+7.1",
+      "misbindings": 0, "delta_bold": false
+    },
+    {
+      "dataset": "VRDU Ad-buy", "model": "GPT-4o-mini",
+      "F1_point": "65.5",  "F1_ci_lo": "59.7",  "F1_ci_hi": "70.8",
+      "CBA_s_point": "65.3", "CBA_s_ci_lo": "59.7", "CBA_s_ci_hi": "70.8",
+      "delta_point": "+0.2", "delta_ci_lo": "-7.8", "delta_ci_hi": "+8.2",
+      "misbindings": 1, "delta_bold": false
+    },
+    {
+      "dataset": "GST", "model": "Haiku",
+      "F1_point": "28.9",  "F1_ci_lo": "25.2",  "F1_ci_hi": "32.7",
+      "CBA_s_point": "74.4", "CBA_s_ci_lo": "70.6", "CBA_s_ci_hi": "77.8",
+      "delta_point": "-45.5", "delta_ci_lo": "-50.8", "delta_ci_hi": "-40.3",
+      "misbindings": 7, "delta_bold": false
+    },
+    {
+      "dataset": "GST", "model": "GPT-4o-mini",
+      "F1_point": "31.2",  "F1_ci_lo": "27.5",  "F1_ci_hi": "35.1",
+      "CBA_s_point": "77.6", "CBA_s_ci_lo": "74.0", "CBA_s_ci_hi": "80.9",
+      "delta_point": "-46.4", "delta_ci_lo": "-51.6", "delta_ci_hi": "-41.3",
+      "misbindings": 7, "delta_bold": false
+    }
+  ]
+}

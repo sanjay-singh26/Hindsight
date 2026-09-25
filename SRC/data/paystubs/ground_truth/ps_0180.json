@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0180",
+  "image_file": "ps_0180.png",
+  "layout_template": "corporate_standard",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "United Waste Management",
+      "display_value": "United Waste Management",
+      "field_position": {
+        "x": 292,
+        "y": 40,
+        "width": 265,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 390,
+        "y": 75,
+        "width": 70,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Arlington, TX 76001",
+      "display_value": "Arlington, TX 76001",
+      "field_position": {
+        "x": 381,
+        "y": 89,
+        "width": 87,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "William P. Miller",
+      "display_value": "William P. Miller",
+      "field_position": {
+        "x": 50,
+        "y": 144,
+        "width": 91,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "719446",
+      "display_value": "719446",
+      "field_position": {
+        "x": 50,
+        "y": 180,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-8908",
+      "display_value": "***-**-8908",
+      "field_position": {
+        "x": 50,
+        "y": 216,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 50,
+        "y": 252,
+        "width": 103,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 50,
+        "y": 288,
+        "width": 104,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$2,716.12",
+      "display_value": "$2,716.12",
+      "field_position": {
+        "x": 343,
+        "y": 360,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$2,716.12",
+      "display_value": "$2,716.12",
+      "field_position": {
+        "x": 343,
+        "y": 380,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$16,296.72",
+      "display_value": "$16,296.72",
+      "field_position": {
+        "x": 336,
+        "y": 400,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$588.89",
+      "display_value": "$588.89",
+      "field_position": {
+        "x": 753,
+        "y": 360,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$102.78",
+      "display_value": "$102.78",
+      "field_position": {
+        "x": 753,
+        "y": 380,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$168.40",
+      "display_value": "$168.40",
+      "field_position": {
+        "x": 753,
+        "y": 400,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$39.38",
+      "display_value": "$39.38",
+      "field_position": {
+        "x": 760,
+        "y": 420,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$191.05",
+      "display_value": "$191.05",
+      "field_position": {
+        "x": 753,
+        "y": 440,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,090.50",
+      "display_value": "$1,090.50",
+      "field_position": {
+        "x": 743,
+        "y": 460,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$6,543.00",
+      "display_value": "$6,543.00",
+      "field_position": {
+        "x": 743,
+        "y": 480,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$1,625.62",
+      "display_value": "$1,625.62",
+      "field_position": {
+        "x": 50,
+        "y": 551,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$9,753.72",
+      "display_value": "$9,753.72",
+      "field_position": {
+        "x": 350,
+        "y": 587,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "07/07/2024",
+      "display_value": "07/07/2024",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "06/01/2024",
+      "display_value": "06/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 640,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 430,
+        "y": 640,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 640,
+        "width": 36,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "William P. Miller",
+    "employer_name": "United Waste Management",
+    "employee_id": "719446",
+    "ssn_last4": "***-**-8908",
+    "employee_address": "777 Market Street",
+    "employee_city_state_zip": "Tucson, AZ 85701",
+    "employer_address": "987 Cedar Lane",
+    "employer_city_state_zip": "Arlington, TX 76001",
+    "pay_date": "07/07/2024",
+    "pay_period_start": "06/01/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "2716.12",
+    "gross_pay_current": "2716.12",
+    "net_pay_current": "1625.62",
+    "gross_pay_ytd": "16296.72",
+    "net_pay_ytd": "9753.72",
+    "total_deductions_current": "1090.50",
+    "federal_tax_withheld": "588.89",
+    "state_tax_withheld": "102.78",
+    "social_security_tax": "168.40",
+    "medicare_tax": "39.38",
+    "total_deductions_ytd": "6543.00",
+    "health_insurance": "191.05"
+  }
+}

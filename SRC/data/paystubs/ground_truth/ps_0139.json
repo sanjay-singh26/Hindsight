@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0139",
+  "image_file": "ps_0139.png",
+  "layout_template": "check_style",
+  "noise_profile": "heavy_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Northgate Distribution Co.",
+      "display_value": "Northgate Distribution Co.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 255,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "111901",
+      "display_value": "111901",
+      "field_position": {
+        "x": 709,
+        "y": 45,
+        "width": 91,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 85,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Omaha, NE 68101",
+      "display_value": "Omaha, NE 68101",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 80,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Linda E. Smith",
+      "display_value": "Linda E. Smith",
+      "field_position": {
+        "x": 138,
+        "y": 131,
+        "width": 83,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-3684",
+      "display_value": "***-**-3684",
+      "field_position": {
+        "x": 84,
+        "y": 149,
+        "width": 65,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 102,
+        "y": 167,
+        "width": 114,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Las Vegas, NV 89101",
+      "display_value": "Las Vegas, NV 89101",
+      "field_position": {
+        "x": 124,
+        "y": 185,
+        "width": 123,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "04/05/2024",
+      "display_value": "04/05/2024",
+      "field_position": {
+        "x": 497,
+        "y": 131,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "03/16/2024",
+      "display_value": "03/16/2024",
+      "field_position": {
+        "x": 510,
+        "y": 147,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "03/31/2024",
+      "display_value": "03/31/2024",
+      "field_position": {
+        "x": 446,
+        "y": 163,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 478,
+        "y": 179,
+        "width": 61,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,725.99",
+      "display_value": "$1,725.99",
+      "field_position": {
+        "x": 343,
+        "y": 270,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,795.55",
+      "display_value": "$1,795.55",
+      "field_position": {
+        "x": 343,
+        "y": 290,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$3,521.54",
+      "display_value": "$3,521.54",
+      "field_position": {
+        "x": 342,
+        "y": 310,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$21,129.24",
+      "display_value": "$21,129.24",
+      "field_position": {
+        "x": 335,
+        "y": 330,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$678.15",
+      "display_value": "$678.15",
+      "field_position": {
+        "x": 753,
+        "y": 270,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$111.85",
+      "display_value": "$111.85",
+      "field_position": {
+        "x": 753,
+        "y": 290,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$218.34",
+      "display_value": "$218.34",
+      "field_position": {
+        "x": 752,
+        "y": 310,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$51.06",
+      "display_value": "$51.06",
+      "field_position": {
+        "x": 760,
+        "y": 330,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$97.25",
+      "display_value": "$97.25",
+      "field_position": {
+        "x": 760,
+        "y": 350,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,156.65",
+      "display_value": "$1,156.65",
+      "field_position": {
+        "x": 743,
+        "y": 370,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$6,939.90",
+      "display_value": "$6,939.90",
+      "field_position": {
+        "x": 743,
+        "y": 390,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$2,364.89",
+      "display_value": "$2,364.89",
+      "field_position": {
+        "x": 65,
+        "y": 458,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$14,189.34",
+      "display_value": "$14,189.34",
+      "field_position": {
+        "x": 720,
+        "y": 460,
+        "width": 65,
+        "height": 13
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Linda E. Smith",
+    "employer_name": "Northgate Distribution Co.",
+    "employee_id": "111901",
+    "ssn_last4": "***-**-3684",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Las Vegas, NV 89101",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "Omaha, NE 68101",
+    "pay_date": "04/05/2024",
+    "pay_period_start": "03/16/2024",
+    "pay_period_end": "03/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1725.99",
+    "gross_pay_current": "3521.54",
+    "net_pay_current": "2364.89",
+    "gross_pay_ytd": "21129.24",
+    "net_pay_ytd": "14189.34",
+    "total_deductions_current": "1156.65",
+    "federal_tax_withheld": "678.15",
+    "state_tax_withheld": "111.85",
+    "social_security_tax": "218.34",
+    "medicare_tax": "51.06",
+    "total_deductions_ytd": "6939.90",
+    "bonus_current": "1795.55",
+    "health_insurance": "97.25"
+  }
+}

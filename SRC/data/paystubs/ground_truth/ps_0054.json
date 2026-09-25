@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0054",
+  "image_file": "ps_0054.png",
+  "layout_template": "retail",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Magnolia Hospitality Inc.",
+      "display_value": "Magnolia Hospitality Inc.",
+      "field_position": {
+        "x": 300,
+        "y": 40,
+        "width": 250,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 387,
+        "y": 75,
+        "width": 76,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 387,
+        "y": 89,
+        "width": 75,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Thomas D. Lopez",
+      "display_value": "Thomas D. Lopez",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 104,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "127032",
+      "display_value": "127032",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-3159",
+      "display_value": "***-**-3159",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Las Vegas, NV 89101",
+      "display_value": "Las Vegas, NV 89101",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 124,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "01/19/2024",
+      "display_value": "01/19/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "01/01/2024",
+      "display_value": "01/01/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "01/15/2024",
+      "display_value": "01/15/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 84,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$2,245.13",
+      "display_value": "$2,245.13",
+      "field_position": {
+        "x": 731,
+        "y": 471,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$394.67",
+      "display_value": "$394.67",
+      "field_position": {
+        "x": 742,
+        "y": 493,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$314.40",
+      "display_value": "$314.40",
+      "field_position": {
+        "x": 742,
+        "y": 515,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,954.20",
+      "display_value": "$2,954.20",
+      "field_position": {
+        "x": 731,
+        "y": 537,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$2,954.20",
+      "display_value": "$2,954.20",
+      "field_position": {
+        "x": 731,
+        "y": 559,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$454.34",
+      "display_value": "$454.34",
+      "field_position": {
+        "x": 741,
+        "y": 613,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$152.80",
+      "display_value": "$152.80",
+      "field_position": {
+        "x": 742,
+        "y": 635,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$183.16",
+      "display_value": "$183.16",
+      "field_position": {
+        "x": 742,
+        "y": 657,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$42.84",
+      "display_value": "$42.84",
+      "field_position": {
+        "x": 749,
+        "y": 679,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$182.10",
+      "display_value": "$182.10",
+      "field_position": {
+        "x": 742,
+        "y": 701,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$246.08",
+      "display_value": "$246.08",
+      "field_position": {
+        "x": 742,
+        "y": 723,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,261.32",
+      "display_value": "$1,261.32",
+      "field_position": {
+        "x": 731,
+        "y": 745,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$1,261.32",
+      "display_value": "$1,261.32",
+      "field_position": {
+        "x": 731,
+        "y": 767,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,692.88",
+      "display_value": "$1,692.88",
+      "field_position": {
+        "x": 690,
+        "y": 804,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$1,692.88",
+      "display_value": "$1,692.88",
+      "field_position": {
+        "x": 690,
+        "y": 834,
+        "width": 100,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Thomas D. Lopez",
+    "employer_name": "Magnolia Hospitality Inc.",
+    "employee_id": "127032",
+    "ssn_last4": "***-**-3159",
+    "employee_address": "123 Main Street",
+    "employee_city_state_zip": "Las Vegas, NV 89101",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Tulsa, OK 74101",
+    "pay_date": "01/19/2024",
+    "pay_period_start": "01/01/2024",
+    "pay_period_end": "01/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "2245.13",
+    "gross_pay_current": "2954.20",
+    "net_pay_current": "1692.88",
+    "gross_pay_ytd": "2954.20",
+    "net_pay_ytd": "1692.88",
+    "total_deductions_current": "1261.32",
+    "federal_tax_withheld": "454.34",
+    "state_tax_withheld": "152.80",
+    "social_security_tax": "183.16",
+    "medicare_tax": "42.84",
+    "total_deductions_ytd": "1261.32",
+    "overtime_pay_current": "394.67",
+    "bonus_current": "314.40",
+    "retirement_401k": "182.10",
+    "health_insurance": "246.08"
+  }
+}

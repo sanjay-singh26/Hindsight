@@ -1,0 +1,2532 @@
+{
+  "haiku": {
+    "model_id": "claude-haiku-4-5",
+    "scorer_result": {
+      "n_gt": 395,
+      "n_pred": 437,
+      "n_recovered": 306,
+      "n_joint_correct": 306,
+      "n_misbindings": 0,
+      "n_duplicates": 1,
+      "rec_val": 0.774684,
+      "cba_cond": 1.0,
+      "acc_joint": 0.774684,
+      "delta": 0.0,
+      "precision": 0.700229,
+      "dup_rate": 0.002288,
+      "f1_joint": 0.735577
+    },
+    "documents": [
+      {
+        "doc_id": "adbuy_0000",
+        "ground_truth": {
+          "property": "WXIA-TV",
+          "contract_num": "2005382",
+          "tv_address": "One Monroe Place\nAtlanta, GA 30324",
+          "advertiser": "POL/Teresa Tomlinson/ D/ US SENATE/ GA",
+          "flight_to": "06/01/20",
+          "flight_from": "05/28/20",
+          "product": "Primary",
+          "gross_amount": "$250.00"
+        },
+        "predicted": {
+          "advertiser": "POL/ Teresa Tomlinson/ D/ US SENATE/ GA",
+          "agency": "Canal Partners Media / POL",
+          "contract_num": "2005382",
+          "flight_from": "05/28/20",
+          "flight_to": "06/01/20",
+          "gross_amount": "$250.00",
+          "product": "Primary",
+          "tv_address": "One Monroe Place, Atlanta, GA 30324",
+          "property": "WXIA"
+        },
+        "cost": 0.005659
+      },
+      {
+        "doc_id": "adbuy_0001",
+        "ground_truth": {
+          "contract_num": "1528945",
+          "tv_address": "6700 American Plaza\nWaco, TX 76712",
+          "advertiser": "Cody Johnson",
+          "flight_from": "02/19/20",
+          "flight_to": "03/03/20",
+          "product": "State Rep TX District 59",
+          "property": "KWTX",
+          "gross_amount": "$31,190.00"
+        },
+        "predicted": {
+          "advertiser": "Cody Johnson",
+          "agency": "Tomahawk Strategies",
+          "contract_num": "1528945",
+          "flight_from": "02/19/20",
+          "flight_to": "03/03/20",
+          "gross_amount": "$31,190.00",
+          "product": "State Rep TX District 59",
+          "tv_address": "6700 American Plaza, Waco, TX 76712",
+          "property": "KWTX"
+        },
+        "cost": 0.005659
+      },
+      {
+        "doc_id": "adbuy_0002",
+        "ground_truth": {
+          "property": "WMOR",
+          "contract_num": "2009786",
+          "tv_address": "7201 East Hillsborough Ave.\nTampa, FL 33610",
+          "advertiser": "Priorities USA Action",
+          "product": "PRIORITIES USA ACTIO",
+          "gross_amount": "$16,350.00",
+          "flight_to": "11/02/20",
+          "flight_from": "10/27/20"
+        },
+        "predicted": {
+          "advertiser": "Priorities USA Action",
+          "agency": "Targeted Platform Media",
+          "contract_num": "2009786",
+          "flight_from": "10/27/20",
+          "flight_to": "11/02/20",
+          "gross_amount": "$16,350.00",
+          "product": "PRIORITIES USA ACTIO",
+          "tv_address": "7201 East Hillsborough Ave. Tampa, FL 33610",
+          "property": "WMOR"
+        },
+        "cost": 0.005654
+      },
+      {
+        "doc_id": "adbuy_0003",
+        "ground_truth": {
+          "property": "WOI",
+          "contract_num": "2420974",
+          "tv_address": "5000 Riverside Dr\nBuilding 5 Suite 200\nIrving, TX 75039",
+          "advertiser": "POL/One Nation PAC",
+          "flight_to": "03/29/20",
+          "flight_from": "03/16/20",
+          "product": "lowa",
+          "gross_amount": "$11,825.00"
+        },
+        "predicted": {
+          "advertiser": "POL/One Nation PAC",
+          "agency": "Main Street Media Group",
+          "contract_num": "2420974",
+          "flight_from": "03/16/20",
+          "flight_to": "03/29/20",
+          "gross_amount": "$11,825.00",
+          "product": "Iowa",
+          "tv_address": "5000 Riverside Dr, Building S Suite 200, Irving, TX 75039",
+          "property": "WOI"
+        },
+        "cost": 0.00416
+      },
+      {
+        "doc_id": "adbuy_0004",
+        "ground_truth": {
+          "contract_num": "2517963",
+          "product": "Beth Calhoun for Horry County Auditor",
+          "agency": "POL/Beth Calhoun/Horry County Audi",
+          "advertiser": "POL/Beth Calhoun/Horry County Audi",
+          "gross_amount": "$3,500.00",
+          "property": "Myrtle Beach WBTW"
+        },
+        "predicted": {
+          "advertiser": "POL/Beth Calhoun/Horry County Audi",
+          "agency": "POL/Beth Calhoun/Horry County Audi",
+          "contract_num": "2517963",
+          "flight_from": "06/02/20",
+          "flight_to": "06/08/20",
+          "gross_amount": "$3,500.00",
+          "product": "Beth Calhoun for Horry County Auditor",
+          "tv_address": "1508 Lakeland Drive, Conway, SC 29526",
+          "property": "WBTW"
+        },
+        "cost": 0.002806
+      },
+      {
+        "doc_id": "adbuy_0005",
+        "ground_truth": {
+          "contract_num": "564310",
+          "flight_to": "/30/20",
+          "flight_from": "01/24/",
+          "property": "KXLT Rochester",
+          "advertiser": "Friends of Andrew Yang (33462)",
+          "tv_address": "6301 Bandel Road NW\nRochester, MN 55901-8798",
+          "agency": "Allscope Media - EDI (4033)",
+          "gross_amount": "$2,206.00",
+          "product": "Political - President (1094)"
+        },
+        "predicted": {
+          "advertiser": "N/A",
+          "agency": "N/A",
+          "contract_num": "594010",
+          "flight_from": "02/25/10",
+          "flight_to": "03/15/10",
+          "gross_amount": "N/A",
+          "product": "N/A",
+          "tv_address": "1000 IRS BLVD, SIOUX CITY, IA",
+          "property": "KMNH"
+        },
+        "cost": 0.004125
+      },
+      {
+        "doc_id": "adbuy_0006",
+        "ground_truth": {
+          "advertiser": "Mike Bloomberg 2020 Inc-D (133903)",
+          "property": "REMIT TO Sinclair Broadcast Gro\nc/o KBTV",
+          "agency": "Assembly (16037)",
+          "tv_address": "PO Box 206270\nDallas, TX 75320-6270",
+          "contract_num": "4204754",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "gross_amount": "$2,095.00"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020 Inc-D (13903)",
+          "agency": "Assembly (16037)",
+          "contract_num": "4204754",
+          "flight_from": "1/20/2020",
+          "flight_to": "1/26/2020",
+          "gross_amount": "$1,780.75",
+          "product": "POLITICAL CANDIDATE (ms) (1186)",
+          "tv_address": "PO Box 206270, Dallas, TX 75320-6270",
+          "property": "KBTV"
+        },
+        "cost": 0.00423
+      },
+      {
+        "doc_id": "adbuy_0007",
+        "ground_truth": {
+          "property": "WYCW",
+          "contract_num": "2335244",
+          "tv_address": "2960 North Meridian Street\nJill Hammons\nIndianapolis, IN 46208",
+          "advertiser": "POL/Tom Steyer/President/US/Dem",
+          "flight_to": "01/20/20",
+          "flight_from": "01/14/20",
+          "product": "Political",
+          "gross_amount": "$2,930.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Tom Steyer/President/US/Dem",
+          "agency": "Buying Time LLC",
+          "contract_num": "2335244",
+          "flight_from": "01/14/20",
+          "flight_to": "01/20/20",
+          "gross_amount": "$2,930.00",
+          "product": "Political",
+          "tv_address": "2960 North Meridian Street, Jill Hammons, Indianapolis, IN 46208",
+          "property": "WYCW"
+        },
+        "cost": 0.005714
+      },
+      {
+        "doc_id": "adbuy_0008",
+        "ground_truth": {
+          "property": "Telemundo3 KESE35/KECY-DT 9.4 (KESE)",
+          "tv_address": "1965 S 4th Ave\nYuma, AZ 85364",
+          "contract_num": "509971",
+          "advertiser": "Mike Bloomberg 2020, Inc.",
+          "product": "MBLM/MBLM/0133",
+          "flight_to": "03/29/20",
+          "flight_from": "02/24/20",
+          "gross_amount": "$1,900.00"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020, Inc.",
+          "agency": "Assembly Media",
+          "contract_num": "509971",
+          "flight_from": "02/24/20",
+          "flight_to": "03/29/20",
+          "gross_amount": "$1,900.00",
+          "product": "MBLM/MBLM/0133",
+          "tv_address": "1965 S 4th Ave, Yuma, AZ 85364",
+          "property": "KESE"
+        },
+        "cost": 0.005796
+      },
+      {
+        "doc_id": "adbuy_0009",
+        "ground_truth": {
+          "property": "WAXN-TV\nWSOC Television, Inc.",
+          "contract_num": "668864",
+          "product": "TRUMP FOR PRESIDENT",
+          "flight_from": "03/05/20",
+          "flight_to": "03/10/20",
+          "advertiser": "POL/Donald Trump/R/PRES/US-A",
+          "gross_amount": "$3,920.00",
+          "tv_address": "PO Box 809229\nChicago, IL 60680-9229"
+        },
+        "predicted": {
+          "advertiser": "POL/Donald Trump/R/PRES/US-A",
+          "agency": "Harris Sikes Media",
+          "contract_num": "668864",
+          "flight_from": "03/05/20",
+          "flight_to": "03/10/20",
+          "gross_amount": "$3,920.00",
+          "product": "TRUMP FOR PRESIDENT",
+          "tv_address": "PO Box 809229, Chicago, IL 60680-9229",
+          "property": "WAXN-TV"
+        },
+        "cost": 0.00422
+      },
+      {
+        "doc_id": "adbuy_0010",
+        "ground_truth": {
+          "property": "WZZM",
+          "contract_num": "1927837",
+          "tv_address": "645 3 Mile Road NW\nGrand Rapids, MI 49544-1601",
+          "flight_from": "01/25/20",
+          "flight_to": "01/31/20",
+          "advertiser": "POL/Michael Bloomberg / D / PRES/US",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "gross_amount": "$1,515.00"
+        },
+        "predicted": {
+          "advertiser": "POL/ Michael Bloomberg / D / PRES / US",
+          "agency": "N/A",
+          "contract_num": "1927837",
+          "flight_from": "01/25/20",
+          "flight_to": "01/31/20",
+          "gross_amount": "$1,515.00",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "tv_address": "645 3 Mile Road NW, Grand Rapids, MI 49544-1601",
+          "property": "WZZM"
+        },
+        "cost": 0.005734
+      },
+      {
+        "doc_id": "adbuy_0011",
+        "ground_truth": {
+          "contract_num": "703820",
+          "product": "OBAMA FOR AMERICA",
+          "property": "WFMY-TV",
+          "flight_to": "09/10/12",
+          "flight_from": "09/04/12",
+          "agency": "Greer Margolis Mitchell/ Pol",
+          "advertiser": "Obama For America",
+          "gross_amount": "$13,100.00"
+        },
+        "predicted": {
+          "advertiser": "Obama For America",
+          "agency": "Greer Margolis Mitchell/ Pol",
+          "contract_num": "703820",
+          "flight_from": "09/04/12",
+          "flight_to": "09/10/12",
+          "gross_amount": "$13,100.00",
+          "product": "OBAMA FOR AMERICA",
+          "tv_address": "3050 K St NW, Washington, DC 20007",
+          "property": "WFMY"
+        },
+        "cost": 0.005664
+      },
+      {
+        "doc_id": "adbuy_0012",
+        "ground_truth": {
+          "contract_num": "848816",
+          "flight_to": "/24/12",
+          "flight_from": "08/18/",
+          "advertiser": "Republican National Committee (9217)",
+          "property": "WCNC",
+          "gross_amount": "$31,150.00",
+          "tv_address": "1001 Wood Ridge Center Dr.\nCharlotte, NC 28217-1901",
+          "agency": "National Media Research Planning (1768)/154600;",
+          "product": "Political - Ballot Issue (1195)"
+        },
+        "predicted": {
+          "advertiser": "Republican National Committee (9217)",
+          "agency": "National Media Research Planning (1768)/1564600",
+          "contract_num": "848816",
+          "flight_from": "08/24/12",
+          "flight_to": "08/24/12",
+          "gross_amount": "$31,150.00",
+          "product": "Political - Ballot Issue (1195)",
+          "tv_address": "1001 Wood Ridge Center Dr., Charlotte, NC 28217-1901",
+          "property": "WCNC"
+        },
+        "cost": 0.004445
+      },
+      {
+        "doc_id": "adbuy_0013",
+        "ground_truth": {
+          "contract_num": "273338",
+          "product": "BERNIE 2020",
+          "property": "NTRK",
+          "flight_from": "02/24/20",
+          "flight_to": "02/26/20",
+          "agency": "BlueWest Media, LLC",
+          "advertiser": "BERNIE 2020",
+          "gross_amount": "$45.00"
+        },
+        "predicted": {
+          "advertiser": "BERNIE 2020",
+          "agency": "BlueWest Media, LLC",
+          "contract_num": "273338",
+          "flight_from": "02/24/20",
+          "flight_to": "02/26/20",
+          "gross_amount": "$45.00",
+          "product": "BERNIE 2020",
+          "tv_address": "N/A",
+          "property": "NTRK"
+        },
+        "cost": 0.002606
+      },
+      {
+        "doc_id": "adbuy_0014",
+        "ground_truth": {
+          "property": "WGNT",
+          "contract_num": "549694",
+          "tv_address": "720 Boush Street\nNorfolk, VA 23510",
+          "product": "RIGELL/CD2/R",
+          "flight_from": "10/30/12",
+          "flight_to": "11/05/12",
+          "advertiser": "Rigell/R/US House",
+          "gross_amount": "$0.00"
+        },
+        "predicted": {
+          "advertiser": "Rigel/US House",
+          "agency": "American Media & Advocacy Group",
+          "contract_num": "549694",
+          "flight_from": "10/30/12",
+          "flight_to": "11/05/12",
+          "gross_amount": "$0.00",
+          "product": "RIGEL/LCD2/R",
+          "tv_address": "720 Boush Street, Norfolk, VA 23510",
+          "property": "WGNT"
+        },
+        "cost": 0.002661
+      },
+      {
+        "doc_id": "adbuy_0015",
+        "ground_truth": {
+          "contract_num": "26904084",
+          "flight_from": "5/1/20",
+          "flight_to": "5/7/20",
+          "gross_amount": "$36, 125.00",
+          "advertiser": "America First Action Inc",
+          "agency": "Del Ray Media LLC",
+          "product": "ORDR",
+          "tv_address": "125 West 55th St\nNew York, NY 10019"
+        },
+        "predicted": {
+          "advertiser": "America First Action Inc",
+          "agency": "Del Ray Media LLC",
+          "contract_num": "26904084",
+          "flight_from": "5/1/20",
+          "flight_to": "5/7/20",
+          "gross_amount": "$36,125.00",
+          "product": "ORDR",
+          "tv_address": "PO BOX 1309, Alexandria, VA 22313",
+          "property": "KATZ"
+        },
+        "cost": 0.002097
+      },
+      {
+        "doc_id": "adbuy_0016",
+        "ground_truth": {
+          "property": "WJRT",
+          "contract_num": "1475302",
+          "tv_address": "2302 Lapeer Road\nFlint, MI 48503",
+          "advertiser": "Mike Bloomberg 2020, Inc",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "gross_amount": "$42,350.00",
+          "flight_from": "12/30/19",
+          "flight_to": "01/12/20"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020, Inc",
+          "agency": "Assembly",
+          "contract_num": "1475302",
+          "flight_from": "12/30/19",
+          "flight_to": "01/12/20",
+          "gross_amount": "$42,350.00",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "tv_address": "2302 Lapeer Road, Flint, MI 48503",
+          "property": "WJRT"
+        },
+        "cost": 0.005679
+      },
+      {
+        "doc_id": "adbuy_0017",
+        "ground_truth": {
+          "contract_num": "385045",
+          "product": "ANGIE CRAIG CONGRESS",
+          "property": "KSTC-TV, LLC",
+          "flight_to": "10/26/20",
+          "flight_from": "10/20/20",
+          "agency": "Greer Margolis & Mitchell",
+          "advertiser": "Angie Craig for Congress",
+          "gross_amount": "$6,275.00"
+        },
+        "predicted": {
+          "advertiser": "Angie Craig for Congress",
+          "agency": "Greer Margolis & Mitchell",
+          "contract_num": "385045",
+          "flight_from": "10/20/20",
+          "flight_to": "10/26/20",
+          "gross_amount": "$6,275.00",
+          "product": "ANGIE CRAIG CONGRESS",
+          "tv_address": "1010 Wisconsin Ave NW, Washington, DC 20007-3674",
+          "property": "KSTC"
+        },
+        "cost": 0.005694
+      },
+      {
+        "doc_id": "adbuy_0018",
+        "ground_truth": {
+          "property": "WLFI",
+          "contract_num": "1063151",
+          "tv_address": "2605 Yeager Road\nWest Lafayette, IN 47906",
+          "advertiser": "Kimberly Wright",
+          "flight_from": "05/11/20",
+          "flight_to": "06/07/20",
+          "product": "Committee to elect Wright Superior Court 4 Judge",
+          "gross_amount": "$3,590.00"
+        },
+        "predicted": {
+          "advertiser": "Kimberly Wright",
+          "agency": "N/A",
+          "contract_num": "1063151",
+          "flight_from": "05/11/20",
+          "flight_to": "06/07/20",
+          "gross_amount": "$3,590.00",
+          "product": "Committee to elect Wright Superior Court 4 Judge",
+          "tv_address": "2605 Yeager Road, West Lafayette, IN 47906",
+          "property": "WLFI"
+        },
+        "cost": 0.002676
+      },
+      {
+        "doc_id": "adbuy_0019",
+        "ground_truth": {
+          "contract_num": "4394046",
+          "flight_to": "/02/20",
+          "flight_from": "09/29/",
+          "advertiser": "Bryce Bennett for Secretary of State-D (136892)",
+          "property": "KECI+KCFW Combo KECI+KCFWdvertiser",
+          "gross_amount": "$1,505.00",
+          "tv_address": "340 West Main St\nMissoula, MT 59802",
+          "agency": "Left Hook Strategy (19055)",
+          "product": "POLITICAL CANDIDATE (ns) (1186)"
+        },
+        "predicted": {
+          "advertiser": "Bing Bennett for Secretary of State-D (136892)",
+          "agency": "Left Hook Strategy (19055)",
+          "contract_num": "4394046",
+          "flight_from": "09/29/20",
+          "flight_to": "10/02/20",
+          "gross_amount": "$1,505.00",
+          "product": "POLITICAL CANDIDATE",
+          "tv_address": "340 West Main St, Missoula, MT 59802",
+          "property": "KECI+KCFW"
+        },
+        "cost": 0.002298
+      },
+      {
+        "doc_id": "adbuy_0020",
+        "ground_truth": {
+          "property": "WJXT",
+          "tv_address": "4 Broadcast Place\nJacksonville, FL 32207",
+          "flight_to": "02/21/20",
+          "flight_from": "02/15/20",
+          "advertiser": "POL/M Bloomberg/D/Pres/US",
+          "product": "BLOOMBERG PRESIDENT",
+          "gross_amount": "$5,795.00",
+          "contract_num": "543936"
+        },
+        "predicted": {
+          "advertiser": "POL/M Bloomberg/D/Pres/US",
+          "agency": "N/A",
+          "contract_num": "543936",
+          "flight_from": "02/15/20",
+          "flight_to": "02/21/20",
+          "gross_amount": "$5,795.00",
+          "product": "BLOOMBERG PRESIDENT",
+          "tv_address": "WJXT, P.O. Box 933520, Atlanta, GA 31193-3520",
+          "property": "WJXT"
+        },
+        "cost": 0.005719
+      },
+      {
+        "doc_id": "adbuy_0021",
+        "ground_truth": {
+          "property": "KUCW",
+          "advertiser": "POL/Michael Bloomberg/President/US/D",
+          "tv_address": "PO Box 748604\nLos Angeles, CA 90074-8604",
+          "product": "MIKE BLOOMBERG 2020",
+          "contract_num": "2363218",
+          "flight_to": "03/29/20",
+          "flight_from": "12/30/19",
+          "gross_amount": "$5,900.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Michael Bloomberg/President/US/D",
+          "agency": "N/A",
+          "contract_num": "2363218-1",
+          "flight_from": "12/30/19",
+          "flight_to": "03/29/20",
+          "gross_amount": "N/A",
+          "product": "MIKE BLOOMBERG 2020",
+          "tv_address": "PO Box 748604, Los Angeles, CA 90074-8604",
+          "property": "KUCW"
+        },
+        "cost": 0.00443
+      },
+      {
+        "doc_id": "adbuy_0022",
+        "ground_truth": {
+          "property": "KMSP",
+          "advertiser": "Michael Bloomberg 2020, Inc",
+          "tv_address": "4614 Collection Center Drive\nChicago, IL 60693",
+          "product": "Mike Bloomberg 2020 Inc",
+          "contract_num": "941456",
+          "flight_to": "01/12/20",
+          "flight_from": "01/09/20",
+          "gross_amount": "$26,650.00"
+        },
+        "predicted": {
+          "advertiser": "Michael Bloomberg 2020, Inc",
+          "agency": "Assembly Media",
+          "contract_num": "941456",
+          "flight_from": "01/09/20",
+          "flight_to": "01/12/20",
+          "gross_amount": "$26,650.00",
+          "product": "Mike Bloomberg 2020 Inc",
+          "tv_address": "KMSP, 4614 Collection Center Drive, Chicago, IL 60693",
+          "property": "KMSP"
+        },
+        "cost": 0.0044
+      },
+      {
+        "doc_id": "adbuy_0023",
+        "ground_truth": {
+          "property": "WRAZ",
+          "contract_num": "217463",
+          "tv_address": "2619 Western Blvd\nRaleigh, NC 27606",
+          "advertiser": "Democratic Attorneys General Association",
+          "flight_from": "10/27/20",
+          "flight_to": "11/03/20",
+          "product": "955/1329/7226",
+          "gross_amount": "$10,020.00"
+        },
+        "predicted": {
+          "advertiser": "Democratic Attorneys General Association",
+          "agency": "Canal Partners Media LLC",
+          "contract_num": "217463",
+          "flight_from": "10/27/20",
+          "flight_to": "11/03/20",
+          "gross_amount": "$10,020.00",
+          "product": "955/1329/7226",
+          "tv_address": "2619 Western Blvd, Raleigh, NC 27606",
+          "property": "WRAZ"
+        },
+        "cost": 0.005669
+      },
+      {
+        "doc_id": "adbuy_0024",
+        "ground_truth": {
+          "property": "ESTM",
+          "contract_num": "1327580",
+          "tv_address": "1030 James St\nSyracuse, NY 13203",
+          "flight_from": "01/18/20",
+          "flight_to": "01/22/20",
+          "advertiser": "American Action Network",
+          "product": "11526",
+          "gross_amount": "$3,210.00"
+        },
+        "predicted": {
+          "advertiser": "American Action Network",
+          "agency": "Red Eagle Media Group",
+          "contract_num": "1327580",
+          "flight_from": "01/18/20",
+          "flight_to": "01/22/20",
+          "gross_amount": "$3,210.00",
+          "product": "11526",
+          "tv_address": "1030 James St, Syracuse, NY 13203",
+          "property": "ESTM"
+        },
+        "cost": 0.005609
+      },
+      {
+        "doc_id": "adbuy_0025",
+        "ground_truth": {
+          "property": "KTBC\nNW Communications of Austin, Inc.",
+          "advertiser": "Laurie Eiserloh (D) Travis Co Attorney",
+          "tv_address": "P.O.Box 844832\nDallas, TX 75284-4832",
+          "product": "02/2020",
+          "contract_num": "951202",
+          "flight_to": "03/01/20",
+          "flight_from": "02/19/20",
+          "gross_amount": "$5,715.00"
+        },
+        "predicted": {
+          "advertiser": "Laurie Eiserloh (D) Travis Co Attorney",
+          "agency": "CSM Mediaworks",
+          "contract_num": "951202",
+          "flight_from": "02/19/20",
+          "flight_to": "03/01/20",
+          "gross_amount": "$5,715.00",
+          "product": "02/2020",
+          "tv_address": "NW Communications of Austin, Inc., P.O. Box 844832, Dallas, TX 75244-4832",
+          "property": "KTBC"
+        },
+        "cost": 0.00447
+      },
+      {
+        "doc_id": "adbuy_0026",
+        "ground_truth": {
+          "property": "KRNV",
+          "contract_num": "1395161",
+          "tv_address": "1790 Vassar St\nReno, NV 89502",
+          "flight_to": "05/12/20",
+          "flight_from": "05/06/20",
+          "advertiser": "Re-Elect Kristina Pickering for Supreme Court",
+          "product": "PICKERING ST SUP CRT",
+          "gross_amount": "$1,300.00"
+        },
+        "predicted": {
+          "advertiser": "Re-Elect Kristina Pickering for Supreme Court",
+          "agency": "Strategic Media Services",
+          "contract_num": "1395161",
+          "flight_from": "05/06/20",
+          "flight_to": "05/12/20",
+          "gross_amount": "$1,300.00",
+          "product": "PICKERING ST SUP CRT",
+          "tv_address": "1790 Vassar St, Reno, NV 89502",
+          "property": "KRNV"
+        },
+        "cost": 0.004215
+      },
+      {
+        "doc_id": "adbuy_0027",
+        "ground_truth": {
+          "contract_num": "575007",
+          "flight_to": "/05/20",
+          "flight_from": "04/29/",
+          "property": "WAOW-WYOW Television Inc",
+          "advertiser": "Tiffany for Wisconsin Inc (33722)",
+          "gross_amount": "$12,425.00",
+          "tv_address": "1908 Grand Ave\nWausau, WI 54403-6870",
+          "agency": "FlexPoint Media Inc --EDI (5042)",
+          "product": "Political US House (1096)"
+        },
+        "predicted": {
+          "advertiser": "Tiffany for Wisconsin Inc",
+          "agency": "FlexPoint Media Inc - EDI",
+          "contract_num": "575007",
+          "flight_from": "04/20/20",
+          "flight_to": "05/05/20",
+          "gross_amount": "$12,425.00",
+          "product": "Broadcast - US House (1096)",
+          "tv_address": "PO BOX 1051, NEW ALBANY, OH 43054-1051",
+          "property": "WAOW"
+        },
+        "cost": 0.004445
+      },
+      {
+        "doc_id": "adbuy_0028",
+        "ground_truth": {
+          "property": "WTVD",
+          "advertiser": "BIDEN FOR PRESIDENT",
+          "tv_address": "P.O Box 732384\nDallas, TX 75373-2384",
+          "product": "BIDEN FOR PRESIDENT",
+          "contract_num": "273868",
+          "flight_from": "03/01/20",
+          "flight_to": "03/03/20",
+          "gross_amount": "$10,095.00"
+        },
+        "predicted": {
+          "advertiser": "BIDEN FOR PRESIDENT",
+          "agency": "MEDIA BUYING AND ANALYTICS",
+          "contract_num": "R120030287",
+          "flight_from": "03/01/20",
+          "flight_to": "03/03/20",
+          "gross_amount": "$10,095.00",
+          "product": "BIDEN FOR PRESIDENT",
+          "tv_address": "MEDIA BUYING AND ANALYTICS, Attention: Accounts Payable, 2020 HOWELL MILL RD NW, SUITE D-348, ATLANTA, GA 30318",
+          "property": "WTVD"
+        },
+        "cost": 0.00455
+      },
+      {
+        "doc_id": "adbuy_0029",
+        "ground_truth": {
+          "property": "WMAQ",
+          "advertiser": "FRIENDS OF BILL CONWAY",
+          "tv_address": "PO Box 402971\nAtlanta, GA 30384-2971",
+          "product": "FRIENDS OF BILL CONWAY: TV 3/12-3",
+          "contract_num": "1047291",
+          "flight_to": "03/17/20",
+          "flight_from": "03/12/20",
+          "gross_amount": "$42,230.00"
+        },
+        "predicted": {
+          "advertiser": "FRIENDS OF BILL CONWAY",
+          "agency": "AL MEDIA LLC",
+          "contract_num": "1047291",
+          "flight_from": "03/12/20",
+          "flight_to": "03/17/20",
+          "gross_amount": "$42,230.00",
+          "product": "FRIENDS OF BILL CONWAY - TV 312-3",
+          "tv_address": "WMAO, PO Box 402971, Chicago, IL 60684-2971",
+          "property": "WMAO"
+        },
+        "cost": 0.004465
+      },
+      {
+        "doc_id": "adbuy_0030",
+        "ground_truth": {
+          "property": "WSBK-TV",
+          "contract_num": "272456",
+          "tv_address": "1170 Soldiers Field Rd.\nBoston, MA 02134",
+          "advertiser": "Mike Bloomberg 2020",
+          "flight_to": "01/24/20",
+          "flight_from": "01/18/20",
+          "product": "D/PRESIDENT",
+          "gross_amount": "$12,500.00"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020",
+          "agency": "Assembly Media",
+          "contract_num": "272456",
+          "flight_from": "01/18/20",
+          "flight_to": "01/24/20",
+          "gross_amount": "$12,500.00",
+          "product": "D/PRESIDENT",
+          "tv_address": "1170 Soldiers Field Rd. Boston, MA 02134",
+          "property": "WSBK-TV"
+        },
+        "cost": 0.005644
+      },
+      {
+        "doc_id": "adbuy_0031",
+        "ground_truth": {
+          "advertiser": "Bill Hightower AL US Congress-R (134631)",
+          "property": "REMIT TO Sinclair Broadcast\nc/o WPMI",
+          "agency": "Brabender-Cox Direct (18741)",
+          "tv_address": "PO Box 206270\nDallas, TX 75320-6270",
+          "contract_num": "4269341",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "gross_amount": "$1,510.00"
+        },
+        "predicted": {
+          "advertiser": "Bill Hightower AL US Congress-R (134631)",
+          "agency": "Brabender-Cox Direct (18741)",
+          "contract_num": "4269341",
+          "flight_from": "3/9/2020",
+          "flight_to": "3/15/2020",
+          "gross_amount": "$1,510.00",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "tv_address": "c/o WPMI, PO Box 206270, Dallas, TX 75320-6270",
+          "property": "NBC 15"
+        },
+        "cost": 0.002791
+      },
+      {
+        "doc_id": "adbuy_0032",
+        "ground_truth": {
+          "property": "WJZ-TV",
+          "advertiser": "Friends of Bill Henry",
+          "tv_address": "P.O.Box 32060\nNew York, NY 10087-2060",
+          "product": "WEEK 5.26",
+          "contract_num": "302362",
+          "flight_from": "05/26/20",
+          "flight_to": "06/01/20",
+          "gross_amount": "$3,750.00"
+        },
+        "predicted": {
+          "advertiser": "Friends of Bill Henry",
+          "agency": "N/A",
+          "contract_num": "250220518",
+          "flight_from": "05/26/20",
+          "flight_to": "06/01/20",
+          "gross_amount": "$3,750.00",
+          "product": "WEEK 5.26",
+          "tv_address": "P.O. Box 32060, New York, NY 10087-2060",
+          "property": "WJZ-TV"
+        },
+        "cost": 0.002253
+      },
+      {
+        "doc_id": "adbuy_0033",
+        "ground_truth": {
+          "property": "Denver KDVR",
+          "tv_address": "P.O.Box 59743\nLos Angeles, CA 90074 - 9743",
+          "advertiser": "POL/Alaska Wilderness League Action P",
+          "product": "ALASKA WILD LEAG ACT",
+          "contract_num": "2357822",
+          "gross_amount": "$6,050.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Alaska Wilderness League Action P",
+          "agency": "Left Hook Strategy",
+          "contract_num": "2357822-1",
+          "flight_from": "01/27/20",
+          "flight_to": "02/09/20",
+          "gross_amount": "$6,050.00",
+          "product": "ALASKA WILD LEAG ACT",
+          "tv_address": "P. O. Box 59743, Los Angeles, CA 90074 \u2013 9743",
+          "property": "KDVR"
+        },
+        "cost": 0.003384
+      },
+      {
+        "doc_id": "adbuy_0034",
+        "ground_truth": {
+          "property": "WYCW",
+          "contract_num": "2372946",
+          "tv_address": "2960 North Meridian Street\nJill Hammons\nIndianapolis, IN 46208",
+          "advertiser": "POL/Vote Vets PAC",
+          "flight_to": "02/23/20",
+          "flight_from": "02/07/20",
+          "product": "Issue",
+          "gross_amount": "$4,820.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Vote Vets PAC",
+          "agency": "Waterfront Strategies",
+          "contract_num": "2372946",
+          "flight_from": "02/07/20",
+          "flight_to": "02/23/20",
+          "gross_amount": "$4,820.00",
+          "product": "Issue",
+          "tv_address": "2960 North Meridian Street, Jill Hammons, Indianapolis, IN 46208",
+          "property": "WYCW"
+        },
+        "cost": 0.004195
+      },
+      {
+        "doc_id": "adbuy_0035",
+        "ground_truth": {
+          "property": "WXIA-TV",
+          "contract_num": "1980428",
+          "tv_address": "One Monroe Place\nAtlanta, GA 30324",
+          "advertiser": "ISS/ House Majority PAC",
+          "product": "TV",
+          "gross_amount": "$180,770.00",
+          "flight_to": "11/02/20",
+          "flight_from": "10/27/20"
+        },
+        "predicted": {
+          "advertiser": "ISS/ House Majority PAC",
+          "agency": "Waterfront Strategies / POL",
+          "contract_num": "1980428",
+          "flight_from": "10/27/20",
+          "flight_to": "11/02/20",
+          "gross_amount": "$180,770.00",
+          "product": "TV",
+          "tv_address": "One Monroe Place, Atlanta, GA 30324",
+          "property": "WXIA"
+        },
+        "cost": 0.005639
+      },
+      {
+        "doc_id": "adbuy_0036",
+        "ground_truth": {
+          "property": "WHBF",
+          "advertiser": "POL/Fight Back Fund PAC",
+          "tv_address": "PO Box 74008722\nChicago, IL 60674-8722",
+          "product": "fight back fund",
+          "gross_amount": "$1,780.00",
+          "contract_num": "2490850"
+        },
+        "predicted": {
+          "advertiser": "POI/Fight Back Fund PAC",
+          "agency": "Adelstein & Associates | AL Media",
+          "contract_num": "2490850-1",
+          "flight_from": "04/27/20",
+          "flight_to": "05/03/20",
+          "gross_amount": "$1,780.00",
+          "product": "fight back fund",
+          "tv_address": "PO Box 74008722, Chicago, IL 60674-8722",
+          "property": "WHBF"
+        },
+        "cost": 0.003354
+      },
+      {
+        "doc_id": "adbuy_0037",
+        "ground_truth": {
+          "property": "KPTH",
+          "contract_num": "1334338",
+          "tv_address": "100 Gold Circle Drive\nDakota Dunes, SD 57049",
+          "flight_from": "01/24/20",
+          "flight_to": "01/30/20",
+          "advertiser": "Andrew Yang for President-D",
+          "product": "86/358/1087/ANDREW YANG PRES",
+          "gross_amount": "$1,620.00"
+        },
+        "predicted": {
+          "advertiser": "Andrew Yang for President-D",
+          "agency": "Alliscope Media",
+          "contract_num": "1334338",
+          "flight_from": "01/24/20",
+          "flight_to": "01/30/20",
+          "gross_amount": "$1,620.00",
+          "product": "86/358/1087/ANDREW YANG PRES",
+          "tv_address": "100 Gold Circle Drive, Dakota Dunes, SD 57049",
+          "property": "KPTH"
+        },
+        "cost": 0.005709
+      },
+      {
+        "doc_id": "adbuy_0038",
+        "ground_truth": {
+          "property": "WKBD-TV",
+          "contract_num": "277102",
+          "tv_address": "26905 West 11 Mile Road\nSouthfield, MI 48037",
+          "advertiser": "Peters For Senate",
+          "flight_from": "02/15/20",
+          "flight_to": "02/21/20",
+          "product": "D/SENATE",
+          "gross_amount": "$1,345.00"
+        },
+        "predicted": {
+          "advertiser": "Peters For Senate",
+          "agency": "Screen Strategies Media",
+          "contract_num": "277102",
+          "flight_from": "02/15/20",
+          "flight_to": "02/21/20",
+          "gross_amount": "$1,345.00",
+          "product": "D/SENATE",
+          "tv_address": "26905 West 11 Mile Road, Southfield, MI 48037",
+          "property": "WKBD"
+        },
+        "cost": 0.005649
+      },
+      {
+        "doc_id": "adbuy_0039",
+        "ground_truth": {
+          "contract_num": "26802458",
+          "flight_to": "3/29/20",
+          "flight_from": "12/30/19",
+          "gross_amount": "$12,680.00",
+          "agency": "ASSEMBLY",
+          "advertiser": "Mike Bloomberg 2020,\nInc",
+          "product": "MIKE BLOOMBERG\n2020 INC",
+          "tv_address": "125 West 55th St\nNew York, NY 10019",
+          "property": "GHP"
+        },
+        "predicted": {
+          "advertiser": "MIKE BLOOMBERG 2020 INC",
+          "agency": "ASSEMBLY",
+          "contract_num": "26802458",
+          "flight_from": "12/30/19",
+          "flight_to": "3/23/20",
+          "gross_amount": "$12,680.00",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "tv_address": "711 Third Avenue, 3rd Floor, NEW YORK, NY 10017",
+          "property": "GHP"
+        },
+        "cost": 0.004097
+      },
+      {
+        "doc_id": "adbuy_0040",
+        "ground_truth": {
+          "property": "WFTC",
+          "advertiser": "Michael Bloomberg 2020, Inc",
+          "tv_address": "4614 Collection Center Drive\nChicago, IL 60693",
+          "product": "Mike Bloomberg 2020 Inc",
+          "contract_num": "938991",
+          "flight_from": "01/06/20",
+          "flight_to": "01/08/20",
+          "gross_amount": "$2,950.00"
+        },
+        "predicted": {
+          "advertiser": "Michael Bloomberg 2020, Inc",
+          "agency": "Assembly Media",
+          "contract_num": "938891",
+          "flight_from": "01/06/20",
+          "flight_to": "01/08/20",
+          "gross_amount": "$2,950.00",
+          "product": "Mike Bloomberg 2020 Inc",
+          "tv_address": "4614 Collection Center Drive, Chicago, IL 60693",
+          "property": "WFTC"
+        },
+        "cost": 0.002228
+      },
+      {
+        "doc_id": "adbuy_0041",
+        "ground_truth": {
+          "contract_num": "26902073",
+          "flight_to": "9/29/20",
+          "flight_from": "9/23/20",
+          "agency": "FlexPoint Media Inc.",
+          "advertiser": "Congressional\nLeadership Fund",
+          "gross_amount": "$23,550.00",
+          "product": "UT-04",
+          "tv_address": "125 West 55th St\nNew York, NY 10019"
+        },
+        "predicted": {
+          "advertiser": "Congressional Leadership Fund",
+          "agency": "FlexPoint Media Inc.",
+          "contract_num": "25902073",
+          "flight_from": "9/23/20",
+          "flight_to": "9/29/20",
+          "gross_amount": "$23,550.00",
+          "product": "Congressional Leadership Fund",
+          "tv_address": "PO Box 1051, New Albany, OH 43054",
+          "property": "KTVX"
+        },
+        "cost": 0.004365
+      },
+      {
+        "doc_id": "adbuy_0042",
+        "ground_truth": {
+          "property": "WAOE-TV",
+          "tv_address": "QUINCY IL 62306-1001\nPO BOX 1001",
+          "advertiser": "Biden for President (33138)",
+          "agency": "Media Buying & Analytics (5286)",
+          "contract_num": "569080",
+          "gross_amount": "$355.00"
+        },
+        "predicted": {
+          "advertiser": "Biden for President (33138)",
+          "agency": "Media Buying & Analytics (5286)",
+          "contract_num": "1457963",
+          "flight_from": "02/24/2020",
+          "flight_to": "03/29/2020",
+          "gross_amount": "$355.00",
+          "product": "Biden for President",
+          "tv_address": "PO BOX 1001, QUINCY IL 62306-1001",
+          "property": "WAOE"
+        },
+        "cost": 0.002681
+      },
+      {
+        "doc_id": "adbuy_0043",
+        "ground_truth": {
+          "property": "WSPA",
+          "advertiser": "POL/Committee to Defend the President",
+          "tv_address": "33096 Collection Center Drive\nChicago, IL 60693",
+          "product": "TV",
+          "contract_num": "2397319",
+          "flight_from": "02/24/20",
+          "flight_to": "03/01/20",
+          "gross_amount": "$4,100.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Committee to Defend the President",
+          "agency": "Strategic Media Placement",
+          "contract_num": "2397319",
+          "flight_from": "02/24/20",
+          "flight_to": "03/01/20",
+          "gross_amount": "$4,100.00",
+          "product": "TV",
+          "tv_address": "33096 Collection Center Drive, Chicago, IL 60693",
+          "property": "WSPA"
+        },
+        "cost": 0.002218
+      },
+      {
+        "doc_id": "adbuy_0044",
+        "ground_truth": {
+          "property": "WJZ-TV",
+          "advertiser": "Friends of Sheila Dixon",
+          "tv_address": "P.O.Box 32060\nNew York, NY 10087-2060",
+          "contract_num": "297465",
+          "product": "4.28-5.4",
+          "flight_to": "05/04/20",
+          "flight_from": "04/28/20",
+          "gross_amount": "$15,125.00"
+        },
+        "predicted": {
+          "advertiser": "Friends of Sheila Dixon",
+          "agency": "Screen Strategies Media",
+          "contract_num": "297465",
+          "flight_from": "04/27/20",
+          "flight_to": "05/04/20",
+          "gross_amount": "N/A",
+          "product": "4-28-5.4",
+          "tv_address": "WJZ-TV, P.O. Box 32060, New York, NY 10087-2060",
+          "property": "WJZ-TV"
+        },
+        "cost": 0.00444
+      },
+      {
+        "doc_id": "adbuy_0045",
+        "ground_truth": {
+          "property": "WXXA",
+          "contract_num": "2436316",
+          "tv_address": "2960 North Meridian Street, Suite 250\nKate Foreman\nIndianapolis, IN 46208",
+          "advertiser": "POL/FWD.US PAC",
+          "flight_to": "03/31/20",
+          "flight_from": "03/27/20",
+          "product": "issue",
+          "gross_amount": "$1,670.00"
+        },
+        "predicted": {
+          "advertiser": "POL/FWD.US PAC",
+          "agency": "Targeted Platform Media",
+          "contract_num": "2436316",
+          "flight_from": "03/27/20",
+          "flight_to": "03/31/20",
+          "gross_amount": "$1,670.00",
+          "product": "issue",
+          "tv_address": "2960 North Meridian Street, Suite 250, Kate Foreman, Indianapolis, IN 46208",
+          "property": "WXXA"
+        },
+        "cost": 0.005699
+      },
+      {
+        "doc_id": "adbuy_0046",
+        "ground_truth": {
+          "contract_num": "381627",
+          "product": "JOE BIDEN PRESIDENT",
+          "property": "KSTC-TV, LLC",
+          "flight_from": "03/03/20",
+          "flight_to": "03/03/20",
+          "agency": "Media Buying and Analytics",
+          "advertiser": "Biden for President",
+          "gross_amount": "$465.00"
+        },
+        "predicted": {
+          "advertiser": "Biden for President",
+          "agency": "Media Buying and Analytics",
+          "contract_num": "381627",
+          "flight_from": "03/03/20",
+          "flight_to": "03/03/20",
+          "gross_amount": "$465.00",
+          "product": "JOE BIDEN PRESIDENT",
+          "tv_address": "N/A",
+          "property": "KSTC"
+        },
+        "cost": 0.004085
+      },
+      {
+        "doc_id": "adbuy_0047",
+        "ground_truth": {
+          "contract_num": "561973",
+          "flight_to": "/02/20",
+          "flight_from": "01/28/",
+          "property": "KWWL Television Inc.",
+          "advertiser": "Bernie 2020 Inc (33287)",
+          "gross_amount": "$160.00",
+          "tv_address": "511 E 5th St\nWaterloo, IA 50703",
+          "agency": "BlueWest Media --EDI (4500)",
+          "product": "Political President (1094)"
+        },
+        "predicted": {
+          "advertiser": "Bernie 2020 Inc (33287)",
+          "agency": "BlueWel Media -EDI",
+          "contract_num": "561973",
+          "flight_from": "01/20/2020",
+          "flight_to": "01/20/2020",
+          "gross_amount": "$160.00",
+          "product": "Political - President (1094)",
+          "tv_address": "511 E 5th St, Waterloo, IA 50703",
+          "property": "KWWL"
+        },
+        "cost": 0.002283
+      },
+      {
+        "doc_id": "adbuy_0048",
+        "ground_truth": {
+          "property": "REMIT TO Sinclair Broadcast\nc/o WBMA",
+          "advertiser": "Mike Bloomberg 2020 Inc-D (133903)",
+          "agency": "Assembly (16037)",
+          "tv_address": "PO Box 206270\nDallas, TX 75320-6270",
+          "contract_num": "4244626",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "gross_amount": "$3,368.00"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020 Inc-D (133903)",
+          "agency": "Assembly (16037)",
+          "contract_num": "4244626",
+          "flight_from": "1/27/2020",
+          "flight_to": "2/23/2020",
+          "gross_amount": "$3,368.00",
+          "product": "MIKE BLOOMBERG 2020",
+          "tv_address": "c/o WBMA, PO Box 206270, Dallas, TX 75320-6270",
+          "property": "WBMA"
+        },
+        "cost": 0.002756
+      },
+      {
+        "doc_id": "adbuy_0049",
+        "ground_truth": {
+          "property": "Charlotte WMYT",
+          "contract_num": "2485756",
+          "tv_address": "2960 North Meridian Street, Suite 250\nJill Hammons",
+          "advertiser": "POL/A Stronger North Carolina PAC",
+          "flight_from": "10/13/20",
+          "flight_to": "10/19/20",
+          "product": "A STRONGER NC",
+          "gross_amount": "$2,040.00"
+        },
+        "predicted": {
+          "advertiser": "POI/A Stronger North Carolina PAC",
+          "agency": "Great American Media",
+          "contract_num": "2485756",
+          "flight_from": "10/13/20",
+          "flight_to": "10/19/20",
+          "gross_amount": "$2,040.00",
+          "product": "A STRONGER NC",
+          "tv_address": "2960 North Meridian Street, Suite 250, Jill Hammons, Indianapolis, IN 46208",
+          "property": "WMYT"
+        },
+        "cost": 0.002721
+      }
+    ]
+  },
+  "gpt4o-mini": {
+    "model_id": "gpt-4o-mini",
+    "scorer_result": {
+      "n_gt": 395,
+      "n_pred": 434,
+      "n_recovered": 254,
+      "n_joint_correct": 254,
+      "n_misbindings": 0,
+      "n_duplicates": 1,
+      "rec_val": 0.643038,
+      "cba_cond": 1.0,
+      "acc_joint": 0.643038,
+      "delta": 0.0,
+      "precision": 0.585253,
+      "dup_rate": 0.002304,
+      "f1_joint": 0.612786
+    },
+    "documents": [
+      {
+        "doc_id": "adbuy_0000",
+        "ground_truth": {
+          "property": "WXIA-TV",
+          "contract_num": "2005382",
+          "tv_address": "One Monroe Place\nAtlanta, GA 30324",
+          "advertiser": "POL/Teresa Tomlinson/ D/ US SENATE/ GA",
+          "flight_to": "06/01/20",
+          "flight_from": "05/28/20",
+          "product": "Primary",
+          "gross_amount": "$250.00"
+        },
+        "predicted": {
+          "advertiser": "POL/ Teresa Tomlinson/ D/ US SENATE/ GA",
+          "agency": "Canal Partners Media / POL",
+          "contract_num": "2005832",
+          "flight_from": "05/28/20",
+          "flight_to": "06/01/20",
+          "gross_amount": "$250.00",
+          "product": "Primary",
+          "tv_address": "WXIA-TV\nOne Monroe Place\nAtlanta, GA 30324\n(404)892-1611",
+          "property": "WXIA"
+        },
+        "cost": 0.0116172
+      },
+      {
+        "doc_id": "adbuy_0001",
+        "ground_truth": {
+          "contract_num": "1528945",
+          "tv_address": "6700 American Plaza\nWaco, TX 76712",
+          "advertiser": "Cody Johnson",
+          "flight_from": "02/19/20",
+          "flight_to": "03/03/20",
+          "product": "State Rep TX District 59",
+          "property": "KWTX",
+          "gross_amount": "$31,190.00"
+        },
+        "predicted": {
+          "advertiser": "Cody Johnson",
+          "agency": "Tomahawk Strategies",
+          "contract_num": "1528945",
+          "flight_from": "02/19/20",
+          "flight_to": "03/03/20",
+          "gross_amount": "$31,190.00",
+          "product": "State Rep TX District 59",
+          "tv_address": "6700 American Plaza, Waco, TX 76712",
+          "property": "KWTX"
+        },
+        "cost": 0.005838
+      },
+      {
+        "doc_id": "adbuy_0002",
+        "ground_truth": {
+          "property": "WMOR",
+          "contract_num": "2009786",
+          "tv_address": "7201 East Hillsborough Ave.\nTampa, FL 33610",
+          "advertiser": "Priorities USA Action",
+          "product": "PRIORITIES USA ACTIO",
+          "gross_amount": "$16,350.00",
+          "flight_to": "11/02/20",
+          "flight_from": "10/27/20"
+        },
+        "predicted": {
+          "advertiser": "Priorities USA Action",
+          "agency": "Targeted Platform Media",
+          "contract_num": "2009786",
+          "flight_from": "10/27/20",
+          "flight_to": "11/02/20",
+          "gross_amount": "$16,350.00",
+          "product": "PRIORITIES USA ACTIO",
+          "tv_address": "7201 East Hillsborough Ave.\nTampa, FL 33610\n(813)626-3232",
+          "property": "WMOR"
+        },
+        "cost": 0.0116148
+      },
+      {
+        "doc_id": "adbuy_0003",
+        "ground_truth": {
+          "property": "WOI",
+          "contract_num": "2420974",
+          "tv_address": "5000 Riverside Dr\nBuilding 5 Suite 200\nIrving, TX 75039",
+          "advertiser": "POL/One Nation PAC",
+          "flight_to": "03/29/20",
+          "flight_from": "03/16/20",
+          "product": "lowa",
+          "gross_amount": "$11,825.00"
+        },
+        "predicted": {
+          "advertiser": "POL/One Nation PAC",
+          "agency": "Main Street Media Group",
+          "contract_num": "242\u624e0974",
+          "flight_from": "03/16/20",
+          "flight_to": "03/29/20",
+          "gross_amount": "$11,825.00",
+          "product": "Iowa",
+          "tv_address": "5000 Riverside Dr, Building 5 Suite 200, Irving, TX 75039",
+          "property": "WOI"
+        },
+        "cost": 0.00778545
+      },
+      {
+        "doc_id": "adbuy_0004",
+        "ground_truth": {
+          "contract_num": "2517963",
+          "product": "Beth Calhoun for Horry County Auditor",
+          "agency": "POL/Beth Calhoun/Horry County Audi",
+          "advertiser": "POL/Beth Calhoun/Horry County Audi",
+          "gross_amount": "$3,500.00",
+          "property": "Myrtle Beach WBTW"
+        },
+        "predicted": {
+          "advertiser": "POL/Beth Calhoun/Horry County Auditor",
+          "agency": "POL/Beth Calhoun/Horry County Auditor",
+          "contract_num": "2517963",
+          "flight_from": "06/02/20",
+          "flight_to": "06/08/20",
+          "gross_amount": "$3,500.00",
+          "product": "Beth Calhoun for Horry County Auditor",
+          "tv_address": "1508 Lakeland Drive, Conway, SC 29526",
+          "property": "WBTW"
+        },
+        "cost": 0.0039669
+      },
+      {
+        "doc_id": "adbuy_0005",
+        "ground_truth": {
+          "contract_num": "564310",
+          "flight_to": "/30/20",
+          "flight_from": "01/24/",
+          "property": "KXLT Rochester",
+          "advertiser": "Friends of Andrew Yang (33462)",
+          "tv_address": "6301 Bandel Road NW\nRochester, MN 55901-8798",
+          "agency": "Allscope Media - EDI (4033)",
+          "gross_amount": "$2,206.00",
+          "product": "Political - President (1094)"
+        },
+        "predicted": {
+          "advertiser": "N/A",
+          "agency": "N/A",
+          "contract_num": "564310",
+          "flight_from": "N/A",
+          "flight_to": "N/A",
+          "gross_amount": "$5,325.00",
+          "product": "N/A",
+          "tv_address": "N/A",
+          "property": "KXTL"
+        },
+        "cost": 0.00776865
+      },
+      {
+        "doc_id": "adbuy_0006",
+        "ground_truth": {
+          "advertiser": "Mike Bloomberg 2020 Inc-D (133903)",
+          "property": "REMIT TO Sinclair Broadcast Gro\nc/o KBTV",
+          "agency": "Assembly (16037)",
+          "tv_address": "PO Box 206270\nDallas, TX 75320-6270",
+          "contract_num": "4204754",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "gross_amount": "$2,095.00"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020 Inc-D (133903)",
+          "agency": "Assembly (16037)",
+          "contract_num": "7186903",
+          "flight_from": "12/02/20",
+          "flight_to": "12/26/20",
+          "gross_amount": "$2,095.00",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "tv_address": "711 Third Ave\n3rd Floor\nNew York, NY 10017",
+          "property": "KBTV"
+        },
+        "cost": 0.00779205
+      },
+      {
+        "doc_id": "adbuy_0007",
+        "ground_truth": {
+          "property": "WYCW",
+          "contract_num": "2335244",
+          "tv_address": "2960 North Meridian Street\nJill Hammons\nIndianapolis, IN 46208",
+          "advertiser": "POL/Tom Steyer/President/US/Dem",
+          "flight_to": "01/20/20",
+          "flight_from": "01/14/20",
+          "product": "Political",
+          "gross_amount": "$2,930.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Tom Steyer/President/US/Dem",
+          "agency": "Buying Time LLC",
+          "contract_num": "2335244",
+          "flight_from": "01/14/20",
+          "flight_to": "01/20/20",
+          "gross_amount": "$2,930.00",
+          "product": "Political",
+          "tv_address": "2960 North Meridian Street, Indianapolis, IN 46208",
+          "property": "WYCW"
+        },
+        "cost": 0.0116094
+      },
+      {
+        "doc_id": "adbuy_0008",
+        "ground_truth": {
+          "property": "Telemundo3 KESE35/KECY-DT 9.4 (KESE)",
+          "tv_address": "1965 S 4th Ave\nYuma, AZ 85364",
+          "contract_num": "509971",
+          "advertiser": "Mike Bloomberg 2020, Inc.",
+          "product": "MBLM/MBLM/0133",
+          "flight_to": "03/29/20",
+          "flight_from": "02/24/20",
+          "gross_amount": "$1,900.00"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020, Inc.",
+          "agency": "Assembly Media",
+          "contract_num": "509971",
+          "flight_from": "02/24/20",
+          "flight_to": "03/29/20",
+          "gross_amount": "$1,900.00",
+          "product": "MBLM/MBLM/0133",
+          "tv_address": "1965 S 4th Ave, Yuma, AZ 85364",
+          "property": "KESE"
+        },
+        "cost": 0.0116112
+      },
+      {
+        "doc_id": "adbuy_0009",
+        "ground_truth": {
+          "property": "WAXN-TV\nWSOC Television, Inc.",
+          "contract_num": "668864",
+          "product": "TRUMP FOR PRESIDENT",
+          "flight_from": "03/05/20",
+          "flight_to": "03/10/20",
+          "advertiser": "POL/Donald Trump/R/PRES/US-A",
+          "gross_amount": "$3,920.00",
+          "tv_address": "PO Box 809229\nChicago, IL 60680-9229"
+        },
+        "predicted": {
+          "advertiser": "POL/Donald Trump/P/R/PRI",
+          "agency": "Harris Sikes Media",
+          "contract_num": "668864",
+          "flight_from": "03/05/20",
+          "flight_to": "03/10/20",
+          "gross_amount": "$3,920.00",
+          "product": "TRUMP FOR PRESIDENT",
+          "tv_address": "WSOC Television, Inc.\nPO Box 809229\nChicago, IL 60680-9229\n(855) 333-2676",
+          "property": "WAXN-TV"
+        },
+        "cost": 0.00779685
+      },
+      {
+        "doc_id": "adbuy_0010",
+        "ground_truth": {
+          "property": "WZZM",
+          "contract_num": "1927837",
+          "tv_address": "645 3 Mile Road NW\nGrand Rapids, MI 49544-1601",
+          "flight_from": "01/25/20",
+          "flight_to": "01/31/20",
+          "advertiser": "POL/Michael Bloomberg / D / PRES/US",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "gross_amount": "$1,515.00"
+        },
+        "predicted": {
+          "advertiser": "POL/ Michael Bloomberg / D / PRES / US",
+          "agency": "N/A",
+          "contract_num": "1927837-1",
+          "flight_from": "12/30/19",
+          "flight_to": "01/26/20",
+          "gross_amount": "$1,515.00",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "tv_address": "645 5 Mile Road NW, Grand Rapids, MI 49544-1601",
+          "property": "WZZM"
+        },
+        "cost": 0.0116178
+      },
+      {
+        "doc_id": "adbuy_0011",
+        "ground_truth": {
+          "contract_num": "703820",
+          "product": "OBAMA FOR AMERICA",
+          "property": "WFMY-TV",
+          "flight_to": "09/10/12",
+          "flight_from": "09/04/12",
+          "agency": "Greer Margolis Mitchell/ Pol",
+          "advertiser": "Obama For America",
+          "gross_amount": "$13,100.00"
+        },
+        "predicted": {
+          "advertiser": "Obama For America",
+          "agency": "Greer Margolis Mitchell/ Pol",
+          "contract_num": "703820",
+          "flight_from": "09/04/12",
+          "flight_to": "09/10/12",
+          "gross_amount": "$13,100.00",
+          "product": "OBAMA FOR AMERICA",
+          "tv_address": "3050 K St NW, Washington, DC 20007",
+          "property": "WFMY-TV"
+        },
+        "cost": 0.0116088
+      },
+      {
+        "doc_id": "adbuy_0012",
+        "ground_truth": {
+          "contract_num": "848816",
+          "flight_to": "/24/12",
+          "flight_from": "08/18/",
+          "advertiser": "Republican National Committee (9217)",
+          "property": "WCNC",
+          "gross_amount": "$31,150.00",
+          "tv_address": "1001 Wood Ridge Center Dr.\nCharlotte, NC 28217-1901",
+          "agency": "National Media Research Planning (1768)/154600;",
+          "product": "Political - Ballot Issue (1195)"
+        },
+        "predicted": {
+          "advertiser": "Republican National Committee (9217)",
+          "agency": "National Media Research Planning",
+          "contract_num": "848816",
+          "flight_from": "08/19/12",
+          "flight_to": "08/24/12",
+          "gross_amount": "$93,750.00",
+          "product": "Political - Ballot Issue (1195)",
+          "tv_address": "1001 Wood Ridge Center Dr. Charlotte, NC 28217-1901",
+          "property": "WCNC"
+        },
+        "cost": 0.011613
+      },
+      {
+        "doc_id": "adbuy_0013",
+        "ground_truth": {
+          "contract_num": "273338",
+          "product": "BERNIE 2020",
+          "property": "NTRK",
+          "flight_from": "02/24/20",
+          "flight_to": "02/26/20",
+          "agency": "BlueWest Media, LLC",
+          "advertiser": "BERNIE 2020",
+          "gross_amount": "$45.00"
+        },
+        "predicted": {
+          "advertiser": "BERNIE 2020",
+          "agency": "BlueWest Media, LLC",
+          "contract_num": "273338",
+          "flight_from": "02/24/20",
+          "flight_to": "02/26/20",
+          "gross_amount": "$45.00",
+          "product": "BERNIE 2020",
+          "tv_address": "5130 E. 18th Avenue, Denver, CO 80220",
+          "property": "NTRK"
+        },
+        "cost": 0.0039603
+      },
+      {
+        "doc_id": "adbuy_0014",
+        "ground_truth": {
+          "property": "WGNT",
+          "contract_num": "549694",
+          "tv_address": "720 Boush Street\nNorfolk, VA 23510",
+          "product": "RIGELL/CD2/R",
+          "flight_from": "10/30/12",
+          "flight_to": "11/05/12",
+          "advertiser": "Rigell/R/US House",
+          "gross_amount": "$0.00"
+        },
+        "predicted": {
+          "advertiser": "Rigel/RUS House",
+          "agency": "American Media & Advocacy Group",
+          "contract_num": "549694",
+          "flight_from": "10/30/12",
+          "flight_to": "11/05/12",
+          "gross_amount": "$0.00",
+          "product": "RIGEL/LLCD2/R",
+          "tv_address": "720 Boush Street, Norfolk, VA 23510",
+          "property": "WGNT"
+        },
+        "cost": 0.0039585
+      },
+      {
+        "doc_id": "adbuy_0015",
+        "ground_truth": {
+          "contract_num": "26904084",
+          "flight_from": "5/1/20",
+          "flight_to": "5/7/20",
+          "gross_amount": "$36, 125.00",
+          "advertiser": "America First Action Inc",
+          "agency": "Del Ray Media LLC",
+          "product": "ORDR",
+          "tv_address": "125 West 55th St\nNew York, NY 10019"
+        },
+        "predicted": {
+          "advertiser": "America First Action Inc",
+          "agency": "Del Ray Media LLC",
+          "contract_num": "26904804",
+          "flight_from": "05/06/20",
+          "flight_to": "05/07/20",
+          "gross_amount": "$36,125.00",
+          "product": "N/A",
+          "tv_address": "125 West 55th St\nNew York, NY 10019",
+          "property": "WHP"
+        },
+        "cost": 0.0039543
+      },
+      {
+        "doc_id": "adbuy_0016",
+        "ground_truth": {
+          "property": "WJRT",
+          "contract_num": "1475302",
+          "tv_address": "2302 Lapeer Road\nFlint, MI 48503",
+          "advertiser": "Mike Bloomberg 2020, Inc",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "gross_amount": "$42,350.00",
+          "flight_from": "12/30/19",
+          "flight_to": "01/12/20"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020, Inc",
+          "agency": "N/A",
+          "contract_num": "1475302",
+          "flight_from": "12/30/19",
+          "flight_to": "01/12/20",
+          "gross_amount": "$42,350.00",
+          "product": "MIKE BLOOMBERG 2020 INC",
+          "tv_address": "2302 Lapeer Road, Flint, MI 48503",
+          "property": "WJRT"
+        },
+        "cost": 0.0116124
+      },
+      {
+        "doc_id": "adbuy_0017",
+        "ground_truth": {
+          "contract_num": "385045",
+          "product": "ANGIE CRAIG CONGRESS",
+          "property": "KSTC-TV, LLC",
+          "flight_to": "10/26/20",
+          "flight_from": "10/20/20",
+          "agency": "Greer Margolis & Mitchell",
+          "advertiser": "Angie Craig for Congress",
+          "gross_amount": "$6,275.00"
+        },
+        "predicted": {
+          "advertiser": "Angie Craig for Congress",
+          "agency": "Greer Margolis & Mitchell",
+          "contract_num": "385045",
+          "flight_from": "10/20/20",
+          "flight_to": "10/26/20",
+          "gross_amount": "$6,275.00",
+          "product": "ANGIE CRAIG CONGRESS",
+          "tv_address": "1010 Wisconsin Ave NW, Washington, DC 20007-3674",
+          "property": "KSTC"
+        },
+        "cost": 0.0116118
+      },
+      {
+        "doc_id": "adbuy_0018",
+        "ground_truth": {
+          "property": "WLFI",
+          "contract_num": "1063151",
+          "tv_address": "2605 Yeager Road\nWest Lafayette, IN 47906",
+          "advertiser": "Kimberly Wright",
+          "flight_from": "05/11/20",
+          "flight_to": "06/07/20",
+          "product": "Committee to elect Wright Superior Court 4 Judge",
+          "gross_amount": "$3,590.00"
+        },
+        "predicted": {
+          "advertiser": "Kimberly Wright",
+          "agency": "N/A",
+          "contract_num": "1063151",
+          "flight_from": "05/11/20",
+          "flight_to": "06/07/20",
+          "gross_amount": "$3,590.00",
+          "product": "Committee to elect Wright Superior Court 4 Judge",
+          "tv_address": "2605 Yeager Road West Lafayette, IN 47906",
+          "property": "WLFI"
+        },
+        "cost": 0.0039585
+      },
+      {
+        "doc_id": "adbuy_0019",
+        "ground_truth": {
+          "contract_num": "4394046",
+          "flight_to": "/02/20",
+          "flight_from": "09/29/",
+          "advertiser": "Bryce Bennett for Secretary of State-D (136892)",
+          "property": "KECI+KCFW Combo KECI+KCFWdvertiser",
+          "gross_amount": "$1,505.00",
+          "tv_address": "340 West Main St\nMissoula, MT 59802",
+          "agency": "Left Hook Strategy (19055)",
+          "product": "POLITICAL CANDIDATE (ns) (1186)"
+        },
+        "predicted": {
+          "advertiser": "Bryce Bennett for Secretary of State-D",
+          "agency": "Left Hook Strategy",
+          "contract_num": "4394046",
+          "flight_from": "09/29/20",
+          "flight_to": "10/02/20",
+          "gross_amount": "$1,279.25",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "tv_address": "340 West Main St, Missoula, MT 59802",
+          "property": "KECI"
+        },
+        "cost": 0.0039639
+      },
+      {
+        "doc_id": "adbuy_0020",
+        "ground_truth": {
+          "property": "WJXT",
+          "tv_address": "4 Broadcast Place\nJacksonville, FL 32207",
+          "flight_to": "02/21/20",
+          "flight_from": "02/15/20",
+          "advertiser": "POL/M Bloomberg/D/Pres/US",
+          "product": "BLOOMBERG PRESIDENT",
+          "gross_amount": "$5,795.00",
+          "contract_num": "543936"
+        },
+        "predicted": {
+          "advertiser": "POLM Bloomberg/D/Pres/US",
+          "agency": "Assembly",
+          "contract_num": "543936-1",
+          "flight_from": "01/27/20",
+          "flight_to": "02/21/20",
+          "gross_amount": "$5,795.00",
+          "product": "BLOOMBERG PRESIDENT",
+          "tv_address": "P.O. Box 933520 Atlanta, GA 31193-3520",
+          "property": "WJXT"
+        },
+        "cost": 0.0116124
+      },
+      {
+        "doc_id": "adbuy_0021",
+        "ground_truth": {
+          "property": "KUCW",
+          "advertiser": "POL/Michael Bloomberg/President/US/D",
+          "tv_address": "PO Box 748604\nLos Angeles, CA 90074-8604",
+          "product": "MIKE BLOOMBERG 2020",
+          "contract_num": "2363218",
+          "flight_to": "03/29/20",
+          "flight_from": "12/30/19",
+          "gross_amount": "$5,900.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Michael Bloomberg/President/US/D",
+          "agency": "N/A",
+          "contract_num": "2363218-1",
+          "flight_from": "01/27/20",
+          "flight_to": "02/23/20",
+          "gross_amount": "$3,530.00",
+          "product": "MIKE BLOOMBERG 2020",
+          "tv_address": "KUCW\nPO Box 748604\nLos Angeles, CA  90074-8604",
+          "property": "KUCW"
+        },
+        "cost": 0.011619
+      },
+      {
+        "doc_id": "adbuy_0022",
+        "ground_truth": {
+          "property": "KMSP",
+          "advertiser": "Michael Bloomberg 2020, Inc",
+          "tv_address": "4614 Collection Center Drive\nChicago, IL 60693",
+          "product": "Mike Bloomberg 2020 Inc",
+          "contract_num": "941456",
+          "flight_to": "01/12/20",
+          "flight_from": "01/09/20",
+          "gross_amount": "$26,650.00"
+        },
+        "predicted": {
+          "advertiser": "Michael Bloomberg 2020, Inc",
+          "agency": "Assembly Media",
+          "contract_num": "941456-1",
+          "flight_from": "01/06/20",
+          "flight_to": "01/12/20",
+          "gross_amount": "$22,652.50",
+          "product": "Mike Bloomberg 2020 Inc",
+          "tv_address": "4614 Collection Center Drive, Chicago, IL 60693",
+          "property": "KMSP"
+        },
+        "cost": 0.01161
+      },
+      {
+        "doc_id": "adbuy_0023",
+        "ground_truth": {
+          "property": "WRAZ",
+          "contract_num": "217463",
+          "tv_address": "2619 Western Blvd\nRaleigh, NC 27606",
+          "advertiser": "Democratic Attorneys General Association",
+          "flight_from": "10/27/20",
+          "flight_to": "11/03/20",
+          "product": "955/1329/7226",
+          "gross_amount": "$10,020.00"
+        },
+        "predicted": {
+          "advertiser": "Democratic Attorneys General Association",
+          "agency": "Canal Partners Media LLC",
+          "contract_num": "217463",
+          "flight_from": "10/27/20",
+          "flight_to": "11/03/20",
+          "gross_amount": "$10,020.00",
+          "product": "955/1329/7226",
+          "tv_address": "2619 Western Blvd, Raleigh, NC 27606",
+          "property": "WRAZ"
+        },
+        "cost": 0.0116094
+      },
+      {
+        "doc_id": "adbuy_0024",
+        "ground_truth": {
+          "property": "ESTM",
+          "contract_num": "1327580",
+          "tv_address": "1030 James St\nSyracuse, NY 13203",
+          "flight_from": "01/18/20",
+          "flight_to": "01/22/20",
+          "advertiser": "American Action Network",
+          "product": "11526",
+          "gross_amount": "$3,210.00"
+        },
+        "predicted": {
+          "advertiser": "American Action Network",
+          "agency": "Red Eagle Media Group",
+          "contract_num": "1327580-1",
+          "flight_from": "01/18/20",
+          "flight_to": "01/26/20",
+          "gross_amount": "$3,210.00",
+          "product": "11526",
+          "tv_address": "PO Box 206270 Dallas, TX 75320-6270",
+          "property": "ESTM"
+        },
+        "cost": 0.0116076
+      },
+      {
+        "doc_id": "adbuy_0025",
+        "ground_truth": {
+          "property": "KTBC\nNW Communications of Austin, Inc.",
+          "advertiser": "Laurie Eiserloh (D) Travis Co Attorney",
+          "tv_address": "P.O.Box 844832\nDallas, TX 75284-4832",
+          "product": "02/2020",
+          "contract_num": "951202",
+          "flight_to": "03/01/20",
+          "flight_from": "02/19/20",
+          "gross_amount": "$5,715.00"
+        },
+        "predicted": {
+          "advertiser": "KTBC",
+          "agency": "CSM Mediaworks",
+          "contract_num": "951202",
+          "flight_from": "02/17/20",
+          "flight_to": "02/23/20",
+          "gross_amount": "$5,715.00",
+          "product": "Laurie Eislerch (D) Travis Co Attorney",
+          "tv_address": "N/A",
+          "property": "KTBC"
+        },
+        "cost": 0.0116034
+      },
+      {
+        "doc_id": "adbuy_0026",
+        "ground_truth": {
+          "property": "KRNV",
+          "contract_num": "1395161",
+          "tv_address": "1790 Vassar St\nReno, NV 89502",
+          "flight_to": "05/12/20",
+          "flight_from": "05/06/20",
+          "advertiser": "Re-Elect Kristina Pickering for Supreme Court",
+          "product": "PICKERING ST SUP CRT",
+          "gross_amount": "$1,300.00"
+        },
+        "predicted": {
+          "advertiser": "Re-Elect Kristina Pickering for Supreme Court",
+          "agency": "Strategic Media Services",
+          "contract_num": "1395161-1",
+          "flight_from": "05/04/20",
+          "flight_to": "05/10/20",
+          "gross_amount": "$1,300.00",
+          "product": "PICKERING ST SUP CRT",
+          "tv_address": "1790 Vassar St\nHeno, NV 89502",
+          "property": "KRNV"
+        },
+        "cost": 0.00778845
+      },
+      {
+        "doc_id": "adbuy_0027",
+        "ground_truth": {
+          "contract_num": "575007",
+          "flight_to": "/05/20",
+          "flight_from": "04/29/",
+          "property": "WAOW-WYOW Television Inc",
+          "advertiser": "Tiffany for Wisconsin Inc (33722)",
+          "gross_amount": "$12,425.00",
+          "tv_address": "1908 Grand Ave\nWausau, WI 54403-6870",
+          "agency": "FlexPoint Media Inc --EDI (5042)",
+          "product": "Political US House (1096)"
+        },
+        "predicted": {
+          "advertiser": "Tiffany for Wisconsin Inc (33722)",
+          "agency": "FlexPoint Media Inc -EDI (5042)",
+          "contract_num": "575007",
+          "flight_from": "04/29/20",
+          "flight_to": "05/05/20",
+          "gross_amount": "$12,425.00",
+          "product": "Political - US House (1096)",
+          "tv_address": "1908 Grand Ave Wausau, WI 54403-6870",
+          "property": "WAOW"
+        },
+        "cost": 0.0116154
+      },
+      {
+        "doc_id": "adbuy_0028",
+        "ground_truth": {
+          "property": "WTVD",
+          "advertiser": "BIDEN FOR PRESIDENT",
+          "tv_address": "P.O Box 732384\nDallas, TX 75373-2384",
+          "product": "BIDEN FOR PRESIDENT",
+          "contract_num": "273868",
+          "flight_from": "03/01/20",
+          "flight_to": "03/03/20",
+          "gross_amount": "$10,095.00"
+        },
+        "predicted": {
+          "advertiser": "BIDEN FOR PRESIDENT",
+          "agency": "MEDIA BUYING AND ANALYTICS",
+          "contract_num": "R120030287",
+          "flight_from": "02/24/20",
+          "flight_to": "03/03/20",
+          "gross_amount": "$10,095.00",
+          "product": "BIDEN FOR PRESIDENT",
+          "tv_address": "WTVD\nAttn: WTVD-707\nP.O. Box 732384\nDallas, TX 75373-2384\nMain: (919) 683-1111\nBilling: (919) 687-2245",
+          "property": "WTVD"
+        },
+        "cost": 0.0116334
+      },
+      {
+        "doc_id": "adbuy_0029",
+        "ground_truth": {
+          "property": "WMAQ",
+          "advertiser": "FRIENDS OF BILL CONWAY",
+          "tv_address": "PO Box 402971\nAtlanta, GA 30384-2971",
+          "product": "FRIENDS OF BILL CONWAY: TV 3/12-3",
+          "contract_num": "1047291",
+          "flight_to": "03/17/20",
+          "flight_from": "03/12/20",
+          "gross_amount": "$42,230.00"
+        },
+        "predicted": {
+          "advertiser": "FRIENDS OF BILL CONWAY",
+          "agency": "N/A",
+          "contract_num": "CG20030086",
+          "flight_from": "03/12/20",
+          "flight_to": "03/17/20",
+          "gross_amount": "$35,020.00",
+          "product": "FRIENDS OF BILL CONWAY: TV 3/12-3",
+          "tv_address": "AL MEDIA LLC\nAttention: Accounts Payable\n222 W ONTARIO ST\nSUITE 200\nCHICAGO, IL 60610\nUSA",
+          "property": "WMAQ"
+        },
+        "cost": 0.0116274
+      },
+      {
+        "doc_id": "adbuy_0030",
+        "ground_truth": {
+          "property": "WSBK-TV",
+          "contract_num": "272456",
+          "tv_address": "1170 Soldiers Field Rd.\nBoston, MA 02134",
+          "advertiser": "Mike Bloomberg 2020",
+          "flight_to": "01/24/20",
+          "flight_from": "01/18/20",
+          "product": "D/PRESIDENT",
+          "gross_amount": "$12,500.00"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020",
+          "agency": "Assembly Media",
+          "contract_num": "272456",
+          "flight_from": "01/18/20",
+          "flight_to": "01/24/20",
+          "gross_amount": "$12,500.00",
+          "product": "D/PRESIDENT",
+          "tv_address": "1170 Soldiers Field Rd.\nBoston, MA 02134\n(617) 787-7000",
+          "property": "WSBK-TV"
+        },
+        "cost": 0.0116124
+      },
+      {
+        "doc_id": "adbuy_0031",
+        "ground_truth": {
+          "advertiser": "Bill Hightower AL US Congress-R (134631)",
+          "property": "REMIT TO Sinclair Broadcast\nc/o WPMI",
+          "agency": "Brabender-Cox Direct (18741)",
+          "tv_address": "PO Box 206270\nDallas, TX 75320-6270",
+          "contract_num": "4269341",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "gross_amount": "$1,510.00"
+        },
+        "predicted": {
+          "advertiser": "Bill Hightower AL US Congress-R (134631)",
+          "agency": "Brabender-Cox Direct (18741)",
+          "contract_num": "4269341",
+          "flight_from": "03/09/20",
+          "flight_to": "03/15/20",
+          "gross_amount": "$1,510.00",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "tv_address": "108 South Street, Leesburg, VA 20175",
+          "property": "WPMI"
+        },
+        "cost": 0.0039687
+      },
+      {
+        "doc_id": "adbuy_0032",
+        "ground_truth": {
+          "property": "WJZ-TV",
+          "advertiser": "Friends of Bill Henry",
+          "tv_address": "P.O.Box 32060\nNew York, NY 10087-2060",
+          "product": "WEEK 5.26",
+          "contract_num": "302362",
+          "flight_from": "05/26/20",
+          "flight_to": "06/01/20",
+          "gross_amount": "$3,750.00"
+        },
+        "predicted": {
+          "advertiser": "Friends of Bill Henry",
+          "agency": "N/A",
+          "contract_num": "2500020518",
+          "flight_from": "05/26/20",
+          "flight_to": "06/01/20",
+          "gross_amount": "$3,750.00",
+          "product": "WEEK 5.26",
+          "tv_address": "WJZ-TV, P.O. Box 32060, New York, NY 10087-2060",
+          "property": "WJZ"
+        },
+        "cost": 0.0039645
+      },
+      {
+        "doc_id": "adbuy_0033",
+        "ground_truth": {
+          "property": "Denver KDVR",
+          "tv_address": "P.O.Box 59743\nLos Angeles, CA 90074 - 9743",
+          "advertiser": "POL/Alaska Wilderness League Action P",
+          "product": "ALASKA WILD LEAG ACT",
+          "contract_num": "2357822",
+          "gross_amount": "$6,050.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Alaska Wilderness League Action P",
+          "agency": "Left Hook Strategy",
+          "contract_num": "2357822",
+          "flight_from": "01/27/20",
+          "flight_to": "02/09/20",
+          "gross_amount": "$6,050.00",
+          "product": "ALASKA WILD LEAG ACT",
+          "tv_address": "2601 Ocean Park Blvd, Suite 324, Santa Monica, CA 90405",
+          "property": "KDVR"
+        },
+        "cost": 0.00778905
+      },
+      {
+        "doc_id": "adbuy_0034",
+        "ground_truth": {
+          "property": "WYCW",
+          "contract_num": "2372946",
+          "tv_address": "2960 North Meridian Street\nJill Hammons\nIndianapolis, IN 46208",
+          "advertiser": "POL/Vote Vets PAC",
+          "flight_to": "02/23/20",
+          "flight_from": "02/07/20",
+          "product": "Issue",
+          "gross_amount": "$4,820.00"
+        },
+        "predicted": {
+          "advertiser": "POLVote Vets PAC",
+          "agency": "Waterfront Strategies",
+          "contract_num": "2372946",
+          "flight_from": "02/07/20",
+          "flight_to": "02/23/20",
+          "gross_amount": "$4,820.00",
+          "product": "N/A",
+          "tv_address": "2960 North Meridian Street, Indianapolis, IN 46208",
+          "property": "WYCW"
+        },
+        "cost": 0.00778185
+      },
+      {
+        "doc_id": "adbuy_0035",
+        "ground_truth": {
+          "property": "WXIA-TV",
+          "contract_num": "1980428",
+          "tv_address": "One Monroe Place\nAtlanta, GA 30324",
+          "advertiser": "ISS/ House Majority PAC",
+          "product": "TV",
+          "gross_amount": "$180,770.00",
+          "flight_to": "11/02/20",
+          "flight_from": "10/27/20"
+        },
+        "predicted": {
+          "advertiser": "ISS/ House Majority PAC",
+          "agency": "Waterfront Strategies / POL",
+          "contract_num": "1980428",
+          "flight_from": "10/27/20",
+          "flight_to": "11/02/20",
+          "gross_amount": "$180,770.00",
+          "product": "TV",
+          "tv_address": "One Monroe Place Atlanta, GA 30324",
+          "property": "WXIA"
+        },
+        "cost": 0.0116046
+      },
+      {
+        "doc_id": "adbuy_0036",
+        "ground_truth": {
+          "property": "WHBF",
+          "advertiser": "POL/Fight Back Fund PAC",
+          "tv_address": "PO Box 74008722\nChicago, IL 60674-8722",
+          "product": "fight back fund",
+          "gross_amount": "$1,780.00",
+          "contract_num": "2490850"
+        },
+        "predicted": {
+          "advertiser": "WHBF",
+          "agency": "Adelstein & Associates | AL Media",
+          "contract_num": "2490850-1",
+          "flight_from": "04/27/20",
+          "flight_to": "05/03/20",
+          "gross_amount": "$1,780.00",
+          "product": "fight back fund",
+          "tv_address": "PO Box 74008722, Chicago, IL 60674-8722",
+          "property": "WHBF"
+        },
+        "cost": 0.00778605
+      },
+      {
+        "doc_id": "adbuy_0037",
+        "ground_truth": {
+          "property": "KPTH",
+          "contract_num": "1334338",
+          "tv_address": "100 Gold Circle Drive\nDakota Dunes, SD 57049",
+          "flight_from": "01/24/20",
+          "flight_to": "01/30/20",
+          "advertiser": "Andrew Yang for President-D",
+          "product": "86/358/1087/ANDREW YANG PRES",
+          "gross_amount": "$1,620.00"
+        },
+        "predicted": {
+          "advertiser": "Andrew Yang for President-D",
+          "agency": "Allscope Media",
+          "contract_num": "1334338-2",
+          "flight_from": "01/27/20",
+          "flight_to": "02/12/20",
+          "gross_amount": "$1,620.00",
+          "product": "86/358/1087/ANDREW YANG PRES",
+          "tv_address": "KPTH\n100 Gold Circle Drive\nDakota Dunes, SD 57049",
+          "property": "KPTH"
+        },
+        "cost": 0.0116166
+      },
+      {
+        "doc_id": "adbuy_0038",
+        "ground_truth": {
+          "property": "WKBD-TV",
+          "contract_num": "277102",
+          "tv_address": "26905 West 11 Mile Road\nSouthfield, MI 48037",
+          "advertiser": "Peters For Senate",
+          "flight_from": "02/15/20",
+          "flight_to": "02/21/20",
+          "product": "D/SENATE",
+          "gross_amount": "$1,345.00"
+        },
+        "predicted": {
+          "advertiser": "Peters For Senate",
+          "agency": "Screen Strategies Media",
+          "contract_num": "277102",
+          "flight_from": "02/15/20",
+          "flight_to": "02/21/20",
+          "gross_amount": "$1,345.00",
+          "product": "D/SENATE",
+          "tv_address": "26905 West 11 Mile Road Southfield, MI 48037",
+          "property": "WKBD"
+        },
+        "cost": 0.011607
+      },
+      {
+        "doc_id": "adbuy_0039",
+        "ground_truth": {
+          "contract_num": "26802458",
+          "flight_to": "3/29/20",
+          "flight_from": "12/30/19",
+          "gross_amount": "$12,680.00",
+          "agency": "ASSEMBLY",
+          "advertiser": "Mike Bloomberg 2020,\nInc",
+          "product": "MIKE BLOOMBERG\n2020 INC",
+          "tv_address": "125 West 55th St\nNew York, NY 10019",
+          "property": "GHP"
+        },
+        "predicted": {
+          "advertiser": "Political Vote",
+          "agency": "ASSEMBLY",
+          "contract_num": "26802458",
+          "flight_from": "12/30/19",
+          "flight_to": "03/29/20",
+          "gross_amount": "$12,680.00",
+          "product": "Mike Bloomberg 2020, Inc",
+          "tv_address": "711 Third Avenue, 3rd Floor, NEW YORK, NY 10017",
+          "property": "GHP"
+        },
+        "cost": 0.0116094
+      },
+      {
+        "doc_id": "adbuy_0040",
+        "ground_truth": {
+          "property": "WFTC",
+          "advertiser": "Michael Bloomberg 2020, Inc",
+          "tv_address": "4614 Collection Center Drive\nChicago, IL 60693",
+          "product": "Mike Bloomberg 2020 Inc",
+          "contract_num": "938991",
+          "flight_from": "01/06/20",
+          "flight_to": "01/08/20",
+          "gross_amount": "$2,950.00"
+        },
+        "predicted": {
+          "advertiser": "Michael Bloomberg 2020, Inc",
+          "agency": "Assembly Media",
+          "contract_num": "938991-1",
+          "flight_from": "01/06/20",
+          "flight_to": "01/08/20",
+          "gross_amount": "$2,950.00",
+          "product": "Mike Bloomberg 2020 Inc",
+          "tv_address": "WFTC\n4614 Collection Center Drive\nChicago, IL 60693",
+          "property": "WFTC"
+        },
+        "cost": 0.0039609
+      },
+      {
+        "doc_id": "adbuy_0041",
+        "ground_truth": {
+          "contract_num": "26902073",
+          "flight_to": "9/29/20",
+          "flight_from": "9/23/20",
+          "agency": "FlexPoint Media Inc.",
+          "advertiser": "Congressional\nLeadership Fund",
+          "gross_amount": "$23,550.00",
+          "product": "UT-04",
+          "tv_address": "125 West 55th St\nNew York, NY 10019"
+        },
+        "predicted": {
+          "advertiser": "Congressional Leadership Fund",
+          "agency": "Flex/Point Media Inc.",
+          "contract_num": "26902073",
+          "flight_from": "09/23/20",
+          "flight_to": "09/29/20",
+          "gross_amount": "$23,550.00",
+          "product": "UT-04",
+          "tv_address": "125 West 55th St, New York, NY 10019",
+          "property": "KTXV"
+        },
+        "cost": 0.0116088
+      },
+      {
+        "doc_id": "adbuy_0042",
+        "ground_truth": {
+          "property": "WAOE-TV",
+          "tv_address": "QUINCY IL 62306-1001\nPO BOX 1001",
+          "advertiser": "Biden for President (33138)",
+          "agency": "Media Buying & Analytics (5286)",
+          "contract_num": "569080",
+          "gross_amount": "$355.00"
+        },
+        "predicted": {
+          "advertiser": "Biden for President(33138)",
+          "agency": "Media Buying & Analytics(5286)",
+          "contract_num": "569808",
+          "flight_from": "02/24/2020",
+          "flight_to": "03/29/2020",
+          "gross_amount": "$355.00",
+          "product": "N/A",
+          "tv_address": "2020 HOWELL MILL RD NW STE D-348 ATLANTA, GA 30318-1732",
+          "property": "WAOE"
+        },
+        "cost": 0.0039639
+      },
+      {
+        "doc_id": "adbuy_0043",
+        "ground_truth": {
+          "property": "WSPA",
+          "advertiser": "POL/Committee to Defend the President",
+          "tv_address": "33096 Collection Center Drive\nChicago, IL 60693",
+          "product": "TV",
+          "contract_num": "2397319",
+          "flight_from": "02/24/20",
+          "flight_to": "03/01/20",
+          "gross_amount": "$4,100.00"
+        },
+        "predicted": {
+          "advertiser": "POL/Committee to Defend the President",
+          "agency": "Strategic Media Placement",
+          "contract_num": "2397319-1",
+          "flight_from": "02/24/20",
+          "flight_to": "03/01/20",
+          "gross_amount": "$4,100.00",
+          "product": "Product 1/2",
+          "tv_address": "33096 Collection Center Drive\nChicago, IL 60693",
+          "property": "WSPA"
+        },
+        "cost": 0.0039609
+      },
+      {
+        "doc_id": "adbuy_0044",
+        "ground_truth": {
+          "property": "WJZ-TV",
+          "advertiser": "Friends of Sheila Dixon",
+          "tv_address": "P.O.Box 32060\nNew York, NY 10087-2060",
+          "contract_num": "297465",
+          "product": "4.28-5.4",
+          "flight_to": "05/04/20",
+          "flight_from": "04/28/20",
+          "gross_amount": "$15,125.00"
+        },
+        "predicted": {
+          "advertiser": "Friends of Sheila Dixon",
+          "agency": "Screen Strategies Media",
+          "contract_num": "250020213",
+          "flight_from": "04/27/20",
+          "flight_to": "05/04/20",
+          "gross_amount": "$10,000.00",
+          "product": "4.28-5.4",
+          "tv_address": "WJZ-TV\nP.O. Box 32060\nNew York, NY 10087-2060",
+          "property": "WJZ"
+        },
+        "cost": 0.0116154
+      },
+      {
+        "doc_id": "adbuy_0045",
+        "ground_truth": {
+          "property": "WXXA",
+          "contract_num": "2436316",
+          "tv_address": "2960 North Meridian Street, Suite 250\nKate Foreman\nIndianapolis, IN 46208",
+          "advertiser": "POL/FWD.US PAC",
+          "flight_to": "03/31/20",
+          "flight_from": "03/27/20",
+          "product": "issue",
+          "gross_amount": "$1,670.00"
+        },
+        "predicted": {
+          "advertiser": "POL/FWD.US PAC",
+          "agency": "Targeted Platform Media",
+          "contract_num": "246316",
+          "flight_from": "03/27/20",
+          "flight_to": "03/31/20",
+          "gross_amount": "$1,670.00",
+          "product": "issue",
+          "tv_address": "2960 North Meridian Street, Suite 250, Indianapolis, IN 46208",
+          "property": "WXXA"
+        },
+        "cost": 0.0116082
+      },
+      {
+        "doc_id": "adbuy_0046",
+        "ground_truth": {
+          "contract_num": "381627",
+          "product": "JOE BIDEN PRESIDENT",
+          "property": "KSTC-TV, LLC",
+          "flight_from": "03/03/20",
+          "flight_to": "03/03/20",
+          "agency": "Media Buying and Analytics",
+          "advertiser": "Biden for President",
+          "gross_amount": "$465.00"
+        },
+        "predicted": {
+          "advertiser": "Biden for President",
+          "agency": "Media Buying and Analytics",
+          "contract_num": "381627",
+          "flight_from": "03/03/20",
+          "flight_to": "03/03/20",
+          "gross_amount": "$465.00",
+          "product": "JOE BIDEN PRESIDENT",
+          "tv_address": "2020 Howell Mill Road NW, Atlanta, GA 30318",
+          "property": "KSTC"
+        },
+        "cost": 0.00778185
+      },
+      {
+        "doc_id": "adbuy_0047",
+        "ground_truth": {
+          "contract_num": "561973",
+          "flight_to": "/02/20",
+          "flight_from": "01/28/",
+          "property": "KWWL Television Inc.",
+          "advertiser": "Bernie 2020 Inc (33287)",
+          "gross_amount": "$160.00",
+          "tv_address": "511 E 5th St\nWaterloo, IA 50703",
+          "agency": "BlueWest Media --EDI (4500)",
+          "product": "Political President (1094)"
+        },
+        "predicted": {
+          "advertiser": "Bernie 2020 Inc.",
+          "agency": "BlueWest Media - EDI",
+          "contract_num": "561973",
+          "flight_from": "01/28/20",
+          "flight_to": "02/20/20",
+          "gross_amount": "$160.00",
+          "product": "Political - President",
+          "tv_address": "511 E 5th St, Waterloo, IA 50703",
+          "property": "KWWL"
+        },
+        "cost": 0.0039579
+      },
+      {
+        "doc_id": "adbuy_0048",
+        "ground_truth": {
+          "property": "REMIT TO Sinclair Broadcast\nc/o WBMA",
+          "advertiser": "Mike Bloomberg 2020 Inc-D (133903)",
+          "agency": "Assembly (16037)",
+          "tv_address": "PO Box 206270\nDallas, TX 75320-6270",
+          "contract_num": "4244626",
+          "product": "POLITICAL CANDIDATE (ns) (1186)",
+          "gross_amount": "$3,368.00"
+        },
+        "predicted": {
+          "advertiser": "Mike Bloomberg 2020 Inc (133903)",
+          "agency": "Assembly (16037)",
+          "contract_num": "7243478",
+          "flight_from": "02/17/20",
+          "flight_to": "02/23/20",
+          "gross_amount": "$3,366.00",
+          "product": "POLITICAL CANDIDATE (I) (1186)",
+          "tv_address": "PO Box 206270\nDallas, TX 75320-6270",
+          "property": "WBMA"
+        },
+        "cost": 0.0039663
+      },
+      {
+        "doc_id": "adbuy_0049",
+        "ground_truth": {
+          "property": "Charlotte WMYT",
+          "contract_num": "2485756",
+          "tv_address": "2960 North Meridian Street, Suite 250\nJill Hammons",
+          "advertiser": "POL/A Stronger North Carolina PAC",
+          "flight_from": "10/13/20",
+          "flight_to": "10/19/20",
+          "product": "A STRONGER NC",
+          "gross_amount": "$2,040.00"
+        },
+        "predicted": {
+          "advertiser": "POLA Stronger North Carolina PAC",
+          "agency": "Great American Media",
+          "contract_num": "2485756",
+          "flight_from": "10/13/20",
+          "flight_to": "10/19/20",
+          "gross_amount": "$2,040.00",
+          "product": "A STRONGER NC",
+          "tv_address": "2960 North Meridian Street, Suite 250\nIndianapolis, IN 46208",
+          "property": "WMYT"
+        },
+        "cost": 0.0039615
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+============================================================================
+  ALIGNMENT STRATEGY SENSITIVITY ANALYSIS
+  Data: Paystub adversarial (10 docs × 4 conditions)
+============================================================================
+
+Experiment             Aligner                Recall   CBA-strict  Misbindings
+----------------------------------------------------------------------------
+sonnet_full            FirstMatch             1.0000       1.0000            0
+sonnet_full            OptimalAssign          1.0000       1.0000            0
+
+haiku_full             FirstMatch             0.9929       0.9857            1
+haiku_full             OptimalAssign          0.9929       0.9929            0
+
+haiku_stripped         FirstMatch             0.9929       0.9857            1
+haiku_stripped         OptimalAssign          0.9929       0.9929            0
+
+sonnet_stripped        FirstMatch             1.0000       1.0000            0
+sonnet_stripped        OptimalAssign          1.0000       1.0000            0
+
+============================================================================
+  DELTA (|FirstMatch CBA - OptimalAssign CBA|) per experiment:
+----------------------------------------------------------------------------
+  sonnet_full             |delta| = 0.000000
+  haiku_full              |delta| = 0.007143
+  haiku_stripped          |delta| = 0.007143
+  sonnet_stripped         |delta| = 0.000000
+
+  Interpretation: |delta| < 0.001 means strategies are equivalent
+  for this corpus.  Larger values indicate ordering sensitivity.
+============================================================================

@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0155",
+  "image_file": "ps_0155.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "United Waste Management",
+      "display_value": "United Waste Management",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 284,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 78,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Las Vegas, NV 89101",
+      "display_value": "Las Vegas, NV 89101",
+      "field_position": {
+        "x": 153,
+        "y": 85,
+        "width": 95,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Joseph D. Green",
+      "display_value": "Joseph D. Green",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 98,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "620287",
+      "display_value": "620287",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-3304",
+      "display_value": "***-**-3304",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 81,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "04/03/2024",
+      "display_value": "04/03/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "03/16/2024",
+      "display_value": "03/16/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "03/31/2024",
+      "display_value": "03/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$4,331.23",
+      "display_value": "$4,331.23",
+      "field_position": {
+        "x": 351,
+        "y": 275,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$4,331.23",
+      "display_value": "$4,331.23",
+      "field_position": {
+        "x": 351,
+        "y": 295,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$25,987.38",
+      "display_value": "$25,987.38",
+      "field_position": {
+        "x": 342,
+        "y": 315,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$607.63",
+      "display_value": "$607.63",
+      "field_position": {
+        "x": 744,
+        "y": 275,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$132.90",
+      "display_value": "$132.90",
+      "field_position": {
+        "x": 746,
+        "y": 295,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$268.54",
+      "display_value": "$268.54",
+      "field_position": {
+        "x": 743,
+        "y": 315,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$62.80",
+      "display_value": "$62.80",
+      "field_position": {
+        "x": 751,
+        "y": 335,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$340.10",
+      "display_value": "$340.10",
+      "field_position": {
+        "x": 745,
+        "y": 355,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$292.50",
+      "display_value": "$292.50",
+      "field_position": {
+        "x": 744,
+        "y": 375,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,704.47",
+      "display_value": "$1,704.47",
+      "field_position": {
+        "x": 735,
+        "y": 395,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$10,226.82",
+      "display_value": "$10,226.82",
+      "field_position": {
+        "x": 729,
+        "y": 415,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$2,626.76",
+      "display_value": "$2,626.76",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 95,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$15,760.56",
+      "display_value": "$15,760.56",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 103,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joseph D. Green",
+    "employer_name": "United Waste Management",
+    "employee_id": "620287",
+    "ssn_last4": "***-**-3304",
+    "employee_address": "852 Willow Place",
+    "employee_city_state_zip": "Phoenix, AZ 85001",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Las Vegas, NV 89101",
+    "pay_date": "04/03/2024",
+    "pay_period_start": "03/16/2024",
+    "pay_period_end": "03/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4331.23",
+    "gross_pay_current": "4331.23",
+    "net_pay_current": "2626.76",
+    "gross_pay_ytd": "25987.38",
+    "net_pay_ytd": "15760.56",
+    "total_deductions_current": "1704.47",
+    "federal_tax_withheld": "607.63",
+    "state_tax_withheld": "132.90",
+    "social_security_tax": "268.54",
+    "medicare_tax": "62.80",
+    "total_deductions_ytd": "10226.82",
+    "retirement_401k": "340.10",
+    "health_insurance": "292.50"
+  }
+}

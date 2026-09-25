@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0094",
+  "image_file": "ps_0094.png",
+  "layout_template": "check_style",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Northgate Distribution Co.",
+      "display_value": "Northgate Distribution Co.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 343,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "595351",
+      "display_value": "595351",
+      "field_position": {
+        "x": 699,
+        "y": 45,
+        "width": 101,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 114,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 96,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Michael L. Clark",
+      "display_value": "Michael L. Clark",
+      "field_position": {
+        "x": 138,
+        "y": 131,
+        "width": 125,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-2647",
+      "display_value": "***-**-2647",
+      "field_position": {
+        "x": 90,
+        "y": 149,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 114,
+        "y": 167,
+        "width": 117,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Los Angeles, CA 90001",
+      "display_value": "Los Angeles, CA 90001",
+      "field_position": {
+        "x": 156,
+        "y": 185,
+        "width": 164,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "12/06/2024",
+      "display_value": "12/06/2024",
+      "field_position": {
+        "x": 496,
+        "y": 131,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "11/01/2024",
+      "display_value": "11/01/2024",
+      "field_position": {
+        "x": 502,
+        "y": 147,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "11/30/2024",
+      "display_value": "11/30/2024",
+      "field_position": {
+        "x": 502,
+        "y": 163,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 508,
+        "y": 179,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$6,080.86",
+      "display_value": "$6,080.86",
+      "field_position": {
+        "x": 330,
+        "y": 270,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$774.74",
+      "display_value": "$774.74",
+      "field_position": {
+        "x": 345,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$1,362.62",
+      "display_value": "$1,362.62",
+      "field_position": {
+        "x": 330,
+        "y": 310,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$8,218.22",
+      "display_value": "$8,218.22",
+      "field_position": {
+        "x": 330,
+        "y": 330,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$90,400.42",
+      "display_value": "$90,400.42",
+      "field_position": {
+        "x": 322,
+        "y": 350,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$1,717.22",
+      "display_value": "$1,717.22",
+      "field_position": {
+        "x": 730,
+        "y": 270,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$290.66",
+      "display_value": "$290.66",
+      "field_position": {
+        "x": 745,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$509.53",
+      "display_value": "$509.53",
+      "field_position": {
+        "x": 745,
+        "y": 310,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$119.16",
+      "display_value": "$119.16",
+      "field_position": {
+        "x": 745,
+        "y": 330,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$554.41",
+      "display_value": "$554.41",
+      "field_position": {
+        "x": 745,
+        "y": 350,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$332.90",
+      "display_value": "$332.90",
+      "field_position": {
+        "x": 745,
+        "y": 370,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$3,523.88",
+      "display_value": "$3,523.88",
+      "field_position": {
+        "x": 730,
+        "y": 390,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$38,762.68",
+      "display_value": "$38,762.68",
+      "field_position": {
+        "x": 722,
+        "y": 410,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$4,694.34",
+      "display_value": "$4,694.34",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$51,637.74",
+      "display_value": "$51,637.74",
+      "field_position": {
+        "x": 707,
+        "y": 480,
+        "width": 78,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michael L. Clark",
+    "employer_name": "Northgate Distribution Co.",
+    "employee_id": "595351",
+    "ssn_last4": "***-**-2647",
+    "employee_address": "654 Maple Drive",
+    "employee_city_state_zip": "Los Angeles, CA 90001",
+    "employer_address": "666 Enterprise Blvd",
+    "employer_city_state_zip": "Austin, TX 73301",
+    "pay_date": "12/06/2024",
+    "pay_period_start": "11/01/2024",
+    "pay_period_end": "11/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "6080.86",
+    "gross_pay_current": "8218.22",
+    "net_pay_current": "4694.34",
+    "gross_pay_ytd": "90400.42",
+    "net_pay_ytd": "51637.74",
+    "total_deductions_current": "3523.88",
+    "federal_tax_withheld": "1717.22",
+    "state_tax_withheld": "290.66",
+    "social_security_tax": "509.53",
+    "medicare_tax": "119.16",
+    "total_deductions_ytd": "38762.68",
+    "overtime_pay_current": "774.74",
+    "bonus_current": "1362.62",
+    "retirement_401k": "554.41",
+    "health_insurance": "332.90"
+  }
+}

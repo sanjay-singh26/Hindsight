@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0071",
+  "image_file": "ps_0071.png",
+  "layout_template": "side_by_side",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Lakewood Education Group",
+      "display_value": "Lakewood Education Group",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 317,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 102,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "San Jose, CA 95101",
+      "display_value": "San Jose, CA 95101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 108,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Amanda D. King",
+      "display_value": "Amanda D. King",
+      "field_position": {
+        "x": 50,
+        "y": 139,
+        "width": 109,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "187949",
+      "display_value": "187949",
+      "field_position": {
+        "x": 50,
+        "y": 175,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-3626",
+      "display_value": "***-**-3626",
+      "field_position": {
+        "x": 50,
+        "y": 211,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 231,
+        "width": 108,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 50,
+        "y": 246,
+        "width": 96,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "03/04/2024",
+      "display_value": "03/04/2024",
+      "field_position": {
+        "x": 50,
+        "y": 297,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "02/01/2024",
+      "display_value": "02/01/2024",
+      "field_position": {
+        "x": 50,
+        "y": 333,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "02/29/2024",
+      "display_value": "02/29/2024",
+      "field_position": {
+        "x": 50,
+        "y": 369,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 50,
+        "y": 405,
+        "width": 55,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$8,625.27",
+      "display_value": "$8,625.27",
+      "field_position": {
+        "x": 730,
+        "y": 65,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$8,625.27",
+      "display_value": "$8,625.27",
+      "field_position": {
+        "x": 730,
+        "y": 85,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$17,250.54",
+      "display_value": "$17,250.54",
+      "field_position": {
+        "x": 722,
+        "y": 105,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$1,291.96",
+      "display_value": "$1,291.96",
+      "field_position": {
+        "x": 730,
+        "y": 170,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$463.93",
+      "display_value": "$463.93",
+      "field_position": {
+        "x": 745,
+        "y": 190,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$534.77",
+      "display_value": "$534.77",
+      "field_position": {
+        "x": 745,
+        "y": 210,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$125.07",
+      "display_value": "$125.07",
+      "field_position": {
+        "x": 745,
+        "y": 230,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$491.91",
+      "display_value": "$491.91",
+      "field_position": {
+        "x": 745,
+        "y": 250,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$140.63",
+      "display_value": "$140.63",
+      "field_position": {
+        "x": 745,
+        "y": 270,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$3,048.27",
+      "display_value": "$3,048.27",
+      "field_position": {
+        "x": 730,
+        "y": 290,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$6,096.54",
+      "display_value": "$6,096.54",
+      "field_position": {
+        "x": 730,
+        "y": 310,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$5,577.00",
+      "display_value": "$5,577.00",
+      "field_position": {
+        "x": 430,
+        "y": 391,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$11,154.00",
+      "display_value": "$11,154.00",
+      "field_position": {
+        "x": 430,
+        "y": 436,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Amanda D. King",
+    "employer_name": "Lakewood Education Group",
+    "employee_id": "187949",
+    "ssn_last4": "***-**-3626",
+    "employee_address": "369 Spruce Terrace",
+    "employee_city_state_zip": "Tucson, AZ 85701",
+    "employer_address": "555 Corporate Way",
+    "employer_city_state_zip": "San Jose, CA 95101",
+    "pay_date": "03/04/2024",
+    "pay_period_start": "02/01/2024",
+    "pay_period_end": "02/29/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "8625.27",
+    "gross_pay_current": "8625.27",
+    "net_pay_current": "5577.00",
+    "gross_pay_ytd": "17250.54",
+    "net_pay_ytd": "11154.00",
+    "total_deductions_current": "3048.27",
+    "federal_tax_withheld": "1291.96",
+    "state_tax_withheld": "463.93",
+    "social_security_tax": "534.77",
+    "medicare_tax": "125.07",
+    "total_deductions_ytd": "6096.54",
+    "retirement_401k": "491.91",
+    "health_insurance": "140.63"
+  }
+}

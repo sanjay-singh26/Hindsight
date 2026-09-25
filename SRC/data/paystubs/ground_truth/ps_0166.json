@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0166",
+  "image_file": "ps_0166.png",
+  "layout_template": "left_header",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "01/21/2024",
+      "display_value": "01/21/2024",
+      "field_position": {
+        "x": 695,
+        "y": 40,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "01/01/2024",
+      "display_value": "01/01/2024",
+      "field_position": {
+        "x": 737,
+        "y": 54,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "01/15/2024",
+      "display_value": "01/15/2024",
+      "field_position": {
+        "x": 666,
+        "y": 68,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 718,
+        "y": 82,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 246,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 90,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Philadelphia, PA 19101",
+      "display_value": "Philadelphia, PA 19101",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 103,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Ashley R. Hill",
+      "display_value": "Ashley R. Hill",
+      "field_position": {
+        "x": 611,
+        "y": 133,
+        "width": 84,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "597635",
+      "display_value": "597635",
+      "field_position": {
+        "x": 587,
+        "y": 153,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-6730",
+      "display_value": "***-**-6730",
+      "field_position": {
+        "x": 536,
+        "y": 173,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 612,
+        "y": 193,
+        "width": 91,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 592,
+        "y": 213,
+        "width": 103,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,436.19",
+      "display_value": "$1,436.19",
+      "field_position": {
+        "x": 747,
+        "y": 283,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$1,436.19",
+      "display_value": "$1,436.19",
+      "field_position": {
+        "x": 747,
+        "y": 303,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$1,436.19",
+      "display_value": "$1,436.19",
+      "field_position": {
+        "x": 747,
+        "y": 323,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$180.56",
+      "display_value": "$180.56",
+      "field_position": {
+        "x": 756,
+        "y": 388,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$62.16",
+      "display_value": "$62.16",
+      "field_position": {
+        "x": 763,
+        "y": 408,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$89.04",
+      "display_value": "$89.04",
+      "field_position": {
+        "x": 760,
+        "y": 428,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$20.82",
+      "display_value": "$20.82",
+      "field_position": {
+        "x": 761,
+        "y": 448,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$63.87",
+      "display_value": "$63.87",
+      "field_position": {
+        "x": 761,
+        "y": 468,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$218.59",
+      "display_value": "$218.59",
+      "field_position": {
+        "x": 756,
+        "y": 488,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$635.04",
+      "display_value": "$635.04",
+      "field_position": {
+        "x": 753,
+        "y": 508,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$635.04",
+      "display_value": "$635.04",
+      "field_position": {
+        "x": 753,
+        "y": 528,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$801.15",
+      "display_value": "$801.15",
+      "field_position": {
+        "x": 50,
+        "y": 589,
+        "width": 72,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$801.15",
+      "display_value": "$801.15",
+      "field_position": {
+        "x": 50,
+        "y": 625,
+        "width": 72,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Ashley R. Hill",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "597635",
+    "ssn_last4": "***-**-6730",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Philadelphia, PA 19101",
+    "pay_date": "01/21/2024",
+    "pay_period_start": "01/01/2024",
+    "pay_period_end": "01/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1436.19",
+    "gross_pay_current": "1436.19",
+    "net_pay_current": "801.15",
+    "gross_pay_ytd": "1436.19",
+    "net_pay_ytd": "801.15",
+    "total_deductions_current": "635.04",
+    "federal_tax_withheld": "180.56",
+    "state_tax_withheld": "62.16",
+    "social_security_tax": "89.04",
+    "medicare_tax": "20.82",
+    "total_deductions_ytd": "635.04",
+    "retirement_401k": "63.87",
+    "health_insurance": "218.59"
+  }
+}

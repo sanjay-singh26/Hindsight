@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0037",
+  "image_file": "ps_0037.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "faded",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Diamond Foods Corporation",
+      "display_value": "Diamond Foods Corporation",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 140,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "San Jose, CA 95101",
+      "display_value": "San Jose, CA 95101",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 140,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Kenneth G. Nguyen",
+      "display_value": "Kenneth G. Nguyen",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 224,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "220351",
+      "display_value": "220351",
+      "field_position": {
+        "x": 102,
+        "y": 170,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-9922",
+      "display_value": "***-**-9922",
+      "field_position": {
+        "x": 132,
+        "y": 190,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 109,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "San Jose, CA 95101",
+      "display_value": "San Jose, CA 95101",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 140,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "02/01/2024",
+      "display_value": "02/01/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "01/22/2024",
+      "display_value": "01/22/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "01/28/2024",
+      "display_value": "01/28/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$1,948.78",
+      "display_value": "$1,948.78",
+      "field_position": {
+        "x": 730,
+        "y": 336,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$676.97",
+      "display_value": "$676.97",
+      "field_position": {
+        "x": 745,
+        "y": 356,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$2,625.75",
+      "display_value": "$2,625.75",
+      "field_position": {
+        "x": 730,
+        "y": 376,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$10,503.00",
+      "display_value": "$10,503.00",
+      "field_position": {
+        "x": 722,
+        "y": 396,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$400.95",
+      "display_value": "$400.95",
+      "field_position": {
+        "x": 745,
+        "y": 453,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$152.61",
+      "display_value": "$152.61",
+      "field_position": {
+        "x": 745,
+        "y": 473,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$162.80",
+      "display_value": "$162.80",
+      "field_position": {
+        "x": 745,
+        "y": 493,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$38.07",
+      "display_value": "$38.07",
+      "field_position": {
+        "x": 753,
+        "y": 513,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$152.75",
+      "display_value": "$152.75",
+      "field_position": {
+        "x": 745,
+        "y": 533,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$225.80",
+      "display_value": "$225.80",
+      "field_position": {
+        "x": 745,
+        "y": 553,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,132.98",
+      "display_value": "$1,132.98",
+      "field_position": {
+        "x": 730,
+        "y": 573,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$4,531.92",
+      "display_value": "$4,531.92",
+      "field_position": {
+        "x": 730,
+        "y": 593,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,492.77",
+      "display_value": "$1,492.77",
+      "field_position": {
+        "x": 50,
+        "y": 666,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$5,971.08",
+      "display_value": "$5,971.08",
+      "field_position": {
+        "x": 50,
+        "y": 702,
+        "width": 119,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kenneth G. Nguyen",
+    "employer_name": "Diamond Foods Corporation",
+    "employee_id": "220351",
+    "ssn_last4": "***-**-9922",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "San Jose, CA 95101",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "San Jose, CA 95101",
+    "pay_date": "02/01/2024",
+    "pay_period_start": "01/22/2024",
+    "pay_period_end": "01/28/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1948.78",
+    "gross_pay_current": "2625.75",
+    "net_pay_current": "1492.77",
+    "gross_pay_ytd": "10503.00",
+    "net_pay_ytd": "5971.08",
+    "total_deductions_current": "1132.98",
+    "federal_tax_withheld": "400.95",
+    "state_tax_withheld": "152.61",
+    "social_security_tax": "162.80",
+    "medicare_tax": "38.07",
+    "total_deductions_ytd": "4531.92",
+    "overtime_pay_current": "676.97",
+    "retirement_401k": "152.75",
+    "health_insurance": "225.80"
+  }
+}

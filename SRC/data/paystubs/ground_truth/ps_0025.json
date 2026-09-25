@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0025",
+  "image_file": "ps_0025.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "clean",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Silverline Transport LLC",
+      "display_value": "Silverline Transport LLC",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 317,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 96,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Charlotte, NC 28201",
+      "display_value": "Charlotte, NC 28201",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 114,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Karen N. Carter",
+      "display_value": "Karen N. Carter",
+      "field_position": {
+        "x": 147,
+        "y": 113,
+        "width": 117,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "976325",
+      "display_value": "976325",
+      "field_position": {
+        "x": 99,
+        "y": 133,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-7865",
+      "display_value": "***-**-7865",
+      "field_position": {
+        "x": 177,
+        "y": 153,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 177,
+        "y": 173,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 83,
+        "y": 193,
+        "width": 133,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "05/05/2024",
+      "display_value": "05/05/2024",
+      "field_position": {
+        "x": 134,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "04/01/2024",
+      "display_value": "04/01/2024",
+      "field_position": {
+        "x": 286,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "04/30/2024",
+      "display_value": "04/30/2024",
+      "field_position": {
+        "x": 504,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 716,
+        "y": 218,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$906.56",
+      "display_value": "$906.56",
+      "field_position": {
+        "x": 745,
+        "y": 278,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$243.57",
+      "display_value": "$243.57",
+      "field_position": {
+        "x": 745,
+        "y": 298,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$378.45",
+      "display_value": "$378.45",
+      "field_position": {
+        "x": 745,
+        "y": 318,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$88.51",
+      "display_value": "$88.51",
+      "field_position": {
+        "x": 753,
+        "y": 338,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$237.66",
+      "display_value": "$237.66",
+      "field_position": {
+        "x": 745,
+        "y": 358,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$87.28",
+      "display_value": "$87.28",
+      "field_position": {
+        "x": 753,
+        "y": 378,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,942.03",
+      "display_value": "$1,942.03",
+      "field_position": {
+        "x": 730,
+        "y": 398,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$7,768.12",
+      "display_value": "$7,768.12",
+      "field_position": {
+        "x": 730,
+        "y": 418,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$5,768.77",
+      "display_value": "$5,768.77",
+      "field_position": {
+        "x": 730,
+        "y": 483,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$335.29",
+      "display_value": "$335.29",
+      "field_position": {
+        "x": 745,
+        "y": 503,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$6,104.06",
+      "display_value": "$6,104.06",
+      "field_position": {
+        "x": 730,
+        "y": 523,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$24,416.24",
+      "display_value": "$24,416.24",
+      "field_position": {
+        "x": 722,
+        "y": 543,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$4,162.03",
+      "display_value": "$4,162.03",
+      "field_position": {
+        "x": 50,
+        "y": 604,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$16,648.12",
+      "display_value": "$16,648.12",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Karen N. Carter",
+    "employer_name": "Silverline Transport LLC",
+    "employee_id": "976325",
+    "ssn_last4": "***-**-7865",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "888 Harbor Drive",
+    "employer_city_state_zip": "Charlotte, NC 28201",
+    "pay_date": "05/05/2024",
+    "pay_period_start": "04/01/2024",
+    "pay_period_end": "04/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "5768.77",
+    "gross_pay_current": "6104.06",
+    "net_pay_current": "4162.03",
+    "gross_pay_ytd": "24416.24",
+    "net_pay_ytd": "16648.12",
+    "total_deductions_current": "1942.03",
+    "federal_tax_withheld": "906.56",
+    "state_tax_withheld": "243.57",
+    "social_security_tax": "378.45",
+    "medicare_tax": "88.51",
+    "total_deductions_ytd": "7768.12",
+    "overtime_pay_current": "335.29",
+    "retirement_401k": "237.66",
+    "health_insurance": "87.28"
+  }
+}

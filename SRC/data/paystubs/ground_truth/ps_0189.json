@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0189",
+  "image_file": "ps_0189.png",
+  "layout_template": "retail",
+  "noise_profile": "heavy_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Greenfield Agriculture Inc.",
+      "display_value": "Greenfield Agriculture Inc.",
+      "field_position": {
+        "x": 288,
+        "y": 40,
+        "width": 273,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 389,
+        "y": 75,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Denver, CO 80201",
+      "display_value": "Denver, CO 80201",
+      "field_position": {
+        "x": 385,
+        "y": 89,
+        "width": 79,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Michael N. Johnson",
+      "display_value": "Michael N. Johnson",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 124,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "155642",
+      "display_value": "155642",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-1927",
+      "display_value": "***-**-1927",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 93,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 105,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "03/18/2024",
+      "display_value": "03/18/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "03/01/2024",
+      "display_value": "03/01/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "03/15/2024",
+      "display_value": "03/15/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 89,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$3,839.73",
+      "display_value": "$3,839.73",
+      "field_position": {
+        "x": 735,
+        "y": 471,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$627.52",
+      "display_value": "$627.52",
+      "field_position": {
+        "x": 744,
+        "y": 493,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$1,665.25",
+      "display_value": "$1,665.25",
+      "field_position": {
+        "x": 736,
+        "y": 515,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$6,132.50",
+      "display_value": "$6,132.50",
+      "field_position": {
+        "x": 736,
+        "y": 537,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$30,662.50",
+      "display_value": "$30,662.50",
+      "field_position": {
+        "x": 727,
+        "y": 559,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$688.67",
+      "display_value": "$688.67",
+      "field_position": {
+        "x": 744,
+        "y": 613,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$503.37",
+      "display_value": "$503.37",
+      "field_position": {
+        "x": 744,
+        "y": 635,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$380.21",
+      "display_value": "$380.21",
+      "field_position": {
+        "x": 746,
+        "y": 657,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$88.92",
+      "display_value": "$88.92",
+      "field_position": {
+        "x": 751,
+        "y": 679,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,661.17",
+      "display_value": "$1,661.17",
+      "field_position": {
+        "x": 739,
+        "y": 701,
+        "width": 51,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$8,305.85",
+      "display_value": "$8,305.85",
+      "field_position": {
+        "x": 735,
+        "y": 723,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$4,471.33",
+      "display_value": "$4,471.33",
+      "field_position": {
+        "x": 698,
+        "y": 760,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$22,356.65",
+      "display_value": "$22,356.65",
+      "field_position": {
+        "x": 684,
+        "y": 790,
+        "width": 106,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michael N. Johnson",
+    "employer_name": "Greenfield Agriculture Inc.",
+    "employee_id": "155642",
+    "ssn_last4": "***-**-1927",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "Seattle, WA 98101",
+    "employer_address": "987 Cedar Lane",
+    "employer_city_state_zip": "Denver, CO 80201",
+    "pay_date": "03/18/2024",
+    "pay_period_start": "03/01/2024",
+    "pay_period_end": "03/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3839.73",
+    "gross_pay_current": "6132.50",
+    "net_pay_current": "4471.33",
+    "gross_pay_ytd": "30662.50",
+    "net_pay_ytd": "22356.65",
+    "total_deductions_current": "1661.17",
+    "federal_tax_withheld": "688.67",
+    "state_tax_withheld": "503.37",
+    "social_security_tax": "380.21",
+    "medicare_tax": "88.92",
+    "total_deductions_ytd": "8305.85",
+    "overtime_pay_current": "627.52",
+    "bonus_current": "1665.25"
+  }
+}

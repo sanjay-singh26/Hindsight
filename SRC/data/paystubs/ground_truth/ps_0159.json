@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0159",
+  "image_file": "ps_0159.png",
+  "layout_template": "retail",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Frontier Telecommunications",
+      "display_value": "Frontier Telecommunications",
+      "field_position": {
+        "x": 275,
+        "y": 40,
+        "width": 300,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 371,
+        "y": 75,
+        "width": 107,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 374,
+        "y": 89,
+        "width": 101,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Linda N. Martin",
+      "display_value": "Linda N. Martin",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 93,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "612855",
+      "display_value": "612855",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-5341",
+      "display_value": "***-**-5341",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 109,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "07/20/2024",
+      "display_value": "07/20/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "07/15/2024",
+      "display_value": "07/15/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 84,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$1,949.69",
+      "display_value": "$1,949.69",
+      "field_position": {
+        "x": 731,
+        "y": 471,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$407.82",
+      "display_value": "$407.82",
+      "field_position": {
+        "x": 742,
+        "y": 493,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,706.74",
+      "display_value": "$1,706.74",
+      "field_position": {
+        "x": 731,
+        "y": 515,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,064.25",
+      "display_value": "$4,064.25",
+      "field_position": {
+        "x": 731,
+        "y": 537,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$52,835.25",
+      "display_value": "$52,835.25",
+      "field_position": {
+        "x": 724,
+        "y": 559,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$681.61",
+      "display_value": "$681.61",
+      "field_position": {
+        "x": 742,
+        "y": 613,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$158.78",
+      "display_value": "$158.78",
+      "field_position": {
+        "x": 742,
+        "y": 635,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$251.98",
+      "display_value": "$251.98",
+      "field_position": {
+        "x": 742,
+        "y": 657,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$58.93",
+      "display_value": "$58.93",
+      "field_position": {
+        "x": 749,
+        "y": 679,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$149.44",
+      "display_value": "$149.44",
+      "field_position": {
+        "x": 741,
+        "y": 701,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$298.21",
+      "display_value": "$298.21",
+      "field_position": {
+        "x": 742,
+        "y": 723,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,598.95",
+      "display_value": "$1,598.95",
+      "field_position": {
+        "x": 731,
+        "y": 745,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$20,786.35",
+      "display_value": "$20,786.35",
+      "field_position": {
+        "x": 724,
+        "y": 767,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$2,465.30",
+      "display_value": "$2,465.30",
+      "field_position": {
+        "x": 690,
+        "y": 804,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$32,048.90",
+      "display_value": "$32,048.90",
+      "field_position": {
+        "x": 678,
+        "y": 834,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Linda N. Martin",
+    "employer_name": "Frontier Telecommunications",
+    "employee_id": "612855",
+    "ssn_last4": "***-**-5341",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Jacksonville, FL 32099",
+    "pay_date": "07/20/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1949.69",
+    "gross_pay_current": "4064.25",
+    "net_pay_current": "2465.30",
+    "gross_pay_ytd": "52835.25",
+    "net_pay_ytd": "32048.90",
+    "total_deductions_current": "1598.95",
+    "federal_tax_withheld": "681.61",
+    "state_tax_withheld": "158.78",
+    "social_security_tax": "251.98",
+    "medicare_tax": "58.93",
+    "total_deductions_ytd": "20786.35",
+    "overtime_pay_current": "407.82",
+    "bonus_current": "1706.74",
+    "retirement_401k": "149.44",
+    "health_insurance": "298.21"
+  }
+}

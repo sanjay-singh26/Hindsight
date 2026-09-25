@@ -1,0 +1,1706 @@
+{
+  "experiment": "hindsight_cba_phase2_ablation",
+  "models": {
+    "sonnet": "claude-sonnet-4-20250514",
+    "haiku": "claude-haiku-4-5-20251001"
+  },
+  "num_adversarial_documents": 10,
+  "experiments": {
+    "sonnet_full": {
+      "label": "Sonnet + Full Prompt",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0,
+      "num_misbindings": 0,
+      "misbindings": [],
+      "per_document": [
+        {
+          "id": "adv_00",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_01",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_02",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_03",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_04",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_05",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_06",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_07",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_08",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_09",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        }
+      ],
+      "raw_predictions": [
+        {
+          "id": "adv_00",
+          "predicted": {
+            "employee_name": "Priya N. Mehta",
+            "employer_name": "VERTEX FINANCIAL SERVICES",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3500.00",
+            "net_pay_current": "2707.25",
+            "gross_pay_ytd": "7000.00",
+            "net_pay_ytd": "5414.50",
+            "federal_tax_withheld": "525.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "217.00",
+            "medicare_tax": "50.75"
+          },
+          "ground_truth": {
+            "employee_name": "Priya N. Mehta",
+            "employer_name": "Vertex Financial Services",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3500.00",
+            "net_pay_current": "2707.25",
+            "gross_pay_ytd": "7000.00",
+            "net_pay_ytd": "5414.50",
+            "federal_tax_withheld": "525.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "217.00",
+            "medicare_tax": "50.75"
+          }
+        },
+        {
+          "id": "adv_01",
+          "predicted": {
+            "employee_name": "Rafael J. Moreno",
+            "employer_name": "Trident Health Systems",
+            "pay_date": "02/15/2025",
+            "pay_period_start": "02/01/2025",
+            "pay_period_end": "02/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2228.40",
+            "gross_pay_ytd": "6000.00",
+            "net_pay_ytd": "4456.80",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "92.10",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Rafael J. Moreno",
+            "employer_name": "Trident Health Systems",
+            "pay_date": "02/15/2025",
+            "pay_period_start": "02/01/2025",
+            "pay_period_end": "02/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2228.40",
+            "gross_pay_ytd": "6000.00",
+            "net_pay_ytd": "4456.80",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "92.10",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_02",
+          "predicted": {
+            "employee_name": "Jasmine K. Whitfield",
+            "employer_name": "Cascade Data Systems",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "2500.00",
+            "net_pay_current": "1708.75",
+            "gross_pay_ytd": "10000.00",
+            "net_pay_ytd": "6835.00",
+            "federal_tax_withheld": "375.00",
+            "state_tax_withheld": "225.00",
+            "social_security_tax": "155.00",
+            "medicare_tax": "36.25"
+          },
+          "ground_truth": {
+            "employee_name": "Jasmine K. Whitfield",
+            "employer_name": "Cascade Data Systems",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "2500.00",
+            "net_pay_current": "1708.75",
+            "gross_pay_ytd": "10000.00",
+            "net_pay_ytd": "6835.00",
+            "federal_tax_withheld": "375.00",
+            "state_tax_withheld": "225.00",
+            "social_security_tax": "155.00",
+            "medicare_tax": "36.25"
+          }
+        },
+        {
+          "id": "adv_03",
+          "predicted": {
+            "employee_name": "Marcus D. Chen",
+            "employer_name": "Lakewood Pediatrics",
+            "pay_date": "01/15/2025",
+            "pay_period_start": "01/01/2025",
+            "pay_period_end": "01/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3200.00",
+            "net_pay_current": "2187.20",
+            "gross_pay_ytd": "3200.00",
+            "net_pay_ytd": "2187.20",
+            "federal_tax_withheld": "480.00",
+            "state_tax_withheld": "288.00",
+            "social_security_tax": "198.40",
+            "medicare_tax": "46.40"
+          },
+          "ground_truth": {
+            "employee_name": "Marcus D. Chen",
+            "employer_name": "Lakewood Pediatrics",
+            "pay_date": "01/15/2025",
+            "pay_period_start": "01/01/2025",
+            "pay_period_end": "01/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3200.00",
+            "net_pay_current": "2187.20",
+            "gross_pay_ytd": "3200.00",
+            "net_pay_ytd": "2187.20",
+            "federal_tax_withheld": "480.00",
+            "state_tax_withheld": "288.00",
+            "social_security_tax": "198.40",
+            "medicare_tax": "46.40"
+          }
+        },
+        {
+          "id": "adv_04",
+          "predicted": {
+            "employee_name": "Devon R. Okafor",
+            "employer_name": "Sterling Media Group",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2248.50",
+            "gross_pay_ytd": "9000.00",
+            "net_pay_ytd": "6745.50",
+            "federal_tax_withheld": "252.00",
+            "state_tax_withheld": "270.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Devon R. Okafor",
+            "employer_name": "Sterling Media Group",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2248.50",
+            "gross_pay_ytd": "9000.00",
+            "net_pay_ytd": "6745.50",
+            "federal_tax_withheld": "252.00",
+            "state_tax_withheld": "270.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_05",
+          "predicted": {
+            "employee_name": "Lena M. Kowalski",
+            "employer_name": "Pacific Ridge Logistics",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "2800.00",
+            "net_pay_current": "2165.80",
+            "gross_pay_ytd": "5600.00",
+            "net_pay_ytd": "4331.60",
+            "federal_tax_withheld": "420.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "173.60",
+            "medicare_tax": "40.60"
+          },
+          "ground_truth": {
+            "employee_name": "Lena M. Kowalski",
+            "employer_name": "Pacific Ridge Logistics",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "2800.00",
+            "net_pay_current": "2165.80",
+            "gross_pay_ytd": "5600.00",
+            "net_pay_ytd": "4331.60",
+            "federal_tax_withheld": "420.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "173.60",
+            "medicare_tax": "40.60"
+          }
+        },
+        {
+          "id": "adv_06",
+          "predicted": {
+            "employee_name": "Tomoko H. Reeves",
+            "employer_name": "Arbor Creek Consulting",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2170.50",
+            "gross_pay_ytd": "12000.00",
+            "net_pay_ytd": "8682.00",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "150.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Tomoko H. Reeves",
+            "employer_name": "Arbor Creek Consulting",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2170.50",
+            "gross_pay_ytd": "12000.00",
+            "net_pay_ytd": "8682.00",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "150.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_07",
+          "predicted": {
+            "employee_name": "Ashley M. Caldwell",
+            "employer_name": "Caldwell Engineering Solutions",
+            "pay_date": "02/21/2025",
+            "pay_period_start": "02/10/2025",
+            "pay_period_end": "02/21/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3600.00",
+            "net_pay_current": "2640.60",
+            "gross_pay_ytd": "10800.00",
+            "net_pay_ytd": "7921.80",
+            "federal_tax_withheld": "540.00",
+            "state_tax_withheld": "144.00",
+            "social_security_tax": "223.20",
+            "medicare_tax": "52.20"
+          },
+          "ground_truth": {
+            "employee_name": "Ashley M. Caldwell",
+            "employer_name": "Caldwell Engineering Solutions",
+            "pay_date": "02/21/2025",
+            "pay_period_start": "02/10/2025",
+            "pay_period_end": "02/21/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3600.00",
+            "net_pay_current": "2640.60",
+            "gross_pay_ytd": "10800.00",
+            "net_pay_ytd": "7921.80",
+            "federal_tax_withheld": "540.00",
+            "state_tax_withheld": "144.00",
+            "social_security_tax": "223.20",
+            "medicare_tax": "52.20"
+          }
+        },
+        {
+          "id": "adv_08",
+          "predicted": {
+            "employee_name": "Eliana V. Santos",
+            "employer_name": "Suncoast Staffing",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1000.00",
+            "net_pay_current": "923.50",
+            "gross_pay_ytd": "3000.00",
+            "net_pay_ytd": "2770.50",
+            "federal_tax_withheld": "0.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "62.00",
+            "medicare_tax": "14.50"
+          },
+          "ground_truth": {
+            "employee_name": "Eliana V. Santos",
+            "employer_name": "Suncoast Staffing",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1000.00",
+            "net_pay_current": "923.50",
+            "gross_pay_ytd": "3000.00",
+            "net_pay_ytd": "2770.50",
+            "federal_tax_withheld": "0.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "62.00",
+            "medicare_tax": "14.50"
+          }
+        },
+        {
+          "id": "adv_09",
+          "predicted": {
+            "employee_name": "Samira B. Okonkwo",
+            "employer_name": "Zenith Aerospace",
+            "pay_date": "03/28/2025",
+            "pay_period_start": "03/17/2025",
+            "pay_period_end": "03/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1600.00",
+            "net_pay_current": "1237.60",
+            "gross_pay_ytd": "4800.00",
+            "net_pay_ytd": "3712.80",
+            "federal_tax_withheld": "240.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "99.20",
+            "medicare_tax": "23.20"
+          },
+          "ground_truth": {
+            "employee_name": "Samira B. Okonkwo",
+            "employer_name": "Zenith Aerospace",
+            "pay_date": "03/28/2025",
+            "pay_period_start": "03/17/2025",
+            "pay_period_end": "03/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1600.00",
+            "net_pay_current": "1237.60",
+            "gross_pay_ytd": "4800.00",
+            "net_pay_ytd": "3712.80",
+            "federal_tax_withheld": "240.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "99.20",
+            "medicare_tax": "23.20"
+          }
+        }
+      ]
+    },
+    "haiku_full": {
+      "label": "Haiku + Full Prompt",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0,
+      "num_misbindings": 0,
+      "misbindings": [],
+      "per_document": [
+        {
+          "id": "adv_00",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_01",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_02",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_03",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_04",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_05",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_06",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_07",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_08",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_09",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        }
+      ],
+      "raw_predictions": [
+        {
+          "id": "adv_00",
+          "predicted": {
+            "employee_name": "Priya N. Mehta",
+            "employer_name": "VERTEX FINANCIAL SERVICES",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3500.00",
+            "net_pay_current": "2707.25",
+            "gross_pay_ytd": "7000.00",
+            "net_pay_ytd": "5414.50",
+            "federal_tax_withheld": "525.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "217.00",
+            "medicare_tax": "50.75"
+          },
+          "ground_truth": {
+            "employee_name": "Priya N. Mehta",
+            "employer_name": "Vertex Financial Services",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3500.00",
+            "net_pay_current": "2707.25",
+            "gross_pay_ytd": "7000.00",
+            "net_pay_ytd": "5414.50",
+            "federal_tax_withheld": "525.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "217.00",
+            "medicare_tax": "50.75"
+          }
+        },
+        {
+          "id": "adv_01",
+          "predicted": {
+            "employee_name": "Rafael J. Moreno",
+            "employer_name": "Trident Health Systems",
+            "pay_date": "02/15/2025",
+            "pay_period_start": "02/01/2025",
+            "pay_period_end": "02/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2228.40",
+            "gross_pay_ytd": "6000.00",
+            "net_pay_ytd": "4456.80",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "92.10",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Rafael J. Moreno",
+            "employer_name": "Trident Health Systems",
+            "pay_date": "02/15/2025",
+            "pay_period_start": "02/01/2025",
+            "pay_period_end": "02/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2228.40",
+            "gross_pay_ytd": "6000.00",
+            "net_pay_ytd": "4456.80",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "92.10",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_02",
+          "predicted": {
+            "employee_name": "Jasmine K. Whitfield",
+            "employer_name": "Cascade Data Systems",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "2500.00",
+            "net_pay_current": "1708.75",
+            "gross_pay_ytd": "10000.00",
+            "net_pay_ytd": "6835.00",
+            "federal_tax_withheld": "375.00",
+            "state_tax_withheld": "225.00",
+            "social_security_tax": "155.00",
+            "medicare_tax": "36.25"
+          },
+          "ground_truth": {
+            "employee_name": "Jasmine K. Whitfield",
+            "employer_name": "Cascade Data Systems",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "2500.00",
+            "net_pay_current": "1708.75",
+            "gross_pay_ytd": "10000.00",
+            "net_pay_ytd": "6835.00",
+            "federal_tax_withheld": "375.00",
+            "state_tax_withheld": "225.00",
+            "social_security_tax": "155.00",
+            "medicare_tax": "36.25"
+          }
+        },
+        {
+          "id": "adv_03",
+          "predicted": {
+            "employee_name": "Marcus D. Chen",
+            "employer_name": "Lakewood Pediatrics",
+            "pay_date": "01/15/2025",
+            "pay_period_start": "01/01/2025",
+            "pay_period_end": "01/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3200.00",
+            "net_pay_current": "2187.20",
+            "gross_pay_ytd": "3200.00",
+            "net_pay_ytd": "2187.20",
+            "federal_tax_withheld": "480.00",
+            "state_tax_withheld": "288.00",
+            "social_security_tax": "198.40",
+            "medicare_tax": "46.40"
+          },
+          "ground_truth": {
+            "employee_name": "Marcus D. Chen",
+            "employer_name": "Lakewood Pediatrics",
+            "pay_date": "01/15/2025",
+            "pay_period_start": "01/01/2025",
+            "pay_period_end": "01/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3200.00",
+            "net_pay_current": "2187.20",
+            "gross_pay_ytd": "3200.00",
+            "net_pay_ytd": "2187.20",
+            "federal_tax_withheld": "480.00",
+            "state_tax_withheld": "288.00",
+            "social_security_tax": "198.40",
+            "medicare_tax": "46.40"
+          }
+        },
+        {
+          "id": "adv_04",
+          "predicted": {
+            "employee_name": "Devon R. Okafor",
+            "employer_name": "Sterling Media Group",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2248.50",
+            "gross_pay_ytd": "9000.00",
+            "net_pay_ytd": "6745.50",
+            "federal_tax_withheld": "252.00",
+            "state_tax_withheld": "270.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Devon R. Okafor",
+            "employer_name": "Sterling Media Group",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2248.50",
+            "gross_pay_ytd": "9000.00",
+            "net_pay_ytd": "6745.50",
+            "federal_tax_withheld": "252.00",
+            "state_tax_withheld": "270.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_05",
+          "predicted": {
+            "employee_name": "Lena M. Kowalski",
+            "employer_name": "Pacific Ridge Logistics",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "2800.00",
+            "net_pay_current": "2165.80",
+            "gross_pay_ytd": "5600.00",
+            "net_pay_ytd": "4331.60",
+            "federal_tax_withheld": "420.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "173.60",
+            "medicare_tax": "40.60"
+          },
+          "ground_truth": {
+            "employee_name": "Lena M. Kowalski",
+            "employer_name": "Pacific Ridge Logistics",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "2800.00",
+            "net_pay_current": "2165.80",
+            "gross_pay_ytd": "5600.00",
+            "net_pay_ytd": "4331.60",
+            "federal_tax_withheld": "420.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "173.60",
+            "medicare_tax": "40.60"
+          }
+        },
+        {
+          "id": "adv_06",
+          "predicted": {
+            "employee_name": "Tomoko H. Reeves",
+            "employer_name": "Arbor Creek Consulting",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2170.50",
+            "gross_pay_ytd": "12000.00",
+            "net_pay_ytd": "8682.00",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "150.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Tomoko H. Reeves",
+            "employer_name": "Arbor Creek Consulting",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2170.50",
+            "gross_pay_ytd": "12000.00",
+            "net_pay_ytd": "8682.00",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "150.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_07",
+          "predicted": {
+            "employee_name": "Ashley M. Caldwell",
+            "employer_name": "Caldwell Engineering Solutions",
+            "pay_date": "02/21/2025",
+            "pay_period_start": "02/10/2025",
+            "pay_period_end": "02/21/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3600.00",
+            "net_pay_current": "2640.60",
+            "gross_pay_ytd": "10800.00",
+            "net_pay_ytd": "7921.80",
+            "federal_tax_withheld": "540.00",
+            "state_tax_withheld": "144.00",
+            "social_security_tax": "223.20",
+            "medicare_tax": "52.20"
+          },
+          "ground_truth": {
+            "employee_name": "Ashley M. Caldwell",
+            "employer_name": "Caldwell Engineering Solutions",
+            "pay_date": "02/21/2025",
+            "pay_period_start": "02/10/2025",
+            "pay_period_end": "02/21/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3600.00",
+            "net_pay_current": "2640.60",
+            "gross_pay_ytd": "10800.00",
+            "net_pay_ytd": "7921.80",
+            "federal_tax_withheld": "540.00",
+            "state_tax_withheld": "144.00",
+            "social_security_tax": "223.20",
+            "medicare_tax": "52.20"
+          }
+        },
+        {
+          "id": "adv_08",
+          "predicted": {
+            "employee_name": "Eliana V. Santos",
+            "employer_name": "Suncoast Staffing",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1000.00",
+            "net_pay_current": "923.50",
+            "gross_pay_ytd": "3000.00",
+            "net_pay_ytd": "2770.50",
+            "federal_tax_withheld": "0.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "62.00",
+            "medicare_tax": "14.50"
+          },
+          "ground_truth": {
+            "employee_name": "Eliana V. Santos",
+            "employer_name": "Suncoast Staffing",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1000.00",
+            "net_pay_current": "923.50",
+            "gross_pay_ytd": "3000.00",
+            "net_pay_ytd": "2770.50",
+            "federal_tax_withheld": "0.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "62.00",
+            "medicare_tax": "14.50"
+          }
+        },
+        {
+          "id": "adv_09",
+          "predicted": {
+            "employee_name": "Samira B. Okonkwo",
+            "employer_name": "Zenith Aerospace",
+            "pay_date": "03/28/2025",
+            "pay_period_start": "03/17/2025",
+            "pay_period_end": "03/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1600.00",
+            "net_pay_current": "1237.60",
+            "gross_pay_ytd": "4800.00",
+            "net_pay_ytd": "3712.80",
+            "federal_tax_withheld": "240.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "99.20",
+            "medicare_tax": "23.20"
+          },
+          "ground_truth": {
+            "employee_name": "Samira B. Okonkwo",
+            "employer_name": "Zenith Aerospace",
+            "pay_date": "03/28/2025",
+            "pay_period_start": "03/17/2025",
+            "pay_period_end": "03/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1600.00",
+            "net_pay_current": "1237.60",
+            "gross_pay_ytd": "4800.00",
+            "net_pay_ytd": "3712.80",
+            "federal_tax_withheld": "240.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "99.20",
+            "medicare_tax": "23.20"
+          }
+        }
+      ]
+    },
+    "haiku_stripped": {
+      "label": "Haiku + Stripped Prompt",
+      "field_f1": 1.0,
+      "cba_strict": 1.0,
+      "delta": 0.0,
+      "num_misbindings": 0,
+      "misbindings": [],
+      "per_document": [
+        {
+          "id": "adv_00",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_01",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_02",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_03",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_04",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_05",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_06",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_07",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_08",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_09",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        }
+      ],
+      "raw_predictions": [
+        {
+          "id": "adv_00",
+          "predicted": {
+            "employee_name": "Priya N. Mehta",
+            "employer_name": "VERTEX FINANCIAL SERVICES",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3500.00",
+            "net_pay_current": "2707.25",
+            "gross_pay_ytd": "7000.00",
+            "net_pay_ytd": "5414.50",
+            "federal_tax_withheld": "525.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "217.00",
+            "medicare_tax": "50.75"
+          },
+          "ground_truth": {
+            "employee_name": "Priya N. Mehta",
+            "employer_name": "Vertex Financial Services",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3500.00",
+            "net_pay_current": "2707.25",
+            "gross_pay_ytd": "7000.00",
+            "net_pay_ytd": "5414.50",
+            "federal_tax_withheld": "525.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "217.00",
+            "medicare_tax": "50.75"
+          }
+        },
+        {
+          "id": "adv_01",
+          "predicted": {
+            "employee_name": "Rafael J. Moreno",
+            "employer_name": "Trident Health Systems",
+            "pay_date": "02/15/2025",
+            "pay_period_start": "02/01/2025",
+            "pay_period_end": "02/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2228.40",
+            "gross_pay_ytd": "6000.00",
+            "net_pay_ytd": "4456.80",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "92.10",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Rafael J. Moreno",
+            "employer_name": "Trident Health Systems",
+            "pay_date": "02/15/2025",
+            "pay_period_start": "02/01/2025",
+            "pay_period_end": "02/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2228.40",
+            "gross_pay_ytd": "6000.00",
+            "net_pay_ytd": "4456.80",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "92.10",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_02",
+          "predicted": {
+            "employee_name": "Jasmine K. Whitfield",
+            "employer_name": "Cascade Data Systems",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "2500.00",
+            "net_pay_current": "1708.75",
+            "gross_pay_ytd": "10000.00",
+            "net_pay_ytd": "6835.00",
+            "federal_tax_withheld": "375.00",
+            "state_tax_withheld": "225.00",
+            "social_security_tax": "155.00",
+            "medicare_tax": "36.25"
+          },
+          "ground_truth": {
+            "employee_name": "Jasmine K. Whitfield",
+            "employer_name": "Cascade Data Systems",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "2500.00",
+            "net_pay_current": "1708.75",
+            "gross_pay_ytd": "10000.00",
+            "net_pay_ytd": "6835.00",
+            "federal_tax_withheld": "375.00",
+            "state_tax_withheld": "225.00",
+            "social_security_tax": "155.00",
+            "medicare_tax": "36.25"
+          }
+        },
+        {
+          "id": "adv_03",
+          "predicted": {
+            "employee_name": "Marcus D. Chen",
+            "employer_name": "Lakewood Pediatrics",
+            "pay_date": "01/15/2025",
+            "pay_period_start": "01/01/2025",
+            "pay_period_end": "01/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3200.00",
+            "net_pay_current": "2187.20",
+            "gross_pay_ytd": "3200.00",
+            "net_pay_ytd": "2187.20",
+            "federal_tax_withheld": "480.00",
+            "state_tax_withheld": "288.00",
+            "social_security_tax": "198.40",
+            "medicare_tax": "46.40"
+          },
+          "ground_truth": {
+            "employee_name": "Marcus D. Chen",
+            "employer_name": "Lakewood Pediatrics",
+            "pay_date": "01/15/2025",
+            "pay_period_start": "01/01/2025",
+            "pay_period_end": "01/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3200.00",
+            "net_pay_current": "2187.20",
+            "gross_pay_ytd": "3200.00",
+            "net_pay_ytd": "2187.20",
+            "federal_tax_withheld": "480.00",
+            "state_tax_withheld": "288.00",
+            "social_security_tax": "198.40",
+            "medicare_tax": "46.40"
+          }
+        },
+        {
+          "id": "adv_04",
+          "predicted": {
+            "employee_name": "Devon R. Okafor",
+            "employer_name": "Sterling Media Group",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2248.50",
+            "gross_pay_ytd": "9000.00",
+            "net_pay_ytd": "6745.50",
+            "federal_tax_withheld": "252.00",
+            "state_tax_withheld": "270.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Devon R. Okafor",
+            "employer_name": "Sterling Media Group",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2248.50",
+            "gross_pay_ytd": "9000.00",
+            "net_pay_ytd": "6745.50",
+            "federal_tax_withheld": "252.00",
+            "state_tax_withheld": "270.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_05",
+          "predicted": {
+            "employee_name": "Lena M. Kowalski",
+            "employer_name": "Pacific Ridge Logistics",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "2800.00",
+            "net_pay_current": "2165.80",
+            "gross_pay_ytd": "5600.00",
+            "net_pay_ytd": "4331.60",
+            "federal_tax_withheld": "420.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "173.60",
+            "medicare_tax": "40.60"
+          },
+          "ground_truth": {
+            "employee_name": "Lena M. Kowalski",
+            "employer_name": "Pacific Ridge Logistics",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "2800.00",
+            "net_pay_current": "2165.80",
+            "gross_pay_ytd": "5600.00",
+            "net_pay_ytd": "4331.60",
+            "federal_tax_withheld": "420.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "173.60",
+            "medicare_tax": "40.60"
+          }
+        },
+        {
+          "id": "adv_06",
+          "predicted": {
+            "employee_name": "Tomoko H. Reeves",
+            "employer_name": "Arbor Creek Consulting",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2170.50",
+            "gross_pay_ytd": "12000.00",
+            "net_pay_ytd": "8682.00",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "150.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Tomoko H. Reeves",
+            "employer_name": "Arbor Creek Consulting",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2170.50",
+            "gross_pay_ytd": "12000.00",
+            "net_pay_ytd": "8682.00",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "150.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_07",
+          "predicted": {
+            "employee_name": "Ashley M. Caldwell",
+            "employer_name": "Caldwell Engineering Solutions",
+            "pay_date": "02/21/2025",
+            "pay_period_start": "02/10/2025",
+            "pay_period_end": "02/21/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3600.00",
+            "net_pay_current": "2640.60",
+            "gross_pay_ytd": "10800.00",
+            "net_pay_ytd": "7921.80",
+            "federal_tax_withheld": "540.00",
+            "state_tax_withheld": "144.00",
+            "social_security_tax": "223.20",
+            "medicare_tax": "52.20"
+          },
+          "ground_truth": {
+            "employee_name": "Ashley M. Caldwell",
+            "employer_name": "Caldwell Engineering Solutions",
+            "pay_date": "02/21/2025",
+            "pay_period_start": "02/10/2025",
+            "pay_period_end": "02/21/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3600.00",
+            "net_pay_current": "2640.60",
+            "gross_pay_ytd": "10800.00",
+            "net_pay_ytd": "7921.80",
+            "federal_tax_withheld": "540.00",
+            "state_tax_withheld": "144.00",
+            "social_security_tax": "223.20",
+            "medicare_tax": "52.20"
+          }
+        },
+        {
+          "id": "adv_08",
+          "predicted": {
+            "employee_name": "Eliana V. Santos",
+            "employer_name": "Suncoast Staffing",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1000.00",
+            "net_pay_current": "923.50",
+            "gross_pay_ytd": "3000.00",
+            "net_pay_ytd": "2770.50",
+            "federal_tax_withheld": "0.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "62.00",
+            "medicare_tax": "14.50"
+          },
+          "ground_truth": {
+            "employee_name": "Eliana V. Santos",
+            "employer_name": "Suncoast Staffing",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1000.00",
+            "net_pay_current": "923.50",
+            "gross_pay_ytd": "3000.00",
+            "net_pay_ytd": "2770.50",
+            "federal_tax_withheld": "0.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "62.00",
+            "medicare_tax": "14.50"
+          }
+        },
+        {
+          "id": "adv_09",
+          "predicted": {
+            "employee_name": "Samira B. Okonkwo",
+            "employer_name": "Zenith Aerospace",
+            "pay_date": "03/28/2025",
+            "pay_period_start": "03/17/2025",
+            "pay_period_end": "03/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1600.00",
+            "net_pay_current": "1237.60",
+            "gross_pay_ytd": "4800.00",
+            "net_pay_ytd": "3712.80",
+            "federal_tax_withheld": "240.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "99.20",
+            "medicare_tax": "23.20"
+          },
+          "ground_truth": {
+            "employee_name": "Samira B. Okonkwo",
+            "employer_name": "Zenith Aerospace",
+            "pay_date": "03/28/2025",
+            "pay_period_start": "03/17/2025",
+            "pay_period_end": "03/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1600.00",
+            "net_pay_current": "1237.60",
+            "gross_pay_ytd": "4800.00",
+            "net_pay_ytd": "3712.80",
+            "federal_tax_withheld": "240.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "99.20",
+            "medicare_tax": "23.20"
+          }
+        }
+      ]
+    },
+    "sonnet_stripped": {
+      "label": "Sonnet + Stripped Prompt",
+      "field_f1": 1.0,
+      "cba_strict": 0.9929,
+      "delta": 0.0071,
+      "num_misbindings": 1,
+      "misbindings": [
+        {
+          "doc_id": "adv_09",
+          "expected_concept": "pay_date",
+          "value": "03/28/2025",
+          "predicted_at_key": "03/27/2025",
+          "swapped_to": "pay_period_end"
+        }
+      ],
+      "per_document": [
+        {
+          "id": "adv_00",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_01",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_02",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_03",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_04",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_05",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_06",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_07",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_08",
+          "field_f1": 1.0,
+          "cba_strict": 1.0,
+          "delta": 0.0
+        },
+        {
+          "id": "adv_09",
+          "field_f1": 1.0,
+          "cba_strict": 0.9286,
+          "delta": 0.0714
+        }
+      ],
+      "raw_predictions": [
+        {
+          "id": "adv_00",
+          "predicted": {
+            "employee_name": "Priya N. Mehta",
+            "employer_name": "VERTEX FINANCIAL SERVICES",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3500.00",
+            "net_pay_current": "2707.25",
+            "gross_pay_ytd": "7000.00",
+            "net_pay_ytd": "5414.50",
+            "federal_tax_withheld": "525.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "217.00",
+            "medicare_tax": "50.75"
+          },
+          "ground_truth": {
+            "employee_name": "Priya N. Mehta",
+            "employer_name": "Vertex Financial Services",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3500.00",
+            "net_pay_current": "2707.25",
+            "gross_pay_ytd": "7000.00",
+            "net_pay_ytd": "5414.50",
+            "federal_tax_withheld": "525.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "217.00",
+            "medicare_tax": "50.75"
+          }
+        },
+        {
+          "id": "adv_01",
+          "predicted": {
+            "employee_name": "Rafael J. Moreno",
+            "employer_name": "Trident Health Systems",
+            "pay_date": "02/15/2025",
+            "pay_period_start": "02/01/2025",
+            "pay_period_end": "02/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2228.40",
+            "gross_pay_ytd": "6000.00",
+            "net_pay_ytd": "4456.80",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "92.10",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Rafael J. Moreno",
+            "employer_name": "Trident Health Systems",
+            "pay_date": "02/15/2025",
+            "pay_period_start": "02/01/2025",
+            "pay_period_end": "02/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2228.40",
+            "gross_pay_ytd": "6000.00",
+            "net_pay_ytd": "4456.80",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "92.10",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_02",
+          "predicted": {
+            "employee_name": "Jasmine K. Whitfield",
+            "employer_name": "Cascade Data Systems",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "2500.00",
+            "net_pay_current": "1708.75",
+            "gross_pay_ytd": "10000.00",
+            "net_pay_ytd": "6835.00",
+            "federal_tax_withheld": "375.00",
+            "state_tax_withheld": "225.00",
+            "social_security_tax": "155.00",
+            "medicare_tax": "36.25"
+          },
+          "ground_truth": {
+            "employee_name": "Jasmine K. Whitfield",
+            "employer_name": "Cascade Data Systems",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "2500.00",
+            "net_pay_current": "1708.75",
+            "gross_pay_ytd": "10000.00",
+            "net_pay_ytd": "6835.00",
+            "federal_tax_withheld": "375.00",
+            "state_tax_withheld": "225.00",
+            "social_security_tax": "155.00",
+            "medicare_tax": "36.25"
+          }
+        },
+        {
+          "id": "adv_03",
+          "predicted": {
+            "employee_name": "Marcus D. Chen",
+            "employer_name": "Lakewood Pediatrics",
+            "pay_date": "01/15/2025",
+            "pay_period_start": "01/01/2025",
+            "pay_period_end": "01/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3200.00",
+            "net_pay_current": "2187.20",
+            "gross_pay_ytd": "3200.00",
+            "net_pay_ytd": "2187.20",
+            "federal_tax_withheld": "480.00",
+            "state_tax_withheld": "288.00",
+            "social_security_tax": "198.40",
+            "medicare_tax": "46.40"
+          },
+          "ground_truth": {
+            "employee_name": "Marcus D. Chen",
+            "employer_name": "Lakewood Pediatrics",
+            "pay_date": "01/15/2025",
+            "pay_period_start": "01/01/2025",
+            "pay_period_end": "01/15/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "3200.00",
+            "net_pay_current": "2187.20",
+            "gross_pay_ytd": "3200.00",
+            "net_pay_ytd": "2187.20",
+            "federal_tax_withheld": "480.00",
+            "state_tax_withheld": "288.00",
+            "social_security_tax": "198.40",
+            "medicare_tax": "46.40"
+          }
+        },
+        {
+          "id": "adv_04",
+          "predicted": {
+            "employee_name": "Devon R. Okafor",
+            "employer_name": "Sterling Media Group",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2248.50",
+            "gross_pay_ytd": "9000.00",
+            "net_pay_ytd": "6745.50",
+            "federal_tax_withheld": "252.00",
+            "state_tax_withheld": "270.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Devon R. Okafor",
+            "employer_name": "Sterling Media Group",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2248.50",
+            "gross_pay_ytd": "9000.00",
+            "net_pay_ytd": "6745.50",
+            "federal_tax_withheld": "252.00",
+            "state_tax_withheld": "270.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_05",
+          "predicted": {
+            "employee_name": "Lena M. Kowalski",
+            "employer_name": "Pacific Ridge Logistics",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "2800.00",
+            "net_pay_current": "2165.80",
+            "gross_pay_ytd": "5600.00",
+            "net_pay_ytd": "4331.60",
+            "federal_tax_withheld": "420.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "173.60",
+            "medicare_tax": "40.60"
+          },
+          "ground_truth": {
+            "employee_name": "Lena M. Kowalski",
+            "employer_name": "Pacific Ridge Logistics",
+            "pay_date": "01/31/2025",
+            "pay_period_start": "01/16/2025",
+            "pay_period_end": "01/31/2025",
+            "pay_frequency": "semi-monthly",
+            "gross_pay_current": "2800.00",
+            "net_pay_current": "2165.80",
+            "gross_pay_ytd": "5600.00",
+            "net_pay_ytd": "4331.60",
+            "federal_tax_withheld": "420.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "173.60",
+            "medicare_tax": "40.60"
+          }
+        },
+        {
+          "id": "adv_06",
+          "predicted": {
+            "employee_name": "Tomoko H. Reeves",
+            "employer_name": "Arbor Creek Consulting",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2170.50",
+            "gross_pay_ytd": "12000.00",
+            "net_pay_ytd": "8682.00",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "150.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          },
+          "ground_truth": {
+            "employee_name": "Tomoko H. Reeves",
+            "employer_name": "Arbor Creek Consulting",
+            "pay_date": "02/28/2025",
+            "pay_period_start": "02/17/2025",
+            "pay_period_end": "02/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3000.00",
+            "net_pay_current": "2170.50",
+            "gross_pay_ytd": "12000.00",
+            "net_pay_ytd": "8682.00",
+            "federal_tax_withheld": "450.00",
+            "state_tax_withheld": "150.00",
+            "social_security_tax": "186.00",
+            "medicare_tax": "43.50"
+          }
+        },
+        {
+          "id": "adv_07",
+          "predicted": {
+            "employee_name": "Ashley M. Caldwell",
+            "employer_name": "Caldwell Engineering Solutions",
+            "pay_date": "02/21/2025",
+            "pay_period_start": "02/10/2025",
+            "pay_period_end": "02/21/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3600.00",
+            "net_pay_current": "2640.60",
+            "gross_pay_ytd": "10800.00",
+            "net_pay_ytd": "7921.80",
+            "federal_tax_withheld": "540.00",
+            "state_tax_withheld": "144.00",
+            "social_security_tax": "223.20",
+            "medicare_tax": "52.20"
+          },
+          "ground_truth": {
+            "employee_name": "Ashley M. Caldwell",
+            "employer_name": "Caldwell Engineering Solutions",
+            "pay_date": "02/21/2025",
+            "pay_period_start": "02/10/2025",
+            "pay_period_end": "02/21/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "3600.00",
+            "net_pay_current": "2640.60",
+            "gross_pay_ytd": "10800.00",
+            "net_pay_ytd": "7921.80",
+            "federal_tax_withheld": "540.00",
+            "state_tax_withheld": "144.00",
+            "social_security_tax": "223.20",
+            "medicare_tax": "52.20"
+          }
+        },
+        {
+          "id": "adv_08",
+          "predicted": {
+            "employee_name": "Eliana V. Santos",
+            "employer_name": "Suncoast Staffing",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1000.00",
+            "net_pay_current": "923.50",
+            "gross_pay_ytd": "3000.00",
+            "net_pay_ytd": "2770.50",
+            "federal_tax_withheld": "0.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "62.00",
+            "medicare_tax": "14.50"
+          },
+          "ground_truth": {
+            "employee_name": "Eliana V. Santos",
+            "employer_name": "Suncoast Staffing",
+            "pay_date": "03/14/2025",
+            "pay_period_start": "03/03/2025",
+            "pay_period_end": "03/14/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1000.00",
+            "net_pay_current": "923.50",
+            "gross_pay_ytd": "3000.00",
+            "net_pay_ytd": "2770.50",
+            "federal_tax_withheld": "0.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "62.00",
+            "medicare_tax": "14.50"
+          }
+        },
+        {
+          "id": "adv_09",
+          "predicted": {
+            "employee_name": "Samira B. Okonkwo",
+            "employer_name": "Zenith Aerospace",
+            "pay_date": "03/27/2025",
+            "pay_period_start": "03/17/2025",
+            "pay_period_end": "03/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1600.00",
+            "net_pay_current": "1237.60",
+            "gross_pay_ytd": "4800.00",
+            "net_pay_ytd": "3712.80",
+            "federal_tax_withheld": "240.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "99.20",
+            "medicare_tax": "23.20"
+          },
+          "ground_truth": {
+            "employee_name": "Samira B. Okonkwo",
+            "employer_name": "Zenith Aerospace",
+            "pay_date": "03/28/2025",
+            "pay_period_start": "03/17/2025",
+            "pay_period_end": "03/28/2025",
+            "pay_frequency": "biweekly",
+            "gross_pay_current": "1600.00",
+            "net_pay_current": "1237.60",
+            "gross_pay_ytd": "4800.00",
+            "net_pay_ytd": "3712.80",
+            "federal_tax_withheld": "240.00",
+            "state_tax_withheld": "0.00",
+            "social_security_tax": "99.20",
+            "medicare_tax": "23.20"
+          }
+        }
+      ]
+    }
+  }
+}

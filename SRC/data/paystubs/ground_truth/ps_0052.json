@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0052",
+  "image_file": "ps_0052.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Trident Security Services",
+      "display_value": "Trident Security Services",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 133,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 133,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Emily E. Mitchell",
+      "display_value": "Emily E. Mitchell",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 224,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "535037",
+      "display_value": "535037",
+      "field_position": {
+        "x": 96,
+        "y": 170,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-2622",
+      "display_value": "***-**-2622",
+      "field_position": {
+        "x": 150,
+        "y": 190,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 148,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Arlington, TX 76001",
+      "display_value": "Arlington, TX 76001",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "11/15/2024",
+      "display_value": "11/15/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "11/04/2024",
+      "display_value": "11/04/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "11/10/2024",
+      "display_value": "11/10/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$952.97",
+      "display_value": "$952.97",
+      "field_position": {
+        "x": 745,
+        "y": 336,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$265.28",
+      "display_value": "$265.28",
+      "field_position": {
+        "x": 745,
+        "y": 356,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Incentive Pay",
+      "extracted_value": "$1,965.67",
+      "display_value": "$1,965.67",
+      "field_position": {
+        "x": 730,
+        "y": 376,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$3,183.92",
+      "display_value": "$3,183.92",
+      "field_position": {
+        "x": 730,
+        "y": 396,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$143,276.40",
+      "display_value": "$143,276.40",
+      "field_position": {
+        "x": 714,
+        "y": 416,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$458.74",
+      "display_value": "$458.74",
+      "field_position": {
+        "x": 745,
+        "y": 473,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$267.77",
+      "display_value": "$267.77",
+      "field_position": {
+        "x": 745,
+        "y": 493,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$197.40",
+      "display_value": "$197.40",
+      "field_position": {
+        "x": 745,
+        "y": 513,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$46.17",
+      "display_value": "$46.17",
+      "field_position": {
+        "x": 753,
+        "y": 533,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$109.01",
+      "display_value": "$109.01",
+      "field_position": {
+        "x": 745,
+        "y": 553,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$341.42",
+      "display_value": "$341.42",
+      "field_position": {
+        "x": 745,
+        "y": 573,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,420.51",
+      "display_value": "$1,420.51",
+      "field_position": {
+        "x": 730,
+        "y": 593,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$63,922.95",
+      "display_value": "$63,922.95",
+      "field_position": {
+        "x": 722,
+        "y": 613,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$1,763.41",
+      "display_value": "$1,763.41",
+      "field_position": {
+        "x": 50,
+        "y": 686,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$79,353.45",
+      "display_value": "$79,353.45",
+      "field_position": {
+        "x": 50,
+        "y": 722,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Emily E. Mitchell",
+    "employer_name": "Trident Security Services",
+    "employee_id": "535037",
+    "ssn_last4": "***-**-2622",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Arlington, TX 76001",
+    "employer_address": "222 Commerce Blvd",
+    "employer_city_state_zip": "Seattle, WA 98101",
+    "pay_date": "11/15/2024",
+    "pay_period_start": "11/04/2024",
+    "pay_period_end": "11/10/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "952.97",
+    "gross_pay_current": "3183.92",
+    "net_pay_current": "1763.41",
+    "gross_pay_ytd": "143276.40",
+    "net_pay_ytd": "79353.45",
+    "total_deductions_current": "1420.51",
+    "federal_tax_withheld": "458.74",
+    "state_tax_withheld": "267.77",
+    "social_security_tax": "197.40",
+    "medicare_tax": "46.17",
+    "total_deductions_ytd": "63922.95",
+    "overtime_pay_current": "265.28",
+    "bonus_current": "1965.67",
+    "retirement_401k": "109.01",
+    "health_insurance": "341.42"
+  }
+}

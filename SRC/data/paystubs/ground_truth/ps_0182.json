@@ -1,0 +1,388 @@
+{
+  "paystub_id": "ps_0182",
+  "image_file": "ps_0182.png",
+  "layout_template": "two_column",
+  "noise_profile": "phone_photo",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Liberty Manufacturing",
+      "display_value": "Liberty Manufacturing",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 237,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Donna A. Brown",
+      "display_value": "Donna A. Brown",
+      "field_position": {
+        "x": 160,
+        "y": 106,
+        "width": 100,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "264550",
+      "display_value": "264550",
+      "field_position": {
+        "x": 93,
+        "y": 126,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-9283",
+      "display_value": "***-**-9283",
+      "field_position": {
+        "x": 85,
+        "y": 146,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 150,
+        "y": 166,
+        "width": 120,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Sacramento, CA 95801",
+      "display_value": "Sacramento, CA 95801",
+      "field_position": {
+        "x": 114,
+        "y": 186,
+        "width": 134,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "07/04/2024",
+      "display_value": "07/04/2024",
+      "field_position": {
+        "x": 104,
+        "y": 211,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "06/01/2024",
+      "display_value": "06/01/2024",
+      "field_position": {
+        "x": 286,
+        "y": 211,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 532,
+        "y": 211,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 716,
+        "y": 211,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$4,981.71",
+      "display_value": "$4,981.71",
+      "field_position": {
+        "x": 347,
+        "y": 266,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$454.85",
+      "display_value": "$454.85",
+      "field_position": {
+        "x": 354,
+        "y": 286,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$5,436.56",
+      "display_value": "$5,436.56",
+      "field_position": {
+        "x": 344,
+        "y": 306,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$32,619.36",
+      "display_value": "$32,619.36",
+      "field_position": {
+        "x": 339,
+        "y": 326,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$790.67",
+      "display_value": "$790.67",
+      "field_position": {
+        "x": 753,
+        "y": 266,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$429.63",
+      "display_value": "$429.63",
+      "field_position": {
+        "x": 754,
+        "y": 286,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "SS Tax",
+      "extracted_value": "$337.07",
+      "display_value": "$337.07",
+      "field_position": {
+        "x": 754,
+        "y": 306,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$78.83",
+      "display_value": "$78.83",
+      "field_position": {
+        "x": 761,
+        "y": 326,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$332.14",
+      "display_value": "$332.14",
+      "field_position": {
+        "x": 755,
+        "y": 346,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$103.77",
+      "display_value": "$103.77",
+      "field_position": {
+        "x": 756,
+        "y": 366,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$2,072.11",
+      "display_value": "$2,072.11",
+      "field_position": {
+        "x": 748,
+        "y": 386,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$12,432.66",
+      "display_value": "$12,432.66",
+      "field_position": {
+        "x": 738,
+        "y": 406,
+        "width": 62,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$5,436.56",
+      "display_value": "$5,436.56",
+      "field_position": {
+        "x": 50,
+        "y": 496,
+        "width": 94,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$2,072.11",
+      "display_value": "$2,072.11",
+      "field_position": {
+        "x": 310,
+        "y": 496,
+        "width": 89,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$3,364.45",
+      "display_value": "$3,364.45",
+      "field_position": {
+        "x": 570,
+        "y": 496,
+        "width": 95,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donna A. Brown",
+    "employer_name": "Liberty Manufacturing",
+    "employee_id": "264550",
+    "ssn_last4": "***-**-9283",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Sacramento, CA 95801",
+    "employer_address": "987 Cedar Lane",
+    "employer_city_state_zip": "Phoenix, AZ 85001",
+    "pay_date": "07/04/2024",
+    "pay_period_start": "06/01/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "4981.71",
+    "gross_pay_current": "5436.56",
+    "net_pay_current": "3364.45",
+    "gross_pay_ytd": "32619.36",
+    "net_pay_ytd": "20186.70",
+    "total_deductions_current": "2072.11",
+    "federal_tax_withheld": "790.67",
+    "state_tax_withheld": "429.63",
+    "social_security_tax": "337.07",
+    "medicare_tax": "78.83",
+    "total_deductions_ytd": "12432.66",
+    "overtime_pay_current": "454.85",
+    "retirement_401k": "332.14",
+    "health_insurance": "103.77"
+  }
+}

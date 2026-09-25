@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0024",
+  "image_file": "ps_0024.png",
+  "layout_template": "retail",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Pacific Coast Logistics",
+      "display_value": "Pacific Coast Logistics",
+      "field_position": {
+        "x": 309,
+        "y": 40,
+        "width": 231,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 374,
+        "y": 75,
+        "width": 102,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Milwaukee, WI 53201",
+      "display_value": "Milwaukee, WI 53201",
+      "field_position": {
+        "x": 375,
+        "y": 89,
+        "width": 100,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Brian G. Martinez",
+      "display_value": "Brian G. Martinez",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 108,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "535020",
+      "display_value": "535020",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-7678",
+      "display_value": "***-**-7678",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 105,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 108,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "04/13/2024",
+      "display_value": "04/13/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "04/01/2024",
+      "display_value": "04/01/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "04/07/2024",
+      "display_value": "04/07/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,251.02",
+      "display_value": "$1,251.02",
+      "field_position": {
+        "x": 738,
+        "y": 471,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$1,251.02",
+      "display_value": "$1,251.02",
+      "field_position": {
+        "x": 738,
+        "y": 493,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$17,514.28",
+      "display_value": "$17,514.28",
+      "field_position": {
+        "x": 731,
+        "y": 515,
+        "width": 59,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$128.03",
+      "display_value": "$128.03",
+      "field_position": {
+        "x": 746,
+        "y": 569,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$103.63",
+      "display_value": "$103.63",
+      "field_position": {
+        "x": 746,
+        "y": 591,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$77.56",
+      "display_value": "$77.56",
+      "field_position": {
+        "x": 751,
+        "y": 613,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$18.14",
+      "display_value": "$18.14",
+      "field_position": {
+        "x": 754,
+        "y": 635,
+        "width": 36,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$79.30",
+      "display_value": "$79.30",
+      "field_position": {
+        "x": 751,
+        "y": 657,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$406.66",
+      "display_value": "$406.66",
+      "field_position": {
+        "x": 743,
+        "y": 679,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$5,693.24",
+      "display_value": "$5,693.24",
+      "field_position": {
+        "x": 734,
+        "y": 701,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$844.36",
+      "display_value": "$844.36",
+      "field_position": {
+        "x": 711,
+        "y": 738,
+        "width": 79,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$11,821.04",
+      "display_value": "$11,821.04",
+      "field_position": {
+        "x": 692,
+        "y": 768,
+        "width": 98,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Brian G. Martinez",
+    "employer_name": "Pacific Coast Logistics",
+    "employee_id": "535020",
+    "ssn_last4": "***-**-7678",
+    "employee_address": "852 Willow Place",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "333 Technology Drive",
+    "employer_city_state_zip": "Milwaukee, WI 53201",
+    "pay_date": "04/13/2024",
+    "pay_period_start": "04/01/2024",
+    "pay_period_end": "04/07/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1251.02",
+    "gross_pay_current": "1251.02",
+    "net_pay_current": "844.36",
+    "gross_pay_ytd": "17514.28",
+    "net_pay_ytd": "11821.04",
+    "total_deductions_current": "406.66",
+    "federal_tax_withheld": "128.03",
+    "state_tax_withheld": "103.63",
+    "social_security_tax": "77.56",
+    "medicare_tax": "18.14",
+    "total_deductions_ytd": "5693.24",
+    "retirement_401k": "79.30"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0176",
+  "image_file": "ps_0176.png",
+  "layout_template": "side_by_side",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Diamond Foods Corporation",
+      "display_value": "Diamond Foods Corporation",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 275,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 75,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Tampa, FL 33601",
+      "display_value": "Tampa, FL 33601",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 77,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Kenneth K. Smith",
+      "display_value": "Kenneth K. Smith",
+      "field_position": {
+        "x": 50,
+        "y": 139,
+        "width": 99,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "793805",
+      "display_value": "793805",
+      "field_position": {
+        "x": 50,
+        "y": 175,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-2654",
+      "display_value": "***-**-2654",
+      "field_position": {
+        "x": 50,
+        "y": 211,
+        "width": 65,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 50,
+        "y": 231,
+        "width": 85,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Seattle, WA 98101",
+      "display_value": "Seattle, WA 98101",
+      "field_position": {
+        "x": 50,
+        "y": 246,
+        "width": 81,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "07/17/2024",
+      "display_value": "07/17/2024",
+      "field_position": {
+        "x": 50,
+        "y": 297,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 50,
+        "y": 333,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "07/14/2024",
+      "display_value": "07/14/2024",
+      "field_position": {
+        "x": 50,
+        "y": 369,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 50,
+        "y": 405,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$2,924.72",
+      "display_value": "$2,924.72",
+      "field_position": {
+        "x": 743,
+        "y": 65,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$1,612.57",
+      "display_value": "$1,612.57",
+      "field_position": {
+        "x": 743,
+        "y": 85,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,537.29",
+      "display_value": "$4,537.29",
+      "field_position": {
+        "x": 743,
+        "y": 105,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$63,522.06",
+      "display_value": "$63,522.06",
+      "field_position": {
+        "x": 736,
+        "y": 125,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$724.74",
+      "display_value": "$724.74",
+      "field_position": {
+        "x": 752,
+        "y": 190,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$301.91",
+      "display_value": "$301.91",
+      "field_position": {
+        "x": 753,
+        "y": 210,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$281.31",
+      "display_value": "$281.31",
+      "field_position": {
+        "x": 753,
+        "y": 230,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$65.79",
+      "display_value": "$65.79",
+      "field_position": {
+        "x": 760,
+        "y": 250,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,373.75",
+      "display_value": "$1,373.75",
+      "field_position": {
+        "x": 743,
+        "y": 270,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$19,232.50",
+      "display_value": "$19,232.50",
+      "field_position": {
+        "x": 736,
+        "y": 290,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$3,163.54",
+      "display_value": "$3,163.54",
+      "field_position": {
+        "x": 430,
+        "y": 371,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$44,289.56",
+      "display_value": "$44,289.56",
+      "field_position": {
+        "x": 430,
+        "y": 416,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kenneth K. Smith",
+    "employer_name": "Diamond Foods Corporation",
+    "employee_id": "793805",
+    "ssn_last4": "***-**-2654",
+    "employee_address": "555 Corporate Way",
+    "employee_city_state_zip": "Seattle, WA 98101",
+    "employer_address": "888 Harbor Drive",
+    "employer_city_state_zip": "Tampa, FL 33601",
+    "pay_date": "07/17/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/14/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "2924.72",
+    "gross_pay_current": "4537.29",
+    "net_pay_current": "3163.54",
+    "gross_pay_ytd": "63522.06",
+    "net_pay_ytd": "44289.56",
+    "total_deductions_current": "1373.75",
+    "federal_tax_withheld": "724.74",
+    "state_tax_withheld": "301.91",
+    "social_security_tax": "281.31",
+    "medicare_tax": "65.79",
+    "total_deductions_ytd": "19232.50",
+    "bonus_current": "1612.57"
+  }
+}

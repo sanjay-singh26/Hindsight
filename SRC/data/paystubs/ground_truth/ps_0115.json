@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0115",
+  "image_file": "ps_0115.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Heartland Insurance Co.",
+      "display_value": "Heartland Insurance Co.",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 252,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 106,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Philadelphia, PA 19101",
+      "display_value": "Philadelphia, PA 19101",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 103,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Ashley M. Anderson",
+      "display_value": "Ashley M. Anderson",
+      "field_position": {
+        "x": 150,
+        "y": 113,
+        "width": 126,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "493663",
+      "display_value": "493663",
+      "field_position": {
+        "x": 105,
+        "y": 133,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-8075",
+      "display_value": "***-**-8075",
+      "field_position": {
+        "x": 83,
+        "y": 153,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 110,
+        "y": 173,
+        "width": 94,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 84,
+        "y": 193,
+        "width": 94,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "05/03/2024",
+      "display_value": "05/03/2024",
+      "field_position": {
+        "x": 107,
+        "y": 218,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "04/16/2024",
+      "display_value": "04/16/2024",
+      "field_position": {
+        "x": 337,
+        "y": 218,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "04/30/2024",
+      "display_value": "04/30/2024",
+      "field_position": {
+        "x": 497,
+        "y": 218,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 704,
+        "y": 218,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$406.93",
+      "display_value": "$406.93",
+      "field_position": {
+        "x": 753,
+        "y": 278,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$105.64",
+      "display_value": "$105.64",
+      "field_position": {
+        "x": 755,
+        "y": 298,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$133.66",
+      "display_value": "$133.66",
+      "field_position": {
+        "x": 756,
+        "y": 318,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$31.26",
+      "display_value": "$31.26",
+      "field_position": {
+        "x": 763,
+        "y": 338,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$65.46",
+      "display_value": "$65.46",
+      "field_position": {
+        "x": 761,
+        "y": 358,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$177.18",
+      "display_value": "$177.18",
+      "field_position": {
+        "x": 758,
+        "y": 378,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$920.13",
+      "display_value": "$920.13",
+      "field_position": {
+        "x": 756,
+        "y": 398,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$7,361.04",
+      "display_value": "$7,361.04",
+      "field_position": {
+        "x": 745,
+        "y": 418,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$1,557.64",
+      "display_value": "$1,557.64",
+      "field_position": {
+        "x": 746,
+        "y": 483,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$598.17",
+      "display_value": "$598.17",
+      "field_position": {
+        "x": 756,
+        "y": 503,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$2,155.81",
+      "display_value": "$2,155.81",
+      "field_position": {
+        "x": 748,
+        "y": 523,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$17,246.48",
+      "display_value": "$17,246.48",
+      "field_position": {
+        "x": 738,
+        "y": 543,
+        "width": 62,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,235.68",
+      "display_value": "$1,235.68",
+      "field_position": {
+        "x": 50,
+        "y": 604,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$9,885.44",
+      "display_value": "$9,885.44",
+      "field_position": {
+        "x": 50,
+        "y": 640,
+        "width": 95,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Ashley M. Anderson",
+    "employer_name": "Heartland Insurance Co.",
+    "employee_id": "493663",
+    "ssn_last4": "***-**-8075",
+    "employee_address": "987 Cedar Lane",
+    "employee_city_state_zip": "Tulsa, OK 74101",
+    "employer_address": "111 Industrial Parkway",
+    "employer_city_state_zip": "Philadelphia, PA 19101",
+    "pay_date": "05/03/2024",
+    "pay_period_start": "04/16/2024",
+    "pay_period_end": "04/30/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "1557.64",
+    "gross_pay_current": "2155.81",
+    "net_pay_current": "1235.68",
+    "gross_pay_ytd": "17246.48",
+    "net_pay_ytd": "9885.44",
+    "total_deductions_current": "920.13",
+    "federal_tax_withheld": "406.93",
+    "state_tax_withheld": "105.64",
+    "social_security_tax": "133.66",
+    "medicare_tax": "31.26",
+    "total_deductions_ytd": "7361.04",
+    "overtime_pay_current": "598.17",
+    "retirement_401k": "65.46",
+    "health_insurance": "177.18"
+  }
+}

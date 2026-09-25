@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0073",
+  "image_file": "ps_0073.png",
+  "layout_template": "minimal",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Liberty Manufacturing",
+      "display_value": "Liberty Manufacturing",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 227,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Patricia P. Thomas",
+      "display_value": "Patricia P. Thomas",
+      "field_position": {
+        "x": 669,
+        "y": 85,
+        "width": 111,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "932463",
+      "display_value": "932463",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 35,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-8489",
+      "display_value": "***-**-8489",
+      "field_position": {
+        "x": 135,
+        "y": 85,
+        "width": 57,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 90,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Tampa, FL 33601",
+      "display_value": "Tampa, FL 33601",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 79,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 87,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "10/20/2024",
+      "display_value": "10/20/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "10/07/2024",
+      "display_value": "10/07/2024",
+      "field_position": {
+        "x": 163,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "10/13/2024",
+      "display_value": "10/13/2024",
+      "field_position": {
+        "x": 256,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 349,
+        "y": 151,
+        "width": 34,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$1,572.20",
+      "display_value": "$1,572.20",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$202.82",
+      "display_value": "$202.82",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$252.65",
+      "display_value": "$252.65",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$114.03",
+      "display_value": "$114.03",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$110.05",
+      "display_value": "$110.05",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$25.74",
+      "display_value": "$25.74",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$136.28",
+      "display_value": "$136.28",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$177.36",
+      "display_value": "$177.36",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$1,775.02",
+      "display_value": "$1,775.02",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$816.11",
+      "display_value": "$816.11",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 81,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$958.91",
+      "display_value": "$958.91",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 81,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$72,775.82",
+      "display_value": "$72,775.82",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$33,460.51",
+      "display_value": "$33,460.51",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$39,315.31",
+      "display_value": "$39,315.31",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Patricia P. Thomas",
+    "employer_name": "Liberty Manufacturing",
+    "employee_id": "932463",
+    "ssn_last4": "***-**-8489",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "San Diego, CA 92101",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Tampa, FL 33601",
+    "pay_date": "10/20/2024",
+    "pay_period_start": "10/07/2024",
+    "pay_period_end": "10/13/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1572.20",
+    "gross_pay_current": "1775.02",
+    "net_pay_current": "958.91",
+    "gross_pay_ytd": "72775.82",
+    "net_pay_ytd": "39315.31",
+    "total_deductions_current": "816.11",
+    "federal_tax_withheld": "252.65",
+    "state_tax_withheld": "114.03",
+    "social_security_tax": "110.05",
+    "medicare_tax": "25.74",
+    "total_deductions_ytd": "33460.51",
+    "bonus_current": "202.82",
+    "retirement_401k": "136.28",
+    "health_insurance": "177.36"
+  }
+}

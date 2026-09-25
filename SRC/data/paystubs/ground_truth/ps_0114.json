@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0114",
+  "image_file": "ps_0114.png",
+  "layout_template": "retail",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Continental Freight Lines",
+      "display_value": "Continental Freight Lines",
+      "field_position": {
+        "x": 297,
+        "y": 40,
+        "width": 255,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 390,
+        "y": 75,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 381,
+        "y": 89,
+        "width": 88,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Carol L. Wright",
+      "display_value": "Carol L. Wright",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 89,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "892313",
+      "display_value": "892313",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-3292",
+      "display_value": "***-**-3292",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Atlanta, GA 30301",
+      "display_value": "Atlanta, GA 30301",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 108,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "07/18/2024",
+      "display_value": "07/18/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "07/08/2024",
+      "display_value": "07/08/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "07/14/2024",
+      "display_value": "07/14/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$2,028.48",
+      "display_value": "$2,028.48",
+      "field_position": {
+        "x": 731,
+        "y": 471,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$638.30",
+      "display_value": "$638.30",
+      "field_position": {
+        "x": 742,
+        "y": 493,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$2,666.78",
+      "display_value": "$2,666.78",
+      "field_position": {
+        "x": 731,
+        "y": 515,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$74,669.84",
+      "display_value": "$74,669.84",
+      "field_position": {
+        "x": 723,
+        "y": 537,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$393.63",
+      "display_value": "$393.63",
+      "field_position": {
+        "x": 742,
+        "y": 591,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$203.78",
+      "display_value": "$203.78",
+      "field_position": {
+        "x": 742,
+        "y": 613,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$165.34",
+      "display_value": "$165.34",
+      "field_position": {
+        "x": 741,
+        "y": 635,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$38.67",
+      "display_value": "$38.67",
+      "field_position": {
+        "x": 749,
+        "y": 657,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$131.03",
+      "display_value": "$131.03",
+      "field_position": {
+        "x": 742,
+        "y": 679,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$932.45",
+      "display_value": "$932.45",
+      "field_position": {
+        "x": 742,
+        "y": 701,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$26,108.60",
+      "display_value": "$26,108.60",
+      "field_position": {
+        "x": 724,
+        "y": 723,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$1,734.33",
+      "display_value": "$1,734.33",
+      "field_position": {
+        "x": 690,
+        "y": 760,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$48,561.24",
+      "display_value": "$48,561.24",
+      "field_position": {
+        "x": 677,
+        "y": 790,
+        "width": 113,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Carol L. Wright",
+    "employer_name": "Continental Freight Lines",
+    "employee_id": "892313",
+    "ssn_last4": "***-**-3292",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Atlanta, GA 30301",
+    "employer_address": "963 Poplar Ave",
+    "employer_city_state_zip": "Houston, TX 77001",
+    "pay_date": "07/18/2024",
+    "pay_period_start": "07/08/2024",
+    "pay_period_end": "07/14/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "2028.48",
+    "gross_pay_current": "2666.78",
+    "net_pay_current": "1734.33",
+    "gross_pay_ytd": "74669.84",
+    "net_pay_ytd": "48561.24",
+    "total_deductions_current": "932.45",
+    "federal_tax_withheld": "393.63",
+    "state_tax_withheld": "203.78",
+    "social_security_tax": "165.34",
+    "medicare_tax": "38.67",
+    "total_deductions_ytd": "26108.60",
+    "overtime_pay_current": "638.30",
+    "retirement_401k": "131.03"
+  }
+}

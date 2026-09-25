@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0066",
+  "image_file": "ps_0066.png",
+  "layout_template": "government",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Eastside Medical Center",
+      "display_value": "Eastside Medical Center",
+      "field_position": {
+        "x": 147,
+        "y": 75,
+        "width": 140,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 162,
+        "y": 95,
+        "width": 87,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Memphis, TN 38101",
+      "display_value": "Memphis, TN 38101",
+      "field_position": {
+        "x": 163,
+        "y": 115,
+        "width": 116,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Jessica R. Rivera",
+      "display_value": "Jessica R. Rivera",
+      "field_position": {
+        "x": 151,
+        "y": 143,
+        "width": 98,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "649525",
+      "display_value": "649525",
+      "field_position": {
+        "x": 86,
+        "y": 163,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-9564",
+      "display_value": "***-**-9564",
+      "field_position": {
+        "x": 80,
+        "y": 183,
+        "width": 65,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 91,
+        "y": 203,
+        "width": 98,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 133,
+        "y": 223,
+        "width": 98,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "07/21/2024",
+      "display_value": "07/21/2024",
+      "field_position": {
+        "x": 112,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "07/01/2024",
+      "display_value": "07/01/2024",
+      "field_position": {
+        "x": 314,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "07/15/2024",
+      "display_value": "07/15/2024",
+      "field_position": {
+        "x": 471,
+        "y": 251,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 741,
+        "y": 251,
+        "width": 79,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$4,154.24",
+      "display_value": "$4,154.24",
+      "field_position": {
+        "x": 742,
+        "y": 309,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$1,335.60",
+      "display_value": "$1,335.60",
+      "field_position": {
+        "x": 743,
+        "y": 329,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$5,489.84",
+      "display_value": "$5,489.84",
+      "field_position": {
+        "x": 742,
+        "y": 349,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$71,367.92",
+      "display_value": "$71,367.92",
+      "field_position": {
+        "x": 736,
+        "y": 369,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$769.44",
+      "display_value": "$769.44",
+      "field_position": {
+        "x": 752,
+        "y": 427,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$273.29",
+      "display_value": "$273.29",
+      "field_position": {
+        "x": 753,
+        "y": 447,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$340.37",
+      "display_value": "$340.37",
+      "field_position": {
+        "x": 753,
+        "y": 467,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$79.60",
+      "display_value": "$79.60",
+      "field_position": {
+        "x": 760,
+        "y": 487,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$313.25",
+      "display_value": "$313.25",
+      "field_position": {
+        "x": 753,
+        "y": 507,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$309.92",
+      "display_value": "$309.92",
+      "field_position": {
+        "x": 753,
+        "y": 527,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$2,085.87",
+      "display_value": "$2,085.87",
+      "field_position": {
+        "x": 743,
+        "y": 547,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$27,116.31",
+      "display_value": "$27,116.31",
+      "field_position": {
+        "x": 736,
+        "y": 567,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$3,403.97",
+      "display_value": "$3,403.97",
+      "field_position": {
+        "x": 128,
+        "y": 602,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$44,251.61",
+      "display_value": "$44,251.61",
+      "field_position": {
+        "x": 152,
+        "y": 632,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Jessica R. Rivera",
+    "employer_name": "Eastside Medical Center",
+    "employee_id": "649525",
+    "ssn_last4": "***-**-9564",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "963 Poplar Ave",
+    "employer_city_state_zip": "Memphis, TN 38101",
+    "pay_date": "07/21/2024",
+    "pay_period_start": "07/01/2024",
+    "pay_period_end": "07/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4154.24",
+    "gross_pay_current": "5489.84",
+    "net_pay_current": "3403.97",
+    "gross_pay_ytd": "71367.92",
+    "net_pay_ytd": "44251.61",
+    "total_deductions_current": "2085.87",
+    "federal_tax_withheld": "769.44",
+    "state_tax_withheld": "273.29",
+    "social_security_tax": "340.37",
+    "medicare_tax": "79.60",
+    "total_deductions_ytd": "27116.31",
+    "bonus_current": "1335.60",
+    "retirement_401k": "313.25",
+    "health_insurance": "309.92"
+  }
+}

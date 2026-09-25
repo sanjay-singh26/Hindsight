@@ -1,0 +1,388 @@
+{
+  "paystub_id": "ps_0047",
+  "image_file": "ps_0047.png",
+  "layout_template": "two_column",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Silverline Transport LLC",
+      "display_value": "Silverline Transport LLC",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 253,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 65,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Indianapolis, IN 46201",
+      "display_value": "Indianapolis, IN 46201",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 104,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Brian R. Taylor",
+      "display_value": "Brian R. Taylor",
+      "field_position": {
+        "x": 145,
+        "y": 106,
+        "width": 92,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "416797",
+      "display_value": "416797",
+      "field_position": {
+        "x": 93,
+        "y": 126,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-4263",
+      "display_value": "***-**-4263",
+      "field_position": {
+        "x": 85,
+        "y": 146,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 149,
+        "y": 166,
+        "width": 139,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 141,
+        "y": 186,
+        "width": 93,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "11/05/2024",
+      "display_value": "11/05/2024",
+      "field_position": {
+        "x": 126,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "10/01/2024",
+      "display_value": "10/01/2024",
+      "field_position": {
+        "x": 342,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "10/31/2024",
+      "display_value": "10/31/2024",
+      "field_position": {
+        "x": 502,
+        "y": 211,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 716,
+        "y": 211,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$6,811.09",
+      "display_value": "$6,811.09",
+      "field_position": {
+        "x": 347,
+        "y": 266,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,960.30",
+      "display_value": "$1,960.30",
+      "field_position": {
+        "x": 345,
+        "y": 286,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$8,771.39",
+      "display_value": "$8,771.39",
+      "field_position": {
+        "x": 346,
+        "y": 306,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$87,713.90",
+      "display_value": "$87,713.90",
+      "field_position": {
+        "x": 339,
+        "y": 326,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$1,569.97",
+      "display_value": "$1,569.97",
+      "field_position": {
+        "x": 746,
+        "y": 266,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$407.60",
+      "display_value": "$407.60",
+      "field_position": {
+        "x": 753,
+        "y": 286,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$543.83",
+      "display_value": "$543.83",
+      "field_position": {
+        "x": 754,
+        "y": 306,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$127.19",
+      "display_value": "$127.19",
+      "field_position": {
+        "x": 757,
+        "y": 326,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$684.22",
+      "display_value": "$684.22",
+      "field_position": {
+        "x": 754,
+        "y": 346,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$93.24",
+      "display_value": "$93.24",
+      "field_position": {
+        "x": 760,
+        "y": 366,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$3,426.05",
+      "display_value": "$3,426.05",
+      "field_position": {
+        "x": 744,
+        "y": 386,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$34,260.50",
+      "display_value": "$34,260.50",
+      "field_position": {
+        "x": 737,
+        "y": 406,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$8,771.39",
+      "display_value": "$8,771.39",
+      "field_position": {
+        "x": 50,
+        "y": 496,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$3,426.05",
+      "display_value": "$3,426.05",
+      "field_position": {
+        "x": 310,
+        "y": 496,
+        "width": 95,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$5,345.34",
+      "display_value": "$5,345.34",
+      "field_position": {
+        "x": 570,
+        "y": 496,
+        "width": 94,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Brian R. Taylor",
+    "employer_name": "Silverline Transport LLC",
+    "employee_id": "416797",
+    "ssn_last4": "***-**-4263",
+    "employee_address": "111 Industrial Parkway",
+    "employee_city_state_zip": "Mesa, AZ 85201",
+    "employer_address": "321 Pine Road",
+    "employer_city_state_zip": "Indianapolis, IN 46201",
+    "pay_date": "11/05/2024",
+    "pay_period_start": "10/01/2024",
+    "pay_period_end": "10/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "6811.09",
+    "gross_pay_current": "8771.39",
+    "net_pay_current": "5345.34",
+    "gross_pay_ytd": "87713.90",
+    "net_pay_ytd": "53453.40",
+    "total_deductions_current": "3426.05",
+    "federal_tax_withheld": "1569.97",
+    "state_tax_withheld": "407.60",
+    "social_security_tax": "543.83",
+    "medicare_tax": "127.19",
+    "total_deductions_ytd": "34260.50",
+    "bonus_current": "1960.30",
+    "retirement_401k": "684.22",
+    "health_insurance": "93.24"
+  }
+}

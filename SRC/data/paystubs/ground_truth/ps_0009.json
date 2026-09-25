@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0009",
+  "image_file": "ps_0009.png",
+  "layout_template": "retail",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Horizon Financial Services",
+      "display_value": "Horizon Financial Services",
+      "field_position": {
+        "x": 296,
+        "y": 40,
+        "width": 258,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 380,
+        "y": 75,
+        "width": 90,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Fresno, CA 93701",
+      "display_value": "Fresno, CA 93701",
+      "field_position": {
+        "x": 386,
+        "y": 89,
+        "width": 78,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Donald G. Clark",
+      "display_value": "Donald G. Clark",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 90,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "201639",
+      "display_value": "201639",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-8062",
+      "display_value": "***-**-8062",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 87,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 140,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "11/06/2024",
+      "display_value": "11/06/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "10/28/2024",
+      "display_value": "10/28/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "11/03/2024",
+      "display_value": "11/03/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$681.83",
+      "display_value": "$681.83",
+      "field_position": {
+        "x": 743,
+        "y": 471,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$681.83",
+      "display_value": "$681.83",
+      "field_position": {
+        "x": 743,
+        "y": 493,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$30,000.52",
+      "display_value": "$30,000.52",
+      "field_position": {
+        "x": 726,
+        "y": 515,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$77.12",
+      "display_value": "$77.12",
+      "field_position": {
+        "x": 750,
+        "y": 569,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$28.29",
+      "display_value": "$28.29",
+      "field_position": {
+        "x": 750,
+        "y": 591,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$42.27",
+      "display_value": "$42.27",
+      "field_position": {
+        "x": 750,
+        "y": 613,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$9.89",
+      "display_value": "$9.89",
+      "field_position": {
+        "x": 757,
+        "y": 635,
+        "width": 33,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$27.15",
+      "display_value": "$27.15",
+      "field_position": {
+        "x": 750,
+        "y": 657,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$204.91",
+      "display_value": "$204.91",
+      "field_position": {
+        "x": 743,
+        "y": 679,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$389.63",
+      "display_value": "$389.63",
+      "field_position": {
+        "x": 743,
+        "y": 701,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$17,143.72",
+      "display_value": "$17,143.72",
+      "field_position": {
+        "x": 726,
+        "y": 723,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$292.20",
+      "display_value": "$292.20",
+      "field_position": {
+        "x": 710,
+        "y": 760,
+        "width": 80,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$12,856.80",
+      "display_value": "$12,856.80",
+      "field_position": {
+        "x": 681,
+        "y": 790,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Donald G. Clark",
+    "employer_name": "Horizon Financial Services",
+    "employee_id": "201639",
+    "ssn_last4": "***-**-8062",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Albuquerque, NM 87101",
+    "employer_address": "222 Commerce Blvd",
+    "employer_city_state_zip": "Fresno, CA 93701",
+    "pay_date": "11/06/2024",
+    "pay_period_start": "10/28/2024",
+    "pay_period_end": "11/03/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "681.83",
+    "gross_pay_current": "681.83",
+    "net_pay_current": "292.20",
+    "gross_pay_ytd": "30000.52",
+    "net_pay_ytd": "12856.80",
+    "total_deductions_current": "389.63",
+    "federal_tax_withheld": "77.12",
+    "state_tax_withheld": "28.29",
+    "social_security_tax": "42.27",
+    "medicare_tax": "9.89",
+    "total_deductions_ytd": "17143.72",
+    "retirement_401k": "27.15",
+    "health_insurance": "204.91"
+  }
+}

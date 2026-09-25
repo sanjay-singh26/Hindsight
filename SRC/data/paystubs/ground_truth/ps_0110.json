@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0110",
+  "image_file": "ps_0110.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "faded",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Diamond Foods Corporation",
+      "display_value": "Diamond Foods Corporation",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "123 Main Street",
+      "display_value": "123 Main Street",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 90,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Columbus, OH 43085",
+      "display_value": "Columbus, OH 43085",
+      "field_position": {
+        "x": 165,
+        "y": 85,
+        "width": 108,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Kevin A. Brown",
+      "display_value": "Kevin A. Brown",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 109,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "244170",
+      "display_value": "244170",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-4791",
+      "display_value": "***-**-4791",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 102,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "San Jose, CA 95101",
+      "display_value": "San Jose, CA 95101",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 108,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "07/03/2024",
+      "display_value": "07/03/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "06/01/2024",
+      "display_value": "06/01/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$7,133.76",
+      "display_value": "$7,133.76",
+      "field_position": {
+        "x": 335,
+        "y": 275,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$7,133.76",
+      "display_value": "$7,133.76",
+      "field_position": {
+        "x": 335,
+        "y": 295,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$42,802.56",
+      "display_value": "$42,802.56",
+      "field_position": {
+        "x": 327,
+        "y": 315,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$1,127.02",
+      "display_value": "$1,127.02",
+      "field_position": {
+        "x": 720,
+        "y": 275,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$422.83",
+      "display_value": "$422.83",
+      "field_position": {
+        "x": 735,
+        "y": 295,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-SS",
+      "extracted_value": "$442.29",
+      "display_value": "$442.29",
+      "field_position": {
+        "x": 735,
+        "y": 315,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$103.44",
+      "display_value": "$103.44",
+      "field_position": {
+        "x": 735,
+        "y": 335,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$489.48",
+      "display_value": "$489.48",
+      "field_position": {
+        "x": 735,
+        "y": 355,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$222.94",
+      "display_value": "$222.94",
+      "field_position": {
+        "x": 735,
+        "y": 375,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$2,808.00",
+      "display_value": "$2,808.00",
+      "field_position": {
+        "x": 720,
+        "y": 395,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$16,848.00",
+      "display_value": "$16,848.00",
+      "field_position": {
+        "x": 712,
+        "y": 415,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$4,325.76",
+      "display_value": "$4,325.76",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$25,954.56",
+      "display_value": "$25,954.56",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kevin A. Brown",
+    "employer_name": "Diamond Foods Corporation",
+    "employee_id": "244170",
+    "ssn_last4": "***-**-4791",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "San Jose, CA 95101",
+    "employer_address": "123 Main Street",
+    "employer_city_state_zip": "Columbus, OH 43085",
+    "pay_date": "07/03/2024",
+    "pay_period_start": "06/01/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "7133.76",
+    "gross_pay_current": "7133.76",
+    "net_pay_current": "4325.76",
+    "gross_pay_ytd": "42802.56",
+    "net_pay_ytd": "25954.56",
+    "total_deductions_current": "2808.00",
+    "federal_tax_withheld": "1127.02",
+    "state_tax_withheld": "422.83",
+    "social_security_tax": "442.29",
+    "medicare_tax": "103.44",
+    "total_deductions_ytd": "16848.00",
+    "retirement_401k": "489.48",
+    "health_insurance": "222.94"
+  }
+}

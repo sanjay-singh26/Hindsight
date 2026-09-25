@@ -1,0 +1,19 @@
+# Core evaluation library
+pyyaml>=6.0
+scipy>=1.10
+numpy>=1.24
+
+# Experiment notebooks
+anthropic>=0.39.0
+openai>=1.50.0
+Pillow>=10.0
+datasets>=2.14.0
+pandas>=2.0
+pytesseract>=0.3.10
+
+# Visualization (optional)
+matplotlib>=3.5
+seaborn>=0.12
+
+# Notebook
+jupyter>=1.0

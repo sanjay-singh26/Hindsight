@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0160",
+  "image_file": "ps_0160.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Heartland Insurance Co.",
+      "display_value": "Heartland Insurance Co.",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 252,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 92,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 72,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Anthony H. Carter",
+      "display_value": "Anthony H. Carter",
+      "field_position": {
+        "x": 145,
+        "y": 113,
+        "width": 111,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "163946",
+      "display_value": "163946",
+      "field_position": {
+        "x": 127,
+        "y": 133,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-7342",
+      "display_value": "***-**-7342",
+      "field_position": {
+        "x": 134,
+        "y": 153,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "555 Corporate Way",
+      "display_value": "555 Corporate Way",
+      "field_position": {
+        "x": 110,
+        "y": 173,
+        "width": 115,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Milwaukee, WI 53201",
+      "display_value": "Milwaukee, WI 53201",
+      "field_position": {
+        "x": 84,
+        "y": 193,
+        "width": 130,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "08/16/2024",
+      "display_value": "08/16/2024",
+      "field_position": {
+        "x": 120,
+        "y": 218,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "07/29/2024",
+      "display_value": "07/29/2024",
+      "field_position": {
+        "x": 310,
+        "y": 218,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "08/11/2024",
+      "display_value": "08/11/2024",
+      "field_position": {
+        "x": 497,
+        "y": 218,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 711,
+        "y": 218,
+        "width": 49,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$228.70",
+      "display_value": "$228.70",
+      "field_position": {
+        "x": 754,
+        "y": 278,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$119.92",
+      "display_value": "$119.92",
+      "field_position": {
+        "x": 757,
+        "y": 298,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$88.48",
+      "display_value": "$88.48",
+      "field_position": {
+        "x": 761,
+        "y": 318,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$20.69",
+      "display_value": "$20.69",
+      "field_position": {
+        "x": 761,
+        "y": 338,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$247.47",
+      "display_value": "$247.47",
+      "field_position": {
+        "x": 753,
+        "y": 358,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$705.26",
+      "display_value": "$705.26",
+      "field_position": {
+        "x": 754,
+        "y": 378,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$11,284.16",
+      "display_value": "$11,284.16",
+      "field_position": {
+        "x": 742,
+        "y": 398,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$1,427.15",
+      "display_value": "$1,427.15",
+      "field_position": {
+        "x": 748,
+        "y": 463,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$1,427.15",
+      "display_value": "$1,427.15",
+      "field_position": {
+        "x": 748,
+        "y": 483,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$22,834.40",
+      "display_value": "$22,834.40",
+      "field_position": {
+        "x": 736,
+        "y": 503,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$721.89",
+      "display_value": "$721.89",
+      "field_position": {
+        "x": 50,
+        "y": 564,
+        "width": 75,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$11,550.24",
+      "display_value": "$11,550.24",
+      "field_position": {
+        "x": 50,
+        "y": 600,
+        "width": 100,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Anthony H. Carter",
+    "employer_name": "Heartland Insurance Co.",
+    "employee_id": "163946",
+    "ssn_last4": "***-**-7342",
+    "employee_address": "555 Corporate Way",
+    "employee_city_state_zip": "Milwaukee, WI 53201",
+    "employer_address": "666 Enterprise Blvd",
+    "employer_city_state_zip": "Mesa, AZ 85201",
+    "pay_date": "08/16/2024",
+    "pay_period_start": "07/29/2024",
+    "pay_period_end": "08/11/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1427.15",
+    "gross_pay_current": "1427.15",
+    "net_pay_current": "721.89",
+    "gross_pay_ytd": "22834.40",
+    "net_pay_ytd": "11550.24",
+    "total_deductions_current": "705.26",
+    "federal_tax_withheld": "228.70",
+    "state_tax_withheld": "119.92",
+    "social_security_tax": "88.48",
+    "medicare_tax": "20.69",
+    "total_deductions_ytd": "11284.16",
+    "health_insurance": "247.47"
+  }
+}

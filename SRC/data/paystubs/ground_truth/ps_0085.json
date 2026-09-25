@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0085",
+  "image_file": "ps_0085.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Premier Auto Services",
+      "display_value": "Premier Auto Services",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 231,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 81,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Indianapolis, IN 46201",
+      "display_value": "Indianapolis, IN 46201",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 104,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Daniel E. Sanchez",
+      "display_value": "Daniel E. Sanchez",
+      "field_position": {
+        "x": 145,
+        "y": 113,
+        "width": 109,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "488539",
+      "display_value": "488539",
+      "field_position": {
+        "x": 93,
+        "y": 133,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-9437",
+      "display_value": "***-**-9437",
+      "field_position": {
+        "x": 126,
+        "y": 153,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 161,
+        "y": 173,
+        "width": 120,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "San Antonio, TX 78201",
+      "display_value": "San Antonio, TX 78201",
+      "field_position": {
+        "x": 144,
+        "y": 193,
+        "width": 138,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "03/05/2024",
+      "display_value": "03/05/2024",
+      "field_position": {
+        "x": 107,
+        "y": 218,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "02/01/2024",
+      "display_value": "02/01/2024",
+      "field_position": {
+        "x": 335,
+        "y": 218,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "02/29/2024",
+      "display_value": "02/29/2024",
+      "field_position": {
+        "x": 497,
+        "y": 218,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 711,
+        "y": 218,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$1,223.70",
+      "display_value": "$1,223.70",
+      "field_position": {
+        "x": 746,
+        "y": 278,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$330.94",
+      "display_value": "$330.94",
+      "field_position": {
+        "x": 753,
+        "y": 298,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$372.46",
+      "display_value": "$372.46",
+      "field_position": {
+        "x": 754,
+        "y": 318,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$87.11",
+      "display_value": "$87.11",
+      "field_position": {
+        "x": 765,
+        "y": 338,
+        "width": 35,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$2,014.21",
+      "display_value": "$2,014.21",
+      "field_position": {
+        "x": 747,
+        "y": 358,
+        "width": 53,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$4,028.42",
+      "display_value": "$4,028.42",
+      "field_position": {
+        "x": 743,
+        "y": 378,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$5,871.97",
+      "display_value": "$5,871.97",
+      "field_position": {
+        "x": 746,
+        "y": 443,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$135.42",
+      "display_value": "$135.42",
+      "field_position": {
+        "x": 756,
+        "y": 463,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$6,007.39",
+      "display_value": "$6,007.39",
+      "field_position": {
+        "x": 744,
+        "y": 483,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$12,014.78",
+      "display_value": "$12,014.78",
+      "field_position": {
+        "x": 740,
+        "y": 503,
+        "width": 60,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$3,993.18",
+      "display_value": "$3,993.18",
+      "field_position": {
+        "x": 50,
+        "y": 564,
+        "width": 91,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$7,986.36",
+      "display_value": "$7,986.36",
+      "field_position": {
+        "x": 50,
+        "y": 600,
+        "width": 95,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Daniel E. Sanchez",
+    "employer_name": "Premier Auto Services",
+    "employee_id": "488539",
+    "ssn_last4": "***-**-9437",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "San Antonio, TX 78201",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Indianapolis, IN 46201",
+    "pay_date": "03/05/2024",
+    "pay_period_start": "02/01/2024",
+    "pay_period_end": "02/29/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "5871.97",
+    "gross_pay_current": "6007.39",
+    "net_pay_current": "3993.18",
+    "gross_pay_ytd": "12014.78",
+    "net_pay_ytd": "7986.36",
+    "total_deductions_current": "2014.21",
+    "federal_tax_withheld": "1223.70",
+    "state_tax_withheld": "330.94",
+    "social_security_tax": "372.46",
+    "medicare_tax": "87.11",
+    "total_deductions_ytd": "4028.42",
+    "overtime_pay_current": "135.42"
+  }
+}

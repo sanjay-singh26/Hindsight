@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0178",
+  "image_file": "ps_0178.png",
+  "layout_template": "minimal",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Eastside Medical Center",
+      "display_value": "Eastside Medical Center",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 237,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Thomas H. Adams",
+      "display_value": "Thomas H. Adams",
+      "field_position": {
+        "x": 672,
+        "y": 85,
+        "width": 108,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "410401",
+      "display_value": "410401",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 34,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-5327",
+      "display_value": "***-**-5327",
+      "field_position": {
+        "x": 134,
+        "y": 85,
+        "width": 50,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 64,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 101,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 96,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 85,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "05/17/2024",
+      "display_value": "05/17/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "05/06/2024",
+      "display_value": "05/06/2024",
+      "field_position": {
+        "x": 164,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "05/12/2024",
+      "display_value": "05/12/2024",
+      "field_position": {
+        "x": 258,
+        "y": 151,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 352,
+        "y": 151,
+        "width": 32,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,964.30",
+      "display_value": "$1,964.30",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$616.98",
+      "display_value": "$616.98",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,564.77",
+      "display_value": "$1,564.77",
+      "field_position": {
+        "x": 150,
+        "y": 240,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$437.44",
+      "display_value": "$437.44",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$336.33",
+      "display_value": "$336.33",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$257.06",
+      "display_value": "$257.06",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$60.12",
+      "display_value": "$60.12",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$173.87",
+      "display_value": "$173.87",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$198.18",
+      "display_value": "$198.18",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$4,146.05",
+      "display_value": "$4,146.05",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,463.00",
+      "display_value": "$1,463.00",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$2,683.05",
+      "display_value": "$2,683.05",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$78,774.95",
+      "display_value": "$78,774.95",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$27,797.00",
+      "display_value": "$27,797.00",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$50,977.95",
+      "display_value": "$50,977.95",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 64,
+        "height": 13
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Thomas H. Adams",
+    "employer_name": "Eastside Medical Center",
+    "employee_id": "410401",
+    "ssn_last4": "***-**-5327",
+    "employee_address": "333 Technology Drive",
+    "employee_city_state_zip": "Houston, TX 77001",
+    "employer_address": "321 Pine Road",
+    "employer_city_state_zip": "Jacksonville, FL 32099",
+    "pay_date": "05/17/2024",
+    "pay_period_start": "05/06/2024",
+    "pay_period_end": "05/12/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1964.30",
+    "gross_pay_current": "4146.05",
+    "net_pay_current": "2683.05",
+    "gross_pay_ytd": "78774.95",
+    "net_pay_ytd": "50977.95",
+    "total_deductions_current": "1463.00",
+    "federal_tax_withheld": "437.44",
+    "state_tax_withheld": "336.33",
+    "social_security_tax": "257.06",
+    "medicare_tax": "60.12",
+    "total_deductions_ytd": "27797.00",
+    "overtime_pay_current": "616.98",
+    "bonus_current": "1564.77",
+    "retirement_401k": "173.87",
+    "health_insurance": "198.18"
+  }
+}

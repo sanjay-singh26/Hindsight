@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0121",
+  "image_file": "ps_0121.png",
+  "layout_template": "left_header",
+  "noise_profile": "heavy_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "07/06/2024",
+      "display_value": "07/06/2024",
+      "field_position": {
+        "x": 722,
+        "y": 40,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "06/01/2024",
+      "display_value": "06/01/2024",
+      "field_position": {
+        "x": 758,
+        "y": 54,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 674,
+        "y": 68,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 734,
+        "y": 82,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Horizon Financial Services",
+      "display_value": "Horizon Financial Services",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 343,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 96,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 102,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Paul C. Hill",
+      "display_value": "Paul C. Hill",
+      "field_position": {
+        "x": 552,
+        "y": 133,
+        "width": 94,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "906306",
+      "display_value": "906306",
+      "field_position": {
+        "x": 591,
+        "y": 153,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-5067",
+      "display_value": "***-**-5067",
+      "field_position": {
+        "x": 599,
+        "y": 173,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 575,
+        "y": 193,
+        "width": 109,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 630,
+        "y": 213,
+        "width": 125,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$3,294.58",
+      "display_value": "$3,294.58",
+      "field_position": {
+        "x": 730,
+        "y": 283,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$255.40",
+      "display_value": "$255.40",
+      "field_position": {
+        "x": 745,
+        "y": 303,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$3,549.98",
+      "display_value": "$3,549.98",
+      "field_position": {
+        "x": 730,
+        "y": 323,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$21,299.88",
+      "display_value": "$21,299.88",
+      "field_position": {
+        "x": 722,
+        "y": 343,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$592.70",
+      "display_value": "$592.70",
+      "field_position": {
+        "x": 745,
+        "y": 408,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$252.97",
+      "display_value": "$252.97",
+      "field_position": {
+        "x": 745,
+        "y": 428,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$220.10",
+      "display_value": "$220.10",
+      "field_position": {
+        "x": 745,
+        "y": 448,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$51.47",
+      "display_value": "$51.47",
+      "field_position": {
+        "x": 753,
+        "y": 468,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$199.47",
+      "display_value": "$199.47",
+      "field_position": {
+        "x": 745,
+        "y": 488,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$263.48",
+      "display_value": "$263.48",
+      "field_position": {
+        "x": 745,
+        "y": 508,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,580.19",
+      "display_value": "$1,580.19",
+      "field_position": {
+        "x": 730,
+        "y": 528,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$9,481.14",
+      "display_value": "$9,481.14",
+      "field_position": {
+        "x": 730,
+        "y": 548,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$1,969.79",
+      "display_value": "$1,969.79",
+      "field_position": {
+        "x": 50,
+        "y": 609,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$11,818.74",
+      "display_value": "$11,818.74",
+      "field_position": {
+        "x": 50,
+        "y": 645,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Paul C. Hill",
+    "employer_name": "Horizon Financial Services",
+    "employee_id": "906306",
+    "ssn_last4": "***-**-5067",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Austin, TX 73301",
+    "employer_address": "888 Harbor Drive",
+    "employer_city_state_zip": "Chicago, IL 60601",
+    "pay_date": "07/06/2024",
+    "pay_period_start": "06/01/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "3294.58",
+    "gross_pay_current": "3549.98",
+    "net_pay_current": "1969.79",
+    "gross_pay_ytd": "21299.88",
+    "net_pay_ytd": "11818.74",
+    "total_deductions_current": "1580.19",
+    "federal_tax_withheld": "592.70",
+    "state_tax_withheld": "252.97",
+    "social_security_tax": "220.10",
+    "medicare_tax": "51.47",
+    "total_deductions_ytd": "9481.14",
+    "overtime_pay_current": "255.40",
+    "retirement_401k": "199.47",
+    "health_insurance": "263.48"
+  }
+}

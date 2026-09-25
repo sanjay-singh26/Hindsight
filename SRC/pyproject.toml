@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hindsight-eval"
+version = "0.1.0"
+description = "Concept-Binding Accuracy (CBA) evaluation for document intelligence"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+    "pyyaml>=6.0",
+    "scipy>=1.10",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "anthropic>=0.39.0",
+    "openai>=1.50.0",
+    "Pillow>=10.0",
+    "datasets>=2.14.0",
+    "pandas>=2.0",
+    "pytesseract>=0.3.10",
+    "matplotlib>=3.5",
+    "seaborn>=0.12",
+    "jupyter>=1.0",
+]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["hindsight_eval*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

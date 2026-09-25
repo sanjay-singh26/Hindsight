@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0068",
+  "image_file": "ps_0068.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "heavy_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Golden State Packaging",
+      "display_value": "Golden State Packaging",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 241,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "987 Cedar Lane",
+      "display_value": "987 Cedar Lane",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 73,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Columbus, OH 43085",
+      "display_value": "Columbus, OH 43085",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 99,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Michelle P. Nelson",
+      "display_value": "Michelle P. Nelson",
+      "field_position": {
+        "x": 119,
+        "y": 113,
+        "width": 111,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Worker ID",
+      "extracted_value": "479404",
+      "display_value": "479404",
+      "field_position": {
+        "x": 121,
+        "y": 133,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-1298",
+      "display_value": "***-**-1298",
+      "field_position": {
+        "x": 84,
+        "y": 153,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Nashville, TN 37201",
+      "display_value": "Nashville, TN 37201",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 92,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "09/04/2024",
+      "display_value": "09/04/2024",
+      "field_position": {
+        "x": 96,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "08/16/2024",
+      "display_value": "08/16/2024",
+      "field_position": {
+        "x": 334,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "08/31/2024",
+      "display_value": "08/31/2024",
+      "field_position": {
+        "x": 506,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 699,
+        "y": 211,
+        "width": 66,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$2,099.54",
+      "display_value": "$2,099.54",
+      "field_position": {
+        "x": 741,
+        "y": 271,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Extra Hours",
+      "extracted_value": "$154.02",
+      "display_value": "$154.02",
+      "field_position": {
+        "x": 752,
+        "y": 291,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$2,253.56",
+      "display_value": "$2,253.56",
+      "field_position": {
+        "x": 741,
+        "y": 316,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$36,056.96",
+      "display_value": "$36,056.96",
+      "field_position": {
+        "x": 734,
+        "y": 336,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$252.71",
+      "display_value": "$252.71",
+      "field_position": {
+        "x": 752,
+        "y": 401,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$171.84",
+      "display_value": "$171.84",
+      "field_position": {
+        "x": 751,
+        "y": 421,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$139.72",
+      "display_value": "$139.72",
+      "field_position": {
+        "x": 752,
+        "y": 441,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$32.68",
+      "display_value": "$32.68",
+      "field_position": {
+        "x": 759,
+        "y": 461,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$596.95",
+      "display_value": "$596.95",
+      "field_position": {
+        "x": 752,
+        "y": 481,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$9,551.20",
+      "display_value": "$9,551.20",
+      "field_position": {
+        "x": 741,
+        "y": 501,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,656.61",
+      "display_value": "$1,656.61",
+      "field_position": {
+        "x": 50,
+        "y": 562,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$26,505.76",
+      "display_value": "$26,505.76",
+      "field_position": {
+        "x": 50,
+        "y": 598,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michelle P. Nelson",
+    "employer_name": "Golden State Packaging",
+    "employee_id": "479404",
+    "ssn_last4": "***-**-1298",
+    "employee_address": "963 Poplar Ave",
+    "employee_city_state_zip": "Nashville, TN 37201",
+    "employer_address": "987 Cedar Lane",
+    "employer_city_state_zip": "Columbus, OH 43085",
+    "pay_date": "09/04/2024",
+    "pay_period_start": "08/16/2024",
+    "pay_period_end": "08/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "2099.54",
+    "gross_pay_current": "2253.56",
+    "net_pay_current": "1656.61",
+    "gross_pay_ytd": "36056.96",
+    "net_pay_ytd": "26505.76",
+    "total_deductions_current": "596.95",
+    "federal_tax_withheld": "252.71",
+    "state_tax_withheld": "171.84",
+    "social_security_tax": "139.72",
+    "medicare_tax": "32.68",
+    "total_deductions_ytd": "9551.20",
+    "overtime_pay_current": "154.02"
+  }
+}

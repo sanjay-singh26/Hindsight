@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0004",
+  "image_file": "ps_0004.png",
+  "layout_template": "check_style",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Pinnacle Staffing Agency",
+      "display_value": "Pinnacle Staffing Agency",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 317,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "246413",
+      "display_value": "246413",
+      "field_position": {
+        "x": 699,
+        "y": 45,
+        "width": 101,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "369 Spruce Terrace",
+      "display_value": "369 Spruce Terrace",
+      "field_position": {
+        "x": 50,
+        "y": 85,
+        "width": 108,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Tulsa, OK 74101",
+      "display_value": "Tulsa, OK 74101",
+      "field_position": {
+        "x": 50,
+        "y": 99,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Michelle E. Robinson",
+      "display_value": "Michelle E. Robinson",
+      "field_position": {
+        "x": 138,
+        "y": 131,
+        "width": 156,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-5040",
+      "display_value": "***-**-5040",
+      "field_position": {
+        "x": 90,
+        "y": 149,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 108,
+        "y": 167,
+        "width": 148,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 120,
+        "y": 185,
+        "width": 133,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "11/06/2024",
+      "display_value": "11/06/2024",
+      "field_position": {
+        "x": 502,
+        "y": 131,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "10/01/2024",
+      "display_value": "10/01/2024",
+      "field_position": {
+        "x": 538,
+        "y": 147,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "10/31/2024",
+      "display_value": "10/31/2024",
+      "field_position": {
+        "x": 484,
+        "y": 163,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 520,
+        "y": 179,
+        "width": 42,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$5,214.97",
+      "display_value": "$5,214.97",
+      "field_position": {
+        "x": 330,
+        "y": 270,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,088.33",
+      "display_value": "$1,088.33",
+      "field_position": {
+        "x": 330,
+        "y": 290,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross",
+      "extracted_value": "$6,303.30",
+      "display_value": "$6,303.30",
+      "field_position": {
+        "x": 330,
+        "y": 310,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$63,033.00",
+      "display_value": "$63,033.00",
+      "field_position": {
+        "x": 322,
+        "y": 330,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$1,202.00",
+      "display_value": "$1,202.00",
+      "field_position": {
+        "x": 730,
+        "y": 270,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$514.77",
+      "display_value": "$514.77",
+      "field_position": {
+        "x": 745,
+        "y": 290,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$390.80",
+      "display_value": "$390.80",
+      "field_position": {
+        "x": 745,
+        "y": 310,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$91.40",
+      "display_value": "$91.40",
+      "field_position": {
+        "x": 753,
+        "y": 330,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$259.69",
+      "display_value": "$259.69",
+      "field_position": {
+        "x": 745,
+        "y": 350,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$241.03",
+      "display_value": "$241.03",
+      "field_position": {
+        "x": 745,
+        "y": 370,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$2,699.69",
+      "display_value": "$2,699.69",
+      "field_position": {
+        "x": 730,
+        "y": 390,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$26,996.90",
+      "display_value": "$26,996.90",
+      "field_position": {
+        "x": 722,
+        "y": 410,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$3,603.61",
+      "display_value": "$3,603.61",
+      "field_position": {
+        "x": 65,
+        "y": 478,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$36,036.10",
+      "display_value": "$36,036.10",
+      "field_position": {
+        "x": 707,
+        "y": 480,
+        "width": 78,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michelle E. Robinson",
+    "employer_name": "Pinnacle Staffing Agency",
+    "employee_id": "246413",
+    "ssn_last4": "***-**-5040",
+    "employee_address": "666 Enterprise Blvd",
+    "employee_city_state_zip": "Raleigh, NC 27601",
+    "employer_address": "369 Spruce Terrace",
+    "employer_city_state_zip": "Tulsa, OK 74101",
+    "pay_date": "11/06/2024",
+    "pay_period_start": "10/01/2024",
+    "pay_period_end": "10/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "5214.97",
+    "gross_pay_current": "6303.30",
+    "net_pay_current": "3603.61",
+    "gross_pay_ytd": "63033.00",
+    "net_pay_ytd": "36036.10",
+    "total_deductions_current": "2699.69",
+    "federal_tax_withheld": "1202.00",
+    "state_tax_withheld": "514.77",
+    "social_security_tax": "390.80",
+    "medicare_tax": "91.40",
+    "total_deductions_ytd": "26996.90",
+    "bonus_current": "1088.33",
+    "retirement_401k": "259.69",
+    "health_insurance": "241.03"
+  }
+}

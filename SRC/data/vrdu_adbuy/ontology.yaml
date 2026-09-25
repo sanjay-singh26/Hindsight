@@ -1,0 +1,54 @@
+domain: vrdu_adbuy
+families:
+  - name: organizations
+    concepts:
+      - id: advertiser
+        name: "Advertiser"
+        definition: "The political committee, campaign, or organization purchasing the advertising — the buyer on whose behalf the ad-buy is placed."
+        confusable_with: [agency, product]
+
+      - id: agency
+        name: "Agency"
+        definition: "The media buying agency: the intermediary firm that placed the buy on the advertiser's behalf, distinct from the advertiser itself."
+        confusable_with: [advertiser]
+
+      - id: product
+        name: "Product"
+        definition: "The product or campaign name associated with the buy, which may read similarly to (or reuse words from) the advertiser's own name."
+        confusable_with: [advertiser]
+
+  - name: media
+    concepts:
+      - id: property
+        name: "Property"
+        definition: "The TV station's call sign (e.g., KMSP, WJLA, WTTG) — the broadcast property airing the ads. Not the station's full name or channel number."
+        confusable_with: [tv_address]
+
+      - id: tv_address
+        name: "TV Address"
+        definition: "The mailing/remit address of the TV station, printed near the station's call sign and other station identifiers."
+        confusable_with: [property]
+
+  - name: dates
+    concepts:
+      - id: flight_from
+        name: "Flight Start Date"
+        definition: "The start date of the overall advertising campaign/flight period (often labeled 'Order Flight' or 'Flight Dates'), not the date of any individual program or spot within the campaign."
+        confusable_with: [flight_to]
+
+      - id: flight_to
+        name: "Flight End Date"
+        definition: "The end date of the overall advertising campaign/flight period, paired with flight_from as the two bounding dates of the buy."
+        confusable_with: [flight_from]
+
+  - name: financial
+    concepts:
+      - id: gross_amount
+        name: "Gross Amount"
+        definition: "The total gross dollar amount for the entire order/invoice, not any individual line-item or per-spot amount within it."
+        confusable_with: [contract_num]
+
+      - id: contract_num
+        name: "Contract Number"
+        definition: "The contract, order, or invoice number that primarily identifies this ad-buy document."
+        confusable_with: [gross_amount]

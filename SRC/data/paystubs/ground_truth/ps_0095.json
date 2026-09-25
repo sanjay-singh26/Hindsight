@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0095",
+  "image_file": "ps_0095.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "United Waste Management",
+      "display_value": "United Waste Management",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 284,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 67,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 142,
+        "y": 85,
+        "width": 81,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Barbara F. Clark",
+      "display_value": "Barbara F. Clark",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 97,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "138105",
+      "display_value": "138105",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 39,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-7504",
+      "display_value": "***-**-7504",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 92,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 107,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "05/26/2024",
+      "display_value": "05/26/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "05/13/2024",
+      "display_value": "05/13/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "05/19/2024",
+      "display_value": "05/19/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Earnings",
+      "extracted_value": "$1,620.20",
+      "display_value": "$1,620.20",
+      "field_position": {
+        "x": 350,
+        "y": 275,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Performance Bonus",
+      "extracted_value": "$1,017.83",
+      "display_value": "$1,017.83",
+      "field_position": {
+        "x": 353,
+        "y": 295,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$2,638.03",
+      "display_value": "$2,638.03",
+      "field_position": {
+        "x": 349,
+        "y": 315,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$52,760.60",
+      "display_value": "$52,760.60",
+      "field_position": {
+        "x": 342,
+        "y": 335,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$466.82",
+      "display_value": "$466.82",
+      "field_position": {
+        "x": 743,
+        "y": 275,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$162.13",
+      "display_value": "$162.13",
+      "field_position": {
+        "x": 748,
+        "y": 295,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$163.56",
+      "display_value": "$163.56",
+      "field_position": {
+        "x": 746,
+        "y": 315,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$38.25",
+      "display_value": "$38.25",
+      "field_position": {
+        "x": 751,
+        "y": 335,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical",
+      "extracted_value": "$216.14",
+      "display_value": "$216.14",
+      "field_position": {
+        "x": 747,
+        "y": 355,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,046.90",
+      "display_value": "$1,046.90",
+      "field_position": {
+        "x": 735,
+        "y": 375,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$20,938.00",
+      "display_value": "$20,938.00",
+      "field_position": {
+        "x": 726,
+        "y": 395,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$1,591.13",
+      "display_value": "$1,591.13",
+      "field_position": {
+        "x": 60,
+        "y": 460,
+        "width": 85,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$31,822.60",
+      "display_value": "$31,822.60",
+      "field_position": {
+        "x": 360,
+        "y": 460,
+        "width": 104,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Barbara F. Clark",
+    "employer_name": "United Waste Management",
+    "employee_id": "138105",
+    "ssn_last4": "***-**-7504",
+    "employee_address": "444 Business Circle",
+    "employee_city_state_zip": "Jacksonville, FL 32099",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Chicago, IL 60601",
+    "pay_date": "05/26/2024",
+    "pay_period_start": "05/13/2024",
+    "pay_period_end": "05/19/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1620.20",
+    "gross_pay_current": "2638.03",
+    "net_pay_current": "1591.13",
+    "gross_pay_ytd": "52760.60",
+    "net_pay_ytd": "31822.60",
+    "total_deductions_current": "1046.90",
+    "federal_tax_withheld": "466.82",
+    "state_tax_withheld": "162.13",
+    "social_security_tax": "163.56",
+    "medicare_tax": "38.25",
+    "total_deductions_ytd": "20938.00",
+    "bonus_current": "1017.83",
+    "health_insurance": "216.14"
+  }
+}

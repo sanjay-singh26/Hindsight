@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0048",
+  "image_file": "ps_0048.png",
+  "layout_template": "compact",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Redwood Forest Products",
+      "display_value": "Redwood Forest Products",
+      "field_position": {
+        "x": 130,
+        "y": 25,
+        "width": 138,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "Joshua S. Mitchell",
+      "display_value": "Joshua S. Mitchell",
+      "field_position": {
+        "x": 118,
+        "y": 39,
+        "width": 108,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "400096",
+      "display_value": "400096",
+      "field_position": {
+        "x": 94,
+        "y": 53,
+        "width": 36,
+        "height": 6
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-4770",
+      "display_value": "***-**-4770",
+      "field_position": {
+        "x": 112,
+        "y": 67,
+        "width": 66,
+        "height": 6
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 84,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Fort Worth, TX 76101",
+      "display_value": "Fort Worth, TX 76101",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 120,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 96,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Las Vegas, NV 89101",
+      "display_value": "Las Vegas, NV 89101",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 114,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "12/04/2024",
+      "display_value": "12/04/2024",
+      "field_position": {
+        "x": 100,
+        "y": 137,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "11/16/2024",
+      "display_value": "11/16/2024",
+      "field_position": {
+        "x": 124,
+        "y": 151,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "11/30/2024",
+      "display_value": "11/30/2024",
+      "field_position": {
+        "x": 130,
+        "y": 165,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 130,
+        "y": 179,
+        "width": 72,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$3,605.93",
+      "display_value": "$3,605.93",
+      "field_position": {
+        "x": 756,
+        "y": 215,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$3,605.93",
+      "display_value": "$3,605.93",
+      "field_position": {
+        "x": 756,
+        "y": 235,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$79,330.46",
+      "display_value": "$79,330.46",
+      "field_position": {
+        "x": 750,
+        "y": 255,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$494.27",
+      "display_value": "$494.27",
+      "field_position": {
+        "x": 768,
+        "y": 297,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$203.55",
+      "display_value": "$203.55",
+      "field_position": {
+        "x": 768,
+        "y": 317,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$223.57",
+      "display_value": "$223.57",
+      "field_position": {
+        "x": 768,
+        "y": 337,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$52.29",
+      "display_value": "$52.29",
+      "field_position": {
+        "x": 774,
+        "y": 357,
+        "width": 36,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement Plan",
+      "extracted_value": "$293.04",
+      "display_value": "$293.04",
+      "field_position": {
+        "x": 768,
+        "y": 377,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$159.68",
+      "display_value": "$159.68",
+      "field_position": {
+        "x": 768,
+        "y": 397,
+        "width": 42,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,426.40",
+      "display_value": "$1,426.40",
+      "field_position": {
+        "x": 756,
+        "y": 417,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$31,380.80",
+      "display_value": "$31,380.80",
+      "field_position": {
+        "x": 750,
+        "y": 437,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$2,179.53",
+      "display_value": "$2,179.53",
+      "field_position": {
+        "x": 130,
+        "y": 465,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$47,949.66",
+      "display_value": "$47,949.66",
+      "field_position": {
+        "x": 94,
+        "y": 479,
+        "width": 60,
+        "height": 9
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Joshua S. Mitchell",
+    "employer_name": "Redwood Forest Products",
+    "employee_id": "400096",
+    "ssn_last4": "***-**-4770",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "Las Vegas, NV 89101",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Fort Worth, TX 76101",
+    "pay_date": "12/04/2024",
+    "pay_period_start": "11/16/2024",
+    "pay_period_end": "11/30/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3605.93",
+    "gross_pay_current": "3605.93",
+    "net_pay_current": "2179.53",
+    "gross_pay_ytd": "79330.46",
+    "net_pay_ytd": "47949.66",
+    "total_deductions_current": "1426.40",
+    "federal_tax_withheld": "494.27",
+    "state_tax_withheld": "203.55",
+    "social_security_tax": "223.57",
+    "medicare_tax": "52.29",
+    "total_deductions_ytd": "31380.80",
+    "retirement_401k": "293.04",
+    "health_insurance": "159.68"
+  }
+}

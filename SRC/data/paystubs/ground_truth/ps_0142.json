@@ -1,0 +1,333 @@
+{
+  "paystub_id": "ps_0142",
+  "image_file": "ps_0142.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "light_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Silverline Transport LLC",
+      "display_value": "Silverline Transport LLC",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 242,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 118,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Fresno, CA 93701",
+      "display_value": "Fresno, CA 93701",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 105,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Betty R. Jones",
+      "display_value": "Betty R. Jones",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 140,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "396020",
+      "display_value": "396020",
+      "field_position": {
+        "x": 94,
+        "y": 170,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-6090",
+      "display_value": "***-**-6090",
+      "field_position": {
+        "x": 109,
+        "y": 190,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 101,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City/State/Zip",
+      "extracted_value": "Philadelphia, PA 19101",
+      "display_value": "Philadelphia, PA 19101",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 138,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "06/20/2024",
+      "display_value": "06/20/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "06/10/2024",
+      "display_value": "06/10/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "06/16/2024",
+      "display_value": "06/16/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$1,081.61",
+      "display_value": "$1,081.61",
+      "field_position": {
+        "x": 741,
+        "y": 336,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$1,081.61",
+      "display_value": "$1,081.61",
+      "field_position": {
+        "x": 741,
+        "y": 356,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$25,958.64",
+      "display_value": "$25,958.64",
+      "field_position": {
+        "x": 733,
+        "y": 376,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$139.65",
+      "display_value": "$139.65",
+      "field_position": {
+        "x": 752,
+        "y": 433,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$56.35",
+      "display_value": "$56.35",
+      "field_position": {
+        "x": 759,
+        "y": 453,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$67.06",
+      "display_value": "$67.06",
+      "field_position": {
+        "x": 759,
+        "y": 473,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$15.68",
+      "display_value": "$15.68",
+      "field_position": {
+        "x": 759,
+        "y": 493,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$278.74",
+      "display_value": "$278.74",
+      "field_position": {
+        "x": 751,
+        "y": 513,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$6,689.76",
+      "display_value": "$6,689.76",
+      "field_position": {
+        "x": 741,
+        "y": 533,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$802.87",
+      "display_value": "$802.87",
+      "field_position": {
+        "x": 50,
+        "y": 606,
+        "width": 81,
+        "height": 18
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$19,268.88",
+      "display_value": "$19,268.88",
+      "field_position": {
+        "x": 50,
+        "y": 642,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Betty R. Jones",
+    "employer_name": "Silverline Transport LLC",
+    "employee_id": "396020",
+    "ssn_last4": "***-**-6090",
+    "employee_address": "852 Willow Place",
+    "employee_city_state_zip": "Philadelphia, PA 19101",
+    "employer_address": "666 Enterprise Blvd",
+    "employer_city_state_zip": "Fresno, CA 93701",
+    "pay_date": "06/20/2024",
+    "pay_period_start": "06/10/2024",
+    "pay_period_end": "06/16/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1081.61",
+    "gross_pay_current": "1081.61",
+    "net_pay_current": "802.87",
+    "gross_pay_ytd": "25958.64",
+    "net_pay_ytd": "19268.88",
+    "total_deductions_current": "278.74",
+    "federal_tax_withheld": "139.65",
+    "state_tax_withheld": "56.35",
+    "social_security_tax": "67.06",
+    "medicare_tax": "15.68",
+    "total_deductions_ytd": "6689.76"
+  }
+}

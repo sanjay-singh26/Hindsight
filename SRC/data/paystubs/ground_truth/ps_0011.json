@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0011",
+  "image_file": "ps_0011.png",
+  "layout_template": "side_by_side",
+  "noise_profile": "phone_photo",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Greenfield Agriculture Inc.",
+      "display_value": "Greenfield Agriculture Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 253,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 79,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Raleigh, NC 27601",
+      "display_value": "Raleigh, NC 27601",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Kimberly S. Nelson",
+      "display_value": "Kimberly S. Nelson",
+      "field_position": {
+        "x": 50,
+        "y": 139,
+        "width": 109,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "299122",
+      "display_value": "299122",
+      "field_position": {
+        "x": 50,
+        "y": 175,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-5861",
+      "display_value": "***-**-5861",
+      "field_position": {
+        "x": 50,
+        "y": 211,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 50,
+        "y": 231,
+        "width": 69,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 50,
+        "y": 246,
+        "width": 85,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "12/06/2024",
+      "display_value": "12/06/2024",
+      "field_position": {
+        "x": 50,
+        "y": 297,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "11/25/2024",
+      "display_value": "11/25/2024",
+      "field_position": {
+        "x": 50,
+        "y": 333,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "12/01/2024",
+      "display_value": "12/01/2024",
+      "field_position": {
+        "x": 50,
+        "y": 369,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 50,
+        "y": 405,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$675.86",
+      "display_value": "$675.86",
+      "field_position": {
+        "x": 753,
+        "y": 65,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$452.00",
+      "display_value": "$452.00",
+      "field_position": {
+        "x": 753,
+        "y": 85,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$1,127.86",
+      "display_value": "$1,127.86",
+      "field_position": {
+        "x": 743,
+        "y": 105,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$54,137.28",
+      "display_value": "$54,137.28",
+      "field_position": {
+        "x": 736,
+        "y": 125,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$134.09",
+      "display_value": "$134.09",
+      "field_position": {
+        "x": 753,
+        "y": 190,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$98.85",
+      "display_value": "$98.85",
+      "field_position": {
+        "x": 760,
+        "y": 210,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$69.93",
+      "display_value": "$69.93",
+      "field_position": {
+        "x": 760,
+        "y": 230,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$16.35",
+      "display_value": "$16.35",
+      "field_position": {
+        "x": 760,
+        "y": 250,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$48.51",
+      "display_value": "$48.51",
+      "field_position": {
+        "x": 760,
+        "y": 270,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$262.31",
+      "display_value": "$262.31",
+      "field_position": {
+        "x": 753,
+        "y": 290,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$630.04",
+      "display_value": "$630.04",
+      "field_position": {
+        "x": 752,
+        "y": 310,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$30,241.92",
+      "display_value": "$30,241.92",
+      "field_position": {
+        "x": 736,
+        "y": 330,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$497.82",
+      "display_value": "$497.82",
+      "field_position": {
+        "x": 430,
+        "y": 411,
+        "width": 80,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$23,895.36",
+      "display_value": "$23,895.36",
+      "field_position": {
+        "x": 430,
+        "y": 456,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kimberly S. Nelson",
+    "employer_name": "Greenfield Agriculture Inc.",
+    "employee_id": "299122",
+    "ssn_last4": "***-**-5861",
+    "employee_address": "147 Birch Court",
+    "employee_city_state_zip": "Houston, TX 77001",
+    "employer_address": "777 Market Street",
+    "employer_city_state_zip": "Raleigh, NC 27601",
+    "pay_date": "12/06/2024",
+    "pay_period_start": "11/25/2024",
+    "pay_period_end": "12/01/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "675.86",
+    "gross_pay_current": "1127.86",
+    "net_pay_current": "497.82",
+    "gross_pay_ytd": "54137.28",
+    "net_pay_ytd": "23895.36",
+    "total_deductions_current": "630.04",
+    "federal_tax_withheld": "134.09",
+    "state_tax_withheld": "98.85",
+    "social_security_tax": "69.93",
+    "medicare_tax": "16.35",
+    "total_deductions_ytd": "30241.92",
+    "overtime_pay_current": "452.00",
+    "retirement_401k": "48.51",
+    "health_insurance": "262.31"
+  }
+}

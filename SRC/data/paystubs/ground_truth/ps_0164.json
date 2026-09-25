@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0164",
+  "image_file": "ps_0164.png",
+  "layout_template": "wide_format",
+  "noise_profile": "light_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Redwood Forest Products",
+      "display_value": "Redwood Forest Products",
+      "field_position": {
+        "x": 40,
+        "y": 30,
+        "width": 253,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Business Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 400,
+        "y": 30,
+        "width": 65,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 400,
+        "y": 44,
+        "width": 80,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Karen J. Martin",
+      "display_value": "Karen J. Martin",
+      "field_position": {
+        "x": 40,
+        "y": 84,
+        "width": 88,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "615500",
+      "display_value": "615500",
+      "field_position": {
+        "x": 260,
+        "y": 84,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-2609",
+      "display_value": "***-**-2609",
+      "field_position": {
+        "x": 440,
+        "y": 84,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "05/21/2024",
+      "display_value": "05/21/2024",
+      "field_position": {
+        "x": 590,
+        "y": 84,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Home Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 40,
+        "y": 116,
+        "width": 93,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 260,
+        "y": 116,
+        "width": 97,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "05/01/2024",
+      "display_value": "05/01/2024",
+      "field_position": {
+        "x": 490,
+        "y": 116,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "05/15/2024",
+      "display_value": "05/15/2024",
+      "field_position": {
+        "x": 640,
+        "y": 116,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 40,
+        "y": 148,
+        "width": 79,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$3,518.67",
+      "display_value": "$3,518.67",
+      "field_position": {
+        "x": 533,
+        "y": 200,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$409.20",
+      "display_value": "$409.20",
+      "field_position": {
+        "x": 543,
+        "y": 220,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$3,927.87",
+      "display_value": "$3,927.87",
+      "field_position": {
+        "x": 533,
+        "y": 245,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$35,350.83",
+      "display_value": "$35,350.83",
+      "field_position": {
+        "x": 726,
+        "y": 245,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$584.70",
+      "display_value": "$584.70",
+      "field_position": {
+        "x": 543,
+        "y": 310,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Withholding",
+      "extracted_value": "$232.01",
+      "display_value": "$232.01",
+      "field_position": {
+        "x": 543,
+        "y": 330,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$243.53",
+      "display_value": "$243.53",
+      "field_position": {
+        "x": 543,
+        "y": 350,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$56.95",
+      "display_value": "$56.95",
+      "field_position": {
+        "x": 550,
+        "y": 370,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$220.64",
+      "display_value": "$220.64",
+      "field_position": {
+        "x": 542,
+        "y": 390,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$293.70",
+      "display_value": "$293.70",
+      "field_position": {
+        "x": 543,
+        "y": 410,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$1,631.53",
+      "display_value": "$1,631.53",
+      "field_position": {
+        "x": 533,
+        "y": 435,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$14,683.77",
+      "display_value": "$14,683.77",
+      "field_position": {
+        "x": 726,
+        "y": 435,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$2,296.34",
+      "display_value": "$2,296.34",
+      "field_position": {
+        "x": 493,
+        "y": 479,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$20,667.06",
+      "display_value": "$20,667.06",
+      "field_position": {
+        "x": 681,
+        "y": 479,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Karen J. Martin",
+    "employer_name": "Redwood Forest Products",
+    "employee_id": "615500",
+    "ssn_last4": "***-**-2609",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "Dallas, TX 75201",
+    "employer_address": "741 Ash Street",
+    "employer_city_state_zip": "Tucson, AZ 85701",
+    "pay_date": "05/21/2024",
+    "pay_period_start": "05/01/2024",
+    "pay_period_end": "05/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3518.67",
+    "gross_pay_current": "3927.87",
+    "net_pay_current": "2296.34",
+    "gross_pay_ytd": "35350.83",
+    "net_pay_ytd": "20667.06",
+    "total_deductions_current": "1631.53",
+    "federal_tax_withheld": "584.70",
+    "state_tax_withheld": "232.01",
+    "social_security_tax": "243.53",
+    "medicare_tax": "56.95",
+    "total_deductions_ytd": "14683.77",
+    "overtime_pay_current": "409.20",
+    "retirement_401k": "220.64",
+    "health_insurance": "293.70"
+  }
+}

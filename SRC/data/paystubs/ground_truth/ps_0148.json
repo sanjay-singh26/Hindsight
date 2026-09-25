@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0148",
+  "image_file": "ps_0148.png",
+  "layout_template": "minimal",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Pacific Coast Logistics",
+      "display_value": "Pacific Coast Logistics",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 221,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Michelle E. Lewis",
+      "display_value": "Michelle E. Lewis",
+      "field_position": {
+        "x": 679,
+        "y": 85,
+        "width": 101,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "988432",
+      "display_value": "988432",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 35,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-6432",
+      "display_value": "***-**-6432",
+      "field_position": {
+        "x": 135,
+        "y": 85,
+        "width": 57,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 100,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Houston, TX 77001",
+      "display_value": "Houston, TX 77001",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 88,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 67,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "09/28/2024",
+      "display_value": "09/28/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "09/09/2024",
+      "display_value": "09/09/2024",
+      "field_position": {
+        "x": 163,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "09/22/2024",
+      "display_value": "09/22/2024",
+      "field_position": {
+        "x": 256,
+        "y": 151,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 349,
+        "y": 151,
+        "width": 46,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$3,998.14",
+      "display_value": "$3,998.14",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$120.64",
+      "display_value": "$120.64",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 49,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$497.29",
+      "display_value": "$497.29",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$176.63",
+      "display_value": "$176.63",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$255.36",
+      "display_value": "$255.36",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$59.72",
+      "display_value": "$59.72",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$204.25",
+      "display_value": "$204.25",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$4,118.78",
+      "display_value": "$4,118.78",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,193.25",
+      "display_value": "$1,193.25",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$2,925.53",
+      "display_value": "$2,925.53",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$78,256.82",
+      "display_value": "$78,256.82",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$22,671.75",
+      "display_value": "$22,671.75",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$55,585.07",
+      "display_value": "$55,585.07",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 66,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michelle E. Lewis",
+    "employer_name": "Pacific Coast Logistics",
+    "employee_id": "988432",
+    "ssn_last4": "***-**-6432",
+    "employee_address": "321 Pine Road",
+    "employee_city_state_zip": "Chicago, IL 60601",
+    "employer_address": "333 Technology Drive",
+    "employer_city_state_zip": "Houston, TX 77001",
+    "pay_date": "09/28/2024",
+    "pay_period_start": "09/09/2024",
+    "pay_period_end": "09/22/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "3998.14",
+    "gross_pay_current": "4118.78",
+    "net_pay_current": "2925.53",
+    "gross_pay_ytd": "78256.82",
+    "net_pay_ytd": "55585.07",
+    "total_deductions_current": "1193.25",
+    "federal_tax_withheld": "497.29",
+    "state_tax_withheld": "176.63",
+    "social_security_tax": "255.36",
+    "medicare_tax": "59.72",
+    "total_deductions_ytd": "22671.75",
+    "overtime_pay_current": "120.64",
+    "retirement_401k": "204.25"
+  }
+}

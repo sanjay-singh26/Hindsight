@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0099",
+  "image_file": "ps_0099.png",
+  "layout_template": "retail",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Northgate Distribution Co.",
+      "display_value": "Northgate Distribution Co.",
+      "field_position": {
+        "x": 297,
+        "y": 40,
+        "width": 255,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 389,
+        "y": 75,
+        "width": 72,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Miami, FL 33101",
+      "display_value": "Miami, FL 33101",
+      "field_position": {
+        "x": 388,
+        "y": 89,
+        "width": 74,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "Dorothy T. Lewis",
+      "display_value": "Dorothy T. Lewis",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 95,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "479358",
+      "display_value": "479358",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-2279",
+      "display_value": "***-**-2279",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "777 Market Street",
+      "display_value": "777 Market Street",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 103,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "San Diego, CA 92101",
+      "display_value": "San Diego, CA 92101",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 121,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Check Date",
+      "extracted_value": "09/29/2024",
+      "display_value": "09/29/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "09/09/2024",
+      "display_value": "09/09/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "09/22/2024",
+      "display_value": "09/22/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,672.57",
+      "display_value": "$1,672.57",
+      "field_position": {
+        "x": 733,
+        "y": 471,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$464.24",
+      "display_value": "$464.24",
+      "field_position": {
+        "x": 742,
+        "y": 493,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$569.72",
+      "display_value": "$569.72",
+      "field_position": {
+        "x": 743,
+        "y": 515,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,706.53",
+      "display_value": "$2,706.53",
+      "field_position": {
+        "x": 733,
+        "y": 537,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$51,424.07",
+      "display_value": "$51,424.07",
+      "field_position": {
+        "x": 726,
+        "y": 559,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$460.05",
+      "display_value": "$460.05",
+      "field_position": {
+        "x": 743,
+        "y": 613,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$95.96",
+      "display_value": "$95.96",
+      "field_position": {
+        "x": 750,
+        "y": 635,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$167.80",
+      "display_value": "$167.80",
+      "field_position": {
+        "x": 743,
+        "y": 657,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$39.24",
+      "display_value": "$39.24",
+      "field_position": {
+        "x": 749,
+        "y": 679,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$234.41",
+      "display_value": "$234.41",
+      "field_position": {
+        "x": 743,
+        "y": 701,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$218.58",
+      "display_value": "$218.58",
+      "field_position": {
+        "x": 743,
+        "y": 723,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,216.04",
+      "display_value": "$1,216.04",
+      "field_position": {
+        "x": 732,
+        "y": 745,
+        "width": 58,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$23,104.76",
+      "display_value": "$23,104.76",
+      "field_position": {
+        "x": 726,
+        "y": 767,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,490.49",
+      "display_value": "$1,490.49",
+      "field_position": {
+        "x": 693,
+        "y": 804,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$28,319.31",
+      "display_value": "$28,319.31",
+      "field_position": {
+        "x": 681,
+        "y": 834,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Dorothy T. Lewis",
+    "employer_name": "Northgate Distribution Co.",
+    "employee_id": "479358",
+    "ssn_last4": "***-**-2279",
+    "employee_address": "777 Market Street",
+    "employee_city_state_zip": "San Diego, CA 92101",
+    "employer_address": "456 Oak Avenue",
+    "employer_city_state_zip": "Miami, FL 33101",
+    "pay_date": "09/29/2024",
+    "pay_period_start": "09/09/2024",
+    "pay_period_end": "09/22/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1672.57",
+    "gross_pay_current": "2706.53",
+    "net_pay_current": "1490.49",
+    "gross_pay_ytd": "51424.07",
+    "net_pay_ytd": "28319.31",
+    "total_deductions_current": "1216.04",
+    "federal_tax_withheld": "460.05",
+    "state_tax_withheld": "95.96",
+    "social_security_tax": "167.80",
+    "medicare_tax": "39.24",
+    "total_deductions_ytd": "23104.76",
+    "overtime_pay_current": "464.24",
+    "bonus_current": "569.72",
+    "retirement_401k": "234.41",
+    "health_insurance": "218.58"
+  }
+}

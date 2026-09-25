@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0158",
+  "image_file": "ps_0158.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "heavy_scan",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Business Name",
+      "extracted_value": "Magnolia Hospitality Inc.",
+      "display_value": "Magnolia Hospitality Inc.",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 250,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 76,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Baltimore, MD 21201",
+      "display_value": "Baltimore, MD 21201",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 98,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Worker Name",
+      "extracted_value": "George J. Wright",
+      "display_value": "George J. Wright",
+      "field_position": {
+        "x": 144,
+        "y": 113,
+        "width": 99,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "395198",
+      "display_value": "395198",
+      "field_position": {
+        "x": 127,
+        "y": 133,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Social Security",
+      "extracted_value": "***-**-5872",
+      "display_value": "***-**-5872",
+      "field_position": {
+        "x": 147,
+        "y": 153,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 76,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "San Antonio, TX 78201",
+      "display_value": "San Antonio, TX 78201",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 104,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "04/03/2024",
+      "display_value": "04/03/2024",
+      "field_position": {
+        "x": 96,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "From",
+      "extracted_value": "03/01/2024",
+      "display_value": "03/01/2024",
+      "field_position": {
+        "x": 280,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "03/31/2024",
+      "display_value": "03/31/2024",
+      "field_position": {
+        "x": 506,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 699,
+        "y": 211,
+        "width": 39,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$5,206.22",
+      "display_value": "$5,206.22",
+      "field_position": {
+        "x": 741,
+        "y": 271,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$306.18",
+      "display_value": "$306.18",
+      "field_position": {
+        "x": 752,
+        "y": 291,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$5,512.40",
+      "display_value": "$5,512.40",
+      "field_position": {
+        "x": 741,
+        "y": 316,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$16,537.20",
+      "display_value": "$16,537.20",
+      "field_position": {
+        "x": 734,
+        "y": 336,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$948.28",
+      "display_value": "$948.28",
+      "field_position": {
+        "x": 752,
+        "y": 401,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$231.41",
+      "display_value": "$231.41",
+      "field_position": {
+        "x": 752,
+        "y": 421,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$341.77",
+      "display_value": "$341.77",
+      "field_position": {
+        "x": 752,
+        "y": 441,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$79.93",
+      "display_value": "$79.93",
+      "field_position": {
+        "x": 759,
+        "y": 461,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k Deduction",
+      "extracted_value": "$231.29",
+      "display_value": "$231.29",
+      "field_position": {
+        "x": 752,
+        "y": 481,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Insurance",
+      "extracted_value": "$102.12",
+      "display_value": "$102.12",
+      "field_position": {
+        "x": 752,
+        "y": 501,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$1,934.80",
+      "display_value": "$1,934.80",
+      "field_position": {
+        "x": 741,
+        "y": 521,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$5,804.40",
+      "display_value": "$5,804.40",
+      "field_position": {
+        "x": 741,
+        "y": 541,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Check Amount",
+      "extracted_value": "$3,577.60",
+      "display_value": "$3,577.60",
+      "field_position": {
+        "x": 50,
+        "y": 602,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$10,732.80",
+      "display_value": "$10,732.80",
+      "field_position": {
+        "x": 50,
+        "y": 638,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "George J. Wright",
+    "employer_name": "Magnolia Hospitality Inc.",
+    "employee_id": "395198",
+    "ssn_last4": "***-**-5872",
+    "employee_address": "258 Walnut Way",
+    "employee_city_state_zip": "San Antonio, TX 78201",
+    "employer_address": "456 Oak Avenue",
+    "employer_city_state_zip": "Baltimore, MD 21201",
+    "pay_date": "04/03/2024",
+    "pay_period_start": "03/01/2024",
+    "pay_period_end": "03/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "5206.22",
+    "gross_pay_current": "5512.40",
+    "net_pay_current": "3577.60",
+    "gross_pay_ytd": "16537.20",
+    "net_pay_ytd": "10732.80",
+    "total_deductions_current": "1934.80",
+    "federal_tax_withheld": "948.28",
+    "state_tax_withheld": "231.41",
+    "social_security_tax": "341.77",
+    "medicare_tax": "79.93",
+    "total_deductions_ytd": "5804.40",
+    "overtime_pay_current": "306.18",
+    "retirement_401k": "231.29",
+    "health_insurance": "102.12"
+  }
+}

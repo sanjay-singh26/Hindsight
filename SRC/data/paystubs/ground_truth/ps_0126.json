@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0126",
+  "image_file": "ps_0126.png",
+  "layout_template": "government",
+  "noise_profile": "heavy_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Metro Construction LLC",
+      "display_value": "Metro Construction LLC",
+      "field_position": {
+        "x": 114,
+        "y": 75,
+        "width": 146,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 167,
+        "y": 95,
+        "width": 105,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Tucson, AZ 85701",
+      "display_value": "Tucson, AZ 85701",
+      "field_position": {
+        "x": 168,
+        "y": 115,
+        "width": 105,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Michelle W. Lopez",
+      "display_value": "Michelle W. Lopez",
+      "field_position": {
+        "x": 92,
+        "y": 143,
+        "width": 112,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "613426",
+      "display_value": "613426",
+      "field_position": {
+        "x": 132,
+        "y": 163,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-5732",
+      "display_value": "***-**-5732",
+      "field_position": {
+        "x": 81,
+        "y": 183,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 106,
+        "y": 203,
+        "width": 99,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City State Zip",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 137,
+        "y": 223,
+        "width": 139,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "06/12/2024",
+      "display_value": "06/12/2024",
+      "field_position": {
+        "x": 141,
+        "y": 251,
+        "width": 67,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "06/03/2024",
+      "display_value": "06/03/2024",
+      "field_position": {
+        "x": 328,
+        "y": 251,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "06/09/2024",
+      "display_value": "06/09/2024",
+      "field_position": {
+        "x": 509,
+        "y": 251,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 729,
+        "y": 251,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$1,415.67",
+      "display_value": "$1,415.67",
+      "field_position": {
+        "x": 748,
+        "y": 309,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$368.76",
+      "display_value": "$368.76",
+      "field_position": {
+        "x": 754,
+        "y": 329,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$1,784.43",
+      "display_value": "$1,784.43",
+      "field_position": {
+        "x": 745,
+        "y": 349,
+        "width": 55,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$41,041.89",
+      "display_value": "$41,041.89",
+      "field_position": {
+        "x": 740,
+        "y": 369,
+        "width": 60,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$318.29",
+      "display_value": "$318.29",
+      "field_position": {
+        "x": 756,
+        "y": 427,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$97.34",
+      "display_value": "$97.34",
+      "field_position": {
+        "x": 760,
+        "y": 447,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$110.63",
+      "display_value": "$110.63",
+      "field_position": {
+        "x": 757,
+        "y": 467,
+        "width": 43,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$25.87",
+      "display_value": "$25.87",
+      "field_position": {
+        "x": 761,
+        "y": 487,
+        "width": 39,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$142.24",
+      "display_value": "$142.24",
+      "field_position": {
+        "x": 755,
+        "y": 507,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$125.16",
+      "display_value": "$125.16",
+      "field_position": {
+        "x": 758,
+        "y": 527,
+        "width": 42,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Current Deductions",
+      "extracted_value": "$819.53",
+      "display_value": "$819.53",
+      "field_position": {
+        "x": 756,
+        "y": 547,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$18,849.19",
+      "display_value": "$18,849.19",
+      "field_position": {
+        "x": 740,
+        "y": 567,
+        "width": 60,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Take Home Pay",
+      "extracted_value": "$964.90",
+      "display_value": "$964.90",
+      "field_position": {
+        "x": 151,
+        "y": 602,
+        "width": 80,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$22,192.70",
+      "display_value": "$22,192.70",
+      "field_position": {
+        "x": 108,
+        "y": 632,
+        "width": 104,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Michelle W. Lopez",
+    "employer_name": "Metro Construction LLC",
+    "employee_id": "613426",
+    "ssn_last4": "***-**-5732",
+    "employee_address": "654 Maple Drive",
+    "employee_city_state_zip": "Jacksonville, FL 32099",
+    "employer_address": "852 Willow Place",
+    "employer_city_state_zip": "Tucson, AZ 85701",
+    "pay_date": "06/12/2024",
+    "pay_period_start": "06/03/2024",
+    "pay_period_end": "06/09/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1415.67",
+    "gross_pay_current": "1784.43",
+    "net_pay_current": "964.90",
+    "gross_pay_ytd": "41041.89",
+    "net_pay_ytd": "22192.70",
+    "total_deductions_current": "819.53",
+    "federal_tax_withheld": "318.29",
+    "state_tax_withheld": "97.34",
+    "social_security_tax": "110.63",
+    "medicare_tax": "25.87",
+    "total_deductions_ytd": "18849.19",
+    "overtime_pay_current": "368.76",
+    "retirement_401k": "142.24",
+    "health_insurance": "125.16"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0022",
+  "image_file": "ps_0022.png",
+  "layout_template": "detailed_stub",
+  "noise_profile": "heavy_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Coastal Energy Corp.",
+      "display_value": "Coastal Energy Corp.",
+      "field_position": {
+        "x": 50,
+        "y": 44,
+        "width": 205,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "258 Walnut Way",
+      "display_value": "258 Walnut Way",
+      "field_position": {
+        "x": 50,
+        "y": 72,
+        "width": 93,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Jacksonville, FL 32099",
+      "display_value": "Jacksonville, FL 32099",
+      "field_position": {
+        "x": 50,
+        "y": 90,
+        "width": 131,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Matthew N. Young",
+      "display_value": "Matthew N. Young",
+      "field_position": {
+        "x": 50,
+        "y": 142,
+        "width": 180,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "254739",
+      "display_value": "254739",
+      "field_position": {
+        "x": 98,
+        "y": 170,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-1090",
+      "display_value": "***-**-1090",
+      "field_position": {
+        "x": 79,
+        "y": 190,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 50,
+        "y": 210,
+        "width": 84,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Albuquerque, NM 87101",
+      "display_value": "Albuquerque, NM 87101",
+      "field_position": {
+        "x": 50,
+        "y": 228,
+        "width": 140,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Pay Date",
+      "extracted_value": "02/07/2024",
+      "display_value": "02/07/2024",
+      "field_position": {
+        "x": 50,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "01/01/2024",
+      "display_value": "01/01/2024",
+      "field_position": {
+        "x": 240,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "01/31/2024",
+      "display_value": "01/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 280,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Monthly",
+      "display_value": "Monthly",
+      "field_position": {
+        "x": 620,
+        "y": 280,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Earnings",
+      "extracted_value": "$4,368.99",
+      "display_value": "$4,368.99",
+      "field_position": {
+        "x": 743,
+        "y": 336,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$4,368.99",
+      "display_value": "$4,368.99",
+      "field_position": {
+        "x": 743,
+        "y": 356,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$4,368.99",
+      "display_value": "$4,368.99",
+      "field_position": {
+        "x": 743,
+        "y": 376,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$857.06",
+      "display_value": "$857.06",
+      "field_position": {
+        "x": 753,
+        "y": 433,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$306.07",
+      "display_value": "$306.07",
+      "field_position": {
+        "x": 753,
+        "y": 453,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$270.88",
+      "display_value": "$270.88",
+      "field_position": {
+        "x": 753,
+        "y": 473,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare Tax",
+      "extracted_value": "$63.35",
+      "display_value": "$63.35",
+      "field_position": {
+        "x": 760,
+        "y": 493,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$336.51",
+      "display_value": "$336.51",
+      "field_position": {
+        "x": 753,
+        "y": 513,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Deductions",
+      "extracted_value": "$1,833.87",
+      "display_value": "$1,833.87",
+      "field_position": {
+        "x": 743,
+        "y": 533,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$1,833.87",
+      "display_value": "$1,833.87",
+      "field_position": {
+        "x": 743,
+        "y": 553,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$2,535.12",
+      "display_value": "$2,535.12",
+      "field_position": {
+        "x": 50,
+        "y": 626,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$2,535.12",
+      "display_value": "$2,535.12",
+      "field_position": {
+        "x": 50,
+        "y": 662,
+        "width": 97,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Matthew N. Young",
+    "employer_name": "Coastal Energy Corp.",
+    "employee_id": "254739",
+    "ssn_last4": "***-**-1090",
+    "employee_address": "321 Pine Road",
+    "employee_city_state_zip": "Albuquerque, NM 87101",
+    "employer_address": "258 Walnut Way",
+    "employer_city_state_zip": "Jacksonville, FL 32099",
+    "pay_date": "02/07/2024",
+    "pay_period_start": "01/01/2024",
+    "pay_period_end": "01/31/2024",
+    "pay_frequency": "Monthly",
+    "regular_pay_current": "4368.99",
+    "gross_pay_current": "4368.99",
+    "net_pay_current": "2535.12",
+    "gross_pay_ytd": "4368.99",
+    "net_pay_ytd": "2535.12",
+    "total_deductions_current": "1833.87",
+    "federal_tax_withheld": "857.06",
+    "state_tax_withheld": "306.07",
+    "social_security_tax": "270.88",
+    "medicare_tax": "63.35",
+    "total_deductions_ytd": "1833.87",
+    "health_insurance": "336.51"
+  }
+}

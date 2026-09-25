@@ -1,0 +1,650 @@
+{
+  "CUAD": {
+    "haiku": {
+      "point": {
+        "n_gt": 750,
+        "n_pred": 750,
+        "n_recovered": 750,
+        "n_joint_correct": 559,
+        "n_misbindings": 191,
+        "n_duplicates": 0,
+        "rec_val": 1.0,
+        "cba_cond": 0.745333,
+        "acc_joint": 0.745333,
+        "delta": 0.254667,
+        "precision": 0.745333,
+        "dup_rate": 0.0,
+        "f1_joint": 0.745333
+      },
+      "ci": {
+        "rec_val_ci": [
+          1.0,
+          1.0
+        ],
+        "cba_cond_ci": [
+          0.72,
+          0.772
+        ],
+        "acc_joint_ci": [
+          0.72,
+          0.772
+        ],
+        "delta_ci": [
+          0.22799999999999998,
+          0.28
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 750,
+        "n_pred": 750,
+        "n_recovered": 750,
+        "n_joint_correct": 500,
+        "n_misbindings": 250,
+        "n_duplicates": 0,
+        "rec_val": 1.0,
+        "cba_cond": 0.666667,
+        "acc_joint": 0.666667,
+        "delta": 0.333333,
+        "precision": 0.666667,
+        "dup_rate": 0.0,
+        "f1_joint": 0.666667
+      },
+      "ci": {
+        "rec_val_ci": [
+          1.0,
+          1.0
+        ],
+        "cba_cond_ci": [
+          0.6373333333333333,
+          0.696
+        ],
+        "acc_joint_ci": [
+          0.6373333333333333,
+          0.696
+        ],
+        "delta_ci": [
+          0.30400000000000005,
+          0.3626666666666667
+        ]
+      }
+    }
+  },
+  "LEDGAR": {
+    "haiku": {
+      "point": {
+        "n_gt": 750,
+        "n_pred": 750,
+        "n_recovered": 750,
+        "n_joint_correct": 586,
+        "n_misbindings": 164,
+        "n_duplicates": 0,
+        "rec_val": 1.0,
+        "cba_cond": 0.781333,
+        "acc_joint": 0.781333,
+        "delta": 0.218667,
+        "precision": 0.781333,
+        "dup_rate": 0.0,
+        "f1_joint": 0.781333
+      },
+      "ci": {
+        "rec_val_ci": [
+          1.0,
+          1.0
+        ],
+        "cba_cond_ci": [
+          0.7533333333333333,
+          0.8093333333333333
+        ],
+        "acc_joint_ci": [
+          0.7533333333333333,
+          0.8093333333333333
+        ],
+        "delta_ci": [
+          0.19066666666666665,
+          0.2466666666666667
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 750,
+        "n_pred": 750,
+        "n_recovered": 750,
+        "n_joint_correct": 563,
+        "n_misbindings": 187,
+        "n_duplicates": 0,
+        "rec_val": 1.0,
+        "cba_cond": 0.750667,
+        "acc_joint": 0.750667,
+        "delta": 0.249333,
+        "precision": 0.750667,
+        "dup_rate": 0.0,
+        "f1_joint": 0.750667
+      },
+      "ci": {
+        "rec_val_ci": [
+          1.0,
+          1.0
+        ],
+        "cba_cond_ci": [
+          0.7186666666666667,
+          0.7813333333333333
+        ],
+        "acc_joint_ci": [
+          0.7186666666666667,
+          0.7813333333333333
+        ],
+        "delta_ci": [
+          0.21866666666666668,
+          0.2813333333333333
+        ]
+      }
+    }
+  },
+  "SROIE": {
+    "haiku": {
+      "point": {
+        "n_gt": 200,
+        "n_pred": 636,
+        "n_recovered": 119,
+        "n_joint_correct": 118,
+        "n_misbindings": 1,
+        "n_duplicates": 24,
+        "rec_val": 0.595,
+        "cba_cond": 0.991597,
+        "acc_joint": 0.59,
+        "delta": 0.005,
+        "precision": 0.185535,
+        "dup_rate": 0.037736,
+        "f1_joint": 0.282297
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.545,
+          0.645
+        ],
+        "cba_cond_ci": [
+          0.9739130434782609,
+          1.0
+        ],
+        "acc_joint_ci": [
+          0.54,
+          0.64
+        ],
+        "delta_ci": [
+          0.0,
+          0.015000000000000013
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 200,
+        "n_pred": 632,
+        "n_recovered": 123,
+        "n_joint_correct": 122,
+        "n_misbindings": 1,
+        "n_duplicates": 35,
+        "rec_val": 0.615,
+        "cba_cond": 0.99187,
+        "acc_joint": 0.61,
+        "delta": 0.005,
+        "precision": 0.193038,
+        "dup_rate": 0.05538,
+        "f1_joint": 0.293269
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.565,
+          0.665
+        ],
+        "cba_cond_ci": [
+          0.9743589743589743,
+          1.0
+        ],
+        "acc_joint_ci": [
+          0.555,
+          0.665
+        ],
+        "delta_ci": [
+          0.0,
+          0.015000000000000013
+        ]
+      }
+    }
+  },
+  "CORD": {
+    "haiku": {
+      "point": {
+        "n_gt": 363,
+        "n_pred": 424,
+        "n_recovered": 328,
+        "n_joint_correct": 312,
+        "n_misbindings": 16,
+        "n_duplicates": 24,
+        "rec_val": 0.903581,
+        "cba_cond": 0.95122,
+        "acc_joint": 0.859504,
+        "delta": 0.044077,
+        "precision": 0.735849,
+        "dup_rate": 0.056604,
+        "f1_joint": 0.792884
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.868421052631579,
+          0.9368131868131868
+        ],
+        "cba_cond_ci": [
+          0.9261538461538461,
+          0.9727272727272728
+        ],
+        "acc_joint_ci": [
+          0.8174386920980926,
+          0.8980716253443527
+        ],
+        "delta_ci": [
+          0.024793388429752095,
+          0.06648936170212771
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 363,
+        "n_pred": 305,
+        "n_recovered": 279,
+        "n_joint_correct": 270,
+        "n_misbindings": 9,
+        "n_duplicates": 4,
+        "rec_val": 0.768595,
+        "cba_cond": 0.967742,
+        "acc_joint": 0.743802,
+        "delta": 0.024793,
+        "precision": 0.885246,
+        "dup_rate": 0.013115,
+        "f1_joint": 0.808383
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.7257617728531855,
+          0.8097826086956522
+        ],
+        "cba_cond_ci": [
+          0.9466192170818505,
+          0.9857651245551602
+        ],
+        "acc_joint_ci": [
+          0.7018970189701896,
+          0.7841530054644809
+        ],
+        "delta_ci": [
+          0.010810810810810811,
+          0.04155124653739606
+        ]
+      }
+    }
+  },
+  "W-2": {
+    "haiku": {
+      "point": {
+        "n_gt": 1900,
+        "n_pred": 1279,
+        "n_recovered": 784,
+        "n_joint_correct": 590,
+        "n_misbindings": 194,
+        "n_duplicates": 46,
+        "rec_val": 0.412632,
+        "cba_cond": 0.752551,
+        "acc_joint": 0.310526,
+        "delta": 0.102105,
+        "precision": 0.461298,
+        "dup_rate": 0.035966,
+        "f1_joint": 0.371186
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.38,
+          0.4468421052631579
+        ],
+        "cba_cond_ci": [
+          0.7055961070559611,
+          0.7981530343007915
+        ],
+        "acc_joint_ci": [
+          0.27421052631578946,
+          0.34842105263157896
+        ],
+        "delta_ci": [
+          0.08473684210526317,
+          0.12
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 1900,
+        "n_pred": 1583,
+        "n_recovered": 1065,
+        "n_joint_correct": 950,
+        "n_misbindings": 115,
+        "n_duplicates": 10,
+        "rec_val": 0.560526,
+        "cba_cond": 0.892019,
+        "acc_joint": 0.5,
+        "delta": 0.060526,
+        "precision": 0.600126,
+        "dup_rate": 0.006317,
+        "f1_joint": 0.545507
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.5421052631578948,
+          0.578421052631579
+        ],
+        "cba_cond_ci": [
+          0.8669201520912547,
+          0.9152380952380952
+        ],
+        "acc_joint_ci": [
+          0.4768421052631579,
+          0.5226315789473683
+        ],
+        "delta_ci": [
+          0.04789473684210521,
+          0.0742105263157895
+        ]
+      }
+    }
+  },
+  "VRDU Reg.": {
+    "haiku": {
+      "point": {
+        "n_gt": 230,
+        "n_pred": 252,
+        "n_recovered": 178,
+        "n_joint_correct": 177,
+        "n_misbindings": 1,
+        "n_duplicates": 3,
+        "rec_val": 0.773913,
+        "cba_cond": 0.994382,
+        "acc_joint": 0.769565,
+        "delta": 0.004348,
+        "precision": 0.702381,
+        "dup_rate": 0.011905,
+        "f1_joint": 0.73444
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.7071129707112971,
+          0.8369098712446352
+        ],
+        "cba_cond_ci": [
+          0.9814814814814815,
+          1.0
+        ],
+        "acc_joint_ci": [
+          0.7012987012987013,
+          0.8340807174887892
+        ],
+        "delta_ci": [
+          0.0,
+          0.013636363636363669
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 230,
+        "n_pred": 259,
+        "n_recovered": 170,
+        "n_joint_correct": 170,
+        "n_misbindings": 0,
+        "n_duplicates": 1,
+        "rec_val": 0.73913,
+        "cba_cond": 1.0,
+        "acc_joint": 0.73913,
+        "delta": 0.0,
+        "precision": 0.656371,
+        "dup_rate": 0.003861,
+        "f1_joint": 0.695297
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.6763485477178424,
+          0.8008658008658008
+        ],
+        "cba_cond_ci": [
+          1.0,
+          1.0
+        ],
+        "acc_joint_ci": [
+          0.6763485477178424,
+          0.8008658008658008
+        ],
+        "delta_ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "VRDU Ad-buy": {
+    "haiku": {
+      "point": {
+        "n_gt": 395,
+        "n_pred": 437,
+        "n_recovered": 306,
+        "n_joint_correct": 306,
+        "n_misbindings": 0,
+        "n_duplicates": 1,
+        "rec_val": 0.774684,
+        "cba_cond": 1.0,
+        "acc_joint": 0.774684,
+        "delta": 0.0,
+        "precision": 0.700229,
+        "dup_rate": 0.002288,
+        "f1_joint": 0.735577
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.7066326530612245,
+          0.8350253807106599
+        ],
+        "cba_cond_ci": [
+          1.0,
+          1.0
+        ],
+        "acc_joint_ci": [
+          0.7066326530612245,
+          0.8350253807106599
+        ],
+        "delta_ci": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 395,
+        "n_pred": 434,
+        "n_recovered": 254,
+        "n_joint_correct": 254,
+        "n_misbindings": 0,
+        "n_duplicates": 1,
+        "rec_val": 0.643038,
+        "cba_cond": 1.0,
+        "acc_joint": 0.643038,
+        "delta": 0.0,
+        "precision": 0.585253,
+        "dup_rate": 0.002304,
+        "f1_joint": 0.612786
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.5778894472361809,
+          0.707196029776675
+        ],
+        "cba_cond_ci": [
+          1.0,
+          1.0
+        ],
+        "acc_joint_ci": [
+          0.5778894472361809,
+          0.707196029776675
+        ],
+        "delta_ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "GST": {
+    "haiku": {
+      "point": {
+        "n_gt": 554,
+        "n_pred": 606,
+        "n_recovered": 162,
+        "n_joint_correct": 157,
+        "n_misbindings": 5,
+        "n_duplicates": 10,
+        "rec_val": 0.292419,
+        "cba_cond": 0.969136,
+        "acc_joint": 0.283394,
+        "delta": 0.009025,
+        "precision": 0.259076,
+        "dup_rate": 0.016502,
+        "f1_joint": 0.27069
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.24179620034542315,
+          0.34806629834254144
+        ],
+        "cba_cond_ci": [
+          0.9421965317919075,
+          0.9934640522875817
+        ],
+        "acc_joint_ci": [
+          0.23434704830053668,
+          0.33720930232558144
+        ],
+        "delta_ci": [
+          0.0018181818181818299,
+          0.017475728155339765
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 554,
+        "n_pred": 599,
+        "n_recovered": 169,
+        "n_joint_correct": 167,
+        "n_misbindings": 2,
+        "n_duplicates": 7,
+        "rec_val": 0.305054,
+        "cba_cond": 0.988166,
+        "acc_joint": 0.301444,
+        "delta": 0.00361,
+        "precision": 0.278798,
+        "dup_rate": 0.011686,
+        "f1_joint": 0.289679
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.2542372881355932,
+          0.3585951940850277
+        ],
+        "cba_cond_ci": [
+          0.9696969696969697,
+          1.0
+        ],
+        "acc_joint_ci": [
+          0.2513464991023339,
+          0.3546511627906977
+        ],
+        "delta_ci": [
+          0.0,
+          0.00910746812386154
+        ]
+      }
+    }
+  },
+  "Paystubs": {
+    "haiku": {
+      "point": {
+        "n_gt": 696,
+        "n_pred": 595,
+        "n_recovered": 495,
+        "n_joint_correct": 490,
+        "n_misbindings": 5,
+        "n_duplicates": 0,
+        "rec_val": 0.711207,
+        "cba_cond": 0.989899,
+        "acc_joint": 0.704023,
+        "delta": 0.007184,
+        "precision": 0.823529,
+        "dup_rate": 0.0,
+        "f1_joint": 0.759101
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.6522988505747126,
+          0.7690100430416069
+        ],
+        "cba_cond_ci": [
+          0.9728601252609603,
+          1.0
+        ],
+        "acc_joint_ci": [
+          0.6418338108882522,
+          0.7640287769784173
+        ],
+        "delta_ci": [
+          0.0,
+          0.018705035971222972
+        ]
+      }
+    },
+    "gpt4o-mini": {
+      "point": {
+        "n_gt": 696,
+        "n_pred": 556,
+        "n_recovered": 435,
+        "n_joint_correct": 429,
+        "n_misbindings": 6,
+        "n_duplicates": 1,
+        "rec_val": 0.625,
+        "cba_cond": 0.986207,
+        "acc_joint": 0.616379,
+        "delta": 0.008621,
+        "precision": 0.771583,
+        "dup_rate": 0.001799,
+        "f1_joint": 0.685304
+      },
+      "ci": {
+        "rec_val_ci": [
+          0.5667144906743186,
+          0.6800573888091822
+        ],
+        "cba_cond_ci": [
+          0.9722863741339491,
+          0.9976359338061466
+        ],
+        "acc_joint_ci": [
+          0.5566714490674318,
+          0.6734104046242775
+        ],
+        "delta_ci": [
+          0.0014409221902017544,
+          0.017191977077363974
+        ]
+      }
+    }
+  }
+}

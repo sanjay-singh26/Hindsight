@@ -1,0 +1,113 @@
+domain: contract
+families:
+  - name: parties
+    concepts:
+      - id: primary_party
+        name: "Primary Party"
+        definition: "The first-named party to the agreement, typically the entity that drafted or initiated the contract. In an employment agreement this is usually the employer; in a service agreement this is usually the service provider; in a license agreement this is usually the licensor. Often introduced as 'Party A,' the 'Company,' or the first entity named in the preamble."
+        confusable_with: [counterparty]
+
+      - id: counterparty
+        name: "Counterparty"
+        definition: "The second-named party to the agreement, the entity entering into the contract with the primary party. In an employment agreement this is usually the employee; in a service agreement this is usually the client; in a license agreement this is usually the licensee. Often introduced as 'Party B,' the 'Contractor,' or the second entity named in the preamble."
+        confusable_with: [primary_party]
+
+  - name: dates
+    concepts:
+      - id: agreement_date
+        name: "Agreement Date"
+        definition: "The calendar date on which the contract was signed or executed by the parties, as stated in the preamble or signature block. This is the date the document was formally entered into. It may or may not coincide with the effective date; the agreement date reflects when signatures were applied, while the effective date is when obligations begin."
+        confusable_with: [effective_date]
+
+      - id: effective_date
+        name: "Effective Date"
+        definition: "The calendar date on which the rights, obligations, and terms of the contract become operative and legally binding. This is when performance begins, which may be the same as, earlier than (retroactive), or later than the agreement date. Often labeled 'Effective Date,' 'Commencement Date,' or 'Start Date.'"
+        confusable_with: [agreement_date, expiration_date]
+
+      - id: expiration_date
+        name: "Expiration Date"
+        definition: "The calendar date on which the contract's initial term ends and the parties' obligations cease, unless the agreement is renewed or extended. This is the natural end of the contract term, not a date triggered by early termination. Often labeled 'Expiration Date,' 'End Date,' or 'Term End.'"
+        confusable_with: [effective_date, renewal_term]
+
+      - id: renewal_term
+        name: "Renewal Term"
+        definition: "The duration and conditions under which the contract automatically extends or may be extended beyond the initial expiration date. This specifies the length of each renewal period (e.g., successive one-year terms) and whether renewal is automatic or requires affirmative action by one or both parties."
+        confusable_with: [expiration_date, notice_period_to_terminate]
+
+      - id: notice_period_to_terminate
+        name: "Notice Period to Terminate"
+        definition: "The minimum number of days (or other time unit) of advance written notice that a party must provide to the other party before terminating the agreement or preventing automatic renewal. This is a procedural timing requirement, not a substantive right to terminate. Often stated as 'X days prior written notice.'"
+        confusable_with: [termination_for_convenience, renewal_term]
+
+  - name: restrictive_covenants
+    concepts:
+      - id: non_compete
+        name: "Non-Compete"
+        definition: "A covenant that restricts one party (typically an employee, contractor, or seller) from engaging in or starting a business that directly competes with the other party's business within a defined geographic area and time period after the contract ends. This limits competitive activity broadly, unlike exclusivity which restricts dealing with competitors during the contract term."
+        confusable_with: [exclusivity, no_solicit_customers]
+
+      - id: exclusivity
+        name: "Exclusivity"
+        definition: "A covenant that restricts one or both parties from entering into similar agreements with third parties during the term of the contract. This ensures a sole-provider or sole-customer relationship for the contract's duration. Unlike non-compete, exclusivity operates during the contract term rather than after termination, and restricts dealing with competitors rather than becoming one."
+        confusable_with: [non_compete]
+
+      - id: no_solicit_customers
+        name: "Non-Solicitation of Customers"
+        definition: "A covenant that prohibits one party from actively soliciting, contacting, or attempting to divert the other party's customers, clients, or accounts for a specified period after the contract ends. This protects customer relationships specifically and is distinct from non-solicitation of employees, which protects the workforce."
+        confusable_with: [no_solicit_employees, non_compete]
+
+      - id: no_solicit_employees
+        name: "Non-Solicitation of Employees"
+        definition: "A covenant that prohibits one party from recruiting, hiring, or attempting to induce the other party's employees or contractors to leave their employment for a specified period after the contract ends. This protects the workforce specifically and is distinct from non-solicitation of customers, which protects client relationships."
+        confusable_with: [no_solicit_customers, non_compete]
+
+      - id: non_disparagement
+        name: "Non-Disparagement"
+        definition: "A covenant that prohibits one or both parties from making negative, critical, or derogatory public statements about the other party, its products, services, officers, or employees. This restricts speech and public commentary, unlike non-compete or non-solicitation which restrict business activities."
+        confusable_with: []
+
+  - name: ip_licensing
+    concepts:
+      - id: ip_ownership_assignment
+        name: "IP Ownership Assignment"
+        definition: "A clause that transfers ownership of intellectual property (patents, copyrights, trade secrets, or other IP) created during the course of the agreement from one party to the other, typically from the creator (employee, contractor) to the commissioning party. Assignment is a permanent transfer of title, unlike a license which grants usage rights without transferring ownership."
+        confusable_with: [license_grant]
+
+      - id: license_grant
+        name: "License Grant"
+        definition: "A clause that grants one party the right to use, reproduce, modify, distribute, or otherwise exploit the other party's intellectual property under specified conditions, without transferring ownership. The licensor retains title to the IP. A license is a permission to use, unlike an assignment which is a transfer of ownership."
+        confusable_with: [ip_ownership_assignment, license_transferability]
+
+      - id: license_transferability
+        name: "License Transferability"
+        definition: "A clause that specifies whether the rights granted under a license can be transferred, sublicensed, or assigned by the licensee to a third party. This addresses the portability of licensed rights, not the scope of the license itself. It determines whether the licensee can pass its usage rights to others."
+        confusable_with: [license_grant]
+
+  - name: liability
+    concepts:
+      - id: liability_cap
+        name: "Liability Cap"
+        definition: "A clause that sets a maximum dollar amount or formula (e.g., fees paid in the prior 12 months) for the total aggregate liability one or both parties may incur under the agreement. This limits financial exposure to a defined ceiling. It is the opposite of uncapped liability, where no maximum is imposed."
+        confusable_with: [uncapped_liability, liquidated_damages]
+
+      - id: uncapped_liability
+        name: "Uncapped Liability"
+        definition: "A clause or carve-out that specifies categories of liability (e.g., indemnification for IP infringement, breach of confidentiality, willful misconduct) that are not subject to the agreement's liability cap and are therefore unlimited. These are exceptions to the liability cap, not the cap itself."
+        confusable_with: [liability_cap]
+
+      - id: liquidated_damages
+        name: "Liquidated Damages"
+        definition: "A clause that establishes a pre-determined, fixed monetary amount or formula that one party must pay to the other upon a specific breach or failure to perform, agreed upon at the time of contracting as a reasonable estimate of anticipated damages. This is a specified damage amount, distinct from a liability cap which limits overall exposure."
+        confusable_with: [liability_cap]
+
+  - name: termination
+    concepts:
+      - id: termination_for_convenience
+        name: "Termination for Convenience"
+        definition: "A clause that grants one or both parties the right to terminate the agreement at any time without cause, fault, or breach by the other party, typically subject to a notice period and potentially a termination fee. This is an unconditional exit right, distinct from termination for cause which requires a material breach."
+        confusable_with: [notice_period_to_terminate, change_of_control]
+
+      - id: change_of_control
+        name: "Change of Control"
+        definition: "A clause that defines what constitutes a change of control event (e.g., merger, acquisition, sale of substantially all assets, or transfer of majority ownership) and specifies the resulting rights, such as the ability to terminate the agreement, require consent, or trigger payment obligations. This is triggered by a corporate ownership event, not by the parties' voluntary decision to end the contract."
+        confusable_with: [termination_for_convenience]

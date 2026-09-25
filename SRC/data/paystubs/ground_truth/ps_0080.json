@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0080",
+  "image_file": "ps_0080.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "light_scan",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Trident Security Services",
+      "display_value": "Trident Security Services",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 262,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "963 Poplar Ave",
+      "display_value": "963 Poplar Ave",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 145,
+        "y": 85,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Team Member",
+      "extracted_value": "John F. Lewis",
+      "display_value": "John F. Lewis",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 84,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "848022",
+      "display_value": "848022",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 44,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-8292",
+      "display_value": "***-**-8292",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "789 Elm Boulevard",
+      "display_value": "789 Elm Boulevard",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 88,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "Portland, OR 97201",
+      "display_value": "Portland, OR 97201",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 88,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "06/04/2024",
+      "display_value": "06/04/2024",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 54,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period Begin",
+      "extracted_value": "05/16/2024",
+      "display_value": "05/16/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 52,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "05/31/2024",
+      "display_value": "05/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Frequency",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$3,919.28",
+      "display_value": "$3,919.28",
+      "field_position": {
+        "x": 351,
+        "y": 275,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$3,919.28",
+      "display_value": "$3,919.28",
+      "field_position": {
+        "x": 351,
+        "y": 295,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$39,192.80",
+      "display_value": "$39,192.80",
+      "field_position": {
+        "x": 343,
+        "y": 315,
+        "width": 62,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$765.21",
+      "display_value": "$765.21",
+      "field_position": {
+        "x": 746,
+        "y": 275,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Tax",
+      "extracted_value": "$237.22",
+      "display_value": "$237.22",
+      "field_position": {
+        "x": 744,
+        "y": 295,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$243.00",
+      "display_value": "$243.00",
+      "field_position": {
+        "x": 743,
+        "y": 315,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$56.83",
+      "display_value": "$56.83",
+      "field_position": {
+        "x": 752,
+        "y": 335,
+        "width": 38,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "Retirement",
+      "extracted_value": "$172.72",
+      "display_value": "$172.72",
+      "field_position": {
+        "x": 746,
+        "y": 355,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Group Health",
+      "extracted_value": "$293.40",
+      "display_value": "$293.40",
+      "field_position": {
+        "x": 743,
+        "y": 375,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,768.38",
+      "display_value": "$1,768.38",
+      "field_position": {
+        "x": 736,
+        "y": 395,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$17,683.80",
+      "display_value": "$17,683.80",
+      "field_position": {
+        "x": 729,
+        "y": 415,
+        "width": 61,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$2,150.90",
+      "display_value": "$2,150.90",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 92,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$21,509.00",
+      "display_value": "$21,509.00",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 104,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "John F. Lewis",
+    "employer_name": "Trident Security Services",
+    "employee_id": "848022",
+    "ssn_last4": "***-**-8292",
+    "employee_address": "789 Elm Boulevard",
+    "employee_city_state_zip": "Portland, OR 97201",
+    "employer_address": "963 Poplar Ave",
+    "employer_city_state_zip": "Phoenix, AZ 85001",
+    "pay_date": "06/04/2024",
+    "pay_period_start": "05/16/2024",
+    "pay_period_end": "05/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "3919.28",
+    "gross_pay_current": "3919.28",
+    "net_pay_current": "2150.90",
+    "gross_pay_ytd": "39192.80",
+    "net_pay_ytd": "21509.00",
+    "total_deductions_current": "1768.38",
+    "federal_tax_withheld": "765.21",
+    "state_tax_withheld": "237.22",
+    "social_security_tax": "243.00",
+    "medicare_tax": "56.83",
+    "total_deductions_ytd": "17683.80",
+    "retirement_401k": "172.72",
+    "health_insurance": "293.40"
+  }
+}

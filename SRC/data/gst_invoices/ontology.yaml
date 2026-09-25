@@ -1,0 +1,74 @@
+domain: gst_invoice
+families:
+  - name: tax_components
+    concepts:
+      - id: cgst
+        name: "CGST"
+        definition: "Central Goods and Services Tax: the portion of GST collected by India's central government on an intra-state sale, shown as one of the tax-breakdown line items on the invoice. Frequently appears alongside SGST and IGST with visually similar labels and comparable numeric values on the same line."
+        confusable_with: [sgst, igst]
+
+      - id: sgst
+        name: "SGST"
+        definition: "State Goods and Services Tax: the portion of GST collected by the state government on an intra-state sale, shown alongside CGST as a matching-value tax-breakdown line item (for an intra-state sale, SGST typically equals CGST)."
+        confusable_with: [cgst, igst]
+
+      - id: igst
+        name: "IGST"
+        definition: "Integrated Goods and Services Tax: the single GST component charged in place of CGST+SGST on an inter-state sale. Appears in the same tax-breakdown block as CGST/SGST but is mutually exclusive with them on a given invoice."
+        confusable_with: [cgst, sgst]
+
+  - name: amounts
+    concepts:
+      - id: initial_total_amount
+        name: "Initial Total Amount"
+        definition: "The taxable amount before GST is applied (the pre-tax subtotal of line items). Distinct from the final total, which adds CGST/SGST/IGST and any rounding."
+        confusable_with: [total_amount]
+
+      - id: total_amount
+        name: "Total Amount"
+        definition: "The final invoice total after all applicable GST components and rounding have been applied — the amount payable by the customer."
+        confusable_with: [initial_total_amount, round_off]
+
+      - id: round_off
+        name: "Round Off"
+        definition: "The small rounding adjustment (typically a few paise/rupees) applied to the pre-rounding total to reach the final Total Amount, often shown as its own line item with a signed value."
+        confusable_with: [total_amount]
+
+      - id: amount_in_words
+        name: "Amount in Words"
+        definition: "The Total Amount spelled out in words (e.g., 'Rupees Six Hundred Forty-Nine Only'), typically printed near the numeric total as a standard Indian invoicing convention."
+        confusable_with: [total_amount]
+
+  - name: dates
+    concepts:
+      - id: invoice_date
+        name: "Invoice Date"
+        definition: "The date the invoice itself was issued by the seller."
+        confusable_with: [ack_date]
+
+      - id: ack_date
+        name: "Acknowledgment Date"
+        definition: "The date the invoice was acknowledged/registered on the GST e-invoicing portal (IRP), which may differ from the invoice date by a few days."
+        confusable_with: [invoice_date]
+
+  - name: identifiers
+    concepts:
+      - id: invoice_number
+        name: "Invoice Number"
+        definition: "The seller-assigned unique identifier for this invoice, distinct from any government-issued acknowledgment or registration number on the same document."
+        confusable_with: [ack_no, cin_no]
+
+      - id: ack_no
+        name: "Acknowledgment Number"
+        definition: "The unique reference number issued by the GST Invoice Registration Portal (IRP) when the invoice was registered/acknowledged for e-invoicing compliance."
+        confusable_with: [invoice_number, cin_no]
+
+      - id: gst_number
+        name: "GST Number (GSTIN)"
+        definition: "The seller's 15-character alphanumeric Goods and Services Tax Identification Number, a fixed registration identifier for the business (not specific to this invoice)."
+        confusable_with: [cin_no, ack_no]
+
+      - id: cin_no
+        name: "CIN Number"
+        definition: "The seller company's Corporate Identification Number, a Registrar-of-Companies identifier distinct from its GSTIN, invoice number, or acknowledgment number, though all four are alphanumeric identifier strings printed in the same header/footer block."
+        confusable_with: [gst_number, invoice_number, ack_no]

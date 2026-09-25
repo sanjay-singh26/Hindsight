@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0128",
+  "image_file": "ps_0128.png",
+  "layout_template": "hourly_detailed",
+  "noise_profile": "clean",
+  "font": "OpenSans-Variable.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Horizon Financial Services",
+      "display_value": "Horizon Financial Services",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 266,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 100,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "San Francisco, CA 94101",
+      "display_value": "San Francisco, CA 94101",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 113,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Name",
+      "extracted_value": "Paul P. Wilson",
+      "display_value": "Paul P. Wilson",
+      "field_position": {
+        "x": 96,
+        "y": 113,
+        "width": 85,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "871740",
+      "display_value": "871740",
+      "field_position": {
+        "x": 110,
+        "y": 133,
+        "width": 45,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-5055",
+      "display_value": "***-**-5055",
+      "field_position": {
+        "x": 124,
+        "y": 153,
+        "width": 74,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 50,
+        "y": 173,
+        "width": 68,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Chicago, IL 60601",
+      "display_value": "Chicago, IL 60601",
+      "field_position": {
+        "x": 50,
+        "y": 187,
+        "width": 81,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "02/21/2024",
+      "display_value": "02/21/2024",
+      "field_position": {
+        "x": 100,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "02/01/2024",
+      "display_value": "02/01/2024",
+      "field_position": {
+        "x": 302,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Through",
+      "extracted_value": "02/15/2024",
+      "display_value": "02/15/2024",
+      "field_position": {
+        "x": 495,
+        "y": 211,
+        "width": 53,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 710,
+        "y": 211,
+        "width": 66,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$4,494.84",
+      "display_value": "$4,494.84",
+      "field_position": {
+        "x": 741,
+        "y": 271,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$668.32",
+      "display_value": "$668.32",
+      "field_position": {
+        "x": 752,
+        "y": 291,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$1,527.70",
+      "display_value": "$1,527.70",
+      "field_position": {
+        "x": 741,
+        "y": 311,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$6,690.86",
+      "display_value": "$6,690.86",
+      "field_position": {
+        "x": 741,
+        "y": 336,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$20,072.58",
+      "display_value": "$20,072.58",
+      "field_position": {
+        "x": 734,
+        "y": 356,
+        "width": 66,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$1,222.39",
+      "display_value": "$1,222.39",
+      "field_position": {
+        "x": 741,
+        "y": 421,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$546.40",
+      "display_value": "$546.40",
+      "field_position": {
+        "x": 752,
+        "y": 441,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Sec Tax",
+      "extracted_value": "$414.83",
+      "display_value": "$414.83",
+      "field_position": {
+        "x": 752,
+        "y": 461,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$97.02",
+      "display_value": "$97.02",
+      "field_position": {
+        "x": 759,
+        "y": 481,
+        "width": 41,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$401.26",
+      "display_value": "$401.26",
+      "field_position": {
+        "x": 752,
+        "y": 501,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$291.91",
+      "display_value": "$291.91",
+      "field_position": {
+        "x": 752,
+        "y": 521,
+        "width": 48,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$2,973.81",
+      "display_value": "$2,973.81",
+      "field_position": {
+        "x": 741,
+        "y": 541,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$8,921.43",
+      "display_value": "$8,921.43",
+      "field_position": {
+        "x": 741,
+        "y": 561,
+        "width": 59,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$3,717.05",
+      "display_value": "$3,717.05",
+      "field_position": {
+        "x": 50,
+        "y": 622,
+        "width": 100,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$11,151.15",
+      "display_value": "$11,151.15",
+      "field_position": {
+        "x": 50,
+        "y": 658,
+        "width": 112,
+        "height": 19
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Paul P. Wilson",
+    "employer_name": "Horizon Financial Services",
+    "employee_id": "871740",
+    "ssn_last4": "***-**-5055",
+    "employee_address": "741 Ash Street",
+    "employee_city_state_zip": "Chicago, IL 60601",
+    "employer_address": "333 Technology Drive",
+    "employer_city_state_zip": "San Francisco, CA 94101",
+    "pay_date": "02/21/2024",
+    "pay_period_start": "02/01/2024",
+    "pay_period_end": "02/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4494.84",
+    "gross_pay_current": "6690.86",
+    "net_pay_current": "3717.05",
+    "gross_pay_ytd": "20072.58",
+    "net_pay_ytd": "11151.15",
+    "total_deductions_current": "2973.81",
+    "federal_tax_withheld": "1222.39",
+    "state_tax_withheld": "546.40",
+    "social_security_tax": "414.83",
+    "medicare_tax": "97.02",
+    "total_deductions_ytd": "8921.43",
+    "overtime_pay_current": "668.32",
+    "bonus_current": "1527.70",
+    "retirement_401k": "401.26",
+    "health_insurance": "291.91"
+  }
+}

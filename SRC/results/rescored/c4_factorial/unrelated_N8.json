@@ -1,0 +1,2488 @@
+{
+  "overlap": "unrelated",
+  "density": 8,
+  "active_fields": [
+    "employee_ssn",
+    "employer_address",
+    "wages_tips_compensation",
+    "federal_tax_withheld",
+    "dependent_care_benefits",
+    "box_12a_code",
+    "statutory_employee",
+    "state_1"
+  ],
+  "cell": {
+    "haiku": {
+      "model_id": "claude-haiku-4-5",
+      "scorer_result": {
+        "n_gt": 350,
+        "n_pred": 304,
+        "n_recovered": 62,
+        "n_joint_correct": 61,
+        "n_misbindings": 1,
+        "n_duplicates": 0,
+        "rec_val": 0.177143,
+        "cba_cond": 0.983871,
+        "acc_joint": 0.174286,
+        "delta": 0.002857,
+        "precision": 0.200658,
+        "dup_rate": 0.0,
+        "f1_joint": 0.186544
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "employee_ssn": "484-68-9509",
+            "employer_address": "10363 Bond Mountain Suite 802",
+            "wages_tips_compensation": "152652.02",
+            "federal_tax_withheld": "45540.24",
+            "dependent_care_benefits": "100",
+            "box_12a_code": "H",
+            "statutory_employee": "N/A",
+            "state_1": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "031-80-2043",
+            "employer_address": "10363 Bond Mountain Suite 802, Douglaschester, MA 39525-2803",
+            "wages_tips_compensation": "152652.02",
+            "federal_tax_withheld": "45540.24",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WI"
+          },
+          "cost": 0.00166
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "employee_ssn": "079-14-0849",
+            "employer_address": "00215 Beth Glens Suite 617",
+            "wages_tips_compensation": "248088.68",
+            "federal_tax_withheld": "64814.26",
+            "dependent_care_benefits": "274",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "095-38-3104",
+            "employer_address": "00215 Beth Glens Suite 617 East Lauren NY 48664-6262",
+            "wages_tips_compensation": "248088.68",
+            "federal_tax_withheld": "64814.26",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "NH"
+          },
+          "cost": 0.00164
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "employee_ssn": "583-65-5516",
+            "employer_address": "829 Dominique Glens",
+            "wages_tips_compensation": "163883.65",
+            "federal_tax_withheld": "34982.01",
+            "dependent_care_benefits": "265",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "583-65-5516",
+            "employer_address": "829 Dominique Glenn Rogerstad MT 67532-6508",
+            "wages_tips_compensation": "163883.65",
+            "federal_tax_withheld": "34982.01",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MT"
+          },
+          "cost": 0.001635
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "employee_ssn": "054-54-9312",
+            "employer_address": "55381 Wood Manor Apt. 716",
+            "wages_tips_compensation": "218486.95",
+            "federal_tax_withheld": "71603.77",
+            "dependent_care_benefits": "288",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "MD"
+          },
+          "predicted": {
+            "employee_ssn": "054-54-9312",
+            "employer_address": "55381 Wood Manor Apt. 716, Jefferyview IN 61281-4740",
+            "wages_tips_compensation": "218486.95",
+            "federal_tax_withheld": "71603.77",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "IN"
+          },
+          "cost": 0.00166
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "employee_ssn": "342-31-7649",
+            "employer_address": "5626 Emily Passage",
+            "wages_tips_compensation": "158778.18",
+            "federal_tax_withheld": "30947.35",
+            "dependent_care_benefits": "229",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "MN"
+          },
+          "predicted": {
+            "employee_ssn": "27-0382574",
+            "employer_address": "5626 Emily Passage, Missionport OK 77322-0745",
+            "wages_tips_compensation": "158778.18",
+            "federal_tax_withheld": "30947.35",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "IA"
+          },
+          "cost": 0.00164
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "employee_ssn": "712-59-0520",
+            "employer_address": "7356 Hancock Mews Suite 182",
+            "wages_tips_compensation": "120409.39",
+            "federal_tax_withheld": "36069.19",
+            "dependent_care_benefits": "153",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "WY"
+          },
+          "predicted": {
+            "employee_ssn": "264-17-218",
+            "employer_address": "7356 Hancock Mews Suite 182, Susanburgh, VT 14925-0616",
+            "wages_tips_compensation": "63000.74",
+            "federal_tax_withheld": "4022.62",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "VT"
+          },
+          "cost": 0.001675
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "employee_ssn": "150-55-2485",
+            "employer_address": "9531 Ramirez Crossroad",
+            "wages_tips_compensation": "210149.36",
+            "federal_tax_withheld": "35489.74",
+            "dependent_care_benefits": "140",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "NM"
+          },
+          "predicted": {
+            "employee_ssn": "150-55-2485",
+            "employer_address": "9531 Ramirez Crossroad, Stephanieton NM 72414-1109",
+            "wages_tips_compensation": "21014936",
+            "federal_tax_withheld": "3548974",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "VA"
+          },
+          "cost": 0.001655
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "employee_ssn": "688-56-6974",
+            "employer_address": "3530 Katherine Trail",
+            "wages_tips_compensation": "113426.53",
+            "federal_tax_withheld": "41416.00",
+            "dependent_care_benefits": "105",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "TN"
+          },
+          "predicted": {
+            "employee_ssn": "980-85-195",
+            "employer_address": "3530 Katherine Trail East Edward MT 04984-3372",
+            "wages_tips_compensation": "57863.49",
+            "federal_tax_withheld": "18726.27",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "UT"
+          },
+          "cost": 0.00162
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "employee_ssn": "822-87-2371",
+            "employer_address": "926 Kimberly Alley Apt. 961",
+            "wages_tips_compensation": "148120.52",
+            "federal_tax_withheld": "50448.90",
+            "dependent_care_benefits": "200",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "AZ"
+          },
+          "predicted": {
+            "employee_ssn": "99-8630752",
+            "employer_address": "926 Kimberly Alley Apt. 961, Mckenzietion, PA 98081-1718",
+            "wages_tips_compensation": "148120.52",
+            "federal_tax_withheld": "50448.9",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "UT"
+          },
+          "cost": 0.001695
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "employee_ssn": "838-95-1237",
+            "employer_address": "1998 Kaylee Falls",
+            "wages_tips_compensation": "136750.11",
+            "federal_tax_withheld": "15601.90",
+            "dependent_care_benefits": "286",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "LA"
+          },
+          "predicted": {
+            "employee_ssn": "52-7846836",
+            "employer_address": "76543 Ronald Motorway Suite 260, West Andrelad, GA 23374-7056",
+            "wages_tips_compensation": "157542.24",
+            "federal_tax_withheld": "24056.45",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "GA"
+          },
+          "cost": 0.001655
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "employee_ssn": "686-23-7237",
+            "employer_address": "139 Jason Hill",
+            "wages_tips_compensation": "117803.63",
+            "federal_tax_withheld": "41517.38",
+            "dependent_care_benefits": "159",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "KS"
+          },
+          "predicted": {
+            "employee_ssn": "67-9511849",
+            "employer_address": "139 Jason Hill, Sarahland, AZ 66910-1298",
+            "wages_tips_compensation": "117803.63",
+            "federal_tax_withheld": "41517.38",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "OH"
+          },
+          "cost": 0.001635
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "employee_ssn": "662-76-3435",
+            "employer_address": "5627 Allen Curve",
+            "wages_tips_compensation": "101362.84",
+            "federal_tax_withheld": "30492.55",
+            "dependent_care_benefits": "192",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "5627 Allen Curve, Lake Todside WY 12199-7648",
+            "wages_tips_compensation": "103454.07",
+            "federal_tax_withheld": "11844.42",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WY"
+          },
+          "cost": 0.001635
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "employee_ssn": "813-62-1184",
+            "employer_address": "8000 Maurice Street",
+            "wages_tips_compensation": "99608.61",
+            "federal_tax_withheld": "21503.42",
+            "dependent_care_benefits": "284",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "MD"
+          },
+          "predicted": {
+            "employee_ssn": "211-78-7843",
+            "employer_address": "8000 Maurice Street, Christianside, SC 68424-9134",
+            "wages_tips_compensation": "99608.61",
+            "federal_tax_withheld": "21503.42",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "SC"
+          },
+          "cost": 0.001625
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "employee_ssn": "152-66-1892",
+            "employer_address": "54147 Brandy Islands Suite 097",
+            "wages_tips_compensation": "86879.95",
+            "federal_tax_withheld": "27984.13",
+            "dependent_care_benefits": "139",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "IL"
+          },
+          "predicted": {
+            "employee_ssn": "285",
+            "employer_address": "54147 Brandy Islands Suite 097, Lake Nancy TX 27269-9614",
+            "wages_tips_compensation": "105988.86",
+            "federal_tax_withheld": "12533.95",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WA"
+          },
+          "cost": 0.00163
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "employee_ssn": "302-97-5825",
+            "employer_address": "5966 Alexander Curve Apt. 509",
+            "wages_tips_compensation": "90684.48",
+            "federal_tax_withheld": "9304.00",
+            "dependent_care_benefits": "250",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "DE"
+          },
+          "predicted": {
+            "employee_ssn": "517-15-3",
+            "employer_address": "5966 Alexander Curve Apt. 509 New Catharinabury WI 16161-2662",
+            "wages_tips_compensation": "109704.34",
+            "federal_tax_withheld": "13861.54",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WI"
+          },
+          "cost": 0.00168
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "employee_ssn": "610-27-6592",
+            "employer_address": "0770 Melissa Manor Suite 764",
+            "wages_tips_compensation": "86259.77",
+            "federal_tax_withheld": "29047.98",
+            "dependent_care_benefits": "152",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "208-19-333",
+            "employer_address": "0770 Melissa Manor Suite 764, North Kelsey, OK 64268-6137",
+            "wages_tips_compensation": "44031.14",
+            "federal_tax_withheld": "12410.83",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "OK"
+          },
+          "cost": 0.001655
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "employee_ssn": "498-71-2917",
+            "employer_address": "59004 Obrien Haven",
+            "wages_tips_compensation": "60834.74",
+            "federal_tax_withheld": "21288.46",
+            "dependent_care_benefits": "121",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "OR"
+          },
+          "predicted": {
+            "employee_ssn": "866-23-868",
+            "employer_address": "5904 Obrien Haven, New Mariabury PA 24739-3330",
+            "wages_tips_compensation": "33331.67",
+            "federal_tax_withheld": "2274.27",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "CT"
+          },
+          "cost": 0.001635
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "employee_ssn": "852-14-0412",
+            "employer_address": "31432 Collins Lane Suite 877",
+            "wages_tips_compensation": "213063.63",
+            "federal_tax_withheld": "57633.41",
+            "dependent_care_benefits": "217",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "OH"
+          },
+          "predicted": {
+            "employee_ssn": "04346-8049",
+            "employer_address": "31432 Collins Lane Suite 877, East Brandenberg VT 37565-0913",
+            "wages_tips_compensation": "251690.79",
+            "federal_tax_withheld": "41211.16",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "VT"
+          },
+          "cost": 0.001655
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "employee_ssn": "751-88-6978",
+            "employer_address": "042 Smith Cape",
+            "wages_tips_compensation": "151146.76",
+            "federal_tax_withheld": "23327.70",
+            "dependent_care_benefits": "167",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "GA"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "042 Smith Cape, Masseyfort, AR 22303-6240",
+            "wages_tips_compensation": "151248.3",
+            "federal_tax_withheld": "20827.94",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "UT"
+          },
+          "cost": 0.001625
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "employee_ssn": "219-05-9508",
+            "employer_address": "601 Patel Mountain",
+            "wages_tips_compensation": "183073.45",
+            "federal_tax_withheld": "58714.69",
+            "dependent_care_benefits": "137",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "AK"
+          },
+          "predicted": {
+            "employee_ssn": "155-69-093",
+            "employer_address": "601 Patal Mountain West Mary SC 56076-8633",
+            "wages_tips_compensation": "87674.55",
+            "federal_tax_withheld": "3692.94",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "SC"
+          },
+          "cost": 0.00162
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "employee_ssn": "144-45-5742",
+            "employer_address": "13200 Candice Mills Apt. 272",
+            "wages_tips_compensation": "191151.46",
+            "federal_tax_withheld": "37546.86",
+            "dependent_care_benefits": "236",
+            "box_12a_code": "H",
+            "statutory_employee": "N/A",
+            "state_1": "MD"
+          },
+          "predicted": {
+            "employee_ssn": "67804-608",
+            "employer_address": "13200 Candice Mills Apt. 272 Dodgenberg AZ 22471-8401",
+            "wages_tips_compensation": "191151.46",
+            "federal_tax_withheld": "37546.86",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "227",
+            "statutory_employee": "No",
+            "state_1": "AZ"
+          },
+          "cost": 0.00166
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "employee_ssn": "888-91-2527",
+            "employer_address": "24405 Li Station Apt. 579",
+            "wages_tips_compensation": "125200.75",
+            "federal_tax_withheld": "15755.30",
+            "dependent_care_benefits": "191",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "MA"
+          },
+          "predicted": {
+            "employee_ssn": "222-32-858",
+            "employer_address": "24405 LI Station Apt. 579, East Ryanbbury MO 41737-0648",
+            "wages_tips_compensation": "125200.75",
+            "federal_tax_withheld": "15755.3",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MO"
+          },
+          "cost": 0.001675
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "employee_ssn": "061-74-3844",
+            "employer_address": "68729 Sloan Junction Suite 353",
+            "wages_tips_compensation": "205321.46",
+            "federal_tax_withheld": "42333.53",
+            "dependent_care_benefits": "285",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "OR"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "68729 Sloan Junction Suite 353, Peresfort AR 94828-5236",
+            "wages_tips_compensation": "230901.81",
+            "federal_tax_withheld": "25569.78",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "AL"
+          },
+          "cost": 0.001645
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "employee_ssn": "832-29-2067",
+            "employer_address": "1836 Shawn Flats",
+            "wages_tips_compensation": "216194.29",
+            "federal_tax_withheld": "41302.85",
+            "dependent_care_benefits": "200",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "OK"
+          },
+          "predicted": {
+            "employee_ssn": "217-20-0019",
+            "employer_address": "1836 Shawn Flats, Lake Erin TX 84236-0383",
+            "wages_tips_compensation": "272040.46",
+            "federal_tax_withheld": "32082.86",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "TX"
+          },
+          "cost": 0.001655
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "employee_ssn": "504-83-9590",
+            "employer_address": "61460 Kim Hollow",
+            "wages_tips_compensation": "78313.32",
+            "federal_tax_withheld": "18438.38",
+            "dependent_care_benefits": "252",
+            "box_12a_code": "H",
+            "statutory_employee": "N/A",
+            "state_1": "IN"
+          },
+          "predicted": {
+            "employee_ssn": "934-97-87",
+            "employer_address": "N/A",
+            "wages_tips_compensation": "84179.27",
+            "federal_tax_withheld": "9439.38",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "CA"
+          },
+          "cost": 0.00155
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "employee_ssn": "457-50-9546",
+            "employer_address": "6222 Caitlyn Villages",
+            "wages_tips_compensation": "105726.15",
+            "federal_tax_withheld": "10903.81",
+            "dependent_care_benefits": "286",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "161-48-6451",
+            "employer_address": "6222 Caitlyn Villages, Dearside, AR 34812-5208",
+            "wages_tips_compensation": "122392.42",
+            "federal_tax_withheld": "12894.48",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "VT"
+          },
+          "cost": 0.00166
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "employee_ssn": "070-82-9963",
+            "employer_address": "2395 Joshua Center Apt. 267",
+            "wages_tips_compensation": "175527.76",
+            "federal_tax_withheld": "39400.69",
+            "dependent_care_benefits": "256",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "206-53-035",
+            "employer_address": "2395 Joshua Center Apt. 267 Bryanport VT 37884-9210",
+            "wages_tips_compensation": "85725.57",
+            "federal_tax_withheld": "4154.28",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "VT"
+          },
+          "cost": 0.001665
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "employee_ssn": "168-52-9821",
+            "employer_address": "337 Ashley Radial",
+            "wages_tips_compensation": "205138.02",
+            "federal_tax_withheld": "31689.11",
+            "dependent_care_benefits": "283",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "ND"
+          },
+          "predicted": {
+            "employee_ssn": "286-31-758",
+            "employer_address": "337 Ashley Radial West Nicholas NE 76815-7641",
+            "wages_tips_compensation": "94423.5",
+            "federal_tax_withheld": "9390.52",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "RY"
+          },
+          "cost": 0.00163
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "employee_ssn": "018-56-0380",
+            "employer_address": "87636 John Inlet",
+            "wages_tips_compensation": "239891.84",
+            "federal_tax_withheld": "61983.56",
+            "dependent_care_benefits": "208",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "CA"
+          },
+          "predicted": {
+            "employee_ssn": "022-04-5980",
+            "employer_address": "87636 John Inlet, Neisenberg NH 31663-6143",
+            "wages_tips_compensation": "239891.84",
+            "federal_tax_withheld": "61983.56",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "CA"
+          },
+          "cost": 0.00164
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "employee_ssn": "622-95-4526",
+            "employer_address": "7447 Munoz Common Suite 599",
+            "wages_tips_compensation": "237798.02",
+            "federal_tax_withheld": "25059.09",
+            "dependent_care_benefits": "279",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "TN"
+          },
+          "predicted": {
+            "employee_ssn": "036-49-240",
+            "employer_address": "7447 Munos Common Suite 599 Jessicashire VA 84107-3723",
+            "wages_tips_compensation": "167489.12",
+            "federal_tax_withheld": "44154.68",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "VA"
+          },
+          "cost": 0.00166
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "employee_ssn": "499-03-3699",
+            "employer_address": "443 Davis Ports Suite 323",
+            "wages_tips_compensation": "232714.80",
+            "federal_tax_withheld": "82590.56",
+            "dependent_care_benefits": "240",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "NJ"
+          },
+          "predicted": {
+            "employee_ssn": "10-1367882",
+            "employer_address": "443 Davis Ports Suite 323 Bellton MI 60757-9824",
+            "wages_tips_compensation": "232714.8",
+            "federal_tax_withheld": "82590.56",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "NV"
+          },
+          "cost": 0.001645
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "employee_ssn": "310-59-7229",
+            "employer_address": "6477 Hernandez Groves Suite 414",
+            "wages_tips_compensation": "155002.26",
+            "federal_tax_withheld": "40436.77",
+            "dependent_care_benefits": "185",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "594-10-494",
+            "employer_address": "6477 Hernandez Groves Suite 414 Port Rachelbille MT 31400-6736",
+            "wages_tips_compensation": "112462.92",
+            "federal_tax_withheld": "25297.68",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MT"
+          },
+          "cost": 0.00167
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "employee_ssn": "402-49-8899",
+            "employer_address": "20343 Arnold Island Suite 722",
+            "wages_tips_compensation": "45937.66",
+            "federal_tax_withheld": "5952.67",
+            "dependent_care_benefits": "236",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "GA"
+          },
+          "predicted": {
+            "employee_ssn": "73-1750562",
+            "employer_address": "20343 Arnold Island Suite 722, Loganhaven, PA 63096-3906",
+            "wages_tips_compensation": "45937.66",
+            "federal_tax_withheld": "5952.67",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "NY"
+          },
+          "cost": 0.00165
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "employee_ssn": "726-65-2584",
+            "employer_address": "0041 Joe Ferry",
+            "wages_tips_compensation": "213494.91",
+            "federal_tax_withheld": "56818.46",
+            "dependent_care_benefits": "278",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "PA"
+          },
+          "predicted": {
+            "employee_ssn": "544-31-040",
+            "employer_address": "N/A",
+            "wages_tips_compensation": "213494.91",
+            "federal_tax_withheld": "56818.46",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "PA"
+          },
+          "cost": 0.00156
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "employee_ssn": "110-21-8247",
+            "employer_address": "56100 Tammy Summit Apt. 527",
+            "wages_tips_compensation": "195668.90",
+            "federal_tax_withheld": "64335.66",
+            "dependent_care_benefits": "129",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "527-77-154",
+            "employer_address": "56100 Tammy Summit Apt. 527, Lake Christina KY 63641-5763",
+            "wages_tips_compensation": "195668.9",
+            "federal_tax_withheld": "64335.66",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "KY"
+          },
+          "cost": 0.001665
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "employee_ssn": "697-06-5725",
+            "employer_address": "880 Parker Mills",
+            "wages_tips_compensation": "230036.11",
+            "federal_tax_withheld": "31887.93",
+            "dependent_care_benefits": "280",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "AR"
+          },
+          "predicted": {
+            "employee_ssn": "167-XX-XXXX",
+            "employer_address": "880 Parker Mills, Woodville OR 11672-2058",
+            "wages_tips_compensation": "247991.79",
+            "federal_tax_withheld": "27937.15",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "AK"
+          },
+          "cost": 0.001625
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "employee_ssn": "584-28-0451",
+            "employer_address": "24380 Santiago Islands Apt. 365",
+            "wages_tips_compensation": "95425.47",
+            "federal_tax_withheld": "29710.75",
+            "dependent_care_benefits": "190",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "CA"
+          },
+          "predicted": {
+            "employee_ssn": "489-13-217",
+            "employer_address": "24380 Santiago Islands Apt. 365 Kristinfort MO 08500-0948",
+            "wages_tips_compensation": "48050.71",
+            "federal_tax_withheld": "11630.1",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "MO"
+          },
+          "cost": 0.001655
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "employee_ssn": "411-18-2129",
+            "employer_address": "618 James Lane Suite 894",
+            "wages_tips_compensation": "207340.05",
+            "federal_tax_withheld": "66074.21",
+            "dependent_care_benefits": "189",
+            "box_12a_code": "H",
+            "statutory_employee": "N/A",
+            "state_1": "ID"
+          },
+          "predicted": {
+            "employee_ssn": "989-53-7726",
+            "employer_address": "618 James Lane Suite 894, West Brian, AL 58125-3767",
+            "wages_tips_compensation": "93588.77",
+            "federal_tax_withheld": "9233.7",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "AR"
+          },
+          "cost": 0.00164
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "employee_ssn": "195-36-6099",
+            "employer_address": "3395 Dawn Wall Apt. 979",
+            "wages_tips_compensation": "245905.51",
+            "federal_tax_withheld": "58759.73",
+            "dependent_care_benefits": "139",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "129-XX-XXXX",
+            "employer_address": "3395 Dawn Wall Apt. 979, Sharonbury GA 30716-7052",
+            "wages_tips_compensation": "58759.73",
+            "federal_tax_withheld": "7625.89",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "GA"
+          },
+          "cost": 0.001665
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "employee_ssn": "107-78-4566",
+            "employer_address": "76563 Eric Tunnel",
+            "wages_tips_compensation": "155570.86",
+            "federal_tax_withheld": "31458.66",
+            "dependent_care_benefits": "192",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "MS"
+          },
+          "predicted": {
+            "employee_ssn": "53-0924367",
+            "employer_address": "380 Freeman Springs, Port Robert DE 62672-6084",
+            "wages_tips_compensation": "155570.86",
+            "federal_tax_withheld": "31458.66",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WY"
+          },
+          "cost": 0.00162
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "employee_ssn": "602-28-4493",
+            "employer_address": "25397 Gates Lodge Suite 902",
+            "wages_tips_compensation": "104341.86",
+            "federal_tax_withheld": "20708.24",
+            "dependent_care_benefits": "119",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "92-9595199",
+            "employer_address": "25397 Gates Lodge Suite 902, Port Aranoborough, MS 49048-2449",
+            "wages_tips_compensation": "104341.86",
+            "federal_tax_withheld": "20708.24",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "OR"
+          },
+          "cost": 0.001655
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "employee_ssn": "878-59-8220",
+            "employer_address": "9894 Julie Radial",
+            "wages_tips_compensation": "145518.41",
+            "federal_tax_withheld": "52112.63",
+            "dependent_care_benefits": "149",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "AL"
+          },
+          "predicted": {
+            "employee_ssn": "63-4071592",
+            "employer_address": "9894 Julie Radial, Port Richardshire, NJ 21073-0554",
+            "wages_tips_compensation": "145518.41",
+            "federal_tax_withheld": "52112.63",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "NC"
+          },
+          "cost": 0.00164
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "employee_ssn": "143-37-6981",
+            "employer_address": "867 Taylor Crossroad",
+            "wages_tips_compensation": "200934.64",
+            "federal_tax_withheld": "24528.84",
+            "dependent_care_benefits": "190",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "IL"
+          },
+          "predicted": {
+            "employee_ssn": "581-57-342",
+            "employer_address": "867 Taylor Crossroad, Johnsport IA 00812-2877",
+            "wages_tips_compensation": "190830.79",
+            "federal_tax_withheld": "39418.33",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "IA"
+          },
+          "cost": 0.001645
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "employee_ssn": "060-56-3810",
+            "employer_address": "060 Rivers Summit",
+            "wages_tips_compensation": "157368.78",
+            "federal_tax_withheld": "36095.25",
+            "dependent_care_benefits": "100",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "WY"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "060 Rivers Summit, Varguesbury, DC 00999-7291",
+            "wages_tips_compensation": "157368.78",
+            "federal_tax_withheld": "36095.25",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "SC"
+          },
+          "cost": 0.001615
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "employee_ssn": "721-01-5157",
+            "employer_address": "0938 Payne Islands Apt. 136",
+            "wages_tips_compensation": "236660.72",
+            "federal_tax_withheld": "38997.16",
+            "dependent_care_benefits": "117",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "RI"
+          },
+          "predicted": {
+            "employee_ssn": "091-35-7715",
+            "employer_address": "0938 Payne Islands Apt. 136 West Peter NM 39506-0319",
+            "wages_tips_compensation": "236660.72",
+            "federal_tax_withheld": "38997.16",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "AZ"
+          },
+          "cost": 0.00167
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "employee_ssn": "622-54-4606",
+            "employer_address": "306 Barrett Groves",
+            "wages_tips_compensation": "41509.67",
+            "federal_tax_withheld": "12613.89",
+            "dependent_care_benefits": "204",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "652-54-4606",
+            "employer_address": "306 Barrett Groves, Lake Carlstad RS 31532-5000",
+            "wages_tips_compensation": "41509.67",
+            "federal_tax_withheld": "12613.89",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "KS"
+          },
+          "cost": 0.001635
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "employee_ssn": "536-90-2941",
+            "employer_address": "7106 Valdez Square Suite 393",
+            "wages_tips_compensation": "72188.57",
+            "federal_tax_withheld": "16920.98",
+            "dependent_care_benefits": "103",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "NV"
+          },
+          "predicted": {
+            "employee_ssn": "54-0139532",
+            "employer_address": "7106 Valdez Square Suite 393 Dustinview AR 47941-4374",
+            "wages_tips_compensation": "72188.57",
+            "federal_tax_withheld": "16920.98",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WI"
+          },
+          "cost": 0.00166
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "employee_ssn": "715-66-0584",
+            "employer_address": "034 James Dam Suite 486",
+            "wages_tips_compensation": "159323.16",
+            "federal_tax_withheld": "41113.90",
+            "dependent_care_benefits": "230",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "034 James Dam Suite 486, New Laurieside, NJ 33331-5340",
+            "wages_tips_compensation": "159323.16",
+            "federal_tax_withheld": "41113.9",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MA"
+          },
+          "cost": 0.001645
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "employee_ssn": "537-53-6591",
+            "employer_address": "94483 Lopez Fields Suite 576",
+            "wages_tips_compensation": "168079.49",
+            "federal_tax_withheld": "26847.42",
+            "dependent_care_benefits": "150",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "NV"
+          },
+          "predicted": {
+            "employee_ssn": "537-53-6591",
+            "employer_address": "94483 Lopez Fields Suite 576, Port Melinda NM 21007-9232",
+            "wages_tips_compensation": "168079.49",
+            "federal_tax_withheld": "26847.42",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "NM"
+          },
+          "cost": 0.00166
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "employee_ssn": "423-99-2921",
+            "employer_address": "1902 Judy Ridges",
+            "wages_tips_compensation": "227983.85",
+            "federal_tax_withheld": "49008.09",
+            "dependent_care_benefits": "103",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "DE"
+          },
+          "predicted": {
+            "employee_ssn": "53-7227270",
+            "employer_address": "1902 Judy Ridges East Jonathon TN 52729-4666",
+            "wages_tips_compensation": "227983.85",
+            "federal_tax_withheld": "49008.09",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "IA"
+          },
+          "cost": 0.001655
+        }
+      ]
+    },
+    "gpt4o-mini": {
+      "model_id": "gpt-4o-mini",
+      "scorer_result": {
+        "n_gt": 350,
+        "n_pred": 328,
+        "n_recovered": 126,
+        "n_joint_correct": 126,
+        "n_misbindings": 0,
+        "n_duplicates": 0,
+        "rec_val": 0.36,
+        "cba_cond": 1.0,
+        "acc_joint": 0.36,
+        "delta": 0.0,
+        "precision": 0.384146,
+        "dup_rate": 0.0,
+        "f1_joint": 0.371681
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "employee_ssn": "484-68-9509",
+            "employer_address": "10363 Bond Mountain Suite 802",
+            "wages_tips_compensation": "152652.02",
+            "federal_tax_withheld": "45540.24",
+            "dependent_care_benefits": "100",
+            "box_12a_code": "H",
+            "statutory_employee": "N/A",
+            "state_1": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "878-63-6800",
+            "employer_address": "10363 Bond Mountain Suite 802, Douglaschaster MA 39925-2803",
+            "wages_tips_compensation": "180258.52",
+            "federal_tax_withheld": "45540.24",
+            "dependent_care_benefits": "100",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WA"
+          },
+          "cost": 0.0024225
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "employee_ssn": "079-14-0849",
+            "employer_address": "00215 Beth Glens Suite 617",
+            "wages_tips_compensation": "248088.68",
+            "federal_tax_withheld": "64814.26",
+            "dependent_care_benefits": "274",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "079-14-0849",
+            "employer_address": "00215 Beth Glens Suite 617, East Lauren, NY 48664-4262",
+            "wages_tips_compensation": "248088.68",
+            "federal_tax_withheld": "64814.26",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "UT"
+          },
+          "cost": 0.0024213
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "employee_ssn": "583-65-5516",
+            "employer_address": "829 Dominique Glens",
+            "wages_tips_compensation": "163883.65",
+            "federal_tax_withheld": "34982.01",
+            "dependent_care_benefits": "265",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "15-9448017",
+            "employer_address": "829 Dominique Glens, Rogersstad MT 67532-6508",
+            "wages_tips_compensation": "163838.65",
+            "federal_tax_withheld": "34982.01",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "UT"
+          },
+          "cost": 0.0024177
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "employee_ssn": "054-54-9312",
+            "employer_address": "55381 Wood Manor Apt. 716",
+            "wages_tips_compensation": "218486.95",
+            "federal_tax_withheld": "71603.77",
+            "dependent_care_benefits": "288",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "MD"
+          },
+          "predicted": {
+            "employee_ssn": "742-09-0900",
+            "employer_address": "55381 Wood Manor Apt. 716, Jeffreyview IN 61281-4740",
+            "wages_tips_compensation": "218486.95",
+            "federal_tax_withheld": "71603.77",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MD"
+          },
+          "cost": 0.0039399
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "employee_ssn": "342-31-7649",
+            "employer_address": "5626 Emily Passage",
+            "wages_tips_compensation": "158778.18",
+            "federal_tax_withheld": "30947.35",
+            "dependent_care_benefits": "229",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "MN"
+          },
+          "predicted": {
+            "employee_ssn": "342-31-7649",
+            "employer_address": "5626 Emily Passage\nNicoletport OK 77322-0745",
+            "wages_tips_compensation": "158778.18",
+            "federal_tax_withheld": "30947.35",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MN"
+          },
+          "cost": 0.0039387
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "employee_ssn": "712-59-0520",
+            "employer_address": "7356 Hancock Mews Suite 182",
+            "wages_tips_compensation": "120409.39",
+            "federal_tax_withheld": "36069.19",
+            "dependent_care_benefits": "153",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "WY"
+          },
+          "predicted": {
+            "employee_ssn": "712-59-0520",
+            "employer_address": "7356 Hancock Mews Suite 182 Susanburgh VT 14925-0616",
+            "wages_tips_compensation": "129395.39",
+            "federal_tax_withheld": "91609.29",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "VT"
+          },
+          "cost": 0.0039393
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "employee_ssn": "150-55-2485",
+            "employer_address": "9531 Ramirez Crossroad",
+            "wages_tips_compensation": "210149.36",
+            "federal_tax_withheld": "35489.74",
+            "dependent_care_benefits": "140",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "NM"
+          },
+          "predicted": {
+            "employee_ssn": "150-55-2485",
+            "employer_address": "9531 Ramirez Crossroad, Stephenville NM 72414-1109",
+            "wages_tips_compensation": "21049.36",
+            "federal_tax_withheld": "35489.74",
+            "dependent_care_benefits": "238359.15",
+            "box_12a_code": "E",
+            "statutory_employee": "Yes",
+            "state_1": "NM"
+          },
+          "cost": 0.0039387
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "employee_ssn": "688-56-6974",
+            "employer_address": "3530 Katherine Trail",
+            "wages_tips_compensation": "113426.53",
+            "federal_tax_withheld": "41416.00",
+            "dependent_care_benefits": "105",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "TN"
+          },
+          "predicted": {
+            "employee_ssn": "177-27-736",
+            "employer_address": "3530 Katherine Trail, East Edward, MT 04984-3372",
+            "wages_tips_compensation": "113426.53",
+            "federal_tax_withheld": "41416.0",
+            "dependent_care_benefits": "426.3",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "UT"
+          },
+          "cost": 0.0039381
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "employee_ssn": "822-87-2371",
+            "employer_address": "926 Kimberly Alley Apt. 961",
+            "wages_tips_compensation": "148120.52",
+            "federal_tax_withheld": "50448.90",
+            "dependent_care_benefits": "200",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "AZ"
+          },
+          "predicted": {
+            "employee_ssn": "99-8630752",
+            "employer_address": "926 Kimberly Alley Apt. 961\nMcKeesport PA 98081-1718",
+            "wages_tips_compensation": "148210.52",
+            "federal_tax_withheld": "50448.9",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WV"
+          },
+          "cost": 0.0039375
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "employee_ssn": "838-95-1237",
+            "employer_address": "1998 Kaylee Falls",
+            "wages_tips_compensation": "136750.11",
+            "federal_tax_withheld": "15601.90",
+            "dependent_care_benefits": "286",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "LA"
+          },
+          "predicted": {
+            "employee_ssn": "838-95-1237",
+            "employer_address": "1998 Kaylee Falls Moonfort OK 85303-8479",
+            "wages_tips_compensation": "136750.11",
+            "federal_tax_withheld": "15601.9",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "GA"
+          },
+          "cost": 0.0039375
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "employee_ssn": "686-23-7237",
+            "employer_address": "139 Jason Hill",
+            "wages_tips_compensation": "117803.63",
+            "federal_tax_withheld": "41517.38",
+            "dependent_care_benefits": "159",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "KS"
+          },
+          "predicted": {
+            "employee_ssn": "67-9511849",
+            "employer_address": "139 Jason Hill\nSarahland AZ 66910-1298",
+            "wages_tips_compensation": "117803.63",
+            "federal_tax_withheld": "41517.38",
+            "dependent_care_benefits": "121634.1",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "KS"
+          },
+          "cost": 0.0039351
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "employee_ssn": "662-76-3435",
+            "employer_address": "5627 Allen Curve",
+            "wages_tips_compensation": "101362.84",
+            "federal_tax_withheld": "30492.55",
+            "dependent_care_benefits": "192",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "662-76-3435",
+            "employer_address": "5627 Allen Curve, Lake Toddside WY 12199-7648",
+            "wages_tips_compensation": "101362.84",
+            "federal_tax_withheld": "30492.55",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "CO"
+          },
+          "cost": 0.0039381
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "employee_ssn": "813-62-1184",
+            "employer_address": "8000 Maurice Street",
+            "wages_tips_compensation": "99608.61",
+            "federal_tax_withheld": "21503.42",
+            "dependent_care_benefits": "284",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "MD"
+          },
+          "predicted": {
+            "employee_ssn": "813-62-1184",
+            "employer_address": "8000 Maurice Street, Christianside SC 68424-9134",
+            "wages_tips_compensation": "99608.61",
+            "federal_tax_withheld": "21503.42",
+            "dependent_care_benefits": "74591.41",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MD"
+          },
+          "cost": 0.0039387
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "employee_ssn": "152-66-1892",
+            "employer_address": "54147 Brandy Islands Suite 097",
+            "wages_tips_compensation": "86879.95",
+            "federal_tax_withheld": "27984.13",
+            "dependent_care_benefits": "139",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "IL"
+          },
+          "predicted": {
+            "employee_ssn": "152-66-1892",
+            "employer_address": "54147 Brandy Islands Suite 097, Lake Nancy TX 27269-9614",
+            "wages_tips_compensation": "102772.14",
+            "federal_tax_withheld": "98853.02",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WA"
+          },
+          "cost": 0.0039399
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "employee_ssn": "302-97-5825",
+            "employer_address": "5966 Alexander Curve Apt. 509",
+            "wages_tips_compensation": "90684.48",
+            "federal_tax_withheld": "9304.00",
+            "dependent_care_benefits": "250",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "DE"
+          },
+          "predicted": {
+            "employee_ssn": "302-97-5825",
+            "employer_address": "5966 Alexander Curve Apt. 509, New Catherinebury WI 16161-2662",
+            "wages_tips_compensation": "109704.34",
+            "federal_tax_withheld": "76761.31",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "NE"
+          },
+          "cost": 0.0039405
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "employee_ssn": "610-27-6592",
+            "employer_address": "0770 Melissa Manor Suite 764",
+            "wages_tips_compensation": "86259.77",
+            "federal_tax_withheld": "29047.98",
+            "dependent_care_benefits": "152",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "610-27-6592",
+            "employer_address": "0770 Melissa Manor Suite 764, North Kelsey, OR 64268-6137",
+            "wages_tips_compensation": "86259.77",
+            "federal_tax_withheld": "29047.98",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "UT"
+          },
+          "cost": 0.0039405
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "employee_ssn": "498-71-2917",
+            "employer_address": "59004 Obrien Haven",
+            "wages_tips_compensation": "60834.74",
+            "federal_tax_withheld": "21288.46",
+            "dependent_care_benefits": "121",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "OR"
+          },
+          "predicted": {
+            "employee_ssn": "621-68-7771",
+            "employer_address": "59004 Obrien Haven\nNew Marbury PA 24739-3330",
+            "wages_tips_compensation": "76344.29",
+            "federal_tax_withheld": "5840.34",
+            "dependent_care_benefits": "2177.05",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "OR"
+          },
+          "cost": 0.0039399
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "employee_ssn": "852-14-0412",
+            "employer_address": "31432 Collins Lane Suite 877",
+            "wages_tips_compensation": "213063.63",
+            "federal_tax_withheld": "57633.41",
+            "dependent_care_benefits": "217",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "OH"
+          },
+          "predicted": {
+            "employee_ssn": "35-4799316",
+            "employer_address": "31432 Collins Lane Suite 877\nEast Brandonberg VT 37655-0913",
+            "wages_tips_compensation": "213063.63",
+            "federal_tax_withheld": "57631.41",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "OR"
+          },
+          "cost": 0.0039393
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "employee_ssn": "751-88-6978",
+            "employer_address": "042 Smith Cape",
+            "wages_tips_compensation": "151146.76",
+            "federal_tax_withheld": "23327.70",
+            "dependent_care_benefits": "167",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "GA"
+          },
+          "predicted": {
+            "employee_ssn": "751-88-6978",
+            "employer_address": "042 Smith Cape Masseyfurt AR 22303-6240",
+            "wages_tips_compensation": "182868.69",
+            "federal_tax_withheld": "13989.45",
+            "dependent_care_benefits": "142377.24",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "GA"
+          },
+          "cost": 0.0039381
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "employee_ssn": "219-05-9508",
+            "employer_address": "601 Patel Mountain",
+            "wages_tips_compensation": "183073.45",
+            "federal_tax_withheld": "58714.69",
+            "dependent_care_benefits": "137",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "AK"
+          },
+          "predicted": {
+            "employee_ssn": "160-07-0900",
+            "employer_address": "601 Patel Mountain\nWest Mary SC 56076-8633",
+            "wages_tips_compensation": "180373.45",
+            "federal_tax_withheld": "58714.69",
+            "dependent_care_benefits": "172263.74",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "AR"
+          },
+          "cost": 0.0039381
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "employee_ssn": "144-45-5742",
+            "employer_address": "13200 Candice Mills Apt. 272",
+            "wages_tips_compensation": "191151.46",
+            "federal_tax_withheld": "37546.86",
+            "dependent_care_benefits": "236",
+            "box_12a_code": "H",
+            "statutory_employee": "N/A",
+            "state_1": "MD"
+          },
+          "predicted": {
+            "employee_ssn": "596-66-4444",
+            "employer_address": "13200 Candice Mills Apt. 272\nDodsonberg AZ 22471-8401",
+            "wages_tips_compensation": "191151.46",
+            "federal_tax_withheld": "37546.86",
+            "dependent_care_benefits": "141171.29",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MD"
+          },
+          "cost": 0.0039423
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "employee_ssn": "888-91-2527",
+            "employer_address": "24405 Li Station Apt. 579",
+            "wages_tips_compensation": "125200.75",
+            "federal_tax_withheld": "15755.30",
+            "dependent_care_benefits": "191",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "MA"
+          },
+          "predicted": {
+            "employee_ssn": "888-91-2527",
+            "employer_address": "24045 I1 Station Apt. 579 East Ryanbury MO 41737-0648",
+            "wages_tips_compensation": "125200.75",
+            "federal_tax_withheld": "1575.3",
+            "dependent_care_benefits": "97590.1",
+            "box_12a_code": "H",
+            "statutory_employee": "Yes",
+            "state_1": "MA"
+          },
+          "cost": 0.0039411
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "employee_ssn": "061-74-3844",
+            "employer_address": "68729 Sloan Junction Suite 353",
+            "wages_tips_compensation": "205321.46",
+            "federal_tax_withheld": "42333.53",
+            "dependent_care_benefits": "285",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "OR"
+          },
+          "predicted": {
+            "employee_ssn": "190-06625",
+            "employer_address": "68729 Sloan Junction Suite 353\nPerdueburg AR 94828-5236",
+            "wages_tips_compensation": "205321.46",
+            "federal_tax_withheld": "42333.53",
+            "dependent_care_benefits": "20148.25",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "GA"
+          },
+          "cost": 0.0039399
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "employee_ssn": "832-29-2067",
+            "employer_address": "1836 Shawn Flats",
+            "wages_tips_compensation": "216194.29",
+            "federal_tax_withheld": "41302.85",
+            "dependent_care_benefits": "200",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "OK"
+          },
+          "predicted": {
+            "employee_ssn": "832-29-2067",
+            "employer_address": "1836 Shawn Flats, Lake Erin TX 84236-0383",
+            "wages_tips_compensation": "26194.29",
+            "federal_tax_withheld": "12113.01",
+            "dependent_care_benefits": "2000",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "OR"
+          },
+          "cost": 0.0039351
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "employee_ssn": "504-83-9590",
+            "employer_address": "61460 Kim Hollow",
+            "wages_tips_compensation": "78313.32",
+            "federal_tax_withheld": "18438.38",
+            "dependent_care_benefits": "252",
+            "box_12a_code": "H",
+            "statutory_employee": "N/A",
+            "state_1": "IN"
+          },
+          "predicted": {
+            "employee_ssn": "504-83-9590",
+            "employer_address": "61460 Kim Hollow\nHayesstad LA 70888-7543",
+            "wages_tips_compensation": "78313.32",
+            "federal_tax_withheld": "18438.38",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "IN"
+          },
+          "cost": 0.0039381
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "employee_ssn": "457-50-9546",
+            "employer_address": "6222 Caitlyn Villages",
+            "wages_tips_compensation": "105726.15",
+            "federal_tax_withheld": "10903.81",
+            "dependent_care_benefits": "286",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "457-50-9546",
+            "employer_address": "6222 Caitlyn Villages\nDuarteyside AR 34812-5208",
+            "wages_tips_compensation": "122392.42",
+            "federal_tax_withheld": "128984.48",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "E",
+            "statutory_employee": "Yes",
+            "state_1": "VA"
+          },
+          "cost": 0.0039369
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "employee_ssn": "070-82-9963",
+            "employer_address": "2395 Joshua Center Apt. 267",
+            "wages_tips_compensation": "175527.76",
+            "federal_tax_withheld": "39400.69",
+            "dependent_care_benefits": "256",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "070-82-9963",
+            "employer_address": "2395 Joshua Center Apt. 267, Brynport VT 37884-9210",
+            "wages_tips_compensation": "208658.82",
+            "federal_tax_withheld": "173239.4",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WV"
+          },
+          "cost": 0.0039405
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "employee_ssn": "168-52-9821",
+            "employer_address": "337 Ashley Radial",
+            "wages_tips_compensation": "205138.02",
+            "federal_tax_withheld": "31689.11",
+            "dependent_care_benefits": "283",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "ND"
+          },
+          "predicted": {
+            "employee_ssn": "625-53-2792",
+            "employer_address": "337 Ashley Radial\nWest Nicholas NE 76815-7641",
+            "wages_tips_compensation": "213290.75",
+            "federal_tax_withheld": "1674.05",
+            "dependent_care_benefits": "6185.43",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "ND"
+          },
+          "cost": 0.0039387
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "employee_ssn": "018-56-0380",
+            "employer_address": "87636 John Inlet",
+            "wages_tips_compensation": "239891.84",
+            "federal_tax_withheld": "61983.56",
+            "dependent_care_benefits": "208",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "CA"
+          },
+          "predicted": {
+            "employee_ssn": "N/A",
+            "employer_address": "Steele ltd Inc, 87636 John Inlet, Nelsonberg NH 31663-6143",
+            "wages_tips_compensation": "254453.4",
+            "federal_tax_withheld": "19465.69",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "CA"
+          },
+          "cost": 0.0039393
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "employee_ssn": "622-95-4526",
+            "employer_address": "7447 Munoz Common Suite 599",
+            "wages_tips_compensation": "237798.02",
+            "federal_tax_withheld": "25059.09",
+            "dependent_care_benefits": "279",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "TN"
+          },
+          "predicted": {
+            "employee_ssn": "622-95-4526",
+            "employer_address": "7447 Munor Common Suite 599 Jessicaschire VA 84107-3723",
+            "wages_tips_compensation": "237798.02",
+            "federal_tax_withheld": "25059.09",
+            "dependent_care_benefits": "200606.27",
+            "box_12a_code": "263343.76",
+            "statutory_employee": "No",
+            "state_1": "TN"
+          },
+          "cost": 0.0039429
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "employee_ssn": "499-03-3699",
+            "employer_address": "443 Davis Ports Suite 323",
+            "wages_tips_compensation": "232714.80",
+            "federal_tax_withheld": "82590.56",
+            "dependent_care_benefits": "240",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "NJ"
+          },
+          "predicted": {
+            "employee_ssn": "499-03-3699",
+            "employer_address": "443 Davis Ports Suite 323, Bellton, MI 60757-9824",
+            "wages_tips_compensation": "259032.59",
+            "federal_tax_withheld": "110015.84",
+            "dependent_care_benefits": "240",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "NJ"
+          },
+          "cost": 0.0039387
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "employee_ssn": "310-59-7229",
+            "employer_address": "6477 Hernandez Groves Suite 414",
+            "wages_tips_compensation": "155002.26",
+            "federal_tax_withheld": "40436.77",
+            "dependent_care_benefits": "185",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "310-59-7229",
+            "employer_address": "6477 Hernandez Groves Suite 414\nPort Racheville MT 31400-6736",
+            "wages_tips_compensation": "155002.26",
+            "federal_tax_withheld": "40436.77",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "P7517",
+            "statutory_employee": "No",
+            "state_1": "SD"
+          },
+          "cost": 0.0039417
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "employee_ssn": "402-49-8899",
+            "employer_address": "20343 Arnold Island Suite 722",
+            "wages_tips_compensation": "45937.66",
+            "federal_tax_withheld": "5952.67",
+            "dependent_care_benefits": "236",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "GA"
+          },
+          "predicted": {
+            "employee_ssn": "402-49-8899",
+            "employer_address": "20343 Arnold Island Suite 722 Loganhaven PA 63096-3906",
+            "wages_tips_compensation": "53017.68",
+            "federal_tax_withheld": "46984.14",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "1362.54",
+            "statutory_employee": "No",
+            "state_1": "GA"
+          },
+          "cost": 0.0039399
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "employee_ssn": "726-65-2584",
+            "employer_address": "0041 Joe Ferry",
+            "wages_tips_compensation": "213494.91",
+            "federal_tax_withheld": "56818.46",
+            "dependent_care_benefits": "278",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "PA"
+          },
+          "predicted": {
+            "employee_ssn": "463-76-0500",
+            "employer_address": "0014 Joe Ferry\nWilliamsmouth PA 08000-0494",
+            "wages_tips_compensation": "213494.91",
+            "federal_tax_withheld": "56814.46",
+            "dependent_care_benefits": "278",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "PA"
+          },
+          "cost": 0.0039369
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "employee_ssn": "110-21-8247",
+            "employer_address": "56100 Tammy Summit Apt. 527",
+            "wages_tips_compensation": "195668.90",
+            "federal_tax_withheld": "64335.66",
+            "dependent_care_benefits": "129",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "666-66-7770",
+            "employer_address": "56100 Tammy Summit Apt. 527 Lake Christina KY 63641-5763",
+            "wages_tips_compensation": "195668.9",
+            "federal_tax_withheld": "64335.66",
+            "dependent_care_benefits": "16129.92",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WA"
+          },
+          "cost": 0.0039405
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "employee_ssn": "697-06-5725",
+            "employer_address": "880 Parker Mills",
+            "wages_tips_compensation": "230036.11",
+            "federal_tax_withheld": "31887.93",
+            "dependent_care_benefits": "280",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "AR"
+          },
+          "predicted": {
+            "employee_ssn": "697-06-5725",
+            "employer_address": "880 Parker Mills\nWoodville OR 11672-2058",
+            "wages_tips_compensation": "230306.13",
+            "federal_tax_withheld": "31887.93",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "Yes",
+            "state_1": "AR"
+          },
+          "cost": 0.0039363
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "employee_ssn": "584-28-0451",
+            "employer_address": "24380 Santiago Islands Apt. 365",
+            "wages_tips_compensation": "95425.47",
+            "federal_tax_withheld": "29710.75",
+            "dependent_care_benefits": "190",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "CA"
+          },
+          "predicted": {
+            "employee_ssn": "06-9379362",
+            "employer_address": "Johnson, Gonzalez and Hickman Group\n24380 Santiago Islands Apt. 365\nKristinfurt MO 08500-0948",
+            "wages_tips_compensation": "104454.76",
+            "federal_tax_withheld": "29170.75",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "CA"
+          },
+          "cost": 0.0039447
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "employee_ssn": "411-18-2129",
+            "employer_address": "618 James Lane Suite 894",
+            "wages_tips_compensation": "207340.05",
+            "federal_tax_withheld": "66074.21",
+            "dependent_care_benefits": "189",
+            "box_12a_code": "H",
+            "statutory_employee": "N/A",
+            "state_1": "ID"
+          },
+          "predicted": {
+            "employee_ssn": "411-18-2129",
+            "employer_address": "618 James Lane Suite 894, West Brian, AL 58125-3767",
+            "wages_tips_compensation": "207340.05",
+            "federal_tax_withheld": "66074.21",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "AR"
+          },
+          "cost": 0.0039393
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "employee_ssn": "195-36-6099",
+            "employer_address": "3395 Dawn Wall Apt. 979",
+            "wages_tips_compensation": "245905.51",
+            "federal_tax_withheld": "58759.73",
+            "dependent_care_benefits": "139",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "WA"
+          },
+          "predicted": {
+            "employee_ssn": "195-36-6099",
+            "employer_address": "3395 Dawn Wall Apt. 979\nSharonburg GA 30716-7052",
+            "wages_tips_compensation": "24505.51",
+            "federal_tax_withheld": "5879.73",
+            "dependent_care_benefits": "262961.66",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WA"
+          },
+          "cost": 0.0039417
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "employee_ssn": "107-78-4566",
+            "employer_address": "76563 Eric Tunnel",
+            "wages_tips_compensation": "155570.86",
+            "federal_tax_withheld": "31458.66",
+            "dependent_care_benefits": "192",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "MS"
+          },
+          "predicted": {
+            "employee_ssn": "107-78-4566",
+            "employer_address": "76563 Eric Tunnel, Lucasmouth TN 61576-0594",
+            "wages_tips_compensation": "15570.86",
+            "federal_tax_withheld": "31458.66",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "MS"
+          },
+          "cost": 0.0039369
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "employee_ssn": "602-28-4493",
+            "employer_address": "25397 Gates Lodge Suite 902",
+            "wages_tips_compensation": "104341.86",
+            "federal_tax_withheld": "20708.24",
+            "dependent_care_benefits": "119",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "UT"
+          },
+          "predicted": {
+            "employee_ssn": "92-9595199",
+            "employer_address": "25397 Gates Lodge Suite 902 Port Aaronborough MS 49048-2449",
+            "wages_tips_compensation": "104341.86",
+            "federal_tax_withheld": "20708.24",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "UT"
+          },
+          "cost": 0.0039387
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "employee_ssn": "878-59-8220",
+            "employer_address": "9894 Julie Radial",
+            "wages_tips_compensation": "145518.41",
+            "federal_tax_withheld": "52112.63",
+            "dependent_care_benefits": "149",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "AL"
+          },
+          "predicted": {
+            "employee_ssn": "878-59-8220",
+            "employer_address": "9894 Julie Raidal, Port Richardshire NJ 21073-0554",
+            "wages_tips_compensation": "128763.85",
+            "federal_tax_withheld": "52112.63",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "AL"
+          },
+          "cost": 0.0039387
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "employee_ssn": "143-37-6981",
+            "employer_address": "867 Taylor Crossroad",
+            "wages_tips_compensation": "200934.64",
+            "federal_tax_withheld": "24528.84",
+            "dependent_care_benefits": "190",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "IL"
+          },
+          "predicted": {
+            "employee_ssn": "143-37-6981",
+            "employer_address": "867 Taylor Crossroad, Johnsonsport IA 00812-2877",
+            "wages_tips_compensation": "200934.64",
+            "federal_tax_withheld": "24528.84",
+            "dependent_care_benefits": "18294.71",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "MO"
+          },
+          "cost": 0.0039387
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "employee_ssn": "060-56-3810",
+            "employer_address": "060 Rivers Summit",
+            "wages_tips_compensation": "157368.78",
+            "federal_tax_withheld": "36095.25",
+            "dependent_care_benefits": "100",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "WY"
+          },
+          "predicted": {
+            "employee_ssn": "060-56-3810",
+            "employer_address": "060 Rivers Summit\nVasquezbury DC 00999-7291",
+            "wages_tips_compensation": "157368.78",
+            "federal_tax_withheld": "36095.25",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "D",
+            "statutory_employee": "No",
+            "state_1": "WY"
+          },
+          "cost": 0.0039375
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "employee_ssn": "721-01-5157",
+            "employer_address": "0938 Payne Islands Apt. 136",
+            "wages_tips_compensation": "236660.72",
+            "federal_tax_withheld": "38997.16",
+            "dependent_care_benefits": "117",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "RI"
+          },
+          "predicted": {
+            "employee_ssn": "721-01-5157",
+            "employer_address": "0938 Payne Islands Apt. 136 West Peter NM 39506-0319",
+            "wages_tips_compensation": "236660.72",
+            "federal_tax_withheld": "38997.16",
+            "dependent_care_benefits": "221303.74",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "RI"
+          },
+          "cost": 0.0039405
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "employee_ssn": "622-54-4606",
+            "employer_address": "306 Barrett Groves",
+            "wages_tips_compensation": "41509.67",
+            "federal_tax_withheld": "12613.89",
+            "dependent_care_benefits": "204",
+            "box_12a_code": "D",
+            "statutory_employee": "N/A",
+            "state_1": "SD"
+          },
+          "predicted": {
+            "employee_ssn": "45-1235834",
+            "employer_address": "306 Barrett Groves, Lake Carlstad KS 31532-5000",
+            "wages_tips_compensation": "31630.32",
+            "federal_tax_withheld": "50332.65",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "SD"
+          },
+          "cost": 0.0039375
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "employee_ssn": "536-90-2941",
+            "employer_address": "7106 Valdez Square Suite 393",
+            "wages_tips_compensation": "72188.57",
+            "federal_tax_withheld": "16920.98",
+            "dependent_care_benefits": "103",
+            "box_12a_code": "G",
+            "statutory_employee": "N/A",
+            "state_1": "NV"
+          },
+          "predicted": {
+            "employee_ssn": "536-90-2941",
+            "employer_address": "7106 Valdez Square Suite 393\nDustinview AR 47941-4374",
+            "wages_tips_compensation": "72188.57",
+            "federal_tax_withheld": "16920.98",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "NV"
+          },
+          "cost": 0.0039405
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "employee_ssn": "715-66-0584",
+            "employer_address": "034 James Dam Suite 486",
+            "wages_tips_compensation": "159323.16",
+            "federal_tax_withheld": "41113.90",
+            "dependent_care_benefits": "230",
+            "box_12a_code": "P",
+            "statutory_employee": "N/A",
+            "state_1": "WV"
+          },
+          "predicted": {
+            "employee_ssn": "715-66-0584",
+            "employer_address": "034 James Dam Suite 486, New Laurieside NJ 33331-5340",
+            "wages_tips_compensation": "149636.6",
+            "federal_tax_withheld": "183655.62",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "WV"
+          },
+          "cost": 0.0039399
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "employee_ssn": "537-53-6591",
+            "employer_address": "94483 Lopez Fields Suite 576",
+            "wages_tips_compensation": "168079.49",
+            "federal_tax_withheld": "26847.42",
+            "dependent_care_benefits": "150",
+            "box_12a_code": "None",
+            "statutory_employee": "N/A",
+            "state_1": "NV"
+          },
+          "predicted": {
+            "employee_ssn": "537-53-6591",
+            "employer_address": "94483 Lopez Fields Suite 576, Port Melinda NM 21007-9232",
+            "wages_tips_compensation": "217625.93",
+            "federal_tax_withheld": "128313.85",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "NY"
+          },
+          "cost": 0.0039399
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "employee_ssn": "423-99-2921",
+            "employer_address": "1902 Judy Ridges",
+            "wages_tips_compensation": "227983.85",
+            "federal_tax_withheld": "49008.09",
+            "dependent_care_benefits": "103",
+            "box_12a_code": "E",
+            "statutory_employee": "N/A",
+            "state_1": "DE"
+          },
+          "predicted": {
+            "employee_ssn": "423-99-2921",
+            "employer_address": "1902 Judy Ridges, East Jonathon, TN 52729-4666",
+            "wages_tips_compensation": "227983.85",
+            "federal_tax_withheld": "49008.09",
+            "dependent_care_benefits": "N/A",
+            "box_12a_code": "N/A",
+            "statutory_employee": "No",
+            "state_1": "TN"
+          },
+          "cost": 0.0039393
+        }
+      ]
+    }
+  },
+  "summary": {
+    "haiku": {
+      "n_gt": 350,
+      "n_pred": 304,
+      "n_recovered": 62,
+      "n_joint_correct": 61,
+      "n_misbindings": 1,
+      "n_duplicates": 0,
+      "rec_val": 0.177143,
+      "cba_cond": 0.983871,
+      "acc_joint": 0.174286,
+      "delta": 0.002857,
+      "precision": 0.200658,
+      "dup_rate": 0.0,
+      "f1_joint": 0.186544
+    },
+    "gpt4o-mini": {
+      "n_gt": 350,
+      "n_pred": 328,
+      "n_recovered": 126,
+      "n_joint_correct": 126,
+      "n_misbindings": 0,
+      "n_duplicates": 0,
+      "rec_val": 0.36,
+      "cba_cond": 1.0,
+      "acc_joint": 0.36,
+      "delta": 0.0,
+      "precision": 0.384146,
+      "dup_rate": 0.0,
+      "f1_joint": 0.371681
+    }
+  }
+}

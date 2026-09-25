@@ -1,0 +1,2488 @@
+{
+  "overlap": "same_type",
+  "density": 8,
+  "active_fields": [
+    "wages_tips_compensation",
+    "social_security_wages",
+    "medicare_wages",
+    "social_security_tips",
+    "allocated_tips",
+    "federal_tax_withheld",
+    "social_security_tax",
+    "medicare_tax"
+  ],
+  "cell": {
+    "haiku": {
+      "model_id": "claude-haiku-4-5",
+      "scorer_result": {
+        "n_gt": 400,
+        "n_pred": 296,
+        "n_recovered": 139,
+        "n_joint_correct": 106,
+        "n_misbindings": 33,
+        "n_duplicates": 38,
+        "rec_val": 0.3475,
+        "cba_cond": 0.76259,
+        "acc_joint": 0.265,
+        "delta": 0.0825,
+        "precision": 0.358108,
+        "dup_rate": 0.128378,
+        "f1_joint": 0.304598
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "wages_tips_compensation": "152652.02",
+            "social_security_wages": "136633.34",
+            "medicare_wages": "180258.52",
+            "social_security_tips": "136633.34",
+            "allocated_tips": "180258.52",
+            "federal_tax_withheld": "45540.24",
+            "social_security_tax": "10452.45",
+            "medicare_tax": "5227.50"
+          },
+          "predicted": {
+            "wages_tips_compensation": "45540.24",
+            "social_security_wages": "45540.24",
+            "medicare_wages": "45540.24",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "5227.5",
+            "social_security_tax": "2823.06",
+            "medicare_tax": "660.33"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "wages_tips_compensation": "248088.68",
+            "social_security_wages": "220967.19",
+            "medicare_wages": "174279.90",
+            "social_security_tips": "220967.19",
+            "allocated_tips": "174279.90",
+            "federal_tax_withheld": "64814.26",
+            "social_security_tax": "16903.99",
+            "medicare_tax": "5054.12"
+          },
+          "predicted": {
+            "wages_tips_compensation": "248088.68",
+            "social_security_wages": "220967.19",
+            "medicare_wages": "248088.68",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "64814.26",
+            "social_security_tax": "13703.56",
+            "medicare_tax": "3597.71"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "wages_tips_compensation": "163883.65",
+            "social_security_wages": "129135.24",
+            "medicare_wages": "122600.48",
+            "social_security_tips": "129135.24",
+            "allocated_tips": "122600.48",
+            "federal_tax_withheld": "34982.01",
+            "social_security_tax": "9878.85",
+            "medicare_tax": "3555.41"
+          },
+          "predicted": {
+            "wages_tips_compensation": "34982.01",
+            "social_security_wages": "34982.01",
+            "medicare_wages": "34982.01",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "3555.41",
+            "social_security_tax": "2170.87",
+            "medicare_tax": "507.54"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "wages_tips_compensation": "218486.95",
+            "social_security_wages": "279458.11",
+            "medicare_wages": "204619.66",
+            "social_security_tips": "279458.11",
+            "allocated_tips": "204619.66",
+            "federal_tax_withheld": "71603.77",
+            "social_security_tax": "21378.55",
+            "medicare_tax": "5933.97"
+          },
+          "predicted": {
+            "wages_tips_compensation": "218486.95",
+            "social_security_wages": "218486.95",
+            "medicare_wages": "218486.95",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "71603.77",
+            "social_security_tax": "13527.59",
+            "medicare_tax": "3169.06"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "wages_tips_compensation": "158778.18",
+            "social_security_wages": "131220.25",
+            "medicare_wages": "137323.10",
+            "social_security_tips": "131220.25",
+            "allocated_tips": "137323.10",
+            "federal_tax_withheld": "30947.35",
+            "social_security_tax": "10038.35",
+            "medicare_tax": "3982.37"
+          },
+          "predicted": {
+            "wages_tips_compensation": "158778.18",
+            "social_security_wages": "158778.18",
+            "medicare_wages": "158778.18",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "30947.35",
+            "social_security_tax": "9834.39",
+            "medicare_tax": "2300.08"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "wages_tips_compensation": "120409.39",
+            "social_security_wages": "129935.39",
+            "medicare_wages": "91609.29",
+            "social_security_tips": "129935.39",
+            "allocated_tips": "91609.29",
+            "federal_tax_withheld": "36069.19",
+            "social_security_tax": "9940.06",
+            "medicare_tax": "2656.67"
+          },
+          "predicted": {
+            "wages_tips_compensation": "36069.19",
+            "social_security_wages": "36069.19",
+            "medicare_wages": "36069.19",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "2656.67",
+            "social_security_tax": "2656.67",
+            "medicare_tax": "N/A"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "wages_tips_compensation": "210149.36",
+            "social_security_wages": "210806.60",
+            "medicare_wages": "238359.15",
+            "social_security_tips": "210806.60",
+            "allocated_tips": "238359.15",
+            "federal_tax_withheld": "35489.74",
+            "social_security_tax": "16126.70",
+            "medicare_tax": "6912.42"
+          },
+          "predicted": {
+            "wages_tips_compensation": "21014.36",
+            "social_security_wages": "21014.36",
+            "medicare_wages": "21014.36",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "2144.06",
+            "social_security_tax": "1303.06",
+            "medicare_tax": "305.21"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "wages_tips_compensation": "113426.53",
+            "social_security_wages": "115617.26",
+            "medicare_wages": "147044.99",
+            "social_security_tips": "115617.26",
+            "allocated_tips": "147044.99",
+            "federal_tax_withheld": "41416.00",
+            "social_security_tax": "8844.72",
+            "medicare_tax": "4264.30"
+          },
+          "predicted": {
+            "wages_tips_compensation": "113426.53",
+            "social_security_wages": "115617.26",
+            "medicare_wages": "115617.26",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "41416.0",
+            "social_security_tax": "8844.72",
+            "medicare_tax": "2264.3"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "wages_tips_compensation": "148120.52",
+            "social_security_wages": "125363.69",
+            "medicare_wages": "181064.30",
+            "social_security_tips": "125363.69",
+            "allocated_tips": "181064.30",
+            "federal_tax_withheld": "50448.90",
+            "social_security_tax": "9590.32",
+            "medicare_tax": "5250.86"
+          },
+          "predicted": {
+            "wages_tips_compensation": "50448.9",
+            "social_security_wages": "50448.9",
+            "medicare_wages": "50448.9",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "5250.86",
+            "social_security_tax": "3128.34",
+            "medicare_tax": "731.51"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "wages_tips_compensation": "136750.11",
+            "social_security_wages": "157542.24",
+            "medicare_wages": "175634.34",
+            "social_security_tips": "157542.24",
+            "allocated_tips": "175634.34",
+            "federal_tax_withheld": "15601.90",
+            "social_security_tax": "12051.98",
+            "medicare_tax": "5093.40"
+          },
+          "predicted": {
+            "wages_tips_compensation": "131005.25",
+            "social_security_wages": "131005.25",
+            "medicare_wages": "131005.25",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "14105.81",
+            "social_security_tax": "24056.45",
+            "medicare_tax": "N/A"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "wages_tips_compensation": "117803.63",
+            "social_security_wages": "140267.74",
+            "medicare_wages": "126134.10",
+            "social_security_tips": "140267.74",
+            "allocated_tips": "126134.10",
+            "federal_tax_withheld": "41517.38",
+            "social_security_tax": "10730.48",
+            "medicare_tax": "3657.89"
+          },
+          "predicted": {
+            "wages_tips_compensation": "117803.63",
+            "social_security_wages": "117803.63",
+            "medicare_wages": "117803.63",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "41517.38",
+            "social_security_tax": "7309.85",
+            "medicare_tax": "1708.97"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "wages_tips_compensation": "101362.84",
+            "social_security_wages": "112706.44",
+            "medicare_wages": "130852.21",
+            "social_security_tips": "112706.44",
+            "allocated_tips": "130852.21",
+            "federal_tax_withheld": "30492.55",
+            "social_security_tax": "8622.04",
+            "medicare_tax": "3794.71"
+          },
+          "predicted": {
+            "wages_tips_compensation": "103454.07",
+            "social_security_wages": "103454.07",
+            "medicare_wages": "103454.07",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "11844.42",
+            "social_security_tax": "6409.75",
+            "medicare_tax": "1500.86"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "wages_tips_compensation": "99608.61",
+            "social_security_wages": "92801.97",
+            "medicare_wages": "74591.41",
+            "social_security_tips": "92801.97",
+            "allocated_tips": "74591.41",
+            "federal_tax_withheld": "21503.42",
+            "social_security_tax": "7099.35",
+            "medicare_tax": "2163.15"
+          },
+          "predicted": {
+            "wages_tips_compensation": "99608.61",
+            "social_security_wages": "92801.97",
+            "medicare_wages": "92801.97",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "21503.42",
+            "social_security_tax": "7099.35",
+            "medicare_tax": "2163.15"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "wages_tips_compensation": "86879.95",
+            "social_security_wages": "102772.14",
+            "medicare_wages": "98853.02",
+            "social_security_tips": "102772.14",
+            "allocated_tips": "98853.02",
+            "federal_tax_withheld": "27984.13",
+            "social_security_tax": "7862.07",
+            "medicare_tax": "2866.74"
+          },
+          "predicted": {
+            "wages_tips_compensation": "86879.95",
+            "social_security_wages": "86879.95",
+            "medicare_wages": "86879.95",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "12533.95",
+            "social_security_tax": "5367.99",
+            "medicare_tax": "1260.77"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "wages_tips_compensation": "90684.48",
+            "social_security_wages": "109704.34",
+            "medicare_wages": "76761.31",
+            "social_security_tips": "109704.34",
+            "allocated_tips": "76761.31",
+            "federal_tax_withheld": "9304.00",
+            "social_security_tax": "8392.38",
+            "medicare_tax": "2226.08"
+          },
+          "predicted": {
+            "wages_tips_compensation": "90684.48",
+            "social_security_wages": "109704.34",
+            "medicare_wages": "109704.34",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "11387.86",
+            "social_security_tax": "6806.68",
+            "medicare_tax": "1590.71"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "wages_tips_compensation": "86259.77",
+            "social_security_wages": "109647.41",
+            "medicare_wages": "62816.18",
+            "social_security_tips": "109647.41",
+            "allocated_tips": "62816.18",
+            "federal_tax_withheld": "29047.98",
+            "social_security_tax": "8388.03",
+            "medicare_tax": "1821.67"
+          },
+          "predicted": {
+            "wages_tips_compensation": "86259.77",
+            "social_security_wages": "109647.41",
+            "medicare_wages": "109647.41",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "29047.98",
+            "social_security_tax": "8388.03",
+            "medicare_tax": "1821.67"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "wages_tips_compensation": "60834.74",
+            "social_security_wages": "76344.29",
+            "medicare_wages": "75070.75",
+            "social_security_tips": "76344.29",
+            "allocated_tips": "75070.75",
+            "federal_tax_withheld": "21288.46",
+            "social_security_tax": "5840.34",
+            "medicare_tax": "2177.05"
+          },
+          "predicted": {
+            "wages_tips_compensation": "60834.74",
+            "social_security_wages": "75070.75",
+            "medicare_wages": "75070.75",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "9684.11",
+            "social_security_tax": "4662.1",
+            "medicare_tax": "1088.02"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "wages_tips_compensation": "213063.63",
+            "social_security_wages": "209493.73",
+            "medicare_wages": "160076.37",
+            "social_security_tips": "209493.73",
+            "allocated_tips": "160076.37",
+            "federal_tax_withheld": "57633.41",
+            "social_security_tax": "16026.27",
+            "medicare_tax": "4642.21"
+          },
+          "predicted": {
+            "wages_tips_compensation": "209493.73",
+            "social_security_wages": "209493.73",
+            "medicare_wages": "209493.73",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "41211.46",
+            "social_security_tax": "12387.43",
+            "medicare_tax": "3032.16"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "wages_tips_compensation": "151146.76",
+            "social_security_wages": "182868.69",
+            "medicare_wages": "142377.24",
+            "social_security_tips": "182868.69",
+            "allocated_tips": "142377.24",
+            "federal_tax_withheld": "23327.70",
+            "social_security_tax": "13989.45",
+            "medicare_tax": "4128.94"
+          },
+          "predicted": {
+            "wages_tips_compensation": "151248.3",
+            "social_security_wages": "151248.3",
+            "medicare_wages": "151248.3",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "20827.94",
+            "social_security_tax": "9368.79",
+            "medicare_tax": "2190.53"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "wages_tips_compensation": "183073.45",
+            "social_security_wages": "211343.36",
+            "medicare_wages": "172263.74",
+            "social_security_tips": "211343.36",
+            "allocated_tips": "172263.74",
+            "federal_tax_withheld": "58714.69",
+            "social_security_tax": "16167.77",
+            "medicare_tax": "4995.65"
+          },
+          "predicted": {
+            "wages_tips_compensation": "183073.45",
+            "social_security_wages": "172263.74",
+            "medicare_wages": "172263.74",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "58714.69",
+            "social_security_tax": "10674.55",
+            "medicare_tax": "4995.65"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "wages_tips_compensation": "191151.46",
+            "social_security_wages": "186981.42",
+            "medicare_wages": "141171.29",
+            "social_security_tips": "186981.42",
+            "allocated_tips": "141171.29",
+            "federal_tax_withheld": "37546.86",
+            "social_security_tax": "14304.08",
+            "medicare_tax": "4093.97"
+          },
+          "predicted": {
+            "wages_tips_compensation": "191151.46",
+            "social_security_wages": "186981.42",
+            "medicare_wages": "191151.46",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "37546.86",
+            "social_security_tax": "14304.08",
+            "medicare_tax": "4093.97"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "wages_tips_compensation": "125200.75",
+            "social_security_wages": "157024.26",
+            "medicare_wages": "97590.10",
+            "social_security_tips": "157024.26",
+            "allocated_tips": "97590.10",
+            "federal_tax_withheld": "15755.30",
+            "social_security_tax": "12012.36",
+            "medicare_tax": "2830.11"
+          },
+          "predicted": {
+            "wages_tips_compensation": "125200.75",
+            "social_security_wages": "157024.26",
+            "medicare_wages": "157024.26",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "15755.3",
+            "social_security_tax": "13044.65",
+            "medicare_tax": "24153.63"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "wages_tips_compensation": "205321.46",
+            "social_security_wages": "202148.25",
+            "medicare_wages": "264705.97",
+            "social_security_tips": "202148.25",
+            "allocated_tips": "264705.97",
+            "federal_tax_withheld": "42333.53",
+            "social_security_tax": "15464.34",
+            "medicare_tax": "7676.47"
+          },
+          "predicted": {
+            "wages_tips_compensation": "230901.81",
+            "social_security_wages": "230901.81",
+            "medicare_wages": "230901.81",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "25569.78",
+            "social_security_tax": "22008.92",
+            "medicare_tax": "7676.47"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "wages_tips_compensation": "216194.29",
+            "social_security_wages": "158339.94",
+            "medicare_wages": "241853.20",
+            "social_security_tips": "158339.94",
+            "allocated_tips": "241853.20",
+            "federal_tax_withheld": "41302.85",
+            "social_security_tax": "12113.01",
+            "medicare_tax": "7013.74"
+          },
+          "predicted": {
+            "wages_tips_compensation": "272040.46",
+            "social_security_wages": "272040.46",
+            "medicare_wages": "272040.46",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "32082.86",
+            "social_security_tax": "25176.66",
+            "medicare_tax": "N/A"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "wages_tips_compensation": "78313.32",
+            "social_security_wages": "84179.27",
+            "medicare_wages": "93746.33",
+            "social_security_tips": "84179.27",
+            "allocated_tips": "93746.33",
+            "federal_tax_withheld": "18438.38",
+            "social_security_tax": "6439.71",
+            "medicare_tax": "2718.64"
+          },
+          "predicted": {
+            "wages_tips_compensation": "18438.38",
+            "social_security_wages": "18438.38",
+            "medicare_wages": "18438.38",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "1031",
+            "social_security_tax": "1143.63",
+            "medicare_tax": "267.36"
+          },
+          "cost": 0.001576
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "wages_tips_compensation": "105726.15",
+            "social_security_wages": "122392.42",
+            "medicare_wages": "128984.48",
+            "social_security_tips": "122392.42",
+            "allocated_tips": "128984.48",
+            "federal_tax_withheld": "10903.81",
+            "social_security_tax": "9363.02",
+            "medicare_tax": "3740.55"
+          },
+          "predicted": {
+            "wages_tips_compensation": "50072.34",
+            "social_security_wages": "50072.34",
+            "medicare_wages": "50072.34",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "5072.34",
+            "social_security_tax": "3103.16",
+            "medicare_tax": "726.05"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "wages_tips_compensation": "175527.76",
+            "social_security_wages": "208658.82",
+            "medicare_wages": "173239.40",
+            "social_security_tips": "208658.82",
+            "allocated_tips": "173239.40",
+            "federal_tax_withheld": "39400.69",
+            "social_security_tax": "15962.40",
+            "medicare_tax": "5023.94"
+          },
+          "predicted": {
+            "wages_tips_compensation": "175527.76",
+            "social_security_wages": "175527.76",
+            "medicare_wages": "175527.76",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "39400.69",
+            "social_security_tax": "10865.71",
+            "medicare_tax": "2544.15"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "wages_tips_compensation": "205138.02",
+            "social_security_wages": "218889.23",
+            "medicare_wages": "213290.75",
+            "social_security_tips": "218889.23",
+            "allocated_tips": "213290.75",
+            "federal_tax_withheld": "31689.11",
+            "social_security_tax": "16745.03",
+            "medicare_tax": "6185.43"
+          },
+          "predicted": {
+            "wages_tips_compensation": "31689.11",
+            "social_security_wages": "31689.11",
+            "medicare_wages": "31689.11",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "6185.43",
+            "social_security_tax": "1965.36",
+            "medicare_tax": "459.49"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "wages_tips_compensation": "239891.84",
+            "social_security_wages": "254453.40",
+            "medicare_wages": "256966.99",
+            "social_security_tips": "254453.40",
+            "allocated_tips": "256966.99",
+            "federal_tax_withheld": "61983.56",
+            "social_security_tax": "19465.69",
+            "medicare_tax": "7452.04"
+          },
+          "predicted": {
+            "wages_tips_compensation": "252988.69",
+            "social_security_wages": "252988.69",
+            "medicare_wages": "252988.69",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "38242.41",
+            "social_security_tax": "15673.09",
+            "medicare_tax": "3669.33"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "wages_tips_compensation": "237798.02",
+            "social_security_wages": "200606.27",
+            "medicare_wages": "263343.76",
+            "social_security_tips": "200606.27",
+            "allocated_tips": "263343.76",
+            "federal_tax_withheld": "25059.09",
+            "social_security_tax": "15346.38",
+            "medicare_tax": "7636.97"
+          },
+          "predicted": {
+            "wages_tips_compensation": "237798.02",
+            "social_security_wages": "200606.27",
+            "medicare_wages": "263343.76",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "25059.09",
+            "social_security_tax": "15346.38",
+            "medicare_tax": "7636.97"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "wages_tips_compensation": "232714.80",
+            "social_security_wages": "260992.59",
+            "medicare_wages": "205460.16",
+            "social_security_tips": "260992.59",
+            "allocated_tips": "205460.16",
+            "federal_tax_withheld": "82590.56",
+            "social_security_tax": "19965.93",
+            "medicare_tax": "5958.34"
+          },
+          "predicted": {
+            "wages_tips_compensation": "232714.8",
+            "social_security_wages": "260992.59",
+            "medicare_wages": "260992.59",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "82590.56",
+            "social_security_tax": "19965.93",
+            "medicare_tax": "5958.34"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "wages_tips_compensation": "155002.26",
+            "social_security_wages": "130453.28",
+            "medicare_wages": "155788.00",
+            "social_security_tips": "130453.28",
+            "allocated_tips": "155788.00",
+            "federal_tax_withheld": "40436.77",
+            "social_security_tax": "9979.68",
+            "medicare_tax": "4517.85"
+          },
+          "predicted": {
+            "wages_tips_compensation": "40436.77",
+            "social_security_wages": "40436.77",
+            "medicare_wages": "40436.77",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "4517.85",
+            "social_security_tax": "2506.68",
+            "medicare_tax": "586.34"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "wages_tips_compensation": "45937.66",
+            "social_security_wages": "53017.68",
+            "medicare_wages": "46984.14",
+            "social_security_tips": "53017.68",
+            "allocated_tips": "46984.14",
+            "federal_tax_withheld": "5952.67",
+            "social_security_tax": "4055.85",
+            "medicare_tax": "1362.54"
+          },
+          "predicted": {
+            "wages_tips_compensation": "45937.66",
+            "social_security_wages": "45937.66",
+            "medicare_wages": "45937.68",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "5952.67",
+            "social_security_tax": "2287.99",
+            "medicare_tax": "666.10"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "wages_tips_compensation": "213494.91",
+            "social_security_wages": "177927.96",
+            "medicare_wages": "200318.36",
+            "social_security_tips": "177927.96",
+            "allocated_tips": "200318.36",
+            "federal_tax_withheld": "56818.46",
+            "social_security_tax": "13611.49",
+            "medicare_tax": "5809.23"
+          },
+          "predicted": {
+            "wages_tips_compensation": "213494.91",
+            "social_security_wages": "177927.96",
+            "medicare_wages": "200318.36",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "56818.46",
+            "social_security_tax": "13611.49",
+            "medicare_tax": "5809.23"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "wages_tips_compensation": "195668.90",
+            "social_security_wages": "154861.02",
+            "medicare_wages": "161229.92",
+            "social_security_tips": "154861.02",
+            "allocated_tips": "161229.92",
+            "federal_tax_withheld": "64335.66",
+            "social_security_tax": "11846.87",
+            "medicare_tax": "4675.67"
+          },
+          "predicted": {
+            "wages_tips_compensation": "195668.9",
+            "social_security_wages": "154861.02",
+            "medicare_wages": "161229.92",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "64335.66",
+            "social_security_tax": "9589.38",
+            "medicare_tax": "4675.67"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "wages_tips_compensation": "230036.11",
+            "social_security_wages": "247991.79",
+            "medicare_wages": "262998.51",
+            "social_security_tips": "247991.79",
+            "allocated_tips": "262998.51",
+            "federal_tax_withheld": "31887.93",
+            "social_security_tax": "18971.37",
+            "medicare_tax": "7626.96"
+          },
+          "predicted": {
+            "wages_tips_compensation": "247991.79",
+            "social_security_wages": "247991.79",
+            "medicare_wages": "247991.79",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "31887.93",
+            "social_security_tax": "15371.74",
+            "medicare_tax": "3591.99"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "wages_tips_compensation": "95425.47",
+            "social_security_wages": "75204.27",
+            "medicare_wages": "104454.76",
+            "social_security_tips": "75204.27",
+            "allocated_tips": "104454.76",
+            "federal_tax_withheld": "29710.75",
+            "social_security_tax": "5753.13",
+            "medicare_tax": "3029.19"
+          },
+          "predicted": {
+            "wages_tips_compensation": "95425.47",
+            "social_security_wages": "75204.27",
+            "medicare_wages": "75204.27",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "29710.75",
+            "social_security_tax": "5753.13",
+            "medicare_tax": "3029.19"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "wages_tips_compensation": "207340.05",
+            "social_security_wages": "259573.78",
+            "medicare_wages": "194407.65",
+            "social_security_tips": "259573.78",
+            "allocated_tips": "194407.65",
+            "federal_tax_withheld": "66074.21",
+            "social_security_tax": "19857.39",
+            "medicare_tax": "5637.82"
+          },
+          "predicted": {
+            "wages_tips_compensation": "207340.05",
+            "social_security_wages": "259573.78",
+            "medicare_wages": "259573.78",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "66074.21",
+            "social_security_tax": "19857.39",
+            "medicare_tax": "5637.82"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "wages_tips_compensation": "245905.51",
+            "social_security_wages": "202968.51",
+            "medicare_wages": "262961.66",
+            "social_security_tips": "202968.51",
+            "allocated_tips": "262961.66",
+            "federal_tax_withheld": "58759.73",
+            "social_security_tax": "15527.09",
+            "medicare_tax": "7625.89"
+          },
+          "predicted": {
+            "wages_tips_compensation": "58759.73",
+            "social_security_wages": "58759.73",
+            "medicare_wages": "58759.73",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "7625.89",
+            "social_security_tax": "3947.24",
+            "medicare_tax": "879"
+          },
+          "cost": 0.001576
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "wages_tips_compensation": "155570.86",
+            "social_security_wages": "167153.22",
+            "medicare_wages": "163961.50",
+            "social_security_tips": "167153.22",
+            "allocated_tips": "163961.50",
+            "federal_tax_withheld": "31458.66",
+            "social_security_tax": "12787.22",
+            "medicare_tax": "4754.88"
+          },
+          "predicted": {
+            "wages_tips_compensation": "155570.86",
+            "social_security_wages": "155759.01",
+            "medicare_wages": "183793.82",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "31458.66",
+            "social_security_tax": "24155.31",
+            "medicare_tax": "21217.86"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "wages_tips_compensation": "104341.86",
+            "social_security_wages": "123095.38",
+            "medicare_wages": "97353.63",
+            "social_security_tips": "123095.38",
+            "allocated_tips": "97353.63",
+            "federal_tax_withheld": "20708.24",
+            "social_security_tax": "9416.80",
+            "medicare_tax": "2823.26"
+          },
+          "predicted": {
+            "wages_tips_compensation": "20255.14",
+            "social_security_wages": "20255.14",
+            "medicare_wages": "20255.14",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "N/A",
+            "social_security_tax": "1291.91",
+            "medicare_tax": "293.71"
+          },
+          "cost": 0.001581
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "wages_tips_compensation": "145518.41",
+            "social_security_wages": "128763.85",
+            "medicare_wages": "106451.90",
+            "social_security_tips": "128763.85",
+            "allocated_tips": "106451.90",
+            "federal_tax_withheld": "52112.63",
+            "social_security_tax": "9850.43",
+            "medicare_tax": "3087.11"
+          },
+          "predicted": {
+            "wages_tips_compensation": "52112.63",
+            "social_security_wages": "52112.63",
+            "medicare_wages": "52112.63",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "9850.43",
+            "social_security_tax": "3087.11",
+            "medicare_tax": "749.63"
+          },
+          "cost": 0.001586
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "wages_tips_compensation": "200934.64",
+            "social_security_wages": "239146.52",
+            "medicare_wages": "192339.39",
+            "social_security_tips": "239146.52",
+            "allocated_tips": "192339.39",
+            "federal_tax_withheld": "24528.84",
+            "social_security_tax": "18294.71",
+            "medicare_tax": "5577.84"
+          },
+          "predicted": {
+            "wages_tips_compensation": "190830.79",
+            "social_security_wages": "190830.79",
+            "medicare_wages": "190830.79",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "39418.33",
+            "social_security_tax": "11830.69",
+            "medicare_tax": "2768.04"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "wages_tips_compensation": "157368.78",
+            "social_security_wages": "185481.92",
+            "medicare_wages": "142238.75",
+            "social_security_tips": "185481.92",
+            "allocated_tips": "142238.75",
+            "federal_tax_withheld": "36095.25",
+            "social_security_tax": "14189.37",
+            "medicare_tax": "4124.92"
+          },
+          "predicted": {
+            "wages_tips_compensation": "157368.78",
+            "social_security_wages": "185481.92",
+            "medicare_wages": "185481.92",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "36095.25",
+            "social_security_tax": "14189.37",
+            "medicare_tax": "4124.92"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "wages_tips_compensation": "236660.72",
+            "social_security_wages": "223343.17",
+            "medicare_wages": "221303.74",
+            "social_security_tips": "223343.17",
+            "allocated_tips": "221303.74",
+            "federal_tax_withheld": "38997.16",
+            "social_security_tax": "17085.75",
+            "medicare_tax": "6417.81"
+          },
+          "predicted": {
+            "wages_tips_compensation": "236660.72",
+            "social_security_wages": "223343.17",
+            "medicare_wages": "223343.17",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "38997.16",
+            "social_security_tax": "13897.31",
+            "medicare_tax": "3237.16"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "wages_tips_compensation": "41509.67",
+            "social_security_wages": "31630.32",
+            "medicare_wages": "50332.65",
+            "social_security_tips": "31630.32",
+            "allocated_tips": "50332.65",
+            "federal_tax_withheld": "12613.89",
+            "social_security_tax": "2419.72",
+            "medicare_tax": "1459.65"
+          },
+          "predicted": {
+            "wages_tips_compensation": "41509.67",
+            "social_security_wages": "41509.67",
+            "medicare_wages": "41509.67",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "12613.89",
+            "social_security_tax": "2419.72",
+            "medicare_tax": "1459.65"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "wages_tips_compensation": "72188.57",
+            "social_security_wages": "54384.72",
+            "medicare_wages": "73283.51",
+            "social_security_tips": "54384.72",
+            "allocated_tips": "73283.51",
+            "federal_tax_withheld": "16920.98",
+            "social_security_tax": "4160.43",
+            "medicare_tax": "2125.22"
+          },
+          "predicted": {
+            "wages_tips_compensation": "72188.57",
+            "social_security_wages": "72188.57",
+            "medicare_wages": "72188.57",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "16920.98",
+            "social_security_tax": "4160.43",
+            "medicare_tax": "2125.22"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "wages_tips_compensation": "159323.16",
+            "social_security_wages": "149636.60",
+            "medicare_wages": "183655.62",
+            "social_security_tips": "149636.60",
+            "allocated_tips": "183655.62",
+            "federal_tax_withheld": "41113.90",
+            "social_security_tax": "11447.20",
+            "medicare_tax": "5326.01"
+          },
+          "predicted": {
+            "wages_tips_compensation": "159323.16",
+            "social_security_wages": "149636.6",
+            "medicare_wages": "183655.62",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "41113.9",
+            "social_security_tax": "9270.73",
+            "medicare_tax": "5326.01"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "wages_tips_compensation": "168079.49",
+            "social_security_wages": "217625.93",
+            "medicare_wages": "128313.85",
+            "social_security_tips": "217625.93",
+            "allocated_tips": "128313.85",
+            "federal_tax_withheld": "26847.42",
+            "social_security_tax": "16648.38",
+            "medicare_tax": "3721.10"
+          },
+          "predicted": {
+            "wages_tips_compensation": "155424.18",
+            "social_security_wages": "155424.18",
+            "medicare_wages": "155424.18",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "23762.07",
+            "social_security_tax": "9636.70",
+            "medicare_tax": "2254.65"
+          },
+          "cost": 0.001591
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "wages_tips_compensation": "227983.85",
+            "social_security_wages": "162167.50",
+            "medicare_wages": "221631.63",
+            "social_security_tips": "162167.50",
+            "allocated_tips": "221631.63",
+            "federal_tax_withheld": "49008.09",
+            "social_security_tax": "12405.81",
+            "medicare_tax": "6427.32"
+          },
+          "predicted": {
+            "wages_tips_compensation": "227983.85",
+            "social_security_wages": "221631.63",
+            "medicare_wages": "221631.63",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "49008.09",
+            "social_security_tax": "13745.62",
+            "medicare_tax": "3213.61"
+          },
+          "cost": 0.001591
+        }
+      ]
+    },
+    "gpt4o-mini": {
+      "model_id": "gpt-4o-mini",
+      "scorer_result": {
+        "n_gt": 400,
+        "n_pred": 310,
+        "n_recovered": 213,
+        "n_joint_correct": 169,
+        "n_misbindings": 44,
+        "n_duplicates": 0,
+        "rec_val": 0.5325,
+        "cba_cond": 0.793427,
+        "acc_joint": 0.4225,
+        "delta": 0.11,
+        "precision": 0.545161,
+        "dup_rate": 0.0,
+        "f1_joint": 0.476056
+      },
+      "documents": [
+        {
+          "doc_id": "w2_0000",
+          "ground_truth": {
+            "wages_tips_compensation": "152652.02",
+            "social_security_wages": "136633.34",
+            "medicare_wages": "180258.52",
+            "social_security_tips": "136633.34",
+            "allocated_tips": "180258.52",
+            "federal_tax_withheld": "45540.24",
+            "social_security_tax": "10452.45",
+            "medicare_tax": "5227.50"
+          },
+          "predicted": {
+            "wages_tips_compensation": "152652.02",
+            "social_security_wages": "136633.34",
+            "medicare_wages": "136633.34",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "45540.24",
+            "social_security_tax": "10452.45",
+            "medicare_tax": "527.57"
+          },
+          "cost": 0.0039291
+        },
+        {
+          "doc_id": "w2_0001",
+          "ground_truth": {
+            "wages_tips_compensation": "248088.68",
+            "social_security_wages": "220967.19",
+            "medicare_wages": "174279.90",
+            "social_security_tips": "220967.19",
+            "allocated_tips": "174279.90",
+            "federal_tax_withheld": "64814.26",
+            "social_security_tax": "16903.99",
+            "medicare_tax": "5054.12"
+          },
+          "predicted": {
+            "wages_tips_compensation": "248088.68",
+            "social_security_wages": "220967.19",
+            "medicare_wages": "220967.19",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "64814.26",
+            "social_security_tax": "16903.99",
+            "medicare_tax": "5054.12"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0002",
+          "ground_truth": {
+            "wages_tips_compensation": "163883.65",
+            "social_security_wages": "129135.24",
+            "medicare_wages": "122600.48",
+            "social_security_tips": "129135.24",
+            "allocated_tips": "122600.48",
+            "federal_tax_withheld": "34982.01",
+            "social_security_tax": "9878.85",
+            "medicare_tax": "3555.41"
+          },
+          "predicted": {
+            "wages_tips_compensation": "16383.65",
+            "social_security_wages": "129135.24",
+            "medicare_wages": "129135.24",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "34892.01",
+            "social_security_tax": "987.85",
+            "medicare_tax": "3555.41"
+          },
+          "cost": 0.0039315
+        },
+        {
+          "doc_id": "w2_0003",
+          "ground_truth": {
+            "wages_tips_compensation": "218486.95",
+            "social_security_wages": "279458.11",
+            "medicare_wages": "204619.66",
+            "social_security_tips": "279458.11",
+            "allocated_tips": "204619.66",
+            "federal_tax_withheld": "71603.77",
+            "social_security_tax": "21378.55",
+            "medicare_tax": "5933.97"
+          },
+          "predicted": {
+            "wages_tips_compensation": "218486.95",
+            "social_security_wages": "279458.11",
+            "medicare_wages": "279458.11",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "71603.77",
+            "social_security_tax": "17179.71",
+            "medicare_tax": "21378.55"
+          },
+          "cost": 0.0039297
+        },
+        {
+          "doc_id": "w2_0004",
+          "ground_truth": {
+            "wages_tips_compensation": "158778.18",
+            "social_security_wages": "131220.25",
+            "medicare_wages": "137323.10",
+            "social_security_tips": "131220.25",
+            "allocated_tips": "137323.10",
+            "federal_tax_withheld": "30947.35",
+            "social_security_tax": "10038.35",
+            "medicare_tax": "3982.37"
+          },
+          "predicted": {
+            "wages_tips_compensation": "158778.18",
+            "social_security_wages": "131220.25",
+            "medicare_wages": "131220.25",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "30947.35",
+            "social_security_tax": "10038.35",
+            "medicare_tax": "3982.37"
+          },
+          "cost": 0.0039297
+        },
+        {
+          "doc_id": "w2_0005",
+          "ground_truth": {
+            "wages_tips_compensation": "120409.39",
+            "social_security_wages": "129935.39",
+            "medicare_wages": "91609.29",
+            "social_security_tips": "129935.39",
+            "allocated_tips": "91609.29",
+            "federal_tax_withheld": "36069.19",
+            "social_security_tax": "9940.06",
+            "medicare_tax": "2656.67"
+          },
+          "predicted": {
+            "wages_tips_compensation": "120409.39",
+            "social_security_wages": "129395.39",
+            "medicare_wages": "91609.29",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "36069.19",
+            "social_security_tax": "656.67",
+            "medicare_tax": "9940.06"
+          },
+          "cost": 0.0039315
+        },
+        {
+          "doc_id": "w2_0006",
+          "ground_truth": {
+            "wages_tips_compensation": "210149.36",
+            "social_security_wages": "210806.60",
+            "medicare_wages": "238359.15",
+            "social_security_tips": "210806.60",
+            "allocated_tips": "238359.15",
+            "federal_tax_withheld": "35489.74",
+            "social_security_tax": "16126.70",
+            "medicare_tax": "6912.42"
+          },
+          "predicted": {
+            "wages_tips_compensation": "210149.36",
+            "social_security_wages": "103906.02",
+            "medicare_wages": "210806.6",
+            "social_security_tips": "N/A",
+            "allocated_tips": "238359.15",
+            "federal_tax_withheld": "35489.74",
+            "social_security_tax": "6419.42",
+            "medicare_tax": "1616.7"
+          },
+          "cost": 0.0039309
+        },
+        {
+          "doc_id": "w2_0007",
+          "ground_truth": {
+            "wages_tips_compensation": "113426.53",
+            "social_security_wages": "115617.26",
+            "medicare_wages": "147044.99",
+            "social_security_tips": "115617.26",
+            "allocated_tips": "147044.99",
+            "federal_tax_withheld": "41416.00",
+            "social_security_tax": "8844.72",
+            "medicare_tax": "4264.30"
+          },
+          "predicted": {
+            "wages_tips_compensation": "113426.53",
+            "social_security_wages": "115617.26",
+            "medicare_wages": "147044.99",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "41416.0",
+            "social_security_tax": "9095.8",
+            "medicare_tax": "8844.72"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0008",
+          "ground_truth": {
+            "wages_tips_compensation": "148120.52",
+            "social_security_wages": "125363.69",
+            "medicare_wages": "181064.30",
+            "social_security_tips": "125363.69",
+            "allocated_tips": "181064.30",
+            "federal_tax_withheld": "50448.90",
+            "social_security_tax": "9590.32",
+            "medicare_tax": "5250.86"
+          },
+          "predicted": {
+            "wages_tips_compensation": "148120.52",
+            "social_security_wages": "125363.69",
+            "medicare_wages": "125363.69",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "50448.9",
+            "social_security_tax": "9509.32",
+            "medicare_tax": "5256.86"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0009",
+          "ground_truth": {
+            "wages_tips_compensation": "136750.11",
+            "social_security_wages": "157542.24",
+            "medicare_wages": "175634.34",
+            "social_security_tips": "157542.24",
+            "allocated_tips": "175634.34",
+            "federal_tax_withheld": "15601.90",
+            "social_security_tax": "12051.98",
+            "medicare_tax": "5093.40"
+          },
+          "predicted": {
+            "wages_tips_compensation": "136750.11",
+            "social_security_wages": "157542.24",
+            "medicare_wages": "176534.34",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "15601.9",
+            "social_security_tax": "3833.76",
+            "medicare_tax": "24045.45"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0010",
+          "ground_truth": {
+            "wages_tips_compensation": "117803.63",
+            "social_security_wages": "140267.74",
+            "medicare_wages": "126134.10",
+            "social_security_tips": "140267.74",
+            "allocated_tips": "126134.10",
+            "federal_tax_withheld": "41517.38",
+            "social_security_tax": "10730.48",
+            "medicare_tax": "3657.89"
+          },
+          "predicted": {
+            "wages_tips_compensation": "117803.63",
+            "social_security_wages": "140267.74",
+            "medicare_wages": "142067.74",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "41517.38",
+            "social_security_tax": "10730.4",
+            "medicare_tax": "12614.1"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0011",
+          "ground_truth": {
+            "wages_tips_compensation": "101362.84",
+            "social_security_wages": "112706.44",
+            "medicare_wages": "130852.21",
+            "social_security_tips": "112706.44",
+            "allocated_tips": "130852.21",
+            "federal_tax_withheld": "30492.55",
+            "social_security_tax": "8622.04",
+            "medicare_tax": "3794.71"
+          },
+          "predicted": {
+            "wages_tips_compensation": "101362.84",
+            "social_security_wages": "117706.44",
+            "medicare_wages": "130852.21",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "30492.55",
+            "social_security_tax": "8622.04",
+            "medicare_tax": "3794.71"
+          },
+          "cost": 0.0039297
+        },
+        {
+          "doc_id": "w2_0012",
+          "ground_truth": {
+            "wages_tips_compensation": "99608.61",
+            "social_security_wages": "92801.97",
+            "medicare_wages": "74591.41",
+            "social_security_tips": "92801.97",
+            "allocated_tips": "74591.41",
+            "federal_tax_withheld": "21503.42",
+            "social_security_tax": "7099.35",
+            "medicare_tax": "2163.15"
+          },
+          "predicted": {
+            "wages_tips_compensation": "99608.61",
+            "social_security_wages": "9801.97",
+            "medicare_wages": "74591.41",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "21503.42",
+            "social_security_tax": "7099.35",
+            "medicare_tax": "263.15"
+          },
+          "cost": 0.0039315
+        },
+        {
+          "doc_id": "w2_0013",
+          "ground_truth": {
+            "wages_tips_compensation": "86879.95",
+            "social_security_wages": "102772.14",
+            "medicare_wages": "98853.02",
+            "social_security_tips": "102772.14",
+            "allocated_tips": "98853.02",
+            "federal_tax_withheld": "27984.13",
+            "social_security_tax": "7862.07",
+            "medicare_tax": "2866.74"
+          },
+          "predicted": {
+            "wages_tips_compensation": "102772.14",
+            "social_security_wages": "98853.02",
+            "medicare_wages": "102772.14",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "27984.13",
+            "social_security_tax": "8862.07",
+            "medicare_tax": "N/A"
+          },
+          "cost": 0.0039309
+        },
+        {
+          "doc_id": "w2_0014",
+          "ground_truth": {
+            "wages_tips_compensation": "90684.48",
+            "social_security_wages": "109704.34",
+            "medicare_wages": "76761.31",
+            "social_security_tips": "109704.34",
+            "allocated_tips": "76761.31",
+            "federal_tax_withheld": "9304.00",
+            "social_security_tax": "8392.38",
+            "medicare_tax": "2226.08"
+          },
+          "predicted": {
+            "wages_tips_compensation": "90684.48",
+            "social_security_wages": "109704.34",
+            "medicare_wages": "76761.31",
+            "social_security_tips": "9304.00",
+            "allocated_tips": "2226.08",
+            "federal_tax_withheld": "11887.86",
+            "social_security_tax": "6561.78",
+            "medicare_tax": "13861.54"
+          },
+          "cost": 0.0039345
+        },
+        {
+          "doc_id": "w2_0015",
+          "ground_truth": {
+            "wages_tips_compensation": "86259.77",
+            "social_security_wages": "109647.41",
+            "medicare_wages": "62816.18",
+            "social_security_tips": "109647.41",
+            "allocated_tips": "62816.18",
+            "federal_tax_withheld": "29047.98",
+            "social_security_tax": "8388.03",
+            "medicare_tax": "1821.67"
+          },
+          "predicted": {
+            "wages_tips_compensation": "86259.77",
+            "social_security_wages": "29047.98",
+            "medicare_wages": "106947.41",
+            "social_security_tips": "8388.03",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "10631.68",
+            "social_security_tax": "68194.68",
+            "medicare_tax": "12813.67"
+          },
+          "cost": 0.0039333
+        },
+        {
+          "doc_id": "w2_0016",
+          "ground_truth": {
+            "wages_tips_compensation": "60834.74",
+            "social_security_wages": "76344.29",
+            "medicare_wages": "75070.75",
+            "social_security_tips": "76344.29",
+            "allocated_tips": "75070.75",
+            "federal_tax_withheld": "21288.46",
+            "social_security_tax": "5840.34",
+            "medicare_tax": "2177.05"
+          },
+          "predicted": {
+            "wages_tips_compensation": "60834.74",
+            "social_security_wages": "76344.29",
+            "medicare_wages": "76344.29",
+            "social_security_tips": "0",
+            "allocated_tips": "0",
+            "federal_tax_withheld": "21288.46",
+            "social_security_tax": "5840.34",
+            "medicare_tax": "2177.05"
+          },
+          "cost": 0.0039285
+        },
+        {
+          "doc_id": "w2_0017",
+          "ground_truth": {
+            "wages_tips_compensation": "213063.63",
+            "social_security_wages": "209493.73",
+            "medicare_wages": "160076.37",
+            "social_security_tips": "209493.73",
+            "allocated_tips": "160076.37",
+            "federal_tax_withheld": "57633.41",
+            "social_security_tax": "16026.27",
+            "medicare_tax": "4642.21"
+          },
+          "predicted": {
+            "wages_tips_compensation": "213063.63",
+            "social_security_wages": "108856.48",
+            "medicare_wages": "115993.02",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "57631.41",
+            "social_security_tax": "6885.13",
+            "medicare_tax": "16062.67"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0018",
+          "ground_truth": {
+            "wages_tips_compensation": "151146.76",
+            "social_security_wages": "182868.69",
+            "medicare_wages": "142377.24",
+            "social_security_tips": "182868.69",
+            "allocated_tips": "142377.24",
+            "federal_tax_withheld": "23327.70",
+            "social_security_tax": "13989.45",
+            "medicare_tax": "4128.94"
+          },
+          "predicted": {
+            "wages_tips_compensation": "151146.76",
+            "social_security_wages": "182868.69",
+            "medicare_wages": "182868.69",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "23327.7",
+            "social_security_tax": "13989.45",
+            "medicare_tax": "4128.94"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0019",
+          "ground_truth": {
+            "wages_tips_compensation": "183073.45",
+            "social_security_wages": "211343.36",
+            "medicare_wages": "172263.74",
+            "social_security_tips": "211343.36",
+            "allocated_tips": "172263.74",
+            "federal_tax_withheld": "58714.69",
+            "social_security_tax": "16167.77",
+            "medicare_tax": "4995.65"
+          },
+          "predicted": {
+            "wages_tips_compensation": "180373.45",
+            "social_security_wages": "211343.36",
+            "medicare_wages": "211343.36",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "58714.69",
+            "social_security_tax": "16167.77",
+            "medicare_tax": "4995.65"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0020",
+          "ground_truth": {
+            "wages_tips_compensation": "191151.46",
+            "social_security_wages": "186981.42",
+            "medicare_wages": "141171.29",
+            "social_security_tips": "186981.42",
+            "allocated_tips": "141171.29",
+            "federal_tax_withheld": "37546.86",
+            "social_security_tax": "14304.08",
+            "medicare_tax": "4093.97"
+          },
+          "predicted": {
+            "wages_tips_compensation": "191151.46",
+            "social_security_wages": "186981.42",
+            "medicare_wages": "186981.42",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "37546.86",
+            "social_security_tax": "14171.29",
+            "medicare_tax": "4093.97"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0021",
+          "ground_truth": {
+            "wages_tips_compensation": "125200.75",
+            "social_security_wages": "157024.26",
+            "medicare_wages": "97590.10",
+            "social_security_tips": "157024.26",
+            "allocated_tips": "97590.10",
+            "federal_tax_withheld": "15755.30",
+            "social_security_tax": "12012.36",
+            "medicare_tax": "2830.11"
+          },
+          "predicted": {
+            "wages_tips_compensation": "125200.75",
+            "social_security_wages": "157024.26",
+            "medicare_wages": "157024.26",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "12012.36",
+            "social_security_tax": "9759.01",
+            "medicare_tax": "2830.11"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0022",
+          "ground_truth": {
+            "wages_tips_compensation": "205321.46",
+            "social_security_wages": "202148.25",
+            "medicare_wages": "264705.97",
+            "social_security_tips": "202148.25",
+            "allocated_tips": "264705.97",
+            "federal_tax_withheld": "42333.53",
+            "social_security_tax": "15464.34",
+            "medicare_tax": "7676.47"
+          },
+          "predicted": {
+            "wages_tips_compensation": "205321.46",
+            "social_security_wages": "202148.25",
+            "medicare_wages": "201248.25",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "42333.53",
+            "social_security_tax": "12647.67",
+            "medicare_tax": "15464.34"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0023",
+          "ground_truth": {
+            "wages_tips_compensation": "216194.29",
+            "social_security_wages": "158339.94",
+            "medicare_wages": "241853.20",
+            "social_security_tips": "158339.94",
+            "allocated_tips": "241853.20",
+            "federal_tax_withheld": "41302.85",
+            "social_security_tax": "12113.01",
+            "medicare_tax": "7013.74"
+          },
+          "predicted": {
+            "wages_tips_compensation": "216194.29",
+            "social_security_wages": "158339.94",
+            "medicare_wages": "158339.94",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "12113.01",
+            "social_security_tax": "9513.74",
+            "medicare_tax": "2293.10"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0024",
+          "ground_truth": {
+            "wages_tips_compensation": "78313.32",
+            "social_security_wages": "84179.27",
+            "medicare_wages": "93746.33",
+            "social_security_tips": "84179.27",
+            "allocated_tips": "93746.33",
+            "federal_tax_withheld": "18438.38",
+            "social_security_tax": "6439.71",
+            "medicare_tax": "2718.64"
+          },
+          "predicted": {
+            "wages_tips_compensation": "78313.32",
+            "social_security_wages": "84179.27",
+            "medicare_wages": "93746.33",
+            "social_security_tips": "6493.71",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "18438.38",
+            "social_security_tax": "9013.39",
+            "medicare_tax": "13583.61"
+          },
+          "cost": 0.0039309
+        },
+        {
+          "doc_id": "w2_0025",
+          "ground_truth": {
+            "wages_tips_compensation": "105726.15",
+            "social_security_wages": "122392.42",
+            "medicare_wages": "128984.48",
+            "social_security_tips": "122392.42",
+            "allocated_tips": "128984.48",
+            "federal_tax_withheld": "10903.81",
+            "social_security_tax": "9363.02",
+            "medicare_tax": "3740.55"
+          },
+          "predicted": {
+            "wages_tips_compensation": "105726.15",
+            "social_security_wages": "122392.42",
+            "medicare_wages": "122392.42",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "121891.29",
+            "social_security_tax": "76589.19",
+            "medicare_tax": "11054.92"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0026",
+          "ground_truth": {
+            "wages_tips_compensation": "175527.76",
+            "social_security_wages": "208658.82",
+            "medicare_wages": "173239.40",
+            "social_security_tips": "208658.82",
+            "allocated_tips": "173239.40",
+            "federal_tax_withheld": "39400.69",
+            "social_security_tax": "15962.40",
+            "medicare_tax": "5023.94"
+          },
+          "predicted": {
+            "wages_tips_compensation": "175527.76",
+            "social_security_wages": "93430.69",
+            "medicare_wages": "208658.82",
+            "social_security_tips": "17329.4",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "951",
+            "social_security_tax": "765",
+            "medicare_tax": "690"
+          },
+          "cost": 0.0039279
+        },
+        {
+          "doc_id": "w2_0027",
+          "ground_truth": {
+            "wages_tips_compensation": "205138.02",
+            "social_security_wages": "218889.23",
+            "medicare_wages": "213290.75",
+            "social_security_tips": "218889.23",
+            "allocated_tips": "213290.75",
+            "federal_tax_withheld": "31689.11",
+            "social_security_tax": "16745.03",
+            "medicare_tax": "6185.43"
+          },
+          "predicted": {
+            "wages_tips_compensation": "201538.02",
+            "social_security_wages": "102469.82",
+            "medicare_wages": "213290.75",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "31635.23",
+            "social_security_tax": "9442.3",
+            "medicare_tax": "26617.41"
+          },
+          "cost": 0.0039297
+        },
+        {
+          "doc_id": "w2_0028",
+          "ground_truth": {
+            "wages_tips_compensation": "239891.84",
+            "social_security_wages": "254453.40",
+            "medicare_wages": "256966.99",
+            "social_security_tips": "254453.40",
+            "allocated_tips": "256966.99",
+            "federal_tax_withheld": "61983.56",
+            "social_security_tax": "19465.69",
+            "medicare_tax": "7452.04"
+          },
+          "predicted": {
+            "wages_tips_compensation": "23981.84",
+            "social_security_wages": "254453.4",
+            "medicare_wages": "254453.4",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "61983.56",
+            "social_security_tax": "19465.69",
+            "medicare_tax": "7452.04"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0029",
+          "ground_truth": {
+            "wages_tips_compensation": "237798.02",
+            "social_security_wages": "200606.27",
+            "medicare_wages": "263343.76",
+            "social_security_tips": "200606.27",
+            "allocated_tips": "263343.76",
+            "federal_tax_withheld": "25059.09",
+            "social_security_tax": "15346.38",
+            "medicare_tax": "7636.97"
+          },
+          "predicted": {
+            "wages_tips_compensation": "237798.02",
+            "social_security_wages": "108898.75",
+            "medicare_wages": "263343.76",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "25059.09",
+            "social_security_tax": "6789.12",
+            "medicare_tax": "41454.68"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0030",
+          "ground_truth": {
+            "wages_tips_compensation": "232714.80",
+            "social_security_wages": "260992.59",
+            "medicare_wages": "205460.16",
+            "social_security_tips": "260992.59",
+            "allocated_tips": "205460.16",
+            "federal_tax_withheld": "82590.56",
+            "social_security_tax": "19965.93",
+            "medicare_tax": "5958.34"
+          },
+          "predicted": {
+            "wages_tips_compensation": "232714.8",
+            "social_security_wages": "260992.59",
+            "medicare_wages": "260992.59",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "82590.56",
+            "social_security_tax": "1996.93",
+            "medicare_tax": "595.34"
+          },
+          "cost": 0.0039291
+        },
+        {
+          "doc_id": "w2_0031",
+          "ground_truth": {
+            "wages_tips_compensation": "155002.26",
+            "social_security_wages": "130453.28",
+            "medicare_wages": "155788.00",
+            "social_security_tips": "130453.28",
+            "allocated_tips": "155788.00",
+            "federal_tax_withheld": "40436.77",
+            "social_security_tax": "9979.68",
+            "medicare_tax": "4517.85"
+          },
+          "predicted": {
+            "wages_tips_compensation": "155002.26",
+            "social_security_wages": "130453.28",
+            "medicare_wages": "130453.28",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "40436.77",
+            "social_security_tax": "9979.68",
+            "medicare_tax": "4517.85"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0032",
+          "ground_truth": {
+            "wages_tips_compensation": "45937.66",
+            "social_security_wages": "53017.68",
+            "medicare_wages": "46984.14",
+            "social_security_tips": "53017.68",
+            "allocated_tips": "46984.14",
+            "federal_tax_withheld": "5952.67",
+            "social_security_tax": "4055.85",
+            "medicare_tax": "1362.54"
+          },
+          "predicted": {
+            "wages_tips_compensation": "45937.66",
+            "social_security_wages": "53017.68",
+            "medicare_wages": "53017.68",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "5952.67",
+            "social_security_tax": "4055.85",
+            "medicare_tax": "6230.06"
+          },
+          "cost": 0.0039297
+        },
+        {
+          "doc_id": "w2_0033",
+          "ground_truth": {
+            "wages_tips_compensation": "213494.91",
+            "social_security_wages": "177927.96",
+            "medicare_wages": "200318.36",
+            "social_security_tips": "177927.96",
+            "allocated_tips": "200318.36",
+            "federal_tax_withheld": "56818.46",
+            "social_security_tax": "13611.49",
+            "medicare_tax": "5809.23"
+          },
+          "predicted": {
+            "wages_tips_compensation": "213494.91",
+            "social_security_wages": "177927.96",
+            "medicare_wages": "177927.96",
+            "social_security_tips": "200318.36",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "5681.46",
+            "social_security_tax": "1361.49",
+            "medicare_tax": "5809.23"
+          },
+          "cost": 0.0039333
+        },
+        {
+          "doc_id": "w2_0034",
+          "ground_truth": {
+            "wages_tips_compensation": "195668.90",
+            "social_security_wages": "154861.02",
+            "medicare_wages": "161229.92",
+            "social_security_tips": "154861.02",
+            "allocated_tips": "161229.92",
+            "federal_tax_withheld": "64335.66",
+            "social_security_tax": "11846.87",
+            "medicare_tax": "4675.67"
+          },
+          "predicted": {
+            "wages_tips_compensation": "195668.9",
+            "social_security_wages": "154861.02",
+            "medicare_wages": "161299.92",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "64335.66",
+            "social_security_tax": "11846.87",
+            "medicare_tax": "4675.67"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0035",
+          "ground_truth": {
+            "wages_tips_compensation": "230036.11",
+            "social_security_wages": "247991.79",
+            "medicare_wages": "262998.51",
+            "social_security_tips": "247991.79",
+            "allocated_tips": "262998.51",
+            "federal_tax_withheld": "31887.93",
+            "social_security_tax": "18971.37",
+            "medicare_tax": "7626.96"
+          },
+          "predicted": {
+            "wages_tips_compensation": "23036.11",
+            "social_security_wages": "247991.79",
+            "medicare_wages": "262998.51",
+            "social_security_tips": "18971.37",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "31887.93",
+            "social_security_tax": "N/A",
+            "medicare_tax": "N/A"
+          },
+          "cost": 0.0039309
+        },
+        {
+          "doc_id": "w2_0036",
+          "ground_truth": {
+            "wages_tips_compensation": "95425.47",
+            "social_security_wages": "75204.27",
+            "medicare_wages": "104454.76",
+            "social_security_tips": "75204.27",
+            "allocated_tips": "104454.76",
+            "federal_tax_withheld": "29710.75",
+            "social_security_tax": "5753.13",
+            "medicare_tax": "3029.19"
+          },
+          "predicted": {
+            "wages_tips_compensation": "95425.47",
+            "social_security_wages": "75204.27",
+            "medicare_wages": "75204.27",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "29170.75",
+            "social_security_tax": "5753.13",
+            "medicare_tax": "10454.76"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0037",
+          "ground_truth": {
+            "wages_tips_compensation": "207340.05",
+            "social_security_wages": "259573.78",
+            "medicare_wages": "194407.65",
+            "social_security_tips": "259573.78",
+            "allocated_tips": "194407.65",
+            "federal_tax_withheld": "66074.21",
+            "social_security_tax": "19857.39",
+            "medicare_tax": "5637.82"
+          },
+          "predicted": {
+            "wages_tips_compensation": "207340.05",
+            "social_security_wages": "259573.78",
+            "medicare_wages": "194407.65",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "66074.21",
+            "social_security_tax": "19857.39",
+            "medicare_tax": "5637.82"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0038",
+          "ground_truth": {
+            "wages_tips_compensation": "245905.51",
+            "social_security_wages": "202968.51",
+            "medicare_wages": "262961.66",
+            "social_security_tips": "202968.51",
+            "allocated_tips": "262961.66",
+            "federal_tax_withheld": "58759.73",
+            "social_security_tax": "15527.09",
+            "medicare_tax": "7625.89"
+          },
+          "predicted": {
+            "wages_tips_compensation": "24505.51",
+            "social_security_wages": "262968.51",
+            "medicare_wages": "262968.51",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "5879.73",
+            "social_security_tax": "7625.89",
+            "medicare_tax": "1552.09"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0039",
+          "ground_truth": {
+            "wages_tips_compensation": "155570.86",
+            "social_security_wages": "167153.22",
+            "medicare_wages": "163961.50",
+            "social_security_tips": "167153.22",
+            "allocated_tips": "163961.50",
+            "federal_tax_withheld": "31458.66",
+            "social_security_tax": "12787.22",
+            "medicare_tax": "4754.88"
+          },
+          "predicted": {
+            "wages_tips_compensation": "15570.86",
+            "social_security_wages": "167153.22",
+            "medicare_wages": "167153.22",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "31458.66",
+            "social_security_tax": "12787.22",
+            "medicare_tax": "4754.88"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0040",
+          "ground_truth": {
+            "wages_tips_compensation": "104341.86",
+            "social_security_wages": "123095.38",
+            "medicare_wages": "97353.63",
+            "social_security_tips": "123095.38",
+            "allocated_tips": "97353.63",
+            "federal_tax_withheld": "20708.24",
+            "social_security_tax": "9416.80",
+            "medicare_tax": "2823.26"
+          },
+          "predicted": {
+            "wages_tips_compensation": "104341.86",
+            "social_security_wages": "123095.38",
+            "medicare_wages": "123095.38",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "20708.24",
+            "social_security_tax": "9416.8",
+            "medicare_tax": "2823.26"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0041",
+          "ground_truth": {
+            "wages_tips_compensation": "145518.41",
+            "social_security_wages": "128763.85",
+            "medicare_wages": "106451.90",
+            "social_security_tips": "128763.85",
+            "allocated_tips": "106451.90",
+            "federal_tax_withheld": "52112.63",
+            "social_security_tax": "9850.43",
+            "medicare_tax": "3087.11"
+          },
+          "predicted": {
+            "wages_tips_compensation": "145518.41",
+            "social_security_wages": "128763.85",
+            "medicare_wages": "128763.85",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "52112.63",
+            "social_security_tax": "9850.43",
+            "medicare_tax": "3087.11"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0042",
+          "ground_truth": {
+            "wages_tips_compensation": "200934.64",
+            "social_security_wages": "239146.52",
+            "medicare_wages": "192339.39",
+            "social_security_tips": "239146.52",
+            "allocated_tips": "192339.39",
+            "federal_tax_withheld": "24528.84",
+            "social_security_tax": "18294.71",
+            "medicare_tax": "5577.84"
+          },
+          "predicted": {
+            "wages_tips_compensation": "200934.64",
+            "social_security_wages": "109894.82",
+            "medicare_wages": "100592.34",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "24528.84",
+            "social_security_tax": "19803.79",
+            "medicare_tax": "5777.84"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0043",
+          "ground_truth": {
+            "wages_tips_compensation": "157368.78",
+            "social_security_wages": "185481.92",
+            "medicare_wages": "142238.75",
+            "social_security_tips": "185481.92",
+            "allocated_tips": "142238.75",
+            "federal_tax_withheld": "36095.25",
+            "social_security_tax": "14189.37",
+            "medicare_tax": "4124.92"
+          },
+          "predicted": {
+            "wages_tips_compensation": "157368.78",
+            "social_security_wages": "185481.92",
+            "medicare_wages": "185481.92",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "36095.25",
+            "social_security_tax": "14189.37",
+            "medicare_tax": "4124.92"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0044",
+          "ground_truth": {
+            "wages_tips_compensation": "236660.72",
+            "social_security_wages": "223343.17",
+            "medicare_wages": "221303.74",
+            "social_security_tips": "223343.17",
+            "allocated_tips": "221303.74",
+            "federal_tax_withheld": "38997.16",
+            "social_security_tax": "17085.75",
+            "medicare_tax": "6417.81"
+          },
+          "predicted": {
+            "wages_tips_compensation": "236660.72",
+            "social_security_wages": "223343.17",
+            "medicare_wages": "221303.74",
+            "social_security_tips": "7779.66",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "38997.16",
+            "social_security_tax": "14164.48",
+            "medicare_tax": "6417.85"
+          },
+          "cost": 0.0039309
+        },
+        {
+          "doc_id": "w2_0045",
+          "ground_truth": {
+            "wages_tips_compensation": "41509.67",
+            "social_security_wages": "31630.32",
+            "medicare_wages": "50332.65",
+            "social_security_tips": "31630.32",
+            "allocated_tips": "50332.65",
+            "federal_tax_withheld": "12613.89",
+            "social_security_tax": "2419.72",
+            "medicare_tax": "1459.65"
+          },
+          "predicted": {
+            "wages_tips_compensation": "41059.67",
+            "social_security_wages": "31630.32",
+            "medicare_wages": "31630.32",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "12613.89",
+            "social_security_tax": "2419.72",
+            "medicare_tax": "1495.65"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0046",
+          "ground_truth": {
+            "wages_tips_compensation": "72188.57",
+            "social_security_wages": "54384.72",
+            "medicare_wages": "73283.51",
+            "social_security_tips": "54384.72",
+            "allocated_tips": "73283.51",
+            "federal_tax_withheld": "16920.98",
+            "social_security_tax": "4160.43",
+            "medicare_tax": "2125.22"
+          },
+          "predicted": {
+            "wages_tips_compensation": "72188.57",
+            "social_security_wages": "54384.72",
+            "medicare_wages": "54384.72",
+            "social_security_tips": "N/A",
+            "allocated_tips": "73283.51",
+            "federal_tax_withheld": "169",
+            "social_security_tax": "4160.43",
+            "medicare_tax": "612.22"
+          },
+          "cost": 0.0039309
+        },
+        {
+          "doc_id": "w2_0047",
+          "ground_truth": {
+            "wages_tips_compensation": "159323.16",
+            "social_security_wages": "149636.60",
+            "medicare_wages": "183655.62",
+            "social_security_tips": "149636.60",
+            "allocated_tips": "183655.62",
+            "federal_tax_withheld": "41113.90",
+            "social_security_tax": "11447.20",
+            "medicare_tax": "5326.01"
+          },
+          "predicted": {
+            "wages_tips_compensation": "159323.16",
+            "social_security_wages": "146936.6",
+            "medicare_wages": "146936.6",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "4111.9",
+            "social_security_tax": "11447.2",
+            "medicare_tax": "532.61"
+          },
+          "cost": 0.0039315
+        },
+        {
+          "doc_id": "w2_0048",
+          "ground_truth": {
+            "wages_tips_compensation": "168079.49",
+            "social_security_wages": "217625.93",
+            "medicare_wages": "128313.85",
+            "social_security_tips": "217625.93",
+            "allocated_tips": "128313.85",
+            "federal_tax_withheld": "26847.42",
+            "social_security_tax": "16648.38",
+            "medicare_tax": "3721.10"
+          },
+          "predicted": {
+            "wages_tips_compensation": "168079.49",
+            "social_security_wages": "217625.93",
+            "medicare_wages": "217625.93",
+            "social_security_tips": "N/A",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "26847.42",
+            "social_security_tax": "16648.38",
+            "medicare_tax": "3721.1"
+          },
+          "cost": 0.0039321
+        },
+        {
+          "doc_id": "w2_0049",
+          "ground_truth": {
+            "wages_tips_compensation": "227983.85",
+            "social_security_wages": "162167.50",
+            "medicare_wages": "221631.63",
+            "social_security_tips": "162167.50",
+            "allocated_tips": "221631.63",
+            "federal_tax_withheld": "49008.09",
+            "social_security_tax": "12405.81",
+            "medicare_tax": "6427.32"
+          },
+          "predicted": {
+            "wages_tips_compensation": "227983.85",
+            "social_security_wages": "161267.5",
+            "medicare_wages": "221631.63",
+            "social_security_tips": "161267.5",
+            "allocated_tips": "N/A",
+            "federal_tax_withheld": "49008.09",
+            "social_security_tax": "12405.81",
+            "medicare_tax": "6472.32"
+          },
+          "cost": 0.0039309
+        }
+      ]
+    }
+  },
+  "summary": {
+    "haiku": {
+      "n_gt": 400,
+      "n_pred": 296,
+      "n_recovered": 139,
+      "n_joint_correct": 106,
+      "n_misbindings": 33,
+      "n_duplicates": 38,
+      "rec_val": 0.3475,
+      "cba_cond": 0.76259,
+      "acc_joint": 0.265,
+      "delta": 0.0825,
+      "precision": 0.358108,
+      "dup_rate": 0.128378,
+      "f1_joint": 0.304598
+    },
+    "gpt4o-mini": {
+      "n_gt": 400,
+      "n_pred": 310,
+      "n_recovered": 213,
+      "n_joint_correct": 169,
+      "n_misbindings": 44,
+      "n_duplicates": 0,
+      "rec_val": 0.5325,
+      "cba_cond": 0.793427,
+      "acc_joint": 0.4225,
+      "delta": 0.11,
+      "precision": 0.545161,
+      "dup_rate": 0.0,
+      "f1_joint": 0.476056
+    }
+  }
+}

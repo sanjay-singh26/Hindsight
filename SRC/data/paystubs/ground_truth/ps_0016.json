@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0016",
+  "image_file": "ps_0016.png",
+  "layout_template": "left_header",
+  "noise_profile": "heavy_scan",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "04/25/2024",
+      "display_value": "04/25/2024",
+      "field_position": {
+        "x": 717,
+        "y": 40,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "04/08/2024",
+      "display_value": "04/08/2024",
+      "field_position": {
+        "x": 708,
+        "y": 54,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "To",
+      "extracted_value": "04/21/2024",
+      "display_value": "04/21/2024",
+      "field_position": {
+        "x": 666,
+        "y": 68,
+        "width": 54,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 698,
+        "y": 82,
+        "width": 43,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Valley Tech Solutions",
+      "display_value": "Valley Tech Solutions",
+      "field_position": {
+        "x": 50,
+        "y": 40,
+        "width": 209,
+        "height": 21
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "666 Enterprise Blvd",
+      "display_value": "666 Enterprise Blvd",
+      "field_position": {
+        "x": 50,
+        "y": 70,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Milwaukee, WI 53201",
+      "display_value": "Milwaukee, WI 53201",
+      "field_position": {
+        "x": 50,
+        "y": 84,
+        "width": 94,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee Name",
+      "extracted_value": "Nancy M. Williams",
+      "display_value": "Nancy M. Williams",
+      "field_position": {
+        "x": 606,
+        "y": 133,
+        "width": 107,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "ID Number",
+      "extracted_value": "815198",
+      "display_value": "815198",
+      "field_position": {
+        "x": 573,
+        "y": 153,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-5088",
+      "display_value": "***-**-5088",
+      "field_position": {
+        "x": 584,
+        "y": 173,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 559,
+        "y": 193,
+        "width": 84,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Las Vegas, NV 89101",
+      "display_value": "Las Vegas, NV 89101",
+      "field_position": {
+        "x": 562,
+        "y": 213,
+        "width": 123,
+        "height": 12
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$4,533.02",
+      "display_value": "$4,533.02",
+      "field_position": {
+        "x": 743,
+        "y": 283,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Earnings",
+      "extracted_value": "$4,533.02",
+      "display_value": "$4,533.02",
+      "field_position": {
+        "x": 743,
+        "y": 303,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$36,264.16",
+      "display_value": "$36,264.16",
+      "field_position": {
+        "x": 736,
+        "y": 323,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Withholding",
+      "extracted_value": "$466.78",
+      "display_value": "$466.78",
+      "field_position": {
+        "x": 753,
+        "y": 388,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$336.32",
+      "display_value": "$336.32",
+      "field_position": {
+        "x": 753,
+        "y": 408,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$281.05",
+      "display_value": "$281.05",
+      "field_position": {
+        "x": 753,
+        "y": 428,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$65.73",
+      "display_value": "$65.73",
+      "field_position": {
+        "x": 760,
+        "y": 448,
+        "width": 40,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$431.35",
+      "display_value": "$431.35",
+      "field_position": {
+        "x": 753,
+        "y": 468,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,581.23",
+      "display_value": "$1,581.23",
+      "field_position": {
+        "x": 743,
+        "y": 488,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$12,649.84",
+      "display_value": "$12,649.84",
+      "field_position": {
+        "x": 735,
+        "y": 508,
+        "width": 65,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$2,951.79",
+      "display_value": "$2,951.79",
+      "field_position": {
+        "x": 50,
+        "y": 569,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$23,614.32",
+      "display_value": "$23,614.32",
+      "field_position": {
+        "x": 50,
+        "y": 605,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Nancy M. Williams",
+    "employer_name": "Valley Tech Solutions",
+    "employee_id": "815198",
+    "ssn_last4": "***-**-5088",
+    "employee_address": "321 Pine Road",
+    "employee_city_state_zip": "Las Vegas, NV 89101",
+    "employer_address": "666 Enterprise Blvd",
+    "employer_city_state_zip": "Milwaukee, WI 53201",
+    "pay_date": "04/25/2024",
+    "pay_period_start": "04/08/2024",
+    "pay_period_end": "04/21/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "4533.02",
+    "gross_pay_current": "4533.02",
+    "net_pay_current": "2951.79",
+    "gross_pay_ytd": "36264.16",
+    "net_pay_ytd": "23614.32",
+    "total_deductions_current": "1581.23",
+    "federal_tax_withheld": "466.78",
+    "state_tax_withheld": "336.32",
+    "social_security_tax": "281.05",
+    "medicare_tax": "65.73",
+    "total_deductions_ytd": "12649.84",
+    "retirement_401k": "431.35"
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "paystub_id": "ps_0170",
+  "image_file": "ps_0170.png",
+  "layout_template": "modern_clean",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company",
+      "extracted_value": "Silverline Transport LLC",
+      "display_value": "Silverline Transport LLC",
+      "field_position": {
+        "x": 60,
+        "y": 50,
+        "width": 253,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "444 Business Circle",
+      "display_value": "444 Business Circle",
+      "field_position": {
+        "x": 60,
+        "y": 85,
+        "width": 92,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "Dallas, TX 75201",
+      "display_value": "Dallas, TX 75201",
+      "field_position": {
+        "x": 167,
+        "y": 85,
+        "width": 76,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Daniel K. Allen",
+      "display_value": "Daniel K. Allen",
+      "field_position": {
+        "x": 60,
+        "y": 139,
+        "width": 92,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "278243",
+      "display_value": "278243",
+      "field_position": {
+        "x": 260,
+        "y": 139,
+        "width": 43,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN Last 4",
+      "extracted_value": "***-**-3967",
+      "display_value": "***-**-3967",
+      "field_position": {
+        "x": 460,
+        "y": 139,
+        "width": 69,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "741 Ash Street",
+      "display_value": "741 Ash Street",
+      "field_position": {
+        "x": 60,
+        "y": 165,
+        "width": 67,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "San Antonio, TX 78201",
+      "display_value": "San Antonio, TX 78201",
+      "field_position": {
+        "x": 60,
+        "y": 180,
+        "width": 106,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "01/07/2025",
+      "display_value": "01/07/2025",
+      "field_position": {
+        "x": 60,
+        "y": 223,
+        "width": 51,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "12/16/2024",
+      "display_value": "12/16/2024",
+      "field_position": {
+        "x": 245,
+        "y": 223,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "12/31/2024",
+      "display_value": "12/31/2024",
+      "field_position": {
+        "x": 430,
+        "y": 223,
+        "width": 50,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 615,
+        "y": 223,
+        "width": 68,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Salary",
+      "extracted_value": "$4,110.94",
+      "display_value": "$4,110.94",
+      "field_position": {
+        "x": 351,
+        "y": 275,
+        "width": 54,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime",
+      "extracted_value": "$575.80",
+      "display_value": "$575.80",
+      "field_position": {
+        "x": 359,
+        "y": 295,
+        "width": 46,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Cash Bonus",
+      "extracted_value": "$360.74",
+      "display_value": "$360.74",
+      "field_position": {
+        "x": 358,
+        "y": 315,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$5,047.48",
+      "display_value": "$5,047.48",
+      "field_position": {
+        "x": 349,
+        "y": 335,
+        "width": 56,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$121,139.52",
+      "display_value": "$121,139.52",
+      "field_position": {
+        "x": 341,
+        "y": 355,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$719.94",
+      "display_value": "$719.94",
+      "field_position": {
+        "x": 745,
+        "y": 275,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$376.81",
+      "display_value": "$376.81",
+      "field_position": {
+        "x": 746,
+        "y": 295,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$312.94",
+      "display_value": "$312.94",
+      "field_position": {
+        "x": 745,
+        "y": 315,
+        "width": 45,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$73.19",
+      "display_value": "$73.19",
+      "field_position": {
+        "x": 753,
+        "y": 335,
+        "width": 37,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$429.88",
+      "display_value": "$429.88",
+      "field_position": {
+        "x": 743,
+        "y": 355,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health Plan",
+      "extracted_value": "$150.35",
+      "display_value": "$150.35",
+      "field_position": {
+        "x": 746,
+        "y": 375,
+        "width": 44,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$2,063.11",
+      "display_value": "$2,063.11",
+      "field_position": {
+        "x": 738,
+        "y": 395,
+        "width": 52,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Year-to-Date Deductions",
+      "extracted_value": "$49,514.64",
+      "display_value": "$49,514.64",
+      "field_position": {
+        "x": 727,
+        "y": 415,
+        "width": 63,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Amount",
+      "extracted_value": "$2,984.37",
+      "display_value": "$2,984.37",
+      "field_position": {
+        "x": 60,
+        "y": 480,
+        "width": 95,
+        "height": 23
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net",
+      "extracted_value": "$71,624.88",
+      "display_value": "$71,624.88",
+      "field_position": {
+        "x": 360,
+        "y": 480,
+        "width": 104,
+        "height": 23
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Daniel K. Allen",
+    "employer_name": "Silverline Transport LLC",
+    "employee_id": "278243",
+    "ssn_last4": "***-**-3967",
+    "employee_address": "741 Ash Street",
+    "employee_city_state_zip": "San Antonio, TX 78201",
+    "employer_address": "444 Business Circle",
+    "employer_city_state_zip": "Dallas, TX 75201",
+    "pay_date": "01/07/2025",
+    "pay_period_start": "12/16/2024",
+    "pay_period_end": "12/31/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "4110.94",
+    "gross_pay_current": "5047.48",
+    "net_pay_current": "2984.37",
+    "gross_pay_ytd": "121139.52",
+    "net_pay_ytd": "71624.88",
+    "total_deductions_current": "2063.11",
+    "federal_tax_withheld": "719.94",
+    "state_tax_withheld": "376.81",
+    "social_security_tax": "312.94",
+    "medicare_tax": "73.19",
+    "total_deductions_ytd": "49514.64",
+    "overtime_pay_current": "575.80",
+    "bonus_current": "360.74",
+    "retirement_401k": "429.88",
+    "health_insurance": "150.35"
+  }
+}

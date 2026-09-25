@@ -1,0 +1,361 @@
+{
+  "paystub_id": "ps_0074",
+  "image_file": "ps_0074.png",
+  "layout_template": "wide_format",
+  "noise_profile": "clean",
+  "font": "Roboto-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Company Name",
+      "extracted_value": "Quantum Data Systems",
+      "display_value": "Quantum Data Systems",
+      "field_position": {
+        "x": 40,
+        "y": 30,
+        "width": 231,
+        "height": 20
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Employer Addr",
+      "extracted_value": "456 Oak Avenue",
+      "display_value": "456 Oak Avenue",
+      "field_position": {
+        "x": 400,
+        "y": 30,
+        "width": 72,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 400,
+        "y": 44,
+        "width": 89,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Dorothy T. Wright",
+      "display_value": "Dorothy T. Wright",
+      "field_position": {
+        "x": 40,
+        "y": 84,
+        "width": 99,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "EE ID",
+      "extracted_value": "632280",
+      "display_value": "632280",
+      "field_position": {
+        "x": 260,
+        "y": 84,
+        "width": 44,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "Last 4 SSN",
+      "extracted_value": "***-**-1333",
+      "display_value": "***-**-1333",
+      "field_position": {
+        "x": 440,
+        "y": 84,
+        "width": 64,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "05/18/2024",
+      "display_value": "05/18/2024",
+      "field_position": {
+        "x": 590,
+        "y": 84,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street Address",
+      "extracted_value": "111 Industrial Parkway",
+      "display_value": "111 Industrial Parkway",
+      "field_position": {
+        "x": 40,
+        "y": 116,
+        "width": 132,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 260,
+        "y": 116,
+        "width": 94,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "05/01/2024",
+      "display_value": "05/01/2024",
+      "field_position": {
+        "x": 490,
+        "y": 116,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period End",
+      "extracted_value": "05/15/2024",
+      "display_value": "05/15/2024",
+      "field_position": {
+        "x": 640,
+        "y": 116,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Cycle",
+      "extracted_value": "Semi-Monthly",
+      "display_value": "Semi-Monthly",
+      "field_position": {
+        "x": 40,
+        "y": 148,
+        "width": 79,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Base Pay",
+      "extracted_value": "$2,589.10",
+      "display_value": "$2,589.10",
+      "field_position": {
+        "x": 533,
+        "y": 200,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Overtime Pay",
+      "extracted_value": "$268.79",
+      "display_value": "$268.79",
+      "field_position": {
+        "x": 543,
+        "y": 220,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Earnings",
+      "extracted_value": "$2,857.89",
+      "display_value": "$2,857.89",
+      "field_position": {
+        "x": 533,
+        "y": 245,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Gross",
+      "extracted_value": "$25,721.01",
+      "display_value": "$25,721.01",
+      "field_position": {
+        "x": 726,
+        "y": 245,
+        "width": 64,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Income Tax",
+      "extracted_value": "$321.34",
+      "display_value": "$321.34",
+      "field_position": {
+        "x": 542,
+        "y": 310,
+        "width": 48,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$185.52",
+      "display_value": "$185.52",
+      "field_position": {
+        "x": 543,
+        "y": 330,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$177.19",
+      "display_value": "$177.19",
+      "field_position": {
+        "x": 543,
+        "y": 350,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Med Tax",
+      "extracted_value": "$41.44",
+      "display_value": "$41.44",
+      "field_position": {
+        "x": 549,
+        "y": 370,
+        "width": 41,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$175.12",
+      "display_value": "$175.12",
+      "field_position": {
+        "x": 543,
+        "y": 390,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Withholdings",
+      "extracted_value": "$900.61",
+      "display_value": "$900.61",
+      "field_position": {
+        "x": 543,
+        "y": 415,
+        "width": 47,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD W/H",
+      "extracted_value": "$8,105.49",
+      "display_value": "$8,105.49",
+      "field_position": {
+        "x": 733,
+        "y": 415,
+        "width": 57,
+        "height": 13
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,957.28",
+      "display_value": "$1,957.28",
+      "field_position": {
+        "x": 493,
+        "y": 459,
+        "width": 97,
+        "height": 22
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$17,615.52",
+      "display_value": "$17,615.52",
+      "field_position": {
+        "x": 681,
+        "y": 459,
+        "width": 109,
+        "height": 22
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Dorothy T. Wright",
+    "employer_name": "Quantum Data Systems",
+    "employee_id": "632280",
+    "ssn_last4": "***-**-1333",
+    "employee_address": "111 Industrial Parkway",
+    "employee_city_state_zip": "Mesa, AZ 85201",
+    "employer_address": "456 Oak Avenue",
+    "employer_city_state_zip": "Louisville, KY 40201",
+    "pay_date": "05/18/2024",
+    "pay_period_start": "05/01/2024",
+    "pay_period_end": "05/15/2024",
+    "pay_frequency": "Semi-Monthly",
+    "regular_pay_current": "2589.10",
+    "gross_pay_current": "2857.89",
+    "net_pay_current": "1957.28",
+    "gross_pay_ytd": "25721.01",
+    "net_pay_ytd": "17615.52",
+    "total_deductions_current": "900.61",
+    "federal_tax_withheld": "321.34",
+    "state_tax_withheld": "185.52",
+    "social_security_tax": "177.19",
+    "medicare_tax": "41.44",
+    "total_deductions_ytd": "8105.49",
+    "overtime_pay_current": "268.79",
+    "health_insurance": "175.12"
+  }
+}

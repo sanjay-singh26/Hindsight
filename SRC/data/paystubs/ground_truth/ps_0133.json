@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0133",
+  "image_file": "ps_0133.png",
+  "layout_template": "minimal",
+  "noise_profile": "faded",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Organization",
+      "extracted_value": "Diamond Foods Corporation",
+      "display_value": "Diamond Foods Corporation",
+      "field_position": {
+        "x": 70,
+        "y": 50,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Associate Name",
+      "extracted_value": "Kenneth H. Martin",
+      "display_value": "Kenneth H. Martin",
+      "field_position": {
+        "x": 647,
+        "y": 85,
+        "width": 133,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "787326",
+      "display_value": "787326",
+      "field_position": {
+        "x": 70,
+        "y": 85,
+        "width": 36,
+        "height": 6
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SS#",
+      "extracted_value": "***-**-2494",
+      "display_value": "***-**-2494",
+      "field_position": {
+        "x": 136,
+        "y": 85,
+        "width": 66,
+        "height": 6
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "147 Birch Court",
+      "display_value": "147 Birch Court",
+      "field_position": {
+        "x": 70,
+        "y": 110,
+        "width": 90,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Corp City/State/Zip",
+      "extracted_value": "Mesa, AZ 85201",
+      "display_value": "Mesa, AZ 85201",
+      "field_position": {
+        "x": 70,
+        "y": 123,
+        "width": 84,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 425,
+        "y": 110,
+        "width": 78,
+        "height": 7
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Location",
+      "extracted_value": "Los Angeles, CA 90001",
+      "display_value": "Los Angeles, CA 90001",
+      "field_position": {
+        "x": 425,
+        "y": 123,
+        "width": 126,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "03/10/2024",
+      "display_value": "03/10/2024",
+      "field_position": {
+        "x": 70,
+        "y": 151,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Beginning",
+      "extracted_value": "02/26/2024",
+      "display_value": "02/26/2024",
+      "field_position": {
+        "x": 170,
+        "y": 151,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "03/03/2024",
+      "display_value": "03/03/2024",
+      "field_position": {
+        "x": 270,
+        "y": 151,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 370,
+        "y": 151,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$968.41",
+      "display_value": "$968.41",
+      "field_position": {
+        "x": 150,
+        "y": 196,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "bonus_current",
+      "concept_family": "compensation",
+      "surface_label": "Bonus",
+      "extracted_value": "$1,452.07",
+      "display_value": "$1,452.07",
+      "field_position": {
+        "x": 150,
+        "y": 218,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "FIT",
+      "extracted_value": "$479.38",
+      "display_value": "$479.38",
+      "field_position": {
+        "x": 320,
+        "y": 196,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "St Tax",
+      "extracted_value": "$216.12",
+      "display_value": "$216.12",
+      "field_position": {
+        "x": 320,
+        "y": 218,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$150.07",
+      "display_value": "$150.07",
+      "field_position": {
+        "x": 320,
+        "y": 240,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA-Med",
+      "extracted_value": "$35.10",
+      "display_value": "$35.10",
+      "field_position": {
+        "x": 320,
+        "y": 262,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$95.01",
+      "display_value": "$95.01",
+      "field_position": {
+        "x": 570,
+        "y": 196,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$183.43",
+      "display_value": "$183.43",
+      "field_position": {
+        "x": 570,
+        "y": 218,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Gross Pay",
+      "extracted_value": "$2,420.48",
+      "display_value": "$2,420.48",
+      "field_position": {
+        "x": 70,
+        "y": 333,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Deductions Total",
+      "extracted_value": "$1,159.11",
+      "display_value": "$1,159.11",
+      "field_position": {
+        "x": 320,
+        "y": 333,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$1,261.37",
+      "display_value": "$1,261.37",
+      "field_position": {
+        "x": 570,
+        "y": 333,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Earnings",
+      "extracted_value": "$21,784.32",
+      "display_value": "$21,784.32",
+      "field_position": {
+        "x": 70,
+        "y": 378,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "YTD Deductions",
+      "extracted_value": "$10,431.99",
+      "display_value": "$10,431.99",
+      "field_position": {
+        "x": 320,
+        "y": 378,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Net Pay",
+      "extracted_value": "$11,352.33",
+      "display_value": "$11,352.33",
+      "field_position": {
+        "x": 570,
+        "y": 378,
+        "width": 78,
+        "height": 10
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Kenneth H. Martin",
+    "employer_name": "Diamond Foods Corporation",
+    "employee_id": "787326",
+    "ssn_last4": "***-**-2494",
+    "employee_address": "321 Pine Road",
+    "employee_city_state_zip": "Los Angeles, CA 90001",
+    "employer_address": "147 Birch Court",
+    "employer_city_state_zip": "Mesa, AZ 85201",
+    "pay_date": "03/10/2024",
+    "pay_period_start": "02/26/2024",
+    "pay_period_end": "03/03/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "968.41",
+    "gross_pay_current": "2420.48",
+    "net_pay_current": "1261.37",
+    "gross_pay_ytd": "21784.32",
+    "net_pay_ytd": "11352.33",
+    "total_deductions_current": "1159.11",
+    "federal_tax_withheld": "479.38",
+    "state_tax_withheld": "216.12",
+    "social_security_tax": "150.07",
+    "medicare_tax": "35.10",
+    "total_deductions_ytd": "10431.99",
+    "bonus_current": "1452.07",
+    "retirement_401k": "95.01",
+    "health_insurance": "183.43"
+  }
+}

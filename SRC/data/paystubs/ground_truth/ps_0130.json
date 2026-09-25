@@ -1,0 +1,347 @@
+{
+  "paystub_id": "ps_0130",
+  "image_file": "ps_0130.png",
+  "layout_template": "reversed_sections",
+  "noise_profile": "heavy_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Frontier Telecommunications",
+      "display_value": "Frontier Telecommunications",
+      "field_position": {
+        "x": 50,
+        "y": 35,
+        "width": 356,
+        "height": 15
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Corp Address",
+      "extracted_value": "333 Technology Drive",
+      "display_value": "333 Technology Drive",
+      "field_position": {
+        "x": 50,
+        "y": 65,
+        "width": 120,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Company City/State/Zip",
+      "extracted_value": "Phoenix, AZ 85001",
+      "display_value": "Phoenix, AZ 85001",
+      "field_position": {
+        "x": 50,
+        "y": 79,
+        "width": 102,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Charles N. Thomas",
+      "display_value": "Charles N. Thomas",
+      "field_position": {
+        "x": 122,
+        "y": 113,
+        "width": 133,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Badge #",
+      "extracted_value": "249077",
+      "display_value": "249077",
+      "field_position": {
+        "x": 115,
+        "y": 133,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN (Last 4)",
+      "extracted_value": "***-**-5402",
+      "display_value": "***-**-5402",
+      "field_position": {
+        "x": 154,
+        "y": 153,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Address",
+      "extracted_value": "222 Commerce Blvd",
+      "display_value": "222 Commerce Blvd",
+      "field_position": {
+        "x": 115,
+        "y": 173,
+        "width": 133,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 83,
+        "y": 193,
+        "width": 156,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Date Paid",
+      "extracted_value": "07/07/2024",
+      "display_value": "07/07/2024",
+      "field_position": {
+        "x": 116,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "06/24/2024",
+      "display_value": "06/24/2024",
+      "field_position": {
+        "x": 334,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "End Date",
+      "extracted_value": "06/30/2024",
+      "display_value": "06/30/2024",
+      "field_position": {
+        "x": 510,
+        "y": 218,
+        "width": 60,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Weekly",
+      "display_value": "Weekly",
+      "field_position": {
+        "x": 728,
+        "y": 218,
+        "width": 37,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Fed Tax",
+      "extracted_value": "$289.75",
+      "display_value": "$289.75",
+      "field_position": {
+        "x": 745,
+        "y": 278,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State Income Tax",
+      "extracted_value": "$111.13",
+      "display_value": "$111.13",
+      "field_position": {
+        "x": 745,
+        "y": 298,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "Social Security",
+      "extracted_value": "$116.23",
+      "display_value": "$116.23",
+      "field_position": {
+        "x": 745,
+        "y": 318,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare",
+      "extracted_value": "$27.18",
+      "display_value": "$27.18",
+      "field_position": {
+        "x": 753,
+        "y": 338,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401k",
+      "extracted_value": "$170.26",
+      "display_value": "$170.26",
+      "field_position": {
+        "x": 745,
+        "y": 358,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$714.55",
+      "display_value": "$714.55",
+      "field_position": {
+        "x": 745,
+        "y": 378,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Deductions YTD",
+      "extracted_value": "$18,578.30",
+      "display_value": "$18,578.30",
+      "field_position": {
+        "x": 722,
+        "y": 398,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$1,874.66",
+      "display_value": "$1,874.66",
+      "field_position": {
+        "x": 730,
+        "y": 463,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$1,874.66",
+      "display_value": "$1,874.66",
+      "field_position": {
+        "x": 730,
+        "y": 483,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "YTD Gross",
+      "extracted_value": "$48,741.16",
+      "display_value": "$48,741.16",
+      "field_position": {
+        "x": 722,
+        "y": 503,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Earnings",
+      "extracted_value": "$1,160.11",
+      "display_value": "$1,160.11",
+      "field_position": {
+        "x": 50,
+        "y": 564,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Net YTD",
+      "extracted_value": "$30,162.86",
+      "display_value": "$30,162.86",
+      "field_position": {
+        "x": 50,
+        "y": 600,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Charles N. Thomas",
+    "employer_name": "Frontier Telecommunications",
+    "employee_id": "249077",
+    "ssn_last4": "***-**-5402",
+    "employee_address": "222 Commerce Blvd",
+    "employee_city_state_zip": "Louisville, KY 40201",
+    "employer_address": "333 Technology Drive",
+    "employer_city_state_zip": "Phoenix, AZ 85001",
+    "pay_date": "07/07/2024",
+    "pay_period_start": "06/24/2024",
+    "pay_period_end": "06/30/2024",
+    "pay_frequency": "Weekly",
+    "regular_pay_current": "1874.66",
+    "gross_pay_current": "1874.66",
+    "net_pay_current": "1160.11",
+    "gross_pay_ytd": "48741.16",
+    "net_pay_ytd": "30162.86",
+    "total_deductions_current": "714.55",
+    "federal_tax_withheld": "289.75",
+    "state_tax_withheld": "111.13",
+    "social_security_tax": "116.23",
+    "medicare_tax": "27.18",
+    "total_deductions_ytd": "18578.30",
+    "retirement_401k": "170.26"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0069",
+  "image_file": "ps_0069.png",
+  "layout_template": "retail",
+  "noise_profile": "light_scan",
+  "font": "CourierPrime-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer Name",
+      "extracted_value": "Trident Security Services",
+      "display_value": "Trident Security Services",
+      "field_position": {
+        "x": 260,
+        "y": 40,
+        "width": 330,
+        "height": 19
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Company Address",
+      "extracted_value": "654 Maple Drive",
+      "display_value": "654 Maple Drive",
+      "field_position": {
+        "x": 380,
+        "y": 75,
+        "width": 90,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Business Location",
+      "extracted_value": "Austin, TX 73301",
+      "display_value": "Austin, TX 73301",
+      "field_position": {
+        "x": 377,
+        "y": 89,
+        "width": 96,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Robert L. Nelson",
+      "display_value": "Robert L. Nelson",
+      "field_position": {
+        "x": 90,
+        "y": 139,
+        "width": 125,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Employee ID",
+      "extracted_value": "903531",
+      "display_value": "903531",
+      "field_position": {
+        "x": 90,
+        "y": 173,
+        "width": 47,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-3147",
+      "display_value": "***-**-3147",
+      "field_position": {
+        "x": 90,
+        "y": 207,
+        "width": 86,
+        "height": 8
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Mailing Address",
+      "extracted_value": "888 Harbor Drive",
+      "display_value": "888 Harbor Drive",
+      "field_position": {
+        "x": 90,
+        "y": 241,
+        "width": 125,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "CSZ",
+      "extracted_value": "Louisville, KY 40201",
+      "display_value": "Louisville, KY 40201",
+      "field_position": {
+        "x": 90,
+        "y": 275,
+        "width": 156,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Issue Date",
+      "extracted_value": "11/24/2024",
+      "display_value": "11/24/2024",
+      "field_position": {
+        "x": 90,
+        "y": 319,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Start Date",
+      "extracted_value": "11/04/2024",
+      "display_value": "11/04/2024",
+      "field_position": {
+        "x": 90,
+        "y": 353,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Period Ending",
+      "extracted_value": "11/17/2024",
+      "display_value": "11/17/2024",
+      "field_position": {
+        "x": 90,
+        "y": 387,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Period Type",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 90,
+        "y": 421,
+        "width": 70,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Pay",
+      "extracted_value": "$3,954.38",
+      "display_value": "$3,954.38",
+      "field_position": {
+        "x": 720,
+        "y": 471,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Pay",
+      "extracted_value": "$406.37",
+      "display_value": "$406.37",
+      "field_position": {
+        "x": 735,
+        "y": 493,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Earnings",
+      "extracted_value": "$4,360.75",
+      "display_value": "$4,360.75",
+      "field_position": {
+        "x": 720,
+        "y": 515,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Gross YTD",
+      "extracted_value": "$100,297.25",
+      "display_value": "$100,297.25",
+      "field_position": {
+        "x": 704,
+        "y": 537,
+        "width": 86,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal W/H",
+      "extracted_value": "$790.01",
+      "display_value": "$790.01",
+      "field_position": {
+        "x": 735,
+        "y": 591,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "SIT",
+      "extracted_value": "$192.97",
+      "display_value": "$192.97",
+      "field_position": {
+        "x": 735,
+        "y": 613,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Social Security",
+      "extracted_value": "$270.37",
+      "display_value": "$270.37",
+      "field_position": {
+        "x": 735,
+        "y": 635,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "Medicare W/H",
+      "extracted_value": "$63.23",
+      "display_value": "$63.23",
+      "field_position": {
+        "x": 743,
+        "y": 657,
+        "width": 47,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k) Contrib",
+      "extracted_value": "$217.80",
+      "display_value": "$217.80",
+      "field_position": {
+        "x": 735,
+        "y": 679,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Health",
+      "extracted_value": "$201.21",
+      "display_value": "$201.21",
+      "field_position": {
+        "x": 735,
+        "y": 701,
+        "width": 55,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$1,735.59",
+      "display_value": "$1,735.59",
+      "field_position": {
+        "x": 720,
+        "y": 723,
+        "width": 70,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$39,918.57",
+      "display_value": "$39,918.57",
+      "field_position": {
+        "x": 712,
+        "y": 745,
+        "width": 78,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Amount Due",
+      "extracted_value": "$2,625.16",
+      "display_value": "$2,625.16",
+      "field_position": {
+        "x": 671,
+        "y": 782,
+        "width": 119,
+        "height": 17
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Net",
+      "extracted_value": "$60,378.68",
+      "display_value": "$60,378.68",
+      "field_position": {
+        "x": 658,
+        "y": 812,
+        "width": 132,
+        "height": 17
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Robert L. Nelson",
+    "employer_name": "Trident Security Services",
+    "employee_id": "903531",
+    "ssn_last4": "***-**-3147",
+    "employee_address": "888 Harbor Drive",
+    "employee_city_state_zip": "Louisville, KY 40201",
+    "employer_address": "654 Maple Drive",
+    "employer_city_state_zip": "Austin, TX 73301",
+    "pay_date": "11/24/2024",
+    "pay_period_start": "11/04/2024",
+    "pay_period_end": "11/17/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "3954.38",
+    "gross_pay_current": "4360.75",
+    "net_pay_current": "2625.16",
+    "gross_pay_ytd": "100297.25",
+    "net_pay_ytd": "60378.68",
+    "total_deductions_current": "1735.59",
+    "federal_tax_withheld": "790.01",
+    "state_tax_withheld": "192.97",
+    "social_security_tax": "270.37",
+    "medicare_tax": "63.23",
+    "total_deductions_ytd": "39918.57",
+    "overtime_pay_current": "406.37",
+    "retirement_401k": "217.80",
+    "health_insurance": "201.21"
+  }
+}

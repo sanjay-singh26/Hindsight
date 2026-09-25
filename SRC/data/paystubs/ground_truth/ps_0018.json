@@ -1,0 +1,375 @@
+{
+  "paystub_id": "ps_0018",
+  "image_file": "ps_0018.png",
+  "layout_template": "compact",
+  "noise_profile": "clean",
+  "font": "RobotoSlab-Regular.ttf",
+  "fields": [
+    {
+      "canonical_concept_id": "employer_name",
+      "concept_family": "identity",
+      "surface_label": "Employer",
+      "extracted_value": "Continental Freight Lines",
+      "display_value": "Continental Freight Lines",
+      "field_position": {
+        "x": 90,
+        "y": 25,
+        "width": 120,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_name",
+      "concept_family": "identity",
+      "surface_label": "Employee",
+      "extracted_value": "Sarah T. Thompson",
+      "display_value": "Sarah T. Thompson",
+      "field_position": {
+        "x": 91,
+        "y": 39,
+        "width": 92,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "employee_id",
+      "concept_family": "identity",
+      "surface_label": "Emp ID",
+      "extracted_value": "812526",
+      "display_value": "812526",
+      "field_position": {
+        "x": 79,
+        "y": 53,
+        "width": 32,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "ssn_last4",
+      "concept_family": "identity",
+      "surface_label": "SSN",
+      "extracted_value": "***-**-9785",
+      "display_value": "***-**-9785",
+      "field_position": {
+        "x": 64,
+        "y": 67,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_address",
+      "concept_family": "address",
+      "surface_label": "Office Address",
+      "extracted_value": "321 Pine Road",
+      "display_value": "321 Pine Road",
+      "field_position": {
+        "x": 40,
+        "y": 81,
+        "width": 65,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employer_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "Office Location",
+      "extracted_value": "San Francisco, CA 94101",
+      "display_value": "San Francisco, CA 94101",
+      "field_position": {
+        "x": 40,
+        "y": 93,
+        "width": 113,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "employee_address",
+      "concept_family": "address",
+      "surface_label": "Street",
+      "extracted_value": "852 Willow Place",
+      "display_value": "852 Willow Place",
+      "field_position": {
+        "x": 40,
+        "y": 105,
+        "width": 81,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "employee_city_state_zip",
+      "concept_family": "address",
+      "surface_label": "City, State ZIP",
+      "extracted_value": "New York, NY 10001",
+      "display_value": "New York, NY 10001",
+      "field_position": {
+        "x": 40,
+        "y": 117,
+        "width": 94,
+        "height": 10
+      }
+    },
+    {
+      "canonical_concept_id": "pay_date",
+      "concept_family": "temporal",
+      "surface_label": "Payment Date",
+      "extracted_value": "09/27/2024",
+      "display_value": "09/27/2024",
+      "field_position": {
+        "x": 110,
+        "y": 137,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_start",
+      "concept_family": "temporal",
+      "surface_label": "Period Start",
+      "extracted_value": "09/09/2024",
+      "display_value": "09/09/2024",
+      "field_position": {
+        "x": 100,
+        "y": 151,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_period_end",
+      "concept_family": "temporal",
+      "surface_label": "Pay Period End",
+      "extracted_value": "09/22/2024",
+      "display_value": "09/22/2024",
+      "field_position": {
+        "x": 116,
+        "y": 165,
+        "width": 53,
+        "height": 9
+      }
+    },
+    {
+      "canonical_concept_id": "pay_frequency",
+      "concept_family": "temporal",
+      "surface_label": "Pay Schedule",
+      "extracted_value": "Bi-Weekly",
+      "display_value": "Bi-Weekly",
+      "field_position": {
+        "x": 108,
+        "y": 179,
+        "width": 49,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "regular_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Regular Hours Pay",
+      "extracted_value": "$1,286.27",
+      "display_value": "$1,286.27",
+      "field_position": {
+        "x": 768,
+        "y": 215,
+        "width": 42,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "overtime_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "OT Earnings",
+      "extracted_value": "$341.98",
+      "display_value": "$341.98",
+      "field_position": {
+        "x": 775,
+        "y": 235,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Total Gross",
+      "extracted_value": "$1,628.25",
+      "display_value": "$1,628.25",
+      "field_position": {
+        "x": 769,
+        "y": 255,
+        "width": 41,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "gross_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Year-to-Date Gross",
+      "extracted_value": "$30,936.75",
+      "display_value": "$30,936.75",
+      "field_position": {
+        "x": 762,
+        "y": 275,
+        "width": 48,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "federal_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "Federal Tax",
+      "extracted_value": "$248.09",
+      "display_value": "$248.09",
+      "field_position": {
+        "x": 774,
+        "y": 317,
+        "width": 36,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "state_tax_withheld",
+      "concept_family": "deductions",
+      "surface_label": "State W/H",
+      "extracted_value": "$145.00",
+      "display_value": "$145.00",
+      "field_position": {
+        "x": 775,
+        "y": 337,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "social_security_tax",
+      "concept_family": "deductions",
+      "surface_label": "OASDI",
+      "extracted_value": "$100.95",
+      "display_value": "$100.95",
+      "field_position": {
+        "x": 776,
+        "y": 357,
+        "width": 34,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "medicare_tax",
+      "concept_family": "deductions",
+      "surface_label": "FICA Medicare",
+      "extracted_value": "$23.61",
+      "display_value": "$23.61",
+      "field_position": {
+        "x": 782,
+        "y": 377,
+        "width": 28,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "retirement_401k",
+      "concept_family": "deductions",
+      "surface_label": "401(k)",
+      "extracted_value": "$151.37",
+      "display_value": "$151.37",
+      "field_position": {
+        "x": 777,
+        "y": 397,
+        "width": 33,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "health_insurance",
+      "concept_family": "deductions",
+      "surface_label": "Medical Insurance",
+      "extracted_value": "$91.98",
+      "display_value": "$91.98",
+      "field_position": {
+        "x": 781,
+        "y": 417,
+        "width": 29,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_current",
+      "concept_family": "compensation",
+      "surface_label": "Period Deductions",
+      "extracted_value": "$761.00",
+      "display_value": "$761.00",
+      "field_position": {
+        "x": 775,
+        "y": 437,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "total_deductions_ytd",
+      "concept_family": "deductions",
+      "surface_label": "Total Deductions YTD",
+      "extracted_value": "$14,459.00",
+      "display_value": "$14,459.00",
+      "field_position": {
+        "x": 762,
+        "y": 457,
+        "width": 48,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_current",
+      "concept_family": "compensation",
+      "surface_label": "Net Pay",
+      "extracted_value": "$867.25",
+      "display_value": "$867.25",
+      "field_position": {
+        "x": 81,
+        "y": 485,
+        "width": 35,
+        "height": 11
+      }
+    },
+    {
+      "canonical_concept_id": "net_pay_ytd",
+      "concept_family": "compensation",
+      "surface_label": "Total YTD Net",
+      "extracted_value": "$16,477.75",
+      "display_value": "$16,477.75",
+      "field_position": {
+        "x": 111,
+        "y": 499,
+        "width": 47,
+        "height": 11
+      }
+    }
+  ],
+  "ground_truth": {
+    "employee_name": "Sarah T. Thompson",
+    "employer_name": "Continental Freight Lines",
+    "employee_id": "812526",
+    "ssn_last4": "***-**-9785",
+    "employee_address": "852 Willow Place",
+    "employee_city_state_zip": "New York, NY 10001",
+    "employer_address": "321 Pine Road",
+    "employer_city_state_zip": "San Francisco, CA 94101",
+    "pay_date": "09/27/2024",
+    "pay_period_start": "09/09/2024",
+    "pay_period_end": "09/22/2024",
+    "pay_frequency": "Bi-Weekly",
+    "regular_pay_current": "1286.27",
+    "gross_pay_current": "1628.25",
+    "net_pay_current": "867.25",
+    "gross_pay_ytd": "30936.75",
+    "net_pay_ytd": "16477.75",
+    "total_deductions_current": "761.00",
+    "federal_tax_withheld": "248.09",
+    "state_tax_withheld": "145.00",
+    "social_security_tax": "100.95",
+    "medicare_tax": "23.61",
+    "total_deductions_ytd": "14459.00",
+    "overtime_pay_current": "341.98",
+    "retirement_401k": "151.37",
+    "health_insurance": "91.98"
+  }
+}
